@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glyph_image_inlay_4e5f8828",
+  "skill_name": "Glyph Image Inlay",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 182,
+    "type": "youtube",
+    "video_id": "tIQmvMOnEug",
+    "video_title": "\u5982\u4f55\u505a\u70b8\u573a\u7684PPT\u5c01\u9762\uff1f\u8fd95\u79cd\u4e07\u80fd\u8bbe\u8ba1\u516c\u5f0f\u5feb\u6536\u4e0b\uff01\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011#ppt\u5c01\u9762",
+    "video_url": "https://www.youtube.com/watch?v=tIQmvMOnEug",
+    "views": 2268
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:32:21Z",
+  "wash_version": "1.0.0"
+}

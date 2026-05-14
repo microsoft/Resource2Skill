@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for architectural visualization pools, fountains, and stylized environments. It provides a dynamic, deep-looking fluid effect without the overhead of complex fluid simulations.",
+  "category_path": [
+    "material_shader",
+    "procedural",
+    "water"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_volumetric_water_25e9691d",
+  "skill_name": "Procedural Volumetric Water",
+  "source": {
+    "channel": "Poly Playground",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "HQNOHjfDwOw",
+    "video_title": "Probably* The BEST Water Material in Blender",
+    "video_url": "https://www.youtube.com/watch?v=HQNOHjfDwOw",
+    "views": 77480
+  },
+  "tags": [
+    "water",
+    "volumetric",
+    "procedural",
+    "refraction",
+    "animated_texture"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:56Z",
+  "wash_version": "1.0.0"
+}

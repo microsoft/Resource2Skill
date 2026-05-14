@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for architectural visualization, ancient ruins, or flooded scenes requiring physically accurate, volumetric water with realistic depth and light interaction, especially when the ground beneath is visible.",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "volumetric_ancient_ruins_water_54156dfa",
+  "skill_name": "Volumetric Ancient Ruins Water",
+  "source": {
+    "channel": "ChuckCG",
+    "duration_sec": 330,
+    "type": "youtube",
+    "video_id": "0SJ-__0gK_k",
+    "video_title": "How To Create Realistic Water in Blender",
+    "video_url": "https://www.youtube.com/watch?v=0SJ-__0gK_k",
+    "views": 454934
+  },
+  "tags": [
+    "volumetric water",
+    "ancient ruins",
+    "cycles",
+    "physically accurate",
+    "material shader",
+    "refraction"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:45:37Z",
+  "wash_version": "1.0.0"
+}

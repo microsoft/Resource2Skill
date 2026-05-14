@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rotational_fan_out_morphing_30b070c6",
+  "skill_name": "Rotational Fan-Out Morphing",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 114,
+    "type": "youtube",
+    "video_id": "hj1GAgNrHCM",
+    "video_title": "PPT\u521b\u610f\u8bbe\u8ba1\uff1a\u52a8\u6001\u65cb\u8f6c\u521b\u610f\u76ee\u5f55\u9875\u5236\u4f5c",
+    "video_url": "https://www.youtube.com/watch?v=hj1GAgNrHCM",
+    "views": 676
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:42:08Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Instantly generates advanced jazz and gospel chord voicings suitable for R&B, Lofi, or Neo-Soul tracks. It features humanized timing and an electric piano FX chain to emulate a live keyboardist.",
+  "category_path": [
+    "composition",
+    "chords",
+    "progressions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_gospel_extended_chord_generator_88dbefc5",
+  "skill_name": "Neo-Soul / Gospel Extended Chord Generator",
+  "source": {
+    "channel": "PULSE Music ",
+    "duration_sec": 357,
+    "type": "youtube",
+    "video_id": "XTmGxu6JIHg",
+    "video_title": "Exploring RipChord: FREE VST Plugin for Creating Chord Progressions",
+    "video_url": "https://www.youtube.com/watch?v=XTmGxu6JIHg",
+    "views": 30945
+  },
+  "tags": [
+    "neo-soul",
+    "gospel",
+    "chords",
+    "progression",
+    "electric-piano",
+    "rnb"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:00Z",
+  "wash_version": "1.0.0"
+}

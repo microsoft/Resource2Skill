@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_grid_sidebar_bi_dashboard_f20515f7",
+  "skill_name": "Modern Grid & Sidebar BI Dashboard",
+  "source": {
+    "channel": "Chandoo",
+    "duration_sec": 1790,
+    "type": "youtube",
+    "video_id": "l5qkg8gzY6E",
+    "video_title": "The Ultimate Excel Dashboard: Visualize Data Like a Pro",
+    "video_url": "https://www.youtube.com/watch?v=l5qkg8gzY6E",
+    "views": 111399
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:45Z",
+  "wash_version": "1.0.0"
+}

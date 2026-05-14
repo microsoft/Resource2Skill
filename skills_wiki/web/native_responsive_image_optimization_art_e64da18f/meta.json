@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "responsive"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_responsive_image_optimization_art_e64da18f",
+  "skill_name": "Native Responsive Image Optimization & Art Direction",
+  "source": {
+    "channel": "Simple HTML Studio",
+    "duration_sec": 247,
+    "type": "youtube",
+    "video_id": "o6O9rsxhMJE",
+    "video_title": "How To Make Responsive Images With Srcset In HTML? - Simple HTML Studio",
+    "video_url": "https://www.youtube.com/watch?v=o6O9rsxhMJE",
+    "views": 9
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:18:44Z",
+  "wash_version": "1.0.0"
+}

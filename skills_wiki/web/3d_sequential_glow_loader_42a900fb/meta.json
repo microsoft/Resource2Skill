@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_sequential_glow_loader_42a900fb",
+  "skill_name": "3D Sequential Glow Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:49Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 49,
+          "description": "Blue square animating with rotation, scaling, and border-radius change"
+        },
+        {
+          "seconds": 259,
+          "description": "Element grows first, then rotates, demonstrating sequential animation steps"
+        },
+        {
+          "seconds": 452,
+          "description": "Animation playing infinitely, showcasing the 'infinite' iteration count"
+        },
+        {
+          "seconds": 651,
+          "description": "Interactive animation with play and pause buttons using JavaScript"
+        },
+        {
+          "seconds": 827,
+          "description": "Final 3D loading animation rotating on three axes"
+        }
+      ],
+      "frames": [
+        "frame_00_blue_square_animating_with_rot.jpg",
+        "frame_01_element_grows_first_then_rotat.jpg",
+        "frame_02_animation_playing_infinitely_s.jpg"
+      ],
+      "recapped_at": 1777408083.2429583
+    },
+    "primary_path": "frame_00_blue_square_animating_with_rot.jpg"
+  }
+}

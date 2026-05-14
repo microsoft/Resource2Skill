@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "generative_16th_note_rolling_bassline_b7d2b2f8",
+  "skill_name": "Generative 16th-Note Rolling Bassline",
+  "source": {
+    "channel": "Krinstar",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=RuzpiVPB5L8"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:42:43Z",
+  "wash_version": "1.0.0"
+}

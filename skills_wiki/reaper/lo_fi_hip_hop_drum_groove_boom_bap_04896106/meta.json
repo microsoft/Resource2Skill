@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lo_fi_hip_hop_drum_groove_boom_bap_04896106",
+  "skill_name": "Lo-Fi Hip Hop Drum Groove (Boom Bap)",
+  "source": {
+    "channel": "nanee ",
+    "duration_sec": 81,
+    "type": "youtube",
+    "video_id": "hEKdtLwQtBY",
+    "video_title": "How to write a Lofi drum pattern in Reaper",
+    "video_url": "https://www.youtube.com/watch?v=hEKdtLwQtBY",
+    "views": 871
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:21:18Z",
+  "wash_version": "1.0.0"
+}

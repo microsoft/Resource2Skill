@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_pbr_true_displacement_setup_dedd2236",
+  "skill_name": "Procedural PBR True Displacement Setup",
+  "source": {
+    "channel": "Olav3D Tutorials",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=144TWlEYFtM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:36:37Z",
+  "wash_version": "1.0.0"
+}

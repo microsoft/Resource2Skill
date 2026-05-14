@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "viewport_aware_revealer_infinite_scroll_6634e6b4",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 579,
+    "type": "youtube",
+    "video_id": "Jo8ABAJtMM0",
+    "video_title": "Learn Intersection Observer in 10 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=Jo8ABAJtMM0",
+    "views": 43495
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

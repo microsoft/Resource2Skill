@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for high-impact slides, title pages, or section dividers, this technique uses bold typography as a clipping mask for vibrant images, creating a sophisticated, editorial aesthetic that merges text and visuals.",
+  "category_path": [
+    "image_mask",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "photographic_text_masking_text_image_fil_c41c87f5",
+  "skill_name": "Photographic Text Masking",
+  "source": {
+    "channel": "Guide Hub (2026 WORKING GUIDES)",
+    "duration_sec": 133,
+    "type": "youtube",
+    "video_id": "qwOqPo8liqM",
+    "video_title": "How To Mask Text in PowerPoint (FAST & EASY) | 100% WORKS | NO Yapping! | Text Mask in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=qwOqPo8liqM",
+    "views": 13
+  },
+  "tags": [
+    "text mask",
+    "image fill",
+    "typography",
+    "editorial design",
+    "high impact",
+    "visual effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:49:15Z",
+  "wash_version": "1.0.0"
+}

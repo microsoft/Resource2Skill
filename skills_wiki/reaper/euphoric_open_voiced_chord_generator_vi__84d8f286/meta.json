@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "euphoric_open_voiced_chord_generator_vi__84d8f286",
+  "skill_name": "Euphoric Open-Voiced Chord Generator (VI-III-VII-i)",
+  "source": {
+    "channel": "Alex Rome",
+    "duration_sec": 799,
+    "type": "youtube",
+    "video_id": "_yw85rAb6cw",
+    "video_title": "10 Chord Patterns for 10 Different Emotions",
+    "video_url": "https://www.youtube.com/watch?v=_yw85rAb6cw",
+    "views": 3368059
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:28Z",
+  "wash_version": "1.0.0"
+}

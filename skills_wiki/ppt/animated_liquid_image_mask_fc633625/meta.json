@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for title slides, section dividers, portfolio showcases, or product launches to create a sophisticated, dynamic focal point. It elevates standard image slides into polished motion design, making content feel premium and engaging.",
+  "category_path": [
+    "animation",
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_liquid_image_mask_fc633625",
+  "skill_name": "Animated Liquid Image Mask",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 487,
+    "type": "youtube",
+    "video_id": "a2CMPnD3VAU",
+    "video_title": "Liquid Image Mask in PowerPoint \ud83d\udd25Tutorial\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=a2CMPnD3VAU",
+    "views": 283183
+  },
+  "tags": [
+    "liquid mask",
+    "animated image",
+    "dynamic focal point",
+    "motion design",
+    "organic shape",
+    "title slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:25:01Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_dynamic_wave_intersection_5e6ce6d7",
+  "skill_name": "Corporate Dynamic Wave Intersection",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 140,
+    "type": "youtube",
+    "video_id": "6zu7lmqyGeU",
+    "video_title": "Performance Review PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=6zu7lmqyGeU",
+    "views": 254
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:04:56Z",
+  "wash_version": "1.0.0"
+}

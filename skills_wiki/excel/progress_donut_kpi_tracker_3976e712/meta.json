@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "progress_donut_kpi_tracker_3976e712",
+  "skill_name": "Progress Donut KPI Tracker",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:05:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "completed interactive sales dashboard"
+        },
+        {
+          "seconds": 354,
+          "description": "dashboard structure with main shapes and titles"
+        },
+        {
+          "seconds": 1029,
+          "description": "map chart integrated and formatted on the dashboard"
+        },
+        {
+          "seconds": 1454,
+          "description": "all charts and dynamic KPI values integrated and formatted on the dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_sales_da.jpg",
+        "frame_01_dashboard_structure_with_main_.jpg"
+      ],
+      "recapped_at": 1777407374.2284873
+    },
+    "primary_path": "frame_00_completed_interactive_sales_da.jpg"
+  }
+}

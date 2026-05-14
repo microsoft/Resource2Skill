@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "trimrange_dynamic_array_suffix_d54dcd9b",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 624,
+    "type": "youtube",
+    "video_id": "5h4wRTbmsSw",
+    "video_title": "You're ONE DOT Away from Cleaner Excel Reports | Before vs. After TRIMRANGE",
+    "video_url": "https://www.youtube.com/watch?v=5h4wRTbmsSw",
+    "views": 1027782
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

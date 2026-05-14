@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frosted_glassmorphism_overlay_the_glass__abf423b0",
+  "skill_name": "Frosted Glassmorphism Overlay (The Glass Effect)",
+  "source": {
+    "channel": "TechTrendz Daily",
+    "duration_sec": 373,
+    "type": "youtube",
+    "video_id": "JevHVgXCmkA",
+    "video_title": "\u2728 Master the Stunning Glass Effect in PowerPoint! \u2728",
+    "video_url": "https://www.youtube.com/watch?v=JevHVgXCmkA",
+    "views": 10
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:31:59Z",
+  "wash_version": "1.0.0"
+}

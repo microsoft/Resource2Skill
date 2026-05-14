@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for illustrating a central idea breaking down into 4-6 distinct components or parallel tracks. Ideal for presentation hero slides, summarizing core pillars, or displaying features and benefits.",
+  "category_path": [
+    "infographic",
+    "information_hierarchy"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "radiating_branch_infographic_panel_34beb5c6",
+  "skill_name": "Radiating Branch Infographic Panel",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 297,
+    "type": "youtube",
+    "video_id": "38J8hPbak3o",
+    "video_title": "107.[PowerPoint+AI] Design 5 Option Business Infographic in 5 minutes",
+    "video_url": "https://www.youtube.com/watch?v=38J8hPbak3o",
+    "views": 2440
+  },
+  "tags": [
+    "radiating",
+    "branches",
+    "infographic",
+    "breakdown",
+    "hierarchy",
+    "structured"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:48Z",
+  "wash_version": "1.0.0"
+}

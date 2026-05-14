@@ -1,0 +1,71 @@
+{
+  "skill_id": "scroll_quote_reveal_1cf6f6",
+  "skill_type": "shell",
+  "name": "Scroll Quote Reveal",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote"
+    ],
+    "content_shape": [
+      "title+centered-quote"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "corporate",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "quote",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "author",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/scroll_quote_reveal_1cf6f6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "roll_down_canvas_projector_screen_reveal_d76458a0",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a centered quote layout inspired by the horizontal scroll graphic, using a prominent accent bar and large typography.",
+  "_distill_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_dashboard_grid_layout_scaffoldin_354383af",
+  "skill_name": "Dynamic Dashboard Grid & Layout Scaffolding",
+  "source": {
+    "channel": "Gloria Leonard ",
+    "duration_sec": 516,
+    "type": "youtube",
+    "video_id": "KCBA93TJXKM",
+    "video_title": "Designing Grid Layouts for Dashboards and SaaS Products: The Ultimate Guide!",
+    "video_url": "https://www.youtube.com/watch?v=KCBA93TJXKM",
+    "views": 8202
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:20Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Applies to any web application implementing a dark theme, such as SaaS dashboards, eCommerce sites, or portfolios. This technique transforms a basic inverted-color theme into a professional and comfortable user experience.",
+  "category_path": [
+    "ui_components",
+    "card"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "optimized_dark_mode_ui_components_deebaa20",
+  "skill_name": "Optimized Dark Mode Card",
+  "source": {
+    "channel": "WPTuts",
+    "duration_sec": 599,
+    "type": "youtube",
+    "video_id": "JNhG2T6dGOY",
+    "video_title": "Dark Mode Website Design | 6 Tips For Better Dark UI Design",
+    "video_url": "https://www.youtube.com/watch?v=JNhG2T6dGOY",
+    "views": 18650
+  },
+  "tags": [
+    "dark mode",
+    "ui design",
+    "css",
+    "accessibility",
+    "visual hierarchy"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:04:19Z",
+  "wash_version": "1.0.0"
+}

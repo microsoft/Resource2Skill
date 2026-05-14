@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "hollow_isometric_glow_cubes_c1f4cc0c",
+  "source": {
+    "channel": "HTML Tamizhan",
+    "duration_sec": 627,
+    "type": "youtube",
+    "video_id": "W0AnnpHBXcI",
+    "video_title": "Make Isometric 3D Cube using Pure CSS",
+    "video_url": "https://www.youtube.com/watch?v=W0AnnpHBXcI",
+    "views": 79
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

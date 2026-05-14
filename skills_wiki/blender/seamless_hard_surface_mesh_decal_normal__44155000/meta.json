@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for non-destructive hard-surface modeling. Used to add details like vents, panels, and cut-outs to complex curved surfaces in sci-fi, robotics, and vehicle design without damaging base topology.",
+  "category_path": [
+    "modeling",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_hard_surface_mesh_decal_normal__44155000",
+  "skill_name": "Seamless Hard-Surface Decal (Normal Transfer)",
+  "source": {
+    "channel": "CG Boost",
+    "duration_sec": 572,
+    "type": "youtube",
+    "video_id": "Ml2t8uxPAQU",
+    "video_title": "6 Blender Hard-Surface Modeling Tricks I Wish I Knew Earlier",
+    "video_url": "https://www.youtube.com/watch?v=Ml2t8uxPAQU",
+    "views": 639304
+  },
+  "tags": [
+    "hard_surface",
+    "non_destructive",
+    "normal_transfer",
+    "shading",
+    "modeling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:42:55Z",
+  "wash_version": "1.0.0"
+}

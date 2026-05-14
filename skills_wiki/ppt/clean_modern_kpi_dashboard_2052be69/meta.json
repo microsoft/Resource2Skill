@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for executive reviews, project status updates, or any report needing a clear, at-a-glance summary of key performance indicators (KPIs) like sales, marketing, or financial metrics.",
+  "category_path": [
+    "data_visualization",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_modern_kpi_dashboard_2052be69",
+  "skill_name": "Clean & Modern KPI Dashboard",
+  "source": {
+    "channel": "Creative Presentation Ideas by infoDiagram",
+    "duration_sec": 121,
+    "type": "youtube",
+    "video_id": "EOzbcbOc5K4",
+    "video_title": "Data Dashboard Design in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=EOzbcbOc5K4",
+    "views": 437
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "data visualization",
+    "reporting",
+    "metrics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:00:35Z",
+  "wash_version": "1.0.0"
+}

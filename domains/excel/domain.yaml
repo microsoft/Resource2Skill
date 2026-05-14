@@ -1,0 +1,231 @@
+name: excel
+display_name: "Excel Spreadsheet Design & Automation"
+auto_load_skills:
+  - excel_design_system_primer
+
+# Library backend selector. ``legacy`` reads from ``skills_library/excel/``
+# (existing path used by xlsx_engine and the Excel MCP server). ``wiki``
+# reads from ``skills_wiki/excel/`` via ``domains/excel/wiki_adapter.py``.
+# Toggling the value and restarting the MCP server is the entire cutover;
+# rollback is the same flag flipped back.
+library_backend: wiki
+
+persona: "你是 Excel/数据可视化专家，擅长仪表盘设计、财务建模、公式与图表的组合表达。"
+
+# Search categories drive YouTube collection. Tiered skill library lives at
+# skills_library/excel/{themes,format_presets,chart_templates,formulas,
+# components,sheet_shells_seed,sheet_shells_distilled,workbook_archetypes}.
+categories:
+  dashboard:
+    - excel dashboard
+    - kpi dashboard
+    - executive dashboard
+    - excel dashboard tutorial
+    - sales dashboard
+    - 仪表盘
+    - 数据看板
+  formula:
+    - excel formula
+    - vlookup tutorial
+    - index match
+    - sumifs
+    - dynamic array formula
+    - 公式技巧
+  chart:
+    - excel chart design
+    - excel chart tutorial
+    - bar chart formatting
+    - line chart trend
+    - chart styling
+    - 图表美化
+  pivot_table:
+    - pivot table tutorial
+    - excel pivot table
+    - pivot chart
+    - 数据透视表
+  formatting:
+    - excel formatting tricks
+    - conditional formatting
+    - cell styling
+    - 条件格式
+    - 单元格美化
+  finance:
+    - financial model excel
+    - p&l statement excel
+    - three statement model
+    - dcf model excel
+    - 财务报表
+  table:
+    - excel tables
+    - structured references
+    - excel sortable table
+  validation:
+    - data validation
+    - drop down list
+    - 数据验证
+  automation:
+    - excel automation
+    - template generator
+    - 批量处理
+  reporting:
+    - quarterly report excel
+    - monthly report layout
+    - executive summary excel
+
+# Search queries used by collector. Mix of English + Chinese.
+query_pool:
+  - "Excel KPI dashboard tutorial"
+  - "Excel sales dashboard design"
+  - "Excel executive dashboard professional"
+  - "Excel financial model tutorial"
+  - "Excel P&L statement design"
+  - "Excel quarterly report template"
+  - "Excel pivot table dashboard"
+  - "Excel chart formatting professional"
+  - "Excel dashboard from scratch"
+  - "Excel formula tricks advanced"
+  - "Excel conditional formatting tricks"
+  - "Excel beautiful table design"
+  - "Excel dark theme dashboard"
+  - "Excel infographic dashboard"
+  - "Excel three statement model"
+  - "Excel revenue forecast model"
+  - "Excel KPI cards design"
+  - "Excel data visualization tutorial"
+  - "Excel year over year analysis"
+  - "Excel variance analysis report"
+  - "Excel dynamic dashboard slicers"
+  - "Excel monthly sales tracker"
+  - "Excel project management template"
+  - "Excel budget vs actual"
+  - "Excel formula INDEX MATCH XLOOKUP"
+  - "Excel dashboard layout design"
+  - "Excel sparkline trend"
+  - "Excel pivot chart slicer"
+  - "Excel仪表盘教程"
+  - "Excel数据透视表教程"
+  - "Excel图表美化"
+  - "Excel财务报表模板"
+  - "Excel公式技巧大全"
+  - "Excel条件格式实战"
+  - "Excel销售看板"
+  - "Excel年度报告"
+
+# Reranker prompt for skill candidate selection (used by skill_retriever)
+rerank_prompt: |
+  你是 Excel 设计专家。从下列技能候选中挑选 {top_k} 个最适合任务 "{task}" 的技能。
+
+  ## 候选
+  {candidates}
+
+  ## 要求
+  - 选择的技能应互补，覆盖不同方面（数据布局、公式、图表、配色等）
+  - 优先 archetype/sheet_shell 作为骨架，components 作为补充
+  - 避免功能重叠的技能
+  - 只输出 JSON 数组，不要其他文字:
+  [{{"skill_id": "...", "skill_name": "...", "reason": "一句话理由"}}]
+
+# Excel-specific metadata for skill classification (optional refinement
+# layer used by skill_store.classify_skill if present)
+metadata_keyword_rules:
+  scope:
+    workbook:
+      - whole workbook
+      - multi-sheet
+      - entire model
+      - 工作簿
+    sheet:
+      - single sheet
+      - one tab
+      - sheet layout
+      - 单个工作表
+    range:
+      - cell range
+      - data block
+      - table region
+    cell:
+      - single cell
+      - one formula
+      - one cell
+  complexity:
+    basic:
+      - basic
+      - simple
+      - introduction
+      - 入门
+    intermediate:
+      - intermediate
+      - typical
+      - common pattern
+      - 常见
+    advanced:
+      - advanced
+      - dynamic array
+      - lambda
+      - power query
+      - 高级
+      - 进阶
+
+# MCP server (self-built, openpyxl-native).
+# The skills directory is resolved at server start from the per-domain
+# library_backend flag (see core.get_library_dir). Do not pass --skills-dir
+# here unless overriding for a one-off run; doing so bypasses the cutover flag.
+mcp:
+  command: "python"
+  args:
+    - "domains/excel/mcp_server/server.py"
+    - "--demo-dir"
+    - "demo/excel"
+  env:
+    AZURE_OPENAI_API_KEY: "${AZURE_OPENAI_API_KEY:-}"
+    OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+  spawn_wait: 1
+
+# Agent configuration
+agent_prompt_file: "agent_prompt.md"
+agent_hooks_module: "agent_hooks"
+agent_initial_prompt: |
+  Build the workbook through the with-skills path when those tools are available:
+    1. First call get_skill_text(skill_id="excel_design_system_primer").
+    2. Use search_skills(query=<task keywords>) and/or list_skills(tier="archetype"/"sheet_shell"/"component") to find direct task matches.
+    3. Do not force a weak archetype. Use an archetype only when its name/category/applicability directly matches the requested workbook.
+    4. For the best matched executable skill, call get_skill_text, get_skill_code, and get_skill_visual before building so the trace keeps text/code/visual evidence.
+    5. Create the workbook, then attempt the matched skill with apply_skill, init_from_archetype, add_sheet_from_shell, or apply_component as appropriate; or adapt inspected skill code through execute_xlsx_code.
+    6. Before saving, normally make at least 3 grounded workbook roles when the brief has multiple workbook parts: one structure/archetype/shell, one dashboard/chart/table/component, and one formula/format/reporting polish role. Do not force weak matches.
+    7. If the matched skill is not executable, adapt its get_skill_code result via execute_xlsx_code with from_skill_ids, target_node, and adaptation_notes. Only if no candidate matches the task should you skip to ungrounded baseline-style code.
+    8. save_workbook to demo/excel/<name>.xlsx, then verify_workbook
+  Say TASK_COMPLETE when the file is verified.
+
+# Stuck-loop detection
+failure_patterns:
+  - "(?i)error"
+  - "(?i)traceback"
+  - "(?i)exception"
+  - "(?i)not found"
+max_repeated_failures: 3
+
+# Dry-run placeholders (for cli.py agent --dry-run without live MCP)
+dry_run_placeholders:
+  create_workbook: '{"workbook_id": "wb_a1b2c3d4", "name": "report", "theme": "corporate_blue"}'
+  save_workbook: '{"workbook_id": "wb_a1b2c3d4", "filepath": "demo/excel/report.xlsx", "size_bytes": 21538, "sheets": ["Cover","Q1","Q2","Q3","Q4","Summary"]}'
+  get_workbook_info: '{"workbook_id": "wb_a1b2c3d4", "sheets": [{"name":"Cover","rows":25,"cols":12,"charts":0,"tables":[]}]}'
+  verify_workbook: '{"ok": true, "filepath": "demo/excel/report.xlsx", "sheet_count": 6, "warnings": []}'
+  execute_xlsx_code: '{"ok": true, "stdout": "", "sheet_names": ["Sheet1"]}'
+  list_tokens: '{"kind": "themes", "names": ["corporate_blue","dark_finance","clean_minimal","warm_report","kpi_traffic","ocean_calm"]}'
+  get_palette_preset: '{"name":"corporate_blue","header_bg":"1F4E78","header_fg":"FFFFFF","accent":"2E75B6"}'
+  get_format_preset: '{"name":"currency_usd","number_format":"$#,##0.00_);[Red]($#,##0.00)"}'
+  get_chart_template: '{"name":"bar_compare","chart_type":"BarChart","style":11}'
+  get_formula_snippet: '{"name":"growth_pct","pattern":"=({current}-{prior})/{prior}"}'
+  apply_component: '{"ok": true, "component": "kpi_strip", "sheet": "Q1", "anchor": "A4"}'
+  add_sheet_from_shell: '{"ok": true, "shell": "kpi_dashboard", "sheet": "Q1"}'
+  init_from_archetype: '{"ok": true, "archetype": "quarterly_report", "sheets": ["Cover","Q1","Q2","Q3","Q4","Summary"]}'
+  list_skills: '{"total": 22, "skills": [{"skill_id":"quarterly_report","tier":"archetype","category":"report"}]}'
+  search_skills: '[{"skill_id":"quarterly_report","skill_name":"Quarterly Report","tier":"T5","category_path":["reporting"],"exec_ok":true,"tags":["quarterly","report","dashboard"]}]'
+  get_skill_info: '{"skill_id":"quarterly_report","tier":"archetype","applicability":"Full FY workbook"}'
+  get_skill_text: '{"skill_id":"quarterly_report","name":"Quarterly Report","applicability":"Full FY workbook","overview":"Builds a multi-sheet quarterly report workbook."}'
+  get_skill_code: '"""quarterly_report archetype..."""\\n\\ndef render_workbook(wb, **kwargs): ...'
+  get_skill_visual: '{"path": null}'
+  apply_skill: '{"success": true, "skill_id": "quarterly_report", "verb": "init_from_archetype", "target_id": "wb_a1b2c3d4"}'
+
+# Dry-run tool schema file
+tools_fallback_file: "tools_fallback.json"

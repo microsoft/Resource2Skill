@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "foundational_css_architecture_modular_gr_e8b36cb4",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1738,
+    "type": "youtube",
+    "video_id": "JnTPd9G6hoY",
+    "video_title": "The 6 most important CSS concepts for beginners",
+    "video_url": "https://www.youtube.com/watch?v=JnTPd9G6hoY",
+    "views": 183079
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

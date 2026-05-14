@@ -1,0 +1,118 @@
+{
+  "theme_id": "muji_paper",
+  "name": "MUJI Paper",
+  "origin": "web_distilled",
+  "source_url": "https://www.muji.com/",
+  "source_title": "MUJI",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#FCFBF7",
+    "panel": "#F1EEE8",
+    "accent": "#9C3D2B",
+    "accent2": "#C9B9A3",
+    "text": "#181818",
+    "muted": "#66635E",
+    "border": "#DDD6CB",
+    "success": "#667A6A",
+    "warning": "#B98A3D"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Arial",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Arial",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "quiet retail grid with generous negative space"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "restrained",
+    "boardroom",
+    "calm"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "grid",
+    "audit"
+  ],
+  "avoided_motion_tags": [
+    "neon",
+    "glow",
+    "confetti"
+  ]
+}

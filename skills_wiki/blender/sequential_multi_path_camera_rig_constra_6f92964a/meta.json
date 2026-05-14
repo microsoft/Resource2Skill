@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for architectural walkthroughs and cinematic reveals requiring seamless camera sweeps across complex environments. It allows modular path animation by crossfading constraints for smooth trajectory transitions without abrupt cuts.",
+  "category_path": [
+    "animation",
+    "rigging",
+    "constraints"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sequential_multi_path_camera_rig_constra_6f92964a",
+  "skill_name": "Sequential Multi-Path Camera Rig",
+  "source": {
+    "channel": "5 Minutes Blender",
+    "duration_sec": 213,
+    "type": "youtube",
+    "video_id": "xSS7bWTqsqY",
+    "video_title": "Follow MULTIPLE Paths | Easy Camera Trick In Blender | Advanced Follow Path Constraint",
+    "video_url": "https://www.youtube.com/watch?v=xSS7bWTqsqY",
+    "views": 13881
+  },
+  "tags": [
+    "camera_rig",
+    "follow_path",
+    "constraint_crossfade",
+    "path_animation",
+    "cinematography"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:24Z",
+  "wash_version": "1.0.0"
+}

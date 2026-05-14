@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "particle_physics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rigid_body_demolition_physics_setup_b4ea26b2",
+  "skill_name": "Rigid Body Demolition Physics Setup",
+  "source": {
+    "channel": "3DChobi",
+    "duration_sec": 547,
+    "type": "youtube",
+    "video_id": "koibBznJzFo",
+    "video_title": "Blender Rigid Body Simulation Explained . From Zero to Destruction #animation #blender #tutorial",
+    "video_url": "https://www.youtube.com/watch?v=koibBznJzFo",
+    "views": 4904
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:41Z",
+  "wash_version": "1.0.0"
+}

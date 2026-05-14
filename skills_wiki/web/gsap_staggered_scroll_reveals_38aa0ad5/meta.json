@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is highly applicable for high-end web design, enhancing portfolio galleries, feature lists, and hero sections. It adds polished, sequential reveal animations to content as it enters the viewport.",
+  "category_path": [
+    "animation",
+    "scroll_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gsap_staggered_scroll_reveals_38aa0ad5",
+  "skill_name": "GSAP Staggered Scroll Reveals",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 2994,
+    "type": "youtube",
+    "video_id": "fgPf1zgz_Uo",
+    "video_title": "Advanced Animations in Webflow: GSAP Crash Course",
+    "video_url": "https://www.youtube.com/watch?v=fgPf1zgz_Uo",
+    "views": 18631
+  },
+  "tags": [
+    "GSAP",
+    "ScrollTrigger",
+    "staggered",
+    "reveal",
+    "animation",
+    "scroll_effects"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:40:16Z",
+  "wash_version": "1.0.0"
+}

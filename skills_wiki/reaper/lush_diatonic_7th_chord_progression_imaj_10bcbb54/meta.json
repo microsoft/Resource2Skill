@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lush_diatonic_7th_chord_progression_imaj_10bcbb54",
+  "skill_name": "Lush Diatonic 7th Chord Progression (Imaj7 - IVmaj7 - iii7)",
+  "source": {
+    "channel": "OFF THE BOOKS",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "6VxkExyMk18",
+    "video_title": "Struggling With Chord Progressions? Use This! [ChordGun REAPER Tutorial]",
+    "video_url": "https://www.youtube.com/watch?v=6VxkExyMk18",
+    "views": 4254
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:32Z",
+  "wash_version": "1.0.0"
+}

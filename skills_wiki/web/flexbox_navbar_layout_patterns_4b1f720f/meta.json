@@ -1,0 +1,36 @@
+{
+  "applicability": "Navbars are critical for web orientation, and Flexbox is ideal for their 1D horizontal layouts. This skill offers universal web design applicability, with variations suited for different site architectures.",
+  "category_path": [
+    "navigation",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "flexbox_navbar_layout_patterns_4b1f720f",
+  "skill_name": "Flexbox Navbar Layout Patterns",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 347,
+    "type": "youtube",
+    "video_id": "HmaQwuKUYTc",
+    "video_title": "Navbar CSS Tutorial: 5 Ways to Create a Navigation Bar with Flexbox",
+    "video_url": "https://www.youtube.com/watch?v=HmaQwuKUYTc",
+    "views": 41601
+  },
+  "tags": [
+    "flexbox",
+    "navbar",
+    "navigation",
+    "layout",
+    "glassmorphism",
+    "responsive"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:13:30Z",
+  "wash_version": "1.0.0"
+}

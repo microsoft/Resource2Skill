@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_contrast_branching_process_diagram_e2d25b26",
+  "skill_name": "High-Contrast Branching Process Diagram",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 365,
+    "type": "youtube",
+    "video_id": "WHH8Gx0u9Is",
+    "video_title": "Create Flowchart in PowerPoint in less than 5 minutes / Process Flow diagram",
+    "video_url": "https://www.youtube.com/watch?v=WHH8Gx0u9Is",
+    "views": 337629
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:34:16Z",
+  "wash_version": "1.0.0"
+}

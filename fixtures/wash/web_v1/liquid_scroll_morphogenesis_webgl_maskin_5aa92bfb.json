@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "liquid_scroll_morphogenesis_webgl_maskin_5aa92bfb",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 1035,
+    "type": "youtube",
+    "video_id": "s6s3rOoEluI",
+    "video_title": "I Made a Scroll Animation That Slowly Destroys the Hero Section (On Purpose)",
+    "video_url": "https://www.youtube.com/watch?v=s6s3rOoEluI",
+    "views": 12001
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for chunking information like process steps, features, or agendas into engaging, interactive pull-out panels. It enables non-linear exploration and enhances audience engagement in presentations.",
+  "category_path": [
+    "interactive_elements",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_accordion_drawers_morph_driv_f7a5b962",
+  "skill_name": "Interactive Accordion Drawers (Morph-Driven Pull-out Panels)",
+  "source": {
+    "channel": "\u6613\u5b66PPT",
+    "duration_sec": 75,
+    "type": "youtube",
+    "video_id": "UlEY9VHoenk",
+    "video_title": "30\u79d2\u5e26\u4f60\u5b66\u4f1aPPT\u62bd\u62c9\u52a8\u753b",
+    "video_url": "https://www.youtube.com/watch?v=UlEY9VHoenk",
+    "views": 32
+  },
+  "tags": [
+    "interactive",
+    "accordion",
+    "morph transition",
+    "pull-out panels",
+    "content organization",
+    "agenda"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:35:28Z",
+  "wash_version": "1.0.0"
+}

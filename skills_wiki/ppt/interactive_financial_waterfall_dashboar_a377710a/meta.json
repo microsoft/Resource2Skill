@@ -1,0 +1,35 @@
+{
+  "applicability": "Transforms a static P&L statement into a dynamic decision-making tool for what-if analysis. Excellent for financial reviews, budget planning, and strategy sessions to visualize how changing costs impact overall profitability.",
+  "category_path": [
+    "dashboards",
+    "financial_analysis"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_financial_waterfall_dashboar_a377710a",
+  "skill_name": "Interactive Financial Waterfall Dashboard",
+  "source": {
+    "channel": "Vijay Perepa",
+    "duration_sec": 619,
+    "type": "youtube",
+    "video_id": "LRyBU56bXAI",
+    "video_title": "interactive Chart and Dashboard",
+    "video_url": "https://www.youtube.com/watch?v=LRyBU56bXAI",
+    "views": 265
+  },
+  "tags": [
+    "waterfall chart",
+    "financial modeling",
+    "dashboard",
+    "what-if analysis",
+    "interactive controls"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:41:40Z",
+  "wash_version": "1.0.0"
+}

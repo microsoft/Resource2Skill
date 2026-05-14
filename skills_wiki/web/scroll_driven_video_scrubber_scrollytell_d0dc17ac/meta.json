@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_video_scrubber_scrollytell_d0dc17ac",
+  "skill_name": "Scroll-Driven Video Scrubber (Scrollytelling)",
+  "source": {
+    "channel": "Nicolai Palmkvist",
+    "duration_sec": 354,
+    "type": "youtube",
+    "video_id": "s7n9vRFvmM0",
+    "video_title": "PLAY VIDEO ON SCROLL - GSAP Scrolltrigger Elementor (No plugin)",
+    "video_url": "https://www.youtube.com/watch?v=s7n9vRFvmM0",
+    "views": 835191
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:36Z",
+  "wash_version": "1.0.0"
+}

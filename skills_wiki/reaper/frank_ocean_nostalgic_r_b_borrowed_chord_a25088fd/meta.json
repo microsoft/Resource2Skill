@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frank_ocean_nostalgic_r_b_borrowed_chord_a25088fd",
+  "skill_name": "Frank Ocean: Nostalgic R&B Borrowed Chords & Slapback Drums",
+  "source": {
+    "type": "youtube",
+    "video_title": "Frank Ocean production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:03:12Z",
+  "wash_version": "1.0.0"
+}

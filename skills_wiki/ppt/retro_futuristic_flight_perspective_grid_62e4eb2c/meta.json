@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for vision, roadmap, or tech presentations to visually symbolize forward momentum and navigating the future. This pseudo-3D flight environment instantly grabs audience attention and breaks the monotony of static slides.",
+  "category_path": [
+    "animation",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "retro_futuristic_flight_perspective_grid_62e4eb2c",
+  "skill_name": "Retro-Futuristic Flight Perspective",
+  "source": {
+    "channel": "HotKeys",
+    "duration_sec": 665,
+    "type": "youtube",
+    "video_id": "Wkp2VnQPUIo",
+    "video_title": "PowerPoint animation tutorial: FLYING",
+    "video_url": "https://www.youtube.com/watch?v=Wkp2VnQPUIo",
+    "views": 4444
+  },
+  "tags": [
+    "retro-futuristic",
+    "3d_perspective",
+    "wireframe_grid",
+    "motion_loop",
+    "vision_slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:32Z",
+  "wash_version": "1.0.0"
+}

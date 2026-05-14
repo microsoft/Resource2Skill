@@ -1,0 +1,316 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "create-presentation",
+      "description": "Create a new empty PowerPoint presentation.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "width_inches": {
+            "type": "number",
+            "description": "Slide width in inches (default 13.333 for 16:9).",
+            "default": 13.333
+          },
+          "height_inches": {
+            "type": "number",
+            "description": "Slide height in inches (default 7.5 for 16:9).",
+            "default": 7.5
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add-slide",
+      "description": "Add a slide by executing python-pptx code. The code should work with a `prs` variable already in scope.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID from create-presentation."
+          },
+          "code": {
+            "type": "string",
+            "description": "Python code using python-pptx API to add a slide."
+          }
+        },
+        "required": ["prs_id", "code"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add-slide-from-skill",
+      "description": "Add a slide using a skill from the library. The skill's create_slide() is automatically adapted.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID from the library (use list-skills to find)."
+          },
+          "content_brief": {
+            "type": "string",
+            "description": "Text content to inject (title, body text, etc.).",
+            "default": ""
+          },
+          "style_hints": {
+            "type": "string",
+            "description": "Visual style preferences (e.g., 'dark, gradient, tech').",
+            "default": ""
+          },
+          "palette": {
+            "type": "string",
+            "description": "Color palette control: '' (default dark tech), 'none' (keep skill colors), or JSON dict for custom palette.",
+            "default": ""
+          }
+        },
+        "required": ["prs_id", "skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "replace-slide",
+      "description": "Replace an existing slide with new code.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "slide_index": {
+            "type": "integer",
+            "description": "1-based slide index to replace."
+          },
+          "code": {
+            "type": "string",
+            "description": "Python code for the replacement slide."
+          }
+        },
+        "required": ["prs_id", "slide_index", "code"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "delete-slide",
+      "description": "Delete a slide from the presentation.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "slide_index": {
+            "type": "integer",
+            "description": "1-based slide index to delete."
+          }
+        },
+        "required": ["prs_id", "slide_index"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "save-presentation",
+      "description": "Save the presentation to a PPTX file.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Absolute file path for the output .pptx file."
+          }
+        },
+        "required": ["prs_id", "output_path"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-slide-info",
+      "description": "Get information about a specific slide (shape count, types, text preview).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "slide_index": {
+            "type": "integer",
+            "description": "1-based slide index."
+          }
+        },
+        "required": ["prs_id", "slide_index"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "render-slide",
+      "description": "Render a slide to base64 PNG. Requires LibreOffice.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "slide_index": {
+            "type": "integer",
+            "description": "1-based slide index (default: first slide).",
+            "default": 1
+          }
+        },
+        "required": ["prs_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list-skills",
+      "description": "List or search skills in the library by category or name.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Filter by category (cover_divider, typography, animation, etc.).",
+            "default": ""
+          },
+          "query": {
+            "type": "string",
+            "description": "Search query for skill name (substring match).",
+            "default": ""
+          },
+          "verified_only": {
+            "type": "boolean",
+            "description": "Only show exec_ok=True skills (default true). Set false for cover/agenda/closing.",
+            "default": true
+          },
+          "theme": {
+            "type": "string",
+            "description": "Filter by theme: 'light' or 'dark'. Leave empty for all.",
+            "default": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-skill-info",
+      "description": "Get detailed information about a specific skill (tags, usage, code preview).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "The skill ID to look up."
+          }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-skill-code",
+      "description": "Get the full Python code and visual technique description from a skill. Use to study visual techniques then write your own adapted code.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "The skill ID to get code from."
+          }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-technique-snippet",
+      "description": "Get a tested visual technique helper function. Available: gradient_fill, shadow, freeform_arc, radial_gradient_bg.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "technique": {
+            "type": "string",
+            "description": "Technique name: gradient_fill, shadow, freeform_arc, or radial_gradient_bg."
+          }
+        },
+        "required": ["technique"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set-transition",
+      "description": "Set a slide transition effect (fade, push, wipe, morph).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prs_id": {
+            "type": "string",
+            "description": "Presentation ID."
+          },
+          "slide_index": {
+            "type": "integer",
+            "description": "1-based slide index."
+          },
+          "transition_type": {
+            "type": "string",
+            "description": "Transition type: fade, push, wipe, or morph."
+          }
+        },
+        "required": ["prs_id", "slide_index", "transition_type"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-palette-preset",
+      "description": "Get a theme palette preset. Available: dark_tech, clean_light, warm_corporate, bold_vibrant, ocean_calm. Call with no args to list all.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "preset_name": {
+            "type": "string",
+            "description": "Preset name, or empty to list all options.",
+            "default": ""
+          }
+        }
+      }
+    }
+  }
+]

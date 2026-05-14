@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_slatted_wood_wall_panel_b96e53af",
+  "skill_name": "Procedural Slatted Wood Wall Panel",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 1791,
+    "type": "youtube",
+    "video_id": "cOVdKlS5gQQ",
+    "video_title": "How to Model Interior in Blender",
+    "video_url": "https://www.youtube.com/watch?v=cOVdKlS5gQQ",
+    "views": 240573
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:45Z",
+  "wash_version": "1.0.0"
+}

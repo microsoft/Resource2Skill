@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_70s_vintage_disco_drum_mix_bus_signal_pa_bebdf464",
+  "skill_name": "70s Vintage Disco Drum & Mix Bus Signal Path",
+  "source": {
+    "channel": "Puremix",
+    "duration_sec": 1091,
+    "type": "youtube",
+    "video_id": "hsarcAAQDaw",
+    "video_title": "Puremix Mentors | Recording + Mixing | Mick Guzauski Stories On Daft Punk Random Access Memories",
+    "video_url": "https://www.youtube.com/watch?v=hsarcAAQDaw",
+    "views": 55796
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:06:25Z",
+  "wash_version": "1.0.0"
+}

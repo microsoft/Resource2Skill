@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "developer_centric_dark_mode_hero_feature_203cdbf9",
+  "source": {
+    "channel": "Tailwind collections",
+    "duration_sec": 1520,
+    "type": "youtube",
+    "video_id": "P1op8bTF8ss",
+    "video_title": "Dark theme landing page using Tailwind CSS",
+    "video_url": "https://www.youtube.com/watch?v=P1op8bTF8ss",
+    "views": 2289
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

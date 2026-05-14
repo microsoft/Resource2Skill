@@ -1,0 +1,29 @@
+{
+  "applicability": "Calculates the sum of values across a range that meet multiple specific conditions. Ideal for summarizing data logically for financial, sales, or inventory reporting.",
+  "category_path": [
+    "formulas",
+    "math_and_trig"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sumifs_dynamic_ec983d8e",
+  "skill_name": "sumifs_dynamic",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "sumifs",
+    "aggregation",
+    "multi-criteria",
+    "conditional-sum",
+    "formula"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T09:02:43Z",
+  "wash_version": "1.0.0"
+}

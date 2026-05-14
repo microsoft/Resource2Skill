@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_isometric_stair_step_arc_infographic_a6cabee9",
+  "skill_name": "3D Isometric Stair-Step Arc Infographic",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 485,
+    "type": "youtube",
+    "video_id": "aukjHOsgHtk",
+    "video_title": "83.PowerPoint 6 Step 3D Pie Chart Infographic Template | Step-By Step Tutorial | Free Template",
+    "video_url": "https://www.youtube.com/watch?v=aukjHOsgHtk",
+    "views": 41633
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:47:01Z",
+  "wash_version": "1.0.0"
+}

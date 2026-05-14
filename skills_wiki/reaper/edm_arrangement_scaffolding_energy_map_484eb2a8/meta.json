@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this skill to overcome the 'stuck in a loop' syndrome by generating a complete, industry-standard EDM track skeleton. It provides pre-labeled structural buckets and a visual energy curve to dictate song pacing, tension, and arrangement density.",
+  "category_path": [
+    "project_setup",
+    "arrangement",
+    "templates"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "edm_arrangement_scaffolding_energy_map_484eb2a8",
+  "skill_name": "EDM Arrangement Scaffolding & Energy Map",
+  "source": {
+    "channel": "EDM Tips",
+    "duration_sec": 1049,
+    "type": "youtube",
+    "video_id": "EXx9At3iUOw",
+    "video_title": "EDM Song Structure: Arrange Your Loop into a Full Song \ud83c\udfb6",
+    "video_url": "https://www.youtube.com/watch?v=EXx9At3iUOw",
+    "views": 109524
+  },
+  "tags": [
+    "edm",
+    "arrangement",
+    "song_structure",
+    "energy_map",
+    "workflow"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:51:15Z",
+  "wash_version": "1.0.0"
+}

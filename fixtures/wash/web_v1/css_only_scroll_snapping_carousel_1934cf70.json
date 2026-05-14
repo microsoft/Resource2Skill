@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_only_scroll_snapping_carousel_1934cf70",
+  "source": {
+    "channel": "Skillthrive",
+    "duration_sec": 461,
+    "type": "youtube",
+    "video_id": "McPdzhLRzCg",
+    "video_title": "HTML and CSS Project Tutorial: Pure CSS Image Slider",
+    "video_url": "https://www.youtube.com/watch?v=McPdzhLRzCg",
+    "views": 456601
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

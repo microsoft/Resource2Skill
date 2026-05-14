@@ -1,0 +1,54 @@
+{
+  "skill_id": "bold_section_divider_d95859",
+  "skill_type": "shell",
+  "name": "Bold Section Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "title+decorations"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/bold_section_divider_d95859/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "seamless_directional_continuity_cross_sl_3495fd00",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A single prominent headline slot captures the minimal, bold nature of this section divider slide, complemented by hardcoded decorative shapes.",
+  "_distill_attempts": 1
+}

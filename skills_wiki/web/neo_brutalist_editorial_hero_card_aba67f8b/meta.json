@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for creative portfolios, design agency landing pages, and event splashes demanding immediate attention. It juxtaposes massive editorial typography with playful, animated stickers to create a memorable brand statement.",
+  "category_path": [
+    "components",
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_brutalist_editorial_hero_card_aba67f8b",
+  "skill_name": "Neo-Brutalist Editorial Hero Card",
+  "source": {
+    "channel": "edgykatrina",
+    "duration_sec": 876,
+    "type": "youtube",
+    "video_id": "sFY1_tEXcOs",
+    "video_title": "How to design a creative portfolio | resources, personal branding, tips & tricks",
+    "video_url": "https://www.youtube.com/watch?v=sFY1_tEXcOs",
+    "views": 101027
+  },
+  "tags": [
+    "neo-brutalism",
+    "hero-section",
+    "editorial-design",
+    "floating-stickers",
+    "fluid-typography",
+    "bold-contrast"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:24Z",
+  "wash_version": "1.0.0"
+}

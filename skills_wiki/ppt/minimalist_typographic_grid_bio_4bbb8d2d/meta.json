@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for corporate environments, internal team introductions, professional resumes, speaker bios, and any scenario needing high professionalism without photography. Transforms boring bullet-point bios into sleek, editorial-style layouts.",
+  "category_path": [
+    "text_layout",
+    "biography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_typographic_grid_bio_4bbb8d2d",
+  "skill_name": "Minimalist Typographic Grid Bio",
+  "source": {
+    "channel": "\u79cb\u53f6\u8bfe\u5802",
+    "duration_sec": 678,
+    "type": "youtube",
+    "video_id": "GdUI9O5xSR4",
+    "video_title": "PPT \u6559\u5b66 - \u4e0d\u7528\u56fe\u7247\uff0c\u5c31\u80fd\u6253\u9020\u9ad8\u5927\u4e0a\u7684\u4e2a\u4eba\u4ecb\u7ecd\uff01",
+    "video_url": "https://www.youtube.com/watch?v=GdUI9O5xSR4",
+    "views": 83
+  },
+  "tags": [
+    "typographic",
+    "grid layout",
+    "minimalist",
+    "professional bio",
+    "text hierarchy",
+    "corporate design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:50:49Z",
+  "wash_version": "1.0.0"
+}

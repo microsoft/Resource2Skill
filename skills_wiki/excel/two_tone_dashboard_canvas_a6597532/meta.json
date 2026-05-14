@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_tone_dashboard_canvas_a6597532",
+  "skill_name": "Two-Tone Dashboard Canvas",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:55:10Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Initial final dashboard preview"
+        },
+        {
+          "seconds": 347,
+          "description": "Dashboard canvas with header, KPI placeholders, and icons"
+        },
+        {
+          "seconds": 748,
+          "description": "Dashboard with KPI values and labels populated"
+        },
+        {
+          "seconds": 1018,
+          "description": "Dashboard with Sales Agent KPIs pivot table and conditional formatting"
+        },
+        {
+          "seconds": 1831,
+          "description": "Fully completed interactive sales dashboard with all charts and updated data"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_final_dashboard_previe.jpg",
+        "frame_01_dashboard_canvas_with_header_k.jpg",
+        "frame_02_dashboard_with_kpi_values_and_.jpg",
+        "frame_03_dashboard_with_sales_agent_kpi.jpg"
+      ],
+      "recapped_at": 1777407954.7864993
+    },
+    "primary_path": "frame_00_initial_final_dashboard_previe.jpg"
+  }
+}

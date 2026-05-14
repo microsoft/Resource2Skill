@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stereo_double_tracked_heavy_guitars_fold_06b2d295",
+  "skill_name": "Stereo Double-Tracked Heavy Guitars (Folder Bus Routing)",
+  "source": {
+    "channel": "OSIRIS GUITAR",
+    "duration_sec": 1011,
+    "type": "youtube",
+    "video_id": "ACSdE8vxXPQ",
+    "video_title": "Recording Metal Guitars - Reaper Tutorial [For Beginners]",
+    "video_url": "https://www.youtube.com/watch?v=ACSdE8vxXPQ",
+    "views": 154422
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:29Z",
+  "wash_version": "1.0.0"
+}

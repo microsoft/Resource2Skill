@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "daft_punk_french_house_octave_jumping_ba_0480767a",
+  "skill_name": "Daft Punk: French House Octave-Jumping Bassline",
+  "source": {
+    "type": "youtube",
+    "video_title": "Daft Punk production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:02:24Z",
+  "wash_version": "1.0.0"
+}

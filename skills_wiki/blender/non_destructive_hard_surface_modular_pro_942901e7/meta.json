@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for modeling complex hard-surface props like sci-fi panels, handles, or secondary geometry attached flush to curved hulls. It bypasses topology pinching and shading artifacts by shrinkwrapping separate meshes to a SubD base.",
+  "category_path": [
+    "modeling",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "non_destructive_hard_surface_modular_pro_942901e7",
+  "skill_name": "Non-Destructive Hard Surface Modular Props",
+  "source": {
+    "channel": "CG Boost",
+    "duration_sec": 1866,
+    "type": "youtube",
+    "video_id": "nsTjnQ067sw",
+    "video_title": "Blender Hard-Surface Modeling Fundamentals #b3d #tutorial",
+    "video_url": "https://www.youtube.com/watch?v=nsTjnQ067sw",
+    "views": 575385
+  },
+  "tags": [
+    "hard-surface",
+    "shrinkwrap",
+    "subd",
+    "non-destructive",
+    "modifiers"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:10:11Z",
+  "wash_version": "1.0.0"
+}

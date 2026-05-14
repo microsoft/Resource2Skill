@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_geometry_nodes_scattering_sys_3572c8d8",
+  "skill_name": "Procedural Geometry Nodes Scattering System",
+  "source": {
+    "channel": "Blender Guru",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=aO0eUnu0hO0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:38:52Z",
+  "wash_version": "1.0.0"
+}

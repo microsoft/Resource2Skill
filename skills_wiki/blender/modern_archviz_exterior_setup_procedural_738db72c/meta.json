@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for exterior architectural renders and real estate visualization. It quickly grounds imported CAD assets into a physically accurate, daylight-lit environment ready for further detailing.",
+  "category_path": [
+    "scene_setup",
+    "archviz"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_archviz_exterior_setup_procedural_738db72c",
+  "skill_name": "Modern ArchViz Exterior Setup & Procedural Context",
+  "source": {
+    "channel": "AlternaVision Studio",
+    "duration_sec": 953,
+    "type": "youtube",
+    "video_id": "-k4LQm8YbpM",
+    "video_title": "Realistic Exterior Archviz In Blender | Beginner Architecture tutorial",
+    "video_url": "https://www.youtube.com/watch?v=-k4LQm8YbpM",
+    "views": 29836
+  },
+  "tags": [
+    "archviz",
+    "exterior",
+    "nishita_sky",
+    "agx_color",
+    "weighted_normal",
+    "environment"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:08:34Z",
+  "wash_version": "1.0.0"
+}

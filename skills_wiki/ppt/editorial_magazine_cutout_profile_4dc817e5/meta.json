@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_magazine_cutout_profile_4dc817e5",
+  "skill_name": "Editorial Magazine Cutout Profile",
+  "source": {
+    "channel": "\u611bPPT\u7684\u623f\u91d1",
+    "duration_sec": 74,
+    "type": "youtube",
+    "video_id": "pELxXgEJ4Hg",
+    "video_title": "\u3010PPT\u6559\u5b78\u3011\u8d85\u70ab\u9177\u7684\u4eba\u7269\u4ecb\u7d39PPT\u4f60\u80af\u5b9a\u6c92\u898b\u904e\uff01 #PPT\u6559\u5b78 #PPT",
+    "video_url": "https://www.youtube.com/watch?v=pELxXgEJ4Hg",
+    "views": 758
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:22:08Z",
+  "wash_version": "1.0.0"
+}

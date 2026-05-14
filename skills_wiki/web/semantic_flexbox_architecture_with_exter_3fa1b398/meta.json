@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "semantic_flexbox_architecture_with_exter_3fa1b398",
+  "skill_name": "Semantic Flexbox Architecture with External Stylesheets",
+  "source": {
+    "channel": "LearnCode.academy",
+    "duration_sec": 549,
+    "type": "youtube",
+    "video_id": "iXSSHlOe47s",
+    "video_title": "HTML CSS TUTORIAL FOR BEGINNERS - multiple pages",
+    "video_url": "https://www.youtube.com/watch?v=iXSSHlOe47s",
+    "views": 711902
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:17:52Z",
+  "wash_version": "1.0.0"
+}

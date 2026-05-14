@@ -1,0 +1,36 @@
+{
+  "applicability": "Presents key performance indicators (KPIs) for high-stakes audiences like executives or board members. Ideal for business reviews, project retrospectives, and campaign summaries where clarity and impact are crucial.",
+  "category_path": [
+    "presentation",
+    "narrative",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "impact_first_kpi_storytelling_bb0adbc3",
+  "skill_name": "Impact-First KPI Storytelling",
+  "source": {
+    "channel": "Aaron Lympany Design",
+    "duration_sec": 515,
+    "type": "youtube",
+    "video_id": "gKIZ09Kdk8Q",
+    "video_title": "How to Drastically Improve Your KPI Presentations (in PowerPoint or Keynote)",
+    "video_url": "https://www.youtube.com/watch?v=gKIZ09Kdk8Q",
+    "views": 17680
+  },
+  "tags": [
+    "kpi",
+    "storytelling",
+    "executive summary",
+    "business review",
+    "narrative"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:38:43Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,55 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "app_style_navigation_dashboard_shell_3976e712",
+  "skill_name": "App-Style Navigation Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 355,
+          "description": "Dashboard structure with all section titles laid out"
+        },
+        {
+          "seconds": 1028,
+          "description": "Map chart formatted and positioned on the dashboard"
+        },
+        {
+          "seconds": 1151,
+          "description": "Sales trend line chart formatted and positioned on the dashboard"
+        },
+        {
+          "seconds": 1259,
+          "description": "Customer satisfaction radar chart formatted and positioned on the dashboard"
+        },
+        {
+          "seconds": 1455,
+          "description": "Completed interactive sales dashboard with all visuals formatted and integrated"
+        }
+      ],
+      "frames": [
+        "frame_00_dashboard_structure_with_all_s.jpg"
+      ],
+      "recapped_at": 1777406086.3951764
+    },
+    "primary_path": "frame_00_dashboard_structure_with_all_s.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_callout_progress_comparison_87a84f84",
+  "skill_name": "Minimalist Callout Progress Comparison",
+  "source": {
+    "channel": "The Office Guys Tutorials",
+    "duration_sec": 874,
+    "type": "youtube",
+    "video_id": "GHLlQz2QWkU",
+    "video_title": "Animated comparison slide design tutorial in PowerPoint for Begineers",
+    "video_url": "https://www.youtube.com/watch?v=GHLlQz2QWkU",
+    "views": 814
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:49:38Z",
+  "wash_version": "1.0.0"
+}

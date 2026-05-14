@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pbr_material_pipeline_with_true_adaptive_54a6026e",
+  "skill_name": "PBR Material Pipeline with True Adaptive Displacement",
+  "source": {
+    "channel": "Brandon 3D",
+    "duration_sec": 1108,
+    "type": "youtube",
+    "video_id": "jBT6MD7IzHU",
+    "video_title": "Blender PBR Material Shading (Material Series Part 2)",
+    "video_url": "https://www.youtube.com/watch?v=jBT6MD7IzHU",
+    "views": 152788
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:21Z",
+  "wash_version": "1.0.0"
+}

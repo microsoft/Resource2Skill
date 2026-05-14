@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for storytelling, product demonstrations, or data visualization, this skill effectively guides audience focus. It creates suspense and engagement by revealing content piece by piece.",
+  "category_path": [
+    "animation",
+    "reveal_effect"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_spotlight_reveal_63f5fbad",
+  "skill_name": "Animated Spotlight Reveal",
+  "source": {
+    "channel": "Malou Agapito Channel",
+    "duration_sec": 777,
+    "type": "youtube",
+    "video_id": "8ItSsQ140y4",
+    "video_title": "CREATING SPOTLIGHT USING PPT",
+    "video_url": "https://www.youtube.com/watch?v=8ItSsQ140y4",
+    "views": 1499
+  },
+  "tags": [
+    "spotlight",
+    "reveal",
+    "motion path",
+    "focus",
+    "engagement",
+    "storytelling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:25:23Z",
+  "wash_version": "1.0.0"
+}

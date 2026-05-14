@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_handheld_tracking_camera_rig_202e4c49",
+  "skill_name": "Cinematic Handheld Tracking Camera Rig",
+  "source": {
+    "channel": "Max Novak",
+    "duration_sec": 1144,
+    "type": "youtube",
+    "video_id": "V2UbwO1uSZY",
+    "video_title": "Blender Cinematic Camera Animation Guide | 10 Tips & Tricks !",
+    "video_url": "https://www.youtube.com/watch?v=V2UbwO1uSZY",
+    "views": 8816
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:09Z",
+  "wash_version": "1.0.0"
+}

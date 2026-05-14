@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "ai_driven_prompt_hero_section_68589e19",
+  "source": {
+    "channel": "Codex Community",
+    "duration_sec": 457,
+    "type": "youtube",
+    "video_id": "aLZCG8XMM_s",
+    "video_title": "Best Hero Layout Inspiration of 2026",
+    "video_url": "https://www.youtube.com/watch?v=aLZCG8XMM_s",
+    "views": 50784
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly effective for Title, KPI, quote, and section transition slides. It unifies disparate stock photos into a cohesive brand aesthetic with strong visual hierarchy.",
+  "category_path": [
+    "image_treatment",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "duotone_brand_aligned_overlay_10e1c7ee",
+  "skill_name": "Duotone Brand-Aligned Overlay",
+  "source": {
+    "channel": "Jennifer Sharkey",
+    "duration_sec": 238,
+    "type": "youtube",
+    "video_id": "HOjmeEU26Jk",
+    "video_title": "How To Use Color Overlays With Photos in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=HOjmeEU26Jk",
+    "views": 23235
+  },
+  "tags": [
+    "duotone",
+    "image overlay",
+    "text contrast",
+    "brand alignment",
+    "visual hierarchy",
+    "stock photos"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:16:51Z",
+  "wash_version": "1.0.0"
+}

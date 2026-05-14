@@ -1,0 +1,130 @@
+{
+  "theme_id": "linen_boardroom",
+  "name": "Linen Boardroom",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/faf7f2-e8dfd1-a67c52-6f8f72-2f2a24-5f5a53-d8cfc2-5c7c5c-b7791f",
+  "source_title": "Coolors Warm Executive Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#FAF7F2",
+    "panel": "#E8DFD1",
+    "accent": "#A67C52",
+    "accent2": "#6F8F72",
+    "text": "#2F2A24",
+    "muted": "#5F5A53",
+    "border": "#D8CFC2",
+    "success": "#5C7C5C",
+    "warning": "#B7791F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Georgia",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Georgia",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "Soft paper wash behind restrained financial tables"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "warm",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "boardroom",
+    "warm",
+    "restrained",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "boardroom",
+    "narrative",
+    "brand",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "wash",
+    "measured",
+    "editorial"
+  ],
+  "avoided_motion_tags": [
+    "neon",
+    "glitch",
+    "confetti",
+    "bounce"
+  ]
+}

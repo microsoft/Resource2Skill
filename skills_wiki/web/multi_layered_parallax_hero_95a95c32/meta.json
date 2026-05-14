@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for landing page heroes, storytelling experiences, and portfolio introductions. It rewards the user's scroll action with an immersive, cinematic introduction before transitioning into standard content.",
+  "category_path": [
+    "ui_components",
+    "hero_sections",
+    "parallax"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_layered_parallax_hero_95a95c32",
+  "skill_name": "Multi-Layered Parallax Hero",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 287,
+    "type": "youtube",
+    "video_id": "TawH-AqHTXc",
+    "video_title": "Simple Parallax Scrolling Effect with CSS & Vanilla Javascript",
+    "video_url": "https://www.youtube.com/watch?v=TawH-AqHTXc",
+    "views": 390439
+  },
+  "tags": [
+    "parallax",
+    "hero-section",
+    "scroll-animation",
+    "layering",
+    "3d-effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:59Z",
+  "wash_version": "1.0.0"
+}

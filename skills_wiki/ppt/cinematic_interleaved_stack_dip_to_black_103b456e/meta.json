@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_interleaved_stack_dip_to_black_103b456e",
+  "skill_name": "Cinematic Interleaved Stack (Dip-to-Black Carousel)",
+  "source": {
+    "channel": "\u5c0f\u5496PPT\u66f9\u5b78\u658c",
+    "duration_sec": 284,
+    "type": "youtube",
+    "video_id": "VGQq5e6naGE",
+    "video_title": "\u591a\u5716\u8f2a\u63db\uff3f\u6697\u5f71\u4ea4\u66ff\uff01\u7c21\u55ae\u53c8\u597d\u770b\uff0c\u9084\u6709\u9ede\u7d00\u9304\u7247\u98a8\u683c\uff01\u3010\u5546\u696d\u7c21\u5831PPT\u6559\u5b78\u3011\u80cc\u666f\u8a2d\u8a08\uff1a\u6de1\u5316\u51fa\u73fe\u52d5\u756b(PPT DESIGN)",
+    "video_url": "https://www.youtube.com/watch?v=VGQq5e6naGE",
+    "views": 2928
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:58:40Z",
+  "wash_version": "1.0.0"
+}

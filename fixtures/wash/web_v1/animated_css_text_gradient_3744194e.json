@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_css_text_gradient_3744194e",
+  "source": {
+    "channel": "Adi Purdila",
+    "duration_sec": 632,
+    "type": "youtube",
+    "video_id": "p4Gk2NUk5RU",
+    "video_title": "How to Create Text Gradients in CSS",
+    "video_url": "https://www.youtube.com/watch?v=p4Gk2NUk5RU",
+    "views": 502
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

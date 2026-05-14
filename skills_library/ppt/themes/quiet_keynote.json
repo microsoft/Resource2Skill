@@ -1,0 +1,126 @@
+{
+  "theme_id": "quiet_keynote",
+  "name": "Quiet Keynote",
+  "origin": "web_distilled",
+  "source_url": "https://www.apple.com/keynote/",
+  "source_title": "Apple Keynote",
+  "source_kind": "keynote_template",
+  "palette": {
+    "bg": "#F7F5F0",
+    "panel": "#FFFFFF",
+    "accent": "#8E7C68",
+    "accent2": "#C9B8A6",
+    "text": "#1D1D1F",
+    "muted": "#5F6368",
+    "border": "#DDD6CC",
+    "success": "#5E7C63",
+    "warning": "#B07A3F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "hairline dividers with generous quiet white space"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "calm",
+    "restrained",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "boardroom",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "hairline",
+    "editorial"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "confetti",
+    "bounce"
+  ]
+}

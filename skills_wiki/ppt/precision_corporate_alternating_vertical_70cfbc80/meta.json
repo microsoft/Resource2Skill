@@ -1,0 +1,35 @@
+{
+  "applicability": "Use to present sequential information such as project milestones, historical events, or multi-step processes. The alternating layout visually balances content and guides the reader's eye down the page, transforming a simple list into a professional infographic.",
+  "category_path": [
+    "diagram",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "precision_corporate_alternating_vertical_70cfbc80",
+  "skill_name": "Alternating Vertical Timeline",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 208,
+    "type": "youtube",
+    "video_id": "rrJHWrtHwFI",
+    "video_title": "50+ Free PowerPoint Templates to Grow Your Business | SlideTeam",
+    "video_url": "https://www.youtube.com/watch?v=rrJHWrtHwFI",
+    "views": 319
+  },
+  "tags": [
+    "timeline",
+    "roadmap",
+    "process",
+    "infographic",
+    "vertical"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:16Z",
+  "wash_version": "1.0.0"
+}

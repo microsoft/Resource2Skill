@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "alternating_logic_flow_051e6e50",
+  "skill_name": "Alternating Logic Flow",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 682,
+    "type": "youtube",
+    "video_id": "OnxvO9fWT4k",
+    "video_title": "How to Design animated Pros & Cons PowerPoint Template",
+    "video_url": "https://www.youtube.com/watch?v=OnxvO9fWT4k",
+    "views": 2785
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:24:02Z",
+  "wash_version": "1.0.0"
+}

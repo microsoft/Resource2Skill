@@ -1,0 +1,129 @@
+{
+  "theme_id": "brand_light_peach",
+  "name": "Brand Light Peach",
+  "palette": {
+    "bg": "#FFF2EA",
+    "panel": "#FFE4D1",
+    "accent": "#E36A4B",
+    "accent2": "#4D5EBF",
+    "text": "#241410",
+    "muted": "#7A5D50",
+    "border": "#E7C8B5",
+    "success": "#3BA684",
+    "warning": "#E8933B"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Cambria",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Cambria",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Trebuchet MS",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Trebuchet MS",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Cambria",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "rounded_blob",
+    "description": "Rounded blob accents"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "zoom",
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": []
+  },
+  "mood": [
+    "warm",
+    "editorial",
+    "cinematic"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "balloon",
+    "bubble",
+    "page-turn",
+    "polaroid",
+    "confetti",
+    "ink-bleed",
+    "thesis",
+    "typewriter",
+    "column-rule",
+    "margin-note"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "chromatic",
+    "slot-machine",
+    "marquee",
+    "pixel",
+    "bounce",
+    "confetti",
+    "dot-matrix"
+  ]
+}

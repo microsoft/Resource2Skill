@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for storytelling sections, product feature deep-dives, and engaging hero sections. It transforms a passive vertical scroll into a multi-dimensional, tactile interactive experience.",
+  "category_path": [
+    "animation",
+    "scroll"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gsap_scroll_scrubbed_pinned_animation_a8eaf3f1",
+  "skill_name": "GSAP Scroll-Scrubbed Pinned Animation",
+  "source": {
+    "channel": "PIXEL PERFECT",
+    "duration_sec": 840,
+    "type": "youtube",
+    "video_id": "I4WLvJLaMFE",
+    "video_title": "The Ultimate Guide to Scroll Animation (GSAP ScrollTrigger Techniques)",
+    "video_url": "https://www.youtube.com/watch?v=I4WLvJLaMFE",
+    "views": 5804
+  },
+  "tags": [
+    "gsap",
+    "scrolltrigger",
+    "scroll-driven",
+    "pinning",
+    "scrubbing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:00:10Z",
+  "wash_version": "1.0.0"
+}

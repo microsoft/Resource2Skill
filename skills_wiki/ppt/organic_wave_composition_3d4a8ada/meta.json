@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "organic_wave_composition_3d4a8ada",
+  "skill_name": "Organic Wave Composition",
+  "source": {
+    "channel": "Stefanie Silva",
+    "duration_sec": 781,
+    "type": "youtube",
+    "video_id": "zt1-Io6OBKw",
+    "video_title": "Call to Action   DAP   Google Slides",
+    "video_url": "https://www.youtube.com/watch?v=zt1-Io6OBKw",
+    "views": 76
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:41Z",
+  "wash_version": "1.0.0"
+}

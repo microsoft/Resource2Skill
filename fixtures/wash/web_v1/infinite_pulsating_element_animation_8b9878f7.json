@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "infinite_pulsating_element_animation_8b9878f7",
+  "source": {
+    "channel": "codeyourcareer-CYC",
+    "duration_sec": 130,
+    "type": "youtube",
+    "video_id": "YPU5Yf598Ss",
+    "video_title": "\ud83c\udfac Exciting CSS Animation Tutorial by Michelle | CodeYourCareer \ud83d\ude80",
+    "video_url": "https://www.youtube.com/watch?v=YPU5Yf598Ss",
+    "views": 13
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

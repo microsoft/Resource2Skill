@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this effect to guide audience focus by dynamically zooming in on specific details within a larger image, chart, or diagram. It is ideal for product demos, data visualization, or UI walkthroughs.",
+  "category_path": [
+    "visual_effects",
+    "focus"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_magnifying_glass_bd68bfb0",
+  "skill_name": "Interactive Magnifying Glass",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 236,
+    "type": "youtube",
+    "video_id": "YFLIZaIjrug",
+    "video_title": "3\u4e2a\u9ad8\u7ea7\u53c8\u5b9e\u7528\u7684PPT\u52a8\u753b\uff0c\u5c5e\u7f57\u6c38\u6d69\u7684\u6700\u5f3a\uff01\u3010\u65c1\u95e8\u5de6\u9053\u3011",
+    "video_url": "https://www.youtube.com/watch?v=YFLIZaIjrug",
+    "views": 681
+  },
+  "tags": [
+    "magnify",
+    "zoom",
+    "focus effect",
+    "detail",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:36:03Z",
+  "wash_version": "1.0.0"
+}

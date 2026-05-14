@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "three_pane_point_of_sale_pos_dashboard_b8e0801f",
+  "source": {
+    "channel": "SuccessPursuitZone",
+    "duration_sec": 475,
+    "type": "youtube",
+    "video_id": "Y-AfwhAWif8",
+    "video_title": "How to Create a Multi platform POS System Using DeepSeek AI | HTML, CSS, JS |  website",
+    "video_url": "https://www.youtube.com/watch?v=Y-AfwhAWif8",
+    "views": 13916
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

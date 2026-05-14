@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a driving, percussive groove common in Boom-Bap and Lo-fi Hip-Hop. Ideal for verses, it leaves ample sonic space for vocals or lead instruments.",
+  "category_path": [
+    "hip_hop",
+    "rhythmic_harmony"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "boom_bap_mpc_stutter_chops_pitch_down_tu_a6354885",
+  "skill_name": "MPC-Style Stutter Chops with Pitch Drop",
+  "source": {
+    "channel": "Everyone Produces",
+    "duration_sec": 333,
+    "type": "youtube",
+    "video_id": "CiOYksOixAI",
+    "video_title": "THE ALCHEMIST - 5 Sampling TECHNIQUES EXPOSED in 6 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=CiOYksOixAI",
+    "views": 57823
+  },
+  "tags": [
+    "hip hop",
+    "boom bap",
+    "mpc",
+    "sampling",
+    "chopping"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:09:14Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for emphasizing hero quotes, customer testimonials, or core mission statements. It anchors digital text to a physical projector screen metaphor, signaling special importance to the audience.",
+  "category_path": [
+    "components",
+    "text_containers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "roll_down_canvas_projector_screen_reveal_d76458a0",
+  "skill_name": "Roll-Down Projector Screen Reveal",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 879,
+    "type": "youtube",
+    "video_id": "g7FB_p8pAno",
+    "video_title": "Create a Quote Reveal Animation Effect in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=g7FB_p8pAno",
+    "views": 16353
+  },
+  "tags": [
+    "projector_screen",
+    "roll_down",
+    "text_reveal",
+    "physical_metaphor",
+    "callout",
+    "3d_cylinder"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:42Z",
+  "wash_version": "1.0.0"
+}

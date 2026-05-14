@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_glassmorphism_interface_with_dyn_f4b9e561",
+  "skill_name": "Ambient Glassmorphism Interface with Dynamic Theming",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:55:10Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Light mode initial render"
+        },
+        {
+          "seconds": 12,
+          "description": "Dark mode initial render"
+        },
+        {
+          "seconds": 323,
+          "description": "Empty page render with some elements"
+        },
+        {
+          "seconds": 820,
+          "description": "Navigation items with icons and text"
+        },
+        {
+          "seconds": 3801,
+          "description": "Dark mode with all elements and correct styling"
+        }
+      ],
+      "frames": [
+        "frame_00_light_mode_initial_render.jpg",
+        "frame_01_dark_mode_initial_render.jpg",
+        "frame_02_empty_page_render_with_some_el.jpg",
+        "frame_03_navigation_items_with_icons_an.jpg"
+      ],
+      "recapped_at": 1777408323.2724864
+    },
+    "primary_path": "frame_00_light_mode_initial_render.jpg"
+  }
+}

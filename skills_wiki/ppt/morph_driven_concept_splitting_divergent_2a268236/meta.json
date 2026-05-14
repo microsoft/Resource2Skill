@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morph_driven_concept_splitting_divergent_2a268236",
+  "skill_name": "Morph-Driven Concept Splitting (Divergent Deconstruction)",
+  "source": {
+    "channel": "Far Nebula",
+    "duration_sec": 159,
+    "type": "youtube",
+    "video_id": "ucmD0cLBV4o",
+    "video_title": "Split Letter Effect - PowerPoint - Far Nebula",
+    "video_url": "https://www.youtube.com/watch?v=ucmD0cLBV4o",
+    "views": 80
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:56:56Z",
+  "wash_version": "1.0.0"
+}

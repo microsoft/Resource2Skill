@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for asynchronous data fetching states, full-screen loading overlays, and futuristic UI dashboards. It provides a performant, resolution-independent loading indicator that is highly customizable.",
+  "category_path": [
+    "ui_components",
+    "feedback",
+    "loaders"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_neon_spinner_4e66c0ae",
+  "skill_name": "Circular Neon Spinner",
+  "source": {
+    "channel": "Creative web designer",
+    "duration_sec": 443,
+    "type": "youtube",
+    "video_id": "rmcQDI9NzmU",
+    "video_title": "css loading animation | creative web designer | CSS and HTML",
+    "video_url": "https://www.youtube.com/watch?v=rmcQDI9NzmU",
+    "views": 40
+  },
+  "tags": [
+    "spinner",
+    "loader",
+    "css-animation",
+    "neon",
+    "keyframes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:10Z",
+  "wash_version": "1.0.0"
+}

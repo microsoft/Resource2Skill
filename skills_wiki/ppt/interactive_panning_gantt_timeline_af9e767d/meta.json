@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_panning_gantt_timeline_af9e767d",
+  "skill_name": "Interactive Panning Gantt Timeline",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 1333,
+    "type": "youtube",
+    "video_id": "nNN3Ito_2Mw",
+    "video_title": "PowerPoint Interactive Animated Timeline [Tutorial + Free Slides]",
+    "video_url": "https://www.youtube.com/watch?v=nNN3Ito_2Mw",
+    "views": 12154
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:42Z",
+  "wash_version": "1.0.0"
+}

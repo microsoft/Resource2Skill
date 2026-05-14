@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_accordion_morph_aee4988d",
+  "skill_name": "Interactive Accordion Morph (\u6c34\u5e73\u624b\u98ce\u7434\u5e73\u6ed1\u5c55\u5f00\u4ea4\u4e92)",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 93,
+    "type": "youtube",
+    "video_id": "5x9G0j-vs2M",
+    "video_title": "How to Create an Interactive Table of Contents Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=5x9G0j-vs2M",
+    "views": 1
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:35:32Z",
+  "wash_version": "1.0.0"
+}

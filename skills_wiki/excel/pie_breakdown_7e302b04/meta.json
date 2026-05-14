@@ -1,0 +1,28 @@
+{
+  "applicability": "Use this component to create a pie chart that visualizes the proportional breakdown of a whole. It is ideal for displaying data like market share, budget allocations, or survey results where each slice represents a percentage of the total.",
+  "category_path": [
+    "chart_templates"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pie_breakdown_7e302b04",
+  "skill_name": "Pie Chart with Percentage Breakdown",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "pie chart",
+    "percentage",
+    "data visualization",
+    "composition",
+    "share"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:58Z",
+  "wash_version": "1.0.0"
+}

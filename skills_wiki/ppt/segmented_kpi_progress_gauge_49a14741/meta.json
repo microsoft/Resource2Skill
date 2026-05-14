@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for executive dashboards, project status reports, performance summaries, and any presentation slide where key metrics need to be displayed with high impact and clarity. It is particularly effective for comparing multiple KPIs side-by-side.",
+  "category_path": [
+    "chart_data",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_kpi_progress_gauge_49a14741",
+  "skill_name": "Segmented KPI Progress Gauge",
+  "source": {
+    "channel": "Slide Cow",
+    "duration_sec": 802,
+    "type": "youtube",
+    "video_id": "T4QDz41xq9U",
+    "video_title": "Powerpoint Tutorial: Make Your Own KPI Dashboard Infographic!",
+    "video_url": "https://www.youtube.com/watch?v=T4QDz41xq9U",
+    "views": 68397
+  },
+  "tags": [
+    "kpi",
+    "gauge",
+    "progress",
+    "segmented",
+    "dashboard",
+    "performance"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:30Z",
+  "wash_version": "1.0.0"
+}

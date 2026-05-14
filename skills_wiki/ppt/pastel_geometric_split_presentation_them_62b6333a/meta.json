@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pastel_geometric_split_presentation_them_62b6333a",
+  "skill_name": "Pastel Geometric Split Presentation Theme",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 110,
+    "type": "youtube",
+    "video_id": "lGTISW6fJA4",
+    "video_title": "Sales Review Analysis Powerpoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=lGTISW6fJA4",
+    "views": 614
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:01Z",
+  "wash_version": "1.0.0"
+}

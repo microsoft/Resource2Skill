@@ -1,0 +1,34 @@
+{
+  "applicability": "Creates a high-end, editorial feel for presentations where aesthetics are key, such as creative portfolios, brand introductions, or fashion lookbooks. Breaks a single image into a dynamic, geometric pattern.",
+  "category_path": [
+    "layout",
+    "image_collage"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_quarter_circle_collage_44f3095c",
+  "skill_name": "Geometric Quarter-Circle Collage",
+  "source": {
+    "channel": "Amber Graphics",
+    "duration_sec": 156,
+    "type": "youtube",
+    "video_id": "TXvMp20lvUA",
+    "video_title": "Fashion Show PowerPoint Presentation Template",
+    "video_url": "https://www.youtube.com/watch?v=TXvMp20lvUA",
+    "views": 5690
+  },
+  "tags": [
+    "collage",
+    "geometric",
+    "image mask",
+    "editorial layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:31:16Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_fade_in_css_modal_overlay_9f3c21c8",
+  "source": {
+    "channel": "Florin Pop",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "XH5OW46yO8I",
+    "video_title": "Create a Modal (Popup) with HTML/CSS and JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=XH5OW46yO8I",
+    "views": 154914
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

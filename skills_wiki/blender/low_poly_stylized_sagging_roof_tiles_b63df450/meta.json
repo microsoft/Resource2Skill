@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "low_poly_stylized_sagging_roof_tiles_b63df450",
+  "skill_name": "Low-Poly Stylized Sagging Roof Tiles",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=yBwV3CLG2uM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:23:44Z",
+  "wash_version": "1.0.0"
+}

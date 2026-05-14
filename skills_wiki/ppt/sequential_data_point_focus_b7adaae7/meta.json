@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sequential_data_point_focus_b7adaae7",
+  "skill_name": "Sequential Data Point Focus",
+  "source": {
+    "channel": "UNDATABLE",
+    "duration_sec": 303,
+    "type": "youtube",
+    "video_id": "o7F-tbBl_hA",
+    "video_title": "How To Choose The Right Graph (Types of Graphs and When To Use Them)",
+    "video_url": "https://www.youtube.com/watch?v=o7F-tbBl_hA",
+    "views": 233641
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:31Z",
+  "wash_version": "1.0.0"
+}

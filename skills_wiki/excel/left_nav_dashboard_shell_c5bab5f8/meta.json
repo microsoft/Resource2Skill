@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "left_nav_dashboard_shell_c5bab5f8",
+  "skill_name": "Left-Nav Dashboard Shell",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:06Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 1,
+          "description": "Fully interactive dashboard preview"
+        },
+        {
+          "seconds": 107,
+          "description": "Interactive dashboard with initial charts"
+        },
+        {
+          "seconds": 1801,
+          "description": "Dashboard with multiple charts and map"
+        },
+        {
+          "seconds": 2146,
+          "description": "Dashboard with interactive slicers"
+        },
+        {
+          "seconds": 2618,
+          "description": "Completed and styled Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_interactive_dashboard_pr.jpg",
+        "frame_01_interactive_dashboard_with_ini.jpg"
+      ],
+      "recapped_at": 1777407147.2116659
+    },
+    "primary_path": "frame_00_fully_interactive_dashboard_pr.jpg"
+  }
+}

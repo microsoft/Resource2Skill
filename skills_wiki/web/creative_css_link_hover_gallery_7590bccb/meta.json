@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "creative_css_link_hover_gallery_7590bccb",
+  "skill_name": "Creative CSS Link Hover Gallery",
+  "source": {
+    "channel": "Envato Tuts+",
+    "duration_sec": 1544,
+    "type": "youtube",
+    "video_id": "56tlmKy4qVc",
+    "video_title": "Exploring Creative CSS Hover Effects for Inline Links",
+    "video_url": "https://www.youtube.com/watch?v=56tlmKy4qVc",
+    "views": 4892
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:49Z",
+  "wash_version": "1.0.0"
+}

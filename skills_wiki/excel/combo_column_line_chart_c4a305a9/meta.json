@@ -1,0 +1,36 @@
+{
+  "applicability": "Best for comparing two related metrics with vastly different scales across the same categories. It plots one metric as columns and the other as a line on a secondary axis.",
+  "category_path": [
+    "chart",
+    "combo"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "combo_column_line_chart_c4a305a9",
+  "skill_name": "Combo Column-Line Chart",
+  "source": {
+    "channel": "TrumpExcel",
+    "duration_sec": 883,
+    "type": "youtube",
+    "video_id": "5TkRnGdC1NM",
+    "video_title": "Excel Dashboard Course #21 - Creating a Pivot table Dashboard with Slicers in Excel (in 15 minutes)",
+    "video_url": "https://www.youtube.com/watch?v=5TkRnGdC1NM",
+    "views": 620329
+  },
+  "tags": [
+    "combo_chart",
+    "secondary_axis",
+    "column_chart",
+    "line_chart",
+    "data_visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:51:36Z",
+  "wash_version": "1.0.0"
+}

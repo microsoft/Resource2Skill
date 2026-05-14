@@ -1,0 +1,10 @@
+{
+  "name": "groupby_variance_calculated_fields",
+  "description": "Dynamic array formula extending GROUPBY with calculated Variance and % Variance columns using LET and HSTACK.",
+  "formula": "=LET(calc, GROUPBY({row_category_range}, HSTACK({baseline_range}, {actual_range}), SUM), variance, CHOOSECOLS(calc, 3) - CHOOSECOLS(calc, 2), pct_variance, variance / CHOOSECOLS(calc, 2), HSTACK(calc, variance, pct_variance))",
+  "placeholders": {
+    "row_category_range": "Range containing the categorical values to group by (e.g., Table1[Product])",
+    "baseline_range": "Range containing the budget/target values (e.g., Table1[Budget])",
+    "actual_range": "Range containing the actual values (e.g., Table1[Actual])"
+  }
+}

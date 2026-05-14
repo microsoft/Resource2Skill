@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "foundational_flat_grid_composition_the_5_e7763e8d",
+  "skill_name": "Foundational Flat Grid Composition (The 5 Principles)",
+  "source": {
+    "channel": "LearnFree",
+    "duration_sec": 315,
+    "type": "youtube",
+    "video_id": "a5KYlHNKQB8",
+    "video_title": "Beginning Graphic Design: Layout & Composition",
+    "video_url": "https://www.youtube.com/watch?v=a5KYlHNKQB8",
+    "views": 3856472
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:52:31Z",
+  "wash_version": "1.0.0"
+}

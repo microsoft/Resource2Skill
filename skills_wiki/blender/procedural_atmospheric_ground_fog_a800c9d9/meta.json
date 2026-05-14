@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this procedural volume setup to create realistic, light-reactive ground fog for exterior landscapes or moody scenes. It enhances depth, scale, and atmospheric perspective by physically interacting with 3D lighting.",
+  "category_path": [
+    "materials",
+    "volumetrics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_atmospheric_ground_fog_a800c9d9",
+  "skill_name": "Procedural Atmospheric Ground Fog",
+  "source": {
+    "channel": "Nico Linde",
+    "duration_sec": 296,
+    "type": "youtube",
+    "video_id": "0xZby2ObL6o",
+    "video_title": "Photoreal Volumetrics in Blender",
+    "video_url": "https://www.youtube.com/watch?v=0xZby2ObL6o",
+    "views": 28492
+  },
+  "tags": [
+    "volumetrics",
+    "procedural_fog",
+    "principled_volume",
+    "environment_design",
+    "atmosphere"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:54Z",
+  "wash_version": "1.0.0"
+}

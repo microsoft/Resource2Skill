@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "navigation_dashboard_shell_3976e712",
+  "skill_name": "Navigation Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:12:42Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "fully completed interactive Excel dashboard"
+        },
+        {
+          "seconds": 355,
+          "description": "structured dashboard layout with titles"
+        },
+        {
+          "seconds": 810,
+          "description": "multiple formatted donut charts in the input sheet"
+        },
+        {
+          "seconds": 1204,
+          "description": "dashboard with map and line charts integrated and formatted"
+        },
+        {
+          "seconds": 1454,
+          "description": "final interactive sales dashboard in Excel"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_completed_interactive_ex.jpg",
+        "frame_01_structured_dashboard_layout_wi.jpg",
+        "frame_02_multiple_formatted_donut_chart.jpg"
+      ],
+      "recapped_at": 1777407294.1913216
+    },
+    "primary_path": "frame_00_fully_completed_interactive_ex.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dual_method_parallax_scrolling_js_fracti_545dd559",
+  "source": {
+    "channel": "freeCodeCamp.org",
+    "duration_sec": 642,
+    "type": "youtube",
+    "video_id": "llv5kW4sz0U",
+    "video_title": "Parallax Tutorial - Scrolling Effect using CSS and Javascript",
+    "video_url": "https://www.youtube.com/watch?v=llv5kW4sz0U",
+    "views": 115125
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_magazine_overlap_spread_73c185e2",
+  "skill_name": "Editorial Magazine Overlap Spread",
+  "source": {
+    "channel": "Aphrodite Cataleya",
+    "duration_sec": 266,
+    "type": "youtube",
+    "video_id": "IU6pIahAEtM",
+    "video_title": "Multipurpose Powerpoint Magazine Template",
+    "video_url": "https://www.youtube.com/watch?v=IU6pIahAEtM",
+    "views": 1774
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:22:24Z",
+  "wash_version": "1.0.0"
+}

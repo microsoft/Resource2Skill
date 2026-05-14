@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "contextual_data_storytelling_panel_bd4103ff",
+  "skill_name": "Contextual Data Storytelling Panel",
+  "source": {
+    "channel": "Christine Jiang",
+    "duration_sec": 775,
+    "type": "youtube",
+    "video_id": "H79S8YDuYUU",
+    "video_title": "Data Storytelling 101 | Think Like a Data Analyst",
+    "video_url": "https://www.youtube.com/watch?v=H79S8YDuYUU",
+    "views": 54245
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:03:15Z",
+  "wash_version": "1.0.0"
+}

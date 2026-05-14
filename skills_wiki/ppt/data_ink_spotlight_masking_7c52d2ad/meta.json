@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_ink_spotlight_masking_7c52d2ad",
+  "skill_name": "Data-Ink Spotlight Masking (\u6570\u636e\u7126\u70b9\u9542\u7a7a\u8499\u7248)",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 111,
+    "type": "youtube",
+    "video_id": "bO7yRHoND44",
+    "video_title": "PPT\u8bbe\u8ba1\u63d0\u5347\uff1a\u56fe\u8868\u4e0e\u56fe\u7247\u878d\u5408\u7684\u6280\u5de7\u65b9\u6cd5",
+    "video_url": "https://www.youtube.com/watch?v=bO7yRHoND44",
+    "views": 424
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:12:08Z",
+  "wash_version": "1.0.0"
+}

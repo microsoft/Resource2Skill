@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_jazz_groove_the_lick_9ef2bb20",
+  "skill_name": "Neo-Jazz Groove & \"The Lick\"",
+  "source": {
+    "channel": "Hello Foe!",
+    "duration_sec": 63,
+    "type": "youtube",
+    "video_id": "nB1xt78S7m0",
+    "video_title": "How to play jazz in a minute",
+    "video_url": "https://www.youtube.com/watch?v=nB1xt78S7m0",
+    "views": 3003453
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:02:03Z",
+  "wash_version": "1.0.0"
+}

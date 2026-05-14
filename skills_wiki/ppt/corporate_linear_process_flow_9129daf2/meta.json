@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for presenting multi-step processes, project timelines, or onboarding sequences in a clear, linear format. It transforms simple lists into a visually engaging and professional narrative path.",
+  "category_path": [
+    "process_flow",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_linear_process_flow_9129daf2",
+  "skill_name": "Horizontal Process Flow",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "tgiKXUea_qs",
+    "video_title": "Staff Evaluation Powerpoint Ppt Template Bundles",
+    "video_url": "https://www.youtube.com/watch?v=tgiKXUea_qs",
+    "views": 26
+  },
+  "tags": [
+    "process flow",
+    "timeline",
+    "roadmap",
+    "sequence",
+    "horizontal layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:51:37Z",
+  "wash_version": "1.0.0"
+}

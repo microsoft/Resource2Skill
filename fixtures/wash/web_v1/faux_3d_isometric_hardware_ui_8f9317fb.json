@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "faux_3d_isometric_hardware_ui_8f9317fb",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1308,
+    "type": "youtube",
+    "video_id": "sI9p5EswxdQ",
+    "video_title": "These 20 Art Pieces Are Done PURELY In CSS",
+    "video_url": "https://www.youtube.com/watch?v=sI9p5EswxdQ",
+    "views": 39034
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

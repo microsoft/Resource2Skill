@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frank_ocean_style_psychedelic_lo_fi_r_b__55a2ad7a",
+  "skill_name": "Frank Ocean-Style Psychedelic Lo-Fi R&B Groove",
+  "source": {
+    "type": "youtube",
+    "video_title": "Frank Ocean production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:03:28Z",
+  "wash_version": "1.0.0"
+}

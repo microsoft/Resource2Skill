@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_profile_flip_card_on_hover_39743149",
+  "skill_name": "3D Profile Flip Card on Hover",
+  "source": {
+    "channel": "Next Coding",
+    "duration_sec": 919,
+    "type": "youtube",
+    "video_id": "bigf5YYH-nk",
+    "video_title": "3D Flip Card Effect On Hover - HTML and CSS only",
+    "video_url": "https://www.youtube.com/watch?v=bigf5YYH-nk",
+    "views": 1033
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:54:11Z",
+  "wash_version": "1.0.0"
+}

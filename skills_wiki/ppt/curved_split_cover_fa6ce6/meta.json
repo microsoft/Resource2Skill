@@ -1,0 +1,33 @@
+{
+  "applicability": "Ideal for a dynamic presentation cover, this layout creates a visually striking curved division between a main hero image and the title content.",
+  "category_path": [
+    "presentation",
+    "cover"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "curved_split_cover_fa6ce6",
+  "skill_name": "Curved Split Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover slide",
+    "curved design",
+    "split layout",
+    "hero image",
+    "modern"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:05:56Z",
+  "wash_version": "1.0.0"
+}

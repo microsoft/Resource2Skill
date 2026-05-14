@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_infinite_loader_42a900fb",
+  "skill_name": "3D Glowing Infinite Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:17:55Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 17,
+          "description": "Interactive animation with Play/Pause buttons"
+        },
+        {
+          "seconds": 226,
+          "description": "Square grows, rotates, and stays at final scale and rounded state"
+        },
+        {
+          "seconds": 448,
+          "description": "Animation looping infinitely"
+        },
+        {
+          "seconds": 543,
+          "description": "Animation stops at its final transformed state"
+        },
+        {
+          "seconds": 711,
+          "description": "Loading animation with rotating glowing square on multiple axes"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_animation_with_pla.jpg",
+        "frame_01_square_grows_rotates_and_stays.jpg",
+        "frame_02_animation_looping_infinitely.jpg"
+      ],
+      "recapped_at": 1777408008.5452404
+    },
+    "primary_path": "frame_00_interactive_animation_with_pla.jpg"
+  }
+}

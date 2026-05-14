@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_background_mask_reveal_6d3b40e8",
+  "skill_name": "Seamless Background Mask Reveal",
+  "source": {
+    "channel": "PowerPoint All-In-One Machine",
+    "duration_sec": 341,
+    "type": "youtube",
+    "video_id": "lfKOaBRMCj4",
+    "video_title": "How to properly mask objects and text in Powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=lfKOaBRMCj4",
+    "views": 181
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:42:25Z",
+  "wash_version": "1.0.0"
+}

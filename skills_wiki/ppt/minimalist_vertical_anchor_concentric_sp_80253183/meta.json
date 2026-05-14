@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for employee spotlights, corporate interviews, and 'Meet the Team' presentations. It leverages vibrant accents and whitespace to create a modern, approachable corporate identity.",
+  "category_path": [
+    "slide_layouts",
+    "employee_profile"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_vertical_anchor_concentric_sp_80253183",
+  "skill_name": "Minimalist Vertical Anchor & Concentric Spotlight",
+  "source": {
+    "channel": "MorganFranklin Consulting",
+    "duration_sec": 81,
+    "type": "youtube",
+    "video_id": "NdecV1LYjxA",
+    "video_title": "Employee Spotlight - Jared Benedict",
+    "video_url": "https://www.youtube.com/watch?v=NdecV1LYjxA",
+    "views": 103
+  },
+  "tags": [
+    "minimalist",
+    "vertical anchor",
+    "employee spotlight",
+    "portrait frame",
+    "corporate design"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:18:21Z",
+  "wash_version": "1.0.0"
+}

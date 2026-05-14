@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this layout to create visually striking slides for introductions, contact details, or title pages. It excels at separating brand identity from detailed information with a dynamic, high-contrast design.",
+  "category_path": [
+    "layout",
+    "split_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_contrast_diagonal_split_layout_0d378d2e",
+  "skill_name": "High-Contrast Diagonal Split Layout",
+  "source": {
+    "channel": "G D Graphic designer",
+    "duration_sec": 1457,
+    "type": "youtube",
+    "video_id": "BmnjmXtuSww",
+    "video_title": "How to Make a Professional Business Card design in PowerPoint 2022 ||.",
+    "video_url": "https://www.youtube.com/watch?v=BmnjmXtuSww",
+    "views": 54
+  },
+  "tags": [
+    "diagonal layout",
+    "split screen",
+    "high contrast",
+    "modern",
+    "asymmetrical"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:34:50Z",
+  "wash_version": "1.0.0"
+}

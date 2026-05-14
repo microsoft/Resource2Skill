@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_floating_orb_sequence_34ab59ef",
+  "skill_name": "Modern Floating Orb Sequence",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 75,
+    "type": "youtube",
+    "video_id": "DaK__MB3Dow",
+    "video_title": "Numbered List Diagonally Aligned Formation Triangular Design Arrows Horizontally",
+    "video_url": "https://www.youtube.com/watch?v=DaK__MB3Dow",
+    "views": 4
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:17Z",
+  "wash_version": "1.0.0"
+}

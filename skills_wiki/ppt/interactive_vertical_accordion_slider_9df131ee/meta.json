@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this interactive layout to spotlight one item from a peer group, such as a team member or product feature, while keeping the full context visible. It is ideal for 'meet the team' or showcase slides.",
+  "category_path": [
+    "layout",
+    "interactive"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_vertical_accordion_slider_9df131ee",
+  "skill_name": "Interactive Vertical Accordion Slider",
+  "source": {
+    "channel": "PowerPoint Institute",
+    "duration_sec": 808,
+    "type": "youtube",
+    "video_id": "JZ8eTqnVr8M",
+    "video_title": "Create an Interactive Image Slider in PowerPoint | Team Slide Tutorial for Stunning Presentations",
+    "video_url": "https://www.youtube.com/watch?v=JZ8eTqnVr8M",
+    "views": 18912
+  },
+  "tags": [
+    "accordion",
+    "interactive",
+    "team profile",
+    "morph",
+    "slider",
+    "showcase"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:37:51Z",
+  "wash_version": "1.0.0"
+}

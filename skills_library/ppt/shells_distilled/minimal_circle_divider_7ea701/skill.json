@@ -1,0 +1,73 @@
+{
+  "skill_id": "minimal_circle_divider_7ea701",
+  "skill_type": "shell",
+  "name": "Minimal Circle Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "title+subtitle"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "cool",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_circle_divider_7ea701/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neumorphic_soft_ui_styling_a9611a22",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The image shows a minimal background with a large off-center circle on the left; inferred a clean section divider layout with text vertically centered in the empty space on the right.",
+  "_distill_attempts": 1
+}

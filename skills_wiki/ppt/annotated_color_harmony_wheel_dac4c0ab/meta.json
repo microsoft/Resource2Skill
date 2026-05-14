@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "annotated_color_harmony_wheel_dac4c0ab",
+  "skill_name": "Annotated Color Harmony Wheel",
+  "source": {
+    "channel": "\u4e0a\u5cb8\u8003\u7814Studio",
+    "duration_sec": 572,
+    "type": "youtube",
+    "video_id": "KOedz6_ZupA",
+    "video_title": "38\u3010PPT\u901f\u6210\u8bfe\u7a0b \u3011\u8c08\u8272\u4e0d\u4e71 38 \u914d\u8272\u5168\u653b\u7565",
+    "video_url": "https://www.youtube.com/watch?v=KOedz6_ZupA",
+    "views": 27
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:29Z",
+  "wash_version": "1.0.0"
+}

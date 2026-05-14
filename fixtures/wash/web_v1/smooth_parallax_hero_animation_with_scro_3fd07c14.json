@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_parallax_hero_animation_with_scro_3fd07c14",
+  "source": {
+    "channel": "Edge Dot Design",
+    "duration_sec": 322,
+    "type": "youtube",
+    "video_id": "vXjJZH_l6o8",
+    "video_title": "Parallax Scrolling Animation in Figma - Full Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=vXjJZH_l6o8",
+    "views": 145777
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

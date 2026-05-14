@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_chart_dashboard_066bbd71",
+  "skill_name": "Static Chart Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:23:31Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "initial preview of the interactive dashboard"
+        },
+        {
+          "seconds": 11,
+          "description": "interactive dashboard with filters applied"
+        },
+        {
+          "seconds": 14,
+          "description": "interactive dashboard showing different cookie types"
+        },
+        {
+          "seconds": 18,
+          "description": "interactive dashboard with a different color theme"
+        },
+        {
+          "seconds": 22,
+          "description": "interactive dashboard with another color theme"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_preview_of_the_interac.jpg",
+        "frame_01_interactive_dashboard_with_fil.jpg",
+        "frame_02_interactive_dashboard_showing_.jpg",
+        "frame_03_interactive_dashboard_with_a_d.jpg",
+        "frame_04_interactive_dashboard_with_ano.jpg"
+      ],
+      "recapped_at": 1777407509.2665358
+    },
+    "primary_path": "frame_00_initial_preview_of_the_interac.jpg"
+  }
+}

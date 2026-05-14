@@ -1,0 +1,35 @@
+{
+  "applicability": "Emulates the look of modern BI tools like Tableau to present a high-level data summary. Ideal for Quarterly Business Reviews (QBRs), financial updates, and marketing performance reports.",
+  "category_path": [
+    "layout",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bi_style_executive_dashboard_kpi_grid_696779ba",
+  "skill_name": "Executive Dashboard with KPI Grid",
+  "source": {
+    "channel": "PAPAYA \u96fb\u8166\u6559\u5ba4",
+    "duration_sec": 1290,
+    "type": "youtube",
+    "video_id": "p4pqSTANWRo",
+    "video_title": "\u53bb\u627e\u5427\uff01\u6240\u6709\u7684\u8ca1\u5bcc\u90fd\u5728\u6578\u64da\u88e1\u4e86\uff01\ud83d\udcb0 \u60f3\u5f97\u5230\u7684\u8a71\u5c31\u8981\u5148\u641e\u61c2 Tableau \u8996\u89ba\u5316\u5100\u8868\u677f #\u5927\u6578\u64da\u6642\u4ee3\u958b\u59cb\u4e86",
+    "video_url": "https://www.youtube.com/watch?v=p4pqSTANWRo",
+    "views": 236007
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "business intelligence",
+    "executive summary",
+    "data visualization"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:52:58Z",
+  "wash_version": "1.0.0"
+}

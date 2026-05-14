@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "accent_banded_pricing_cards_1fac5938",
+  "source": {
+    "channel": "Study Web Today",
+    "duration_sec": 816,
+    "type": "youtube",
+    "video_id": "WhBp2MplJQA",
+    "video_title": "How To Make A Responsive Pricing Table Desig Using HTML And CSS | Attractive Pricing Table Design",
+    "video_url": "https://www.youtube.com/watch?v=WhBp2MplJQA",
+    "views": 87
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "architectural_earth_tone_infographic_lay_a640f72e",
+  "skill_name": "Architectural Earth-Tone Infographic Layout",
+  "source": {
+    "channel": "How To Media",
+    "duration_sec": 60,
+    "type": "youtube",
+    "video_id": "h51DktZw-WQ",
+    "video_title": "How To Create Architecture Design Presentation on Microsoft Powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=h51DktZw-WQ",
+    "views": 6903
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:50:32Z",
+  "wash_version": "1.0.0"
+}

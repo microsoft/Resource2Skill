@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_canvas_particle_swarm_9e6b99b9",
+  "skill_name": "Interactive Canvas Particle Swarm",
+  "source": {
+    "channel": "TechCodeCB",
+    "duration_sec": 583,
+    "type": "youtube",
+    "video_id": "Q6ORDkV2lTo",
+    "video_title": "Interactive Moving Particles | Animation On Canvas| Html | Css | Javascript",
+    "video_url": "https://www.youtube.com/watch?v=Q6ORDkV2lTo",
+    "views": 1131
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:04Z",
+  "wash_version": "1.0.0"
+}

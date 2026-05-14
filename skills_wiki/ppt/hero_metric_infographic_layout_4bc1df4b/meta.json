@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for corporate milestones, annual reports, pitch decks, and capability overviews. It excels at demonstrating scale, volume, or performance with high visual impact.",
+  "category_path": [
+    "data_visualization",
+    "infographic_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hero_metric_infographic_layout_4bc1df4b",
+  "skill_name": "Hero Metric Infographic Layout",
+  "source": {
+    "channel": "AudienceAlive",
+    "duration_sec": 131,
+    "type": "youtube",
+    "video_id": "xJp280LFtH0",
+    "video_title": "PowerPoint Before and After Showreel",
+    "video_url": "https://www.youtube.com/watch?v=xJp280LFtH0",
+    "views": 694
+  },
+  "tags": [
+    "hero metric",
+    "infographic",
+    "high contrast",
+    "data display",
+    "corporate reporting",
+    "visual impact"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:33:03Z",
+  "wash_version": "1.0.0"
+}

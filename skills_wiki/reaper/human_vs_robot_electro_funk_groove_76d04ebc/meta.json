@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "human_vs_robot_electro_funk_groove_76d04ebc",
+  "skill_name": "\"Human vs. Robot\" Electro-Funk Groove",
+  "source": {
+    "channel": "Digging The Greats",
+    "duration_sec": 1481,
+    "type": "youtube",
+    "video_id": "yBYL76CO_jc",
+    "video_title": "Why \"Random Access Memories\" is a MASTERPIECE",
+    "video_url": "https://www.youtube.com/watch?v=yBYL76CO_jc",
+    "views": 683220
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:40Z",
+  "wash_version": "1.0.0"
+}

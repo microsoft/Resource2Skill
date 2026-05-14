@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates a high-impact, editorial design by splitting the slide into a full-bleed image area and a contrasting solid-color panel for text. Ideal for artist portfolios, case studies, or product showcases.",
+  "category_path": [
+    "layout",
+    "split_screen"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_bleed_split_screen_portfolio_layout_a6c2604b",
+  "skill_name": "Full-Bleed Split-Screen Portfolio Layout",
+  "source": {
+    "channel": "Andrew K",
+    "duration_sec": 231,
+    "type": "youtube",
+    "video_id": "4obNWMhU3dw",
+    "video_title": "ART 1010 SP 2024 PowerPoint on Jeff Koonz by Savannah D",
+    "video_url": "https://www.youtube.com/watch?v=4obNWMhU3dw",
+    "views": 1
+  },
+  "tags": [
+    "split screen",
+    "portfolio",
+    "image layout",
+    "full bleed",
+    "editorial"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:52:46Z",
+  "wash_version": "1.0.0"
+}

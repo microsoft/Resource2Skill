@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_floating_identity_badge_video_9f2e9302",
+  "skill_name": "Minimalist Floating Identity Badge (Video Documentary Style)",
+  "source": {
+    "channel": "Frowa Schuitemaker",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "gXpTDe_RnRQ",
+    "video_title": "Testimonials PowerPoint Intelligentie 1",
+    "video_url": "https://www.youtube.com/watch?v=gXpTDe_RnRQ",
+    "views": 76
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:10Z",
+  "wash_version": "1.0.0"
+}

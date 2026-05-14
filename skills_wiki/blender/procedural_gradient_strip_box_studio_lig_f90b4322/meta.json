@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for product, automotive, and macro rendering where reflections heavily define the subject's shape. It replaces harsh uniform area lights with smooth, contoured highlights that elevate photorealism.",
+  "category_path": [
+    "lighting",
+    "studio_lighting"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_gradient_strip_box_studio_lig_f90b4322",
+  "skill_name": "Procedural Gradient Strip Box",
+  "source": {
+    "channel": "Denzel Modeste",
+    "duration_sec": 663,
+    "type": "youtube",
+    "video_id": "LBx0y3ZVwt8",
+    "video_title": "How to Light Products like a Pro in Blender",
+    "video_url": "https://www.youtube.com/watch?v=LBx0y3ZVwt8",
+    "views": 81965
+  },
+  "tags": [
+    "studio_lighting",
+    "procedural",
+    "emission_shader",
+    "product_rendering",
+    "strip_box",
+    "light_falloff"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:33Z",
+  "wash_version": "1.0.0"
+}

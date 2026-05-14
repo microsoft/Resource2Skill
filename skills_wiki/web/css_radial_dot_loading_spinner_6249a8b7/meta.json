@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for asynchronous data fetching states, button loading indicators, and full-screen overlays. This technique provides a scalable, customizable spinner without relying on heavy SVGs or JavaScript loops.",
+  "category_path": [
+    "ui_components",
+    "loading_indicators"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_radial_dot_loading_spinner_6249a8b7",
+  "skill_name": "CSS Radial Dot Loading Spinner",
+  "source": {
+    "channel": "CodingLab",
+    "duration_sec": 321,
+    "type": "youtube",
+    "video_id": "DijlvL2E80s",
+    "video_title": "How to make a Loader in HTML & CSS | Website Loading Animation",
+    "video_url": "https://www.youtube.com/watch?v=DijlvL2E80s",
+    "views": 31493
+  },
+  "tags": [
+    "loading-spinner",
+    "css-animation",
+    "css-variables",
+    "keyframes",
+    "staggered-delay"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:06Z",
+  "wash_version": "1.0.0"
+}

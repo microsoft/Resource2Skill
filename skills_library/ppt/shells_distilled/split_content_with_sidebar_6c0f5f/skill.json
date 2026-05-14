@@ -1,0 +1,90 @@
+{
+  "skill_id": "split_content_with_sidebar_6c0f5f",
+  "skill_type": "shell",
+  "name": "Split Content with Sidebar",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split",
+      "bullet_card_list"
+    ],
+    "content_shape": [
+      "2-column-panel+sidebar"
+    ],
+    "density": "high",
+    "mood": [
+      "corporate",
+      "editorial",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "lead_text",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 300,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "main_bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": "body",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 4
+    },
+    {
+      "name": "sidebar_title",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "sidebar_text",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 300,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/split_content_with_sidebar_6c0f5f/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "programmatic_sidebar_pagination_text_flo_95db2daf",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the 3-column split layout (title/lead, bullets, sidebar) using a colored panel to group the primary content, strictly adhering to palette_color for all fills.",
+  "_distill_attempts": 2
+}

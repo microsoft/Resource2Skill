@@ -1,0 +1,53 @@
+{
+  "skill_id": "vertical_metric_stack_c5720e",
+  "skill_type": "shell",
+  "name": "Vertical Metric Stack",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "vertical-stack"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "minimal",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "metrics",
+      "kind": "bullet_list",
+      "required": true,
+      "style": "metric_xl",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/vertical_metric_stack_c5720e/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "odometer_morph_reveal_slot_machine_scrol_a64dadff",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The slide features a prominent vertical column of large numbers. This is extracted as a 'Vertical Metric Stack' layout, taking a list of metrics and centering them vertically and horizontally using the metric_xl typography style.",
+  "_distill_attempts": 1
+}

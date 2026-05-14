@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parallel_rock_bass_mixing_chain_growl_su_30b7273d",
+  "skill_name": "Parallel Rock Bass Mixing Chain (Growl & Sub)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 882,
+    "type": "youtube",
+    "video_id": "ghEMSKgqjQo",
+    "video_title": "Mixing Bass Guitar in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=ghEMSKgqjQo",
+    "views": 34225
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:53:00Z",
+  "wash_version": "1.0.0"
+}

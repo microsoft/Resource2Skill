@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_isometric_environment_with_volu_05a3cc7d",
+  "skill_name": "Stylized Isometric Environment with Volumetric God-Rays",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 725,
+    "type": "youtube",
+    "video_id": "mvE_TykzJQU",
+    "video_title": "Essential Tips for Low Poly Scenes - Blender Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=mvE_TykzJQU",
+    "views": 36521
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:28Z",
+  "wash_version": "1.0.0"
+}

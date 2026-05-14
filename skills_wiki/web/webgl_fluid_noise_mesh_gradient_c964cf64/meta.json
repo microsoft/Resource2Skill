@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "webgl_fluid_noise_mesh_gradient_c964cf64",
+  "skill_name": "WebGL Fluid Noise Mesh Gradient",
+  "source": {
+    "channel": "Olivier Larose",
+    "duration_sec": 398,
+    "type": "youtube",
+    "video_id": "ceJ82RaW9mM",
+    "video_title": "5 Ways to Make Gradients on the Web",
+    "video_url": "https://www.youtube.com/watch?v=ceJ82RaW9mM",
+    "views": 40812
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:14Z",
+  "wash_version": "1.0.0"
+}

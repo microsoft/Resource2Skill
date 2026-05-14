@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_glow_dark_mode_toggle___glassy_c_f4b9e561",
+  "skill_name": "Ambient Glow Dark Mode Toggle & Glassy Card Grid",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:07:46Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Initial web page design, light mode."
+        },
+        {
+          "seconds": 10,
+          "description": "Initial web page design, dark mode."
+        },
+        {
+          "seconds": 45,
+          "description": "HTML structure with the main sections."
+        },
+        {
+          "seconds": 298,
+          "description": "Added more elements and colors to the structure."
+        },
+        {
+          "seconds": 403,
+          "description": "Added text and icons with custom colors."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_web_page_design_light_.jpg",
+        "frame_01_initial_web_page_design_dark_m.jpg",
+        "frame_02_html_structure_with_the_main_s.jpg",
+        "frame_03_added_more_elements_and_colors.jpg",
+        "frame_04_added_text_and_icons_with_cust.jpg"
+      ],
+      "recapped_at": 1777408381.5346863
+    },
+    "primary_path": "frame_00_initial_web_page_design_light_.jpg"
+  }
+}

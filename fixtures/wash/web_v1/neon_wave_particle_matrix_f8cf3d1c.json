@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_wave_particle_matrix_f8cf3d1c",
+  "source": {
+    "channel": "Coding Master",
+    "duration_sec": 558,
+    "type": "youtube",
+    "video_id": "hweLFqVADbc",
+    "video_title": "Mesmerizing Glowing Particle Waves Animation | HTML CSS JavaScript Canvas",
+    "video_url": "https://www.youtube.com/watch?v=hweLFqVADbc",
+    "views": 18
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

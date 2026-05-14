@@ -1,0 +1,122 @@
+{
+  "theme_id": "brand_dark_magenta",
+  "name": "Brand Dark Magenta",
+  "palette": {
+    "bg": "#180818",
+    "panel": "#281028",
+    "accent": "#FF3DAB",
+    "accent2": "#A0E7E5",
+    "text": "#FDF1F9",
+    "muted": "#86536F",
+    "border": "#34163A",
+    "success": "#7EDDB8",
+    "warning": "#FFBC42"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Century Gothic",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Century Gothic",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Trebuchet MS",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Century Gothic",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "neon_stripe",
+    "description": "Neon accent stripes"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "bold",
+    "preferred_entrance": [
+      "zoom",
+      "in_right",
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": []
+  },
+  "mood": [
+    "bold",
+    "punchy",
+    "cinematic"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "iris",
+    "spotlight",
+    "neon",
+    "chromatic",
+    "cta-arrow",
+    "tag-pill",
+    "snap",
+    "slot-machine",
+    "glitch",
+    "bubble"
+  ],
+  "avoided_motion_tags": [
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "margin-note",
+    "mist",
+    "glitch",
+    "slot-machine",
+    "pixel"
+  ]
+}

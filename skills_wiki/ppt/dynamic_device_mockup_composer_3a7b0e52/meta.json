@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for app showcases, UI/UX portfolio reviews, software feature introductions, and modern pitch deck product slides. It transforms standard screenshots into premium, styled graphic assets.",
+  "category_path": [
+    "visual_elements",
+    "device_mockups"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_device_mockup_composer_3a7b0e52",
+  "skill_name": "Dynamic Device Mockup Composer",
+  "source": {
+    "channel": "Professional Tech Tutorials",
+    "duration_sec": 217,
+    "type": "youtube",
+    "video_id": "F6o4bUqA2EY",
+    "video_title": "Create Modern PowerPoint Template 18  Creating a Device Mockup Slide",
+    "video_url": "https://www.youtube.com/watch?v=F6o4bUqA2EY",
+    "views": 63
+  },
+  "tags": [
+    "device mockup",
+    "app showcase",
+    "UI/UX",
+    "product slide",
+    "presentation graphic",
+    "powerpoint design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:18:08Z",
+  "wash_version": "1.0.0"
+}

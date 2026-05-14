@@ -1,0 +1,81 @@
+{
+  "skill_id": "rotating_wheel_bullet_list_21bc3f",
+  "skill_type": "shell",
+  "name": "Rotating Wheel Bullet List",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list",
+      "section_divider"
+    ],
+    "content_shape": [
+      "ambient-wheel+banners+bullets"
+    ],
+    "density": "medium",
+    "mood": [
+      "bold",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": [],
+    "ambient_capable": true
+  },
+  "slots": [
+    {
+      "name": "call_to_action",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 25,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 4
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/rotating_wheel_bullet_list_21bc3f/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "rotating_dial_orbit_calibration",
+      "timestamp": "00:00:01"
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75,
+    "notes": "reasoning: The slide features a prominent rotating wheel graphic on the left, a top CTA banner, an arrow-shaped subhead banner, and a bulleted list. The ambient rotation primitives perfectly capture the continuous motion implied by the circular text layout. (attempts: 2)"
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true
+  }
+}

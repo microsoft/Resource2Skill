@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_grid_bleed_layout_split_hero_416d7ec6",
+  "source": {
+    "channel": "Kevin Geary",
+    "duration_sec": 953,
+    "type": "youtube",
+    "video_id": "uy0dX-dQvpA",
+    "video_title": "How to Create a Split Hero Layout With a Magic Wand Called \"Content Grid\"",
+    "video_url": "https://www.youtube.com/watch?v=uy0dX-dQvpA",
+    "views": 12487
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

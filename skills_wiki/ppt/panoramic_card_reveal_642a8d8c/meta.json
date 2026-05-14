@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for presentation openings, tables of contents, introducing product features, showcasing multi-step processes, or presenting a portfolio of projects or services.",
+  "category_path": [
+    "animation",
+    "reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "panoramic_card_reveal_642a8d8c",
+  "skill_name": "Panoramic Card Reveal",
+  "source": {
+    "channel": "Dream Liu",
+    "duration_sec": 104,
+    "type": "youtube",
+    "video_id": "MYoqORG--5A",
+    "video_title": "Mastering PPT Design: Create Stunning Table of Contents Easily!",
+    "video_url": "https://www.youtube.com/watch?v=MYoqORG--5A",
+    "views": 7629
+  },
+  "tags": [
+    "panoramic",
+    "card reveal",
+    "morph transition",
+    "animated agenda",
+    "table of contents",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:41:39Z",
+  "wash_version": "1.0.0"
+}

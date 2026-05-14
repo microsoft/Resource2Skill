@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for celebratory announcements, holiday e-greetings, or milestone slides. It transforms a static slide into a dynamic, mood-setting experience by framing the central content with rhythmic background motion.",
+  "category_path": [
+    "animation",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "festive_serial_lights_animation_1ca9346b",
+  "skill_name": "Festive Serial Lights Animation",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 1122,
+    "type": "youtube",
+    "video_id": "84REb5xaYRM",
+    "video_title": "Easy PowerPoint Animation Effect",
+    "video_url": "https://www.youtube.com/watch?v=84REb5xaYRM",
+    "views": 192659
+  },
+  "tags": [
+    "festive",
+    "string_lights",
+    "pulsing_animation",
+    "glowing_effect",
+    "celebration"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:37Z",
+  "wash_version": "1.0.0"
+}

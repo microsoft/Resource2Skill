@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "prime_distributed_dom_particle_field_c381c803",
+  "skill_name": "Prime-Distributed DOM Particle Field",
+  "source": {
+    "channel": "Ecem Gokdogan",
+    "duration_sec": 247,
+    "type": "youtube",
+    "video_id": "pfCZ0tU9anM",
+    "video_title": "Particle Background Animation | Vanilla Javascript & CSS",
+    "video_url": "https://www.youtube.com/watch?v=pfCZ0tU9anM",
+    "views": 1113
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:21Z",
+  "wash_version": "1.0.0"
+}

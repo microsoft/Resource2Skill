@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_structured_infographic_slide_8b3e5285",
+  "skill_name": "Executive Structured Infographic Slide (\u7d50\u69cb\u5316\u9ad8\u968e\u4e3b\u7ba1\u6458\u8981\u5361\u7247\u6392\u7248)",
+  "source": {
+    "channel": "P & H",
+    "duration_sec": 877,
+    "type": "youtube",
+    "video_id": "sPRuuo9b-rQ",
+    "video_title": "AI\u505a\u7c21\u5831? 90%\u7684\u4eba\u90fd\u7528\u932f\u4e86\uff01\u5b78\u6703\u9019\u5957\u300eAI\u7c21\u5831\u9ec3\u91d1\u5de5\u4f5c\u6d41\u300f\uff0c\u5feb\u901f\u7522\u51fa\u5c08\u696dPPT #AI\u7c21\u5831 #AIPowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=sPRuuo9b-rQ",
+    "views": 111394
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:24:15Z",
+  "wash_version": "1.0.0"
+}

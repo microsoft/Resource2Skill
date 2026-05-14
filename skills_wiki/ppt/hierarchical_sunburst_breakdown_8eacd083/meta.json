@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hierarchical_sunburst_breakdown_8eacd083",
+  "skill_name": "Hierarchical Sunburst Breakdown",
+  "source": {
+    "channel": "Haider Niaz",
+    "duration_sec": 1151,
+    "type": "youtube",
+    "video_id": "FnjajdpHo0o",
+    "video_title": "Doughnut Pie Chart in Excel - Infographic",
+    "video_url": "https://www.youtube.com/watch?v=FnjajdpHo0o",
+    "views": 359283
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:33:42Z",
+  "wash_version": "1.0.0"
+}

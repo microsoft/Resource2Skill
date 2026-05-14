@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_only_target_popup_a52afb9b",
+  "source": {
+    "channel": "Tyler Potts",
+    "duration_sec": 806,
+    "type": "youtube",
+    "video_id": "czNhJc79LZM",
+    "video_title": "CSS ONLY Modals Tutorial - CSS Popups",
+    "video_url": "https://www.youtube.com/watch?v=czNhJc79LZM",
+    "views": 5366
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a visually striking timeline for tech roadmaps, development milestones, or modern history overviews. The high-contrast neon aesthetic is ideal for cybersecurity or gaming-related presentations.",
+  "category_path": [
+    "diagram",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_cyberpunk_glowing_timeline_2d551b84",
+  "skill_name": "Neon Cyberpunk Glowing Timeline",
+  "source": {
+    "channel": "ALAM PowerPoint",
+    "duration_sec": 475,
+    "type": "youtube",
+    "video_id": "TnY6LPvYetY",
+    "video_title": "Create a Simple Animated Timeline in PowerPoint (Step-by-Step & FREE TEMPLATE)",
+    "video_url": "https://www.youtube.com/watch?v=TnY6LPvYetY",
+    "views": 19222
+  },
+  "tags": [
+    "timeline",
+    "roadmap",
+    "cyberpunk",
+    "dark mode",
+    "tech"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:04Z",
+  "wash_version": "1.0.0"
+}

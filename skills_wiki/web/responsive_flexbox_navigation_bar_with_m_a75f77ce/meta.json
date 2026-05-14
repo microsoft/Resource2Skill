@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_navigation_bar_with_m_a75f77ce",
+  "skill_name": "Responsive Flexbox Navigation Bar with Mobile Drawer",
+  "source": {
+    "channel": "Dani Krossing",
+    "duration_sec": 516,
+    "type": "youtube",
+    "video_id": "Ovl3IxTwS18",
+    "video_title": "How to Create a Responsive Navigation Bar for Beginners | Responsive Menu | HTML & CSS Quick Tips",
+    "video_url": "https://www.youtube.com/watch?v=Ovl3IxTwS18",
+    "views": 34513
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:17:01Z",
+  "wash_version": "1.0.0"
+}

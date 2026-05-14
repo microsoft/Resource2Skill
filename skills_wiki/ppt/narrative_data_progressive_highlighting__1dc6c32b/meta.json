@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "narrative_data_progressive_highlighting__1dc6c32b",
+  "skill_name": "Narrative Data Progressive Highlighting (Setup-Conflict-Resolution)",
+  "source": {
+    "channel": "Harvard Business Review",
+    "duration_sec": 287,
+    "type": "youtube",
+    "video_id": "r5_34YnCmMY",
+    "video_title": "Telling Stories with Data in 3 Steps (Quick Study)",
+    "video_url": "https://www.youtube.com/watch?v=r5_34YnCmMY",
+    "views": 644813
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:11Z",
+  "wash_version": "1.0.0"
+}

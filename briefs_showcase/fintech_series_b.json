@@ -1,0 +1,26 @@
+{
+  "variant_id": "fintech_series_b",
+  "out_dirname": "fintech_series_b",
+  "title": "Ledgerloop: the ledger that pays itself",
+  "audience": "series B pitch to fintech-focused institutional investors",
+  "tone_words": ["boardroom", "punchy", "technical"],
+  "archetype_preference": "data",
+  "mood_preference": ["boardroom", "bold", "technical"],
+  "mode_preference": "dark",
+  "n_slides": 11,
+  "role_prefer": ["hero_giant_metric", "metric_dashboard", "comparison_split", "timeline_horizontal", "closing_cta"],
+  "role_avoid": ["hero_quote"],
+  "dense_quota": 3,
+  "core_points": [
+    "Thesis: merchants are leaving 4-6% on the table because settlement + reconciliation live in separate systems",
+    "Ledgerloop unifies real-time settlement with on-chain receipts in a single write",
+    "Live metrics: $2.8B settled month-to-date, 99.994% uptime, 11bps average cost",
+    "Customer wins: Rocket Retail cut reconciliation team from 9 to 2 FTE in one quarter",
+    "Moat: proprietary multi-rail router beats naive ACH+card by 38bps on average transaction",
+    "Business model: 8bps of settled volume + $0.02 per reconciliation event, 71% gross margin",
+    "Growth: 11% compounding MoM volume over trailing 9 months",
+    "Competitive lane: Stripe Treasury does money movement, we're the reconciliation layer that sits above",
+    "Roadmap: FedNow + RTP integration Q2, embedded lending Q4",
+    "Capital ask: $48M Series B to hit $100B ARR volume by Q4 2027"
+  ]
+}

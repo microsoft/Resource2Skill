@@ -1,0 +1,33 @@
+{
+  "applicability": "Ideal for slides requiring two distinct points or features, each highlighted with a prominent circular label and a rectangular content banner for descriptive text.",
+  "category_path": [
+    "feature_display",
+    "structured_content"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_row_circle_banner_fe781b",
+  "skill_name": "Two Row Circle Banner",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "two items",
+    "circle labels",
+    "bullet banners",
+    "feature list",
+    "card layout"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:09Z",
+  "wash_version": "1.0.0"
+}

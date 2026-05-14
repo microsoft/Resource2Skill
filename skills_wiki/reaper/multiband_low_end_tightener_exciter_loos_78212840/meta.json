@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for Mix Bus or Mastering chains in electronic music to resolve kick and sub-bass conflicts. It transforms a muddy low end into a tight, breathing foundation without overloading headroom.",
+  "category_path": [
+    "mixing",
+    "dynamics",
+    "multiband"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multiband_low_end_tightener_exciter_loos_78212840",
+  "skill_name": "Multiband Low-End Tightener & Exciter",
+  "source": {
+    "channel": "Streaky",
+    "duration_sec": 337,
+    "type": "youtube",
+    "video_id": "kWQvUHFRRIs",
+    "video_title": "Eliminate Muddy Bass For Good!",
+    "video_url": "https://www.youtube.com/watch?v=kWQvUHFRRIs",
+    "views": 257347
+  },
+  "tags": [
+    "multiband",
+    "compression",
+    "expansion",
+    "mid_side",
+    "mastering",
+    "low_end"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:33Z",
+  "wash_version": "1.0.0"
+}

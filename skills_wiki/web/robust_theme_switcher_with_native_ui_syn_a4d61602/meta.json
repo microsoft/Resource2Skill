@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "robust_theme_switcher_with_native_ui_syn_a4d61602",
+  "skill_name": "Robust Theme Switcher with Native UI Syncing",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "zFFuV_vXNhY",
+    "video_title": "A simple mistake that can screw up your light/dark theme (and how to fix it)",
+    "video_url": "https://www.youtube.com/watch?v=zFFuV_vXNhY",
+    "views": 61617
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:07:23Z",
+  "wash_version": "1.0.0"
+}

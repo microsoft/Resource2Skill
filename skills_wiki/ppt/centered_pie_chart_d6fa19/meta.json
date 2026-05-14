@@ -1,0 +1,32 @@
+{
+  "applicability": "Use this skill to create a slide for visualizing proportional data. It provides a clean layout with a central placeholder for a pie chart and a corresponding legend along the bottom.",
+  "category_path": [
+    "chart",
+    "pie_chart"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_pie_chart_d6fa19",
+  "skill_name": "Centered Pie Chart with Bottom Legend",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "chart",
+    "pie chart",
+    "legend",
+    "data visualization"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:03:18Z",
+  "wash_version": "1.0.0"
+}

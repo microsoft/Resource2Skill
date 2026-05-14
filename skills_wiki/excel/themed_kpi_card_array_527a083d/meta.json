@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_card_array_527a083d",
+  "skill_name": "Themed KPI Card Array",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:12:42Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 47,
+          "description": "Revenue KPI with visible number"
+        },
+        {
+          "seconds": 104,
+          "description": "KPI for Asia with revenue and region title"
+        },
+        {
+          "seconds": 148,
+          "description": "Completed Asia KPI with revenue and market share"
+        },
+        {
+          "seconds": 305,
+          "description": "SmartArt KPI with Revenue title"
+        },
+        {
+          "seconds": 318,
+          "description": "Completed SmartArt KPI with total revenue"
+        }
+      ],
+      "frames": [
+        "frame_00_revenue_kpi_with_visible_numbe.jpg",
+        "frame_01_kpi_for_asia_with_revenue_and_.jpg",
+        "frame_02_completed_asia_kpi_with_revenu.jpg"
+      ],
+      "recapped_at": 1777407687.4472983
+    },
+    "primary_path": "frame_00_revenue_kpi_with_visible_numbe.jpg"
+  }
+}

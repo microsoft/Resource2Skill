@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "programmatic_linear_flowchart_smartart_a_96a5ef30",
+  "skill_name": "Programmatic Linear Flowchart (SmartArt Alternative)",
+  "source": {
+    "channel": "Simon Sez IT",
+    "duration_sec": 262,
+    "type": "youtube",
+    "video_id": "Mk4QLc6aDkE",
+    "video_title": "Creating a Flowchart in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=Mk4QLc6aDkE",
+    "views": 74598
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:23Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "two_dimensional_xlookup",
+  "description": "Performs a two-way matrix lookup by nesting XLOOKUPs. The inner XLOOKUP evaluates the column criteria and passes the resulting vertical array to the outer XLOOKUP to evaluate the row criteria.",
+  "formula": "=XLOOKUP({row_lookup_value}, {row_lookup_array}, XLOOKUP({column_lookup_value}, {column_lookup_array}, {data_matrix}))"
+}

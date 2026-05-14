@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_perspective_portfolio_mockup_d3ecf61e",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 543,
+    "type": "youtube",
+    "video_id": "0VGc7jrD9zo",
+    "video_title": "GOOD Vs BAD Design Portfolios (With Examples)",
+    "video_url": "https://www.youtube.com/watch?v=0VGc7jrD9zo",
+    "views": 339107
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

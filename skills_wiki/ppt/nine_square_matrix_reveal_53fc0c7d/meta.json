@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for cover slides, section headers, or intros to showcase images in a modern, structured manner, lending an editorial feel to portfolios or product lookbooks.",
+  "category_path": [
+    "image_layout",
+    "visual_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "nine_square_matrix_reveal_53fc0c7d",
+  "skill_name": "Nine-Square Matrix Reveal",
+  "source": {
+    "channel": "\u5e03\u8863\u516c\u5b50PPT",
+    "duration_sec": 119,
+    "type": "youtube",
+    "video_id": "ZExZSKYEfq0",
+    "video_title": "\u5e03\u8863\u516c\u5b50\u300a\u4e00\u5206\u949fPPT\u6280\u80fd\u300b\u7cfb\u5217\u4e4b4-5 \u56fe\u7247\u62c6\u6210\u4e5d\u5bab\u683c",
+    "video_url": "https://www.youtube.com/watch?v=ZExZSKYEfq0",
+    "views": 237
+  },
+  "tags": [
+    "image grid",
+    "instagram aesthetic",
+    "visual layout",
+    "modern design",
+    "photo composition"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:14Z",
+  "wash_version": "1.0.0"
+}

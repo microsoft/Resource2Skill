@@ -1,0 +1,166 @@
+import os
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+from pptx.enum.shapes import MSO_SHAPE
+from pptx.enum.text import PP_ALIGN
+from pptx.chart.data import CategoryChartData
+from pptx.enum.chart import XL_CHART_TYPE, XL_TICK_MARK, XL_LEGEND_POSITION
+
+def create_slide(
+    output_pptx_path: str,
+    slide_title: str = "STRATEGY & OPERATIONS: Video Engagement Analysis",
+    problem_title: str = "현황 분석: 5초 내 제품 노출 부재 시 이탈률 리스크",
+    solution_title: str = "솔루션: 3초 내 브랜드 로고 전면 배치의 효과",
+    **kwargs,
+) -> str:
+    """
+    Creates a PPTX file reproducing the 'Consulting-Style Analytical Data Card Layout'.
+    """
+    prs = Presentation()
+    prs.slide_width = Inches(13.333)
+    prs.slide_height = Inches(7.5)
+    
+    # Use blank layout
+    slide = prs.slides.add_slide(prs.slide_layouts[6])
+
+    # === Colors ===
+    COLOR_BG_CARD = RGBColor(248, 249, 250)    # Light gray
+    COLOR_TEXT_DARK = RGBColor(33, 37, 41)     # Dark slate
+    COLOR_TEXT_MUTED = RGBColor(108, 117, 125) # Muted gray
+    COLOR_ACCENT_RED = RGBColor(220, 53, 69)   # Red (Risk)
+    COLOR_ACCENT_BLUE = RGBColor(13, 110, 253) # Blue (Baseline)
+    COLOR_ACCENT_GREEN = RGBColor(25, 135, 84) # Green (Success)
+
+    # === Main Slide Title ===
+    title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.2), Inches(12), Inches(0.5))
+    tf = title_box.text_frame
+    p = tf.paragraphs[0]
+    p.text = slide_title.upper()
+    p.font.bold = True
+    p.font.size = Pt(14)
+    p.font.color.rgb = COLOR_TEXT_MUTED
+
+    # ==========================================
+    # === LAYER 1: TOP CARD (PROBLEM/STATUS) ===
+    # ==========================================
+    
+    # Card Container
+    card1 = slide.shapes.add_shape(
+        MSO_SHAPE.ROUNDED_RECTANGLE, 
+        Inches(0.5), Inches(0.8), Inches(12.333), Inches(3.0)
+    )
+    card1.fill.solid()
+    card1.fill.fore_color.rgb = COLOR_BG_CARD
+    card1.line.fill.background() # No outline
+    # Adjust corner radius to be subtle
+    card1.adjustments[0] = 0.05 
+
+    # Card 1 Text Content (Left side)
+    tb1 = slide.shapes.add_textbox(Inches(0.7), Inches(1.0), Inches(5.0), Inches(2.5))
+    tf1 = tb1.text_frame
+    tf1.word_wrap = True
+    
+    p1 = tf1.paragraphs[0]
+    p1.text = problem_title
+    p1.font.bold = True
+    p1.font.size = Pt(20)
+    p1.font.color.rgb = COLOR_TEXT_DARK
+
+    p1_sub = tf1.add_paragraph()
+    p1_sub.text = "\n• 시청자의 60%가 첫 5초 이내에 이탈합니다.\n• 제품 노출이 지연될 경우 브랜드 인지도가 급락합니다.\n• 초기 주목도 하락은 전환율 33% 감소로 이어집니다."
+    p1_sub.font.size = Pt(14)
+    p1_sub.font.color.rgb = COLOR_TEXT_MUTED
+
+    # Card 1 Chart: Line Chart (Right side)
+    chart_data1 = CategoryChartData()
+    chart_data1.categories = ['0s', '1s', '2s', '3s', '4s', '5s']
+    chart_data1.add_series('일반 영상 (위험)', (100, 95, 85, 60, 40, 20))
+    chart_data1.add_series('최적화 영상 (권장)', (100, 98, 96, 94, 90, 85))
+
+    x, y, cx, cy = Inches(6.0), Inches(0.9), Inches(6.5), Inches(2.8)
+    chart1 = slide.shapes.add_chart(
+        XL_CHART_TYPE.LINE, x, y, cx, cy, chart_data1
+    ).chart
+
+    chart1.has_legend = True
+    chart1.legend.position = XL_LEGEND_POSITION.BOTTOM
+    chart1.legend.include_in_layout = False
+    
+    # Style Line Chart
+    series1 = chart1.series[0]
+    series1.format.line.color.rgb = COLOR_ACCENT_RED
+    series1.format.line.width = Pt(2.5)
+    
+    series2 = chart1.series[1]
+    series2.format.line.color.rgb = COLOR_ACCENT_BLUE
+    series2.format.line.width = Pt(2.5)
+
+    # Clean up chart UI
+    chart1.value_axis.has_major_gridlines = False
+    chart1.value_axis.visible = False
+
+    # ==============================================
+    # === LAYER 2: BOTTOM CARD (SOLUTION/IMPACT) ===
+    # ==============================================
+    
+    # Card Container
+    card2 = slide.shapes.add_shape(
+        MSO_SHAPE.ROUNDED_RECTANGLE, 
+        Inches(0.5), Inches(4.0), Inches(12.333), Inches(3.0)
+    )
+    card2.fill.solid()
+    card2.fill.fore_color.rgb = COLOR_BG_CARD
+    card2.line.fill.background()
+    card2.adjustments[0] = 0.05
+
+    # Card 2 Text Content (Left side)
+    tb2 = slide.shapes.add_textbox(Inches(0.7), Inches(4.2), Inches(5.0), Inches(2.5))
+    tf2 = tb2.text_frame
+    tf2.word_wrap = True
+    
+    p2 = tf2.paragraphs[0]
+    p2.text = solution_title
+    p2.font.bold = True
+    p2.font.size = Pt(20)
+    p2.font.color.rgb = COLOR_TEXT_DARK
+
+    p2_sub = tf2.add_paragraph()
+    p2_sub.text = "\n• 3초 이내 로고 노출 시 브랜드 각인 효과 상승.\n• 명확한 시각적 앵커 제공으로 시청 유지율 개선.\n• 클릭률(CTR) 및 최종 구매 전환율 동반 상승."
+    p2_sub.font.size = Pt(14)
+    p2_sub.font.color.rgb = COLOR_TEXT_MUTED
+
+    # Card 2 Chart: Bar Chart (Right side)
+    chart_data2 = CategoryChartData()
+    chart_data2.categories = ['브랜드 인지도', '클릭률(CTR)', '구매 전환율']
+    chart_data2.add_series('상승폭 (%)', (18, 30, 12))
+
+    x2, y2, cx2, cy2 = Inches(6.0), Inches(4.1), Inches(6.5), Inches(2.8)
+    chart2 = slide.shapes.add_chart(
+        XL_CHART_TYPE.COLUMN_CLUSTERED, x2, y2, cx2, cy2, chart_data2
+    ).chart
+
+    chart2.has_legend = False
+    
+    # Style Bar Chart
+    series3 = chart2.series[0]
+    series3.format.fill.solid()
+    series3.format.fill.fore_color.rgb = COLOR_ACCENT_GREEN
+    
+    # Clean up chart UI
+    chart2.value_axis.has_major_gridlines = False
+    chart2.value_axis.visible = False
+    
+    # Add data labels
+    chart2.plots[0].has_data_labels = True
+    for point in series3.points:
+        point.data_label.font.size = Pt(12)
+        point.data_label.font.bold = True
+        point.data_label.font.color.rgb = COLOR_TEXT_DARK
+        point.data_label.number_format = '0"%"'
+
+    prs.save(output_pptx_path)
+    return output_pptx_path
+
+# Example execution:
+# create_slide("consulting_data_layout.pptx")

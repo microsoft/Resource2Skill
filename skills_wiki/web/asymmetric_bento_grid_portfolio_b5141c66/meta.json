@@ -1,0 +1,65 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_bento_grid_portfolio_b5141c66",
+  "skill_name": "Asymmetric Bento Grid Portfolio",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 1361,
+    "type": "youtube",
+    "video_id": "gHrS5X4nKbU",
+    "video_title": "Reacting to 21 Design Portfolios in 22 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=gHrS5X4nKbU",
+    "views": 1005596
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:57Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 52,
+          "description": "Matthis Garnier's portfolio homepage with animated text and portrait"
+        },
+        {
+          "seconds": 149,
+          "description": "Flowman portfolio homepage with comic book hero illustration"
+        },
+        {
+          "seconds": 1047,
+          "description": "Producta's diverse project showcase with varied mockup styles"
+        },
+        {
+          "seconds": 1416,
+          "description": "Josh Warner's artistic portfolio homepage with elaborate 3D typography"
+        },
+        {
+          "seconds": 1738,
+          "description": "Yo Kyoto Studio's homepage with bold 'Designed & Delivered' text"
+        }
+      ],
+      "frames": [
+        "frame_00_matthis_garnier_s_portfolio_ho.jpg",
+        "frame_01_flowman_portfolio_homepage_wit.jpg",
+        "frame_02_producta_s_diverse_project_sho.jpg"
+      ],
+      "recapped_at": 1777408581.4896855
+    },
+    "primary_path": "frame_00_matthis_garnier_s_portfolio_ho.jpg"
+  }
+}

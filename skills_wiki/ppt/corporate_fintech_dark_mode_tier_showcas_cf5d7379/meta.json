@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for fintech pitch decks, crypto whitepaper presentations, and SaaS pricing tier slides. Use this skill to create a modern, high-contrast layout that conveys a premium and secure tone.",
+  "category_path": [
+    "layout",
+    "pricing_tiers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_fintech_dark_mode_tier_showcas_cf5d7379",
+  "skill_name": "Fintech Dark Mode Pricing Tiers",
+  "source": {
+    "channel": "Ching Jui",
+    "duration_sec": 1001,
+    "type": "youtube",
+    "video_id": "bXWZjFv3-38",
+    "video_title": "CFX-CashForex \u9805\u76ee\u4ecb\u7d39 PPT\u8b1b\u89e3  \u5373\u5c07\u5f15\u7206\u5168\u7403\u7684\u9805\u76ee\uff01\u9700\u8981\u53ca\u65e9\u4f54\u4f4d\uff01(\u745e\u5947\u5c31\u662f\u6709\u9322)",
+    "video_url": "https://www.youtube.com/watch?v=bXWZjFv3-38",
+    "views": 12
+  },
+  "tags": [
+    "dark mode",
+    "fintech",
+    "pricing tiers",
+    "neon accent",
+    "corporate"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:05:12Z",
+  "wash_version": "1.0.0"
+}

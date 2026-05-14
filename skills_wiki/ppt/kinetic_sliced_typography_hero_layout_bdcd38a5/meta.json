@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_sliced_typography_hero_layout_bdcd38a5",
+  "skill_name": "Kinetic Sliced-Typography Hero Layout",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 143,
+    "type": "youtube",
+    "video_id": "-eWpzOz3CIo",
+    "video_title": "PPT\u521b\u610f\u8bbe\u8ba1\uff1aPPT\u5236\u4f5c\u521b\u610f\u52a8\u611f\u4eba\u7269\u4ecb\u7ecd\u9875\u9762",
+    "video_url": "https://www.youtube.com/watch?v=-eWpzOz3CIo",
+    "views": 465
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:45:48Z",
+  "wash_version": "1.0.0"
+}

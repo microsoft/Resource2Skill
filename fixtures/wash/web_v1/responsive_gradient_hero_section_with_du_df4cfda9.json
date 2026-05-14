@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_gradient_hero_section_with_du_df4cfda9",
+  "source": {
+    "channel": "Coding Tutorial Series",
+    "duration_sec": 414,
+    "type": "youtube",
+    "video_id": "vO39-DIDKcs",
+    "video_title": "How to Create a Responsive Hero Section with Call-to-Action (CTA) Using Tailwind CSS #tailwindcss",
+    "video_url": "https://www.youtube.com/watch?v=vO39-DIDKcs",
+    "views": 46
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

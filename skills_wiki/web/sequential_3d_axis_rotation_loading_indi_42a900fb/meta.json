@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sequential_3d_axis_rotation_loading_indi_42a900fb",
+  "skill_name": "Sequential 3D Axis-Rotation Loading Indicator",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:53:03Z",
+  "wash_version": "1.0.0"
+}

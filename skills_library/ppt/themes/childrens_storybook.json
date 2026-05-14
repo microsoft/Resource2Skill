@@ -1,0 +1,123 @@
+{
+  "theme_id": "childrens_storybook",
+  "name": "Children's Storybook",
+  "palette": {
+    "bg": "#FFF7E6",
+    "panel": "#FFE2B8",
+    "accent": "#F2712B",
+    "accent2": "#2F8D8D",
+    "text": "#2F2017",
+    "muted": "#8C7862",
+    "border": "#E9C99A",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Comic Sans MS",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Comic Sans MS",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Comic Sans MS",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "storybook_arch",
+    "description": "Rounded arch frames; storybook illustration feel"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "playful",
+    "preferred_entrance": [
+      "zoom",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": []
+  },
+  "mood": [
+    "playful",
+    "warm",
+    "calm"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "balloon",
+    "bubble",
+    "confetti",
+    "map-pin",
+    "page-turn",
+    "polaroid",
+    "lab-blink"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "marquee",
+    "hairline",
+    "typewriter"
+  ]
+}

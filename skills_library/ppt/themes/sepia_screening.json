@@ -1,0 +1,127 @@
+{
+  "theme_id": "sepia_screening",
+  "name": "Sepia Screening",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f",
+  "source_title": "Coolors Sepia slate palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0A0908",
+    "panel": "#22333B",
+    "accent": "#C6AC8F",
+    "accent2": "#5E503F",
+    "text": "#EAE0D5",
+    "muted": "#C6AC8F",
+    "border": "#5E503F",
+    "success": "#22333B",
+    "warning": "#C6AC8F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Cambria",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Cambria",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Trebuchet MS",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Palatino Linotype",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "smoky sepia texture behind clean title cards"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "warm",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "cinematic",
+    "warm",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "wash",
+    "cinematic",
+    "bloom",
+    "measured"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "bounce",
+    "grid"
+  ]
+}

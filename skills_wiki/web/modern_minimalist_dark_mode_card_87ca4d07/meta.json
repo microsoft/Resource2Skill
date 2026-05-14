@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for SaaS dashboards, developer tools, and tech landing pages. Enhances user experience with reduced eye strain and a premium, sleek aesthetic for extended viewing.",
+  "category_path": [
+    "card_layout",
+    "dark_mode"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_minimalist_dark_mode_card_87ca4d07",
+  "skill_name": "Modern Minimalist Dark Mode Card",
+  "source": {
+    "channel": "Juxtopposed",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "6U9iC-c15AI",
+    "video_title": "Rise of the Dark Mode",
+    "video_url": "https://www.youtube.com/watch?v=6U9iC-c15AI",
+    "views": 424890
+  },
+  "tags": [
+    "dark-mode",
+    "minimalist",
+    "card",
+    "interactive",
+    "web-component",
+    "css-tricks"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:43:46Z",
+  "wash_version": "1.0.0"
+}

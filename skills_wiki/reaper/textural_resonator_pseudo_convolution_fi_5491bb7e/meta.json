@@ -1,0 +1,36 @@
+{
+  "applicability": "Incredible for IDM, ambient, cinematic sound design, and experimental electronic music. It transforms sterile synth plucks into hyper-realistic 'hybrid' acoustic instruments.",
+  "category_path": [
+    "effects",
+    "timbre_shaping"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "textural_resonator_pseudo_convolution_fi_5491bb7e",
+  "skill_name": "Textural Resonator (Pseudo-Convolution FIR Imprint)",
+  "source": {
+    "channel": "Venus Theory",
+    "duration_sec": 1217,
+    "type": "youtube",
+    "video_id": "uvMKOkkCwBU",
+    "video_title": "Convolution: The Secret Weapon Of Sound Design \ud83e\udd2b",
+    "video_url": "https://www.youtube.com/watch?v=uvMKOkkCwBU",
+    "views": 186593
+  },
+  "tags": [
+    "convolution",
+    "fir filter",
+    "sound design",
+    "resonant bodies",
+    "micro-delay",
+    "timbre shaping"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:22Z",
+  "wash_version": "1.0.0"
+}

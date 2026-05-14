@@ -1,0 +1,5 @@
+{
+  "name": "currency_usd",
+  "description": "USD currency with thousand separators, negatives in red parens",
+  "number_format": "$#,##0.00_);[Red]($#,##0.00)"
+}

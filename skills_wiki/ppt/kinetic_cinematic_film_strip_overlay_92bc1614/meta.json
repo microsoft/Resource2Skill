@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for storytelling slides, timelines, creative portfolios, or 'Step 1, Step 2, Step 3' process reveals. It transforms a standard bulleted list into a unified, thematic, and highly stylized graphic poster.",
+  "category_path": [
+    "layout_design",
+    "visual_storytelling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_cinematic_film_strip_overlay_92bc1614",
+  "skill_name": "Kinetic Cinematic Film Strip Overlay",
+  "source": {
+    "channel": "PowerPoint Spice",
+    "duration_sec": 898,
+    "type": "youtube",
+    "video_id": "kI39o2K3KD4",
+    "video_title": "How to Make Kinetic Typography Effects - Advanced Powerpoint Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=kI39o2K3KD4",
+    "views": 595122
+  },
+  "tags": [
+    "film strip",
+    "cinematic",
+    "typography",
+    "storytelling",
+    "process flow",
+    "high-contrast"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:45:42Z",
+  "wash_version": "1.0.0"
+}

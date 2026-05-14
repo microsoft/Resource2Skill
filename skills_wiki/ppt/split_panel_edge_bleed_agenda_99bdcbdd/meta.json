@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_panel_edge_bleed_agenda_99bdcbdd",
+  "skill_name": "Split-Panel Edge-Bleed Agenda",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 496,
+    "type": "youtube",
+    "video_id": "4bKMJHgboZk",
+    "video_title": "Best Agenda Template 1 | Animated PowerPoint Slide Design Tutorial for Busy Professionals",
+    "video_url": "https://www.youtube.com/watch?v=4bKMJHgboZk",
+    "views": 59918
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:06Z",
+  "wash_version": "1.0.0"
+}

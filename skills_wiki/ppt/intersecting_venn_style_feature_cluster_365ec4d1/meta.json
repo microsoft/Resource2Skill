@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "intersecting_venn_style_feature_cluster_365ec4d1",
+  "skill_name": "Intersecting Venn-Style Feature Cluster",
+  "source": {
+    "channel": "Shubham Naik",
+    "duration_sec": 327,
+    "type": "youtube",
+    "video_id": "wO044d_Fn_s",
+    "video_title": "Video 8 basic presentation google slides part 6 (USP & Testimonial slide)",
+    "video_url": "https://www.youtube.com/watch?v=wO044d_Fn_s",
+    "views": 106
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:44:10Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_editorial_photo_list_layout_classi_5a06571b",
+  "skill_name": "Clean Editorial Photo & List Layout (Classic Keynote Aesthetic)",
+  "source": {
+    "channel": "macmostvideo",
+    "duration_sec": 330,
+    "type": "youtube",
+    "video_id": "jUJNCun2ccg",
+    "video_title": "Learn How To Use Mac Keynote In 5 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=jUJNCun2ccg",
+    "views": 170951
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:23Z",
+  "wash_version": "1.0.0"
+}

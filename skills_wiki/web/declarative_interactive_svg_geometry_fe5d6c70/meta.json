@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for hero illustrations, feature highlight cards, empty state graphics, and custom interactive dashboard icons. It enables hardware-accelerated micro-interactions using only CSS.",
+  "category_path": [
+    "graphics",
+    "svg"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "declarative_interactive_svg_geometry_fe5d6c70",
+  "skill_name": "Declarative Interactive SVG Geometry",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 140,
+    "type": "youtube",
+    "video_id": "emFMHH2Bfvo",
+    "video_title": "SVG Explained in 100 Seconds",
+    "video_url": "https://www.youtube.com/watch?v=emFMHH2Bfvo",
+    "views": 1004842
+  },
+  "tags": [
+    "svg",
+    "animation",
+    "interactive",
+    "geometry",
+    "css-transitions"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:12Z",
+  "wash_version": "1.0.0"
+}

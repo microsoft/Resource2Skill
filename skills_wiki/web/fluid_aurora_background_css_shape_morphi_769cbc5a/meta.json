@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_aurora_background_css_shape_morphi_769cbc5a",
+  "skill_name": "Fluid Aurora Background (CSS Shape Morphing)",
+  "source": {
+    "channel": "Ecem Gokdogan",
+    "duration_sec": 225,
+    "type": "youtube",
+    "video_id": "vkn7_04oZ0o",
+    "video_title": "Background Animation | Moving, Rotating & Morphing Shape | HTML CSS #blob",
+    "video_url": "https://www.youtube.com/watch?v=vkn7_04oZ0o",
+    "views": 3153
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:30Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "reapertips_songwriting_track_scaffold_cfa5be4f",
+  "skill_name": "Reapertips Songwriting Track Scaffold",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=5gmCE3zd0nk"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:23:04Z",
+  "wash_version": "1.0.0"
+}

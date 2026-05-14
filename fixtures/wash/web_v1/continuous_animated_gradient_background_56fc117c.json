@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_animated_gradient_background_56fc117c",
+  "source": {
+    "channel": "Tahmid Ahmed",
+    "duration_sec": 205,
+    "type": "youtube",
+    "video_id": "LqRfQVcn3FY",
+    "video_title": "Animated Gradient Background with Pure CSS | HTML & CSS Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=LqRfQVcn3FY",
+    "views": 118741
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

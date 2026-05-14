@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for luxury brand landing pages, high-end portfolios, and immersive campaigns. It serves as a compelling hero section hook, smoothly transitioning users from visual to informational spaces.",
+  "category_path": [
+    "canvas_webgl",
+    "scroll_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "liquid_scroll_morphogenesis_webgl_maskin_5aa92bfb",
+  "skill_name": "Liquid Scroll Morphogenesis",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 1035,
+    "type": "youtube",
+    "video_id": "s6s3rOoEluI",
+    "video_title": "I Made a Scroll Animation That Slowly Destroys the Hero Section (On Purpose)",
+    "video_url": "https://www.youtube.com/watch?v=s6s3rOoEluI",
+    "views": 12001
+  },
+  "tags": [
+    "webgl",
+    "scrolltrigger",
+    "shader",
+    "masking",
+    "three.js",
+    "hero-section"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:53Z",
+  "wash_version": "1.0.0"
+}

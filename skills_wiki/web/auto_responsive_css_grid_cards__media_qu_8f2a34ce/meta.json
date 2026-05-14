@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_responsive_css_grid_cards__media_qu_8f2a34ce",
+  "skill_name": "Auto-Responsive CSS Grid Cards (Media Query-Free Layout)",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=3T0gjtXRNC0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:07:12Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Initial non-responsive grid (problem)"
+        },
+        {
+          "seconds": 10,
+          "description": "Desired responsive grid wrapping elements"
+        },
+        {
+          "seconds": 116,
+          "description": "CSS Grid layout with rigid columns"
+        },
+        {
+          "seconds": 341,
+          "description": "Grid wrapping columns with auto-fit and fixed width"
+        },
+        {
+          "seconds": 534,
+          "description": "Fully responsive grid with auto-fit and minmax() for flexible column widths"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_non_responsive_grid_pr.jpg",
+        "frame_01_desired_responsive_grid_wrappi.jpg",
+        "frame_02_css_grid_layout_with_rigid_col.jpg",
+        "frame_03_grid_wrapping_columns_with_aut.jpg"
+      ],
+      "recapped_at": 1777408754.9190483
+    },
+    "primary_path": "frame_00_initial_non_responsive_grid_pr.jpg"
+  }
+}

@@ -1,0 +1,1408 @@
+{
+  "rows": [
+    {
+      "after": {
+        "category_path": [
+          "project_management",
+          "agile"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "agile_kanban_task_tracker_73807267"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboard",
+          "ui_shell"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboard",
+          "ui_ux",
+          "sheet_design"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "app_like_dashboard_shell_93f2d30f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_visualization",
+          "chart_templates"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart_templates"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "bar_compare_70db9f1b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "financials",
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "budget_vs_actuals_doughnut_dashboard_9d97d3db"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "clean_minimal_fc0c78a6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "chart",
+          "combo"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart",
+          "combination_chart"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "combo_column_line_chart_c4a305a9"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "conditional_formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "conditional_formatting_gantt_chart_108816ce"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "styling",
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "corporate_blue_b5427a1a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "number_formats",
+          "currency"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formatting",
+          "currency"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "currency_signed_0a6077cc"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "number_formats",
+          "currency"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "format_presets"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "currency_usd_a9c424f6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dark_finance_3f365b89"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "conditional_formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dark_mode_toggle_sheet_909a8ba0"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboard",
+          "layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dashboard_canvas_shell_74c0e7aa"
+    },
+    {
+      "after": {
+        "category_path": [
+          "reporting",
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboard",
+          "reporting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dashboard_shell_with_linked_chart_c1511c1e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "reporting",
+          "summary_dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "data_summary",
+          "reporting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "data_summary_with_top_kpis_and_sparkline_984ede7b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "number_formats",
+          "date"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "format_presets"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "date_compact_a345e05a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboards",
+          "kpi"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboards",
+          "kpi",
+          "conditional_formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_conditional_kpi_strip_cc461b84"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_management",
+          "tables"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "table"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_excel_table_data_source_a73c62af"
+    },
+    {
+      "after": {
+        "category_path": [
+          "project_management",
+          "gantt_charts"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "project_management",
+          "gantt_chart"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_formula_driven_gantt_chart_0aa54718"
+    },
+    {
+      "after": {
+        "category_path": [
+          "project_management",
+          "scheduling"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formatting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_in_cell_gantt_chart_6f9abc4e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "chart"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart",
+          "fill"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_overlap_fill_chart_e773ba64"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "lookup"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboard",
+          "interactive_element"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_record_viewer_a4d46290"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "financial"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas",
+          "growth_metrics"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "growth_pct_88ed96a0"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "lookup"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "index_match_377dfb8b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "validation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "data_analysis",
+          "lookup"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_two_way_lookup_c3b513a9"
+    },
+    {
+      "after": {
+        "category_path": [
+          "themes",
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "themes",
+          "kpi_dashboards"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "kpi_traffic_900030a3"
+    },
+    {
+      "after": {
+        "category_path": [
+          "format_presets"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "kpi",
+          "formatting",
+          "conditional_display"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "kpi_traffic_d3f7dcd8"
+    },
+    {
+      "after": {
+        "category_path": [
+          "chart_templates",
+          "line"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart_templates"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "line_trend_0c6743e6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formula",
+          "aggregation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formula"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "nested_filter_2d_aggregation_0323a3b1"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "ocean_calm_0270ee96"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "number_formats"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "number_formatting",
+          "percentages"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "percent_basic_e4b39515"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "number_formats"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "format_presets"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "percent_signed_85d152ee"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboards",
+          "process_monitoring"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "data_visualization",
+          "process_flow",
+          "dashboards"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "process_flow_kanban_dashboard_b103bf88"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formula",
+          "named_range"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas",
+          "named_ranges"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "relative_named_range_dynamic_sum_83d1fe0e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "financial",
+          "reporting"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "reporting",
+          "financial"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "robust_budget_vs_actuals_table_71b9e76b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas",
+          "cumulative_calculations"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "running_total_56b6a9f6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_visualization",
+          "dashboards"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "pivot_table"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "s_100_percent_stacked_distribution_dashboa_8f4ed752"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_visualization",
+          "charts",
+          "custom"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "charting",
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "score_meter_chart_ab9f517c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "chart"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart",
+          "line_chart"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "selective_focused_line_chart_6087975c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "references",
+          "dynamic_arrays"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formula",
+          "dynamic_arrays"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "spilled_array_reference_operator_8bcf6755"
+    },
+    {
+      "after": {
+        "category_path": [
+          "chart_templates"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart_templates"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "stacked_area_ba2418c6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "math_and_trig"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "sumifs_dynamic_ec983d8e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboard",
+          "layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboard",
+          "layout",
+          "theming"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "themed_dashboard_grid_shell_e7fb4b4d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "reporting",
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T5",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T5",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "themed_kpi_dashboard_shell_da21f824"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_visualization",
+          "charts"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "chart"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "themed_line_chart_component_5f8df87b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "number_formats"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "number_formatting",
+          "presets"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "thousand_sep_a814c34b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formula",
+          "lookup"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formula",
+          "data_lookup"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "tiered_lookup_with_xlookup_01ce3f6f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_analysis",
+          "time_series"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "analysis",
+          "time_series"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "time_interval_binning_analysis_b0b7f455"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formula",
+          "dynamic_arrays"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formula",
+          "range_manipulation",
+          "data_cleaning"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "trimrange_dynamic_array_suffix_d54dcd9b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "lookup",
+          "matrix"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formula",
+          "lookup"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "two_dimensional_xlookup_0ff30111"
+    },
+    {
+      "after": {
+        "category_path": [
+          "table",
+          "filtering"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "table",
+          "slicers"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "unknown_skill_4d140d62"
+    },
+    {
+      "after": {
+        "category_path": [
+          "external_tools",
+          "ai_integration"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "other"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "unknown_skill_65d368f9"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formatting",
+          "worksheet_appearance"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "other"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "unknown_skill_d073e0f0"
+    },
+    {
+      "after": {
+        "category_path": [
+          "pivot_table",
+          "filtering"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "pivot_table"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "unknown_skill_e94b981d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "kpi_metrics"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "variance_vs_target_59e5dd37"
+    },
+    {
+      "after": {
+        "category_path": [
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "themes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "warm_report_39c65a96"
+    },
+    {
+      "after": {
+        "category_path": [
+          "formulas",
+          "financial"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "formulas",
+          "financial_analysis"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "manual",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "yoy_compare_ddb763d9"
+    }
+  ],
+  "run_id": "wash_1777279875",
+  "ts": "2026-04-27T09:04:15Z"
+}

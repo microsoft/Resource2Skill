@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_only_target_popup_a52afb9b",
+  "skill_name": "CSS-Only Target Popup",
+  "source": {
+    "channel": "Tyler Potts",
+    "duration_sec": 806,
+    "type": "youtube",
+    "video_id": "czNhJc79LZM",
+    "video_title": "CSS ONLY Modals Tutorial - CSS Popups",
+    "video_url": "https://www.youtube.com/watch?v=czNhJc79LZM",
+    "views": 5366
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:42Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,71 @@
+{
+  "skill_id": "tutorial_screenshot_bbae82",
+  "skill_type": "shell",
+  "name": "Tutorial Screenshot",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "image-only"
+    ],
+    "density": "low",
+    "mood": [
+      "technical",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    },
+    {
+      "name": "caption",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/tutorial_screenshot_bbae82/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "realistic_typewriter_rhythm_morph_frame__44d189cb",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A simple layout for displaying a large screenshot or image, typical for software tutorials, with optional headline and caption.",
+  "_distill_attempts": 1
+}

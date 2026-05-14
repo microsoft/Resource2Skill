@@ -1,0 +1,35 @@
+{
+  "applicability": "A foundational mindset for beginners, universally applicable to any genre. It simplifies mixing by framing all core processors (EQ, compression, panning) as forms of volume control.",
+  "category_path": [
+    "mixing",
+    "foundations"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "the_everything_is_volume_mix_foundation_7a3c11ff",
+  "skill_name": "Volume-Centric Mixing Foundation",
+  "source": {
+    "channel": "Andrew Barr",
+    "duration_sec": 123,
+    "type": "youtube",
+    "video_id": "qUGxA2ep8wI",
+    "video_title": "THE worlds shortest mixing course you'll ever need",
+    "video_url": "https://www.youtube.com/watch?v=qUGxA2ep8wI",
+    "views": 386882
+  },
+  "tags": [
+    "mixing",
+    "gain staging",
+    "eq",
+    "compression",
+    "foundations"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:28Z",
+  "wash_version": "1.0.0"
+}

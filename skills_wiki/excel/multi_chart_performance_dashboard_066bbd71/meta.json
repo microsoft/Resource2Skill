@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_chart_performance_dashboard_066bbd71",
+  "skill_name": "Multi-Chart Performance Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:55:09Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial interactive dashboard overview"
+        },
+        {
+          "seconds": 815,
+          "description": "first chart (profit by market & cookie type) placed on dashboard"
+        },
+        {
+          "seconds": 1246,
+          "description": "all three charts composed on the dashboard"
+        },
+        {
+          "seconds": 1530,
+          "description": "dashboard actively filtering data using slicers"
+        },
+        {
+          "seconds": 1735,
+          "description": "final polished interactive dashboard without gridlines or headings"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_interactive_dashboard_.jpg",
+        "frame_01_first_chart_profit_by_market_c.jpg"
+      ],
+      "recapped_at": 1777407253.5032828
+    },
+    "primary_path": "frame_00_initial_interactive_dashboard_.jpg"
+  }
+}

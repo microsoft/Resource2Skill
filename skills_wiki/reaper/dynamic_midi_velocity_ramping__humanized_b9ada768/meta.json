@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_midi_velocity_ramping__humanized_b9ada768",
+  "skill_name": "Dynamic MIDI Velocity Ramping (Humanized Swell / Crescendo)",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1AXxztgzrAk"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:02:16Z",
+  "wash_version": "1.0.0"
+}

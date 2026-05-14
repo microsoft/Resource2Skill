@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for presenting 4-step business processes, project phases, or interconnected steps by dynamically guiding audience focus through a smooth Morph transition.",
+  "category_path": [
+    "infographic",
+    "process",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_process_morph_a27c9d62",
+  "skill_name": "Circular Process Morph",
+  "source": {
+    "channel": "Skill Tide IT",
+    "duration_sec": 176,
+    "type": "youtube",
+    "video_id": "eYpb4RJwQak",
+    "video_title": "PowerPoint 2025 Tips & Tricks | Slide Design Like a Pro! #powerpoint #ppt ",
+    "video_url": "https://www.youtube.com/watch?v=eYpb4RJwQak",
+    "views": 20588
+  },
+  "tags": [
+    "circular",
+    "process",
+    "morph",
+    "animation",
+    "infographic",
+    "sequential"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:14Z",
+  "wash_version": "1.0.0"
+}

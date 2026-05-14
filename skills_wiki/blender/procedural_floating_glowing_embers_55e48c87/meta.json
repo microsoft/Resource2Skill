@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_floating_glowing_embers_55e48c87",
+  "skill_name": "Procedural Floating Glowing Embers",
+  "source": {
+    "channel": "Woodplank",
+    "duration_sec": 752,
+    "type": "youtube",
+    "video_id": "QOMZ7oPLCd8",
+    "video_title": "How To Make Fiery Embers in Blender - Blender Particles Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=QOMZ7oPLCd8",
+    "views": 12509
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:33Z",
+  "wash_version": "1.0.0"
+}

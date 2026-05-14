@@ -1,0 +1,10 @@
+{
+  "name": "spilled_array_reference",
+  "description": "Reference an entire dynamic array spill range by appending a hash (#) to the top-left anchor cell.",
+  "formula": "={function}({anchor_cell}#)",
+  "placeholders": {
+    "function": "Any Excel function that accepts a range or array (e.g., COUNTA, SUM, SORT, TEXTJOIN)",
+    "anchor_cell": "The single cell containing the parent dynamic array formula (e.g., F7)"
+  },
+  "example": "=COUNTA(F7#)"
+}

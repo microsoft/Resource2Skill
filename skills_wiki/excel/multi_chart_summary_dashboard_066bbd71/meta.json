@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_chart_summary_dashboard_066bbd71",
+  "skill_name": "Multi-Chart Summary Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:26Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "preview of interactive dashboard"
+        },
+        {
+          "seconds": 811,
+          "description": "dashboard with first chart added"
+        },
+        {
+          "seconds": 1143,
+          "description": "dashboard with all three charts added"
+        },
+        {
+          "seconds": 1443,
+          "description": "dashboard with interactive slicers and timeline"
+        },
+        {
+          "seconds": 1724,
+          "description": "final dashboard with clean view and updated data"
+        }
+      ],
+      "frames": [
+        "frame_00_preview_of_interactive_dashboa.jpg",
+        "frame_01_dashboard_with_first_chart_add.jpg",
+        "frame_02_dashboard_with_all_three_chart.jpg"
+      ],
+      "recapped_at": 1777407260.8984156
+    },
+    "primary_path": "frame_00_preview_of_interactive_dashboa.jpg"
+  }
+}

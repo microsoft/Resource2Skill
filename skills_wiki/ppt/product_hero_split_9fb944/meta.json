@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell creates a dynamic, split-screen hero layout ideal for showcasing a product or key message with a strong visual. It's perfect for cover slides, product launches, or high-impact introductions.",
+  "category_path": [
+    "product",
+    "marketing"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "product_hero_split_9fb944",
+  "skill_name": "Product Hero Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "product",
+    "hero",
+    "split layout",
+    "call to action",
+    "image",
+    "cover"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:14:53Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "iconic_magazine_cover_frame_adcbf08a",
+  "skill_name": "Iconic Magazine Cover Frame",
+  "source": {
+    "channel": "Laura Sellers",
+    "duration_sec": 373,
+    "type": "youtube",
+    "video_id": "X9HdznVYllM",
+    "video_title": "Magazine Template - Nat Geo - Google Slides",
+    "video_url": "https://www.youtube.com/watch?v=X9HdznVYllM",
+    "views": 358
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:37:45Z",
+  "wash_version": "1.0.0"
+}

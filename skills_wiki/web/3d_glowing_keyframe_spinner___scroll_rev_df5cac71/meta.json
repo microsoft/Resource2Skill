@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_keyframe_spinner___scroll_rev_df5cac71",
+  "skill_name": "3D Glowing Keyframe Spinner & Scroll-Reveal Grid",
+  "source": {
+    "channel": "CSSnippets",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Bhj4miRkSOc"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:49:29Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 16,
+          "description": "Website showcasing CSS transitions on elements."
+        },
+        {
+          "seconds": 36,
+          "description": "Animated shape transforming its form."
+        },
+        {
+          "seconds": 339,
+          "description": "Button with multi-property transition on hover."
+        },
+        {
+          "seconds": 838,
+          "description": "3D rotating cube loading animation."
+        },
+        {
+          "seconds": 1015,
+          "description": "Blocks animating on scroll into view."
+        }
+      ],
+      "frames": [
+        "frame_00_website_showcasing_css_transit.jpg",
+        "frame_01_animated_shape_transforming_it.jpg",
+        "frame_02_button_with_multi_property_tra.jpg"
+      ],
+      "recapped_at": 1777408062.7296293
+    },
+    "primary_path": "frame_00_website_showcasing_css_transit.jpg"
+  }
+}

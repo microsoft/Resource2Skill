@@ -1,0 +1,81 @@
+{
+  "skill_id": "metric_split_with_image_1ad22b",
+  "skill_type": "shell",
+  "name": "Metric Split with Image",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "section_divider"
+    ],
+    "content_shape": [
+      "title+metric_split_image"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "minimal",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "title",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metric_label",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metric_value",
+      "kind": "text",
+      "required": true,
+      "style": "metric_xl",
+      "max_chars": 10,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/metric_split_with_image_1ad22b/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "morphing_odometer_reveal_77605ecf",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a clean, corporate metric highlight slide with a prominent title section separated by horizontal rules, and a two-column split for a large metric and a supporting image.",
+  "_distill_attempts": 1
+}

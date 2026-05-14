@@ -1,0 +1,128 @@
+{
+  "theme_id": "sunny_launch_pop",
+  "name": "Sunny Launch Pop",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/f4a261-e76f51-2a9d8f-e9c46a-264653",
+  "source_title": "Coolors palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#FFF7E8",
+    "panel": "#FFF0D1",
+    "accent": "#F4A261",
+    "accent2": "#2A9D8F",
+    "text": "#264653",
+    "muted": "#5B6B73",
+    "border": "#E9C46A",
+    "success": "#2A9D8F",
+    "warning": "#E76F51"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "dotted_grid",
+    "description": "soft dotted grid with rounded playful spacing"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "playful",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom",
+      "bounce"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "playful",
+    "warm",
+    "bold"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "confetti",
+    "bounce",
+    "bloom",
+    "organic"
+  ],
+  "avoided_motion_tags": [
+    "audit",
+    "glitch",
+    "measured"
+  ]
+}

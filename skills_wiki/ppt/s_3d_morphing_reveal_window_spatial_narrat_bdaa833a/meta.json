@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_morphing_reveal_window_spatial_narrat_bdaa833a",
+  "skill_name": "3D Morphing Reveal Window (Spatial Narrative)",
+  "source": {
+    "channel": "Knowledge for Future",
+    "duration_sec": 241,
+    "type": "youtube",
+    "video_id": "ZmYll2sMfls",
+    "video_title": "How to make Stunning 3D window Animation using PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=ZmYll2sMfls",
+    "views": 14310
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:27Z",
+  "wash_version": "1.0.0"
+}

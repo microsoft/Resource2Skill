@@ -1,0 +1,35 @@
+{
+  "applicability": "Provides context on copyright law, fair use, and platform policies relevant to artists who sample, remix, or create mashups. This is a conceptual discussion, not a technical production skill.",
+  "category_path": [
+    "legal",
+    "copyright"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "n_a_no_music_production_pattern_found_aaca5100",
+  "skill_name": "Understanding Copyright and Fair Use for Remixes",
+  "source": {
+    "channel": "SadowickProduction",
+    "duration_sec": 540,
+    "type": "youtube",
+    "video_id": "gJgUe1eRPMc",
+    "video_title": "Daft Punk Remix - Random Access Memories Remix Tutorial Video Removed",
+    "video_url": "https://www.youtube.com/watch?v=gJgUe1eRPMc",
+    "views": 1547
+  },
+  "tags": [
+    "copyright",
+    "fair use",
+    "legal",
+    "remixing",
+    "sampling"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:24:43Z",
+  "wash_version": "1.0.0"
+}

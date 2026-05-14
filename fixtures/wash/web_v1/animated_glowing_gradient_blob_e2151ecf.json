@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_glowing_gradient_blob_e2151ecf",
+  "source": {
+    "channel": "Hemant Dutta",
+    "duration_sec": 285,
+    "type": "youtube",
+    "video_id": "DuQwzF6NPp8",
+    "video_title": "Animated Gradient Background with Pure CSS",
+    "video_url": "https://www.youtube.com/watch?v=DuQwzF6NPp8",
+    "views": 11183
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "variance_vs_target",
+  "description": "Actual minus target — base for KPI variance highlighting",
+  "pattern": "={actual}-{target}",
+  "example": "=B3-C3",
+  "result_format": "kpi_traffic"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "staggered_curtain_page_transition_06812cc1",
+  "skill_name": "Staggered Curtain Page Transition",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 549,
+    "type": "youtube",
+    "video_id": "pLK9aeTakuA",
+    "video_title": "The Only Page Transition Hack You Need for HTML Pages",
+    "video_url": "https://www.youtube.com/watch?v=pLK9aeTakuA",
+    "views": 22836
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:14Z",
+  "wash_version": "1.0.0"
+}

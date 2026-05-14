@@ -1,0 +1,71 @@
+{
+  "applicability": "Ideal for creating visually engaging backgrounds for hero sections, login screens, or ambient web applications. Delivers a video-like aesthetic without the performance cost of video or WebGL.",
+  "category_path": [
+    "css",
+    "animation",
+    "backgrounds"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_fluid_radial_background_ef2d2343",
+  "skill_name": "Animated Fluid Radial Background",
+  "source": {
+    "channel": "Leanne R",
+    "duration_sec": 215,
+    "type": "youtube",
+    "video_id": "5KFd9OzmX78",
+    "video_title": "Code an animated gradient background with CSS",
+    "video_url": "https://www.youtube.com/watch?v=5KFd9OzmX78",
+    "views": 1392
+  },
+  "tags": [
+    "css",
+    "background",
+    "gradient",
+    "animation",
+    "fluid"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:39Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Final animated gradient background demonstrated"
+        },
+        {
+          "seconds": 123,
+          "description": "Body background set to a solid pastel purple fallback color"
+        },
+        {
+          "seconds": 157,
+          "description": "Radial gradient applied but small and centered"
+        },
+        {
+          "seconds": 214,
+          "description": "Radial gradient stretched to fill the viewport"
+        },
+        {
+          "seconds": 249,
+          "description": "Gradient animation applied, showing the final effect"
+        }
+      ],
+      "frames": [
+        "frame_00_final_animated_gradient_backgr.jpg",
+        "frame_01_body_background_set_to_a_solid.jpg",
+        "frame_02_radial_gradient_applied_but_sm.jpg",
+        "frame_03_radial_gradient_stretched_to_f.jpg"
+      ],
+      "recapped_at": 1777408498.2025235
+    },
+    "primary_path": "frame_00_final_animated_gradient_backgr.jpg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_glass_shard_reveal_08e33e3c",
+  "skill_name": "Geometric Glass-Shard Reveal",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 553,
+    "type": "youtube",
+    "video_id": "SQgedmhMGd0",
+    "video_title": "Easy Modern PowerPoint Slide Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=SQgedmhMGd0",
+    "views": 491924
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:54Z",
+  "wash_version": "1.0.0"
+}

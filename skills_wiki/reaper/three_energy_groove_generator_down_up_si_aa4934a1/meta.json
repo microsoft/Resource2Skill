@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "three_energy_groove_generator_down_up_si_aa4934a1",
+  "skill_name": "Three-Energy Groove Generator (Down, Up, Side-to-Side)",
+  "source": {
+    "channel": "Underdog Electronic Music School",
+    "duration_sec": 435,
+    "type": "youtube",
+    "video_id": "fQsBzrqd0t8",
+    "video_title": "The fundamentals of groove in 7 minutes",
+    "video_url": "https://www.youtube.com/watch?v=fQsBzrqd0t8",
+    "views": 87641
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:02Z",
+  "wash_version": "1.0.0"
+}

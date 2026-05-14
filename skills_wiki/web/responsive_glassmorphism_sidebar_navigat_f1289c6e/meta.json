@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_glassmorphism_sidebar_navigat_f1289c6e",
+  "skill_name": "Responsive Glassmorphism Sidebar Navigation",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 921,
+    "type": "youtube",
+    "video_id": "U8smiWQ8Seg",
+    "video_title": "How to create a Responsive Navigation Bar (for beginners)",
+    "video_url": "https://www.youtube.com/watch?v=U8smiWQ8Seg",
+    "views": 775920
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:17:16Z",
+  "wash_version": "1.0.0"
+}

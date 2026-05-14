@@ -1,0 +1,38 @@
+{
+  "applicability": "Perfect for emphasizing high-impact metrics like KPIs, financial results, or company milestones. The animation builds anticipation and draws the audience's eye to a specific, important number.",
+  "category_path": [
+    "animation",
+    "data_reveal",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_odometer_reveal_77605ecf",
+  "skill_name": "Morphing Odometer Reveal",
+  "source": {
+    "channel": "Your 365 Guide",
+    "duration_sec": 111,
+    "type": "youtube",
+    "video_id": "hhs10lCEoIw",
+    "video_title": "Scrolling numbers animation in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=hhs10lCEoIw",
+    "views": 110544
+  },
+  "tags": [
+    "kpi",
+    "odometer",
+    "data reveal",
+    "morph",
+    "animation",
+    "metrics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:48:45Z",
+  "wash_version": "1.0.0"
+}

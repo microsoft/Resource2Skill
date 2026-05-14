@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "impact_milestone_reveal_with_floating_ba_dde83949",
+  "skill_name": "Impact Milestone Reveal with Floating Badge",
+  "source": {
+    "channel": "rasignature",
+    "duration_sec": 149,
+    "type": "youtube",
+    "video_id": "EKu3JElt9CM",
+    "video_title": "Product Launch Power Point Presentation",
+    "video_url": "https://www.youtube.com/watch?v=EKu3JElt9CM",
+    "views": 44065
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:38:58Z",
+  "wash_version": "1.0.0"
+}

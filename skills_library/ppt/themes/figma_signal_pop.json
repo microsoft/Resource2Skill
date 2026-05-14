@@ -1,0 +1,121 @@
+{
+  "theme_id": "figma_signal_pop",
+  "name": "Figma Signal Pop",
+  "origin": "web_distilled",
+  "source_url": "https://www.figma.com/using-the-figma-brand/",
+  "source_title": "Figma Brand",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#FFFFFF",
+    "panel": "#FFFFFF",
+    "accent": "#1ABCFE",
+    "accent2": "#A259FF",
+    "text": "#000000",
+    "muted": "#000000",
+    "border": "#A259FF",
+    "success": "#0ACF83",
+    "warning": "#FF7262"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Arial",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "dotted_grid",
+    "description": "clean creator canvas with colorful signal points"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "bold",
+    "preferred_entrance": [
+      "slide_in_left",
+      "fade",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "bold",
+    "playful",
+    "technical"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "trace",
+    "grid",
+    "glow",
+    "editorial"
+  ],
+  "avoided_motion_tags": [
+    "organic",
+    "wash",
+    "audit",
+    "typewriter"
+  ]
+}

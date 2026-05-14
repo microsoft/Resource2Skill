@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_high_contrast_business_aesthet_165fcdd4",
+  "skill_name": "Dark Mode High-Contrast Business Aesthetic (Cyber-Corporate Style)",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 214,
+    "type": "youtube",
+    "video_id": "JfWgHzP60pc",
+    "video_title": "PowerPoint\u6a21\u677f\u8bbe\u8ba1 | \u52a8\u611f\u58a8\u9ed1\u6784\u601d\u72ec\u7279\u5320\u5fc3\u4e4b\u4f5c\u5546\u52a1PPT\u901a\u7528\u6a21\u677f",
+    "video_url": "https://www.youtube.com/watch?v=JfWgHzP60pc",
+    "views": 67
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:08:42Z",
+  "wash_version": "1.0.0"
+}

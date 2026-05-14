@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for system design presentations, engineering meetings, and technical product launches. It enhances software architecture documentation and cloud infrastructure overviews with a modern aesthetic.",
+  "category_path": [
+    "diagramming",
+    "architecture_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_dark_architectural_diagramming_e93343e0",
+  "skill_name": "Neon-Dark Architectural Diagramming",
+  "source": {
+    "channel": "ByteByteGo",
+    "duration_sec": 353,
+    "type": "youtube",
+    "video_id": "f6zXyq4VPP8",
+    "video_title": "Top 5 Most Used Architecture Patterns",
+    "video_url": "https://www.youtube.com/watch?v=f6zXyq4VPP8",
+    "views": 388058
+  },
+  "tags": [
+    "neon",
+    "dark mode",
+    "architecture",
+    "diagramming",
+    "system design",
+    "technical infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:36Z",
+  "wash_version": "1.0.0"
+}

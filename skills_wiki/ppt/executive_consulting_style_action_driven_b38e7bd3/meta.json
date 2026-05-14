@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for corporate strategy, management consulting, and board-level reporting. Use this layout to transform raw data dumps into clear, persuasive narratives.",
+  "category_path": [
+    "layout",
+    "consulting"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_consulting_style_action_driven_b38e7bd3",
+  "skill_name": "Executive Consulting Action-Driven Layout",
+  "source": {
+    "channel": "Dan Galletta",
+    "duration_sec": 650,
+    "type": "youtube",
+    "video_id": "CY1Y367KEko",
+    "video_title": "Storytelling in PowerPoint: Learn McKinsey\u2019s 3-Step Framework",
+    "video_url": "https://www.youtube.com/watch?v=CY1Y367KEko",
+    "views": 1018034
+  },
+  "tags": [
+    "consulting style",
+    "action title",
+    "slide layout",
+    "data storytelling",
+    "strategy"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:11:22Z",
+  "wash_version": "1.0.0"
+}

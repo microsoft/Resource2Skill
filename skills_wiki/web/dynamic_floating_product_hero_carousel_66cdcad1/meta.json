@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_floating_product_hero_carousel_66cdcad1",
+  "skill_name": "Dynamic Floating Product Hero Carousel",
+  "source": {
+    "channel": "Devly Code",
+    "duration_sec": 787,
+    "type": "youtube",
+    "video_id": "6vPxz52i4k0",
+    "video_title": "How to Create Simple Hero Section | HTML CSS and Javascript",
+    "video_url": "https://www.youtube.com/watch?v=6vPxz52i4k0",
+    "views": 1390
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:45Z",
+  "wash_version": "1.0.0"
+}

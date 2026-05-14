@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_parallax_flip_card_218cf086",
+  "source": {
+    "channel": "ProgBytes",
+    "duration_sec": 1314,
+    "type": "youtube",
+    "video_id": "Y9LGaoz5IEY",
+    "video_title": "CSS 3D transform in 20 minutes!",
+    "video_url": "https://www.youtube.com/watch?v=Y9LGaoz5IEY",
+    "views": 1919
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

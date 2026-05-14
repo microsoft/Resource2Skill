@@ -1,0 +1,121 @@
+{
+  "theme_id": "retrowave_duogrid",
+  "name": "Retrowave Duogrid",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0d0221-0f084b-26408b-a6cfd5-c2e7d9",
+  "source_title": "Coolors Retrowave Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0D0221",
+    "panel": "#0F084B",
+    "accent": "#A6CFD5",
+    "accent2": "#26408B",
+    "text": "#C2E7D9",
+    "muted": "#A6CFD5",
+    "border": "#26408B",
+    "success": "#C2E7D9",
+    "warning": "#A6CFD5"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "thin synth grid over deep nocturne panels"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "bold",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_right",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "bold",
+    "playful",
+    "cinematic",
+    "technical"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "neon",
+    "grid",
+    "glow",
+    "pulse"
+  ],
+  "avoided_motion_tags": [
+    "organic",
+    "wash",
+    "audit"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_typing_hero_text_6062442b",
+  "skill_name": "Auto-Typing Hero Text",
+  "source": {
+    "channel": "Html Camp",
+    "duration_sec": 174,
+    "type": "youtube",
+    "video_id": "IbGSsy17Ass",
+    "video_title": "How to Make An Auto Typing Text Effect Using Html Css & Javascript",
+    "video_url": "https://www.youtube.com/watch?v=IbGSsy17Ass",
+    "views": 53101
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:19Z",
+  "wash_version": "1.0.0"
+}

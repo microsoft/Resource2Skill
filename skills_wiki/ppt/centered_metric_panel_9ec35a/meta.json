@@ -1,0 +1,29 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_metric_panel_9ec35a",
+  "skill_name": "Centered Metric Panel",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T4",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:02:19Z",
+  "wash_version": "1.0.0"
+}

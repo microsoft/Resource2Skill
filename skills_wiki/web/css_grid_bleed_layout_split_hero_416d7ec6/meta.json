@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-impact hero sections, feature highlights, and e-commerce displays, this pattern elegantly solves bleed layout challenges by pairing aligned typography with immersive, edge-to-edge media.",
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_grid_bleed_layout_split_hero_416d7ec6",
+  "skill_name": "CSS Grid Bleed Layout (Split Hero)",
+  "source": {
+    "channel": "Kevin Geary",
+    "duration_sec": 953,
+    "type": "youtube",
+    "video_id": "uy0dX-dQvpA",
+    "video_title": "How to Create a Split Hero Layout With a Magic Wand Called \"Content Grid\"",
+    "video_url": "https://www.youtube.com/watch?v=uy0dX-dQvpA",
+    "views": 12487
+  },
+  "tags": [
+    "css grid",
+    "bleed layout",
+    "split screen",
+    "hero section",
+    "responsive",
+    "asymmetrical"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:27Z",
+  "wash_version": "1.0.0"
+}

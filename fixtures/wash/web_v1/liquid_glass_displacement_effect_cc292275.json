@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "liquid_glass_displacement_effect_cc292275",
+  "source": {
+    "channel": "Better Stack",
+    "duration_sec": 182,
+    "type": "youtube",
+    "video_id": "Cv8zFvM8fEk",
+    "video_title": "I Built Apple\u2019s Liquid Glass but ONLY with CSS...",
+    "video_url": "https://www.youtube.com/watch?v=Cv8zFvM8fEk",
+    "views": 37011
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

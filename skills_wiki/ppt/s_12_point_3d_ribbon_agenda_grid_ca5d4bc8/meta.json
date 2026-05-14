@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_12_point_3d_ribbon_agenda_grid_ca5d4bc8",
+  "skill_name": "12-Point 3D Ribbon Agenda Grid",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 563,
+    "type": "youtube",
+    "video_id": "W1wMNXqpjxY",
+    "video_title": "12 Points Agenda Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=W1wMNXqpjxY",
+    "views": 69001
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:42:23Z",
+  "wash_version": "1.0.0"
+}

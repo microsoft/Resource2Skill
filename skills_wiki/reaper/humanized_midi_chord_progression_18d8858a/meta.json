@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "humanized_midi_chord_progression_18d8858a",
+  "skill_name": "Humanized MIDI Chord Progression",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "duration_sec": 433,
+    "type": "youtube",
+    "video_id": "1AXxztgzrAk",
+    "video_title": "MIDI Editor Basics: What You Need to Know (Fast and Simple) - REAPER Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=1AXxztgzrAk",
+    "views": 36437
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:09Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Cell Anchoring (F4)",
+  "description": "Toggles absolute, mixed, and relative cell references within formulas for dynamic replication.",
+  "shortcut_windows": "F4 (when editing a cell reference)",
+  "shortcut_mac": "Command + T (when editing a cell reference)",
+  "example_usage": [
+    {
+      "scenario": "Basic Relative Reference",
+      "formula": "=A1 + B1",
+      "result_copied_to_C2": "B2 + C2"
+    },
+    {
+      "scenario": "Full Absolute Reference",
+      "formula": "=$A$1 + B1",
+      "result_copied_to_C2": "=$A$1 + C2"
+    },
+    {
+      "scenario": "Row Absolute Reference",
+      "formula": "=A$1 + B1",
+      "result_copied_to_C2": "=B$1 + C2"
+    },
+    {
+      "scenario": "Column Absolute Reference",
+      "formula": "=$A1 + B1",
+      "result_copied_to_C2": "=$A2 + C2"
+    }
+  ],
+  "common_application_notes": "Use F4 to fix references to assumption cells in financial models so they don't shift when formulas are dragged across columns (e.g., different years) or rows (e.g., different cases). For instance, if an assumption is in B5, a formula in C10 that references it might use `=$B$5` to ensure it always points to B5, or `B$5` if only the row needs to be fixed when copying horizontally."
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_box_grid_dashboard_d156d86f",
+  "skill_name": "Responsive Bento Box Grid Dashboard",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "duration_sec": 815,
+    "type": "youtube",
+    "video_id": "EiNiSFIPIQE",
+    "video_title": "Learn CSS Grid - A 13 Minute Deep Dive",
+    "video_url": "https://www.youtube.com/watch?v=EiNiSFIPIQE",
+    "views": 895435
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:39Z",
+  "wash_version": "1.0.0"
+}

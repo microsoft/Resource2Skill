@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for corporate profiles, tech/data reporting, and strategic planning presentations. The faceted, low-poly background implies complexity and precision without creating visual clutter.",
+  "category_path": [
+    "layout",
+    "background"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "prismatic_green_geometric_layout_bd447a4d",
+  "skill_name": "Prismatic Green Geometric Layout",
+  "source": {
+    "channel": "Wei Huang",
+    "duration_sec": 83,
+    "type": "youtube",
+    "video_id": "QYnqYRz7jCU",
+    "video_title": "\u9759\u6001\u7cbe\u9009PPT 8\u6d41\u7a0b\u56fe_\u903b\u8f91\u56fe\u793a_PPT\u6a21\u677f_PPT\u8bbe\u8ba1\u6559\u7a0b",
+    "video_url": "https://www.youtube.com/watch?v=QYnqYRz7jCU",
+    "views": 67
+  },
+  "tags": [
+    "low-poly",
+    "geometric background",
+    "corporate",
+    "modern",
+    "tech report"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:08:20Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "applicability": "Ideal for rendering industrial machinery, panels, and sci-fi props, this material preset provides a realistic brushed metal appearance with moderate roughness and subtle anisotropic reflections.",
+  "category_path": [
+    "material_presets",
+    "metal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "metal_brushed_072d4418",
+  "skill_name": "metal_brushed",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "brushed metal",
+    "industrial",
+    "anisotropic",
+    "metallic",
+    "machinery",
+    "sci-fi"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:42Z",
+  "wash_version": "1.0.0"
+}

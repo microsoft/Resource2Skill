@@ -1,0 +1,36 @@
+{
+  "applicability": "Best suited for dashboards, large tables, and reporting tools to enhance user experience. It allows users to seamlessly switch to a low-glare dark theme for extended reading without relying on macros.",
+  "category_path": [
+    "formatting",
+    "conditional_formatting"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_toggle_sheet_909a8ba0",
+  "skill_name": "Dark Mode Toggle Sheet",
+  "source": {
+    "channel": "Project Management Mastery",
+    "duration_sec": 355,
+    "type": "youtube",
+    "video_id": "G5i0CSxNXHo",
+    "video_title": "Dark Mode for Excel | 3 minute Step by Step How to",
+    "video_url": "https://www.youtube.com/watch?v=G5i0CSxNXHo",
+    "views": 1078
+  },
+  "tags": [
+    "dark mode",
+    "conditional formatting",
+    "data validation",
+    "theme toggle",
+    "dashboard ui"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:54:22Z",
+  "wash_version": "1.0.0"
+}

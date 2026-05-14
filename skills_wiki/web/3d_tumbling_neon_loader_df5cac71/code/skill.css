@@ -1,0 +1,7 @@
+        @media (prefers-reduced-motion: reduce) {
+            .loading-box {
+                animation-duration: 10s; /* Make it very slow */
+                /* OR */
+                animation: none; /* Turn it off completely */
+            }
+        }

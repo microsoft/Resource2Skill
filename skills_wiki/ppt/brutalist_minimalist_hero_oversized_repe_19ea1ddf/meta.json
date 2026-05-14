@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "brutalist_minimalist_hero_oversized_repe_19ea1ddf",
+  "skill_name": "Brutalist Minimalist Hero (Oversized Repeating Typography)",
+  "source": {
+    "channel": "By Huy",
+    "duration_sec": 475,
+    "type": "youtube",
+    "video_id": "83j3Z4heXH0",
+    "video_title": "I tried to design and code an awwwards-inspired portfolio website. Here's the process",
+    "video_url": "https://www.youtube.com/watch?v=83j3Z4heXH0",
+    "views": 214767
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:04:07Z",
+  "wash_version": "1.0.0"
+}

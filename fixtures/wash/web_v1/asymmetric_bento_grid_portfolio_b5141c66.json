@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_bento_grid_portfolio_b5141c66",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 1361,
+    "type": "youtube",
+    "video_id": "gHrS5X4nKbU",
+    "video_title": "Reacting to 21 Design Portfolios in 22 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=gHrS5X4nKbU",
+    "views": 1005596
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

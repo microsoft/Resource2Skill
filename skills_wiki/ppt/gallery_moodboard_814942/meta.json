@@ -1,0 +1,35 @@
+{
+  "applicability": "This shell provides a structured '1 Hero + 4 Grid' image layout, ideal for creating visual moodboards, portfolios, or showcasing a collection of related images.",
+  "category_path": [
+    "visuals",
+    "layout",
+    "gallery"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gallery_moodboard_814942",
+  "skill_name": "Gallery Moodboard",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "moodboard",
+    "image grid",
+    "visuals",
+    "portfolio",
+    "feature image",
+    "gallery"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:08:47Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_webgl_fluid_gradient_f6b2525b",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 890,
+    "type": "youtube",
+    "video_id": "wdyJr-UeiZs",
+    "video_title": "The Interactive Fluid Gradient You\u2019ll Keep Reusing on Every Website",
+    "video_url": "https://www.youtube.com/watch?v=wdyJr-UeiZs",
+    "views": 20014
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

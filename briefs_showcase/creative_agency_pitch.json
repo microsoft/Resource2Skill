@@ -1,0 +1,27 @@
+{
+  "variant_id": "creative_agency_pitch",
+  "out_dirname": "creative_agency_pitch",
+  "title": "Foxglove & Company — rebrand pitch for Saltwater Coffee",
+  "audience": "client exec team evaluating 3 agencies for a rebrand engagement",
+  "tone_words": ["editorial", "cinematic", "bold"],
+  "archetype_preference": "brand",
+  "mood_preference": ["cinematic", "editorial", "bold"],
+  "mode_preference": "dark",
+  "n_slides": 11,
+  "role_prefer": ["cover", "section_divider", "hero_quote", "feature_grid", "comparison_split", "closing_cta"],
+  "role_avoid": ["metric_dashboard"],
+  "dense_quota": 1,
+  "core_points": [
+    "The hook: Saltwater's current brand is polite but forgettable; your baristas already embody the soul",
+    "What we heard: customers love the mornings but don't remember the logo",
+    "Our thesis: lean into the coast — tide, fog, ferry light — not generic minimalism",
+    "Competitive landscape: Blue Bottle owns precision, Verve owns technical, nobody owns coastal-romantic",
+    "Visual territory: mist, cool blues, aged brass, hand-drawn marks — not another matte black wordmark",
+    "Naming system: keep Saltwater, add regional sub-brands (Saltwater Ferry / Headlands / Pier 41)",
+    "Packaging samples: cup sleeves that double as bookmarks, bags with tide-chart printing",
+    "Digital: website that ripples, weekly 'tide report' tasting notes, Instagram that changes with weather",
+    "Story-first rollout plan: local before national, 4 flagship stores first, soft website relaunch",
+    "Timeline and pricing: 16 weeks, phased delivery, 3 milestone payments totaling $340K",
+    "Why us: we do 6 rebrands a year, only 2 of them are coffee, we say no to safe"
+  ]
+}

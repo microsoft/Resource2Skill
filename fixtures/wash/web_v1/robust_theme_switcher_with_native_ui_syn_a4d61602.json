@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "robust_theme_switcher_with_native_ui_syn_a4d61602",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "zFFuV_vXNhY",
+    "video_title": "A simple mistake that can screw up your light/dark theme (and how to fix it)",
+    "video_url": "https://www.youtube.com/watch?v=zFFuV_vXNhY",
+    "views": 61617
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

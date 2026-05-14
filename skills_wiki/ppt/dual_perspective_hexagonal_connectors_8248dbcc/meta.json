@@ -1,0 +1,36 @@
+{
+  "applicability": "This design is ideal for slides requiring direct comparison, such as pros vs. cons, strengths vs. weaknesses, or advantages vs. disadvantages, transforming simple lists into engaging visuals.",
+  "category_path": [
+    "infographic",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_perspective_hexagonal_connectors_8248dbcc",
+  "skill_name": "Dual-Perspective Hexagonal Connectors",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 643,
+    "type": "youtube",
+    "video_id": "biqgbdPoCfA",
+    "video_title": "Pros and Cons PowerPoint Template",
+    "video_url": "https://www.youtube.com/watch?v=biqgbdPoCfA",
+    "views": 10304
+  },
+  "tags": [
+    "comparison",
+    "pros and cons",
+    "infographic",
+    "hexagonal",
+    "data visualization",
+    "mirror layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:16:11Z",
+  "wash_version": "1.0.0"
+}

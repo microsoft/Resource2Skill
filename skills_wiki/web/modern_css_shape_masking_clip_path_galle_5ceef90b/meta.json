@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for creating visually engaging layouts by breaking out of the standard box model. Use it for uniquely framed avatars, interactive galleries, custom-shaped hero sections, and other UI components.",
+  "category_path": [
+    "css",
+    "layout",
+    "shapes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_css_shape_masking_clip_path_galle_5ceef90b",
+  "skill_name": "CSS Shape Masking with Clip-Path",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 464,
+    "type": "youtube",
+    "video_id": "oWXm5n-Zi38",
+    "video_title": "Master CSS Clip-Path: Create Custom Shapes with One Line of Code!",
+    "video_url": "https://www.youtube.com/watch?v=oWXm5n-Zi38",
+    "views": 153752
+  },
+  "tags": [
+    "css",
+    "clip-path",
+    "masking",
+    "shapes",
+    "animation",
+    "layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:51:37Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Excellent for highlighting core company values, product features, distinct tiered options, or multi-step processes. It transforms basic lists into engaging, structured visual narratives with a sense of forward momentum and depth.",
+  "category_path": [
+    "information_design",
+    "dynamic_list"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_slanted_ribbon_pillars_17354fc8",
+  "skill_name": "3D Slanted Ribbon Pillars",
+  "source": {
+    "channel": "MadeBy PowerPoint",
+    "duration_sec": 696,
+    "type": "youtube",
+    "video_id": "Z9z0YQ6VWR0",
+    "video_title": "Free PowerPoint Infographics Slide Design Tutorial/Free Template/Powerpoint Presentation/Design/PPT",
+    "video_url": "https://www.youtube.com/watch?v=Z9z0YQ6VWR0",
+    "views": 319
+  },
+  "tags": [
+    "3d effect",
+    "slanted design",
+    "ribbon banner",
+    "feature showcase",
+    "value presentation",
+    "multi-step"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:33Z",
+  "wash_version": "1.0.0"
+}

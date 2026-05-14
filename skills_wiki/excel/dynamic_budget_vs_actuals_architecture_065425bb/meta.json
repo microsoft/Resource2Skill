@@ -1,0 +1,32 @@
+{
+  "applicability": "Ideal for FP&A models, department expense tracking, and operational dashboards where budgeted targets are planned in a grid, but actuals are logged as ongoing transactional line items.",
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_budget_vs_actuals_architecture_065425bb",
+  "skill_name": "Dynamic Budget vs. Actuals Architecture",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 968,
+    "type": "youtube",
+    "video_id": "9uFKAwIa3V0",
+    "video_title": "Build a Dynamic Budget vs Actuals Dashboard on Excel (Variance Analysis)",
+    "video_url": "https://www.youtube.com/watch?v=9uFKAwIa3V0",
+    "views": 1014602
+  },
+  "tags": [],
+  "tier": "T5",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:56:18Z",
+  "wash_version": "1.0.0"
+}

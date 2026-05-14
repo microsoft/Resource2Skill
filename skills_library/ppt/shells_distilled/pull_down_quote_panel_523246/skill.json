@@ -1,0 +1,62 @@
+{
+  "skill_id": "pull_down_quote_panel_523246",
+  "skill_type": "shell",
+  "name": "Pull-down Quote Panel",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote"
+    ],
+    "content_shape": [
+      "title+centered-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "quote",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 300,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/pull_down_quote_panel_523246/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "roll_down_canvas_projector_screen_reveal_d76458a0",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Abstracts the 'pulldown blind' visual into a clean, themeable central panel with an overhanging accent bar, focusing on a prominent quote display.",
+  "_distill_attempts": 1
+}

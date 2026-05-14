@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for producing Trap, Drill, and modern Hip-Hop. It provides a heavy, spacious half-time rhythmic foundation contrasted with rapid hi-hat rolls and a tuned 808 sub-bass.",
+  "category_path": [
+    "drums",
+    "patterns"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "half_time_trap_drum_808_foundation_db3b6c76",
+  "skill_name": "Half-Time Trap Drum & 808 Foundation",
+  "source": {
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "duration_sec": 1460,
+    "type": "youtube",
+    "video_id": "KownwZSW018",
+    "video_title": "How to make a trap beat in Reaper like in FL Studio (step by step tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=KownwZSW018",
+    "views": 35900
+  },
+  "tags": [
+    "trap",
+    "hip-hop",
+    "808",
+    "half-time",
+    "drum-beat"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:17:13Z",
+  "wash_version": "1.0.0"
+}

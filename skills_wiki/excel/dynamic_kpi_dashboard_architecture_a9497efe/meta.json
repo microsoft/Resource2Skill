@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_kpi_dashboard_architecture_a9497efe",
+  "skill_name": "Dynamic KPI Dashboard Architecture",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Initial presentation of the KPI dashboard with sample data."
+        },
+        {
+          "seconds": 34,
+          "description": "KPI dashboard showing various metrics with current, target, and prior month values."
+        },
+        {
+          "seconds": 331,
+          "description": "Detailed view of the KPI dashboard, emphasizing large numbers and color-coded cells."
+        },
+        {
+          "seconds": 407,
+          "description": "Interacting with the dashboard: changing the month to update KPI values dynamically, showing conditional formatting in action."
+        },
+        {
+          "seconds": 1147,
+          "description": "Final view of the complete, interactive KPI dashboard with updated values for February 2020."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_presentation_of_the_kp.jpg",
+        "frame_01_kpi_dashboard_showing_various_.jpg",
+        "frame_02_detailed_view_of_the_kpi_dashb.jpg",
+        "frame_03_interacting_with_the_dashboard.jpg"
+      ],
+      "recapped_at": 1777406548.854105
+    },
+    "primary_path": "frame_00_initial_presentation_of_the_kp.jpg"
+  }
+}

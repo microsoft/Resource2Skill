@@ -1,0 +1,135 @@
+{
+  "theme_id": "editorial_light",
+  "name": "Editorial Light",
+  "palette": {
+    "bg": "#FAFAF5",
+    "panel": "#FFFFFF",
+    "accent": "#1A1A2E",
+    "accent2": "#C94F4F",
+    "text": "#13131A",
+    "muted": "#6B6B75",
+    "border": "#E5E5DE",
+    "success": "#157F3D",
+    "warning": "#B8860B"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Georgia",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Georgia",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Georgia",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": true
+    },
+    "body": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 10,
+      "weight": 600,
+      "tracking": 0.08,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Georgia",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 84,
+      "weight": 400,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "Hairline horizontal rules (0.5pt) as section separators \u2014 magazine aesthetic"
+  },
+  "spacing": {
+    "margin": 0.8,
+    "gutter": 0.4
+  },
+  "motion": {
+    "personality": "minimal",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom",
+      "in_top"
+    ],
+    "stagger_ms": 100,
+    "avoid": [
+      "spin",
+      "bounce",
+      "zoom"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "calm",
+    "warm"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "research",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "typewriter",
+    "ink-bleed",
+    "column-rule",
+    "margin-note",
+    "page-turn",
+    "kicker-tick",
+    "thesis",
+    "mist",
+    "explorer-pin",
+    "balloon"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "bounce",
+    "confetti",
+    "chromatic",
+    "neon",
+    "marquee",
+    "pixel"
+  ]
+}

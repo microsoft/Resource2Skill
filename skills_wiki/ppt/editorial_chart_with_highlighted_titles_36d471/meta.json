@@ -1,0 +1,33 @@
+{
+  "applicability": "Use this slide layout to feature a primary data chart with a prominent, panel-backed headline and subtitle. It is ideal for data-centric reports or dashboards where the chart's context is crucial.",
+  "category_path": [
+    "chart",
+    "full_slide"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_chart_with_highlighted_titles_36d471",
+  "skill_name": "Panel Title Chart Slide",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "chart",
+    "data visualization",
+    "dashboard",
+    "report",
+    "headline"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:07:51Z",
+  "wash_version": "1.0.0"
+}

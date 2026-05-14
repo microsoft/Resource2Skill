@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates a fluid, organically moving skeletal creature on an HTML5 canvas that interactively follows the user's cursor. Ideal for creative portfolios, interactive 404 pages, or immersive hero backgrounds to add engaging biological motion.",
+  "category_path": [
+    "canvas_2d",
+    "procedural_animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_kinematic_skeleton_ddcf84df",
+  "skill_name": "Procedural Kinematic Skeleton",
+  "source": {
+    "channel": "Harsh Vardhan Singh ",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "21pzLw68RBU",
+    "video_title": "Interactive Reptile Cursor Animation \ud83e\udd8e | HTML Canvas JavaScript Project | @codeandcelebrationhub",
+    "video_url": "https://www.youtube.com/watch?v=21pzLw68RBU",
+    "views": 60
+  },
+  "tags": [
+    "canvas-2d",
+    "procedural-animation",
+    "kinematics",
+    "cursor-tracking",
+    "generative-art"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:41Z",
+  "wash_version": "1.0.0"
+}

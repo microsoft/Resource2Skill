@@ -1,0 +1,127 @@
+{
+  "theme_id": "atlantic_ledger",
+  "name": "Atlantic Ledger",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd",
+  "source_title": "Coolors Atlantic palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0D1B2A",
+    "panel": "#1B263B",
+    "accent": "#778DA9",
+    "accent2": "#415A77",
+    "text": "#E0E1DD",
+    "muted": "#778DA9",
+    "border": "#415A77",
+    "success": "#778DA9",
+    "warning": "#E0E1DD"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Georgia",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Georgia",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "cool steel rules framing dense editorial pages"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "editorial",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "editorial",
+    "restrained",
+    "calm"
+  ],
+  "archetype_fit": [
+    "research",
+    "boardroom",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "editorial",
+    "hairline",
+    "measured",
+    "trace"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "confetti",
+    "glitch"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "gradient_text_stroke_via_background_clip_8782ec72",
+  "source": {
+    "channel": "CSS Weekly",
+    "duration_sec": 607,
+    "type": "youtube",
+    "video_id": "mPZ64m9QpQY",
+    "video_title": "Create Gradient CSS Text Strokes",
+    "video_url": "https://www.youtube.com/watch?v=mPZ64m9QpQY",
+    "views": 2264
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

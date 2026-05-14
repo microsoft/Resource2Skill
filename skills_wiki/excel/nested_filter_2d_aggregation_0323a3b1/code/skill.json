@@ -1,0 +1,5 @@
+{
+  "name": "nested_filter_2d_sum",
+  "description": "Sum the intersection of a 2D array by filtering rows based on one criteria and columns based on another.",
+  "formula": "=SUM(FILTER(FILTER({data_range}, {row_criteria_range}={row_criteria_value}), {col_criteria_range}={col_criteria_value}))"
+}

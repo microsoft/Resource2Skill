@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_grid_layout_e344a628",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 356,
+    "type": "youtube",
+    "video_id": "v0o1kV-qfVI",
+    "video_title": "Learn GRID-AREA to Build Amazing BENTO GRIDS | CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=v0o1kV-qfVI",
+    "views": 89271
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

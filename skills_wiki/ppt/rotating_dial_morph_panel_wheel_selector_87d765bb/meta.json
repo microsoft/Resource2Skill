@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rotating_dial_morph_panel_wheel_selector_87d765bb",
+  "skill_name": "Rotating Dial Morph Panel (Wheel Selector)",
+  "source": {
+    "channel": "Janak SB",
+    "duration_sec": 778,
+    "type": "youtube",
+    "video_id": "97w20G6e3Zo",
+    "video_title": "Rotating Text Animation Effects in Microsoft 365 Powerpoint 2020 [Free Template Download]",
+    "video_url": "https://www.youtube.com/watch?v=97w20G6e3Zo",
+    "views": 248
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:52Z",
+  "wash_version": "1.0.0"
+}

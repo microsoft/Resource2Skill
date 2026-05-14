@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for dark-themed tech, SaaS, or AI product landing pages where a futuristic and immersive aesthetic is desired. It transforms a standard hero section into a dynamic, eye-catching visual stage without external assets.",
+  "category_path": [
+    "hero_section",
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "futuristic_tubelight_hero_glow_339575dc",
+  "skill_name": "Neon Tube Light Beam Hero",
+  "source": {
+    "channel": "Amariq Studio",
+    "duration_sec": 435,
+    "type": "youtube",
+    "video_id": "WcGrPv5IDz0",
+    "video_title": "How We Design Website Hero Sections in Figma \u2013 Tubelight Effect Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=WcGrPv5IDz0",
+    "views": 1500
+  },
+  "tags": [
+    "hero section",
+    "glow effect",
+    "volumetric light",
+    "dark mode",
+    "futuristic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:41Z",
+  "wash_version": "1.0.0"
+}

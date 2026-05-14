@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_toggle_p_l_338f0b26",
+  "skill_name": "Dynamic Scenario Toggle P&L",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:34Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Final dynamic model interface with scenario dropdown"
+        },
+        {
+          "seconds": 25,
+          "description": "Initial Excel sheet with Income Statement structure and hard-coded assumptions"
+        },
+        {
+          "seconds": 235,
+          "description": "Revenue row calculated and filled based on initial assumptions"
+        },
+        {
+          "seconds": 1028,
+          "description": "Complete Income Statement with calculated profit margins and corporate tax"
+        },
+        {
+          "seconds": 1500,
+          "description": "Fully interactive dynamic model with scenario dropdown and data validation"
+        }
+      ],
+      "frames": [
+        "frame_00_final_dynamic_model_interface_.jpg",
+        "frame_01_initial_excel_sheet_with_incom.jpg",
+        "frame_02_revenue_row_calculated_and_fil.jpg"
+      ],
+      "recapped_at": 1777406667.7562468
+    },
+    "primary_path": "frame_00_final_dynamic_model_interface_.jpg"
+  }
+}

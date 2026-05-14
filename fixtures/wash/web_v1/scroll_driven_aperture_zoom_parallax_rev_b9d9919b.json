@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_aperture_zoom_parallax_rev_b9d9919b",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 805,
+    "type": "youtube",
+    "video_id": "0Ezdaeg7veg",
+    "video_title": "This Hero Scroll Animation Feels Like Looking Through a Window",
+    "video_url": "https://www.youtube.com/watch?v=0Ezdaeg7veg",
+    "views": 12630
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for the initial sketching phase of production to establish macro-dynamics and musical form. It creates a structural scaffold, allowing producers to modularly arrange sections before detailing.",
+  "category_path": [
+    "arrangement",
+    "structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "macro_song_arranger_region_based_structu_7634dc21",
+  "skill_name": "Macro Song Arranger (Region-Based Structure Generation)",
+  "source": {
+    "channel": "Hi YouTube, I'm Dad!",
+    "duration_sec": 1295,
+    "type": "youtube",
+    "video_id": "qp3Owkf6hjc",
+    "video_title": "Mixing Stuff: Using Regions to Create a Song Arrangement in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=qp3Owkf6hjc",
+    "views": 3016
+  },
+  "tags": [
+    "arrangement",
+    "regions",
+    "song-structure",
+    "workflow",
+    "sketching"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:51:47Z",
+  "wash_version": "1.0.0"
+}

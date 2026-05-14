@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_button_ripple_effect_850e2394",
+  "skill_name": "Dynamic Button Ripple Effect",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 226,
+    "type": "youtube",
+    "video_id": "ueyRcYEmsrI",
+    "video_title": "Button Ripple Effect on Click Using CSS3 & Vanilla Javascript",
+    "video_url": "https://www.youtube.com/watch?v=ueyRcYEmsrI",
+    "views": 191089
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:13Z",
+  "wash_version": "1.0.0"
+}

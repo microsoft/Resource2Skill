@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for Business Reviews, Quarterly Earnings, Performance Dashboards, and Project Status updates where key metrics (KPIs) or core focus areas need to be highlighted over granular details.",
+  "category_path": [
+    "dashboard",
+    "kpi",
+    "infographic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "infographic_kpi_modular_dashboard_e35d6139",
+  "skill_name": "Infographic KPI Modular Dashboard",
+  "source": {
+    "channel": "Creative Presentation Ideas by infoDiagram",
+    "duration_sec": 179,
+    "type": "youtube",
+    "video_id": "uVTGvhw4I30",
+    "video_title": "How to Make Business Review in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=uVTGvhw4I30",
+    "views": 19265
+  },
+  "tags": [
+    "kpi",
+    "dashboard",
+    "infographic",
+    "modular",
+    "metrics",
+    "performance"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:39:29Z",
+  "wash_version": "1.0.0"
+}

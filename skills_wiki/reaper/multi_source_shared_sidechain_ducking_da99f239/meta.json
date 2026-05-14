@@ -1,0 +1,36 @@
+{
+  "applicability": "Used in EDM, Pop, and Hip-Hop mixing to prevent frequency masking by sidechaining a bass or synth to both the kick and snare. Routing multiple drum triggers to a single shared compressor saves CPU and creates a cohesive pumping groove.",
+  "category_path": [
+    "mixing",
+    "dynamics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_source_shared_sidechain_ducking_da99f239",
+  "skill_name": "Multi-Source Shared Sidechain Ducking",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 293,
+    "type": "youtube",
+    "video_id": "xmuwz6JsvIU",
+    "video_title": "Changes to sidechaining in REAPER 7",
+    "video_url": "https://www.youtube.com/watch?v=xmuwz6JsvIU",
+    "views": 26932
+  },
+  "tags": [
+    "sidechain",
+    "ducking",
+    "routing",
+    "compression",
+    "mixing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:23Z",
+  "wash_version": "1.0.0"
+}

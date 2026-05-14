@@ -1,0 +1,13 @@
+{
+  "applicability": "Foundational music-theory and mix-engineering reference for any track-building task. Provides note→MIDI lookup, scale and chord intervals, GM drum map, genre BPM ranges, and per-element FX chains. Call this FIRST in every reaper task.",
+  "category_path": ["primer"],
+  "exec_ok": null,
+  "license": "internal",
+  "modalities_present": ["text"],
+  "schema_version": "1.0.0",
+  "skill_id": "music_theory_essentials_primer",
+  "skill_name": "Music Theory & Mix-Engineering Essentials (Primer)",
+  "source": {"type": "internal", "note": "Migrated from agent_prompt for skill/non-skill ablation cleanliness"},
+  "tags": ["primer", "theory", "reference", "mixing", "fx", "scales", "chords", "drums"],
+  "tier": "T1"
+}

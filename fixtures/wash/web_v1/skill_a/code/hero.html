@@ -1,0 +1,17 @@
+<section class="hero">
+  <div class="hero__content">
+    <h1>Build faster, ship safer</h1>
+    <p>One platform for shipping production-grade web apps.</p>
+    <a class="hero__cta" href="#start">Start free</a>
+  </div>
+  <div class="hero__visual"></div>
+</section>
+<style>
+  .hero {
+    display: grid; grid-template-columns: 60% 40%;
+    background: linear-gradient(135deg, var(--hero-from, #4f46e5), var(--hero-to, #06b6d4));
+    color: white; padding: 4rem 2rem; min-height: 60vh;
+  }
+  .hero__cta { background: white; color: var(--hero-from); padding: .75rem 1.5rem; border-radius: 9999px; }
+  @media (max-width: 768px) { .hero { grid-template-columns: 1fr; } }
+</style>

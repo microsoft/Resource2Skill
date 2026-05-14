@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for hero section headlines, feature titles, or any large typographic element needing a focal point. Best on bold fonts where gradient visibility is high.",
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_gradient_text_reveal_e6c9d129",
+  "skill_name": "CSS Gradient Text Reveal",
+  "source": {
+    "channel": "WebSprint",
+    "duration_sec": 224,
+    "type": "youtube",
+    "video_id": "eOPYyOaAbJU",
+    "video_title": "How to add Gradient Color to Text in CSS",
+    "video_url": "https://www.youtube.com/watch?v=eOPYyOaAbJU",
+    "views": 296
+  },
+  "tags": [
+    "css",
+    "gradient",
+    "text-effect",
+    "typography",
+    "background-clip",
+    "modern"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T07:19:39Z",
+  "wash_version": "1.0.0"
+}

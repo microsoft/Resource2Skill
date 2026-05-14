@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "structured_process_flowchart_design_e7660d1c",
+  "skill_name": "Structured Process Flowchart Design",
+  "source": {
+    "channel": "SlideBazaar - PowerPoint Tutorials",
+    "duration_sec": 138,
+    "type": "youtube",
+    "video_id": "UIieDUTGQ_8",
+    "video_title": "How to Create a Flowchart in PowerPoint - Easy Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=UIieDUTGQ_8",
+    "views": 65392
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:40Z",
+  "wash_version": "1.0.0"
+}

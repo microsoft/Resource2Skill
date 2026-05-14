@@ -1,0 +1,35 @@
+{
+  "applicability": "Perfect for structuring loop-based genres like lo-fi, chillhop, and boom-bap. It takes a static 4-bar loop and mathematically unfolds it into a dynamic 32-bar song structure using additive arranging.",
+  "category_path": [
+    "arrangement",
+    "song_structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "additive_lo_fi_arrangement_structure_77e98401",
+  "skill_name": "Additive Lo-Fi Arrangement Structure",
+  "source": {
+    "channel": "K. Hart",
+    "duration_sec": 680,
+    "type": "youtube",
+    "video_id": "4CGBBV_5srQ",
+    "video_title": "Beat Arrangement Tips - Turn Your Loop Into a Full Beat!",
+    "video_url": "https://www.youtube.com/watch?v=4CGBBV_5srQ",
+    "views": 607
+  },
+  "tags": [
+    "lo-fi",
+    "arrangement",
+    "song-structure",
+    "beatmaking",
+    "chillhop"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:07:49Z",
+  "wash_version": "1.0.0"
+}

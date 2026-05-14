@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frosted_glassmorphism_reveal_panel_88606e27",
+  "skill_name": "Frosted Glassmorphism Reveal Panel",
+  "source": {
+    "channel": "Presentation Tutor ",
+    "duration_sec": 375,
+    "type": "youtube",
+    "video_id": "ERDIQylJhhQ",
+    "video_title": "How to Create a Stunning GLASS EFFECT in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=ERDIQylJhhQ",
+    "views": 102552
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:55:47Z",
+  "wash_version": "1.0.0"
+}

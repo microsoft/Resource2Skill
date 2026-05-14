@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_low_poly_ramen_cup_12b08354",
+  "skill_name": "Stylized Low-Poly Ramen Cup",
+  "source": {
+    "channel": "Illusion Of Mana",
+    "duration_sec": 1279,
+    "type": "youtube",
+    "video_id": "J7wvo6CKhL0",
+    "video_title": "Low Poly With Blender: Tutorial 1 - Modeling",
+    "video_url": "https://www.youtube.com/watch?v=J7wvo6CKhL0",
+    "views": 60235
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:19Z",
+  "wash_version": "1.0.0"
+}

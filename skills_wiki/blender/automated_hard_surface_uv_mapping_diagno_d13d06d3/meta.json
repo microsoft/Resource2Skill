@@ -1,0 +1,36 @@
+{
+  "applicability": "This workflow is essential for preparing hard-surface assets like weapons, vehicles, or architectural elements for texturing and game engines. It automates seam placement on sharp edges and provides a visual diagnostic grid to ensure zero texture distortion.",
+  "category_path": [
+    "uv_mapping",
+    "pipeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_hard_surface_uv_mapping_diagno_d13d06d3",
+  "skill_name": "Automated Hard-Surface UV Mapping & Diagnostics",
+  "source": {
+    "channel": "On Mars 3D",
+    "duration_sec": 456,
+    "type": "youtube",
+    "video_id": "XleO7DBm1Us",
+    "video_title": "Blender 4.0: How to UV Unwrap Anything",
+    "video_url": "https://www.youtube.com/watch?v=XleO7DBm1Us",
+    "views": 641947
+  },
+  "tags": [
+    "uv_mapping",
+    "hard_surface",
+    "seam_marking",
+    "diagnostic_grid",
+    "automation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:00:50Z",
+  "wash_version": "1.0.0"
+}

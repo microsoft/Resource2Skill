@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell presents two distinct, size-differentiated circles, each with optional text, ideal for contrasting two concepts or entities. It's suitable for abstract comparisons where visual distinction is desired without complex overlapping relationships.",
+  "category_path": [
+    "comparison",
+    "circles"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_circles_comparison_41ff78",
+  "skill_name": "Two Circles Comparison",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "two circles",
+    "comparison",
+    "distinct entities",
+    "duality",
+    "minimal design"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:18:35Z",
+  "wash_version": "1.0.0"
+}

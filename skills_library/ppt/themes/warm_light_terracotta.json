@@ -1,0 +1,131 @@
+{
+  "theme_id": "warm_light_terracotta",
+  "name": "Warm Light Terracotta",
+  "palette": {
+    "bg": "#FBF1E8",
+    "panel": "#F2DCC3",
+    "accent": "#B85A36",
+    "accent2": "#8F7A49",
+    "text": "#2A1A0E",
+    "muted": "#7C614E",
+    "border": "#E2C3A2",
+    "success": "#61905B",
+    "warning": "#C17639"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Cambria",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Cambria",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Cambria",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "rounded_blob",
+    "description": "Terracotta rounded accent"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "editorial",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "spin"
+    ]
+  },
+  "mood": [
+    "warm",
+    "editorial",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "balloon",
+    "bubble",
+    "page-turn",
+    "polaroid",
+    "confetti",
+    "ink-bleed",
+    "thesis",
+    "typewriter",
+    "column-rule",
+    "margin-note"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "chromatic",
+    "slot-machine",
+    "marquee",
+    "pixel",
+    "bounce",
+    "confetti",
+    "balloon"
+  ]
+}

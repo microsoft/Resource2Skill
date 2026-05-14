@@ -1,0 +1,5 @@
+{
+  "name": "kpi_traffic",
+  "description": "Number with red/green sign coloring, no decimals — used for variance cells with conditional rules driving the color",
+  "number_format": "[Green]+#,##0;[Red]-#,##0;0"
+}

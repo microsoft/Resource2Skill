@@ -1,0 +1,121 @@
+{
+  "theme_id": "tech_light_sky",
+  "name": "Tech Light Sky",
+  "palette": {
+    "bg": "#F0F6FB",
+    "panel": "#DEE9F2",
+    "accent": "#1E88C5",
+    "accent2": "#F27A3B",
+    "text": "#0D1A29",
+    "muted": "#54657A",
+    "border": "#C2D2E0",
+    "success": "#199F7E",
+    "warning": "#E98A36"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Consolas",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Consolas",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "code_rule",
+    "description": "Mono captions, tick rules"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "dynamic",
+    "preferred_entrance": [
+      "wipe",
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "technical",
+    "punchy"
+  ],
+  "archetype_fit": [
+    "product",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "marquee",
+    "pixel",
+    "dot-matrix",
+    "glitch",
+    "chromatic",
+    "snap",
+    "cta-arrow"
+  ],
+  "avoided_motion_tags": [
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "balloon",
+    "confetti",
+    "mist",
+    "margin-note"
+  ]
+}

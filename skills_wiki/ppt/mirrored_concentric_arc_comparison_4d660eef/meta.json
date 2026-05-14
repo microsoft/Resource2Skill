@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for comparing two distinct scenarios, products, or datasets side-by-side. It transforms linear comparisons into an engaging, circular, and dichotomous visual narrative.",
+  "category_path": [
+    "data_visualization",
+    "comparison_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mirrored_concentric_arc_comparison_4d660eef",
+  "skill_name": "Mirrored Concentric Arc Comparison",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 233,
+    "type": "youtube",
+    "video_id": "f0G6yEZDmSY",
+    "video_title": "Pros and Cons or Data Comparison Slide Design 3 | Animated PowerPoint Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=f0G6yEZDmSY",
+    "views": 37651
+  },
+  "tags": [
+    "comparison",
+    "A/B testing",
+    "scenario analysis",
+    "infographic",
+    "concentric",
+    "mirrored"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:50:55Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "optimized_interior_window_lighting_porta_eb1cc784",
+  "skill_name": "Optimized Interior Window Lighting (Portals & Shadowless Materials)",
+  "source": {
+    "channel": "rileyb3d",
+    "duration_sec": 662,
+    "type": "youtube",
+    "video_id": "dLZEmfqob7k",
+    "video_title": "Optimize interior Renderings in Blender Cycles",
+    "video_url": "https://www.youtube.com/watch?v=dLZEmfqob7k",
+    "views": 226215
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:11:57Z",
+  "wash_version": "1.0.0"
+}

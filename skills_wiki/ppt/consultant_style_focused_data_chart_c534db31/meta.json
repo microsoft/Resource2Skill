@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consultant_style_focused_data_chart_c534db31",
+  "skill_name": "Consultant-Style Focused Data Chart",
+  "source": {
+    "channel": "Analyst Academy",
+    "duration_sec": 1557,
+    "type": "youtube",
+    "video_id": "ZUeWXNK-9yA",
+    "video_title": "Data Visualization Crash Course | Consulting Best Practices",
+    "video_url": "https://www.youtube.com/watch?v=ZUeWXNK-9yA",
+    "views": 252053
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:01:45Z",
+  "wash_version": "1.0.0"
+}

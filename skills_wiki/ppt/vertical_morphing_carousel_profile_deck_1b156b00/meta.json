@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_morphing_carousel_profile_deck_1b156b00",
+  "skill_name": "Vertical Morphing Carousel (Profile Deck)",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 450,
+    "type": "youtube",
+    "video_id": "R5JrqFSBdWk",
+    "video_title": "134.How to make this VIRAL PowerPoint Presentation. MORPH Tutorial | Team Intro Template",
+    "video_url": "https://www.youtube.com/watch?v=R5JrqFSBdWk",
+    "views": 11710
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:43Z",
+  "wash_version": "1.0.0"
+}

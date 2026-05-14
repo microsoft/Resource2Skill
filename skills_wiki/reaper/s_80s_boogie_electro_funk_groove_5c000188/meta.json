@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_80s_boogie_electro_funk_groove_5c000188",
+  "skill_name": "80s Boogie & Electro Funk Groove",
+  "source": {
+    "channel": "Eliana D'Angelo Music",
+    "duration_sec": 1755,
+    "type": "youtube",
+    "video_id": "J4Q-au_aRkg",
+    "video_title": "How to write 80's Funk & Boogie music.",
+    "video_url": "https://www.youtube.com/watch?v=J4Q-au_aRkg",
+    "views": 154881
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:07:07Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_double_tracking_guitar_bus_set_108a5c77",
+  "skill_name": "Automated Double-Tracking Guitar Bus Setup",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "duration_sec": 674,
+    "type": "youtube",
+    "video_id": "wH94PSfOB_w",
+    "video_title": "How I record guitars (quick and easy) in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=wH94PSfOB_w",
+    "views": 250383
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:06Z",
+  "wash_version": "1.0.0"
+}

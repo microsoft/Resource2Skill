@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for hard surface modeling to achieve precise control over smooth bends and sharp cuts. It leverages explicit edge metadata and modifiers to prevent shading artifacts on continuous curves.",
+  "category_path": [
+    "modeling",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_hard_surface_edge_control_bevel_950fc695",
+  "skill_name": "Advanced Hard Surface Edge Control",
+  "source": {
+    "channel": "Ryuu - Blender Bros",
+    "duration_sec": 718,
+    "type": "youtube",
+    "video_id": "b_4FoNTHf5g",
+    "video_title": "Mark Sharp vs. Crease vs. Seam vs. Bevel Weight vs.Weighted Normals - in Blender",
+    "video_url": "https://www.youtube.com/watch?v=b_4FoNTHf5g",
+    "views": 33783
+  },
+  "tags": [
+    "hard-surface",
+    "bevel-weight",
+    "mark-sharp",
+    "weighted-normal",
+    "edge-control"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:57Z",
+  "wash_version": "1.0.0"
+}

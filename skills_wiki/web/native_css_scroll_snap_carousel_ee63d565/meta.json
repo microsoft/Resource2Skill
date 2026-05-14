@@ -1,0 +1,35 @@
+{
+  "applicability": "Use CSS scroll-snap to create performant, touch-friendly carousels for image galleries, product showcases, or testimonial sliders. This modern approach delegates scroll physics to the browser, ensuring a smooth native experience without heavy JavaScript dependencies.",
+  "category_path": [
+    "components",
+    "carousel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_snap_carousel_ee63d565",
+  "skill_name": "Native CSS Scroll-Snap Carousel",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 552,
+    "type": "youtube",
+    "video_id": "gmI5nvzv170",
+    "video_title": "CSS ONLY Carousel? Learn ::scroll-button() in 9 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=gmI5nvzv170",
+    "views": 136585
+  },
+  "tags": [
+    "css",
+    "scroll-snap",
+    "carousel",
+    "flexbox",
+    "ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:44:06Z",
+  "wash_version": "1.0.0"
+}

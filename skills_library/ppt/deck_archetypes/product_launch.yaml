@@ -1,0 +1,62 @@
+archetype_id: product_launch
+name: "Product Launch Deck"
+description: >
+  Presentation for announcing a new product to customers/press/partners.
+  Leads with the promise, then shows differentiation, features, and
+  availability. Strong on visuals, light on financials.
+suggested_slides: 12
+recommended_themes:
+  - tech_blue_dark
+  - editorial_dark
+  - editorial_light
+sections:
+  - section: promise
+    slides:
+      - role: cover
+        content: "Product name + one-line promise + hero image of the product"
+        required: true
+      - role: section_divider
+        content: "The new [product name]"
+        required: false
+
+  - section: why_now
+    slides:
+      - role: bullet_card_list
+        content: "Three shifts that made this product possible/necessary"
+        required: true
+      - role: metric_dashboard
+        content: "2-3 external numbers showing the opportunity"
+        required: false
+
+  - section: what
+    slides:
+      - role: section_divider
+        content: "What it does"
+        required: true
+      - role: bullet_card_list
+        content: "Three core capabilities, each a benefit statement"
+        required: true
+      - role: timeline_horizontal
+        content: "User journey in 3-4 steps (how a customer uses it)"
+        required: false
+
+  - section: proof
+    slides:
+      - role: metric_dashboard
+        content: "Early results: 3-4 numbers from pilots or internal testing"
+        required: true
+      - role: bullet_card_list
+        content: "Quotes or case studies (3 items: who / use case / outcome)"
+        required: false
+
+  - section: availability
+    slides:
+      - role: section_divider
+        content: "Availability"
+        required: true
+      - role: timeline_horizontal
+        content: "Rollout schedule by region or segment"
+        required: false
+      - role: closing
+        content: "CTA: how to get it (signup / sales / docs)"
+        required: true

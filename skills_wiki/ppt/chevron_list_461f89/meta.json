@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell displays a vertical list of up to four items, each highlighted by a chevron and rounded rectangle design. Ideal for presenting agendas, process steps, or key takeaways with a bold, technical aesthetic.",
+  "category_path": [
+    "lists_and_agendas",
+    "process_steps"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "chevron_list_461f89",
+  "skill_name": "Chevron List",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "chevron",
+    "list",
+    "agenda",
+    "process",
+    "corporate",
+    "four-item"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:04:42Z",
+  "wash_version": "1.0.0"
+}

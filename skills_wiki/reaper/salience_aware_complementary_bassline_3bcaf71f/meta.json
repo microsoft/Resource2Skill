@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "bass"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "salience_aware_complementary_bassline_3bcaf71f",
+  "skill_name": "Salience-Aware Complementary Bassline",
+  "source": {
+    "channel": "Navie D",
+    "duration_sec": 471,
+    "type": "youtube",
+    "video_id": "KyE7bZ5Qpqg",
+    "video_title": "How To Make PRO Basslines For Any Sample",
+    "video_url": "https://www.youtube.com/watch?v=KyE7bZ5Qpqg",
+    "views": 163950
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:02Z",
+  "wash_version": "1.0.0"
+}

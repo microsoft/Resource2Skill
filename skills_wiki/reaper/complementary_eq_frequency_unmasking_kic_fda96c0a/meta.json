@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "complementary_eq_frequency_unmasking_kic_fda96c0a",
+  "skill_name": "Complementary EQ & Frequency Unmasking (Kick/Bass Separation)",
+  "source": {
+    "channel": "Lonely Rocker",
+    "duration_sec": 1238,
+    "type": "youtube",
+    "video_id": "5r2s2brTKZY",
+    "video_title": "Spectrum Analyzer | Audio Mixing Tips | How To See Your Problems",
+    "video_url": "https://www.youtube.com/watch?v=5r2s2brTKZY",
+    "views": 55298
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:11:29Z",
+  "wash_version": "1.0.0"
+}

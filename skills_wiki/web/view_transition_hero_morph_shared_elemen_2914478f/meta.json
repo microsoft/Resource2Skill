@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for media libraries, e-commerce product listings transitioning to detail pages, portfolio galleries, and profile cards expanding into full user dashboards.",
+  "category_path": [
+    "web_ui",
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "view_transition_hero_morph_shared_elemen_2914478f",
+  "skill_name": "View Transition Hero Morph (Shared Element Transition)",
+  "source": {
+    "channel": "Beyond Fireship",
+    "duration_sec": 301,
+    "type": "youtube",
+    "video_id": "lsXqparnx24",
+    "video_title": "Mind-blowing page animations are easy now... View Transitions API first look",
+    "video_url": "https://www.youtube.com/watch?v=lsXqparnx24",
+    "views": 275491
+  },
+  "tags": [
+    "view transitions",
+    "hero morph",
+    "shared element",
+    "animation",
+    "web app",
+    "seamless navigation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:26Z",
+  "wash_version": "1.0.0"
+}

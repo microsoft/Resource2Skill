@@ -1,0 +1,127 @@
+{
+  "theme_id": "noir_crimson_cut",
+  "name": "Noir Crimson Cut",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0f0f0f-1e1e24-8b1e3f-d4a373-f7f3e9",
+  "source_title": "Coolors dark crimson palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0F0F0F",
+    "panel": "#1E1E24",
+    "accent": "#8B1E3F",
+    "accent2": "#D4A373",
+    "text": "#F7F3E9",
+    "muted": "#D4A373",
+    "border": "#1E1E24",
+    "success": "#D4A373",
+    "warning": "#D4A373"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Georgia",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Georgia",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "smoky vignette fields with subtle poster grain"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "zoom_in",
+      "slide_in_left"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "cinematic",
+    "warm",
+    "bold"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "cinematic",
+    "bloom",
+    "wash",
+    "trace"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "bounce",
+    "glitch"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "skill_id": "bottom_banner_focus_d6b421",
+  "skill_type": "shell",
+  "name": "Bottom Banner Focus",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "bottom-banner+center-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "minimal",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/bottom_banner_focus_d6b421/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neumorphic_dual_shadow_card_soft_ui_embo_e8daa7ea",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A bold bottom banner for the primary headline, with an optional central panel for supporting text, inspired by the tutorial's focus state.",
+  "_distill_attempts": 1
+}

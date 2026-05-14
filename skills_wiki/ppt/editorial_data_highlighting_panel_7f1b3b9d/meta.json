@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for business reviews and financial reports where specific trends over time need explanation. It isolates key events by highlighting specific data lines and timeframes, turning raw data into a deliberate story.",
+  "category_path": [
+    "data_visualization",
+    "custom_charts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_data_highlighting_panel_7f1b3b9d",
+  "skill_name": "Editorial Data Highlighting Panel",
+  "source": {
+    "channel": "Harvard Business Review",
+    "duration_sec": 287,
+    "type": "youtube",
+    "video_id": "r5_34YnCmMY",
+    "video_title": "Telling Stories with Data in 3 Steps (Quick Study)",
+    "video_url": "https://www.youtube.com/watch?v=r5_34YnCmMY",
+    "views": 648108
+  },
+  "tags": [
+    "data_visualization",
+    "highlighting",
+    "spaghetti_chart",
+    "focus_span",
+    "storytelling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:10:11Z",
+  "wash_version": "1.0.0"
+}

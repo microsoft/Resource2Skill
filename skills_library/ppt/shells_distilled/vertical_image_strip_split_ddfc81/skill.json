@@ -1,0 +1,99 @@
+{
+  "skill_id": "vertical_image_strip_split_ddfc81",
+  "skill_type": "shell",
+  "name": "Vertical Image Strip Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "cover"
+    ],
+    "content_shape": [
+      "text+4-image-column"
+    ],
+    "density": "medium",
+    "mood": [
+      "editorial",
+      "corporate",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_1",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "square",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_2",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "square",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_3",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "square",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_4",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "square",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/vertical_image_strip_split_ddfc81/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "vertical_morphing_carousel_profile_deck_1b156b00",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A split layout with a prominent text area on the left and a vertical strip of four images on the right, ideal for team introductions or feature highlights.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_motion_fundamentals_transitio_1de837a6",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 125,
+    "type": "youtube",
+    "video_id": "HZHHBwzmJLk",
+    "video_title": "CSS Animation in 100 Seconds",
+    "video_url": "https://www.youtube.com/watch?v=HZHHBwzmJLk",
+    "views": 400264
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

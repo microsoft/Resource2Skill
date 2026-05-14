@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "inline_svg_sub_element_css_animation_3bc6e1e4",
+  "source": {
+    "channel": "developedbyed",
+    "duration_sec": 1112,
+    "type": "youtube",
+    "video_id": "gWai7fYp9PY",
+    "video_title": "Learn To Build An SVG Animation With CSS",
+    "video_url": "https://www.youtube.com/watch?v=gWai7fYp9PY",
+    "views": 764585
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

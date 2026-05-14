@@ -1,0 +1,121 @@
+{
+  "theme_id": "teal_terminal",
+  "name": "Teal Terminal",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0B132B-1C2541-5BC0BE-6FFFE9-F8F9FA-C9D6DF-3A506B-2DC653-F4A261",
+  "source_title": "Coolors Devtools Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0B132B",
+    "panel": "#1C2541",
+    "accent": "#5BC0BE",
+    "accent2": "#6FFFE9",
+    "text": "#F8F9FA",
+    "muted": "#C9D6DF",
+    "border": "#3A506B",
+    "success": "#2DC653",
+    "warning": "#F4A261"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "terminal-style lattice beneath charts and code blocks"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "technical",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "technical",
+    "cinematic",
+    "bold"
+  ],
+  "archetype_fit": [
+    "data",
+    "product",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "grid",
+    "trace",
+    "glow",
+    "measured"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "organic",
+    "wash",
+    "editorial"
+  ]
+}

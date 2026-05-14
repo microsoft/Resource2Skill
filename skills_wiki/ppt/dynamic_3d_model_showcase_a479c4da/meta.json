@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is ideal for product launches, corporate branding, or technical presentations, where showcasing a physical object or complex structure dynamically enhances engagement. It transforms static objects into engaging focal points.",
+  "category_path": [
+    "3d_modeling",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_3d_model_showcase_a479c4da",
+  "skill_name": "Dynamic 3D Model Showcase",
+  "source": {
+    "channel": "\u65bd\u4eba\u7a7a\u9593",
+    "duration_sec": 315,
+    "type": "youtube",
+    "video_id": "1F6KPpLPh9Q",
+    "video_title": "\u3010CC\u3011\u5982\u4f55\u5728Power Point\u88fd\u4f5c3D\u5c55\u793a\u52d5\u756b\u5f71\u7247(How to use PPT to make a 3D animation video)",
+    "video_url": "https://www.youtube.com/watch?v=1F6KPpLPh9Q",
+    "views": 242
+  },
+  "tags": [
+    "3d model",
+    "animation",
+    "product showcase",
+    "branding",
+    "interactive",
+    "engagement"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:51Z",
+  "wash_version": "1.0.0"
+}

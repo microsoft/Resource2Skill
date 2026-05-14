@@ -1,0 +1,28 @@
+{
+  "applicability": "Ideal for creating frosted translucent glass effects with soft caustics. Suitable for windows, diffuser panels, modern interiors, and lamp shades where light diffusion is desired.",
+  "category_path": [
+    "material_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glass_frosted_081371ee",
+  "skill_name": "Frosted Glass Material",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "frosted glass",
+    "translucent",
+    "caustics",
+    "diffuser",
+    "material"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:37Z",
+  "wash_version": "1.0.0"
+}

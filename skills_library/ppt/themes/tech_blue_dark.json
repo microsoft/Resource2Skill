@@ -1,0 +1,134 @@
+{
+  "theme_id": "tech_blue_dark",
+  "name": "Tech Blue Dark",
+  "palette": {
+    "bg": "#050914",
+    "panel": "#0D1425",
+    "accent": "#00D2FF",
+    "accent2": "#7C5CFF",
+    "text": "#F5F7FA",
+    "muted": "#7B8799",
+    "border": "#1B2338",
+    "success": "#39D68A",
+    "warning": "#FFB64D"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 42,
+      "weight": 700,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 30,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 18,
+      "weight": 500,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 13,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 13,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 10,
+      "weight": 500,
+      "tracking": 0.1,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Segoe UI",
+      "size": 60,
+      "weight": 800,
+      "tracking": -0.04,
+      "upper": false,
+      "italic": false
+    },
+    "code": {
+      "font": "JetBrains Mono",
+      "size": 12,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "grid_lines",
+    "description": "Faint vertical/horizontal grid lines (accent @ 12% opacity) suggesting a technical blueprint"
+  },
+  "spacing": {
+    "margin": 0.5,
+    "gutter": 0.25
+  },
+  "motion": {
+    "personality": "tech",
+    "preferred_entrance": [
+      "zoom",
+      "in_bottom",
+      "fade",
+      "horizontal"
+    ],
+    "stagger_ms": 110,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "technical",
+    "bold",
+    "cinematic"
+  ],
+  "archetype_fit": [
+    "product",
+    "data",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "marquee",
+    "pixel",
+    "dot-matrix",
+    "glitch",
+    "chromatic",
+    "iris",
+    "spotlight"
+  ],
+  "avoided_motion_tags": [
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "balloon",
+    "confetti",
+    "margin-note",
+    "glitch",
+    "slot-machine"
+  ]
+}

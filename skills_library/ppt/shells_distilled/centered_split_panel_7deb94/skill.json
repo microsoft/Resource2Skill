@@ -1,0 +1,72 @@
+{
+  "skill_id": "centered_split_panel_7deb94",
+  "skill_type": "shell",
+  "name": "Centered Split Panel",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "comparison_split"
+    ],
+    "content_shape": [
+      "split-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "landscape",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_split_panel_7deb94/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "custom_freeform_image_masking_silhouette_1cce09f4",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The image shows a classic centered split layout with a solid color block on the left (likely for text) and an image on the right, forming a cohesive, floating rectangular unit.",
+  "_distill_attempts": 1
+}

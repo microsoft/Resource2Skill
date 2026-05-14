@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_orbital_ecosystem_c550978a",
+  "source": {
+    "channel": "LottieFiles",
+    "duration_sec": 109,
+    "type": "youtube",
+    "video_id": "A_sjNPSA4kg",
+    "video_title": "What is Lottie?",
+    "video_url": "https://www.youtube.com/watch?v=A_sjNPSA4kg",
+    "views": 72627
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

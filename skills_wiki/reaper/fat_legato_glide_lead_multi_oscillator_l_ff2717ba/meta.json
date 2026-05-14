@@ -1,0 +1,38 @@
+{
+  "applicability": "This technique is a staple for creating huge, expressive lead synthesizer lines in electronic genres like EDM, Synthwave, and Hip-Hop. It transforms basic synth waveforms into thick, analog-style patches with dynamic movement.",
+  "category_path": [
+    "sound_design",
+    "synthesis",
+    "lead_synth"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fat_legato_glide_lead_multi_oscillator_l_ff2717ba",
+  "skill_name": "Fat Legato Glide Lead Synth",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 803,
+    "type": "youtube",
+    "video_id": "GlCJ1UYjuDo",
+    "video_title": "Creating a Synth Preset (ReaSynth) in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=GlCJ1UYjuDo",
+    "views": 23138
+  },
+  "tags": [
+    "lead synth",
+    "sound design",
+    "reasynth",
+    "legato",
+    "unison",
+    "filter sweep"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:58:57Z",
+  "wash_version": "1.0.0"
+}

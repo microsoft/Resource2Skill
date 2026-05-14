@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_layered_flip_card_2f776053",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1484,
+    "type": "youtube",
+    "video_id": "FeJEEE3zc4U",
+    "video_title": "Create a 3D flipping animation with HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=FeJEEE3zc4U",
+    "views": 114004
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

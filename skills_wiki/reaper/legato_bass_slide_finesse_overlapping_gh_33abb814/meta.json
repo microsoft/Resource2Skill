@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for sequencing realistic basslines in Hip-Hop, R&B, and Funk. It replaces rigid jumps with expressive, human-feeling fretboard glides using precise MIDI overlaps.",
+  "category_path": [
+    "midi_sequencing",
+    "articulation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "legato_bass_slide_finesse_overlapping_gh_33abb814",
+  "skill_name": "Legato Bass Slide Finesse (Overlapping Ghost Notes)",
+  "source": {
+    "channel": "Prod. by Xae",
+    "duration_sec": 71,
+    "type": "youtube",
+    "video_id": "y6C-9YoOMX8",
+    "video_title": "Modo Bass 2 (legatto slide) Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=y6C-9YoOMX8",
+    "views": 2915
+  },
+  "tags": [
+    "legato",
+    "portamento",
+    "midi_overlap",
+    "ghost_notes",
+    "keyswitch",
+    "bass"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:59Z",
+  "wash_version": "1.0.0"
+}

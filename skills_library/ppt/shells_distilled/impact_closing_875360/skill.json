@@ -1,0 +1,53 @@
+{
+  "skill_id": "impact_closing_875360",
+  "skill_type": "shell",
+  "name": "Impact Closing",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "closing",
+      "section_divider"
+    ],
+    "content_shape": [
+      "massive-centered-text"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "message",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/impact_closing_875360/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "animated_paper_fold_reveal_transition_769baf7e",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A highly minimal, high-impact layout designed for a single, powerful closing word or phrase, utilizing an inverted color scheme (accent background, bg text) for emphasis.",
+  "_distill_attempts": 1
+}

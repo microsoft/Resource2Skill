@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for 'Meet Our Team' or 'About Us' slides, speaker introductions, and showcasing key profiles where progressive information reveal and engagement are desired.",
+  "category_path": [
+    "animation",
+    "profile",
+    "reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_profile_card_hover_effect_d2099de4",
+  "skill_name": "Dynamic Profile Card Hover Effect",
+  "source": {
+    "channel": "TechEmonizer",
+    "duration_sec": 307,
+    "type": "youtube",
+    "video_id": "NqqQ0OtxLE0",
+    "video_title": "PowerPoint Card Design Tutorial | Creative Team Member Introduction Slide | TechEmonizer",
+    "video_url": "https://www.youtube.com/watch?v=NqqQ0OtxLE0",
+    "views": 637
+  },
+  "tags": [
+    "profile card",
+    "hover effect",
+    "morph animation",
+    "team slide",
+    "interactive reveal",
+    "speaker bio"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:08Z",
+  "wash_version": "1.0.0"
+}

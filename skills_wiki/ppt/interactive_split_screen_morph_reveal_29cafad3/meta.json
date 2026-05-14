@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this interactive menu to present two distinct options, such as product tiers, case studies, or contrasting concepts. It is ideal for self-driven presentations or kiosks where users choose their own content path.",
+  "category_path": [
+    "interactive_menu",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_split_screen_morph_reveal_29cafad3",
+  "skill_name": "Interactive Split-Screen Morph Reveal",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 466,
+    "type": "youtube",
+    "video_id": "gEMa0PwT__Q",
+    "video_title": "Super fun and professional INTERACTIVE POWERPOINT TUTORIAL \ud83d\ude31",
+    "video_url": "https://www.youtube.com/watch?v=gEMa0PwT__Q",
+    "views": 206019
+  },
+  "tags": [
+    "interactive",
+    "split-screen",
+    "morph",
+    "navigation",
+    "menu",
+    "reveal"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:37:35Z",
+  "wash_version": "1.0.0"
+}

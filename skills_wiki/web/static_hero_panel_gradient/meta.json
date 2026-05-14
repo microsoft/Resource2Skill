@@ -1,0 +1,29 @@
+{
+  "applicability": "Marketing landing-page hero section with gradient background, headline column, and CTA button.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "mit",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_hero_panel_gradient",
+  "skill_name": "Hero Panel with Gradient",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/web-hero-panel"
+  },
+  "tags": [
+    "hero",
+    "gradient",
+    "css_grid",
+    "landing_page",
+    "marketing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:40:28Z",
+  "wash_version": "1.0.0"
+}

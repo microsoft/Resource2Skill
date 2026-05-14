@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_dashboard_archetype_066bbd71",
+  "skill_name": "Executive Dashboard Archetype",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:07:41Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "example of interactive dashboard"
+        },
+        {
+          "seconds": 651,
+          "description": "first pivot chart created"
+        },
+        {
+          "seconds": 1138,
+          "description": "all three charts added to dashboard"
+        },
+        {
+          "seconds": 1527,
+          "description": "interactive dashboard with working slicers"
+        },
+        {
+          "seconds": 1715,
+          "description": "polished dashboard view"
+        }
+      ],
+      "frames": [
+        "frame_00_example_of_interactive_dashboa.jpg",
+        "frame_01_first_pivot_chart_created.jpg",
+        "frame_02_all_three_charts_added_to_dash.jpg"
+      ],
+      "recapped_at": 1777406686.777393
+    },
+    "primary_path": "frame_00_example_of_interactive_dashboa.jpg"
+  }
+}

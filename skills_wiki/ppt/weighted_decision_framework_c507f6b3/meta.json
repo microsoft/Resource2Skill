@@ -1,0 +1,36 @@
+{
+  "applicability": "This framework uses a balance scale metaphor to visually compare pros & cons, facilitating balanced decision-making. It's ideal for business cases, product comparisons, and strategic evaluations.",
+  "category_path": [
+    "decision_making",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "weighted_decision_framework_c507f6b3",
+  "skill_name": "Weighted Decision Framework",
+  "source": {
+    "channel": "SlideEgg",
+    "duration_sec": 108,
+    "type": "youtube",
+    "video_id": "D7OJfuD-434",
+    "video_title": "Pros And Cons PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=D7OJfuD-434",
+    "views": 46
+  },
+  "tags": [
+    "decision making",
+    "pros cons",
+    "comparison",
+    "balance scale",
+    "strategic evaluation",
+    "business case"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:16Z",
+  "wash_version": "1.0.0"
+}

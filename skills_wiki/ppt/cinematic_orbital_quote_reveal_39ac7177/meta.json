@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for hero quotes, vision statements, or concluding thoughts in presentations. It lends a sense of grandeur and forward momentum to static text, suitable for keynote speeches and impactful reveals.",
+  "category_path": [
+    "quote",
+    "reveal",
+    "orbital"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_orbital_quote_reveal_39ac7177",
+  "skill_name": "Cinematic Orbital Quote Reveal",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 512,
+    "type": "youtube",
+    "video_id": "bMIEVkLMYx8",
+    "video_title": "QUOTE SLIDES in PowerPoint \ud83d\ude0a How to do these 3 STYLES!",
+    "video_url": "https://www.youtube.com/watch?v=bMIEVkLMYx8",
+    "views": 47623
+  },
+  "tags": [
+    "cinematic",
+    "quote",
+    "orbital",
+    "reveal",
+    "dynamic",
+    "sci-fi"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:57:51Z",
+  "wash_version": "1.0.0"
+}

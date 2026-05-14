@@ -1,0 +1,120 @@
+{
+  "theme_id": "vhs_electric_duo",
+  "name": "VHS Electric Duo",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0d0b1e-161b33-7f5af0-f25f4c-fffffe-94a1b2-2a2a4a-2cb67d-ef4565",
+  "source_title": "Coolors \u2014 Neon Noir Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0D0B1E",
+    "panel": "#161B33",
+    "accent": "#7F5AF0",
+    "accent2": "#F25F4C",
+    "text": "#FFFFFE",
+    "muted": "#94A1B2",
+    "border": "#2A2A4A",
+    "success": "#2CB67D",
+    "warning": "#EF4565"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Impact",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Impact",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "faint CRT grid over saturated duotone fields"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "playful",
+    "preferred_entrance": [
+      "slide_in_right",
+      "zoom_in",
+      "bounce"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "playful",
+    "bold",
+    "technical"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "glitch",
+    "grid",
+    "pulse",
+    "neon"
+  ],
+  "avoided_motion_tags": [
+    "wash",
+    "ink",
+    "audit"
+  ]
+}

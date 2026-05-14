@@ -1,0 +1,119 @@
+{
+  "theme_id": "boardroom_dark_steel",
+  "name": "Boardroom Dark Steel",
+  "palette": {
+    "bg": "#121419",
+    "panel": "#1C1F27",
+    "accent": "#F0C667",
+    "accent2": "#76A8FF",
+    "text": "#E9EBF1",
+    "muted": "#858A96",
+    "border": "#272B34",
+    "success": "#55C08B",
+    "warning": "#E9963C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Courier New",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "ruled_row",
+    "description": "Ruled rows behind metric tiles"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "boardroom",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "boardroom",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "hairline",
+    "row-cascade",
+    "audit-tick",
+    "typewriter",
+    "kicker-tick",
+    "margin-note"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "confetti",
+    "balloon",
+    "glitch",
+    "ink-bleed",
+    "chromatic",
+    "neon"
+  ]
+}

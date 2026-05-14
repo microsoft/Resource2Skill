@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for ranking, product comparisons, or timelines, this layout presents complex data as a cinematic, digestible sequence for easy attribute-specific comparison across multiple entities.",
+  "category_path": [
+    "data_comparison",
+    "scrolling_cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "horizontal_scrolling_comparison_card_str_0f84fa23",
+  "skill_name": "Horizontal Scrolling Comparison Card Strip",
+  "source": {
+    "channel": "Joris Presents",
+    "duration_sec": 221,
+    "type": "youtube",
+    "video_id": "2eG1z4R89Ok",
+    "video_title": "How To Make a Comparison Video In PowerPoint Tutorial 2021",
+    "video_url": "https://www.youtube.com/watch?v=2eG1z4R89Ok",
+    "views": 37660
+  },
+  "tags": [
+    "horizontal scrolling",
+    "comparison",
+    "card layout",
+    "small multiples",
+    "data sequence",
+    "ranking"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:37:01Z",
+  "wash_version": "1.0.0"
+}

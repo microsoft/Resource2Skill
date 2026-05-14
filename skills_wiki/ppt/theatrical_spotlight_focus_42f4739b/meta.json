@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for high-impact slides like employee recognition, product reveals, and team introductions, where content needs extreme visual focus.",
+  "category_path": [
+    "presentation_design",
+    "visual_emphasis"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "theatrical_spotlight_focus_42f4739b",
+  "skill_name": "Theatrical Spotlight Focus",
+  "source": {
+    "channel": "Humboldt County DHHS",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "cAd8ga4NE2A",
+    "video_title": "Employee Spotlight: Kelli Schwartz",
+    "video_url": "https://www.youtube.com/watch?v=cAd8ga4NE2A",
+    "views": 397
+  },
+  "tags": [
+    "spotlight",
+    "recognition",
+    "hero_section",
+    "visual_emphasis"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:12Z",
+  "wash_version": "1.0.0"
+}

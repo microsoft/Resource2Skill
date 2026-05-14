@@ -1,0 +1,72 @@
+{
+  "skill_id": "donut_split_highlight_5850e6",
+  "skill_type": "shell",
+  "name": "Donut Split Highlight",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split",
+      "section_divider"
+    ],
+    "content_shape": [
+      "left-donut-right-text"
+    ],
+    "density": "medium",
+    "mood": [
+      "bold",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": "body",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    },
+    {
+      "name": "accent_label",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/donut_split_highlight_5850e6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "rotating_dial_morph_panel_wheel_selector_87d765bb",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A split layout featuring a prominent circular graphic on the left with an intersecting accent bar, balanced by a headline and bulleted list on the right.",
+  "_distill_attempts": 1
+}

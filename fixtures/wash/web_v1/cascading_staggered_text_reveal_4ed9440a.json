@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "cascading_staggered_text_reveal_4ed9440a",
+  "source": {
+    "channel": "DesignCourse",
+    "duration_sec": 842,
+    "type": "youtube",
+    "video_id": "va1RrFr-gms",
+    "video_title": "Create an Awesome Text Reveal Animation with GSAP",
+    "video_url": "https://www.youtube.com/watch?v=va1RrFr-gms",
+    "views": 84533
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

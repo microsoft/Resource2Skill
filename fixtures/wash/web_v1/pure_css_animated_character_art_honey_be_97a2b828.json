@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_animated_character_art_honey_be_97a2b828",
+  "source": {
+    "channel": "Divinector",
+    "duration_sec": 245,
+    "type": "youtube",
+    "video_id": "H0PlOdN4Vm0",
+    "video_title": "Honey Bee CSS Art |  Pure CSS Tricks",
+    "video_url": "https://www.youtube.com/watch?v=H0PlOdN4Vm0",
+    "views": 77
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

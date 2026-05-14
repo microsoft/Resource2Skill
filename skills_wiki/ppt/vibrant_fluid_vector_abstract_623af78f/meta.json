@@ -1,0 +1,36 @@
+{
+  "applicability": "This design is ideal for high-impact title, transition, or hero slides in presentations for creative agencies, tech startups, and events. It suits high-level concepts needing visual energy rather than dense, data-heavy content.",
+  "category_path": [
+    "slide_design",
+    "abstract_backgrounds"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vibrant_fluid_vector_abstract_623af78f",
+  "skill_name": "Vibrant Fluid Vector Abstract",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 571,
+    "type": "youtube",
+    "video_id": "5teUFo5FY6o",
+    "video_title": "PPT\u8bbe\u8ba1\u4e0d\u900aPhotoshop\u8ba9PPT\u8bbe\u8ba1\u66f4\u51fa\u5f69",
+    "video_url": "https://www.youtube.com/watch?v=5teUFo5FY6o",
+    "views": 59
+  },
+  "tags": [
+    "vibrant",
+    "fluid",
+    "vector",
+    "abstract",
+    "modern",
+    "title_slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:57Z",
+  "wash_version": "1.0.0"
+}

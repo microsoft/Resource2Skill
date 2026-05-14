@@ -1,0 +1,35 @@
+{
+  "applicability": "Enhances user experience on long-form content pages by animating elements as they scroll into the viewport. Ideal for landing pages, feature lists, and portfolios to guide user attention and create a polished, dynamic feel without heavy libraries.",
+  "category_path": [
+    "web",
+    "interaction",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vanilla_js_scroll_triggered_transitions_3b53fab7",
+  "skill_name": "Vanilla JS Scroll-Triggered Transitions",
+  "source": {
+    "channel": "Beyond Fireship",
+    "duration_sec": 304,
+    "type": "youtube",
+    "video_id": "T33NN_pPeNI",
+    "video_title": "Subtle, yet Beautiful Scroll Animations",
+    "video_url": "https://www.youtube.com/watch?v=T33NN_pPeNI",
+    "views": 2013685
+  },
+  "tags": [
+    "scroll-animation",
+    "intersection-observer",
+    "css-transitions",
+    "vanilla-js"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:19Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Best for project management dashboards, sprint trackers, or scenarios where items are manually moved through a pipeline of stages. It ensures continuous aggregation of metrics like hours or points per stage.",
+  "category_path": [
+    "project_management",
+    "agile"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "agile_kanban_task_tracker_73807267",
+  "skill_name": "Agile Kanban Task Tracker",
+  "source": {
+    "channel": "\u5343\u4e07\u522b\u5b66Excel",
+    "duration_sec": 250,
+    "type": "youtube",
+    "video_id": "SMFmzstfJ4k",
+    "video_title": "Excel\u6559\u5b78 | Excel\u5236\u4f5c\u7684\u654f\u6377\u770b\u677f\uff0c\u53ef\u89c6\u5316\u7ba1\u7406\u5de5\u4f5c\u4efb\u52a1",
+    "video_url": "https://www.youtube.com/watch?v=SMFmzstfJ4k",
+    "views": 1033
+  },
+  "tags": [
+    "kanban",
+    "project_management",
+    "task_tracker",
+    "agile",
+    "dynamic_subtotals",
+    "progress_bar"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:54:08Z",
+  "wash_version": "1.0.0"
+}

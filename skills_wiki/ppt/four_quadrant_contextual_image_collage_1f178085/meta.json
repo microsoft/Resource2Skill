@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creating high-impact title or section slides that convey a multi-faceted concept. This layout replaces a plain slide with an immersive 2x2 image grid, perfect for corporate overviews or marketing proposals.",
+  "category_path": [
+    "layout",
+    "image_grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "four_quadrant_contextual_image_collage_1f178085",
+  "skill_name": "Four-Quadrant Image Collage",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 364,
+    "type": "youtube",
+    "video_id": "WbJ001oaWFQ",
+    "video_title": "PPT\u8bbe\u8ba1\u5e08\u79c1\u85cf\u641c\u56fe\u6307\u5357\uff0c5\u79d2\u5c31\u80fd\u627e\u5230\u9ad8\u8d28\u91cf\u56fe\u7247\u7d20\u6750\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=WbJ001oaWFQ",
+    "views": 288
+  },
+  "tags": [
+    "image grid",
+    "collage",
+    "title slide",
+    "overlay",
+    "layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:27:12Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3_chart_static_dashboard_layout_066bbd71",
+  "skill_name": "3-Chart Static Dashboard Layout",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:32:57Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "Initial view of the interactive dashboard"
+        },
+        {
+          "seconds": 815,
+          "description": "First chart (profit by market & cookie type) placed on the dashboard"
+        },
+        {
+          "seconds": 1158,
+          "description": "All three charts (profit by market, units sold, profit by month) are on the dashboard"
+        },
+        {
+          "seconds": 1529,
+          "description": "Dashboard with interactive timeline and slicers functioning"
+        },
+        {
+          "seconds": 1809,
+          "description": "Final polished dashboard with gridlines/headings hidden and theme changed"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_view_of_the_interactiv.jpg",
+        "frame_01_first_chart_profit_by_market_c.jpg",
+        "frame_02_all_three_charts_profit_by_mar.jpg"
+      ],
+      "recapped_at": 1777406057.4054773
+    },
+    "primary_path": "frame_00_initial_view_of_the_interactiv.jpg"
+  }
+}

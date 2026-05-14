@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_rigid_body_demolition_setup_15ee9dae",
+  "skill_name": "Procedural Rigid Body Demolition Setup",
+  "source": {
+    "channel": "Polyfjord",
+    "duration_sec": 563,
+    "type": "youtube",
+    "video_id": "2Dnks7C2q9U",
+    "video_title": "Tutorial: Tipping Over Stacks of Cubes in Blender",
+    "video_url": "https://www.youtube.com/watch?v=2Dnks7C2q9U",
+    "views": 3010323
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:48:12Z",
+  "wash_version": "1.0.0"
+}

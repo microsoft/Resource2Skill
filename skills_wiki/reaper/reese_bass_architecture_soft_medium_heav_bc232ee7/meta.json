@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "reese_bass_architecture_soft_medium_heav_bc232ee7",
+  "skill_name": "Reese Bass Architecture (Soft, Medium, Heavy)",
+  "source": {
+    "channel": "PHENOMSOUND",
+    "duration_sec": 816,
+    "type": "youtube",
+    "video_id": "Obn_YGGraKE",
+    "video_title": "Making 3 types of Reese basses in Serum",
+    "video_url": "https://www.youtube.com/watch?v=Obn_YGGraKE",
+    "views": 59930
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:59:49Z",
+  "wash_version": "1.0.0"
+}

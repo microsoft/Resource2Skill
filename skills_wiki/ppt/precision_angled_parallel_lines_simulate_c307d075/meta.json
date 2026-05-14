@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "precision_angled_parallel_lines_simulate_c307d075",
+  "skill_name": "Precision Angled Parallel Lines (Simulated Ruler Technique)",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 208,
+    "type": "youtube",
+    "video_id": "uWsEmybbF0A",
+    "video_title": "Move or Rotate the Ruler in PowerPoint and Draw Parallel Lines",
+    "video_url": "https://www.youtube.com/watch?v=uWsEmybbF0A",
+    "views": 183527
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:06:44Z",
+  "wash_version": "1.0.0"
+}

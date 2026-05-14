@@ -1,0 +1,18 @@
+{
+  "skill_id": "unknown_skill_4d140d62",
+  "skill_name": "Unknown Skill",
+  "domain": "excel",
+  "category": "table",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=atjz34a7KT8",
+    "video_id": "atjz34a7KT8",
+    "video_title": "How-to Create Excel Slicers for Your Dynamic Dashboard",
+    "channel": "Excel Dashboard Templates",
+    "duration_sec": 376,
+    "views": 4785
+  },
+  "extracted_at": "2026-04-25T03:23:33.658988",
+  "analysis": "Skip — The tutorial demonstrates how to create and use Slicers to filter an Excel Table via the Excel UI. Currently, the `openpyxl` library does not support the creation of Slicers from scratch. Therefore, this interactive UI feature cannot be extracted into a reproducible Python script component.",
+  "frames": []
+}

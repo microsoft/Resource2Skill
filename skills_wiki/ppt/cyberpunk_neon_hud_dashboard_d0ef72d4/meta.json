@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cyberpunk_neon_hud_dashboard_d0ef72d4",
+  "skill_name": "Cyberpunk Neon HUD Dashboard",
+  "source": {
+    "channel": "PPT Aesthetic Templates ",
+    "duration_sec": 349,
+    "type": "youtube",
+    "video_id": "O_ydhP7N2Xk",
+    "video_title": "#25 AI Theme|Science and Technology| Aesthetic PowerPoint Presentation Template PPT |Canva Editable",
+    "video_url": "https://www.youtube.com/watch?v=O_ydhP7N2Xk",
+    "views": 6087
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:08:20Z",
+  "wash_version": "1.0.0"
+}

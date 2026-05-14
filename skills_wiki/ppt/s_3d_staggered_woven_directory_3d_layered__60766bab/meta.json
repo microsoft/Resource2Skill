@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_staggered_woven_directory_3d_layered__60766bab",
+  "skill_name": "3D Staggered Woven Directory (3D Layered Agenda)",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 85,
+    "type": "youtube",
+    "video_id": "pHLB9Rq83PU",
+    "video_title": "PPT\u521b\u610f\u73a9\u6cd5\uff1a\u4e0d\u7528\u56fe\u7247\u4e5f\u80fd\u5236\u4f5c\u9ad8\u7aef\u5927\u6c14\u7684\u76ee\u5f55\u9875",
+    "video_url": "https://www.youtube.com/watch?v=pHLB9Rq83PU",
+    "views": 680
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:45Z",
+  "wash_version": "1.0.0"
+}

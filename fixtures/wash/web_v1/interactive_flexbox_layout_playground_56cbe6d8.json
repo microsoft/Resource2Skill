@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_flexbox_layout_playground_56cbe6d8",
+  "source": {
+    "channel": "Bro Code",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "GteJWhCikCk",
+    "video_title": "Learn CSS flexbox in 10 minutes! \ud83d\udcaa",
+    "video_url": "https://www.youtube.com/watch?v=GteJWhCikCk",
+    "views": 311685
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

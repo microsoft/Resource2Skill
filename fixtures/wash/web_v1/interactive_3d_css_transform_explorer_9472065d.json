@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_css_transform_explorer_9472065d",
+  "source": {
+    "channel": "Yuvraj Academy",
+    "duration_sec": 263,
+    "type": "youtube",
+    "video_id": "tLNMbiJqWR0",
+    "video_title": "3d transform in css | rotateX | rotateY | rotateZ | 3d in css | transform | Yuvraj Academy | part #7",
+    "video_url": "https://www.youtube.com/watch?v=tLNMbiJqWR0",
+    "views": 366
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating impactful transition, cover, or section divider slides. It effectively highlights a core question or introduces a tutorial step with a prominent headline and stylized search bar.",
+  "category_path": [
+    "shells",
+    "dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hero_search_divider_0ee5c3",
+  "skill_name": "Hero Search Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "minimalist",
+    "search bar",
+    "section divider",
+    "cover slide",
+    "headline",
+    "tutorial"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:10:13Z",
+  "wash_version": "1.0.0"
+}

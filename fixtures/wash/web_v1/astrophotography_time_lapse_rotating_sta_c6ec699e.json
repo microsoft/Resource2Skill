@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "astrophotography_time_lapse_rotating_sta_c6ec699e",
+  "source": {
+    "channel": "Drew Cotten",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "Bbp1-p2FoXU",
+    "video_title": "7PM to 7AM Night Sky Stars Timelapse",
+    "video_url": "https://www.youtube.com/watch?v=Bbp1-p2FoXU",
+    "views": 308535
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

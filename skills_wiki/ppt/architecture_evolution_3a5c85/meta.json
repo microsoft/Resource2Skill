@@ -1,0 +1,34 @@
+{
+  "applicability": "Applicable for visualizing the evolution of systems, processes, or organizational structures through three distinct phases, such as a monolith transitioning to microservices. It emphasizes increasing modularity and complexity.",
+  "category_path": [
+    "architecture",
+    "evolution"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "architecture_evolution_3a5c85",
+  "skill_name": "Architecture Evolution",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "architecture",
+    "evolution",
+    "system design",
+    "3-stage",
+    "modularity",
+    "timeline"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:56Z",
+  "wash_version": "1.0.0"
+}

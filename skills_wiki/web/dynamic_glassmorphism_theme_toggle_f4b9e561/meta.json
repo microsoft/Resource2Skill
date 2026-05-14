@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_glassmorphism_theme_toggle_f4b9e561",
+  "skill_name": "Dynamic Glassmorphism Theme Toggle",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:15:19Z",
+  "wash_version": "1.0.0"
+}

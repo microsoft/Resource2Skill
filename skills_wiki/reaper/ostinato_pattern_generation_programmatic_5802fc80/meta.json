@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ostinato_pattern_generation_programmatic_5802fc80",
+  "skill_name": "Ostinato Pattern Generation (Programmatic Looping)",
+  "source": {
+    "channel": "Home Music Maker",
+    "duration_sec": 401,
+    "type": "youtube",
+    "video_id": "i_bnmQH5yug",
+    "video_title": "How to Loop in REAPER (Beginners Guide!)",
+    "video_url": "https://www.youtube.com/watch?v=i_bnmQH5yug",
+    "views": 26190
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:04Z",
+  "wash_version": "1.0.0"
+}

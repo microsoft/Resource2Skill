@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "shape_driven_styled_gantt_chart_503816e0",
+  "skill_name": "Shape-Driven Styled Gantt Chart",
+  "source": {
+    "channel": "Presentation Design Mastery - PowerPoint Skills",
+    "duration_sec": 426,
+    "type": "youtube",
+    "video_id": "JByJkEeXeb8",
+    "video_title": "Create GANTT charts in PowerPoint like a PRO - How is this possible? A step by step tutorial.",
+    "video_url": "https://www.youtube.com/watch?v=JByJkEeXeb8",
+    "views": 22592
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:14Z",
+  "wash_version": "1.0.0"
+}

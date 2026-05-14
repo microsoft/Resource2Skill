@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for slides requiring a prominent, visually distinct quote or testimonial. Suitable for breaking up content with a bold, editorial-style statement.",
+  "category_path": [
+    "quotes",
+    "panels"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pull_down_quote_panel_523246",
+  "skill_name": "Pull-down Quote Panel",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "quote",
+    "panel",
+    "pull-down",
+    "editorial",
+    "centered",
+    "headline"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:15:33Z",
+  "wash_version": "1.0.0"
+}

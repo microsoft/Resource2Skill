@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "selective_focused_line_chart_6087975c",
+  "source": {
+    "channel": "Calon Heindel ",
+    "duration_sec": 302,
+    "type": "youtube",
+    "video_id": "Tbrk8jChVZo",
+    "video_title": "How To Make Your Excel Charts More Professional",
+    "video_url": "https://www.youtube.com/watch?v=Tbrk8jChVZo",
+    "views": 780
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

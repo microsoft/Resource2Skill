@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "adaptive_bento_dashboard_grid_05a335e3",
+  "skill_name": "Adaptive Bento Dashboard Grid",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=JYfiaSKeYhE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:32Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 18,
+          "description": "Responsive grid layout adjusting to screen size"
+        },
+        {
+          "seconds": 118,
+          "description": "Basic 3-column CSS grid layout"
+        },
+        {
+          "seconds": 156,
+          "description": "3x3 CSS grid with gaps between items"
+        },
+        {
+          "seconds": 1014,
+          "description": "Complex 'bento grid' layout using grid-template-areas"
+        },
+        {
+          "seconds": 1943,
+          "description": "Responsive product display grid that auto-fits columns"
+        }
+      ],
+      "frames": [
+        "frame_00_responsive_grid_layout_adjusti.jpg",
+        "frame_01_basic_3_column_css_grid_layout.jpg",
+        "frame_02_3x3_css_grid_with_gaps_between.jpg",
+        "frame_03_complex_bento_grid_layout_usin.jpg"
+      ],
+      "recapped_at": 1777408178.843355
+    },
+    "primary_path": "frame_00_responsive_grid_layout_adjusti.jpg"
+  }
+}

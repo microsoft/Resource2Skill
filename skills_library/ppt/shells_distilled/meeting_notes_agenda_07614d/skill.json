@@ -1,0 +1,80 @@
+{
+  "skill_id": "meeting_notes_agenda_07614d",
+  "skill_type": "shell",
+  "name": "Meeting Notes Agenda",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "agenda"
+    ],
+    "content_shape": [
+      "header+meta+bullets"
+    ],
+    "density": "high",
+    "mood": [
+      "corporate",
+      "minimal",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "meta_info",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "content_title",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 8
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/meeting_notes_agenda_07614d/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "architectural_minimalist_chapter_title_b0e88c72",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A high-density text layout suitable for meeting notes or detailed agendas, featuring a meta-information block and a structured list of points.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,13 @@
+{
+  "applicability": "Foundational primer for Blender hero shot tasks. Provides the shell-fit table (which scene shells map to which brief types), lighting rig choice rule, material discipline guide, render settings best practices, and common pitfalls. Auto-loaded for with_skills mode.",
+  "category_path": ["primer"],
+  "exec_ok": null,
+  "license": "internal",
+  "modalities_present": ["text"],
+  "schema_version": "1.0.0",
+  "skill_id": "blender_design_system_primer",
+  "skill_name": "Blender Hero-Shot Primer (shells, lighting rigs, material presets)",
+  "source": {"type": "internal"},
+  "tags": ["primer", "blender", "shells", "lighting", "materials"],
+  "tier": "T1"
+}

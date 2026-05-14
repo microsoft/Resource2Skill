@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_pulse_hero_with_pure_css_typing_ani_4aa22042",
+  "skill_name": "Neon Pulse Hero with Pure CSS Typing Animation",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 3143,
+    "type": "youtube",
+    "video_id": "UqHILyzcULE",
+    "video_title": "Build a Responsive Personal Portfolio Website Using HTML & CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=UqHILyzcULE",
+    "views": 578532
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:07:09Z",
+  "wash_version": "1.0.0"
+}

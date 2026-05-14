@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sidebar_kpi_dashboard_layout_c5bab5f8",
+  "skill_name": "Sidebar KPI Dashboard Layout",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:46:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 29,
+          "description": "First glimpse of the fully interactive Excel dashboard"
+        },
+        {
+          "seconds": 108,
+          "description": "Live demonstration of the finished interactive dashboard in Excel"
+        },
+        {
+          "seconds": 830,
+          "description": "Dashboard sheet with the left side panel containing key metrics and initial layout"
+        },
+        {
+          "seconds": 1445,
+          "description": "Dashboard with multiple charts (line, bar, heat map) positioned and showing data"
+        },
+        {
+          "seconds": 2745,
+          "description": "Final, fully polished and interactive dashboard with custom color scheme"
+        }
+      ],
+      "frames": [
+        "frame_00_first_glimpse_of_the_fully_int.jpg",
+        "frame_01_live_demonstration_of_the_fini.jpg",
+        "frame_02_dashboard_sheet_with_the_left_.jpg",
+        "frame_03_dashboard_with_multiple_charts.jpg"
+      ],
+      "recapped_at": 1777407487.8222034
+    },
+    "primary_path": "frame_00_first_glimpse_of_the_fully_int.jpg"
+  }
+}

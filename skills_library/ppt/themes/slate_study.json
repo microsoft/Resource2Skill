@@ -1,0 +1,131 @@
+{
+  "theme_id": "slate_study",
+  "name": "Slate Study",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/f8fafc-e2e8f0-2563eb-0f766e-0f172a-475569-cbd5e1-15803d-b45309",
+  "source_title": "Coolors Slate Research Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#F8FAFC",
+    "panel": "#E2E8F0",
+    "accent": "#2563EB",
+    "accent2": "#0F766E",
+    "text": "#0F172A",
+    "muted": "#475569",
+    "border": "#CBD5E1",
+    "success": "#15803D",
+    "warning": "#B45309"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Cambria",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Cambria",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "Quiet ruled dividers echo journal report layouts"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "calm",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom",
+      "slide_in_right"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "research",
+    "calm",
+    "editorial",
+    "boardroom"
+  ],
+  "archetype_fit": [
+    "research",
+    "data",
+    "narrative",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "trace",
+    "editorial",
+    "hairline"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "pulse",
+    "confetti",
+    "bounce"
+  ]
+}

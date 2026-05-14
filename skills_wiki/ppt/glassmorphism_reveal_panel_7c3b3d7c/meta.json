@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_reveal_panel_7c3b3d7c",
+  "skill_name": "Glassmorphism Reveal Panel",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 2701,
+    "type": "youtube",
+    "video_id": "1itRFTf_OkA",
+    "video_title": "TOP 20 PowerPoint TIPS & TRICKS!\ud83d\ude01\u2728",
+    "video_url": "https://www.youtube.com/watch?v=1itRFTf_OkA",
+    "views": 341658
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:33:36Z",
+  "wash_version": "1.0.0"
+}

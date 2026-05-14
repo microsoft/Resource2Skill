@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "programmatic_sidebar_pagination_text_flo_95db2daf",
+  "skill_name": "Programmatic Sidebar Pagination & Text Flow",
+  "source": {
+    "channel": "TRACCreations4E",
+    "duration_sec": 184,
+    "type": "youtube",
+    "video_id": "FmUCHLeBH2Y",
+    "video_title": "How to Split Text Between Slides in Microsoft PowerPoint Presentation",
+    "video_url": "https://www.youtube.com/watch?v=FmUCHLeBH2Y",
+    "views": 24955
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:46Z",
+  "wash_version": "1.0.0"
+}

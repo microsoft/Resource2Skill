@@ -1,0 +1,37 @@
+{
+  "applicability": "Foundational for any genre using programmed drums (e.g., Rock, Pop, Hip-Hop). This skill avoids robotic, 'machine-gun' rhythms by introducing human feel through velocity variations for accents and ghost notes.",
+  "category_path": [
+    "sequencing",
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_midi_drum_sequencing_velocity_ar_52243dd9",
+  "skill_name": "MIDI Drum Sequencing with Velocity Articulation",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 634,
+    "type": "youtube",
+    "video_id": "q2tIe1wUcAI",
+    "video_title": "Editing MIDI Drums - Part I in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=q2tIe1wUcAI",
+    "views": 27529
+  },
+  "tags": [
+    "drums",
+    "midi",
+    "sequencing",
+    "velocity",
+    "groove",
+    "humanize"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:40Z",
+  "wash_version": "1.0.0"
+}

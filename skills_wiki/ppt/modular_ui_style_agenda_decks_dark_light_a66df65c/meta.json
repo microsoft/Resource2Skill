@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_ui_style_agenda_decks_dark_light_a66df65c",
+  "skill_name": "Modular UI-Style Agenda Decks (Dark/Light Modes)",
+  "source": {
+    "channel": "SlideBazaar - PowerPoint Tutorials",
+    "duration_sec": 385,
+    "type": "youtube",
+    "video_id": "WT9Jo7ECq20",
+    "video_title": "How to Create Agenda Slides in PowerPoint (Easy and Professional Designs)",
+    "video_url": "https://www.youtube.com/watch?v=WT9Jo7ECq20",
+    "views": 996
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:22:32Z",
+  "wash_version": "1.0.0"
+}

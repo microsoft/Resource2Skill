@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for web apps, SaaS dashboards, and communication tools requiring a space-efficient vertical sidebar navigation. It maximizes screen real estate by using icon buttons with morphing effects and animated tooltips.",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "discord_style_morphing_sidebar_animated__e7b53ebf",
+  "skill_name": "Discord-Style Morphing Sidebar & Animated Tooltips",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 776,
+    "type": "youtube",
+    "video_id": "pfaSUYaSgRo",
+    "video_title": "Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar",
+    "video_url": "https://www.youtube.com/watch?v=pfaSUYaSgRo",
+    "views": 1612199
+  },
+  "tags": [
+    "sidebar",
+    "navigation",
+    "morphing",
+    "tooltips",
+    "web app",
+    "animated"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:13:06Z",
+  "wash_version": "1.0.0"
+}

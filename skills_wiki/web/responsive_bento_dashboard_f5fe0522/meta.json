@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_dashboard_f5fe0522",
+  "skill_name": "Responsive Bento Dashboard",
+  "source": {
+    "channel": "Sajid",
+    "duration_sec": 1051,
+    "type": "youtube",
+    "video_id": "l04dDYW-QaI",
+    "video_title": "The Easy Way to Build Responsive Websites",
+    "video_url": "https://www.youtube.com/watch?v=l04dDYW-QaI",
+    "views": 212071
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:16:31Z",
+  "wash_version": "1.0.0"
+}

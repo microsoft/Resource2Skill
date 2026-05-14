@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell provides a split layout with a prominent text area on the left and a vertical strip of four images on the right. It is ideal for team introductions or showcasing product features.",
+  "category_path": [
+    "content_display",
+    "image_layout"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_image_strip_split_ddfc81",
+  "skill_name": "Vertical Image Strip Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "team intro",
+    "feature highlight",
+    "image strip",
+    "text layout",
+    "four images",
+    "corporate"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:19Z",
+  "wash_version": "1.0.0"
+}

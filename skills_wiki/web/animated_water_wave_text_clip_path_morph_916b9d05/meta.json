@@ -1,0 +1,60 @@
+{
+  "applicability": "Creates a mesmerizing liquid wave effect within text, ideal for hero titles, loading indicators, or thematic splash screens. This pure CSS technique provides a lightweight and performant visual flourish without external assets.",
+  "category_path": [
+    "css",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_water_wave_text_clip_path_morph_916b9d05",
+  "skill_name": "CSS Liquid Wave Text Effect",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 169,
+    "type": "youtube",
+    "video_id": "Tf6qm5JMUXQ",
+    "video_title": "Pure CSS3 Water Wave Text Animation Effects Using CSS Clip-path",
+    "video_url": "https://www.youtube.com/watch?v=Tf6qm5JMUXQ",
+    "views": 222375
+  },
+  "tags": [
+    "css",
+    "animation",
+    "clip-path",
+    "typography",
+    "text effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:59Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "initial demo of the animated water wave text effect"
+        },
+        {
+          "seconds": 116,
+          "description": "two layers of text are visible: transparent stroked and solid blue"
+        },
+        {
+          "seconds": 233,
+          "description": "final animated water wave text effect in action"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_demo_of_the_animated_w.jpg",
+        "frame_01_two_layers_of_text_are_visible.jpg"
+      ],
+      "recapped_at": 1777408501.7225509
+    },
+    "primary_path": "frame_00_initial_demo_of_the_animated_w.jpg"
+  }
+}

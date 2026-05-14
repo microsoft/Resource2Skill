@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "boom_bap_drum_sub_bass_foundation_fe35756e",
+  "skill_name": "Boom Bap Drum & Sub Bass Foundation",
+  "source": {
+    "channel": "Learning Reaper",
+    "duration_sec": 992,
+    "type": "youtube",
+    "video_id": "1YtNVsoZz2o",
+    "video_title": "How to Make A Hip Hop Beat In Reaper",
+    "video_url": "https://www.youtube.com/watch?v=1YtNVsoZz2o",
+    "views": 12607
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:53Z",
+  "wash_version": "1.0.0"
+}

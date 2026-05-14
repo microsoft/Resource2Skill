@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bilateral_layered_comparison_card_d1ea14a1",
+  "skill_name": "Bilateral Layered Comparison Card",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 651,
+    "type": "youtube",
+    "video_id": "h-mCmf36aOU",
+    "video_title": "Comparison Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=h-mCmf36aOU",
+    "views": 69208
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:54:05Z",
+  "wash_version": "1.0.0"
+}

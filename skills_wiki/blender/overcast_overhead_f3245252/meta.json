@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for achieving soft, diffuse architectural daylight, neutral product references, or minimalist scenes without harsh shadows. Suitable for interiors and exteriors where a gentle, even illumination is desired.",
+  "category_path": [
+    "lighting_rigs"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "overcast_overhead_f3245252",
+  "skill_name": "overcast_overhead",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "overcast",
+    "daylight",
+    "soft lighting",
+    "architectural",
+    "product rendering",
+    "minimalist"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:11Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,123 @@
+{
+  "theme_id": "vibrant_light_mint",
+  "name": "Vibrant Light Mint",
+  "palette": {
+    "bg": "#EEF8F3",
+    "panel": "#D9EEE2",
+    "accent": "#0E9F6E",
+    "accent2": "#E65A5A",
+    "text": "#132019",
+    "muted": "#5F7469",
+    "border": "#B7DCC8",
+    "success": "#0E9F6E",
+    "warning": "#E99336"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Verdana",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Verdana",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Verdana",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "rounded_tile",
+    "description": "Rounded tile accents"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "dynamic",
+    "preferred_entrance": [
+      "zoom",
+      "in_top"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "playful",
+    "warm",
+    "punchy"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "balloon",
+    "bubble",
+    "confetti",
+    "map-pin",
+    "lab-blink",
+    "polaroid",
+    "page-turn",
+    "ink-bleed",
+    "thesis",
+    "snap"
+  ],
+  "avoided_motion_tags": [
+    "hairline",
+    "typewriter",
+    "margin-note",
+    "ink-bleed",
+    "thesis",
+    "glitch",
+    "chromatic",
+    "slot-machine"
+  ]
+}

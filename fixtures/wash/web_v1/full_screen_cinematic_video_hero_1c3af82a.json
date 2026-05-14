@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "full_screen_cinematic_video_hero_1c3af82a",
+  "source": {
+    "channel": "Html Camp",
+    "duration_sec": 273,
+    "type": "youtube",
+    "video_id": "-unASUgYtVI",
+    "video_title": "How to Create a Website With Video Background | Html and Css",
+    "video_url": "https://www.youtube.com/watch?v=-unASUgYtVI",
+    "views": 151694
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

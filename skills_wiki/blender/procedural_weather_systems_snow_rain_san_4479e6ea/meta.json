@@ -1,0 +1,37 @@
+{
+  "applicability": "Enhances static scenes by introducing organic atmospheric movement. Ideal for cinematic environments and establishing shots requiring scalable weather simulations.",
+  "category_path": [
+    "physics",
+    "particle_systems"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_weather_systems_snow_rain_san_4479e6ea",
+  "skill_name": "Procedural Weather Systems (Snow, Rain, Sandstorm)",
+  "source": {
+    "channel": "CG Boost",
+    "duration_sec": 659,
+    "type": "youtube",
+    "video_id": "gd9S7Ln0vB4",
+    "video_title": "Weather Effects in Blender EEVEE",
+    "video_url": "https://www.youtube.com/watch?v=gd9S7Ln0vB4",
+    "views": 124866
+  },
+  "tags": [
+    "particle_system",
+    "weather",
+    "physics",
+    "force_field",
+    "vfx",
+    "motion_blur"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:31:16Z",
+  "wash_version": "1.0.0"
+}

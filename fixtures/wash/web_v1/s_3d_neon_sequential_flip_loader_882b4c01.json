@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_neon_sequential_flip_loader_882b4c01",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 521,
+    "type": "youtube",
+    "video_id": "z2LQYsZhsFw",
+    "video_title": "Learn CSS Animations in 9 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=z2LQYsZhsFw",
+    "views": 240299
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

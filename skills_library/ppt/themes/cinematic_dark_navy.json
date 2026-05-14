@@ -1,0 +1,131 @@
+{
+  "theme_id": "cinematic_dark_navy",
+  "name": "Cinematic Dark Navy",
+  "palette": {
+    "bg": "#06101F",
+    "panel": "#0F1A2E",
+    "accent": "#E5B7A0",
+    "accent2": "#FFBA08",
+    "text": "#EAF0FB",
+    "muted": "#6C7A93",
+    "border": "#162338",
+    "success": "#6CCB97",
+    "warning": "#FFBA08"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Impact",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Impact",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Book Antiqua",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Book Antiqua",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Book Antiqua",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Impact",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "letterbox",
+    "description": "Cinematic letterbox bars"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "wipe"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "cinematic",
+    "editorial",
+    "bold"
+  ],
+  "archetype_fit": [
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "iris",
+    "spotlight",
+    "vignette",
+    "ink-bleed",
+    "page-turn",
+    "polaroid",
+    "typewriter",
+    "column-rule",
+    "margin-note",
+    "kicker-tick"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "pixel",
+    "dot-matrix",
+    "bounce",
+    "confetti",
+    "chromatic",
+    "thesis"
+  ]
+}

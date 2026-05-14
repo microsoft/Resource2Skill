@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_snapping_full_section__5b21319c",
+  "source": {
+    "channel": "FollowAndrew",
+    "duration_sec": 323,
+    "type": "youtube",
+    "video_id": "MsmvhpBXosM",
+    "video_title": "CSS Scroll Snap",
+    "video_url": "https://www.youtube.com/watch?v=MsmvhpBXosM",
+    "views": 53764
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "staggered_slice_page_transition_c48e2a38",
+  "source": {
+    "channel": "DesignCourse",
+    "duration_sec": 1205,
+    "type": "youtube",
+    "video_id": "aMucZErEdZg",
+    "video_title": "Creating Sick Page Transitions with Barba.js & GSAP",
+    "video_url": "https://www.youtube.com/watch?v=aMucZErEdZg",
+    "views": 140984
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

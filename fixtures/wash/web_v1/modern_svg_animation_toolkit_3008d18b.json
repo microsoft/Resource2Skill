@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_svg_animation_toolkit_3008d18b",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 639,
+    "type": "youtube",
+    "video_id": "o7DyKBkQLnM",
+    "video_title": "Create Stunning SVG Animations with CSS [Beginner to Pro]",
+    "video_url": "https://www.youtube.com/watch?v=o7DyKBkQLnM",
+    "views": 7190
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

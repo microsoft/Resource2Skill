@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tame_impala_psych_pop_melodic_fuzz_bass_136346c8",
+  "skill_name": "Tame Impala: Psych-Pop Melodic Fuzz Bass",
+  "source": {
+    "type": "youtube",
+    "video_title": "Tame Impala production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:05:13Z",
+  "wash_version": "1.0.0"
+}

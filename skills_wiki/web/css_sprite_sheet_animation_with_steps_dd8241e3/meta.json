@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for adding high-performance, frame-by-frame 2D animations like character movements, custom interactive icons, or complex loading spinners. It eliminates the file bloat of GIFs and performance overhead of JavaScript while preventing image loading flicker.",
+  "category_path": [
+    "animation",
+    "css_animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_sprite_sheet_animation_with_steps_dd8241e3",
+  "skill_name": "CSS Sprite Sheet Animation",
+  "source": {
+    "channel": "MinimalTech",
+    "duration_sec": 213,
+    "type": "youtube",
+    "video_id": "XRO3oGuxKls",
+    "video_title": "Character Moving Animation Tutorial Using CSS & HTML",
+    "video_url": "https://www.youtube.com/watch?v=XRO3oGuxKls",
+    "views": 872
+  },
+  "tags": [
+    "css-animation",
+    "sprite-sheet",
+    "steps-function",
+    "keyframes",
+    "frame-by-frame"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:17Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Use this skill to create a high-impact, cinematic reveal for title slides, section breaks, or closing slides. It's ideal for focusing audience attention on a key message or call to action.",
+  "category_path": [
+    "animation",
+    "transition",
+    "reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_paper_fold_reveal_transition_769baf7e",
+  "skill_name": "Paper Fold Reveal Transition",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 421,
+    "type": "youtube",
+    "video_id": "cUBWSPKQMsQ",
+    "video_title": "From Blah to Ta-Da! Animate Your Thank You Slide into a Jaw-Dropping Finale!",
+    "video_url": "https://www.youtube.com/watch?v=cUBWSPKQMsQ",
+    "views": 7551
+  },
+  "tags": [
+    "morph transition",
+    "reveal",
+    "animation",
+    "paper fold",
+    "parting curtains"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:33Z",
+  "wash_version": "1.0.0"
+}

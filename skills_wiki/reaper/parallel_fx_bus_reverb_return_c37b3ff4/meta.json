@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parallel_fx_bus_reverb_return_c37b3ff4",
+  "skill_name": "Parallel FX Bus (Reverb Return)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 892,
+    "type": "youtube",
+    "video_id": "8QmVGdlcMB0",
+    "video_title": "This is REAPER 6 - Sends & Busses (8/15)",
+    "video_url": "https://www.youtube.com/watch?v=8QmVGdlcMB0",
+    "views": 67679
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:28Z",
+  "wash_version": "1.0.0"
+}

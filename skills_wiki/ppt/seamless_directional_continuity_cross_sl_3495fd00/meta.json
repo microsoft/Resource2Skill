@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for step-by-step process flows, product feature tours, timelines, or storytelling narratives. It transforms a standard deck into a dynamic, app-like horizontal scroll experience.",
+  "category_path": [
+    "slide_design",
+    "transitions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_directional_continuity_cross_sl_3495fd00",
+  "skill_name": "Seamless Directional Continuity (Cross-Slide Flow)",
+  "source": {
+    "channel": "Jeremy's Tutorials",
+    "duration_sec": 517,
+    "type": "youtube",
+    "video_id": "o278FATn2Yk",
+    "video_title": "Master Google Slides ANIMATIONS & TRANSITIONS in 8 Minutes! *TUTORIAL*",
+    "video_url": "https://www.youtube.com/watch?v=o278FATn2Yk",
+    "views": 19821
+  },
+  "tags": [
+    "slide transition",
+    "pan effect",
+    "spatial continuity",
+    "storytelling",
+    "horizontal scroll"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:25:13Z",
+  "wash_version": "1.0.0"
+}

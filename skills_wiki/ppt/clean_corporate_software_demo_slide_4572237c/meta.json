@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_corporate_software_demo_slide_4572237c",
+  "skill_name": "Clean Corporate Software Demo Slide",
+  "source": {
+    "channel": "squaremilesystems",
+    "duration_sec": 355,
+    "type": "youtube",
+    "video_id": "6tiXuvD8Xag",
+    "video_title": "Visio network diagrams with intelligent network connector",
+    "video_url": "https://www.youtube.com/watch?v=6tiXuvD8Xag",
+    "views": 63769
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:01Z",
+  "wash_version": "1.0.0"
+}

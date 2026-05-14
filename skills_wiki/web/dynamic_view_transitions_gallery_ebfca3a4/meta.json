@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for media galleries, e-commerce product grids, and portfolio case studies. It uses the CSS View Transitions API to create an app-like master-detail navigation experience.",
+  "category_path": [
+    "animation",
+    "view_transitions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_view_transitions_gallery_ebfca3a4",
+  "skill_name": "Dynamic View Transitions Gallery",
+  "source": {
+    "channel": "camelCase",
+    "duration_sec": 847,
+    "type": "youtube",
+    "video_id": "nZtg-xzhy0g",
+    "video_title": "CSS View Transitions Will Change Web Design Forever",
+    "video_url": "https://www.youtube.com/watch?v=nZtg-xzhy0g",
+    "views": 69528
+  },
+  "tags": [
+    "view transitions",
+    "gallery",
+    "morphing",
+    "spa animation",
+    "master-detail"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:20Z",
+  "wash_version": "1.0.0"
+}

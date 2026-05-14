@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_particle_landing_page_42f1ee43",
+  "source": {
+    "channel": "Come For Code",
+    "duration_sec": 146,
+    "type": "youtube",
+    "video_id": "BqIV3jBy1n8",
+    "video_title": "Build a Stunning 3D Animated Website with Three.js & AOS | Full Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=BqIV3jBy1n8",
+    "views": 41
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "infinite_css_marquee_carousel_e78e9c83",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 240,
+    "type": "youtube",
+    "video_id": "KD1Yo8a_Qis",
+    "video_title": "Build Infinite Carousel Animations in 4 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=KD1Yo8a_Qis",
+    "views": 169242
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

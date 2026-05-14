@@ -1,0 +1,36 @@
+{
+  "applicability": "This component is ideal for luxury brand landing pages, architectural portfolios, and high-end e-commerce, effectively balancing heavy copy and high-impact imagery with a legible split-screen design and dynamic marquee.",
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_split_screen_hero_with_animat_c0696edc",
+  "skill_name": "Asymmetric Split-Screen Hero with Animated Marquee",
+  "source": {
+    "channel": "Express Code",
+    "duration_sec": 1784,
+    "type": "youtube",
+    "video_id": "BfrR2Gc67WA",
+    "video_title": "Building a Modern Split Screen Hero Section with HTML and CSS in 30 minutes| Web DevelopmentTutorial",
+    "video_url": "https://www.youtube.com/watch?v=BfrR2Gc67WA",
+    "views": 85
+  },
+  "tags": [
+    "split-screen",
+    "hero",
+    "marquee",
+    "animation",
+    "luxury",
+    "flexbox"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:22Z",
+  "wash_version": "1.0.0"
+}

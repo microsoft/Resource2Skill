@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "in_the_face_pop_rock_vocal_mixing_chain_822f82d6",
+  "skill_name": "\"In-the-Face\" Pop/Rock Vocal Mixing Chain",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 700,
+    "type": "youtube",
+    "video_id": "MWPk64BXXpE",
+    "video_title": "Mixing Lead Vocals in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=MWPk64BXXpE",
+    "views": 117218
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:09Z",
+  "wash_version": "1.0.0"
+}

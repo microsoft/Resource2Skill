@@ -1,0 +1,774 @@
+{
+  "advanced_hdri_environment_setup_split_li_695fd065": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "advanced_hdri_environment_lighting_compo_ef3c2bab": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "advanced_hdri_lighting_background_mask_r_0a038ad9": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_volumetric_water_25e9691d": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very simple low-detail circular container with minimal lighting/material definition; usable only as a rough placeholder, not a polished or especially novel asset.",
+    "exec_ok": true
+  },
+  "procedural_animated_water_with_fake_caus_1ac2f5c9": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_raycast_water_shader_cycles_f53d4967": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "high_resolution_sculpting_base_setup_cla_0287aa0e": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Simple smooth blob with basic shading; clean enough, but minimal material, lighting, and novelty limit scene-readiness and interest.",
+    "exec_ok": true
+  },
+  "procedural_voxel_remeshed_sculpt_base_441988d0": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Simple blobby form with basic material and minimal lighting; readable but lacks polish, context, and standout technique.",
+    "exec_ok": true
+  },
+  "stylized_character_blockout_voxel_remesh_e1d905d5": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "non_destructive_sci_fi_hard_surface_pane_a949c6e8": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, simple hard-surface form with decent shading, but minimal material/light interest and limited novelty.",
+    "exec_ok": true
+  },
+  "non_destructive_radial_hard_surface_mode_624a68be": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Extremely dark render with limited readable detail; moody lighting hints at a keyboard-like form, but visibility and clarity are too low for strong scene integration or standout technique.",
+    "exec_ok": true
+  },
+  "procedural_hard_surface_panel_cuts_via_m_a4c06a47": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean simple curved hard-surface form with decent shading, but the presentation is very dark and minimal, limiting detail, scene-readiness, and novelty.",
+    "exec_ok": true
+  },
+  "procedural_falling_snow_particle_system_d492ab3a": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so there’s no visible geometry, material, lighting, or effect to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_stylized_fur_hair_object_ea887cff": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Striking abstract donut-like form with appealing granular breakup and moody lighting, though its niche stylization limits easy scene integration.",
+    "exec_ok": true
+  },
+  "procedural_object_scattering_via_hair_pa_8fc2cc26": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean low-poly forest style with usable scene assets, but very dark lighting and simple forms/materials limit polish and novelty.",
+    "exec_ok": true
+  },
+  "viewport_compositor_glow_bloom_effect_f4f6b3e7": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "A very basic flat pink polygon on black; clean silhouette but minimal material, lighting, and technical interest.",
+    "exec_ok": true
+  },
+  "viewport_compositor_bloom_glowing_emissi_2ee3cfb3": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Clean but extremely basic cube render with flat material/lighting and little stylistic or technical complexity.",
+    "exec_ok": true
+  },
+  "procedural_glowing_edge_neon_material_d37ad67c": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_neon_sign_with_atmospheric_wa_97e21232": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, convincing neon sign with pleasing glow and wall interaction; simple but effective and easy to place in moody urban scenes.",
+    "exec_ok": true
+  },
+  "volumetric_ancient_ruins_water_54156dfa": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears to be only a plain gray gradient/background with no visible 3D subject, materials, or technique to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "basic_procedural_wood_material_6e5ae1c3": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Simple L-shaped wood-textured form with basic lighting and minimal scene context; functional but not especially refined or inventive.",
+    "exec_ok": true
+  },
+  "procedural_worn_metal_material_be6dd3c9": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Small central glow has a soft nebula-like look, but the render is very sparse and low-detail, limiting visual impact and technical interest.",
+    "exec_ok": true
+  },
+  "procedural_environment_scatter_with_rayc_57cb0cdd": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_vector_warped_displacement_aca1039a": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Simple smooth egg-like form with basic lighting and minimal material/detail; technically clean but not very distinctive or scene-ready.",
+    "exec_ok": true
+  },
+  "procedural_stylized_head_base_a5ab7147": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Simple organic blob with basic smooth shading and minimal lighting; readable as a study but not yet refined or especially scene-ready.",
+    "exec_ok": true
+  },
+  "procedural_swirling_energy_orb_84b8c091": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "custom_clear_glass_material_ba54075a": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_material_toolkit_wood_plastic_8e4cbfbc": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Basic shader/material sphere studies with minimal lighting and presentation; textures show some variation but the scene feels unfinished and not well integrated.",
+    "exec_ok": true
+  },
+  "stylized_real_time_eevee_glass_7a0fa0f1": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black with no discernible geometry, materials, or lighting to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_beveled_glass_pane_clear_fros_c70395a3": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "eevee_realistic_alpha_hashed_glass_4d44c2a4": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_keyframe_animation_transforms_079b322c": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_animated_bouncing_prop_keyfra_7a62282a": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_keyframe_transform_animation_ab7406df": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "cycles_true_pbr_displacement_setup_81f9d043": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "basic_looping_transform_animation_bf599794": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very simple flat-shaded geometric corner form with clean enough edges, but minimal detail, basic lighting, and little stylistic or technical novelty.",
+    "exec_ok": true
+  },
+  "seamless_box_projection_texturing_proced_c1491ea9": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "pbr_material_pipeline_with_true_adaptive_54a6026e": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, readable brick-tile floor asset with simple shading and good scene usability, but minimal lighting/material richness and limited novelty.",
+    "exec_ok": true
+  },
+  "procedural_volumetric_fog_god_rays_5cb925b4": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "A very minimal dark-to-gray gradient render with clean output but little discernible geometry, material definition, or inventive technique.",
+    "exec_ok": true
+  },
+  "procedural_pbr_material_pipeline_roughne_83a71dbb": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Simple smooth blob with basic lighting and no material/detail work; technically clean but very minimal and not especially inventive.",
+    "exec_ok": true
+  },
+  "procedural_volumetric_god_rays_83bc1b2c": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 1,
+    "notes": "Clean basic cube with simple lighting and shadow; usable as a scene placeholder, but technically and creatively very minimal.",
+    "exec_ok": true
+  },
+  "volumetric_god_rays_atmospheric_domain_df468e69": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "Image appears nearly blank with only a dark gradient, offering no clear geometry, material, or effect to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "compositor_based_fake_volumetrics_god_ra_1c2c75eb": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_mograph_twisting_array_c79c2c0d": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_sci_fi_surface_panel_98b1d60c": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_glowing_particle_trail_modern_e7f22988": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "abstract_procedural_displacement_loops_c35c2acb": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_abstract_metallic_knot_a0c7cbe0": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean glossy abstract form with strong lighting and motion-like shaping; versatile for sci-fi/design scenes, though slightly dark and minimal in material variation.",
+    "exec_ok": true
+  },
+  "stylized_low_poly_pine_tree_ccb9998f": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Simple low-poly stylized tree with decent silhouette and basic lighting, suitable as a background asset but not especially detailed or novel.",
+    "exec_ok": true
+  },
+  "stylized_low_poly_pine_tree_a1f59a97": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Simple low-poly tree with decent stylized lighting and clean geometry, but basic materials/composition and limited technical novelty.",
+    "exec_ok": true
+  },
+  "dual_hdri_studio_lighting_with_procedura_e00e832e": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Clean basic sphere and shadow, but the render is extremely low-contrast and minimal, with little material definition or inventive technique.",
+    "exec_ok": true
+  },
+  "stylized_low_poly_box_modeling_vehicle_e096e769": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Simple low-detail blockout car with basic materials and flat lighting; usable as a rough placeholder but not visually refined or technically novel.",
+    "exec_ok": true
+  },
+  "procedural_fluid_gradient_capsules_215fb6d8": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Soft pastel abstract tubes with clean rounded forms and a pleasant gradient haze, but low contrast and minimal detail limit impact and scene integration.",
+    "exec_ok": true
+  },
+  "procedural_proximity_effector_system_3cf62fee": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_surface_scattering_sugar_coat_9eeb6c45": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_spatial_driven_instancing_dis_5b1cf835": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "basic_procedural_geometry_node_setup_0949bc31": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Simple pale-blue sphere with basic shading; clean but extremely minimal and not especially distinctive or scene-ready.",
+    "exec_ok": true
+  },
+  "modular_symmetric_character_block_out_eeb7999b": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Simple low-detail blocky figure with flat translucent shading and minimal lighting; readable but not polished or especially novel.",
+    "exec_ok": true
+  },
+  "procedural_stylized_character_base_mesh_fbd3bed0": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Soft, clean organic form with simple translucent shader and spotted pattern, but presentation is sparse and the object lacks clear definition for strong scene integration.",
+    "exec_ok": true
+  },
+  "procedural_f_curve_animation_via_graph_e_459ca25a": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "stylized_procedural_eye_double_sphere_te_aa2e1521": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "architectural_scene_scaffold_outliner_or_1f93b35e": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "A very minimal gray corner study with clean gradients but little detail, material definition, or inventive technique.",
+    "exec_ok": true
+  },
+  "parametric_arch_viz_room_shell_79d335ec": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "2_5d_parallax_parallax_facade_the_lazy_b_2f268d9b": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_lazy_building_generator_0b850f60": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Interesting abstract modular/procedural structure with decent material contrast, but flat lighting and rough presentation limit polish and scene integration.",
+    "exec_ok": true
+  },
+  "procedural_instanced_prop_generation_geo_a7a3ef71": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "Render appears essentially blank with only a tiny red speck, offering no readable geometry, material, lighting, or evident technique to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "stylized_low_poly_stonework_chiseled_rin_8985ed7b": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "sunlit_architectural_box_nishita_sky_set_dff1241f": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "stylized_low_poly_ramen_cup_12b08354": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Simple low-poly cup with very washed-out presentation; readable shape but minimal material/lighting definition and little technical novelty.",
+    "exec_ok": true
+  },
+  "procedural_interior_lighting_compositing_acdc1810": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_archviz_room_shell_optimized__a884be28": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Cleanly rendered basic cube with soft lighting, but very minimal detail, material interest, and novelty.",
+    "exec_ok": true
+  },
+  "realistic_day_night_interior_lighting_ri_553de9c2": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "eevee_raytraced_realistic_glass_94e7c11c": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Clean Suzanne geometry with a simple clay look, but the extremely low-contrast lighting/background makes the render flat and hard to read.",
+    "exec_ok": true
+  },
+  "game_ready_prop_structuring_sci_fi_anten_eed702b8": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_proximity_growth_system_2e3c004d": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_anime_cel_shaded_grass_field_eb69b5b8": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "atmospheric_environmental_lighting_decou_d90e8f86": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "dynamic_dual_sky_lighting_with_glossy_ov_efd29842": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_ivy_overgrowth_generator_e02a872b": {
+    "visual_quality": 1,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal dark render with barely visible simple geometry; clean enough but lacks lighting, material definition, and inventive technique.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_hdri_lighting_background_spli_fdfd5a3b": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_hard_surface_panel_splitting_119687b6": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The image appears completely black/empty, so no geometry, materials, lighting, or creative technique can be evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "seamless_hard_surface_mesh_decal_normal__44155000": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very simple primitive-like form with basic lighting and no material detail; readable shape but minimal polish or novelty.",
+    "exec_ok": true
+  },
+  "non_destructive_sci_fi_paneling_boolean__abc2f157": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_cinematic_tracking_camera_rig_247d5fa2": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "Image appears completely black/empty, so there’s no visible geometry, material, lighting, or effect to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_cinematic_camera_rig_984dd1cb": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be meaningfully evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "rigid_body_destruction_cell_fracture_kin_82eb3fdc": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Simple floating cube-array concept with basic materials and harsh lighting; moderately reusable in a larger scene but visually quite minimal.",
+    "exec_ok": true
+  },
+  "procedural_breakable_structure_rigid_bod_319da668": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_slatted_wood_wall_panel_b96e53af": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_realistic_car_paint_with_meta_c383b776": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Simple glossy green sphere/egg with very minimal lighting; readable form but too dark and basic to stand out or integrate strongly into a scene.",
+    "exec_ok": true
+  },
+  "procedural_pearlescent_car_paint_with_me_f196aa91": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Simple glowing orb effect with decent falloff and atmosphere, but minimal detail and limited technical novelty.",
+    "exec_ok": true
+  },
+  "procedural_architectural_shell_daylight__7f8d4ef5": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "automated_retopology_workspace_setup_f8b47dc8": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "compositor_reference_split_pipeline_023d040a": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_metallic_car_paint_2c5ddcc5": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Moody abstract glow has some intriguing shader-like appeal, but the render is too dark and indistinct to clearly judge form, materials, or scene integration.",
+    "exec_ok": true
+  },
+  "automated_hard_surface_uv_mapping_diagno_d13d06d3": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be meaningfully evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "3d_text_logo_orbital_camera_rig_062bcdef": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean glossy geometry and moody reflections, but the render is extremely underlit, making forms hard to read and limiting impact.",
+    "exec_ok": true
+  },
+  "cinematic_shattered_glass_text_d90ded49": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_sequential_text_reveal_uv_isl_9039a74b": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "non_destructive_hard_surface_modular_pro_942901e7": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Simple cup-like form with visible low-poly faceting and minimal lighting/material work; usable as a rough placeholder but not a polished or especially inventive render.",
+    "exec_ok": true
+  },
+  "hard_surface_subd_hole_topology_crease_w_92a01f33": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be meaningfully evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_alpha_displacement_height_map_e23a63ac": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_organic_skin_material_sss_set_2abbe7ee": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Interesting distorted teapot form, but the render is extremely underlit and obscures geometry/material detail, limiting scene usability.",
+    "exec_ok": true
+  },
+  "automated_retopology_base_setup_shrinkwr_6905fbe9": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "blocking_plus_animation_workflow_procedu_dd0cc527": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so there’s no visible geometry, material, lighting, or effect to evaluate.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "dense_animation_data_workflow_stepped_to_e2e0ca2c": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal render of a simple red extruded bar; clean enough but lacks material detail, lighting interest, and novel technique.",
+    "exec_ok": true
+  },
+  "hierarchical_bottom_up_animation_overlap_e4a7c0c7": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Very minimal abstract pillar with flat colors and basic lighting; clean enough, but limited detail, integration cues, or inventive technique.",
+    "exec_ok": true
+  },
+  "advanced_hard_surface_edge_control_bevel_950fc695": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be meaningfully evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "noise_free_architectural_window_interior_dd501adc": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "architectural_interior_shell_cove_lighti_d697bdb1": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very simple blockout-like render with basic lighting and minimal material/detail; usable only as a rough placeholder element.",
+    "exec_ok": true
+  },
+  "optimized_cycles_interior_daylighting_hi_409bf738": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "hard_surface_boolean_component_with_beve_77d8e6ca": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Moody low-key lighting creates some atmosphere, but the render is too dark to clearly assess geometry/materials and feels fairly minimal in technique and scene usability.",
+    "exec_ok": true
+  },
+  "procedural_mechanical_rigging_via_action_2e799472": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, minimal hard-surface form with decent reflections, but the render is extremely underlit and conceptually simple.",
+    "exec_ok": true
+  },
+  "procedural_hard_surface_bracket_with_sub_b410a9c5": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Simple clean plate-like part with basic material and very dark lighting; usable as a scene prop but visually minimal and not especially inventive.",
+    "exec_ok": true
+  },
+  "procedural_hard_surface_sci_fi_crate_09310b57": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or creative technique can be evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "volumetric_spot_light_cone_mesh_bound_e10f2245": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Simple volumetric spotlight beam with clean gradients and decent usability in a scene, but minimal detail and limited novelty.",
+    "exec_ok": true
+  },
+  "procedural_isometric_camera_rig_c8aadf6f": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or creative technique can be meaningfully evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "volumetric_refractive_caustics_setup_e9f084d8": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "3d_procedural_motion_graphics_title_curv_1daa1c60": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal gradient-lit surface with clean but extremely simple presentation, offering limited scene utility and little evident technical novelty.",
+    "exec_ok": true
+  },
+  "hard_surface_mechanical_notch_detailing_4e54fd2e": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "clean_topology_curved_panel_hard_surface_12c3df5f": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_3d_architectural_floor_plan_3fd9a9dc": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "Extremely minimal/incomplete render with almost no readable form, limiting visual appeal, scene integration, and evident technique.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_architectural_siding_via_prox_2ff4e470": {
+    "visual_quality": 1,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Mostly empty black frame with a small angular white form; too minimal/incomplete to judge materials or lighting, with limited scene utility and little evident technical novelty.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "procedural_dynamic_edge_wear_chipping_4f697ad5": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_3d_floor_plan_generation_f2326689": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_worn_painted_metal_edge_wear__e7ec6bae": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "procedural_smart_material_substance_styl_c2fdfcdb": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "realistic_interior_artificial_lighting_r_7241f4a4": {
+    "exec_ok": false,
+    "error": "blender_exec_failed"
+  },
+  "parametric_three_point_studio_lighting_r_4956e74c": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "The render appears completely black/empty, so no geometry, materials, lighting, or technique can be meaningfully evaluated.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "non_destructive_architectural_shell_with_439cc687": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Simple clean cube-like form with basic shading; usable as a placeholder asset but minimal detail, material work, or inventive technique.",
+    "exec_ok": true
+  }
+}

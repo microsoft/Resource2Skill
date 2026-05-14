@@ -1,0 +1,25 @@
+{
+  "applicability": "",
+  "category_path": [
+    "format_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_traffic_d3f7dcd8",
+  "skill_name": "kpi_traffic",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:06Z",
+  "wash_version": "1.0.0"
+}

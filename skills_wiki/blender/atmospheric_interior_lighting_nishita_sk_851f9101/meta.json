@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates realistic and atmospheric lighting for enclosed spaces, particularly for architectural visualization or cinematic scenes. Ideal for generating natural ambient light and visible light shafts (god rays) from windows or other openings.",
+  "category_path": [
+    "lighting",
+    "atmospheric"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "atmospheric_interior_lighting_nishita_sk_851f9101",
+  "skill_name": "Atmospheric Interior Lighting with Nishita Sky",
+  "source": {
+    "channel": "coral lab",
+    "duration_sec": 485,
+    "type": "youtube",
+    "video_id": "kxKUnQLn8cQ",
+    "video_title": "How to Create Photorealistic Interior Lighting in Blender",
+    "video_url": "https://www.youtube.com/watch?v=kxKUnQLn8cQ",
+    "views": 43021
+  },
+  "tags": [
+    "volumetric",
+    "interior lighting",
+    "nishita sky",
+    "god rays",
+    "archviz"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:40Z",
+  "wash_version": "1.0.0"
+}

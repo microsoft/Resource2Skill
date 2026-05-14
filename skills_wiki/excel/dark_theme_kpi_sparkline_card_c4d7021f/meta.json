@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_theme_kpi_sparkline_card_c4d7021f",
+  "skill_name": "Dark Theme KPI Sparkline Card",
+  "source": {
+    "channel": "Other Level’s",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=2FCUWp2HWXQ"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:27Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 49,
+          "description": "Country slicer integrated and formatted at the top"
+        },
+        {
+          "seconds": 919,
+          "description": "Monthly sales line chart styled and total monthly sales added"
+        },
+        {
+          "seconds": 1705,
+          "description": "Top products by units sold funnel chart added and styled"
+        },
+        {
+          "seconds": 2220,
+          "description": "Most effective advertising campaigns charts and text laid out"
+        },
+        {
+          "seconds": 2490,
+          "description": "Second dashboard fully populated with all charts and slicers"
+        }
+      ],
+      "frames": [
+        "frame_00_country_slicer_integrated_and_.jpg",
+        "frame_01_monthly_sales_line_chart_style.jpg",
+        "frame_02_top_products_by_units_sold_fun.jpg"
+      ],
+      "recapped_at": 1777406463.3293176
+    },
+    "primary_path": "frame_00_country_slicer_integrated_and_.jpg"
+  }
+}

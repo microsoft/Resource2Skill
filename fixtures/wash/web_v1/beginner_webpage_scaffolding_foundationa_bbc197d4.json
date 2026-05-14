@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "beginner_webpage_scaffolding_foundationa_bbc197d4",
+  "source": {
+    "channel": "Marighoul",
+    "duration_sec": 590,
+    "type": "youtube",
+    "video_id": "9z8FP8ear2Y",
+    "video_title": "HTML/CSS For Beginners ",
+    "video_url": "https://www.youtube.com/watch?v=9z8FP8ear2Y",
+    "views": 126309
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

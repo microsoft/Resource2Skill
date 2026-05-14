@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this shell to present a single, prominent metric alongside a compelling image. It's ideal for dashboards, executive summaries, or highlighting key performance indicators with visual context.",
+  "category_path": [
+    "data_display",
+    "metrics",
+    "image_split"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "metric_split_with_image_1ad22b",
+  "skill_name": "Metric Split with Image",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "metric",
+    "image",
+    "dashboard",
+    "highlight",
+    "corporate",
+    "split"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:11Z",
+  "wash_version": "1.0.0"
+}

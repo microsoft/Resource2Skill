@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_asymmetric_bento_grid_b5070d72",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1276,
+    "type": "youtube",
+    "video_id": "JYfiaSKeYhE",
+    "video_title": "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
+    "video_url": "https://www.youtube.com/watch?v=JYfiaSKeYhE",
+    "views": 160626
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

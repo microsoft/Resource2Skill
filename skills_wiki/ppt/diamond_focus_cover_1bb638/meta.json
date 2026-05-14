@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for bold cover or section divider slides. Features a dynamic diamond grid aesthetic, with a central focal point for key text and optional background imagery.",
+  "category_path": [
+    "cover_slides",
+    "geometric"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diamond_focus_cover_1bb638",
+  "skill_name": "Diamond Focus Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover slide",
+    "section divider",
+    "diamond grid",
+    "geometric",
+    "focal point",
+    "image background"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:07:13Z",
+  "wash_version": "1.0.0"
+}

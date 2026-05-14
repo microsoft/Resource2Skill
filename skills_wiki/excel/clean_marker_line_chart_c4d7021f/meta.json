@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_marker_line_chart_c4d7021f",
+  "skill_name": "Clean Marker Line Chart",
+  "source": {
+    "channel": "Other Level’s",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=2FCUWp2HWXQ"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:05:06Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "Overview of the executive summary dashboard"
+        },
+        {
+          "seconds": 14,
+          "description": "Data table used for analysis"
+        },
+        {
+          "seconds": 14,
+          "description": "First dashboard with interactive slicer and map"
+        },
+        {
+          "seconds": 14,
+          "description": "Monthly sales line chart integrated into the dashboard"
+        },
+        {
+          "seconds": 14,
+          "description": "Funnel chart for top products by units sold"
+        }
+      ],
+      "frames": [
+        "frame_00_overview_of_the_executive_summ.jpg",
+        "frame_01_data_table_used_for_analysis.jpg",
+        "frame_02_first_dashboard_with_interacti.jpg",
+        "frame_03_monthly_sales_line_chart_integ.jpg",
+        "frame_04_funnel_chart_for_top_products_.jpg"
+      ],
+      "recapped_at": 1777406416.9060512
+    },
+    "primary_path": "frame_00_overview_of_the_executive_summ.jpg"
+  }
+}

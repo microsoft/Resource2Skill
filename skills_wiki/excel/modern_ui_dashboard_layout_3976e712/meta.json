@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_ui_dashboard_layout_3976e712",
+  "skill_name": "Modern UI Dashboard Layout",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:10:38Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "initial glimpse of the final Excel dashboard"
+        },
+        {
+          "seconds": 354,
+          "description": "structural layout of the dashboard with titled sections"
+        },
+        {
+          "seconds": 841,
+          "description": "all individual charts (donut, line, radar, map) created on input sheet"
+        },
+        {
+          "seconds": 1507,
+          "description": "final interactive Excel sales dashboard with all visuals"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_glimpse_of_the_final_e.jpg",
+        "frame_01_structural_layout_of_the_dashb.jpg",
+        "frame_02_all_individual_charts_donut_li.jpg"
+      ],
+      "recapped_at": 1777407203.9672494
+    },
+    "primary_path": "frame_00_initial_glimpse_of_the_final_e.jpg"
+  }
+}

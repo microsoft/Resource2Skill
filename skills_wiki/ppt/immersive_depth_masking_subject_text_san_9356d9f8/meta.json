@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "immersive_depth_masking_subject_text_san_9356d9f8",
+  "skill_name": "Immersive Depth Masking (Subject-Text Sandwich)",
+  "source": {
+    "channel": "Presentation Design Mastery - PowerPoint Skills",
+    "duration_sec": 491,
+    "type": "youtube",
+    "video_id": "Xwsvmwook08",
+    "video_title": "Add DEPTH and style with animated MASKING in PowerPoint. A simple 8 minute tutorial.",
+    "video_url": "https://www.youtube.com/watch?v=Xwsvmwook08",
+    "views": 1672
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:26Z",
+  "wash_version": "1.0.0"
+}

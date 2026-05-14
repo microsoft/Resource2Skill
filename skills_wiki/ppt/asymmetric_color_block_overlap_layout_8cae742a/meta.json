@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_color_block_overlap_layout_8cae742a",
+  "skill_name": "Asymmetric Color-Block Overlap Layout",
+  "source": {
+    "channel": "KHALIKPUTRA",
+    "duration_sec": 499,
+    "type": "youtube",
+    "video_id": "yVwoTvW1EL4",
+    "video_title": "Awesome PowerPoint Design for Company Profile | Speed Art | [FREE TEMPLATE]",
+    "video_url": "https://www.youtube.com/watch?v=yVwoTvW1EL4",
+    "views": 646
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:51:11Z",
+  "wash_version": "1.0.0"
+}

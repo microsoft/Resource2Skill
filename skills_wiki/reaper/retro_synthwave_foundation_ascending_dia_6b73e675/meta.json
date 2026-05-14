@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "retro_synthwave_foundation_ascending_dia_6b73e675",
+  "skill_name": "Retro Synthwave Foundation (Ascending Diatonic Groove)",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 1001,
+    "type": "youtube",
+    "video_id": "XCVrHVzi9R0",
+    "video_title": "Writing a Synthwave song in 15 minutes (uncut)",
+    "video_url": "https://www.youtube.com/watch?v=XCVrHVzi9R0",
+    "views": 20998
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:25Z",
+  "wash_version": "1.0.0"
+}

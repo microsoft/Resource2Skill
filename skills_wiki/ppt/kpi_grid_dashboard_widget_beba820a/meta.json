@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_grid_dashboard_widget_beba820a",
+  "skill_name": "KPI Grid Dashboard Widget",
+  "source": {
+    "channel": "Querinfer",
+    "duration_sec": 198,
+    "type": "youtube",
+    "video_id": "_mQFLIxpguk",
+    "video_title": "Dashboard Beyond Charts Introduction to Series | SHKExcelWorld",
+    "video_url": "https://www.youtube.com/watch?v=_mQFLIxpguk",
+    "views": 1008
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:46:20Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "in_cell_data_bar_kpi_table_a6597532",
+  "skill_name": "In-Cell Data Bar KPI Table",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:12Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 1,
+          "description": "completed sales dashboard overview"
+        },
+        {
+          "seconds": 748,
+          "description": "dashboard with KPI cards and sales agent table"
+        },
+        {
+          "seconds": 1551,
+          "description": "dashboard with all charts and tables assembled"
+        },
+        {
+          "seconds": 1830,
+          "description": "fully updated and final interactive dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_sales_dashboard_over.jpg",
+        "frame_01_dashboard_with_kpi_cards_and_s.jpg"
+      ],
+      "recapped_at": 1777406982.0175939
+    },
+    "primary_path": "frame_00_completed_sales_dashboard_over.jpg"
+  }
+}

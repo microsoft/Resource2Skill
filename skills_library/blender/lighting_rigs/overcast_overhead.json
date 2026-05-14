@@ -1,0 +1,27 @@
+{
+  "name": "overcast_overhead",
+  "description": "Soft overcast daylight — large overhead area, no harsh shadows. Architectural reference renders.",
+  "world_strength": 1.4,
+  "world_color": [0.78, 0.84, 0.92, 1.0],
+  "lights": [
+    {
+      "name": "Sky",
+      "type": "AREA",
+      "location": [0, 0, 12],
+      "rotation_euler_deg": [180, 0, 0],
+      "energy": 600,
+      "color": [0.92, 0.95, 1.0, 1.0],
+      "size": 30
+    },
+    {
+      "name": "BounceFill",
+      "type": "AREA",
+      "location": [0, 0, -2],
+      "rotation_euler_deg": [0, 0, 0],
+      "energy": 80,
+      "color": [0.88, 0.92, 0.96, 1.0],
+      "size": 20
+    }
+  ],
+  "best_for": ["architectural", "interior daylight", "neutral product reference", "minimalist scenes"]
+}

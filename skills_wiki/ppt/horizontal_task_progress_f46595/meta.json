@@ -1,0 +1,34 @@
+{
+  "applicability": "This skill is ideal for clearly presenting the progress or status of three key tasks or project milestones using a visually intuitive horizontal bar format.",
+  "category_path": [
+    "project_management",
+    "status"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "horizontal_task_progress_f46595",
+  "skill_name": "Horizontal Task Progress",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "progress bar",
+    "task status",
+    "timeline",
+    "project tracking",
+    "3-item list",
+    "horizontal"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:10:38Z",
+  "wash_version": "1.0.0"
+}

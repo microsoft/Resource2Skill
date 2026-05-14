@@ -1,0 +1,37 @@
+{
+  "name": "dramatic_rim",
+  "description": "High-contrast moody — strong rim from behind, deep shadows on subject front. Cinematic portraits, hero villains.",
+  "world_strength": 0.02,
+  "world_color": [0.01, 0.01, 0.02, 1.0],
+  "lights": [
+    {
+      "name": "Rim",
+      "type": "SPOT",
+      "location": [-2.5, 5.5, 4.5],
+      "rotation_euler_deg": [-65, 0, -160],
+      "energy": 1500,
+      "color": [1.0, 0.92, 0.85, 1.0],
+      "spot_size_deg": 35,
+      "spot_blend": 0.6
+    },
+    {
+      "name": "Kicker",
+      "type": "AREA",
+      "location": [4.0, 2.0, 1.5],
+      "rotation_euler_deg": [80, 0, 110],
+      "energy": 120,
+      "color": [0.85, 0.92, 1.0, 1.0],
+      "size": 1.0
+    },
+    {
+      "name": "AmbientWash",
+      "type": "AREA",
+      "location": [-3.5, -3.5, 1.0],
+      "rotation_euler_deg": [70, 0, -45],
+      "energy": 30,
+      "color": [0.55, 0.6, 0.78, 1.0],
+      "size": 4.0
+    }
+  ],
+  "best_for": ["cinematic portraits", "hero villains", "dramatic close-ups", "noir scenes"]
+}

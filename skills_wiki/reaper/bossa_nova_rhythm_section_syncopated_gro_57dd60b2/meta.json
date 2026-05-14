@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a complete Bossa Nova rhythm section, ideal for lo-fi, lounge, or jazz-infused pop tracks. Use it to establish a relaxed, sophisticated, and syncopated groove foundation.",
+  "category_path": [
+    "rhythm",
+    "bossa_nova"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bossa_nova_rhythm_section_syncopated_gro_57dd60b2",
+  "skill_name": "Bossa Nova Rhythm Section",
+  "source": {
+    "channel": "Hello Foe!",
+    "duration_sec": 63,
+    "type": "youtube",
+    "video_id": "5k4eNvOT6x0",
+    "video_title": "How to play Bossa Nova in a minute",
+    "video_url": "https://www.youtube.com/watch?v=5k4eNvOT6x0",
+    "views": 482297
+  },
+  "tags": [
+    "bossa nova",
+    "jazz",
+    "lo-fi",
+    "rhythm section",
+    "syncopation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:10:16Z",
+  "wash_version": "1.0.0"
+}

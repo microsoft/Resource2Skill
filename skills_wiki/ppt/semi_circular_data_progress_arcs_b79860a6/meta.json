@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "semi_circular_data_progress_arcs_b79860a6",
+  "skill_name": "Semi-Circular Data Progress Arcs",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 513,
+    "type": "youtube",
+    "video_id": "NPeIHbOo6s0",
+    "video_title": "PowerPoint Animated Infographics Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=NPeIHbOo6s0",
+    "views": 637336
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:04Z",
+  "wash_version": "1.0.0"
+}

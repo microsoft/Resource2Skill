@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cell_based_split_kpi_card_527a083d",
+  "skill_name": "Cell-Based Split KPI Card",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:21:09Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 48,
+          "description": "Revenue number visible in a shape with white font."
+        },
+        {
+          "seconds": 104,
+          "description": "KPI for Asia region showing revenue and region name."
+        },
+        {
+          "seconds": 147,
+          "description": "Completed KPI for Asia region with revenue and market share."
+        },
+        {
+          "seconds": 248,
+          "description": "SmartArt shapes converted and colored for the second KPI."
+        },
+        {
+          "seconds": 318,
+          "description": "Completed KPI for total revenue using SmartArt-converted shapes."
+        }
+      ],
+      "frames": [
+        "frame_00_revenue_number_visible_in_a_sh.jpg",
+        "frame_01_kpi_for_asia_region_showing_re.jpg",
+        "frame_02_completed_kpi_for_asia_region_.jpg"
+      ],
+      "recapped_at": 1777406191.421844
+    },
+    "primary_path": "frame_00_revenue_number_visible_in_a_sh.jpg"
+  }
+}

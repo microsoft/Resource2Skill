@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_high_contrast_landing_page_70f070e0",
+  "skill_name": "Minimalist High-Contrast Landing Page",
+  "source": {
+    "channel": "Code Here",
+    "duration_sec": 555,
+    "type": "youtube",
+    "video_id": "v9bn2zswx0k",
+    "video_title": "Simple Responsive HTML CSS Landing Page Dark Mode",
+    "video_url": "https://www.youtube.com/watch?v=v9bn2zswx0k",
+    "views": 136
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:14:51Z",
+  "wash_version": "1.0.0"
+}

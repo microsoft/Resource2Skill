@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scalable_css_token_architecture_modern_r_56015e20",
+  "skill_name": "Scalable CSS Token Architecture & Modern Reset",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 2978,
+    "type": "youtube",
+    "video_id": "h3bTwCqX4ns",
+    "video_title": "Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage",
+    "video_url": "https://www.youtube.com/watch?v=h3bTwCqX4ns",
+    "views": 540957
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:23:12Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to visually represent a single key performance indicator (KPI) as a percentage or progress toward a goal. Ideal for executive dashboards, project status updates, and performance tracking slides.",
+  "category_path": [
+    "data_visualization",
+    "gauge"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_speedometer_gauge_6726714b",
+  "skill_name": "KPI Speedometer Gauge",
+  "source": {
+    "channel": "Excel VBA \u5bb9\u6613\u53c8\u6709\u8da3",
+    "duration_sec": 677,
+    "type": "youtube",
+    "video_id": "zlktAjk7MKo",
+    "video_title": "12  \u9500\u552e\u60c5\u51b5\u52a8\u6001\u4eea\u8868\u76d8 \uff08\u56fe\u5f62\uff0c\u4e8b\u4ef6\uff09",
+    "video_url": "https://www.youtube.com/watch?v=zlktAjk7MKo",
+    "views": 50
+  },
+  "tags": [
+    "kpi",
+    "gauge",
+    "dashboard",
+    "metric",
+    "progress",
+    "chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:46:42Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_neon_loading_spinner_42a900fb",
+  "skill_name": "3D Neon Loading Spinner",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:06:39Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 1,
+          "description": "Animated hero section of a website showcasing web design."
+        },
+        {
+          "seconds": 54,
+          "description": "Website featuring an ongoing animated airplane in the background."
+        },
+        {
+          "seconds": 258,
+          "description": "Blue square animation demonstrating sequential changes in scale, rotation, and border-radius."
+        },
+        {
+          "seconds": 542,
+          "description": "Blue circle stopping at its final animated state using animation-fill-mode: forwards."
+        },
+        {
+          "seconds": 817,
+          "description": "Complex 3D wireframe square rotating on all three axes as a loading animation."
+        }
+      ],
+      "frames": [
+        "frame_00_animated_hero_section_of_a_web.jpg",
+        "frame_01_website_featuring_an_ongoing_a.jpg",
+        "frame_02_blue_square_animation_demonstr.jpg"
+      ],
+      "recapped_at": 1777408051.5635073
+    },
+    "primary_path": "frame_00_animated_hero_section_of_a_web.jpg"
+  }
+}

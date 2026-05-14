@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_triptych_presentation_wall_c7267053",
+  "skill_name": "Cinematic Triptych Presentation Wall",
+  "source": {
+    "channel": "Eric Prouzet",
+    "duration_sec": 146,
+    "type": "youtube",
+    "video_id": "FrIfes1L7NI",
+    "video_title": "The best \"Elevator Pitch\" of the World?",
+    "video_url": "https://www.youtube.com/watch?v=FrIfes1L7NI",
+    "views": 3081704
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:01Z",
+  "wash_version": "1.0.0"
+}

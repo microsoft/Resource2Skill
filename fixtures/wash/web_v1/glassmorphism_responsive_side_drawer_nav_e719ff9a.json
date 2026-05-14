@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_responsive_side_drawer_nav_e719ff9a",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 2965,
+    "type": "youtube",
+    "video_id": "HbBMp6yUXO0",
+    "video_title": "Responsive navbar tutorial using HTML CSS & JS",
+    "video_url": "https://www.youtube.com/watch?v=HbBMp6yUXO0",
+    "views": 1043222
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,62 @@
+{
+  "skill_id": "two_column_big_number_list_be9664",
+  "skill_type": "shell",
+  "name": "Two Column Big Number List",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "2-column list with large numbers"
+    ],
+    "density": "medium",
+    "mood": [
+      "bold",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 10
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/two_column_big_number_list_be9664/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dynamic_odometer_morph_b82ac55d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Abstracted the two vertical strips of numbers into a reusable 2-column list layout where the 'title' of each bullet acts as the large metric/number, and an optional 'body' provides context.",
+  "_distill_attempts": 1
+}

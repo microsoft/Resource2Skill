@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "high_conversion_cinematic_hero_section_cdffb351",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 744,
+    "type": "youtube",
+    "video_id": "LJbkLdtEW00",
+    "video_title": "Design The Perfect Hero Section (With Example)",
+    "video_url": "https://www.youtube.com/watch?v=LJbkLdtEW00",
+    "views": 385790
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

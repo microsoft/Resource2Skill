@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_rotating_loader_42a900fb",
+  "skill_name": "3D Glowing Rotating Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:59:52Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Website animations showcase"
+        },
+        {
+          "seconds": 17,
+          "description": "Basic CSS animation: rotating and changing border-radius of a square"
+        },
+        {
+          "seconds": 258,
+          "description": "Complex CSS animation: scaling, rotating, and changing border-radius in sequence"
+        },
+        {
+          "seconds": 651,
+          "description": "Interactive CSS animation controlled by Play/Pause buttons"
+        },
+        {
+          "seconds": 829,
+          "description": "Final 3D rotating glowing square loading animation"
+        }
+      ],
+      "frames": [
+        "frame_00_website_animations_showcase.jpg",
+        "frame_01_basic_css_animation_rotating_a.jpg",
+        "frame_02_complex_css_animation_scaling_.jpg"
+      ],
+      "recapped_at": 1777408031.011226
+    },
+    "primary_path": "frame_00_website_animations_showcase.jpg"
+  }
+}

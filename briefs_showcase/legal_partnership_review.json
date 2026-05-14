@@ -1,0 +1,28 @@
+{
+  "variant_id": "legal_partnership_review",
+  "out_dirname": "legal_partnership_review",
+  "title": "Partnership year-end review: 2025 practice metrics",
+  "audience": "law firm partnership meeting, year-end review",
+  "tone_words": ["boardroom", "restrained", "technical"],
+  "archetype_preference": "boardroom",
+  "mood_preference": ["boardroom", "restrained", "editorial"],
+  "mode_preference": "light",
+  "n_slides": 12,
+  "role_prefer": ["agenda", "metric_dashboard", "comparison_split", "bullet_card_list", "timeline_horizontal"],
+  "role_avoid": ["hero_quote", "feature_grid"],
+  "dense_quota": 4,
+  "core_points": [
+    "Firm-wide billable hours: 142,307 (up 4.3% YoY), realization held at 94.1%",
+    "Revenue: $218M (up 6.2%); profit per equity partner: $1.47M (up 3.1%)",
+    "Practice-area mix: M&A 28%, litigation 24%, IP 17%, regulatory 12%, tax 11%, other 8%",
+    "Originations gap: rainmaking is concentrated in 7 partners generating 61% of new business",
+    "Lateral recruiting: 9 laterals joined, 2 departed; retention of first-year laterals at 88%",
+    "Diversity metrics: partner pipeline 38% women, 22% historically underrepresented, both up",
+    "Associate attrition: 14.2% (vs 18% market), mid-level attrition remains highest-risk cohort",
+    "Technology investment: document automation rollout saved 9,400 hours across litigation practice",
+    "Risk events: 2 malpractice claims filed, both resolved without payout, policy renewal flat",
+    "Client concentration: top 10 clients = 32% of revenue (target: below 35%), broadly healthy",
+    "Strategic initiatives for 2026: originations coaching, junior partner track, APAC expansion study",
+    "Partnership votes needed today: new equity admits, comp committee recommendations, APAC go/no-go"
+  ]
+}

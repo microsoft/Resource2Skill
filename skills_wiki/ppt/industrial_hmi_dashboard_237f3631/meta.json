@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for visualizing operational performance by combining high-level KPIs with a schematic diagram of a physical process. Excellent for presentations on manufacturing, supply chain, or IoT systems.",
+  "category_path": [
+    "diagram",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "industrial_hmi_dashboard_237f3631",
+  "skill_name": "Industrial HMI Dashboard",
+  "source": {
+    "channel": "bob chen",
+    "duration_sec": 211,
+    "type": "youtube",
+    "video_id": "e1vyWCNA9jg",
+    "video_title": "viewON KPI Dashboard 01",
+    "video_url": "https://www.youtube.com/watch?v=e1vyWCNA9jg",
+    "views": 166
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "operations",
+    "industrial",
+    "process flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:39:15Z",
+  "wash_version": "1.0.0"
+}

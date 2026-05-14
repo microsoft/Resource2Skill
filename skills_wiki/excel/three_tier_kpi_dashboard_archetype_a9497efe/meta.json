@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "three_tier_kpi_dashboard_archetype_a9497efe",
+  "skill_name": "Three-Tier KPI Dashboard Archetype",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:32Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Initial reveal of the complete KPI dashboard with May-20 selected, demonstrating dynamic updates."
+        },
+        {
+          "seconds": 35,
+          "description": "KPI dashboard showing updated values and color coding for Aug-20."
+        },
+        {
+          "seconds": 341,
+          "description": "Focus on the dashboard's layout, large font, and color coding for Working Capital Efficiency KPIs."
+        },
+        {
+          "seconds": 409,
+          "description": "Demonstration of changing the month via dropdown, showing real-time updates to KPI values and colors."
+        },
+        {
+          "seconds": 1030,
+          "description": "KPI dashboard displaying values for Feb-20, highlighting the comparison to target and prior month."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_reveal_of_the_complete.jpg",
+        "frame_01_kpi_dashboard_showing_updated_.jpg",
+        "frame_02_focus_on_the_dashboard_s_layou.jpg",
+        "frame_03_demonstration_of_changing_the_.jpg"
+      ],
+      "recapped_at": 1777407829.4497614
+    },
+    "primary_path": "frame_00_initial_reveal_of_the_complete.jpg"
+  }
+}

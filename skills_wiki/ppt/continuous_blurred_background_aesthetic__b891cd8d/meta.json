@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-stakes presentations like product launches or executive summaries, this style works best with concise text to create a premium, cinematic experience.",
+  "category_path": [
+    "presentation_design",
+    "visual_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_blurred_background_aesthetic__b891cd8d",
+  "skill_name": "Continuous Blurred-Background Aesthetic (Apple Presentation Style)",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 455,
+    "type": "youtube",
+    "video_id": "Jf43XgAaCVw",
+    "video_title": "Apple inspired PowerPoint Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Jf43XgAaCVw",
+    "views": 47716
+  },
+  "tags": [
+    "blurred background",
+    "apple style",
+    "glassmorphism",
+    "keynote",
+    "visual continuity",
+    "premium design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:03:32Z",
+  "wash_version": "1.0.0"
+}

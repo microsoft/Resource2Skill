@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_in_cell_gantt_chart_6f9abc4e",
+  "source": {
+    "channel": "David McLachlan",
+    "duration_sec": 959,
+    "type": "youtube",
+    "video_id": "tuQpGzL_14g",
+    "video_title": "How to Make the BEST Gantt Chart in Excel (looks like Microsoft Project!)",
+    "video_url": "https://www.youtube.com/watch?v=tuQpGzL_14g",
+    "views": 2279028
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

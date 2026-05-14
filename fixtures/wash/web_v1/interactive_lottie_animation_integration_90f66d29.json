@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_lottie_animation_integration_90f66d29",
+  "source": {
+    "channel": "LottieFiles",
+    "duration_sec": 385,
+    "type": "youtube",
+    "video_id": "L08gUpqwLSE",
+    "video_title": "1# Integrate Lottie on the Web | Introduction to Lottie Animations for Developers",
+    "video_url": "https://www.youtube.com/watch?v=L08gUpqwLSE",
+    "views": 9811
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

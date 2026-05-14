@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_stylized_head_base_a5ab7147",
+  "skill_name": "Procedural Stylized Head Base",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 1997,
+    "type": "youtube",
+    "video_id": "9N87-yRR5aE",
+    "video_title": "Sculpting in Blender: A Complete Beginner's Guide",
+    "video_url": "https://www.youtube.com/watch?v=9N87-yRR5aE",
+    "views": 723853
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:28Z",
+  "wash_version": "1.0.0"
+}

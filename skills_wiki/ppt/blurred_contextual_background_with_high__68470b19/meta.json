@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creating high-impact title slides, section headers, or hero sections. This technique provides thematic visual context using a blurred image, ensuring the main text remains perfectly legible and prominent.",
+  "category_path": [
+    "slide_design",
+    "background_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "blurred_contextual_background_with_high__68470b19",
+  "skill_name": "Blurred Image Background with High-Contrast Text",
+  "source": {
+    "channel": "Insider Tech",
+    "duration_sec": 117,
+    "type": "youtube",
+    "video_id": "_LWFmLe3JS4",
+    "video_title": "How To Use Split Screen On Windows 10 (2022)",
+    "video_url": "https://www.youtube.com/watch?v=_LWFmLe3JS4",
+    "views": 4238709
+  },
+  "tags": [
+    "title slide",
+    "hero image",
+    "background blur",
+    "typography",
+    "high contrast"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:54:56Z",
+  "wash_version": "1.0.0"
+}

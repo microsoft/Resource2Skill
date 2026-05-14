@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_color_block_infographic_a35e3d31",
+  "skill_name": "Modular Color-Block Infographic",
+  "source": {
+    "channel": "\u70b9\u70b9\u52a8\u753b",
+    "duration_sec": 634,
+    "type": "youtube",
+    "video_id": "uFrckXAxO_U",
+    "video_title": "how to make a infographic?",
+    "video_url": "https://www.youtube.com/watch?v=uFrckXAxO_U",
+    "views": 4605
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:55:30Z",
+  "wash_version": "1.0.0"
+}

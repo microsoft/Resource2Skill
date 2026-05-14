@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for retrieving a single value from a two-way table or grid where you need to match both a row and a column condition.",
+  "category_path": [
+    "lookup",
+    "matrix"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_dimensional_xlookup_0ff30111",
+  "skill_name": "Two-Dimensional XLOOKUP",
+  "source": {
+    "channel": "Excel in a Minute",
+    "duration_sec": 219,
+    "type": "youtube",
+    "video_id": "nWP-iQ_3-Ec",
+    "video_title": "XLOOKUP VS INDEX-XMATCH BY EXCEL IN A MINUTE",
+    "video_url": "https://www.youtube.com/watch?v=nWP-iQ_3-Ec",
+    "views": 16941
+  },
+  "tags": [
+    "xlookup",
+    "matrix lookup",
+    "two-way lookup",
+    "nested formula"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T08:57:47Z",
+  "wash_version": "1.0.0"
+}

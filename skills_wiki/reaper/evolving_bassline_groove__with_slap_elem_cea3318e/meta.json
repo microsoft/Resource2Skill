@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "evolving_bassline_groove__with_slap_elem_cea3318e",
+  "skill_name": "Evolving Bassline Groove (with Slap Elements)",
+  "source": {
+    "channel": "Synthet",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=FVoDtyZzO8s"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:36:00Z",
+  "wash_version": "1.0.0"
+}

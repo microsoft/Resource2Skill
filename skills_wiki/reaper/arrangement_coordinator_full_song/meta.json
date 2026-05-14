@@ -1,0 +1,13 @@
+{
+  "applicability": "Foundational arrangement skill: builds a complete 32-bar multi-section song structure (intro / verse / chorus / variation / outro) with 5 standard tracks (Drums, Bass, Chords, Lead, Pad), per-section dynamics, coordinated FX chains, and tempo/key alignment. Always run this FIRST before any pattern-level skills.",
+  "category_path": ["arrangement", "structure"],
+  "exec_ok": null,
+  "license": "internal",
+  "modalities_present": ["text"],
+  "schema_version": "1.0.0",
+  "skill_id": "arrangement_coordinator_full_song",
+  "skill_name": "Full-Song Arrangement Coordinator (5-track, 32-bar multi-section)",
+  "source": {"type": "internal", "note": "Composition coordinator analogous to PPT's slide coordinator skill"},
+  "tags": ["arrangement", "structure", "scaffold", "song_form", "dynamics", "primer"],
+  "tier": "T5"
+}

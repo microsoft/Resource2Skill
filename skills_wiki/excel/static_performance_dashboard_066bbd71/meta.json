@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_performance_dashboard_066bbd71",
+  "skill_name": "Static Performance Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:08:16Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "initial preview of the interactive dashboard"
+        },
+        {
+          "seconds": 651,
+          "description": "first chart (profit by market & cookie type) is inserted"
+        },
+        {
+          "seconds": 1143,
+          "description": "all three charts are placed and aligned on the dashboard"
+        },
+        {
+          "seconds": 1530,
+          "description": "interactive slicers connected, showing dynamic filtering of charts"
+        },
+        {
+          "seconds": 1714,
+          "description": "dashboard refreshed with new data, gridlines and headings removed"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_preview_of_the_interac.jpg",
+        "frame_01_first_chart_profit_by_market_c.jpg",
+        "frame_02_all_three_charts_are_placed_an.jpg"
+      ],
+      "recapped_at": 1777407550.4020658
+    },
+    "primary_path": "frame_00_initial_preview_of_the_interac.jpg"
+  }
+}

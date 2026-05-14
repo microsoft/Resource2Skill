@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_device_network_animation_1b9cfa93",
+  "source": {
+    "channel": "Speed Code Projects",
+    "duration_sec": 921,
+    "type": "youtube",
+    "video_id": "HeBZqzShVRQ",
+    "video_title": "Isometric Network SVG Animation | HTML & CSS | From Design To Code",
+    "video_url": "https://www.youtube.com/watch?v=HeBZqzShVRQ",
+    "views": 1404
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

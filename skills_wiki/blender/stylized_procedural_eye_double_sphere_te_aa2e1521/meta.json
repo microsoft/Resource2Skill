@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates resolution-independent, stylized eyes for character models, mascots, and animation, combining procedural color with realistic refraction and highlights. It avoids pixelation and offers easy pupil animation.",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_procedural_eye_double_sphere_te_aa2e1521",
+  "skill_name": "Stylized Procedural Eye (Double-Sphere Technique)",
+  "source": {
+    "channel": "Keelan Jon",
+    "duration_sec": 608,
+    "type": "youtube",
+    "video_id": "TumrA0XsX0A",
+    "video_title": "How to make a Character in Blender - My Full Process in 10 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=TumrA0XsX0A",
+    "views": 1456677
+  },
+  "tags": [
+    "stylized",
+    "procedural",
+    "character_art",
+    "eyes",
+    "shader_nodes",
+    "pbr"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:44:51Z",
+  "wash_version": "1.0.0"
+}

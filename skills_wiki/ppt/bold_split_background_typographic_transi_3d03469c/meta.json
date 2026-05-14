@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bold_split_background_typographic_transi_3d03469c",
+  "skill_name": "Bold Split-Background Typographic Transition",
+  "source": {
+    "channel": "The KAM Club",
+    "duration_sec": 981,
+    "type": "youtube",
+    "video_id": "aZiBPXngi0g",
+    "video_title": "Quarterly Business Review Best Practices: 9 Ways to Transform Your QBR From Boring to Brilliant",
+    "video_url": "https://www.youtube.com/watch?v=aZiBPXngi0g",
+    "views": 46238
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:55:11Z",
+  "wash_version": "1.0.0"
+}

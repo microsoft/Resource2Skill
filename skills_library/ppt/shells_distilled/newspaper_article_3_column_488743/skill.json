@@ -1,0 +1,115 @@
+{
+  "skill_id": "newspaper_article_3_column_488743",
+  "skill_type": "shell",
+  "name": "Newspaper Article 3-Column",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid"
+    ],
+    "content_shape": [
+      "header+3-columns-with-image"
+    ],
+    "density": "high",
+    "mood": [
+      "editorial",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "byline",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "col1_text",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 800,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    },
+    {
+      "name": "caption",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "col2_text",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 400,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "col3_text",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 800,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/newspaper_article_3_column_488743/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "focal_zoom_fade_overlay_contextual_magni_70dd3e66",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a dense, editorial 3-column layout mimicking a newspaper article, featuring a prominent headline, hairlines, and an embedded image in the center column.",
+  "_distill_attempts": 1
+}

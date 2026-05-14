@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_driven_financial_model_338f0b26",
+  "skill_name": "Dynamic Scenario-Driven Financial Model",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:17:38Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Dynamic model preview with scenario selector"
+        },
+        {
+          "seconds": 234,
+          "description": "Revenue forecasted across all five years"
+        },
+        {
+          "seconds": 1025,
+          "description": "Full income statement with profit margins and taxes calculated"
+        },
+        {
+          "seconds": 1418,
+          "description": "Dynamic scenario switching updates all figures"
+        },
+        {
+          "seconds": 1501,
+          "description": "Scenario selector with data validation dropdown"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_model_preview_with_sce.jpg",
+        "frame_01_revenue_forecasted_across_all_.jpg"
+      ],
+      "recapped_at": 1777406593.574689
+    },
+    "primary_path": "frame_00_dynamic_model_preview_with_sce.jpg"
+  }
+}

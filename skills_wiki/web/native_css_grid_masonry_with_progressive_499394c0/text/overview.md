@@ -1,0 +1,319 @@
+# Native CSS Grid Masonry with Progressive Fallback
+
+## Analysis
+
+### 1. High-level Design Pattern Extraction
+
+> **Skill Name**: Native CSS Grid Masonry with Progressive Fallback
+
+* **Core Visual Mechanism**: A classic "Pinterest-style" masonry layout where items of varying heights are tightly packed into columns without awkward vertical gaps. The defining technique relies on the experimental `grid-template-rows: masonry` property, combined with a robust CSS Multiple Columns fallback for browsers that don't yet support the grid feature.
+* **Why Use This Skill (Rationale)**: Historically, achieving a true masonry layout required heavy JavaScript libraries (like Masonry.js) which calculate explicit absolute positions for every item, leading to potential layout thrashing and performance hits. Native CSS masonry offloads this calculation to the browser's layout engine, resulting in a buttery-smooth, declarative, and highly performant layout.
+* **Overall Applicability**: Ideal for image galleries, portfolio grids, blog post cards, e-commerce product listings, and dashboard widget layouts where content inherently varies in height.
+* **Browser Compatibility**: **Crucial Note:** As shown in the tutorial, `grid-template-rows: masonry` is an experimental feature (currently primarily supported in Firefox behind a flag and Safari Technology Preview). Chrome is actively evaluating the specification. Because of this, **the CSS Columns fallback (`columns: 3`) is strictly mandatory for production use.**
+
+### 2. Visual & Technical Breakdown
+
+* **Step A: Core Visual Elements**
+  - **HTML Structure**: A parent container (`.masonry-container`) wrapping multiple child items (`.masonry-item`).
+  - **Color & Style**: Cards use a distinct background color (e.g., a solid surface color) elevated with subtle box-shadows to separate them from the background.
+  - **CSS Drivers**:
+    - Experimental: `display: grid`, `grid-template-rows: masonry`.
+    - Fallback: `columns: var(--column-count)`, `column-gap`.
+    - Structural Fix: `break-inside: avoid` on children to prevent cards from being split horizontally across column breaks in the fallback mode.
+
+* **Step B: Layout & Compositional Style**
+  - The layout packs items from left to right, then places subsequent items in the column with the most available vertical space.
+  - Configurable gaps (e.g., `16px` or `1rem`) provide breathing room vertically and horizontally.
+  - Items can optionally span columns (`grid-column: span 2`) to break the grid's rhythm and highlight featured content (note: spanning is a feature of the Grid implementation, not easily replicated in the columns fallback).
+
+* **Step C: Interactive Behavior & Animations**
+  - Purely CSS-driven layout. No JavaScript is required to calculate heights or positions.
+  - Typical enhancements include simple `transform: translateY(-4px)` hover states on the cards to make the grid feel tactile.
+
+### 3. Reproduction Code
+
+#### 3a. Implementation Method Selection
+
+| Aspect of the effect | Method | Why this method |
+|---|---|---|
+| Modern Masonry Layout | CSS Grid `grid-template-rows: masonry` | The exact API showcased in the tutorial for native, JS-free masonry packing. |
+| Production Support | CSS Multiple Columns + `@supports` | Ensures the layout still looks like a masonry grid in Chrome, Edge, and standard Safari via `columns` and `break-inside: avoid`. |
+| Dynamic Spacing/Cols | CSS Custom Properties (Variables) | Allows the layout to be easily configured (e.g., 3 columns vs 4 columns) without rewriting media queries or core classes. |
+
+> **Feasibility Assessment**: 100% of the visual effect is reproduced. However, because the CSS Grid Masonry spec is still experimental, viewing the *true* grid packing (and column spanning) requires a compatible browser (like Firefox Nightly). For standard browsers, the code gracefully degrades to the CSS Columns fallback, which looks identical for standard items but handles visual ordering slightly differently (top-to-bottom per column rather than left-to-right).
+
+#### 3b. Complete Reproduction Code
+
+```python
+def create_component(
+    output_dir: str,
+    title_text: str = "Native CSS Masonry Grid",
+    body_text: str = "A highly performant masonry layout using CSS Grid where supported, gracefully degrading to CSS Columns.",
+    color_scheme: str = "light",
+    accent_color: str = "#e63946",
+    width_px: int = 1200,
+    height_px: int = 800,
+    column_count: int = 3,
+    **kwargs,
+) -> dict:
+    import os
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    # === Derive theme colors ===
+    if color_scheme == "dark":
+        bg_color = "#0f1115"
+        text_color = "#f1f3f5"
+        text_muted = "#aeb5bd"
+        surface_color = "#1c1f26"
+        shadow = "0 10px 15px -3px rgba(0, 0, 0, 0.5)"
+        border = "1px solid rgba(255,255,255,0.05)"
+    else:
+        bg_color = "#f8f9fa"
+        text_color = "#212529"
+        text_muted = "#6c757d"
+        surface_color = "#ffffff"
+        shadow = "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)"
+        border = "1px solid rgba(0,0,0,0.05)"
+
+    # Generate dummy items with varying heights to showcase masonry packing
+    item_heights = [120, 250, 180, 300, 150, 220, 190, 140, 280]
+    items_html = ""
+    for i, h in enumerate(item_heights):
+        featured_class = " featured" if i == 1 else ""  # Make the second item featured to test spanning
+        badge = '<span class="badge">Featured</span>' if i == 1 else ''
+        items_html += f"""
+        <div class="masonry-item{featured_class}">
+            {badge}
+            <div class="image-placeholder" style="height: {h}px;"></div>
+            <h3 class="card-title">Grid Item {i+1}</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.</p>
+        </div>"""
+
+    # === CSS ===
+    css = f"""/* Native CSS Masonry Component */
+:root {{
+    --bg: {bg_color};
+    --text: {text_color};
+    --text-muted: {text_muted};
+    --surface: {surface_color};
+    --accent: {accent_color};
+    --border: {border};
+    --shadow: {shadow};
+    
+    /* Configurable Grid Variables */
+    --cols: {column_count};
+    --gap: 24px;
+}}
+
+* {{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
+
+body {{
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 40px 20px;
+}}
+
+.header {{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 48px auto;
+}}
+
+.header h1 {{
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}}
+
+.header p {{
+    color: var(--text-muted);
+    font-size: 1.125rem;
+    line-height: 1.6;
+}}
+
+/* =========================================
+   1. The Fallback: CSS Multiple Columns
+========================================= */
+.masonry-container {{
+    max-width: {width_px}px;
+    margin: 0 auto;
+    
+    /* Fallback properties */
+    columns: var(--cols);
+    column-gap: var(--gap);
+}}
+
+.masonry-item {{
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    border: var(--border);
+    position: relative;
+    
+    /* Crucial for Column fallback: prevents item from snapping in half across columns */
+    break-inside: avoid;
+    
+    /* Vertical spacing for column fallback */
+    margin-bottom: var(--gap);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}}
+
+.masonry-item:hover {{
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+}}
+
+/* =========================================
+   2. Progressive Enhancement: Native Grid
+========================================= */
+@supports (grid-template-rows: masonry) {{
+    .masonry-container {{
+        /* Switch from columns to Grid */
+        display: grid;
+        grid-template-columns: repeat(var(--cols), 1fr);
+        
+        /* The Magic Property */
+        grid-template-rows: masonry;
+        
+        /* Grid handles both row and column gaps */
+        gap: var(--gap);
+        
+        /* Reset fallback properties */
+        columns: auto;
+    }}
+    
+    .masonry-item {{
+        /* Grid gap handles spacing, remove fallback margin */
+        margin-bottom: 0; 
+    }}
+    
+    /* Spanning is uniquely easy in CSS Grid (does not work in Columns fallback) */
+    .masonry-item.featured {{
+        grid-column: span 2;
+    }}
+}}
+
+/* Inner Card Styling */
+.image-placeholder {{
+    background: linear-gradient(135deg, rgba(128,128,128,0.1), rgba(128,128,128,0.2));
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+}}
+
+.card-title {{
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+}}
+
+.card-desc {{
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}}
+
+.badge {{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 2;
+}}
+
+/* Simple Responsive Rules */
+@media (max-width: 900px) {{
+    :root {{
+        --cols: 2;
+    }}
+    .masonry-item.featured {{
+        grid-column: span 1; /* Disable spanning on smaller screens to prevent overflow */
+    }}
+}}
+
+@media (max-width: 600px) {{
+    :root {{
+        --cols: 1;
+    }}
+}}
+"""
+
+    # === HTML ===
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title_text}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>{title_text}</h1>
+        <p>{body_text}</p>
+    </header>
+
+    <main class="masonry-container">
+        {items_html}
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>"""
+
+    # === JavaScript ===
+    js = """// No JavaScript required for this layout!
+// Native CSS Grid Masonry (and the CSS Columns fallback) handles 100% of the layout logic.
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Check if the browser supports native masonry and log it for debug purposes
+    const supportsMasonry = CSS.supports('grid-template-rows', 'masonry');
+    if (supportsMasonry) {
+        console.log("🚀 Awesome! Your browser supports native CSS Grid Masonry.");
+    } else {
+        console.log("ℹ️ Your browser is using the CSS Columns fallback layout.");
+    }
+});
+"""
+
+    # === Write files ===
+    files = []
+    for fname, content in [("index.html", html), ("style.css", css), ("script.js", js)]:
+        path = os.path.join(output_dir, fname)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        files.append(path)
+
+    return {
+        "html": html,
+        "css": css,
+        "js": js,
+        "files": files,
+    }
+```
+
+### 4. Accessibility & Performance Notes
+
+* **Accessibility (Order Traversal)**: 
+  - **CSS Columns Fallback**: The biggest a11y caveat of the fallback is that DOM elements flow top-to-bottom *within a column* before moving to the next column. This means keyboard navigation (`Tab` index) and screen readers will read down the first column entirely, then move to the top of the second. This visual-vs-source disconnect can be confusing.
+  - **Native Grid Masonry**: Resolves the above issue! Items flow logically left-to-right across rows, maintaining the expected semantic order while still packing tightly.
+* **Performance**: This technique is vastly superior to JS-based masonry plugins. JS libraries require the browser to render elements, measure their heights via `getBoundingClientRect()`, compute matrix coordinates, and apply absolute positioning styles to the DOM—causing severe layout thrashing. Native CSS delegates this entirely to the browser's highly optimized internal layout engine.

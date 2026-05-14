@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_extended_chord_progression_rhod_d8733549",
+  "skill_name": "Neo-Soul Extended Chord Progression (Rhodes EP)",
+  "source": {
+    "channel": "Hix",
+    "duration_sec": 241,
+    "type": "youtube",
+    "video_id": "nEQhlIxKNFQ",
+    "video_title": "The 3 Vital Steps To Make Neo Soul Beats in 2024!",
+    "video_url": "https://www.youtube.com/watch?v=nEQhlIxKNFQ",
+    "views": 12412
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:02:26Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly effective for presentations requiring detailed examination of complex visuals, such as product features, data points, or diagrams, to guide audience attention precisely.",
+  "category_path": [
+    "animation",
+    "focus"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_spotlight_focus_d285fbd1",
+  "skill_name": "Dynamic Spotlight Focus",
+  "source": {
+    "channel": "PPT\u53d8\u5f62\u8bb0",
+    "duration_sec": 216,
+    "type": "youtube",
+    "video_id": "03YSd_oH4fo",
+    "video_title": "PowerPoint\u52a8\u753b\u5236\u4f5c\u6280\u5de7\u4e4b\u653e\u5927\u805a\u7126\u6548\u679c\u5236\u4f5c\u65b9\u6cd5",
+    "video_url": "https://www.youtube.com/watch?v=03YSd_oH4fo",
+    "views": 130
+  },
+  "tags": [
+    "spotlight",
+    "focus",
+    "morph",
+    "animation",
+    "magnify",
+    "attention_guide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:32Z",
+  "wash_version": "1.0.0"
+}

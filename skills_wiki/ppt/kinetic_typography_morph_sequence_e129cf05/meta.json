@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_typography_morph_sequence_e129cf05",
+  "skill_name": "Kinetic Typography Morph Sequence",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 1126,
+    "type": "youtube",
+    "video_id": "oGQkqExpMyA",
+    "video_title": "Kinetic Typography PowerPoint Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=oGQkqExpMyA",
+    "views": 36883
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:38:10Z",
+  "wash_version": "1.0.0"
+}

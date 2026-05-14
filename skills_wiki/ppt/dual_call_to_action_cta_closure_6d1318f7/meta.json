@@ -1,0 +1,34 @@
+{
+  "applicability": "Use as a final slide in sales, marketing, or educational presentations to guide the audience towards specific next steps. This layout effectively converts audience attention into concrete actions.",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_call_to_action_cta_closure_6d1318f7",
+  "skill_name": "Dual Call-to-Action (CTA) Closure",
+  "source": {
+    "channel": "Expert Academy (GLOBAL)",
+    "duration_sec": 148,
+    "type": "youtube",
+    "video_id": "c5JGl3jZb2M",
+    "video_title": "How to end a presentation",
+    "video_url": "https://www.youtube.com/watch?v=c5JGl3jZb2M",
+    "views": 845257
+  },
+  "tags": [
+    "closing",
+    "call_to_action",
+    "next_steps",
+    "marketing",
+    "final_slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:27:11Z",
+  "wash_version": "1.0.0"
+}

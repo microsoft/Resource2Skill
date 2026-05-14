@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trifold_panoramic_gradient_blend_6cb93ae2",
+  "skill_name": "Trifold Panoramic Gradient Blend",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 711,
+    "type": "youtube",
+    "video_id": "JnoFg6z3E7U",
+    "video_title": "How to make a Brochure in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=JnoFg6z3E7U",
+    "views": 366057
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:19Z",
+  "wash_version": "1.0.0"
+}

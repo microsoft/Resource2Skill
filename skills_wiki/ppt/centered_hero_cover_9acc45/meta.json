@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating impactful cover slides that establish a strong visual tone. It excels in presentations requiring a professional, minimalist, and bold introduction.",
+  "category_path": [
+    "cover_slides",
+    "visual_impact"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_hero_cover_9acc45",
+  "skill_name": "Centered Hero Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover slide",
+    "hero image",
+    "full-bleed",
+    "centered",
+    "bold",
+    "minimalist"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:02:10Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "persistent_dark_mode_toggle_with_css_ico_6d9f1d84",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 386,
+    "type": "youtube",
+    "video_id": "_gKEUYarehE",
+    "video_title": "Create a Dark Mode Switch with HTML, CSS, JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=_gKEUYarehE",
+    "views": 127144
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_financial_model_with_scenario_co_bf631599",
+  "skill_name": "Dynamic Financial Model with Scenario Control",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=64A6HJDEbKA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:30:12Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Overview of the completed financial model's income statement"
+        },
+        {
+          "seconds": 38,
+          "description": "Income statement formatted with header colors, bold rows, and yellow net income highlight"
+        },
+        {
+          "seconds": 146,
+          "description": "Income statement fully populated with historical data, forecasted values, and detailed line items"
+        },
+        {
+          "seconds": 236,
+          "description": "Cover page with dynamic title, general settings, and interactive table of contents"
+        },
+        {
+          "seconds": 1900,
+          "description": "Income statement dynamically updated to reflect a new scenario"
+        }
+      ],
+      "frames": [
+        "frame_00_overview_of_the_completed_fina.jpg",
+        "frame_01_income_statement_formatted_wit.jpg",
+        "frame_02_income_statement_fully_populat.jpg",
+        "frame_03_cover_page_with_dynamic_title_.jpg"
+      ],
+      "recapped_at": 1777406515.552718
+    },
+    "primary_path": "frame_00_overview_of_the_completed_fina.jpg"
+  }
+}

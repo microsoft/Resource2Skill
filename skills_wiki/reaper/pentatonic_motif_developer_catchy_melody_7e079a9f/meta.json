@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pentatonic_motif_developer_catchy_melody_7e079a9f",
+  "skill_name": "Pentatonic Motif Developer (Catchy Melody Generator)",
+  "source": {
+    "channel": "SongWriters Chop Shop",
+    "duration_sec": 185,
+    "type": "youtube",
+    "video_id": "WMTV-HVDq9Q",
+    "video_title": "How to Write a Vocal Melody (the easy way)",
+    "video_url": "https://www.youtube.com/watch?v=WMTV-HVDq9Q",
+    "views": 99067
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:39Z",
+  "wash_version": "1.0.0"
+}

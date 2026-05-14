@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for final slides, project reviews, or thank you sequences to acknowledge large teams or sponsors, displaying extensive attribution data professionally.",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_end_credits_scroll_dbb6edf0",
+  "skill_name": "Cinematic End Credits Scroll",
+  "source": {
+    "channel": "AZmotion",
+    "duration_sec": 148,
+    "type": "youtube",
+    "video_id": "jZVSssH5Nt0",
+    "video_title": "How to make Movie Credits in PowerPoint [2025 WORKING]",
+    "video_url": "https://www.youtube.com/watch?v=jZVSssH5Nt0",
+    "views": 155810
+  },
+  "tags": [
+    "cinematic",
+    "end credits",
+    "scrolling text",
+    "attribution",
+    "project review",
+    "team acknowledgment"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:25:44Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "immersive_framed_content_panel_dfcf3f01",
+  "skill_name": "Immersive Framed Content Panel",
+  "source": {
+    "channel": "SaaStr AI",
+    "duration_sec": 1766,
+    "type": "youtube",
+    "video_id": "lw2X3PxKlAY",
+    "video_title": "How To Perfectly Pitch Your Seed Stage Startup With Y Combinator's Michael Seibel",
+    "video_url": "https://www.youtube.com/watch?v=lw2X3PxKlAY",
+    "views": 477820
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:08Z",
+  "wash_version": "1.0.0"
+}

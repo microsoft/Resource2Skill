@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for tech presentations, digital product pitches, and dashboard visualizations. It creates a tactile, premium, app-like experience that reduces visual noise and elevates the overall design.",
+  "category_path": [
+    "design_style",
+    "ui_ux"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_soft_ui_styling_a9611a22",
+  "skill_name": "Neumorphic Soft UI Styling",
+  "source": {
+    "channel": "Graphics Point",
+    "duration_sec": 203,
+    "type": "youtube",
+    "video_id": "sYBEgl62ZJ4",
+    "video_title": "Neumorphic Presentation",
+    "video_url": "https://www.youtube.com/watch?v=sYBEgl62ZJ4",
+    "views": 447
+  },
+  "tags": [
+    "neumorphism",
+    "soft ui",
+    "shadows",
+    "modern design",
+    "ui elements"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:06Z",
+  "wash_version": "1.0.0"
+}

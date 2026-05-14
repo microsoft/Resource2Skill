@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_6_span_hamburger_icon_2aa2624d",
+  "skill_name": "Morphing 6-Span Hamburger Icon",
+  "source": {
+    "channel": "Optimistic Web",
+    "duration_sec": 186,
+    "type": "youtube",
+    "video_id": "Zp34OKr5x9g",
+    "video_title": "Create an Animated Hamburger Menu Icon using only HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=Zp34OKr5x9g",
+    "views": 5847
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:15:12Z",
+  "wash_version": "1.0.0"
+}

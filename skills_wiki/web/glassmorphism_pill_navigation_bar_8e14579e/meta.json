@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_pill_navigation_bar_8e14579e",
+  "skill_name": "Glassmorphism Pill Navigation Bar",
+  "source": {
+    "channel": "MzCode",
+    "duration_sec": 221,
+    "type": "youtube",
+    "video_id": "MsioY73mvBI",
+    "video_title": "Create a Glass Morphism Navbar\ud83d\udd2e | Step-by-Step UI Design Tutorial (HTML/CSS) | mzcode01 #coding #css",
+    "video_url": "https://www.youtube.com/watch?v=MsioY73mvBI",
+    "views": 8643
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:14:05Z",
+  "wash_version": "1.0.0"
+}

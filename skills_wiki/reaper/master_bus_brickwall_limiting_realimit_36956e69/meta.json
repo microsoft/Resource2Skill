@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "master_bus_brickwall_limiting_realimit_36956e69",
+  "skill_name": "Master Bus Brickwall Limiting (ReaLimit)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 713,
+    "type": "youtube",
+    "video_id": "nwE8reX1ERY",
+    "video_title": "ReaLimit Limiter Plugin in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=nwE8reX1ERY",
+    "views": 81172
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:08Z",
+  "wash_version": "1.0.0"
+}

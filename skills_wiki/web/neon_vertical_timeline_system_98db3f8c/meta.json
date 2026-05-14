@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_vertical_timeline_system_98db3f8c",
+  "skill_name": "Neon Vertical Timeline System",
+  "source": {
+    "channel": "Amna Code",
+    "duration_sec": 3525,
+    "type": "youtube",
+    "video_id": "oqPbciDKi44",
+    "video_title": "Build a Complete Responsive Personal Portfolio Website using HTML CSS Javascript#tutorial#html5#css3",
+    "video_url": "https://www.youtube.com/watch?v=oqPbciDKi44",
+    "views": 3006
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:36Z",
+  "wash_version": "1.0.0"
+}

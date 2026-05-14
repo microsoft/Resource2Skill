@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "subtractive_beat_arrangement_filter_swee_8918052f",
+  "skill_name": "Subtractive Beat Arrangement & Filter Sweep Drop",
+  "source": {
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "duration_sec": 967,
+    "type": "youtube",
+    "video_id": "lJAmSS-ndoU",
+    "video_title": "How to ARRANGE BEATS IN REAPER | Reaper beat making",
+    "video_url": "https://www.youtube.com/watch?v=lJAmSS-ndoU",
+    "views": 9749
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:49Z",
+  "wash_version": "1.0.0"
+}

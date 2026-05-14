@@ -1,0 +1,35 @@
+{
+  "applicability": "This shell creates a dense, editorial 3-column layout, ideal for presenting detailed information in a formal, news-like, or report-style format. It supports a prominent headline, byline, multiple text columns, and an embedded image.",
+  "category_path": [
+    "content",
+    "multi_column",
+    "report"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "newspaper_article_3_column_488743",
+  "skill_name": "Newspaper Article 3-Column",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "editorial",
+    "news article",
+    "three column",
+    "dense",
+    "image layout",
+    "report"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:14:09Z",
+  "wash_version": "1.0.0"
+}

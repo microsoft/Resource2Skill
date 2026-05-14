@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "mobile_first_app_shell_with_sticky_foote_c58385cc",
+  "source": {
+    "channel": "Traversy Media",
+    "duration_sec": 2135,
+    "type": "youtube",
+    "video_id": "1_ljUv6cvVE",
+    "video_title": "HTML & CSS Mobile UI Layout | CVS Clone",
+    "video_url": "https://www.youtube.com/watch?v=1_ljUv6cvVE",
+    "views": 110716
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

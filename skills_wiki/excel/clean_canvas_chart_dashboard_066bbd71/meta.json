@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_canvas_chart_dashboard_066bbd71",
+  "skill_name": "Clean Canvas Chart Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "Interactive dashboard overview"
+        },
+        {
+          "seconds": 651,
+          "description": "First chart, 'Profit by Market & Cookie Type', created"
+        },
+        {
+          "seconds": 1147,
+          "description": "Three charts arranged on the dashboard"
+        },
+        {
+          "seconds": 1424,
+          "description": "Slicers and timeline added to the dashboard"
+        },
+        {
+          "seconds": 1741,
+          "description": "Fully organized and styled interactive dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_dashboard_overview.jpg",
+        "frame_01_first_chart_profit_by_market_c.jpg",
+        "frame_02_three_charts_arranged_on_the_d.jpg"
+      ],
+      "recapped_at": 1777406227.51871
+    },
+    "primary_path": "frame_00_interactive_dashboard_overview.jpg"
+  }
+}

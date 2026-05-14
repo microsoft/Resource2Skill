@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "flat_pop_typographic_hero_slide_0fd7599a",
+  "skill_name": "Flat-Pop Typographic Hero Slide",
+  "source": {
+    "channel": "Nuts & Bolts Speed Training",
+    "duration_sec": 194,
+    "type": "youtube",
+    "video_id": "rWgOkHzhntU",
+    "video_title": "How to add Gridlines in PowerPoint (PPT Shortcuts)",
+    "video_url": "https://www.youtube.com/watch?v=rWgOkHzhntU",
+    "views": 47141
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:25:47Z",
+  "wash_version": "1.0.0"
+}

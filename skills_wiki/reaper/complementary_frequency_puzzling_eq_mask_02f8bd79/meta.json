@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "complementary_frequency_puzzling_eq_mask_02f8bd79",
+  "skill_name": "Complementary Frequency Puzzling (EQ Masking Relief)",
+  "source": {
+    "channel": "Akayo",
+    "duration_sec": 946,
+    "type": "youtube",
+    "video_id": "RIuqjFP2cHg",
+    "video_title": "How To Become a Master at EQ (in Only 15 Minutes)",
+    "video_url": "https://www.youtube.com/watch?v=RIuqjFP2cHg",
+    "views": 747864
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:55:41Z",
+  "wash_version": "1.0.0"
+}

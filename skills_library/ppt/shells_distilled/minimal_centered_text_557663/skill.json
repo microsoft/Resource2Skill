@@ -1,0 +1,72 @@
+{
+  "skill_id": "minimal_centered_text_557663",
+  "skill_type": "shell",
+  "name": "Minimal Centered Text",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "quote"
+    ],
+    "content_shape": [
+      "centered-text-block"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "editorial",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 400,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_centered_text_557663/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "asymmetric_tri_panel_pillar_layout_edito_4edf740a",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A clean, minimal layout focusing on a central message block with an optional accent subhead and supporting body text, ideal for section dividers or impactful statements.",
+  "_distill_attempts": 1
+}

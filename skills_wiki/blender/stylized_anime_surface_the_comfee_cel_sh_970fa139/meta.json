@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_anime_surface_the_comfee_cel_sh_970fa139",
+  "skill_name": "Stylized Anime Surface (The \"Comfee\" Cel-Shader Pattern)",
+  "source": {
+    "channel": "Comfee Mug",
+    "duration_sec": 308,
+    "type": "youtube",
+    "video_id": "YHCWITJ6HDc",
+    "video_title": "My TOP 3 TIPS For Stylized Shaders In Blender [EEVEE] - Comfee Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=YHCWITJ6HDc",
+    "views": 66396
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:11Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "product_detail_magnifier_the_loupe_effec_9fccaca8",
+  "skill_name": "Product Detail Magnifier (The \"Loupe\" Effect)",
+  "source": {
+    "channel": "HAHAHAHA",
+    "duration_sec": 334,
+    "type": "youtube",
+    "video_id": "lVDujoc0whY",
+    "video_title": "\u96f6\u57fa\u7840\u505a\u51fa\u9ad8\u903c\u683cPPT 5 3\u5546\u52a1\u62a5\u544a\uff1a\u5982\u4f55\u5c55\u793a\u4f60\u7684\u4ea7\u54c1",
+    "video_url": "https://www.youtube.com/watch?v=lVDujoc0whY",
+    "views": 959
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:51Z",
+  "wash_version": "1.0.0"
+}

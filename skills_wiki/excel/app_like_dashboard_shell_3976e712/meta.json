@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "app_like_dashboard_shell_3976e712",
+  "skill_name": "App-like Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:39:53Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Completed interactive Excel dashboard preview"
+        },
+        {
+          "seconds": 414,
+          "description": "Dashboard layout with section titles"
+        },
+        {
+          "seconds": 840,
+          "description": "All individual charts created and formatted on inputs tab"
+        },
+        {
+          "seconds": 1454,
+          "description": "Fully assembled and customized interactive dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_excel_da.jpg",
+        "frame_01_dashboard_layout_with_section_.jpg",
+        "frame_02_all_individual_charts_created_.jpg"
+      ],
+      "recapped_at": 1777406075.5516474
+    },
+    "primary_path": "frame_00_completed_interactive_excel_da.jpg"
+  }
+}

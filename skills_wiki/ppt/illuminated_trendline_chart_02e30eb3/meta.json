@@ -1,0 +1,36 @@
+{
+  "applicability": "Effective for transforming standard line charts into compelling visual centerpieces. Ideal for professional presentations visualizing trends in financial projections, market analysis, or project KPIs.",
+  "category_path": [
+    "data_visualization",
+    "chart_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "illuminated_trendline_chart_02e30eb3",
+  "skill_name": "Illuminated Trendline Chart",
+  "source": {
+    "channel": "\u7c21\u5831\u85dd\u8853\u70d8\u7119\u574a SlideArt",
+    "duration_sec": 391,
+    "type": "youtube",
+    "video_id": "DRrobXrjhZ4",
+    "video_title": "\u6298\u7dda\u5716\u9084\u80fd\u600e\u9ebc\u73a9\uff1f\u4e09\u62db\u5b8c\u6210\u8d85\u7cbe\u7dfb\u8da8\u52e2\u5716\u8868\uff5c10 \u5206\u9418\u5b78\u7c21\u5831 #086 #\u5716\u8868 #\u6298\u7dda\u5716 #\u5716\u8868\u8a2d\u8a08",
+    "video_url": "https://www.youtube.com/watch?v=DRrobXrjhZ4",
+    "views": 8396
+  },
+  "tags": [
+    "trendline",
+    "gradient",
+    "time_series",
+    "dashboard",
+    "professional",
+    "visual_design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:38:01Z",
+  "wash_version": "1.0.0"
+}

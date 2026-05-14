@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_dashboard_shell_architecture_066bbd71",
+  "skill_name": "Clean Dashboard Shell Architecture",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:05:53Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 12,
+          "description": "initial showcase of interactive dashboard"
+        },
+        {
+          "seconds": 1140,
+          "description": "dashboard with all charts laid out"
+        },
+        {
+          "seconds": 1531,
+          "description": "dashboard showing dynamic filtering with slicers"
+        },
+        {
+          "seconds": 1710,
+          "description": "dashboard charts updated with latest data"
+        },
+        {
+          "seconds": 1815,
+          "description": "dashboard with custom theme applied"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_showcase_of_interactiv.jpg",
+        "frame_01_dashboard_with_all_charts_laid.jpg"
+      ],
+      "recapped_at": 1777406277.5228832
+    },
+    "primary_path": "frame_00_initial_showcase_of_interactiv.jpg"
+  }
+}

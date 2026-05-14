@@ -1,0 +1,407 @@
+name: blender
+display_name: "Blender 3D Modeling & Scene Design"
+# Hybrid mode: discovery via skills_wiki/blender, execution via the
+# legacy bpy MCP layer. See domains/blender/wiki_adapter.py.
+library_backend: wiki
+execution_mode: sync_engine
+skill_selection: browse
+auto_load_skills:
+  - blender_design_system_primer
+
+persona: "You are a Blender 3D expert skilled in modeling, materials, lighting, animation, geometry nodes, and scene composition using bpy Python API."
+
+categories:
+  hard_surface:
+    - hard surface
+    - mechanical
+    - robot
+    - vehicle
+    - weapon
+    - sci-fi
+    - industrial
+    - 硬表面
+    - 机械
+    - 机器人
+    - 车辆
+    - 科幻
+  organic:
+    - organic
+    - character
+    - creature
+    - animal
+    - human
+    - body
+    - sculpt
+    - 有机
+    - 角色
+    - 生物
+    - 雕刻
+  architecture:
+    - architecture
+    - building
+    - house
+    - room
+    - interior
+    - exterior
+    - furniture
+    - 建筑
+    - 房屋
+    - 室内
+    - 家具
+  environment:
+    - landscape
+    - terrain
+    - nature
+    - tree
+    - rock
+    - water
+    - sky
+    - mountain
+    - 风景
+    - 地形
+    - 自然
+    - 树
+    - 山
+  material_shader:
+    - material
+    - shader
+    - texture
+    - PBR
+    - procedural
+    - node
+    - glass
+    - metal
+    - wood
+    - 材质
+    - 着色器
+    - 纹理
+    - 节点
+  geometry_nodes:
+    - geometry nodes
+    - procedural
+    - scatter
+    - instance
+    - field
+    - simulation
+    - 几何节点
+    - 程序化
+    - 散布
+    - 实例
+  animation:
+    - animation
+    - keyframe
+    - rigging
+    - armature
+    - walk cycle
+    - motion path
+    - 动画
+    - 关键帧
+    - 骨骼
+    - 运动路径
+  particle_physics:
+    - particle
+    - simulation
+    - physics
+    - fluid
+    - smoke
+    - fire
+    - cloth
+    - rigid body
+    - 粒子
+    - 模拟
+    - 流体
+    - 烟雾
+    - 布料
+  lighting:
+    - lighting
+    - HDRI
+    - sun
+    - area light
+    - volumetric
+    - fog
+    - glow
+    - neon
+    - 灯光
+    - 体积雾
+    - 霓虹
+  motion_graphics:
+    - motion graphics
+    - abstract
+    - loop
+    - satisfying
+    - isometric
+    - low poly
+    - 运动图形
+    - 抽象
+    - 循环
+    - 低多边形
+
+query_pool:
+  - "Blender modeling tutorial beginner"
+  - "Blender low poly tutorial"
+  - "Blender PBR material tutorial"
+  - "Blender geometry nodes tutorial"
+  - "Blender lighting HDRI tutorial"
+  - "Blender animation keyframe tutorial"
+  - "Blender particle system tutorial"
+  - "Blender interior scene tutorial"
+  - "Blender landscape environment tutorial"
+  - "Blender sci-fi hard surface tutorial"
+  - "Blender procedural texture tutorial"
+  - "Blender isometric scene tutorial"
+  - "Blender glass material shader"
+  - "Blender volumetric lighting fog"
+  - "Blender sculpting organic tutorial"
+  - "Blender motion graphics abstract"
+  - "Blender architecture building tutorial"
+  - "Blender character modeling tutorial"
+  - "Blender water shader tutorial"
+  - "Blender neon glow effect"
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling sci fi panel tutorial"
+  - "Blender architecture modeling interior exterior tutorial"
+  - "Blender geometry nodes procedural environment tutorial"
+  - "Blender cinematic lighting three point lighting tutorial"
+  - "Blender volumetric lighting atmosphere god rays tutorial"
+  - "Blender motion graphics abstract loop tutorial"
+  - "Blender camera animation scene blocking tutorial"
+  - "Blender environment composition focal point tutorial"
+  - "Blender procedural material node setup error fix tutorial"
+  - "Blender addon free workflow for reusable scene assets tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling sci-fi panel tutorial"
+  - "Blender architecture interior modular workflow tutorial"
+  - "Blender geometry nodes scattering environment tutorial"
+  - "Blender volumetric lighting god rays fog tutorial"
+  - "Blender motion graphics looping abstract animation tutorial"
+  - "Blender camera animation cinematic flythrough tutorial"
+  - "Blender procedural architecture geometry nodes tutorial"
+  - "Blender rigid body destruction and particle effects tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling tutorial sci fi paneling"
+  - "Blender architecture exterior modeling tutorial"
+  - "Blender geometry nodes environment scattering tutorial"
+  - "Blender lighting cinematic interior tutorial"
+  - "Blender motion graphics loop tutorial geometry nodes"
+  - "Blender camera animation path tutorial cinematic"
+  - "Blender environmental storytelling scene tutorial"
+  - "Blender procedural building generator geometry nodes"
+  - "Blender stylized environment lighting tutorial"
+  - "Blender animation constraints follow path tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface boolean workflow tutorial"
+  - "Blender architectural exterior modeling tutorial"
+  - "Blender archviz interior lighting tutorial"
+  - "Blender rigid body motion graphics tutorial"
+  - "Blender cinematic camera animation tutorial"
+  - "Blender smoke and fire simulation tutorial"
+  - "Blender creature sculpting retopology tutorial"
+  - "Blender procedural terrain erosion tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface panel modeling tutorial"
+  - "Blender sci-fi hard surface greeble workflow"
+  - "Blender architectural visualization interior lighting tutorial"
+  - "Blender modular building workflow tutorial"
+  - "Blender geometry nodes motion graphics tutorial"
+  - "Blender cinematic lighting tutorial Eevee Cycles"
+  - "Blender constraint driven animation tutorial"
+  - "Blender particle instancing environment effects tutorial"
+  - "Blender procedural environment scattering geometry nodes tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender architectural interior lighting tutorial cycles"
+  - "Blender motion graphics procedural loops tutorial"
+  - "Blender lighting three point cinematic tutorial"
+  - "Blender rigging and animation walk cycle tutorial"
+  - "Blender stylized environment composition tutorial"
+  - "Blender particle physics smoke fire tutorial"
+  - "Blender procedural city generator geometry nodes tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender architecture exterior visualization tutorial"
+  - "Blender motion graphics geometry nodes tutorial"
+  - "Blender motion graphics looping animation tutorial"
+  - "Blender rigid body destruction animation tutorial"
+  - "Blender procedural building generator geometry nodes tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender modular sci fi corridor tutorial"
+  - "Blender architectural exterior visualization tutorial"
+  - "Blender camera flythrough animation tutorial"
+  - "Blender stylized snow ice material tutorial"
+  - "Blender landscape atmosphere lighting tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling sci fi prop tutorial"
+  - "Blender architecture visualization exterior tutorial"
+  - "Blender particle physics destruction tutorial"
+  - "Blender character animation walk cycle tutorial"
+  - "Blender modular environment workflow tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling workflow tutorial"
+  - "Blender sci-fi prop modeling boolean bevel tutorial"
+  - "Blender architectural visualization exterior tutorial"
+  - "Blender modular building creation tutorial"
+  - "Blender environment storytelling composition tutorial"
+  - "Blender geometry nodes scattering rocks plants tutorial"
+  - "Blender rigid body simulation setup tutorial"
+  - "Blender camera animation shot design tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender architecture modeling tutorial interior exterior workflow"
+  - "Blender lighting tutorial cinematic three point lighting Eevee Cycles"
+  - "Blender geometry nodes environment scatter tutorial"
+  - "Blender particle physics tutorial rain smoke debris"
+  - "Blender motion graphics tutorial abstract looping animation"
+  - "Blender environment tutorial stylized forest lake scene"
+  - "Blender advanced animation tutorial camera rig walk cycle constraints"
+  - "Blender procedural architecture tutorial modular building system"
+  - "Blender hard surface tutorial mechanical prop boolean bevel workflow"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling tutorial paneling booleans bevel workflow"
+  - "Blender modular architecture tutorial interior corridor environment"
+  - "Blender architectural exterior modeling tutorial beginner to intermediate"
+  - "Blender cinematic lighting tutorial interior volumetrics emissive practical lights"
+  - "Blender geometry nodes scattering rocks plants tutorial environment"
+  - "Blender rigid body physics tutorial destruction collision setup"
+  - "Blender cloth simulation tutorial flags curtains hanging fabric"
+  - "Blender camera animation tutorial dolly crane handheld cinematic movement"
+  - "Blender procedural environment tutorial stylized forest lake scene"
+  - "Blender shader nodes troubleshooting tutorial version compatible node setup"
+
+  # --- auto-added by evolve ---
+  - "Blender architecture visualization tutorial exterior building"
+  - "Blender architectural interior modeling tutorial modular workflow"
+  - "Blender motion graphics tutorial looping abstract animation"
+  - "Blender organic sculpting character creature beginner"
+  - "Blender environment tutorial stylized forest composition"
+  - "Blender animation tutorial camera movement and constraints"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling tutorial paneling kitbash"
+  - "Blender exterior architecture visualization tutorial"
+  - "Blender cinematic lighting tutorial interior scene"
+  - "Blender motion graphics loop animation tutorial"
+  - "Blender particle physics snow rain dust tutorial"
+  - "Blender character walk cycle beginner tutorial"
+  - "Blender stylized environment composition lighting tutorial"
+
+  # --- auto-added by evolve ---
+  - "Blender hard surface modeling tutorial sci-fi paneling"
+  - "Blender architectural visualization tutorial interior exterior"
+  - "Blender cinematic lighting tutorial night interior"
+  - "Blender environment art tutorial stylized forest landscape"
+  - "Blender rigid body destruction simulation tutorial"
+  - "Blender character walk cycle tutorial beginner"
+  - "Blender trim sheet workflow hard surface tutorial"
+
+rerank_prompt: |
+  You are a Blender 3D expert. Select the best {n} skills from the candidates for the given task.
+
+  ## Task
+  {query}
+
+  ## Candidates
+  {candidates}
+
+  ## Requirements
+  - Skills should complement each other (modeling + materials + lighting)
+  - Avoid overlapping functionality
+  - Prefer additive skills that compose well in a scene
+  - Output ONLY a JSON array:
+  [{{"skill_id": "...", "skill_name": "...", "reason": "one-line rationale"}}]
+
+metadata_keyword_rules:
+  scope:
+    scene:
+      - full scene
+      - complete scene
+      - environment
+      - world
+      - landscape
+    object:
+      - single object
+      - one object
+      - mesh
+      - model
+    modifier:
+      - material
+      - shader
+      - texture
+      - modifier
+      - effect
+  complexity:
+    advanced:
+      - geometry nodes
+      - simulation
+      - particle
+      - rigging
+      - armature
+      - physics
+    intermediate:
+      - procedural
+      - PBR
+      - HDRI
+      - volumetric
+      - keyframe
+    basic:
+      - simple
+      - basic
+      - beginner
+      - primitive
+      - low poly
+
+mcp:
+  command: "python"
+  args:
+    - "domains/blender/mcp_server/server.py"
+    - "--skills-dir"
+    - "skills_library/blender"
+  spawn_wait: 5
+
+agent_prompt_file: "agent_prompt.md"
+agent_hooks_module: "agent_hooks"
+agent_initial_prompt: |
+  Step 1: First call get_skill_text(skill_id="blender_design_system_primer").
+  Step 2: Use search_skills(query=<task keywords>) and/or list_skills(tier="T3"/"T4"/"T5") plus scene/material/lighting lists to find direct task matches.
+  Step 3: Do not force weak matches. Use a shell/object/material/effect skill only when its name, tags, category_path, and applicability fit the requested scene element.
+  Step 4: For the best matched executable skill, call get_skill_text, get_skill_code, and get_skill_visual before building so the trace keeps text/code/visual evidence. Prefer search/list candidates with has_visual=true; if get_skill_visual returns path:null, inspect another task-relevant has_visual=true candidate before runtime build tools.
+  Step 5: Attempt the matched skill: build_scene_from_shell for a matching shell, apply_skill for a wiki T3/T4/T5 object/material/effect, or add_object_from_skill only when the id exists in the legacy object library.
+  Step 6: Before final render, normally make at least 3 grounded scene roles when the brief has multiple scene roles, such as composition/geometry plus material plus lighting/camera/effect. Do not force weak matches.
+  Step 7: If apply_skill only resolves a code_path/entrypoint or reports not-executable for a matched skill, adapt the get_skill_code result with execute_blender_code and pass from_skill_ids, target_node, and adaptation_notes. Only if no candidate matches should you build ungrounded baseline-style code.
+  Step 8: Use get_scene_info after the skill attempt to inspect scene state, then apply matched material/lighting presets and custom bpy as needed.
+  Step 9: Apply apply_scene_polish_pack(scene_type="auto"), then use get_viewport_screenshot to verify framing before final render. This is a generic anti-blockout pass, not a source of brief-specific hidden assets. If the screenshot still reads as blockout, fix it with matched skills or explicit bpy code before rendering.
+  Step 10: When the scene is complete, render with render_scene and save with save_scene.
+  Step 11: Say TASK_COMPLETE.
+
+failure_patterns:
+  - "(?i)error"
+  - "(?i)failed"
+  - "(?i)traceback"
+  - "(?i)exception"
+  - "(?i)context is incorrect"
+max_repeated_failures: 4
+
+dry_run_placeholders:
+  get_scene_info: "Scene: Scene\n  Render Engine: BLENDER_EEVEE_NEXT\n  Objects (3):\n  - Camera [CAMERA]\n  - Light [LIGHT]\n  - Cube [MESH]"
+  execute_blender_code: "Code executed successfully (no output)"
+  apply_scene_polish_pack: '{"ok": true, "scene_type": "generic", "meshes_polished": 3, "total_objects": 8}'
+  get_viewport_screenshot: '{"path":"demo/blender/_viewport_preview.png","_image_attachment":"demo/blender/_viewport_preview.png","size_kb":45,"resolution":"512x512","objects":["Camera","Light","Cube"]}'
+  add_object_from_skill: "Added from skill 'Stylized Low Poly Tree': Tree, Leaves\nSKILL_CREATED: Tree,Leaves"
+  render_scene: "Rendered to demo/blender/render.png (850 KB, 1920x1080, BLENDER_EEVEE_NEXT)"
+  save_scene: "Saved scene to demo/blender/my_scene.blend (2.3 MB)"
+  list_skills: "Skill library: 30 skills in 10 categories\n  environment: 5 skills\n  material_shader: 4 skills"
+  search_skills: '[{"skill_id":"stylized_tree_a1b2c3d4","skill_name":"Stylized Low Poly Tree","tier":"T3","category_path":["environment"],"exec_ok":true,"tags":["low poly","tree","nature"]}]'
+  get_skill_info: "Skill: Stylized Low Poly Tree\n  ID: stylized_tree_a1b2c3d4\n  Category: environment\n  Tags: low poly, tree, nature"
+  get_skill_text: '{"skill_id":"stylized_tree_a1b2c3d4","name":"Stylized Low Poly Tree","applicability":"Adds a stylized low poly tree object","overview":"Create a low poly tree from simple mesh primitives."}'
+  get_skill_code: "def create_object(scene_name='Scene', object_name='Tree', location=(0,0,0), ...):\n    ..."
+  get_skill_visual: '{"path": null}'
+  apply_skill: '{"success": true, "skill_id": "stylized_tree_a1b2c3d4", "verb": "apply_skill_via_legacy", "target_id": "Scene", "detail": {"code_path": "skills_wiki/blender/stylized_tree_a1b2c3d4/code/skill.py", "entrypoint": "create_object"}}'
+
+tools_fallback_file: "tools_fallback.json"

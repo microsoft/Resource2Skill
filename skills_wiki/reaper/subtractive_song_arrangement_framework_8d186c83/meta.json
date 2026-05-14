@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "subtractive_song_arrangement_framework_8d186c83",
+  "skill_name": "Subtractive Song Arrangement Framework",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 465,
+    "type": "youtube",
+    "video_id": "5a_6qakL0vo",
+    "video_title": "Subtractive Song Arrangement - Building a song with loops and mutes",
+    "video_url": "https://www.youtube.com/watch?v=5a_6qakL0vo",
+    "views": 4271
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:05Z",
+  "wash_version": "1.0.0"
+}

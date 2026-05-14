@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_text_slicing_masking_ab0b4839",
+  "skill_name": "Dynamic Text Slicing & Masking",
+  "source": {
+    "channel": "DzynerByDesign",
+    "duration_sec": 319,
+    "type": "youtube",
+    "video_id": "leEXBKxLzLU",
+    "video_title": "Split Text Effects in PowerPoint using  Simple Text Hacks.",
+    "video_url": "https://www.youtube.com/watch?v=leEXBKxLzLU",
+    "views": 2801
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:50Z",
+  "wash_version": "1.0.0"
+}

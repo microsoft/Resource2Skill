@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_auto_typing_text_cycler_8710004d",
+  "skill_name": "Dynamic Auto-Typing Text Cycler",
+  "source": {
+    "channel": "Code With Sahand",
+    "duration_sec": 981,
+    "type": "youtube",
+    "video_id": "XlKqssfQJrU",
+    "video_title": "Build a Dynamic Auto Typing Effect with HTML CSS and JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=XlKqssfQJrU",
+    "views": 1266
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:48Z",
+  "wash_version": "1.0.0"
+}

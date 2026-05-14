@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_task_tracker_with_status_for_6551e4cb",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 892,
+    "type": "youtube",
+    "video_id": "lCD03kIm_Uk",
+    "video_title": "This FREE Excel Template Replaces Expensive Task-Management Apps",
+    "video_url": "https://www.youtube.com/watch?v=lCD03kIm_Uk",
+    "views": 93345
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

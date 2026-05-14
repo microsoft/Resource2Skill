@@ -1,0 +1,66 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_morphing_hamburger_off_screen_s_e1f3be11",
+  "skill_name": "Animated Morphing Hamburger & Off-Screen Slide Menu",
+  "source": {
+    "channel": "Treehouse",
+    "duration_sec": 227,
+    "type": "youtube",
+    "video_id": "aNDqzlAKmZc",
+    "video_title": "Build a Hamburger Menu with HTML, CSS, and JavaScript | Treehouse Tips",
+    "video_url": "https://www.youtube.com/watch?v=aNDqzlAKmZc",
+    "views": 107016
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:12:08Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 8,
+          "description": "Animated demonstration of the fully functional off-screen menu."
+        },
+        {
+          "seconds": 35,
+          "description": "Off-screen menu with basic list items visible."
+        },
+        {
+          "seconds": 127,
+          "description": "Navigation bar styled with dark background and a single purple bar for the hamburger menu."
+        },
+        {
+          "seconds": 222,
+          "description": "Three distinct bars forming the complete hamburger menu icon."
+        },
+        {
+          "seconds": 320,
+          "description": "Interactive menu toggling between hamburger/cross icon and revealing the off-screen menu."
+        }
+      ],
+      "frames": [
+        "frame_00_animated_demonstration_of_the_.jpg",
+        "frame_01_off_screen_menu_with_basic_lis.jpg",
+        "frame_02_navigation_bar_styled_with_dar.jpg",
+        "frame_03_three_distinct_bars_forming_th.jpg"
+      ],
+      "recapped_at": 1777408478.963575
+    },
+    "primary_path": "frame_00_animated_demonstration_of_the_.jpg"
+  }
+}

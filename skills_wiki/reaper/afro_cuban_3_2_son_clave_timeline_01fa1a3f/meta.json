@@ -1,0 +1,37 @@
+{
+  "applicability": "Use this skill to establish the foundational 3-2 rhythmic framework for Afro-Cuban, Salsa, and Latin-influenced tracks. It provides a strict 2-bar tension-and-release timeline to align melodies, basslines, and percussion.",
+  "category_path": [
+    "drums",
+    "percussion",
+    "patterns"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "afro_cuban_3_2_son_clave_timeline_01fa1a3f",
+  "skill_name": "Afro-Cuban 3-2 Son Clave Timeline",
+  "source": {
+    "channel": "Smithsonian Folkways",
+    "duration_sec": 487,
+    "type": "youtube",
+    "video_id": "Htz94NNaUfo",
+    "video_title": "John Santos Claves Demonstration [Interview Video]",
+    "video_url": "https://www.youtube.com/watch?v=Htz94NNaUfo",
+    "views": 60835
+  },
+  "tags": [
+    "clave",
+    "afro-cuban",
+    "percussion",
+    "rhythm",
+    "timeline",
+    "latin"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:57Z",
+  "wash_version": "1.0.0"
+}

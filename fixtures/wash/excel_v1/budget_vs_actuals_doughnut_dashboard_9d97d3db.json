@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "budget_vs_actuals_doughnut_dashboard_9d97d3db",
+  "source": {
+    "channel": "Josh Aharonoff (Your CFO Guy)",
+    "duration_sec": 1107,
+    "type": "youtube",
+    "video_id": "JWO5r6DK7FE",
+    "video_title": "Build a Dynamic Excel Budget vs Actual Dashboard with Power Query \u2013 Full Tutorial (Free Template)",
+    "video_url": "https://www.youtube.com/watch?v=JWO5r6DK7FE",
+    "views": 38435
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

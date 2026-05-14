@@ -1,0 +1,67 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_glow_button_780cfe77",
+  "skill_name": "Animated Gradient Glow Button",
+  "source": {
+    "channel": "Coding Play",
+    "duration_sec": 354,
+    "type": "youtube",
+    "video_id": "b_8fHNIHFk4",
+    "video_title": "CSS Glowing Button - How to Design Glowing Button with Hover Effects [Pure CSS]",
+    "video_url": "https://www.youtube.com/watch?v=b_8fHNIHFk4",
+    "views": 539619
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:54:47Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Glow effect with orange and green colors"
+        },
+        {
+          "seconds": 10,
+          "description": "Glow effect with purple and orange colors"
+        },
+        {
+          "seconds": 57,
+          "description": "Button with text 'Hover Me!' appears"
+        },
+        {
+          "seconds": 141,
+          "description": "Button background becomes dark gray"
+        },
+        {
+          "seconds": 334,
+          "description": "Glow effect appears around the button"
+        }
+      ],
+      "frames": [
+        "frame_00_glow_effect_with_orange_and_gr.jpg",
+        "frame_01_glow_effect_with_purple_and_or.jpg",
+        "frame_02_button_with_text_hover_me_appe.jpg",
+        "frame_03_button_background_becomes_dark.jpg",
+        "frame_04_glow_effect_appears_around_the.jpg"
+      ],
+      "recapped_at": 1777408476.5845277
+    },
+    "primary_path": "frame_00_glow_effect_with_orange_and_gr.jpg"
+  }
+}

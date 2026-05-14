@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "declarative_interactive_svg_geometry_fe5d6c70",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 140,
+    "type": "youtube",
+    "video_id": "emFMHH2Bfvo",
+    "video_title": "SVG Explained in 100 Seconds",
+    "video_url": "https://www.youtube.com/watch?v=emFMHH2Bfvo",
+    "views": 1004842
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

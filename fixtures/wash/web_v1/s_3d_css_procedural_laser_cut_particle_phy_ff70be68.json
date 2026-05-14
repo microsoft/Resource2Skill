@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_css_procedural_laser_cut_particle_phy_ff70be68",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 2870,
+    "type": "youtube",
+    "video_id": "9dEIg2xOphE",
+    "video_title": "CSS-only particle animations",
+    "video_url": "https://www.youtube.com/watch?v=9dEIg2xOphE",
+    "views": 33351
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

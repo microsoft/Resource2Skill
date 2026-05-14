@@ -1,0 +1,62 @@
+{
+  "skill_id": "triple_gauge_dashboard_b2d47d",
+  "skill_type": "shell",
+  "name": "Triple Gauge Dashboard",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "title+3-gauges"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "technical",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metrics",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/triple_gauge_dashboard_b2d47d/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "executive_dashboard_gauge_panel_9ab8ceb0",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Extracts the 3-column gauge dashboard shown in the slide thumbnail, using masked donuts to reliably create semi-circular metric charts across different PowerPoint versions.",
+  "_distill_attempts": 1
+}

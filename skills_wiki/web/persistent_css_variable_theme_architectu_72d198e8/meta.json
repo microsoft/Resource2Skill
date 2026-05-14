@@ -1,0 +1,36 @@
+{
+  "applicability": "Universal, essential for modern web applications, SaaS dashboards, and content sites. Improves user experience, accessibility, and demonstrates polish.",
+  "category_path": [
+    "ui_architecture",
+    "theming"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "persistent_css_variable_theme_architectu_72d198e8",
+  "skill_name": "Persistent CSS Variable Theme Architecture",
+  "source": {
+    "channel": "How to Become a Developer",
+    "duration_sec": 3566,
+    "type": "youtube",
+    "video_id": "rKqHbLuKaO8",
+    "video_title": "How To Make Website DARK MODE | Dark Theme Website Design Using HTML, CSS & JS",
+    "video_url": "https://www.youtube.com/watch?v=rKqHbLuKaO8",
+    "views": 14672
+  },
+  "tags": [
+    "dark mode",
+    "theming",
+    "css variables",
+    "persistence",
+    "web architecture",
+    "accessibility"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:04:33Z",
+  "wash_version": "1.0.0"
+}

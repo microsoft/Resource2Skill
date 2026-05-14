@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for visualizing spatial relationships and systems like urban plans, infrastructure, or supply chains, using a sequential build-up to prevent cognitive overload and enhance clarity.",
+  "category_path": [
+    "diagrams",
+    "spatial_visualization"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sequential_isometric_build_up_diagram_6df6703a",
+  "skill_name": "Sequential Isometric Build-Up Diagram",
+  "source": {
+    "channel": "LandSpace Architecture",
+    "duration_sec": 922,
+    "type": "youtube",
+    "video_id": "3Bz4R3fDfus",
+    "video_title": "Animated Landscape Architecture Diagram in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=3Bz4R3fDfus",
+    "views": 51280
+  },
+  "tags": [
+    "isometric",
+    "sequential",
+    "diagram",
+    "architecture",
+    "spatial",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:47Z",
+  "wash_version": "1.0.0"
+}

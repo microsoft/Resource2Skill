@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for long-form content pages, single-page applications, and portfolios, enhancing navigation by visually highlighting the active section as the user scrolls, improving spatial awareness.",
+  "category_path": [
+    "navigation",
+    "page_structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_spy_navigation_bar_1fe08223",
+  "skill_name": "Scroll-Spy Navigation Bar",
+  "source": {
+    "channel": "Codehal",
+    "duration_sec": 633,
+    "type": "youtube",
+    "video_id": "UoE1hqfpXX0",
+    "video_title": "How to Create an Active Nav Link on Scroll using HTML CSS and Javascript | Active Menu Class",
+    "video_url": "https://www.youtube.com/watch?v=UoE1hqfpXX0",
+    "views": 192733
+  },
+  "tags": [
+    "scroll spy",
+    "navigation",
+    "sticky header",
+    "active state",
+    "single-page",
+    "UX"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:17:46Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,63 @@
+{
+  "skill_id": "5_step_chevron_timeline_6f814b",
+  "skill_type": "shell",
+  "name": "5-Step Chevron Timeline",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "timeline_horizontal",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "5 interlocking chevron columns"
+    ],
+    "density": "medium",
+    "mood": [
+      "bold",
+      "corporate",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "steps",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/5_step_chevron_timeline_6f814b/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "sequential_chevron_tabs_accordion_proces_8db5d1da",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Uses interlocking pentagon and chevron shapes to create a continuous horizontal sequence, ideal for 5-step processes.",
+  "_distill_attempts": 1
+}

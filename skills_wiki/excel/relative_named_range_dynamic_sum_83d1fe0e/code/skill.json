@@ -1,0 +1,12 @@
+{
+  "name": "dynamic_sum_relative_name",
+  "description": "A dynamic sum formula anchored to a relative named range that points to the cell immediately above the formula, allowing seamless row insertions directly above the total.",
+  "setup_instructions": [
+    "1. Select the cell where you want your total (e.g., G17).",
+    "2. Open Formulas > Name Manager > New.",
+    "3. Name it 'PrevCell'.",
+    "4. Set 'Refers to:' as =!G16 (Reference the cell directly above, omitting absolute $ signs on the row. Use the ! prefix to allow it across sheets)."
+  ],
+  "formula": "=SUM({start_cell}:PrevCell)",
+  "example": "=SUM(C4:PrevCell)"
+}

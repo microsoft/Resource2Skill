@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for slides needing to deliver critical messages with authority and memorability. Perfect for executive summaries, funding pitches, product launches, or powerful conclusions by leveraging the psychological principle of scarcity.",
+  "category_path": [
+    "presentation_design",
+    "impact_slides"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "the_stopwatch_pitch_3ebbd39c",
+  "skill_name": "The Stopwatch Pitch",
+  "source": {
+    "channel": "Listen to me",
+    "duration_sec": 118,
+    "type": "youtube",
+    "video_id": "_J2EkW4bkz0",
+    "video_title": "\u4e00\u7537\u5b50\u53bb\u9762\u8a66\uff0c20\u79d2\u9418\u7684\u81ea\u6211\u4ecb\u7d39\u5687\u58de\u9762\u8a66\u5b98\uff01",
+    "video_url": "https://www.youtube.com/watch?v=_J2EkW4bkz0",
+    "views": 9091128
+  },
+  "tags": [
+    "pitch",
+    "stopwatch",
+    "urgent",
+    "impactful",
+    "executive summary",
+    "call to action"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:21:06Z",
+  "wash_version": "1.0.0"
+}

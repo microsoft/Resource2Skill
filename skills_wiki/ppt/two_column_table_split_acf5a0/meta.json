@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell is ideal for presenting information in two distinct columns, perfect for side-by-side comparisons, pros and cons, or parallel lists on a single slide.",
+  "category_path": [
+    "layout",
+    "comparison"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_column_table_split_acf5a0",
+  "skill_name": "Two Column Table Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "two column",
+    "comparison",
+    "split layout",
+    "side-by-side",
+    "list"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:00Z",
+  "wash_version": "1.0.0"
+}

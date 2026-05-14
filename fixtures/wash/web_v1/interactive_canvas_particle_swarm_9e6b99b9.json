@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_canvas_particle_swarm_9e6b99b9",
+  "source": {
+    "channel": "TechCodeCB",
+    "duration_sec": 583,
+    "type": "youtube",
+    "video_id": "Q6ORDkV2lTo",
+    "video_title": "Interactive Moving Particles | Animation On Canvas| Html | Css | Javascript",
+    "video_url": "https://www.youtube.com/watch?v=Q6ORDkV2lTo",
+    "views": 1131
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

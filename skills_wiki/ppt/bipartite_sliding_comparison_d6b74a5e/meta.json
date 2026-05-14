@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bipartite_sliding_comparison_d6b74a5e",
+  "skill_name": "Bipartite Sliding Comparison",
+  "source": {
+    "channel": "ALAM PowerPoint",
+    "duration_sec": 193,
+    "type": "youtube",
+    "video_id": "ZcjVgMg18lk",
+    "video_title": "Create Dynamic COMPARING SLIDES in PowerPoint (Pros and Cons Slides Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=ZcjVgMg18lk",
+    "views": 1053
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:54:21Z",
+  "wash_version": "1.0.0"
+}

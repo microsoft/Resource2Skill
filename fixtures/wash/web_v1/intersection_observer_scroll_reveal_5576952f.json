@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "intersection_observer_scroll_reveal_5576952f",
+  "source": {
+    "channel": "Train To Code",
+    "duration_sec": 408,
+    "type": "youtube",
+    "video_id": "nDPsLFPzVEA",
+    "video_title": "Effortlessly Create Scroll Animations with the Intersection Observer API",
+    "video_url": "https://www.youtube.com/watch?v=nDPsLFPzVEA",
+    "views": 3791
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

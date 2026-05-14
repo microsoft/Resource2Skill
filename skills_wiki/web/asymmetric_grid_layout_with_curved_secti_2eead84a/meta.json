@@ -1,0 +1,62 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_grid_layout_with_curved_secti_2eead84a",
+  "skill_name": "Asymmetric Grid Layout with Curved Section Dividers",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 2761,
+    "type": "youtube",
+    "video_id": "K8BigvW7sZU",
+    "video_title": "Responsive Landing Page Tutorial - HTML/CSS",
+    "video_url": "https://www.youtube.com/watch?v=K8BigvW7sZU",
+    "views": 47934
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:17Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 34,
+          "description": "Figma design showcasing both desktop and mobile versions of the web page."
+        },
+        {
+          "seconds": 128,
+          "description": "Initial HTML rendering in browser with normalized CSS, displaying the logo, title, and subtitle."
+        },
+        {
+          "seconds": 250,
+          "description": "Completed desktop version of the web page, fully populated with styled header, email form, video, and benefits section."
+        },
+        {
+          "seconds": 315,
+          "description": "Demonstration of the fully responsive web page adjusting to a mobile screen size, showing the content stacking vertically."
+        }
+      ],
+      "frames": [
+        "frame_00_figma_design_showcasing_both_d.jpg",
+        "frame_01_initial_html_rendering_in_brow.jpg",
+        "frame_02_completed_desktop_version_of_t.jpg",
+        "frame_03_demonstration_of_the_fully_res.jpg"
+      ],
+      "recapped_at": 1777408702.688287
+    },
+    "primary_path": "frame_00_figma_design_showcasing_both_d.jpg"
+  }
+}

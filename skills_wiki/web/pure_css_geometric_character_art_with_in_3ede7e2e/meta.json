@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_geometric_character_art_with_in_3ede7e2e",
+  "skill_name": "Pure CSS Geometric Character Art (with Interactive Eye Tracking)",
+  "source": {
+    "channel": "Charles Kasasira",
+    "duration_sec": 197,
+    "type": "youtube",
+    "video_id": "GJ5kroCJ41c",
+    "video_title": "CSS ART: SpongeBob with CSS only as a beginner || HTML5 CSS3",
+    "video_url": "https://www.youtube.com/watch?v=GJ5kroCJ41c",
+    "views": 498
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:05:43Z",
+  "wash_version": "1.0.0"
+}

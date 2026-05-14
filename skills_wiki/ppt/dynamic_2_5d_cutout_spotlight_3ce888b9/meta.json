@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_2_5d_cutout_spotlight_3ce888b9",
+  "skill_name": "Dynamic 2.5D Cutout Spotlight",
+  "source": {
+    "channel": "PPT Video",
+    "duration_sec": 63,
+    "type": "youtube",
+    "video_id": "qw5mroJw5vo",
+    "video_title": "Levidio 5 PowerPoint Templates Testimonial",
+    "video_url": "https://www.youtube.com/watch?v=qw5mroJw5vo",
+    "views": 9141
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:53Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for title or transition slides in agency-style presentations, high-energy manifesto statements, or short impactful quotes. It commands attention by treating text as interlocking visual blocks.",
+  "category_path": [
+    "slide_design",
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_brutalist_typography_3f9290df",
+  "skill_name": "Kinetic Brutalist Typography",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 61,
+    "type": "youtube",
+    "video_id": "Ssl4-rpVm98",
+    "video_title": "Explainer Video and Kinetic Typography Using PowerPoint Animation",
+    "video_url": "https://www.youtube.com/watch?v=Ssl4-rpVm98",
+    "views": 50512
+  },
+  "tags": [
+    "typography",
+    "brutalism",
+    "kinetic",
+    "high-contrast",
+    "layout",
+    "poster-style"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:17:20Z",
+  "wash_version": "1.0.0"
+}

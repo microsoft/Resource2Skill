@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for presenting secondary information (e.g., bios, product details) in a compact, engaging way, enhancing user interaction with a tactile 3D flip effect.",
+  "category_path": [
+    "card_layout",
+    "interactive_elements",
+    "3d_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_layered_flip_card_2f776053",
+  "skill_name": "Interactive 3D Layered Flip Card",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1484,
+    "type": "youtube",
+    "video_id": "FeJEEE3zc4U",
+    "video_title": "Create a 3D flipping animation with HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=FeJEEE3zc4U",
+    "views": 114004
+  },
+  "tags": [
+    "3D card",
+    "flip effect",
+    "CSS transforms",
+    "interactive UI",
+    "layered depth",
+    "hover reveal"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:41:19Z",
+  "wash_version": "1.0.0"
+}

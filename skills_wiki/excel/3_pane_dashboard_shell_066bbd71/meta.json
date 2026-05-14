@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3_pane_dashboard_shell_066bbd71",
+  "skill_name": "3-Pane Dashboard Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:46:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "completed interactive dashboard"
+        },
+        {
+          "seconds": 15,
+          "description": "applying different themes to the dashboard"
+        },
+        {
+          "seconds": 113,
+          "description": "dashboard updating with country filter"
+        },
+        {
+          "seconds": 1698,
+          "description": "dashboard refreshed with new data, showing updated charts"
+        },
+        {
+          "seconds": 1718,
+          "description": "dashboard without gridlines and headings, with a new theme"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_dashboar.jpg",
+        "frame_01_applying_different_themes_to_t.jpg",
+        "frame_02_dashboard_updating_with_countr.jpg"
+      ],
+      "recapped_at": 1777406044.429194
+    },
+    "primary_path": "frame_00_completed_interactive_dashboar.jpg"
+  }
+}

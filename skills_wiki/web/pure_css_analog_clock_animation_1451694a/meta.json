@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for dashboards, booking systems, \"time remaining\" waiting screens, or stylized hero sections. It provides a tangible, skeuomorphic feel for interfaces dealing with time, offering a performant alternative to JavaScript-based animations.",
+  "category_path": [
+    "css",
+    "animation",
+    "ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_analog_clock_animation_1451694a",
+  "skill_name": "Animated CSS Analog Clock",
+  "source": {
+    "channel": "Hexabirds",
+    "duration_sec": 281,
+    "type": "youtube",
+    "video_id": "zUH4F4k6VuQ",
+    "video_title": "Clock animation || Animation in CSS ||HTML CSS - 2024",
+    "video_url": "https://www.youtube.com/watch?v=zUH4F4k6VuQ",
+    "views": 233
+  },
+  "tags": [
+    "css animation",
+    "clock",
+    "transform",
+    "keyframes",
+    "ui component"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:53Z",
+  "wash_version": "1.0.0"
+}

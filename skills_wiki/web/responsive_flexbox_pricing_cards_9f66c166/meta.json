@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for displaying product tiers or service plans on SaaS landing pages, subscription sites, or agency pricing pages to effectively compartmentalize purchasing decisions.",
+  "category_path": [
+    "card_layout",
+    "pricing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_pricing_cards_9f66c166",
+  "skill_name": "Responsive Flexbox Pricing Cards",
+  "source": {
+    "channel": "OnlineITtuts Tutorials",
+    "duration_sec": 919,
+    "type": "youtube",
+    "video_id": "KURAwK5nhaE",
+    "video_title": "Create a Responsive Pricing Table in HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=KURAwK5nhaE",
+    "views": 595
+  },
+  "tags": [
+    "flexbox",
+    "pricing",
+    "cards",
+    "responsive",
+    "saas",
+    "subscription"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:48:39Z",
+  "wash_version": "1.0.0"
+}

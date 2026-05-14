@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_symmetric_character_block_out_eeb7999b",
+  "skill_name": "Modular Symmetric Character Block-Out",
+  "source": {
+    "channel": "Poole",
+    "duration_sec": 953,
+    "type": "youtube",
+    "video_id": "YgnjiaLhgwI",
+    "video_title": "Character Modelling in Blender for Beginners - Setting up and Blocking out",
+    "video_url": "https://www.youtube.com/watch?v=YgnjiaLhgwI",
+    "views": 50490
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:26Z",
+  "wash_version": "1.0.0"
+}

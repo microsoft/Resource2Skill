@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for corporate guidelines, technical product launches, data analysis reports, software/IT presentations, and internal operating manuals. This style is suited for contexts requiring a modern, structured, and authoritative tone.",
+  "category_path": [
+    "design_styles",
+    "tech_aesthetic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_tech_blueprint_cyber_manual_aesthet_8c6ffb4b",
+  "skill_name": "Dark Tech Blueprint (Cyber-Manual Aesthetic)",
+  "source": {
+    "channel": "\u5b59\u8d85",
+    "duration_sec": 116,
+    "type": "youtube",
+    "video_id": "5zujwzf_jMg",
+    "video_title": "\u3010PPT\u8fdb\u9636\u6559\u7a0b\u3011\u51c6\u5907\u89c4\u8303+\u903b\u8f91\u89c4\u8303+\u6392\u7248\u89c4\u8303",
+    "video_url": "https://www.youtube.com/watch?v=5zujwzf_jMg",
+    "views": 43
+  },
+  "tags": [
+    "dark mode",
+    "technical",
+    "cyberpunk",
+    "professional",
+    "modern",
+    "ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:10:17Z",
+  "wash_version": "1.0.0"
+}

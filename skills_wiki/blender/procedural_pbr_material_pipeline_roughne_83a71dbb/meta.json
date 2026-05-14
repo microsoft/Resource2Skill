@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_pbr_material_pipeline_roughne_83a71dbb",
+  "skill_name": "Procedural PBR Material Pipeline (Roughness & Bump Mapping)",
+  "source": {
+    "channel": "My 3D POV",
+    "duration_sec": 1854,
+    "type": "youtube",
+    "video_id": "AJ03XkWjJJ8",
+    "video_title": "Complete Beginner's Guide to PBR Materials - Blender for Architecture",
+    "video_url": "https://www.youtube.com/watch?v=AJ03XkWjJJ8",
+    "views": 1266
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:37Z",
+  "wash_version": "1.0.0"
+}

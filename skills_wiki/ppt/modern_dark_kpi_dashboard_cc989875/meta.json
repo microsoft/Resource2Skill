@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly applicable for presenting multiple data points in a consolidated view, especially for BI, performance dashboards, and business reviews. It excels in scenarios requiring clear, professional tracking of KPIs.",
+  "category_path": [
+    "dashboard",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_dark_kpi_dashboard_cc989875",
+  "skill_name": "Modern Dark KPI Dashboard",
+  "source": {
+    "channel": "HSSE World",
+    "duration_sec": 2999,
+    "type": "youtube",
+    "video_id": "C2EzwpzWYzw",
+    "video_title": "Create Automated Safety Dashboard Excel links to Powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=C2EzwpzWYzw",
+    "views": 27448
+  },
+  "tags": [
+    "KPI dashboard",
+    "dark theme",
+    "modern design",
+    "data visualization",
+    "performance tracking",
+    "BI"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:33Z",
+  "wash_version": "1.0.0"
+}

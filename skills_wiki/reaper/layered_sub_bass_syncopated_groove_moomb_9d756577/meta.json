@@ -1,0 +1,35 @@
+{
+  "applicability": "Essential for modern electronic genres like EDM, hip-hop, and moombahton. This technique creates a bassline that is deep enough for club systems yet clear and punchy on smaller speakers.",
+  "category_path": [
+    "bassline",
+    "synthesis"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_sub_bass_syncopated_groove_moomb_9d756577",
+  "skill_name": "Syncopated Layered Sub-Bass",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 669,
+    "type": "youtube",
+    "video_id": "7RlsWVIoqK0",
+    "video_title": "Creating a Bass Synth in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=7RlsWVIoqK0",
+    "views": 19407
+  },
+  "tags": [
+    "sub-bass",
+    "sound design",
+    "syncopation",
+    "moombah",
+    "hip-hop"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:40Z",
+  "wash_version": "1.0.0"
+}

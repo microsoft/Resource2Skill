@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "overlapped_subset_column_chart_a6597532",
+  "skill_name": "Overlapped Subset Column Chart",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:42:16Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Preview of the completed sales dashboard."
+        },
+        {
+          "seconds": 305,
+          "description": "Dashboard header with four KPI placeholders and divider lines."
+        },
+        {
+          "seconds": 748,
+          "description": "KPI cards fully populated with dynamic values and icons."
+        },
+        {
+          "seconds": 1638,
+          "description": "All interactive charts and main sales agent KPI table populated and styled."
+        },
+        {
+          "seconds": 1831,
+          "description": "Final interactive dashboard after data refresh."
+        }
+      ],
+      "frames": [
+        "frame_00_preview_of_the_completed_sales.jpg",
+        "frame_01_dashboard_header_with_four_kpi.jpg",
+        "frame_02_kpi_cards_fully_populated_with.jpg"
+      ],
+      "recapped_at": 1777407304.271105
+    },
+    "primary_path": "frame_00_preview_of_the_completed_sales.jpg"
+  }
+}

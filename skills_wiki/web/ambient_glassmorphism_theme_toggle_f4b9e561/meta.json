@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_glassmorphism_theme_toggle_f4b9e561",
+  "skill_name": "Ambient Glassmorphism Theme Toggle",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:53:12Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Initial web page in light mode"
+        },
+        {
+          "seconds": 9,
+          "description": "Web page switched to dark mode"
+        },
+        {
+          "seconds": 23,
+          "description": "Youtube page loaded from the navigation button"
+        },
+        {
+          "seconds": 39,
+          "description": "Web page displaying content, after initial HTML and CSS"
+        },
+        {
+          "seconds": 400,
+          "description": "Web page displaying content, after adding fonts and various CSS styles"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_web_page_in_light_mode.jpg",
+        "frame_01_web_page_switched_to_dark_mode.jpg",
+        "frame_02_youtube_page_loaded_from_the_n.jpg",
+        "frame_03_web_page_displaying_content_af.jpg",
+        "frame_04_web_page_displaying_content_af.jpg"
+      ],
+      "recapped_at": 1777408368.9953969
+    },
+    "primary_path": "frame_00_initial_web_page_in_light_mode.jpg"
+  }
+}

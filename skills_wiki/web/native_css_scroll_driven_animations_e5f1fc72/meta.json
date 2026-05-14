@@ -1,0 +1,36 @@
+{
+  "applicability": "Create high-performance animations linked to scroll position without JavaScript. Ideal for engaging storytelling on landing pages, articles, and portfolios by animating elements as they enter the viewport.",
+  "category_path": [
+    "web",
+    "css",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_animations_e5f1fc72",
+  "skill_name": "Native CSS Scroll-Driven Animations",
+  "source": {
+    "channel": "QCT",
+    "duration_sec": 602,
+    "type": "youtube",
+    "video_id": "aETL8DfADqw",
+    "video_title": "Mind-blowing CSS Scroll Animations | Quick Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=aETL8DfADqw",
+    "views": 869
+  },
+  "tags": [
+    "css animation",
+    "scroll animation",
+    "performance",
+    "interaction",
+    "declarative"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:05:13Z",
+  "wash_version": "1.0.0"
+}

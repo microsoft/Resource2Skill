@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is ideal for creating modern organizational charts, team introductions, and workflow diagrams. It uses layered pill shapes and color bands to soften aesthetics, reduce cognitive friction, and visually group information effectively.",
+  "category_path": [
+    "chart_design",
+    "organizational_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_layered_pill_organizational_chart_e8bdc3c2",
+  "skill_name": "Modern Layered-Pill Organizational Chart",
+  "source": {
+    "channel": "DESIGNING UNIVERSITY",
+    "duration_sec": 912,
+    "type": "youtube",
+    "video_id": "qLhMTr3qWBs",
+    "video_title": "organizational chart design in PowerPoint  tutorial no 58",
+    "video_url": "https://www.youtube.com/watch?v=qLhMTr3qWBs",
+    "views": 4679
+  },
+  "tags": [
+    "org chart",
+    "layered effect",
+    "pill nodes",
+    "modern design",
+    "visual grouping",
+    "workflow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:09Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_glassmorphic_dial_morph_transiti_3c186fcb",
+  "skill_name": "Dynamic Glassmorphic Dial (Morph Transition)",
+  "source": {
+    "channel": "Dream Liu",
+    "duration_sec": 146,
+    "type": "youtube",
+    "video_id": "lls8lIn1qJs",
+    "video_title": "Rotate & Transform Your PowerPoint Presentations!",
+    "video_url": "https://www.youtube.com/watch?v=lls8lIn1qJs",
+    "views": 1121503
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:29:59Z",
+  "wash_version": "1.0.0"
+}

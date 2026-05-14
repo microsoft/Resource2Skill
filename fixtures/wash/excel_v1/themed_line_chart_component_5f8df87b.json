@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "themed_line_chart_component_5f8df87b",
+  "source": {
+    "channel": "TeachExcel",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "_VgHWCcGLlw",
+    "video_title": "Pivot Chart Formatting Copy Trick in Excel - Excel Quickie 79",
+    "video_url": "https://www.youtube.com/watch?v=_VgHWCcGLlw",
+    "views": 23895
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

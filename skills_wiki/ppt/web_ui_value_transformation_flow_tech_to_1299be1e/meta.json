@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for pitch decks, product value propositions, and course introductions. Effectively visualizes 'before/after' or 'input/output' concepts.",
+  "category_path": [
+    "infographics",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "web_ui_value_transformation_flow_tech_to_1299be1e",
+  "skill_name": "Web-UI Value Transformation Flow (Tech-to-Revenue)",
+  "source": {
+    "channel": "\u82cf\u7c73\u5b66\u793e",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "pQexRioz6cM",
+    "video_title": "\u73a9\u8cfaAI\u505aPPT\uff0c\u4eceAI\u4e00\u952e\u751f\u6210\u3001\u4f18\u5316\u5230\u4ea4\u4ed8\uff0c\u4ece\u5e94\u7528\u5230\u53d8\u73b0\uff0c\u5e26\u4f60\u628aPPT\u505a\u6210\u771f\u6b63\u53ef\u7528\u3001\u53ef\u5356\u7684\u5546\u4e1a\u4ea7\u54c1\uff08\u66f4\u65b00401\uff09",
+    "video_url": "https://www.youtube.com/watch?v=pQexRioz6cM",
+    "views": 1
+  },
+  "tags": [
+    "web-ui",
+    "transformation",
+    "process flow",
+    "value proposition",
+    "infographic",
+    "card ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:11Z",
+  "wash_version": "1.0.0"
+}

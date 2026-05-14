@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "generative_network_particle_trails_18545355",
+  "source": {
+    "channel": "Tech Incept",
+    "duration_sec": 1143,
+    "type": "youtube",
+    "video_id": "58O--2hAg3U",
+    "video_title": "HTML CSS  Particle  Animation |Canvas  Animation |Using CSS & JAVASCRIPT| Tech Incept",
+    "video_url": "https://www.youtube.com/watch?v=58O--2hAg3U",
+    "views": 352
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

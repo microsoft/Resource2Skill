@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_track_melodic_synth_rock_groove_al_9a3cd2c1",
+  "skill_name": "Multi-Track Melodic Synth-Rock Groove (Aligned Polyphonic Arrangement)",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "duration_sec": 894,
+    "type": "youtube",
+    "video_id": "bc58K9a_kW4",
+    "video_title": "Best MIDI settings for REAPER",
+    "video_url": "https://www.youtube.com/watch?v=bc58K9a_kW4",
+    "views": 62272
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:44Z",
+  "wash_version": "1.0.0"
+}

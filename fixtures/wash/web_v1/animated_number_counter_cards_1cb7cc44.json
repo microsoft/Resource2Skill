@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_number_counter_cards_1cb7cc44",
+  "source": {
+    "channel": "Coding Artist",
+    "duration_sec": 916,
+    "type": "youtube",
+    "video_id": "FaMW-CtExrs",
+    "video_title": "Responsive Number Counting Animation | HTML, CSS & Javascript",
+    "video_url": "https://www.youtube.com/watch?v=FaMW-CtExrs",
+    "views": 121923
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

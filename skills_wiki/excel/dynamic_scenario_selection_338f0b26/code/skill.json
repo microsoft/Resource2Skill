@@ -1,0 +1,20 @@
+{
+  "name": "Dynamic Scenario Selector (CHOOSE Formula)",
+  "description": "Uses the CHOOSE function to dynamically select values from different scenario blocks based on a user-controlled index. This snippet provides the core formula string.",
+  "formula_string": "=CHOOSE({scenario_selector_cell_abs}, {scenario_1_value_cell_rel}, {scenario_2_value_cell_rel})",
+  "placeholders": {
+    "scenario_selector_cell_abs": {
+      "description": "Absolute reference to the cell containing the chosen scenario number (e.g., $J$4). This cell should typically have a Data Validation dropdown.",
+      "example": "$J$4"
+    },
+    "scenario_1_value_cell_rel": {
+      "description": "Relative reference to the corresponding assumption value in the first scenario block (e.g., D48).",
+      "example": "D48"
+    },
+    "scenario_2_value_cell_rel": {
+      "description": "Relative reference to the corresponding assumption value in the second scenario block (e.g., D66).",
+      "example": "D66"
+    }
+  },
+  "usage_notes": "To implement this skill, first define your scenario assumption blocks (e.g., Scenario 1 and Scenario 2 with their respective values). Then, create a scenario selector cell (e.g., J4) and apply Data Validation (List type, Source: '1,2'). Finally, apply this formula to the top-left cell of your 'Live Case' assumptions block (e.g., D30) and drag it across and down to dynamically populate the entire block. The example formula assumes two scenarios; extend with additional '{scenario_N_value_cell_rel}' arguments for more scenarios."
+}

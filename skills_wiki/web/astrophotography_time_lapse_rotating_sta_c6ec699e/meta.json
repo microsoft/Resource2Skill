@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "astrophotography_time_lapse_rotating_sta_c6ec699e",
+  "skill_name": "Astrophotography Time-Lapse (Rotating Starfield with Meteors & Silhouettes)",
+  "source": {
+    "channel": "Drew Cotten",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "Bbp1-p2FoXU",
+    "video_title": "7PM to 7AM Night Sky Stars Timelapse",
+    "video_url": "https://www.youtube.com/watch?v=Bbp1-p2FoXU",
+    "views": 308535
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:49Z",
+  "wash_version": "1.0.0"
+}

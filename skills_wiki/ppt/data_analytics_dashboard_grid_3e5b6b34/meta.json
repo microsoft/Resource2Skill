@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_analytics_dashboard_grid_3e5b6b34",
+  "skill_name": "Data Analytics Dashboard Grid",
+  "source": {
+    "channel": "Michael De Marco",
+    "duration_sec": 271,
+    "type": "youtube",
+    "video_id": "XxldOI7ARbE",
+    "video_title": "How To Interpret The Dashboard",
+    "video_url": "https://www.youtube.com/watch?v=XxldOI7ARbE",
+    "views": 62
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:10:43Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "other"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_d073e0f0",
+  "source": {
+    "channel": "Excel Tutorials by EasyClick Academy",
+    "duration_sec": 249,
+    "type": "youtube",
+    "video_id": "gAthkbDcZ2c",
+    "video_title": "How to Enable Dark Mode in Excel (The Ultimate Guide)",
+    "video_url": "https://www.youtube.com/watch?v=gAthkbDcZ2c",
+    "views": 123830
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Simulates an interactive Business Intelligence dashboard interface natively within a static presentation slide. Ideal for quarterly business reviews, financial reporting, and data-dense executive summaries.",
+  "category_path": [
+    "slide_layouts",
+    "dashboards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_dashboard_ui_simulation_47a58eab",
+  "skill_name": "Native Dashboard UI Simulation",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 617,
+    "type": "youtube",
+    "video_id": "murtekAkJDs",
+    "video_title": "The Secret to Interactive Power BI Dashboards in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=murtekAkJDs",
+    "views": 438356
+  },
+  "tags": [
+    "dashboard",
+    "bi_simulation",
+    "kpi_cards",
+    "ui_design",
+    "data_visualization"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:20:00Z",
+  "wash_version": "1.0.0"
+}

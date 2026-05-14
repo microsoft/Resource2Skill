@@ -1,0 +1,81 @@
+{
+  "skill_id": "cinematic_split_cover_7a2759",
+  "skill_type": "shell",
+  "name": "Cinematic Split Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "letterbox-image-with-bars"
+    ],
+    "density": "low",
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:6",
+      "bullet_capacity": null
+    },
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/cinematic_split_cover_7a2759/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "pop_art_duotone_aesthetic_bd1702bf",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Inspired by the UI screenshot's letterboxed layout, this shell uses dark top and bottom panels to frame a central hero image, perfect for dramatic covers or section dividers.",
+  "_distill_attempts": 2
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "full_height_dashboard_grid_layout_with_e_30d23000",
+  "source": {
+    "channel": "Optimistic Web",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "xR23ktLwvrg",
+    "video_title": "CSS Grid - Create a FULL-HEIGHT RESPONSIVE Layout in Minutes",
+    "video_url": "https://www.youtube.com/watch?v=xR23ktLwvrg",
+    "views": 33441
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "full_screen_scroll_snapping_layout_cda21f30",
+  "source": {
+    "channel": "GreatStack",
+    "duration_sec": 419,
+    "type": "youtube",
+    "video_id": "KAG5wNPdoTw",
+    "video_title": "How To Make Full Screen Scrolling Website Using HTML And CSS",
+    "video_url": "https://www.youtube.com/watch?v=KAG5wNPdoTw",
+    "views": 102364
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

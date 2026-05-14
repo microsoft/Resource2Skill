@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pop_art_duotone_aesthetic_bd1702bf",
+  "skill_name": "Pop-Art Duotone Aesthetic",
+  "source": {
+    "channel": "GoDaddy Studio",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "36I6CQbwCL8",
+    "video_title": "How To Create a Duotone Look in Over",
+    "video_url": "https://www.youtube.com/watch?v=36I6CQbwCL8",
+    "views": 3020
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:04Z",
+  "wash_version": "1.0.0"
+}

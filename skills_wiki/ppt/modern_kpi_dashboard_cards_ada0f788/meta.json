@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_kpi_dashboard_cards_ada0f788",
+  "skill_name": "Modern KPI Dashboard Cards",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 150,
+    "type": "youtube",
+    "video_id": "oHQwP5xz4Y4",
+    "video_title": "Customer Satisfaction And Feedback Powerpoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=oHQwP5xz4Y4",
+    "views": 1005
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:52Z",
+  "wash_version": "1.0.0"
+}

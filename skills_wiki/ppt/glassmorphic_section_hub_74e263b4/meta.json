@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphic_section_hub_74e263b4",
+  "skill_name": "Glassmorphic Section Hub",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 1080,
+    "type": "youtube",
+    "video_id": "pkzDa9qefck",
+    "video_title": "Make Your PowerPoint Pop with Cool Section Zooms!",
+    "video_url": "https://www.youtube.com/watch?v=pkzDa9qefck",
+    "views": 611097
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:55Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for employee directories, product catalogs, invoice inspection, or adding a standalone interactive search pane to summary dashboards.",
+  "category_path": [
+    "formulas",
+    "lookup"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_record_viewer_a4d46290",
+  "skill_name": "Dynamic Record Viewer",
+  "source": {
+    "channel": "Chandoo",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "dlBuWllegRg",
+    "video_title": "XLOOKUP in Excel | Step-by-Step Tutorial for Beginners (better than VLOOKUP)",
+    "video_url": "https://www.youtube.com/watch?v=dlBuWllegRg",
+    "views": 92457
+  },
+  "tags": [
+    "xlookup",
+    "dynamic arrays",
+    "search widget",
+    "data retrieval",
+    "spill range"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:41Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_gooey_fluid_gradient_backgro_7fd5e6f7",
+  "source": {
+    "channel": "WeCoded",
+    "duration_sec": 884,
+    "type": "youtube",
+    "video_id": "Ml-B-W91gtw",
+    "video_title": "CSS Morphing Gradients Animated Background",
+    "video_url": "https://www.youtube.com/watch?v=Ml-B-W91gtw",
+    "views": 190137
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

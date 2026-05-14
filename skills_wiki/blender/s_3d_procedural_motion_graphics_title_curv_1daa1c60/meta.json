@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating dynamic, resolution-independent kinetic typography and UI overlays directly within the 3D environment. This technique leverages animated curve bevels and emissive materials to seamlessly integrate 2D-style motion graphics into a 3D scene.",
+  "category_path": [
+    "motion_graphics",
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_procedural_motion_graphics_title_curv_1daa1c60",
+  "skill_name": "3D Procedural Motion Graphics Title & Curve Bursts",
+  "source": {
+    "channel": "SonduckFilm",
+    "duration_sec": 615,
+    "type": "youtube",
+    "video_id": "JSV9uMEosOo",
+    "video_title": "5 Great Beginner Motion Graphics Techniques | DaVinci Resolve Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=JSV9uMEosOo",
+    "views": 483611
+  },
+  "tags": [
+    "motion_graphics",
+    "typography",
+    "curve_animation",
+    "emissive",
+    "procedural"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:54Z",
+  "wash_version": "1.0.0"
+}

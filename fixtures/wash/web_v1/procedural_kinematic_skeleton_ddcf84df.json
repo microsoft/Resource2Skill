@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_kinematic_skeleton_ddcf84df",
+  "source": {
+    "channel": "Harsh Vardhan Singh ",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "21pzLw68RBU",
+    "video_title": "Interactive Reptile Cursor Animation \ud83e\udd8e | HTML Canvas JavaScript Project | @codeandcelebrationhub",
+    "video_url": "https://www.youtube.com/watch?v=21pzLw68RBU",
+    "views": 60
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_dashboard_f5fe0522",
+  "source": {
+    "channel": "Sajid",
+    "duration_sec": 1051,
+    "type": "youtube",
+    "video_id": "l04dDYW-QaI",
+    "video_title": "The Easy Way to Build Responsive Websites",
+    "video_url": "https://www.youtube.com/watch?v=l04dDYW-QaI",
+    "views": 212071
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

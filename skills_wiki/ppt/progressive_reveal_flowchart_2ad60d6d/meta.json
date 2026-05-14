@@ -1,0 +1,36 @@
+{
+  "applicability": "Masterfully manages cognitive load by first presenting a complex multi-step process fully, then guiding the audience through individual stages with controlled focus. Ideal for explaining systems, project plans, or scientific protocols.",
+  "category_path": [
+    "flowchart",
+    "process_explanation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "progressive_reveal_flowchart_2ad60d6d",
+  "skill_name": "Progressive Reveal Flowchart",
+  "source": {
+    "channel": "\u7c21\u5831\u85dd\u8853\u70d8\u7119\u574a SlideArt",
+    "duration_sec": 393,
+    "type": "youtube",
+    "video_id": "aNEFnrkAsuo",
+    "video_title": "\u5b78\u8853\u7c21\u5831\u6848\u4f8b\uff1a\u8907\u96dc\u6d41\u7a0b\u5716\u8a72\u5982\u4f55\u8a2d\u8a08\uff5c10 \u5206\u9418\u5b78\u7c21\u5831 #084 #\u5b78\u8853\u7c21\u5831 #\u6d41\u7a0b\u5716",
+    "video_url": "https://www.youtube.com/watch?v=aNEFnrkAsuo",
+    "views": 18011
+  },
+  "tags": [
+    "progressive reveal",
+    "flowchart",
+    "complex process",
+    "guided explanation",
+    "cognitive load",
+    "decision tree"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:09:44Z",
+  "wash_version": "1.0.0"
+}

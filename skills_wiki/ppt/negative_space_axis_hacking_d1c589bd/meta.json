@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for demographic infographics and dashboards where standard text labels fall short. By forcing reserved layout space, it seamlessly integrates custom floating icons underneath perfectly aligned data columns.",
+  "category_path": [
+    "charts",
+    "advanced_formatting"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "negative_space_axis_hacking_d1c589bd",
+  "skill_name": "Negative Space Axis Hacking",
+  "source": {
+    "channel": "\u5c0f\u5496PPT\u66f9\u5b78\u658c",
+    "duration_sec": 100,
+    "type": "youtube",
+    "video_id": "Zt_HmQFV4F4",
+    "video_title": "\u3010 \u5546\u696d\u7c21\u5831PPT\u6559\u5b78\u3011\u8cc7\u8a0a\u5716\u8868\uff1a\u67f1\u72c0\u5716\uff3f\u5ea7\u6a19\u8ef8\u9078\u9805(PPT Design)",
+    "video_url": "https://www.youtube.com/watch?v=Zt_HmQFV4F4",
+    "views": 901
+  },
+  "tags": [
+    "chart formatting",
+    "axis manipulation",
+    "infographics",
+    "custom layout",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:45Z",
+  "wash_version": "1.0.0"
+}

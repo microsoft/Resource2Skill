@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_ducking_delay_sidechain_fx_bus_9cf0c7cf",
+  "skill_name": "Dynamic Ducking Delay (Sidechain FX Bus)",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 254,
+    "type": "youtube",
+    "video_id": "QiAO38UtjsM",
+    "video_title": "Using Dynamic Delays and Reverbs in a Mix",
+    "video_url": "https://www.youtube.com/watch?v=QiAO38UtjsM",
+    "views": 2074
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:47Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,38 @@
+{
+  "applicability": "Applies a laid-back, unquantized 'drunken' micro-timing to drum MIDI. It pairs this with a vintage tape-style bus FX chain featuring bandpass filtering, saturation, and gating for a dusty aesthetic.",
+  "category_path": [
+    "drums",
+    "grooves",
+    "lo_fi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "drunken_lo_fi_glitch_drum_groove_tape_bu_5ce3104e",
+  "skill_name": "Drunken Lo-Fi Glitch Groove & Bus",
+  "source": {
+    "channel": "downcode",
+    "duration_sec": 2103,
+    "type": "youtube",
+    "video_id": "QjaTT9OnyW8",
+    "video_title": "Lo-Fi Hip Hop in REAPER with free VSTs (only Serum)",
+    "video_url": "https://www.youtube.com/watch?v=QjaTT9OnyW8",
+    "views": 600
+  },
+  "tags": [
+    "lo-fi",
+    "drum-bus",
+    "micro-timing",
+    "saturation",
+    "groove",
+    "glitch"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:19Z",
+  "wash_version": "1.0.0"
+}

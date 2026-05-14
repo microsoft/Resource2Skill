@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_keyframe_animation_toolkit_55db6c4b",
+  "source": {
+    "channel": "Bro Code",
+    "duration_sec": 919,
+    "type": "youtube",
+    "video_id": "u_GIT5MJAtc",
+    "video_title": "Learn CSS animations in 15 minutes! \ud83c\udfac",
+    "video_url": "https://www.youtube.com/watch?v=u_GIT5MJAtc",
+    "views": 123369
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for hero sections, image galleries, and product showcases, this carousel prioritizes lightweight performance and accessibility. It leverages native browser scroll snapping for a jank-free experience without JavaScript.",
+  "category_path": [
+    "layout",
+    "carousel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_only_scroll_snapping_carousel_1934cf70",
+  "skill_name": "CSS-Only Scroll Snapping Carousel",
+  "source": {
+    "channel": "Skillthrive",
+    "duration_sec": 461,
+    "type": "youtube",
+    "video_id": "McPdzhLRzCg",
+    "video_title": "HTML and CSS Project Tutorial: Pure CSS Image Slider",
+    "video_url": "https://www.youtube.com/watch?v=McPdzhLRzCg",
+    "views": 456601
+  },
+  "tags": [
+    "css-only",
+    "scroll-snap",
+    "carousel",
+    "performance",
+    "accessibility",
+    "image-gallery"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:12:55Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,65 @@
+{
+  "applicability": "Ideal for displaying achievements or key metrics on landing pages and portfolios. The scroll-triggered count-up animation draws attention to quantitative proof and builds a sense of momentum.",
+  "category_path": [
+    "data_display",
+    "statistics_cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_number_counter_cards_1cb7cc44",
+  "skill_name": "Animated Number Counter Cards",
+  "source": {
+    "channel": "Coding Artist",
+    "duration_sec": 916,
+    "type": "youtube",
+    "video_id": "FaMW-CtExrs",
+    "video_title": "Responsive Number Counting Animation | HTML, CSS & Javascript",
+    "video_url": "https://www.youtube.com/watch?v=FaMW-CtExrs",
+    "views": 121923
+  },
+  "tags": [
+    "animated-counter",
+    "metrics",
+    "statistics",
+    "count-up",
+    "intersection-observer"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:27Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Initial display of the completed counter section with animation."
+        },
+        {
+          "seconds": 28,
+          "description": "Counter section adapting to a responsive, stacked layout with animations."
+        },
+        {
+          "seconds": 718,
+          "description": "All four counter boxes are designed with icons and text, but without animation yet."
+        },
+        {
+          "seconds": 1410,
+          "description": "Fully functional animated counter section after implementing JavaScript."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_display_of_the_complet.jpg",
+        "frame_01_counter_section_adapting_to_a_.jpg",
+        "frame_02_all_four_counter_boxes_are_des.jpg"
+      ],
+      "recapped_at": 1777408504.4973664
+    },
+    "primary_path": "frame_00_initial_display_of_the_complet.jpg"
+  }
+}

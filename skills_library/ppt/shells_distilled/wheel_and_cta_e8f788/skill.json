@@ -1,0 +1,52 @@
+{
+  "skill_id": "wheel_and_cta_e8f788",
+  "skill_type": "shell",
+  "name": "Wheel and CTA",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "closing"
+    ],
+    "content_shape": [
+      "wheel+cta-button"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/wheel_and_cta_e8f788/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "exploded_segmented_process_wheel_f994d439",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted the segmented wheel as a central graphic and the 'SUBSCRIBED' banner as a prominent call-to-action button, suitable for a closing slide.",
+  "_distill_attempts": 1
+}

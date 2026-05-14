@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for visualizing IT infrastructure, system architectures, and organizational hierarchies. It uses distinct device icons and orthogonal lines to clearly map out relationships and data flows.",
+  "category_path": [
+    "diagrams",
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hierarchical_network_topology_diagram_43a4218e",
+  "skill_name": "Hierarchical Network Topology Diagram",
+  "source": {
+    "channel": "CSOdessa",
+    "duration_sec": 64,
+    "type": "youtube",
+    "video_id": "OnFkXOumJTU",
+    "video_title": "How To Create Network Topology Diagram",
+    "video_url": "https://www.youtube.com/watch?v=OnFkXOumJTU",
+    "views": 68656
+  },
+  "tags": [
+    "network topology",
+    "hierarchy",
+    "architecture",
+    "infrastructure",
+    "diagram"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:00:05Z",
+  "wash_version": "1.0.0"
+}

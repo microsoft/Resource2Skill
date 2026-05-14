@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for transition slides, chapter dividers, numbered lists, or portfolio sections. It transforms basic numeric outlines into highly polished, agency-quality hero graphics.",
+  "category_path": [
+    "image_masking",
+    "text_mask",
+    "section_divider"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "typographic_image_masking_section_divide_c691e304",
+  "skill_name": "Typographic Image Masking (Section Divider)",
+  "source": {
+    "channel": "Level Up! PowerPoint",
+    "duration_sec": 231,
+    "type": "youtube",
+    "video_id": "jbHgzIy1eMo",
+    "video_title": "Animation: great Powerpoint Section Divider in just a few seconds [EXERCISE] - Download available",
+    "video_url": "https://www.youtube.com/watch?v=jbHgzIy1eMo",
+    "views": 18802
+  },
+  "tags": [
+    "typographic",
+    "masking",
+    "section divider",
+    "hero graphic",
+    "minimalist",
+    "chapter slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:15Z",
+  "wash_version": "1.0.0"
+}

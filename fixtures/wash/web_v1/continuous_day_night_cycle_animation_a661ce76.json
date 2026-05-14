@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_day_night_cycle_animation_a661ce76",
+  "source": {
+    "channel": "kavooce",
+    "duration_sec": 135,
+    "type": "youtube",
+    "video_id": "ZCE0n0WfTa0",
+    "video_title": "Coding Challenge- Day/Night Animation",
+    "video_url": "https://www.youtube.com/watch?v=ZCE0n0WfTa0",
+    "views": 75
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

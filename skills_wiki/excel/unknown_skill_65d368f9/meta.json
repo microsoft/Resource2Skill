@@ -1,0 +1,35 @@
+{
+  "applicability": "This skill represents an external workflow using Google NotebookLM for data visualization. It is not a native Excel or openpyxl capability.",
+  "category_path": [
+    "external_tools",
+    "ai_integration"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_65d368f9",
+  "skill_name": "Google NotebookLM Data Visualization",
+  "source": {
+    "channel": "Excel For Freelancers",
+    "duration_sec": 844,
+    "type": "youtube",
+    "video_id": "-tva3eTr5q8",
+    "video_title": "Turn  Excel Data Into Amazing Infographics In 1 CLICK",
+    "video_url": "https://www.youtube.com/watch?v=-tva3eTr5q8",
+    "views": 37585
+  },
+  "tags": [
+    "google-notebooklm",
+    "ai-visualization",
+    "external-tool",
+    "third-party"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:06Z",
+  "wash_version": "1.0.0"
+}

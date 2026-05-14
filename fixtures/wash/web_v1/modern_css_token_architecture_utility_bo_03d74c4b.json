@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_css_token_architecture_utility_bo_03d74c4b",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 2978,
+    "type": "youtube",
+    "video_id": "h3bTwCqX4ns",
+    "video_title": "Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage",
+    "video_url": "https://www.youtube.com/watch?v=h3bTwCqX4ns",
+    "views": 540957
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

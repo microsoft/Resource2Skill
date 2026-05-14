@@ -1,0 +1,29 @@
+{
+  "applicability": "Calculates the absolute variance between the current year and the prior year. It is widely used in financial modeling and performance tracking to measure year-over-year changes.",
+  "category_path": [
+    "formulas",
+    "financial"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "yoy_compare_ddb763d9",
+  "skill_name": "year_over_year_compare",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "yoy",
+    "variance",
+    "growth",
+    "financial",
+    "comparison"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T09:03:02Z",
+  "wash_version": "1.0.0"
+}

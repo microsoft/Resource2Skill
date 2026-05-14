@@ -1,0 +1,35 @@
+{
+  "applicability": "Use as a high-impact interstitial or title slide to create a cinematic, editorial feel. Ideal for chapter breaks, section transitions, or agenda introductions in professional and consulting decks.",
+  "category_path": [
+    "full_slide",
+    "interstitial"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stark_editorial_interstitial_b634d59c",
+  "skill_name": "Stark Editorial Interstitial",
+  "source": {
+    "channel": "30X40 Design Workshop",
+    "duration_sec": 769,
+    "type": "youtube",
+    "video_id": "XYFcwofisPo",
+    "video_title": "Architecture Client Presentation",
+    "video_url": "https://www.youtube.com/watch?v=XYFcwofisPo",
+    "views": 656506
+  },
+  "tags": [
+    "interstitial",
+    "title slide",
+    "cinematic",
+    "typography",
+    "blurred background"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:38Z",
+  "wash_version": "1.0.0"
+}

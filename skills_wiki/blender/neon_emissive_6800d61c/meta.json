@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for creating vibrant neon lights and emissive effects in 3D scenes, perfect for signage, cyberpunk aesthetics, and illuminated accents.",
+  "category_path": [
+    "material_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_emissive_6800d61c",
+  "skill_name": "neon_emissive",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "neon",
+    "emissive",
+    "lighting",
+    "material",
+    "principled",
+    "scifi"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:47Z",
+  "wash_version": "1.0.0"
+}

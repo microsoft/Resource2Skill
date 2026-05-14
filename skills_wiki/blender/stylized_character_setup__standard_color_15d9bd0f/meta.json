@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_character_setup__standard_color_15d9bd0f",
+  "skill_name": "Stylized Character Setup (Standard Color Space & Ortho References)",
+  "source": {
+    "channel": "Crashsune Academy",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Use9T2IX1XE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:01Z",
+  "wash_version": "1.0.0"
+}

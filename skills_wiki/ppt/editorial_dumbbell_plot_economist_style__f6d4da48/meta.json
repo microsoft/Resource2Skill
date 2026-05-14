@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for business reports, executive summaries, and consulting decks, this skill visualizes changes, performance gaps, or before-and-after scenarios with sophisticated, publication-ready graphics.",
+  "category_path": [
+    "chart_data",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_dumbbell_plot_economist_style__f6d4da48",
+  "skill_name": "Editorial Dumbbell Plot (Economist-Style Data Visualization)",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 1147,
+    "type": "youtube",
+    "video_id": "wP8NWRR0Fdg",
+    "video_title": "Make Beautiful Excel Charts Like The Economist (file included)",
+    "video_url": "https://www.youtube.com/watch?v=wP8NWRR0Fdg",
+    "views": 629699
+  },
+  "tags": [
+    "dumbbell plot",
+    "economist style",
+    "data visualization",
+    "change comparison",
+    "executive reports",
+    "publication quality"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:21:15Z",
+  "wash_version": "1.0.0"
+}

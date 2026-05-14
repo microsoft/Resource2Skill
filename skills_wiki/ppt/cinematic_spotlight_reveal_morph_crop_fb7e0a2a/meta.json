@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_spotlight_reveal_morph_crop_fb7e0a2a",
+  "skill_name": "Cinematic Spotlight Reveal (Morph & Crop)",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 677,
+    "type": "youtube",
+    "video_id": "nzH4KPz_cIs",
+    "video_title": "3 Cool Effects You Did NOT Think are Possible in PowerPoint | Morph",
+    "video_url": "https://www.youtube.com/watch?v=nzH4KPz_cIs",
+    "views": 6776990
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:27:48Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "financial_model_format_shell_29303db9",
+  "skill_name": "Financial Model Format Shell",
+  "source": {
+    "channel": "rareliquid",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=oDjhg57XH-A"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 19,
+          "description": "The initial view of a complex, well-formatted Amazon DCF model in Excel."
+        },
+        {
+          "seconds": 245,
+          "description": "Wall Street Prep website displaying a list of 100+ Excel shortcuts for Windows and Mac."
+        },
+        {
+          "seconds": 520,
+          "description": "A clean Excel spreadsheet with gridlines removed, showing only the title 'Amazon DCF'."
+        },
+        {
+          "seconds": 1010,
+          "description": "A section of the spreadsheet showing multiple cells formatted as percentages after applying special paste options."
+        },
+        {
+          "seconds": 2820,
+          "description": "The fully built out and dynamically linked Amazon DCF model in Excel, showing various calculated sections and color-coded values."
+        }
+      ],
+      "frames": [
+        "frame_00_the_initial_view_of_a_complex_.jpg",
+        "frame_01_wall_street_prep_website_displ.jpg",
+        "frame_02_a_clean_excel_spreadsheet_with.jpg",
+        "frame_03_a_section_of_the_spreadsheet_s.jpg"
+      ],
+      "recapped_at": 1777406869.2349942
+    },
+    "primary_path": "frame_00_the_initial_view_of_a_complex_.jpg"
+  }
+}

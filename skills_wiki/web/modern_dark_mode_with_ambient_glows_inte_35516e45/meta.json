@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_dark_mode_with_ambient_glows_inte_35516e45",
+  "skill_name": "Modern Dark Mode with Ambient Glows & Interactive Spotlight",
+  "source": {
+    "channel": "Payton Clark Smith",
+    "duration_sec": 910,
+    "type": "youtube",
+    "video_id": "aPif_jedIR8",
+    "video_title": "8 DARK MODE Websites to Copy NOW",
+    "video_url": "https://www.youtube.com/watch?v=aPif_jedIR8",
+    "views": 29852
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:25Z",
+  "wash_version": "1.0.0"
+}

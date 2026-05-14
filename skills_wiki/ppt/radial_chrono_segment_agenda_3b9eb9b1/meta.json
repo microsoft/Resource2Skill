@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for meeting kick-offs, workshop overviews, and project roadmaps. It excels when time management and structured sequencing are critical components of the presentation.",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "radial_chrono_segment_agenda_3b9eb9b1",
+  "skill_name": "Radial Chrono-Segment Agenda",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 151,
+    "type": "youtube",
+    "video_id": "tElzVFMxruA",
+    "video_title": "Best Agenda Template 14 | Animated PowerPoint Slide Design Tutorial for Busy Professionals",
+    "video_url": "https://www.youtube.com/watch?v=tElzVFMxruA",
+    "views": 699
+  },
+  "tags": [
+    "radial",
+    "agenda",
+    "timeline",
+    "infographic",
+    "time management",
+    "segmented"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:22:48Z",
+  "wash_version": "1.0.0"
+}

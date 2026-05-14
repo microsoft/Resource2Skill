@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "half_time_trap_groove_808_portamento_gli_a5340696",
+  "skill_name": "Half-Time Trap Groove & 808 Portamento Glide",
+  "source": {
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "duration_sec": 1927,
+    "type": "youtube",
+    "video_id": "Pb18wmgVy4Y",
+    "video_title": "HOW TO MAKE BEATS IN REAPER \ud83c\udfb9",
+    "video_url": "https://www.youtube.com/watch?v=Pb18wmgVy4Y",
+    "views": 48362
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:20Z",
+  "wash_version": "1.0.0"
+}

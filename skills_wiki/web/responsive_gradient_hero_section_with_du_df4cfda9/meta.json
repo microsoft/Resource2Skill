@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for landing pages, SaaS product homepages, and portfolio introductions. This component is designed for high-impact introductory sections where capturing user interest and driving an immediate click is paramount.",
+  "category_path": [
+    "web_layout",
+    "hero_sections"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_gradient_hero_section_with_du_df4cfda9",
+  "skill_name": "Responsive Gradient Hero Section with Dual CTAs",
+  "source": {
+    "channel": "Coding Tutorial Series",
+    "duration_sec": 414,
+    "type": "youtube",
+    "video_id": "vO39-DIDKcs",
+    "video_title": "How to Create a Responsive Hero Section with Call-to-Action (CTA) Using Tailwind CSS #tailwindcss",
+    "video_url": "https://www.youtube.com/watch?v=vO39-DIDKcs",
+    "views": 46
+  },
+  "tags": [
+    "hero",
+    "gradient",
+    "CTA",
+    "responsive",
+    "landing page",
+    "marketing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:06:46Z",
+  "wash_version": "1.0.0"
+}

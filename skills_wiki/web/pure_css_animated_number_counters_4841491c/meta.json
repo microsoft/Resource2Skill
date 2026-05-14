@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_animated_number_counters_4841491c",
+  "skill_name": "Pure CSS Animated Number Counters",
+  "source": {
+    "channel": "Theo Soti",
+    "duration_sec": 447,
+    "type": "youtube",
+    "video_id": "--O0dMBx0b0",
+    "video_title": "EASY Animated Counting Number CSS-Only Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=--O0dMBx0b0",
+    "views": 694
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:21Z",
+  "wash_version": "1.0.0"
+}

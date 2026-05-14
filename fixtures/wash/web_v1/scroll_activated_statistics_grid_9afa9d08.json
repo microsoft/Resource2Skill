@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_activated_statistics_grid_9afa9d08",
+  "source": {
+    "channel": "QCT",
+    "duration_sec": 429,
+    "type": "youtube",
+    "video_id": "Sv54eYCfDZc",
+    "video_title": "Scroll Activated Number Counter w Javascript | Quick Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Sv54eYCfDZc",
+    "views": 21662
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

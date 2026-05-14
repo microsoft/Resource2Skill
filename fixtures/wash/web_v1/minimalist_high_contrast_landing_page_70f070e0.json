@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_high_contrast_landing_page_70f070e0",
+  "source": {
+    "channel": "Code Here",
+    "duration_sec": 555,
+    "type": "youtube",
+    "video_id": "v9bn2zswx0k",
+    "video_title": "Simple Responsive HTML CSS Landing Page Dark Mode",
+    "video_url": "https://www.youtube.com/watch?v=v9bn2zswx0k",
+    "views": 136
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

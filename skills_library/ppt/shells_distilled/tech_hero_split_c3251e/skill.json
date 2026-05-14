@@ -1,0 +1,91 @@
+{
+  "skill_id": "tech_hero_split_c3251e",
+  "skill_type": "shell",
+  "name": "Tech Hero Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "hero-text+right-cta"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "technical",
+      "cool"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "logo",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "top_right_nav",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "cta",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/tech_hero_split_c3251e/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "editorial_product_hero_typography_rings_c4483ca5",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A bold, low-density hero layout with a massive left-aligned headline and right-aligned secondary content, suitable for covers or major section transitions.",
+  "_distill_attempts": 1
+}

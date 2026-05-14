@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for process maps, project timelines, and roadmap presentations. It dynamically guides the viewer's eye sequentially through complex information using customized motion.",
+  "category_path": [
+    "animation",
+    "motion_path"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_process_trajectory_custom_motio_5e3c717c",
+  "skill_name": "Animated Process Trajectory",
+  "source": {
+    "channel": "Envato Tuts+",
+    "duration_sec": 274,
+    "type": "youtube",
+    "video_id": "X8xl_oR7B1M",
+    "video_title": "What Is a Motion Path in PowerPoint?",
+    "video_url": "https://www.youtube.com/watch?v=X8xl_oR7B1M",
+    "views": 43864
+  },
+  "tags": [
+    "animation",
+    "motion_path",
+    "process_map",
+    "timeline",
+    "trajectory"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:59Z",
+  "wash_version": "1.0.0"
+}

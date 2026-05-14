@@ -1,0 +1,36 @@
+{
+  "applicability": "Provides a complete architectural scaffolding for EDM and House tracks to overcome blank canvas syndrome. It automatically structures intro, build, drop, and outro sections with foundational rhythms.",
+  "category_path": [
+    "arrangement",
+    "macro_structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "edm_house_arrangement_macro_structure_sk_c824dd74",
+  "skill_name": "EDM House Arrangement Skeleton",
+  "source": {
+    "channel": "Audio Ordeal",
+    "duration_sec": 585,
+    "type": "youtube",
+    "video_id": "gX88o6neQl8",
+    "video_title": "Track Arrangement Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=gX88o6neQl8",
+    "views": 828
+  },
+  "tags": [
+    "arrangement",
+    "edm",
+    "house",
+    "structure",
+    "skeleton",
+    "template"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:13:29Z",
+  "wash_version": "1.0.0"
+}

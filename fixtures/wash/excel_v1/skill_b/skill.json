@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill_b",
+  "skill_name": "Inventory Conditional Format Band",
+  "applicability": "Apply red/yellow/green stock-level conditional formatting to a single column.",
+  "tags": ["inventory", "conditional_format", "color_band"],
+  "source": {"type": "manual"},
+  "license": "permissive",
+  "tier": "T2",
+  "category_path": ["inventory"]
+}

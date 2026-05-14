@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for outdoor environmental scenes, moody architectural visualizations, and cinematic storytelling. It efficiently simulates chaotic fluid dynamics and realistic light distortion without requiring heavy fluid simulations.",
+  "category_path": [
+    "simulation",
+    "particle_system"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "particle_based_atmospheric_rain_25163767",
+  "skill_name": "Particle-Based Atmospheric Rain",
+  "source": {
+    "channel": "Rendered in Blender",
+    "duration_sec": 167,
+    "type": "youtube",
+    "video_id": "BOWFPtZBYbQ",
+    "video_title": "Making (Fast n' Easy) Rain with Particles | Blender 3.3 Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=BOWFPtZBYbQ",
+    "views": 3230
+  },
+  "tags": [
+    "particle_system",
+    "rain",
+    "weather",
+    "refraction",
+    "atmospheric",
+    "vfx"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:03Z",
+  "wash_version": "1.0.0"
+}

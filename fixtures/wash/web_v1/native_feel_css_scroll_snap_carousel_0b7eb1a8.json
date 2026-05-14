@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_feel_css_scroll_snap_carousel_0b7eb1a8",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 2379,
+    "type": "youtube",
+    "video_id": "g03Yldh9Nkw",
+    "video_title": "Learning how CSS-only carousels are going to work",
+    "video_url": "https://www.youtube.com/watch?v=g03Yldh9Nkw",
+    "views": 48346
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

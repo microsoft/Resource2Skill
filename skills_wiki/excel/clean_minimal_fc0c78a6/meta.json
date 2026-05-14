@@ -1,0 +1,29 @@
+{
+  "applicability": "Use this theme to apply a professional, minimalist aesthetic to executive summaries or design-oriented reports. It ensures high readability through stark black-on-white contrast and subtle dividers.",
+  "category_path": [
+    "formatting",
+    "themes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_minimal_fc0c78a6",
+  "skill_name": "clean_minimal",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "theme",
+    "minimalist",
+    "clean",
+    "executive",
+    "monochrome"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:03:11Z",
+  "wash_version": "1.0.0"
+}

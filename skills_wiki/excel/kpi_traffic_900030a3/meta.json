@@ -1,0 +1,30 @@
+{
+  "applicability": "Use this theme for operational, SLA, or health tracking dashboards where red-amber-green status indicators are critical. The neutral gray base ensures that the status colors stand out effectively.",
+  "category_path": [
+    "themes",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_traffic_900030a3",
+  "skill_name": "kpi_traffic",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "kpi",
+    "theme",
+    "dashboard",
+    "rag",
+    "status",
+    "operations"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:03:38Z",
+  "wash_version": "1.0.0"
+}

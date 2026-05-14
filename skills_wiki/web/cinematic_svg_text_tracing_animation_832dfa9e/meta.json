@@ -1,0 +1,35 @@
+{
+  "applicability": "Perfect for hero sections, landing page intros, and branding reveals where high visual impact is required. It draws the user's eye along the typography, building anticipation before the final message appears.",
+  "category_path": [
+    "animation",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_svg_text_tracing_animation_832dfa9e",
+  "skill_name": "Cinematic SVG Text Tracing Animation",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 345,
+    "type": "youtube",
+    "video_id": "lur8SDdUzPI",
+    "video_title": "Crazy Text Animation with CSS and SVG",
+    "video_url": "https://www.youtube.com/watch?v=lur8SDdUzPI",
+    "views": 172575
+  },
+  "tags": [
+    "svg-animation",
+    "text-effect",
+    "stroke-animation",
+    "cinematic-intro",
+    "hero-section"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:01Z",
+  "wash_version": "1.0.0"
+}

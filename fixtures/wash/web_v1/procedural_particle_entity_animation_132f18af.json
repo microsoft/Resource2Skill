@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_particle_entity_animation_132f18af",
+  "source": {
+    "channel": "Coding theory ",
+    "duration_sec": 305,
+    "type": "youtube",
+    "video_id": "17BqFdqYkmA",
+    "video_title": "Flying Bird Animation Using 35,000 Circles in HTML, CSS & JavaScript | Creative Canvas Art Project",
+    "video_url": "https://www.youtube.com/watch?v=17BqFdqYkmA",
+    "views": 5
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

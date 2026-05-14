@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_split_screen_hero_with_typewr_3515b95a",
+  "source": {
+    "channel": "PinoyFreeCoder",
+    "duration_sec": 1921,
+    "type": "youtube",
+    "video_id": "oQsIsOGs-Q8",
+    "video_title": "Creating a One Page Portfolio Landing Page using HTML,CSS and JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=oQsIsOGs-Q8",
+    "views": 2905
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

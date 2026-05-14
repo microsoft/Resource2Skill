@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "real_time_image_filter_dashboard_cba413a7",
+  "source": {
+    "channel": "Coding Shiksha",
+    "duration_sec": 325,
+    "type": "youtube",
+    "video_id": "im2rh_uiXAw",
+    "video_title": "Javascript Canvas API Example to Build WebGL Advanced Image Editor With 2D & 3D Filters in Browser",
+    "video_url": "https://www.youtube.com/watch?v=im2rh_uiXAw",
+    "views": 526
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

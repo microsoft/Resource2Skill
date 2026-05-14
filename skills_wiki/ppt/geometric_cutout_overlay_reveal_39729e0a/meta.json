@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_cutout_overlay_reveal_39729e0a",
+  "skill_name": "Geometric Cutout Overlay Reveal",
+  "source": {
+    "channel": "Powerpoint Graphic",
+    "duration_sec": 208,
+    "type": "youtube",
+    "video_id": "WtNndWSkDdI",
+    "video_title": "Easy PowerPoint title slide design 2021 | Nature title slide design in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=WtNndWSkDdI",
+    "views": 275092
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:29:29Z",
+  "wash_version": "1.0.0"
+}

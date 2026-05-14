@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sidebar_kpi_panel_c5bab5f8",
+  "skill_name": "Sidebar KPI Panel",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:55:09Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 106,
+          "description": "Initial reveal of the completed interactive dashboard showcasing various charts and KPIs."
+        },
+        {
+          "seconds": 1016,
+          "description": "The left side panel of the dashboard is populated with dynamic KPI values, including orders, quantity, and revenue, along with descriptive icons."
+        },
+        {
+          "seconds": 1220,
+          "description": "The trend line chart and a heat map for purchase patterns are added and formatted into the main dashboard area."
+        },
+        {
+          "seconds": 2504,
+          "description": "All charts, including geographical maps, quantity distribution, popular products, shipping duration, and customer satisfaction, are integrated, and interactive slicers are connected."
+        },
+        {
+          "seconds": 2752,
+          "description": "The fully polished and interactive dashboard is displayed with clear titles, consistent formatting, and a unified corporate color scheme."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_reveal_of_the_complete.jpg",
+        "frame_01_the_left_side_panel_of_the_das.jpg",
+        "frame_02_the_trend_line_chart_and_a_hea.jpg"
+      ],
+      "recapped_at": 1777407486.0315287
+    },
+    "primary_path": "frame_00_initial_reveal_of_the_complete.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_tone_layered_callout_offset_27de6e2e",
+  "skill_name": "Dual-Tone Layered Callout Offset",
+  "source": {
+    "channel": "NextOriginDesign",
+    "duration_sec": 88,
+    "type": "youtube",
+    "video_id": "DJSJfGoxhII",
+    "video_title": "How to Design a Quotation Slide with Quote Marks in PowerPoint (Step-by-Step)",
+    "video_url": "https://www.youtube.com/watch?v=DJSJfGoxhII",
+    "views": 22
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:16:33Z",
+  "wash_version": "1.0.0"
+}

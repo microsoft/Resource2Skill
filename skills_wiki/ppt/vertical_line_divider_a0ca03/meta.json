@@ -1,0 +1,33 @@
+{
+  "applicability": "This T4 shell is ideal for creating minimalist section dividers, presenting a prominent headline and optional subtitle alongside a central vertical line.",
+  "category_path": [
+    "dividers",
+    "sections"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_line_divider_a0ca03",
+  "skill_name": "Vertical Line Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section divider",
+    "vertical line",
+    "minimalist design",
+    "text layout",
+    "corporate slide"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:39Z",
+  "wash_version": "1.0.0"
+}

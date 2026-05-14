@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_rock_metal_kick_bass_rhythm_lock_bdd072d5",
+  "skill_name": "Modern Rock/Metal Kick-Bass Rhythm Lock",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "duration_sec": 2007,
+    "type": "youtube",
+    "video_id": "nAHJ-VJgDn0",
+    "video_title": "How I write music in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=nAHJ-VJgDn0",
+    "views": 47482
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:00Z",
+  "wash_version": "1.0.0"
+}

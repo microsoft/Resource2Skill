@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "architectural_interior_shell_cove_lighti_d697bdb1",
+  "skill_name": "Architectural Interior Shell & Cove Lighting Setup",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 143,
+    "type": "youtube",
+    "video_id": "5P54CcAC1LY",
+    "video_title": "How to Make Interiors in Blender",
+    "video_url": "https://www.youtube.com/watch?v=5P54CcAC1LY",
+    "views": 8434
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:55Z",
+  "wash_version": "1.0.0"
+}

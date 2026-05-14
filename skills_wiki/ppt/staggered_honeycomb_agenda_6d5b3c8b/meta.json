@@ -1,0 +1,36 @@
+{
+  "applicability": "This layout is ideal for agendas, multi-step processes, or summarizing 3-6 distinct items. Its geometric, color-coded structure enhances engagement and visual flow.",
+  "category_path": [
+    "agenda",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "staggered_honeycomb_agenda_6d5b3c8b",
+  "skill_name": "Staggered Honeycomb Agenda",
+  "source": {
+    "channel": "Kamal Kishor",
+    "duration_sec": 194,
+    "type": "youtube",
+    "video_id": "4hcSofjenH4",
+    "video_title": "Create Agenda template for your powerpoint presentation",
+    "video_url": "https://www.youtube.com/watch?v=4hcSofjenH4",
+    "views": 546
+  },
+  "tags": [
+    "agenda",
+    "honeycomb",
+    "hexagon",
+    "staggered",
+    "process",
+    "infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:23:29Z",
+  "wash_version": "1.0.0"
+}

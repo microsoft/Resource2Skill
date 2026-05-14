@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for marking new sections or as a presentation cover, providing a clear break with a prominent, bold headline and decorative elements.",
+  "category_path": [
+    "slide_layouts",
+    "dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bold_section_divider_d95859",
+  "skill_name": "Bold Section Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section divider",
+    "bold",
+    "minimal",
+    "decorative",
+    "headline",
+    "cover"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:00:33Z",
+  "wash_version": "1.0.0"
+}

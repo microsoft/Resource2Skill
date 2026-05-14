@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "donut_kpi_progress_card_3976e712",
+  "skill_name": "Donut KPI Progress Card",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:17:37Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "Final interactive Excel dashboard preview"
+        },
+        {
+          "seconds": 355,
+          "description": "Dashboard structure with titled sections"
+        },
+        {
+          "seconds": 839,
+          "description": "All charts and visuals created on input sheet"
+        },
+        {
+          "seconds": 1454,
+          "description": "Completed interactive Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_final_interactive_excel_dashbo.jpg",
+        "frame_01_dashboard_structure_with_title.jpg",
+        "frame_02_all_charts_and_visuals_created.jpg"
+      ],
+      "recapped_at": 1777406499.4105635
+    },
+    "primary_path": "frame_00_final_interactive_excel_dashbo.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_pulse_button_85d88ba3",
+  "source": {
+    "channel": "LottieFiles",
+    "duration_sec": 212,
+    "type": "youtube",
+    "video_id": "6cDeo4fJT3E",
+    "video_title": "Animation in Figma tutorial: Create interactive animated buttons",
+    "video_url": "https://www.youtube.com/watch?v=6cDeo4fJT3E",
+    "views": 2177
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for company history, milestone reviews, or process flows, this skill transforms standard chronological data into an engaging, cinematic narrative experience.",
+  "category_path": [
+    "visual_storytelling",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_film_strip_timeline_0282a84c",
+  "skill_name": "Continuous Film Strip Timeline",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "hh5-3E3kDZw",
+    "video_title": "Creative PowerPoint Timeline with Photos: Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=hh5-3E3kDZw",
+    "views": 66052
+  },
+  "tags": [
+    "timeline",
+    "film strip",
+    "history",
+    "progression",
+    "narrative",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:03:37Z",
+  "wash_version": "1.0.0"
+}

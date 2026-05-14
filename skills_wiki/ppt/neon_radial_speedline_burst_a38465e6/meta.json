@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a high-impact, futuristic aesthetic for title slides, product launches, or tech presentations. The radial lines draw focus to a central message, conveying speed and excitement.",
+  "category_path": [
+    "background",
+    "abstract"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_radial_speedline_burst_a38465e6",
+  "skill_name": "Neon Radial Speedline Burst",
+  "source": {
+    "channel": "DesignWithArash",
+    "duration_sec": 177,
+    "type": "youtube",
+    "video_id": "4szMtZNKELU",
+    "video_title": "Best Mockup Tools for UI/UX Designers (2024)",
+    "video_url": "https://www.youtube.com/watch?v=4szMtZNKELU",
+    "views": 220069
+  },
+  "tags": [
+    "neon",
+    "radial",
+    "futuristic",
+    "dark mode",
+    "title slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:57Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_flip_card_d468bbb6",
+  "source": {
+    "channel": "\u0412\u0438\u0442\u0430\u043b\u0438\u0439 \u041c\u0435\u043d\u0447\u0443\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+    "duration_sec": 270,
+    "type": "youtube",
+    "video_id": "E8-3HodfPT4",
+    "video_title": "3D Flip Card Effect On Hover Using Only HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=E8-3HodfPT4",
+    "views": 881
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

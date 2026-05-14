@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this component to present a balanced, two-sided comparison, such as pros vs. cons or for vs. against arguments. It visually organizes opposing points around a central topic in an engaging infographic style.",
+  "category_path": [
+    "diagram",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_ring_comparison_c1d55abd",
+  "skill_name": "Segmented Ring Comparison",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 524,
+    "type": "youtube",
+    "video_id": "LKYJHQ_odT4",
+    "video_title": "How to make Creative Comparison Slides in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=LKYJHQ_odT4",
+    "views": 85793
+  },
+  "tags": [
+    "comparison",
+    "pros and cons",
+    "infographic",
+    "diagram",
+    "circular"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:04Z",
+  "wash_version": "1.0.0"
+}

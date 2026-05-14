@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sidechain_pumping_pad_4_on_the_floor_duc_c7ce28d5",
+  "skill_name": "Sidechain Pumping Pad (4-on-the-Floor Ducking)",
+  "source": {
+    "channel": "Reaper Tutorials",
+    "duration_sec": 79,
+    "type": "youtube",
+    "video_id": "a1sh2o78XyY",
+    "video_title": "Quick Tutorial - Sidechaining in Reaper",
+    "video_url": "https://www.youtube.com/watch?v=a1sh2o78XyY",
+    "views": 66802
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:34Z",
+  "wash_version": "1.0.0"
+}

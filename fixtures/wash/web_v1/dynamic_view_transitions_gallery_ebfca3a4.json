@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_view_transitions_gallery_ebfca3a4",
+  "source": {
+    "channel": "camelCase",
+    "duration_sec": 847,
+    "type": "youtube",
+    "video_id": "nZtg-xzhy0g",
+    "video_title": "CSS View Transitions Will Change Web Design Forever",
+    "video_url": "https://www.youtube.com/watch?v=nZtg-xzhy0g",
+    "views": 69528
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

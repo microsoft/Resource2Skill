@@ -1,0 +1,1725 @@
+{
+  "updated_at": "2026-04-22T09:14:53.108833",
+  "total": 191,
+  "skills": [
+    {
+      "skill_id": "advanced_hdri_environment_setup_split_li_695fd065",
+      "skill_name": "Advanced HDRI Environment Setup (Split Lighting & Background)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=JUhq6cHTuOE",
+      "source_title": "All About HDRI Background & Realistic Lighting | HDRI Environment In Blender (All Versions)",
+      "channel": "5 Minutes Blender",
+      "detail_path": "material_shader/advanced_hdri_environment_setup_split_li_695fd065/skill.json"
+    },
+    {
+      "skill_id": "advanced_hdri_environment_lighting_compo_ef3c2bab",
+      "skill_name": "Advanced HDRI Environment Lighting & Compositing",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=QNr7lwhW0h4",
+      "source_title": "How to Light your Scenes with HDRIs in Blender",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/advanced_hdri_environment_lighting_compo_ef3c2bab/skill.json"
+    },
+    {
+      "skill_id": "advanced_hdri_lighting_background_mask_r_0a038ad9",
+      "skill_name": "Advanced HDRI Lighting & Background Mask Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=N3DZL56cG84",
+      "source_title": "The ULTIMATE GUIDE to HDRI Lighting in Blender!",
+      "channel": "The CG Essentials",
+      "detail_path": "material_shader/advanced_hdri_lighting_background_mask_r_0a038ad9/skill.json"
+    },
+    {
+      "skill_id": "procedural_volumetric_water_25e9691d",
+      "skill_name": "Procedural Volumetric Water",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=HQNOHjfDwOw",
+      "source_title": "Probably* The BEST Water Material in Blender",
+      "channel": "Poly Playground",
+      "detail_path": "material_shader/procedural_volumetric_water_25e9691d/skill.json"
+    },
+    {
+      "skill_id": "procedural_animated_water_with_fake_caus_1ac2f5c9",
+      "skill_name": "Procedural Animated Water with Fake Caustics",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=WckheAMvaZo",
+      "source_title": "Blender Water Material - Full Tutorial",
+      "channel": "ChuckCG",
+      "detail_path": "material_shader/procedural_animated_water_with_fake_caus_1ac2f5c9/skill.json"
+    },
+    {
+      "skill_id": "procedural_raycast_water_shader_cycles_f53d4967",
+      "skill_name": "Procedural Raycast Water Shader (Cycles)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-YaUfyew6aE",
+      "source_title": "Blender 5.1 Shaders are INSANE (Water Shader Tutorial)",
+      "channel": "3Dan",
+      "detail_path": "material_shader/procedural_raycast_water_shader_cycles_f53d4967/skill.json"
+    },
+    {
+      "skill_id": "high_resolution_sculpting_base_setup_cla_0287aa0e",
+      "skill_name": "High-Resolution Sculpting Base Setup (Clay Sphere)",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=_Lc0hSoJTDc",
+      "source_title": "Learn the BASICS of Sculpting in Blender 4.5 | Beginner Tutorial",
+      "channel": "Blender With Dani",
+      "detail_path": "organic/high_resolution_sculpting_base_setup_cla_0287aa0e/skill.json"
+    },
+    {
+      "skill_id": "procedural_voxel_remeshed_sculpt_base_441988d0",
+      "skill_name": "Procedural Voxel-Remeshed Sculpt Base",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=5-mNgCpEkCI",
+      "source_title": "Master Blender Sculpting: Every Brush Explained",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "organic/procedural_voxel_remeshed_sculpt_base_441988d0/skill.json"
+    },
+    {
+      "skill_id": "stylized_character_blockout_voxel_remesh_e1d905d5",
+      "skill_name": "Stylized Character Blockout & Voxel Remesh Prep",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=Lxem4yMs5Dg",
+      "source_title": "Sculpting for Complete Beginners! (Blender Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "organic/stylized_character_blockout_voxel_remesh_e1d905d5/skill.json"
+    },
+    {
+      "skill_id": "non_destructive_sci_fi_hard_surface_pane_a949c6e8",
+      "skill_name": "Non-Destructive Sci-Fi Hard Surface Paneling",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=6jSK7TQ2s5w",
+      "source_title": "Blender SciFi Hard Surface Modeling Tutorial - Part 1",
+      "channel": "Josh - Blender Bros",
+      "detail_path": "material_shader/non_destructive_sci_fi_hard_surface_pane_a949c6e8/skill.json"
+    },
+    {
+      "skill_id": "non_destructive_radial_hard_surface_mode_624a68be",
+      "skill_name": "Non-Destructive Radial Hard-Surface Modeling (Sci-Fi Cannon)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=wsxoAlpFrS0",
+      "source_title": "Hard Surface Modeling in Blender - SciFi Cannon Tutorial",
+      "channel": "Ryuu - Blender Bros",
+      "detail_path": "material_shader/non_destructive_radial_hard_surface_mode_624a68be/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_panel_cuts_via_m_a4c06a47",
+      "skill_name": "Procedural Hard-Surface Panel Cuts via Modifiers",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=YD9u-5h9_3Q",
+      "source_title": "Blender Secrets -  Easy Non-Destructive Panel Cuts",
+      "channel": "Blender Secrets",
+      "detail_path": "material_shader/procedural_hard_surface_panel_cuts_via_m_a4c06a47/skill.json"
+    },
+    {
+      "skill_id": "procedural_falling_snow_particle_system_d492ab3a",
+      "skill_name": "Procedural Falling Snow Particle System",
+      "category": "particle_physics",
+      "source_video": "https://www.youtube.com/watch?v=Wv23dh6d3oE",
+      "source_title": "Making (Fast n' Easy) Snow with Particles | Blender 3.0 Tutorial",
+      "channel": "Rendered in Blender",
+      "detail_path": "particle_physics/procedural_falling_snow_particle_system_d492ab3a/skill.json"
+    },
+    {
+      "skill_id": "procedural_stylized_fur_hair_object_ea887cff",
+      "skill_name": "Procedural Stylized Fur/Hair Object",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=Lj2EBG2_ooQ",
+      "source_title": "Particle Systems for Beginners (Blender Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/procedural_stylized_fur_hair_object_ea887cff/skill.json"
+    },
+    {
+      "skill_id": "procedural_object_scattering_via_hair_pa_8fc2cc26",
+      "skill_name": "Procedural Object Scattering via Hair Particles",
+      "category": "environment",
+      "source_video": "https://www.youtube.com/watch?v=z7bTpEPyb1E",
+      "source_title": "Blender Particle System Basics: Emission & Hair settings",
+      "channel": "Twan_Olig",
+      "detail_path": "environment/procedural_object_scattering_via_hair_pa_8fc2cc26/skill.json"
+    },
+    {
+      "skill_id": "viewport_compositor_glow_bloom_effect_f4f6b3e7",
+      "skill_name": "Viewport Compositor Glow (Bloom Effect)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=JrUusZqK64M",
+      "source_title": "How To Make A Glow Effect In Blender 4.5!",
+      "channel": "LabBlender",
+      "detail_path": "material_shader/viewport_compositor_glow_bloom_effect_f4f6b3e7/skill.json"
+    },
+    {
+      "skill_id": "viewport_compositor_bloom_glowing_emissi_2ee3cfb3",
+      "skill_name": "Viewport Compositor Bloom & Glowing Emission Material",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=OHA5rcw2qnI",
+      "source_title": "How to make Glow Effect with Blender Glow Material",
+      "channel": "blenderian",
+      "detail_path": "material_shader/viewport_compositor_bloom_glowing_emissi_2ee3cfb3/skill.json"
+    },
+    {
+      "skill_id": "procedural_glowing_edge_neon_material_d37ad67c",
+      "skill_name": "Procedural Glowing Edge (Neon) Material",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=m55WW6lyScM",
+      "source_title": "Glowing Edge Shader in Blender (Easy Node Setup!) | Blender Tutorial",
+      "channel": "Blender Express",
+      "detail_path": "material_shader/procedural_glowing_edge_neon_material_d37ad67c/skill.json"
+    },
+    {
+      "skill_id": "procedural_neon_sign_with_atmospheric_wa_97e21232",
+      "skill_name": "Procedural Neon Sign with Atmospheric Wall",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=6wuOsRkYhYU",
+      "source_title": "how to make a neon text in blender in 1 minute",
+      "channel": "blender basics",
+      "detail_path": "material_shader/procedural_neon_sign_with_atmospheric_wa_97e21232/skill.json"
+    },
+    {
+      "skill_id": "volumetric_ancient_ruins_water_54156dfa",
+      "skill_name": "Volumetric Ancient Ruins Water",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=0SJ-__0gK_k",
+      "source_title": "How To Create Realistic Water in Blender",
+      "channel": "ChuckCG",
+      "detail_path": "material_shader/volumetric_ancient_ruins_water_54156dfa/skill.json"
+    },
+    {
+      "skill_id": "basic_procedural_wood_material_6e5ae1c3",
+      "skill_name": "Basic Procedural Wood Material",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=nQaUsgf9ZUg",
+      "source_title": "Beginners Guide To Texturing In Blender | How To Procedural Texture ANYTHING!",
+      "channel": "NoPoly",
+      "detail_path": "material_shader/basic_procedural_wood_material_6e5ae1c3/skill.json"
+    },
+    {
+      "skill_id": "procedural_worn_metal_material_be6dd3c9",
+      "skill_name": "Procedural Worn Metal Material",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=J5t7gzIfTt0",
+      "source_title": "Introduction to Procedural Shader Nodes for Complete Beginners (Blender Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/procedural_worn_metal_material_be6dd3c9/skill.json"
+    },
+    {
+      "skill_id": "procedural_environment_scatter_with_rayc_57cb0cdd",
+      "skill_name": "Procedural Environment Scatter with Raycast Masking",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=K8LVFNVLlYc",
+      "source_title": "How to make next-level procedural materials in Blender",
+      "channel": "Robin Squares",
+      "detail_path": "material_shader/procedural_environment_scatter_with_rayc_57cb0cdd/skill.json"
+    },
+    {
+      "skill_id": "procedural_vector_warped_displacement_aca1039a",
+      "skill_name": "Procedural Vector Warped Displacement",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=O_spJmmST5I",
+      "source_title": "Tutorial: Procedural Textures in Blender",
+      "channel": "Polyfjord",
+      "detail_path": "material_shader/procedural_vector_warped_displacement_aca1039a/skill.json"
+    },
+    {
+      "skill_id": "procedural_stylized_head_base_a5ab7147",
+      "skill_name": "Procedural Stylized Head Base",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=9N87-yRR5aE",
+      "source_title": "Sculpting in Blender: A Complete Beginner's Guide",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "material_shader/procedural_stylized_head_base_a5ab7147/skill.json"
+    },
+    {
+      "skill_id": "procedural_swirling_energy_orb_84b8c091",
+      "skill_name": "Procedural Swirling Energy Orb",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=CrOboutVHH8",
+      "source_title": "Blender Beginner Particles Tutorial",
+      "channel": "Bad Normals",
+      "detail_path": "material_shader/procedural_swirling_energy_orb_84b8c091/skill.json"
+    },
+    {
+      "skill_id": "custom_clear_glass_material_ba54075a",
+      "skill_name": "Custom Clear Glass Material",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=MzIreMJRhqk",
+      "source_title": "Best Glass Material in Blender Tutorial",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/custom_clear_glass_material_ba54075a/skill.json"
+    },
+    {
+      "skill_id": "procedural_material_toolkit_wood_plastic_8e4cbfbc",
+      "skill_name": "Procedural Material Toolkit (Wood, Plastic, Snow)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=5DM2K0svM-I",
+      "source_title": "Master Procedural Materials In Blender",
+      "channel": "Extra 3d",
+      "detail_path": "material_shader/procedural_material_toolkit_wood_plastic_8e4cbfbc/skill.json"
+    },
+    {
+      "skill_id": "stylized_real_time_eevee_glass_7a0fa0f1",
+      "skill_name": "Stylized Real-Time EEVEE Glass",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=0G9-Txjns1k",
+      "source_title": "Best Glass Material in Blender Tutorial",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/stylized_real_time_eevee_glass_7a0fa0f1/skill.json"
+    },
+    {
+      "skill_id": "procedural_beveled_glass_pane_clear_fros_c70395a3",
+      "skill_name": "Procedural Beveled Glass Pane (Clear, Frosted, Colored)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=8QhVv3Olvsw",
+      "source_title": "How to make Transparent Glass Material in Blender using Principled BSDF Shader Node",
+      "channel": "blenderian",
+      "detail_path": "material_shader/procedural_beveled_glass_pane_clear_fros_c70395a3/skill.json"
+    },
+    {
+      "skill_id": "eevee_realistic_alpha_hashed_glass_4d44c2a4",
+      "skill_name": "EEVEE Realistic Alpha-Hashed Glass",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=JYyUMMboZFk",
+      "source_title": "Realistic Glass Shader in Blender Eevee - Tutorial (Updated Video Link in Description)",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/eevee_realistic_alpha_hashed_glass_4d44c2a4/skill.json"
+    },
+    {
+      "skill_id": "procedural_keyframe_animation_transforms_079b322c",
+      "skill_name": "Procedural Keyframe Animation (Transforms, Materials, & Lighting)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=8gi9lUYMRcI",
+      "source_title": "Tutorial: Blender Keyframes For Beginners",
+      "channel": "PIXXO 3D",
+      "detail_path": "animation/procedural_keyframe_animation_transforms_079b322c/skill.json"
+    },
+    {
+      "skill_id": "procedural_animated_bouncing_prop_keyfra_7a62282a",
+      "skill_name": "Procedural Animated Bouncing Prop (Keyframe & Handle Manipulation)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=iMwjYuyefRs",
+      "source_title": "Blender 3D - Keyframe Animation for Beginners",
+      "channel": "SouthernShotty",
+      "detail_path": "animation/procedural_animated_bouncing_prop_keyfra_7a62282a/skill.json"
+    },
+    {
+      "skill_id": "procedural_keyframe_transform_animation_ab7406df",
+      "skill_name": "Procedural Keyframe Transform Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=xACMr9nFELU",
+      "source_title": "The Basics of Animation & Keyframes in Blender (Complete Beginner Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "animation/procedural_keyframe_transform_animation_ab7406df/skill.json"
+    },
+    {
+      "skill_id": "cycles_true_pbr_displacement_setup_81f9d043",
+      "skill_name": "Cycles True PBR Displacement Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=144TWlEYFtM",
+      "source_title": "[4.0] Blender Tutorial: PBR Texturing in 2 Minutes for Beginners for Free",
+      "channel": "Olav3D Tutorials",
+      "detail_path": "material_shader/cycles_true_pbr_displacement_setup_81f9d043/skill.json"
+    },
+    {
+      "skill_id": "basic_looping_transform_animation_bf599794",
+      "skill_name": "Basic Looping Transform Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=5WOrfMz2Sqs",
+      "source_title": "Beginners Guide to Animation in blender 4 : Part 1 - Keyframes",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "animation/basic_looping_transform_animation_bf599794/skill.json"
+    },
+    {
+      "skill_id": "seamless_box_projection_texturing_proced_c1491ea9",
+      "skill_name": "Seamless Box Projection Texturing (Procedural Mapping without UVs)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=AMnMbxEwa7Q",
+      "source_title": "The Easiest Way to Texture in Blender (Adaptive, No UV Unwrapping)",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "material_shader/seamless_box_projection_texturing_proced_c1491ea9/skill.json"
+    },
+    {
+      "skill_id": "pbr_material_pipeline_with_true_adaptive_54a6026e",
+      "skill_name": "PBR Material Pipeline with True Adaptive Displacement",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=jBT6MD7IzHU",
+      "source_title": "Blender PBR Material Shading (Material Series Part 2)",
+      "channel": "Brandon 3D",
+      "detail_path": "material_shader/pbr_material_pipeline_with_true_adaptive_54a6026e/skill.json"
+    },
+    {
+      "skill_id": "procedural_volumetric_fog_god_rays_5cb925b4",
+      "skill_name": "Procedural Volumetric Fog & God Rays",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=2SiCtnXVVFw",
+      "source_title": "The Best Volumetric Fog Shader (Blender Tutorial)",
+      "channel": "Lane Wallace",
+      "detail_path": "material_shader/procedural_volumetric_fog_god_rays_5cb925b4/skill.json"
+    },
+    {
+      "skill_id": "procedural_pbr_material_pipeline_roughne_83a71dbb",
+      "skill_name": "Procedural PBR Material Pipeline (Roughness & Bump Mapping)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=AJ03XkWjJJ8",
+      "source_title": "Complete Beginner's Guide to PBR Materials - Blender for Architecture",
+      "channel": "My 3D POV",
+      "detail_path": "material_shader/procedural_pbr_material_pipeline_roughne_83a71dbb/skill.json"
+    },
+    {
+      "skill_id": "procedural_volumetric_god_rays_83bc1b2c",
+      "skill_name": "Procedural Volumetric God Rays",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=KacTST5t7T0",
+      "source_title": "Godrays, Volumetrics and World setting in 1 minute in Blender",
+      "channel": "Markom3D",
+      "detail_path": "material_shader/procedural_volumetric_god_rays_83bc1b2c/skill.json"
+    },
+    {
+      "skill_id": "volumetric_god_rays_atmospheric_domain_df468e69",
+      "skill_name": "Volumetric God Rays & Atmospheric Domain",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=BWmwmF0QOzA",
+      "source_title": "How to Add Volumetric Lighting in Blender (God Rays) (Fog)",
+      "channel": "Bak3 Designs",
+      "detail_path": "material_shader/volumetric_god_rays_atmospheric_domain_df468e69/skill.json"
+    },
+    {
+      "skill_id": "compositor_based_fake_volumetrics_god_ra_1c2c75eb",
+      "skill_name": "Compositor-Based Fake Volumetrics & God Rays",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=TH2ZoEvhsTs",
+      "source_title": "Mimic Volumetric Fog Using Only Compositing (Blender Tutorial)",
+      "channel": "Lane Wallace",
+      "detail_path": "material_shader/compositor_based_fake_volumetrics_god_ra_1c2c75eb/skill.json"
+    },
+    {
+      "skill_id": "procedural_mograph_twisting_array_c79c2c0d",
+      "skill_name": "Procedural MoGraph Twisting Array",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=c5BJ2-CkdYI",
+      "source_title": "New FREE \"Addon\" for Blender Makes Motion Graphics EASY!",
+      "channel": "SouthernShotty",
+      "detail_path": "material_shader/procedural_mograph_twisting_array_c79c2c0d/skill.json"
+    },
+    {
+      "skill_id": "procedural_sci_fi_surface_panel_98b1d60c",
+      "skill_name": "Procedural Sci-Fi Surface Panel",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=k2vTtHj0MME",
+      "source_title": "Easy hard surface sci-fi panels in Blender",
+      "channel": "Aaron Van de Weijenberg",
+      "detail_path": "material_shader/procedural_sci_fi_surface_panel_98b1d60c/skill.json"
+    },
+    {
+      "skill_id": "procedural_glowing_particle_trail_modern_e7f22988",
+      "skill_name": "Procedural Glowing Particle Trail (Modern Halo Replacement)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=zhW79zJMBRc",
+      "source_title": "Motion Graphics in Blender: Abstract Light Trails",
+      "channel": "Relja Trajković",
+      "detail_path": "material_shader/procedural_glowing_particle_trail_modern_e7f22988/skill.json"
+    },
+    {
+      "skill_id": "abstract_procedural_displacement_loops_c35c2acb",
+      "skill_name": "Abstract Procedural Displacement Loops",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=agNT-6IxN2I",
+      "source_title": "Abstract 3D Motion Design Loop (Blender Motion Graphics Tutorial)",
+      "channel": "Ducky 3D",
+      "detail_path": "material_shader/abstract_procedural_displacement_loops_c35c2acb/skill.json"
+    },
+    {
+      "skill_id": "procedural_abstract_metallic_knot_a0c7cbe0",
+      "skill_name": "Procedural Abstract Metallic Knot",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=LtNEbXBVzqY",
+      "source_title": "This is how i make 3d abstract in blender | Blender tutorial beginner | blender 3.0",
+      "channel": "Jorza",
+      "detail_path": "material_shader/procedural_abstract_metallic_knot_a0c7cbe0/skill.json"
+    },
+    {
+      "skill_id": "stylized_low_poly_pine_tree_ccb9998f",
+      "skill_name": "Stylized Low-Poly Pine Tree",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=peSv5IT5Ve4",
+      "source_title": "ABSOLUTE Beginner Basics.. Blender For Noobs 2025",
+      "channel": "RoBuilder",
+      "detail_path": "material_shader/stylized_low_poly_pine_tree_ccb9998f/skill.json"
+    },
+    {
+      "skill_id": "stylized_low_poly_pine_tree_a1f59a97",
+      "skill_name": "Stylized Low-Poly Pine Tree",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=QTnBCUqyUX0",
+      "source_title": "Blender Is Easier Then You Think - Here's What You Need to Know!",
+      "channel": "RoBuilder",
+      "detail_path": "material_shader/stylized_low_poly_pine_tree_a1f59a97/skill.json"
+    },
+    {
+      "skill_id": "dual_hdri_studio_lighting_with_procedura_e00e832e",
+      "skill_name": "Dual HDRI Studio Lighting with Procedural Tint",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-rK2twqsIT4",
+      "source_title": "Blender HDRI lighting tutorial (with secrets)",
+      "channel": "Bacosil",
+      "detail_path": "material_shader/dual_hdri_studio_lighting_with_procedura_e00e832e/skill.json"
+    },
+    {
+      "skill_id": "stylized_low_poly_box_modeling_vehicle_e096e769",
+      "skill_name": "Stylized Low-Poly Box Modeling (Vehicle)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=nESaz92SJ0w",
+      "source_title": "The World's Easiest Blender Tutorial for Beginners",
+      "channel": "Brad's Art School",
+      "detail_path": "material_shader/stylized_low_poly_box_modeling_vehicle_e096e769/skill.json"
+    },
+    {
+      "skill_id": "procedural_fluid_gradient_capsules_215fb6d8",
+      "skill_name": "Procedural Fluid Gradient Capsules",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=oAKrQboXo78",
+      "source_title": "How to make this style in Blender",
+      "channel": "Bad Normals",
+      "detail_path": "material_shader/procedural_fluid_gradient_capsules_215fb6d8/skill.json"
+    },
+    {
+      "skill_id": "procedural_proximity_effector_system_3cf62fee",
+      "skill_name": "Procedural Proximity Effector System",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=XytiZObyYAA",
+      "source_title": "You Should be Using Proximity in Your Animations (Blender)",
+      "channel": "Ducky 3D",
+      "detail_path": "material_shader/procedural_proximity_effector_system_3cf62fee/skill.json"
+    },
+    {
+      "skill_id": "procedural_surface_scattering_sugar_coat_9eeb6c45",
+      "skill_name": "Procedural Surface Scattering (Sugar Coating)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=aO0eUnu0hO0",
+      "source_title": "Blender Tutorial: Geometry Nodes for Beginners - Part 1",
+      "channel": "Blender Guru",
+      "detail_path": "material_shader/procedural_surface_scattering_sugar_coat_9eeb6c45/skill.json"
+    },
+    {
+      "skill_id": "procedural_spatial_driven_instancing_dis_5b1cf835",
+      "skill_name": "Procedural Spatial-Driven Instancing (Distance-Based Scale)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=ETOXG3qdMKg",
+      "source_title": "How to Understand Geometry Nodes | Blender for Beginners",
+      "channel": "Yesway™",
+      "detail_path": "material_shader/procedural_spatial_driven_instancing_dis_5b1cf835/skill.json"
+    },
+    {
+      "skill_id": "basic_procedural_geometry_node_setup_0949bc31",
+      "skill_name": "Basic Procedural Geometry Node Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=tWvgHbZXCtA",
+      "source_title": "Geometry Nodes for Complete Beginners - Part 1 (Blender Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/basic_procedural_geometry_node_setup_0949bc31/skill.json"
+    },
+    {
+      "skill_id": "modular_symmetric_character_block_out_eeb7999b",
+      "skill_name": "Modular Symmetric Character Block-Out",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=YgnjiaLhgwI",
+      "source_title": "Character Modelling in Blender for Beginners - Setting up and Blocking out",
+      "channel": "Poole",
+      "detail_path": "organic/modular_symmetric_character_block_out_eeb7999b/skill.json"
+    },
+    {
+      "skill_id": "procedural_stylized_character_base_mesh_fbd3bed0",
+      "skill_name": "Procedural Stylized Character Base Mesh",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=H4A0WDC9T7k",
+      "source_title": "How to Make a 3D Game Character | Blender",
+      "channel": "Domango",
+      "detail_path": "material_shader/procedural_stylized_character_base_mesh_fbd3bed0/skill.json"
+    },
+    {
+      "skill_id": "procedural_f_curve_animation_via_graph_e_459ca25a",
+      "skill_name": "Procedural F-Curve Animation via Graph Editor Modifiers",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=GAIZkIfXXjQ",
+      "source_title": "Character animation for impatient people - Blender Tutorial",
+      "channel": "Joey Carlino",
+      "detail_path": "animation/procedural_f_curve_animation_via_graph_e_459ca25a/skill.json"
+    },
+    {
+      "skill_id": "stylized_procedural_eye_double_sphere_te_aa2e1521",
+      "skill_name": "Stylized Procedural Eye (Double-Sphere Technique)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=TumrA0XsX0A",
+      "source_title": "How to make a Character in Blender - My Full Process in 10 Minutes",
+      "channel": "Keelan Jon",
+      "detail_path": "material_shader/stylized_procedural_eye_double_sphere_te_aa2e1521/skill.json"
+    },
+    {
+      "skill_id": "architectural_scene_scaffold_outliner_or_1f93b35e",
+      "skill_name": "Architectural Scene Scaffold & Outliner Organization",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=9oNltPoCFEE",
+      "source_title": "Complete Beginner's Guide to Blender for Architecture",
+      "channel": "My 3D POV",
+      "detail_path": "material_shader/architectural_scene_scaffold_outliner_or_1f93b35e/skill.json"
+    },
+    {
+      "skill_id": "parametric_arch_viz_room_shell_79d335ec",
+      "skill_name": "Parametric Arch-Viz Room Shell",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=M4p7ztXFNuM",
+      "source_title": "how to create realistic architecture using blender (FREE) #viralvideo #blender #architecture #addon",
+      "channel": "3D blend",
+      "detail_path": "material_shader/parametric_arch_viz_room_shell_79d335ec/skill.json"
+    },
+    {
+      "skill_id": "2_5d_parallax_parallax_facade_the_lazy_b_2f268d9b",
+      "skill_name": "2.5D Parallax Parallax Facade (The \"Lazy\" Building Generator)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=v_ikG-u_6r0",
+      "source_title": "Modeling Buildings in Blender- Lazy Tutorials",
+      "channel": "IanHubert",
+      "detail_path": "material_shader/2_5d_parallax_parallax_facade_the_lazy_b_2f268d9b/skill.json"
+    },
+    {
+      "skill_id": "procedural_lazy_building_generator_0b850f60",
+      "skill_name": "Procedural Lazy Building Generator",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=t_c58ryJ-Sw",
+      "source_title": "Create Custom Buildings in Blender - Lazy Tutorials",
+      "channel": "IanHubert",
+      "detail_path": "material_shader/procedural_lazy_building_generator_0b850f60/skill.json"
+    },
+    {
+      "skill_id": "procedural_instanced_prop_generation_geo_a7a3ef71",
+      "skill_name": "Procedural Instanced Prop Generation (Geometry Nodes)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=4yrsAiTdMj4",
+      "source_title": "Beginner Geometry Nodes Blender Tutorial",
+      "channel": "CBaileyFilm",
+      "detail_path": "material_shader/procedural_instanced_prop_generation_geo_a7a3ef71/skill.json"
+    },
+    {
+      "skill_id": "stylized_low_poly_stonework_chiseled_rin_8985ed7b",
+      "skill_name": "Stylized Low-Poly Stonework (Chiseled Ring)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=QPh8h0hWkg0",
+      "source_title": "Beginner Blender 4.2 Tutorial: Modelling a Low-Poly Well - Part1",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "material_shader/stylized_low_poly_stonework_chiseled_rin_8985ed7b/skill.json"
+    },
+    {
+      "skill_id": "sunlit_architectural_box_nishita_sky_set_dff1241f",
+      "skill_name": "Sunlit Architectural Box & Nishita Sky Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=DJRBv917CI0",
+      "source_title": "How to Make an Interior in Blender (in 9 mins)",
+      "channel": "Blender Guru",
+      "detail_path": "material_shader/sunlit_architectural_box_nishita_sky_set_dff1241f/skill.json"
+    },
+    {
+      "skill_id": "stylized_low_poly_ramen_cup_12b08354",
+      "skill_name": "Stylized Low-Poly Ramen Cup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=J7wvo6CKhL0",
+      "source_title": "Low Poly With Blender: Tutorial 1 - Modeling",
+      "channel": "Illusion Of Mana",
+      "detail_path": "material_shader/stylized_low_poly_ramen_cup_12b08354/skill.json"
+    },
+    {
+      "skill_id": "procedural_interior_lighting_compositing_acdc1810",
+      "skill_name": "Procedural Interior Lighting & Compositing Pipeline",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=xbQRErTVgzs",
+      "source_title": "How to Create a Photorealistic Interior Scene in Blender",
+      "channel": "coral lab",
+      "detail_path": "material_shader/procedural_interior_lighting_compositing_acdc1810/skill.json"
+    },
+    {
+      "skill_id": "procedural_archviz_room_shell_optimized__a884be28",
+      "skill_name": "Procedural Archviz Room Shell & Optimized Glass",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=wrzSrjAY69c",
+      "source_title": "How to Make Interiors in Blender (Tutorial)",
+      "channel": "Blender Guru",
+      "detail_path": "material_shader/procedural_archviz_room_shell_optimized__a884be28/skill.json"
+    },
+    {
+      "skill_id": "realistic_day_night_interior_lighting_ri_553de9c2",
+      "skill_name": "Realistic Day & Night Interior Lighting Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=cPDdjTh0EYM",
+      "source_title": "Easy Interior Lighting in Blender (Tutorial)",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/realistic_day_night_interior_lighting_ri_553de9c2/skill.json"
+    },
+    {
+      "skill_id": "eevee_raytraced_realistic_glass_94e7c11c",
+      "skill_name": "Eevee Raytraced Realistic Glass",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=V79ELoAcl1I",
+      "source_title": "Realistic EEVEE GLASS Material Blender 4.5 TUTORIAL!",
+      "channel": "Faebe Tutorials",
+      "detail_path": "material_shader/eevee_raytraced_realistic_glass_94e7c11c/skill.json"
+    },
+    {
+      "skill_id": "game_ready_prop_structuring_sci_fi_anten_eed702b8",
+      "skill_name": "Game-Ready Prop Structuring (Sci-Fi Antenna)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=MRITf-kzepc",
+      "source_title": "The Quick and Easy Blender to Unreal Workflow",
+      "channel": "Nico Linde",
+      "detail_path": "material_shader/game_ready_prop_structuring_sci_fi_anten_eed702b8/skill.json"
+    },
+    {
+      "skill_id": "procedural_proximity_growth_system_2e3c004d",
+      "skill_name": "Procedural Proximity Growth System",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=CWomo4_E6l8",
+      "source_title": "Proximity Growth - Blender Geometry Nodes 3.0 Tutorial",
+      "channel": "BlenderDude",
+      "detail_path": "material_shader/procedural_proximity_growth_system_2e3c004d/skill.json"
+    },
+    {
+      "skill_id": "procedural_anime_cel_shaded_grass_field_eb69b5b8",
+      "skill_name": "Procedural Anime Cel-Shaded Grass Field",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=M4kMri55rdE",
+      "source_title": "Anime Grass Tutorial | Blender (include Project Files)",
+      "channel": "trungduyng",
+      "detail_path": "material_shader/procedural_anime_cel_shaded_grass_field_eb69b5b8/skill.json"
+    },
+    {
+      "skill_id": "atmospheric_environmental_lighting_decou_d90e8f86",
+      "skill_name": "Atmospheric Environmental Lighting (Decoupled Sky & Sun)",
+      "category": "lighting",
+      "source_video": "https://www.youtube.com/watch?v=sUdlLDxL0AM",
+      "source_title": "How to render realistic environmental lighting for exterior scenes | Render Tutorial",
+      "channel": "D5 Official",
+      "detail_path": "lighting/atmospheric_environmental_lighting_decou_d90e8f86/skill.json"
+    },
+    {
+      "skill_id": "dynamic_dual_sky_lighting_with_glossy_ov_efd29842",
+      "skill_name": "Dynamic Dual-Sky Lighting with Glossy Override",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=Hyhew7kuhgA",
+      "source_title": "Easy Blender Lighting HACK [Blender Tutorial]",
+      "channel": "Poly Playground",
+      "detail_path": "material_shader/dynamic_dual_sky_lighting_with_glossy_ov_efd29842/skill.json"
+    },
+    {
+      "skill_id": "procedural_ivy_overgrowth_generator_e02a872b",
+      "skill_name": "Procedural Ivy & Overgrowth Generator",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-2wTSg9W1Mk",
+      "source_title": "Procedural Flower Garden (Foolwadi) Generator | Geometry Nodes #blender",
+      "channel": "Abhay Siddhartha",
+      "detail_path": "material_shader/procedural_ivy_overgrowth_generator_e02a872b/skill.json"
+    },
+    {
+      "skill_id": "procedural_hdri_lighting_background_spli_fdfd5a3b",
+      "skill_name": "Procedural HDRI Lighting & Background Splitter",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=7HeBUYWAUhs",
+      "source_title": "Master HDRI Lighting in Blender | Realistic Lighting Made Easy",
+      "channel": "P-Designz",
+      "detail_path": "material_shader/procedural_hdri_lighting_background_spli_fdfd5a3b/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_panel_splitting_119687b6",
+      "skill_name": "Procedural Hard Surface Panel Splitting",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=IRJCChNu_pQ",
+      "source_title": "Blender Hard Surface Modeling | Slice Operation",
+      "channel": "Josh - Blender Bros",
+      "detail_path": "material_shader/procedural_hard_surface_panel_splitting_119687b6/skill.json"
+    },
+    {
+      "skill_id": "seamless_hard_surface_mesh_decal_normal__44155000",
+      "skill_name": "Seamless Hard-Surface Mesh Decal (Normal Transfer Blending)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=Ml2t8uxPAQU",
+      "source_title": "6 Blender Hard-Surface Modeling Tricks I Wish I Knew Earlier",
+      "channel": "CG Boost",
+      "detail_path": "material_shader/seamless_hard_surface_mesh_decal_normal__44155000/skill.json"
+    },
+    {
+      "skill_id": "non_destructive_sci_fi_paneling_boolean__abc2f157",
+      "skill_name": "Non-Destructive Sci-Fi Paneling (Boolean + Bevel Workflow)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=KTWo-iEvEB8",
+      "source_title": "Boolean Modifier 2.8x | Hard-surface Modeling Update",
+      "channel": "Gleb Alexandrov",
+      "detail_path": "material_shader/non_destructive_sci_fi_paneling_boolean__abc2f157/skill.json"
+    },
+    {
+      "skill_id": "procedural_cinematic_tracking_camera_rig_247d5fa2",
+      "skill_name": "Procedural Cinematic Tracking Camera Rig",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=se_65uZgON4",
+      "source_title": "AutoCam: Free Blender Addon to Instantly Animate Cameras",
+      "channel": "RenderRides",
+      "detail_path": "animation/procedural_cinematic_tracking_camera_rig_247d5fa2/skill.json"
+    },
+    {
+      "skill_id": "procedural_cinematic_camera_rig_984dd1cb",
+      "skill_name": "Procedural Cinematic Camera Rig",
+      "category": "geometry_nodes",
+      "source_video": "https://www.youtube.com/watch?v=QFPbocBHuT0",
+      "source_title": "Making Blenders Camera ACTUALLY Good!",
+      "channel": "Kaizen",
+      "detail_path": "geometry_nodes/procedural_cinematic_camera_rig_984dd1cb/skill.json"
+    },
+    {
+      "skill_id": "rigid_body_destruction_cell_fracture_kin_82eb3fdc",
+      "skill_name": "Rigid Body Destruction (Cell Fracture & Kinematic Smash)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=rtoHQnQATck",
+      "source_title": "Destroy Any Object in Blender in 1 Minute!",
+      "channel": "BlenderVitals",
+      "detail_path": "material_shader/rigid_body_destruction_cell_fracture_kin_82eb3fdc/skill.json"
+    },
+    {
+      "skill_id": "procedural_breakable_structure_rigid_bod_319da668",
+      "skill_name": "Procedural Breakable Structure (Rigid Body Constraint Physics)",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=VFmaKeZ0Sko",
+      "source_title": "Wall destruction simulation in blender",
+      "channel": "FxForge",
+      "detail_path": "organic/procedural_breakable_structure_rigid_bod_319da668/skill.json"
+    },
+    {
+      "skill_id": "procedural_slatted_wood_wall_panel_b96e53af",
+      "skill_name": "Procedural Slatted Wood Wall Panel",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=cOVdKlS5gQQ",
+      "source_title": "How to Model Interior in Blender",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/procedural_slatted_wood_wall_panel_b96e53af/skill.json"
+    },
+    {
+      "skill_id": "procedural_realistic_car_paint_with_meta_c383b776",
+      "skill_name": "Procedural Realistic Car Paint with Metallic Flakes",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=RAY88EMOC6Y",
+      "source_title": "How To Make Realistic Car Paint | Blender Tutorial",
+      "channel": "Enhanced Sight",
+      "detail_path": "material_shader/procedural_realistic_car_paint_with_meta_c383b776/skill.json"
+    },
+    {
+      "skill_id": "procedural_pearlescent_car_paint_with_me_f196aa91",
+      "skill_name": "Procedural Pearlescent Car Paint with Metallic Flakes",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=0Dc_ZVciD4Q",
+      "source_title": "Blender – Simple Trick for REALISTIC Metallic Flakes (Car Paint Shader)",
+      "channel": "Jonas Noell",
+      "detail_path": "material_shader/procedural_pearlescent_car_paint_with_me_f196aa91/skill.json"
+    },
+    {
+      "skill_id": "procedural_architectural_shell_daylight__7f8d4ef5",
+      "skill_name": "Procedural Architectural Shell & Daylight System",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=z981Hhqv2Hk",
+      "source_title": "Blender Interior Beginner to Pro - Complete Crash course",
+      "channel": "Bro 3D",
+      "detail_path": "material_shader/procedural_architectural_shell_daylight__7f8d4ef5/skill.json"
+    },
+    {
+      "skill_id": "automated_retopology_workspace_setup_f8b47dc8",
+      "skill_name": "Automated Retopology Workspace Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=sCdhkLUCV8A",
+      "source_title": "How To Retopologize ANYTHING in Blender in Less Than 6 Minutes",
+      "channel": "Noggi",
+      "detail_path": "material_shader/automated_retopology_workspace_setup_f8b47dc8/skill.json"
+    },
+    {
+      "skill_id": "compositor_reference_split_pipeline_023d040a",
+      "skill_name": "Compositor Reference Split Pipeline",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-rO1o5uzCOc",
+      "source_title": "Starting Blender? Advice from a Pro",
+      "channel": "Blender Guru",
+      "detail_path": "material_shader/compositor_reference_split_pipeline_023d040a/skill.json"
+    },
+    {
+      "skill_id": "procedural_metallic_car_paint_2c5ddcc5",
+      "skill_name": "Procedural Metallic Car Paint",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=mCgsc4Y1ECA",
+      "source_title": "Make Realistic Car Paint Material In Blender! | Blender Tutorial",
+      "channel": "Jakub Maslowski",
+      "detail_path": "material_shader/procedural_metallic_car_paint_2c5ddcc5/skill.json"
+    },
+    {
+      "skill_id": "automated_hard_surface_uv_mapping_diagno_d13d06d3",
+      "skill_name": "Automated Hard-Surface UV Mapping & Diagnostic Pipeline",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=XleO7DBm1Us",
+      "source_title": "Blender 4.0: How to UV Unwrap Anything",
+      "channel": "On Mars 3D",
+      "detail_path": "material_shader/automated_hard_surface_uv_mapping_diagno_d13d06d3/skill.json"
+    },
+    {
+      "skill_id": "3d_text_logo_orbital_camera_rig_062bcdef",
+      "skill_name": "3D Text Logo & Orbital Camera Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=RmEIz5tiCvA",
+      "source_title": "Blender Text Logo and Camera Animation | DJ Helps",
+      "channel": "djtutorials",
+      "detail_path": "material_shader/3d_text_logo_orbital_camera_rig_062bcdef/skill.json"
+    },
+    {
+      "skill_id": "cinematic_shattered_glass_text_d90ded49",
+      "skill_name": "Cinematic Shattered Glass Text",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=saJGwHSP_Mw",
+      "source_title": "Cinematic Trailer Title Animation in Blender | Blender Motion Graphics Tutorial",
+      "channel": "Ducky 3D",
+      "detail_path": "material_shader/cinematic_shattered_glass_text_d90ded49/skill.json"
+    },
+    {
+      "skill_id": "procedural_sequential_text_reveal_uv_isl_9039a74b",
+      "skill_name": "Procedural Sequential Text Reveal (UV Island Masking)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=dzq4byOD4Ug",
+      "source_title": "Easy Cinematic Text Animation in Blender (Blender tutorial)",
+      "channel": "Ducky 3D",
+      "detail_path": "material_shader/procedural_sequential_text_reveal_uv_isl_9039a74b/skill.json"
+    },
+    {
+      "skill_id": "non_destructive_hard_surface_modular_pro_942901e7",
+      "skill_name": "Non-Destructive Hard Surface Modular Props (SubD + Shrinkwrap)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=nsTjnQ067sw",
+      "source_title": "Blender Hard-Surface Modeling Fundamentals #b3d #tutorial",
+      "channel": "CG Boost",
+      "detail_path": "material_shader/non_destructive_hard_surface_modular_pro_942901e7/skill.json"
+    },
+    {
+      "skill_id": "hard_surface_subd_hole_topology_crease_w_92a01f33",
+      "skill_name": "Hard Surface SubD Hole Topology (Crease Workflow)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=bYXYEZh5v_o",
+      "source_title": "Our FAVORITE sub-d modeling strategies",
+      "channel": "Josh - Blender Bros",
+      "detail_path": "material_shader/hard_surface_subd_hole_topology_crease_w_92a01f33/skill.json"
+    },
+    {
+      "skill_id": "procedural_alpha_displacement_height_map_e23a63ac",
+      "skill_name": "Procedural Alpha Displacement (Height Mapping)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=zxbwNfRU4QA",
+      "source_title": "Blender Sculpting - Alpha Textures for free Tutorial",
+      "channel": "in2vert",
+      "detail_path": "material_shader/procedural_alpha_displacement_height_map_e23a63ac/skill.json"
+    },
+    {
+      "skill_id": "procedural_organic_skin_material_sss_set_2abbe7ee",
+      "skill_name": "Procedural Organic Skin Material & SSS Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=881SkusymKI",
+      "source_title": "Blender Head Sculpt - Textured in Substance Painter",
+      "channel": "TLD Studios",
+      "detail_path": "material_shader/procedural_organic_skin_material_sss_set_2abbe7ee/skill.json"
+    },
+    {
+      "skill_id": "automated_retopology_base_setup_shrinkwr_6905fbe9",
+      "skill_name": "Automated Retopology Base Setup (Shrinkwrap Cylinder)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=RwbG-HAd6Qc",
+      "source_title": "Blender Made Retopology 10x Easier & Forgot to Mention it!",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "material_shader/automated_retopology_base_setup_shrinkwr_6905fbe9/skill.json"
+    },
+    {
+      "skill_id": "blocking_plus_animation_workflow_procedu_dd0cc527",
+      "skill_name": "Blocking Plus Animation Workflow (Procedural Bouncing Ball)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=KSRZg7PwgyU",
+      "source_title": "Why Your Stepped Animation Sucks in Spline",
+      "channel": "Sir Wade Neistadt",
+      "detail_path": "animation/blocking_plus_animation_workflow_procedu_dd0cc527/skill.json"
+    },
+    {
+      "skill_id": "dense_animation_data_workflow_stepped_to_e2e0ca2c",
+      "skill_name": "Dense Animation Data Workflow (Stepped to Spline)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=TIBzcsOt2FU",
+      "source_title": "Animation Power Tips - When to go from BLOCKING to SPLINE (S02 E04)",
+      "channel": "Harvey Newman",
+      "detail_path": "animation/dense_animation_data_workflow_stepped_to_e2e0ca2c/skill.json"
+    },
+    {
+      "skill_id": "hierarchical_bottom_up_animation_overlap_e4a7c0c7",
+      "skill_name": "Hierarchical Bottom-Up Animation & Overlap (Blocking to Splining)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=LcUM_VFGSzU",
+      "source_title": "How to take your animation to final - Spline and Polish Timelapse with voiceover",
+      "channel": "Fergus_3D",
+      "detail_path": "animation/hierarchical_bottom_up_animation_overlap_e4a7c0c7/skill.json"
+    },
+    {
+      "skill_id": "advanced_hard_surface_edge_control_bevel_950fc695",
+      "skill_name": "Advanced Hard Surface Edge Control (Bevel Weight vs. Sharp vs. Crease)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=b_4FoNTHf5g",
+      "source_title": "Mark Sharp vs. Crease vs. Seam vs. Bevel Weight vs.Weighted Normals - in Blender",
+      "channel": "Ryuu - Blender Bros",
+      "detail_path": "material_shader/advanced_hard_surface_edge_control_bevel_950fc695/skill.json"
+    },
+    {
+      "skill_id": "noise_free_architectural_window_interior_dd501adc",
+      "skill_name": "Noise-Free Architectural Window & Interior Lighting Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=rRuwN8DXjm0",
+      "source_title": "How to Make Interiors in Blender (Tutorial)",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/noise_free_architectural_window_interior_dd501adc/skill.json"
+    },
+    {
+      "skill_id": "architectural_interior_shell_cove_lighti_d697bdb1",
+      "skill_name": "Architectural Interior Shell & Cove Lighting Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=5P54CcAC1LY",
+      "source_title": "How to Make Interiors in Blender",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/architectural_interior_shell_cove_lighti_d697bdb1/skill.json"
+    },
+    {
+      "skill_id": "optimized_cycles_interior_daylighting_hi_409bf738",
+      "skill_name": "Optimized Cycles Interior Daylighting & High-Bounce Path Tracing",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=ouVnkwfRgjo",
+      "source_title": "Lighting Interior Archviz in blender - Beginner guide",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/optimized_cycles_interior_daylighting_hi_409bf738/skill.json"
+    },
+    {
+      "skill_id": "hard_surface_boolean_component_with_beve_77d8e6ca",
+      "skill_name": "Hard-Surface Boolean Component with Bevel Shader",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=DyUYhpdimlk",
+      "source_title": "#hardops - Boolean Curvature CylinderThingie",
+      "channel": "mx2",
+      "detail_path": "material_shader/hard_surface_boolean_component_with_beve_77d8e6ca/skill.json"
+    },
+    {
+      "skill_id": "procedural_mechanical_rigging_via_action_2e799472",
+      "skill_name": "Procedural Mechanical Rigging via Action Constraints",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=cH5QwlZlvmg",
+      "source_title": "Hard Surface Rigging in Blender Tutorial",
+      "channel": "Markom3D",
+      "detail_path": "animation/procedural_mechanical_rigging_via_action_2e799472/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_bracket_with_sub_b410a9c5",
+      "skill_name": "Procedural Hard-Surface Bracket with SubD Topology",
+      "category": "motion_graphics",
+      "source_video": "https://www.youtube.com/watch?v=d2Z0ED8fTUA",
+      "source_title": "HardSurface Modeling Exercise in Blender",
+      "channel": "MouryaWorks",
+      "detail_path": "motion_graphics/procedural_hard_surface_bracket_with_sub_b410a9c5/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_sci_fi_crate_09310b57",
+      "skill_name": "Procedural Hard-Surface Sci-Fi Crate",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=O8UH8UBKO8w",
+      "source_title": "Create a smart box in Blender!",
+      "channel": "Josh - Blender Bros",
+      "detail_path": "material_shader/procedural_hard_surface_sci_fi_crate_09310b57/skill.json"
+    },
+    {
+      "skill_id": "volumetric_spot_light_cone_mesh_bound_e10f2245",
+      "skill_name": "Volumetric Spot Light Cone (Mesh-Bound)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=blJ_aUvuepM",
+      "source_title": "Perfect Light Cone | God Rays In Blender | Volumetric Lighting Part-II",
+      "channel": "5 Minutes Blender",
+      "detail_path": "material_shader/volumetric_spot_light_cone_mesh_bound_e10f2245/skill.json"
+    },
+    {
+      "skill_id": "procedural_isometric_camera_rig_c8aadf6f",
+      "skill_name": "Procedural Isometric Camera Rig",
+      "category": "motion_graphics",
+      "source_video": "https://www.youtube.com/watch?v=4kTP0OcaSr0",
+      "source_title": "Tips & Tricks in After Effects: Isometric Camera",
+      "channel": "Motion Design School",
+      "detail_path": "motion_graphics/procedural_isometric_camera_rig_c8aadf6f/skill.json"
+    },
+    {
+      "skill_id": "volumetric_refractive_caustics_setup_e9f084d8",
+      "skill_name": "Volumetric Refractive Caustics Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=1mN0L6OQlTs",
+      "source_title": "Interactive Volume Caustics in Single-Scattering Media",
+      "channel": "flycooler",
+      "detail_path": "material_shader/volumetric_refractive_caustics_setup_e9f084d8/skill.json"
+    },
+    {
+      "skill_id": "3d_procedural_motion_graphics_title_curv_1daa1c60",
+      "skill_name": "3D Procedural Motion Graphics Title & Curve Bursts",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=JSV9uMEosOo",
+      "source_title": "5 Great Beginner Motion Graphics Techniques | DaVinci Resolve Tutorial",
+      "channel": "SonduckFilm",
+      "detail_path": "material_shader/3d_procedural_motion_graphics_title_curv_1daa1c60/skill.json"
+    },
+    {
+      "skill_id": "hard_surface_mechanical_notch_detailing_4e54fd2e",
+      "skill_name": "Hard-Surface Mechanical Notch Detailing",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=387mOTpT4rU",
+      "source_title": "CLEAN GEO fast with HARD OPS in Blender!",
+      "channel": "Ryuu - Blender Bros",
+      "detail_path": "material_shader/hard_surface_mechanical_notch_detailing_4e54fd2e/skill.json"
+    },
+    {
+      "skill_id": "clean_topology_curved_panel_hard_surface_12c3df5f",
+      "skill_name": "Clean Topology Curved Panel (Hard-Surface Boolean Fix)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=gESfJEFvZ3w",
+      "source_title": "Perfect Shading with Booleans - Blender Tutorial for Hard Surface",
+      "channel": "Ryuu - Blender Bros",
+      "detail_path": "material_shader/clean_topology_curved_panel_hard_surface_12c3df5f/skill.json"
+    },
+    {
+      "skill_id": "procedural_3d_architectural_floor_plan_3fd9a9dc",
+      "skill_name": "Procedural 3D Architectural Floor Plan",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=z1jiNA03ntQ",
+      "source_title": "Turn Floor Plans Into 3D Homes Instantly | Nano Banana Tutorial",
+      "channel": "TVBOX Academy",
+      "detail_path": "material_shader/procedural_3d_architectural_floor_plan_3fd9a9dc/skill.json"
+    },
+    {
+      "skill_id": "procedural_architectural_siding_via_prox_2ff4e470",
+      "skill_name": "Procedural Architectural Siding via Proxy-Volume Booleans",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=Et4lulUZrEI",
+      "source_title": "Modeling SIDING in Blender with Modifiers! (Architectural Modeling Tutorial)",
+      "channel": "The CG Essentials",
+      "detail_path": "material_shader/procedural_architectural_siding_via_prox_2ff4e470/skill.json"
+    },
+    {
+      "skill_id": "procedural_dynamic_edge_wear_chipping_4f697ad5",
+      "skill_name": "Procedural Dynamic Edge Wear & Chipping",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=EQ149bMtKRA",
+      "source_title": "The RIGHT Way to do Edge Wear (in Cycles!)",
+      "channel": "Christopher Fraser",
+      "detail_path": "material_shader/procedural_dynamic_edge_wear_chipping_4f697ad5/skill.json"
+    },
+    {
+      "skill_id": "procedural_3d_floor_plan_generation_f2326689",
+      "skill_name": "Procedural 3D Floor Plan Generation",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=Q4rbqUbhYXY",
+      "source_title": "How to Make 3d Floor Plan in Blender",
+      "channel": "Architecture Topics",
+      "detail_path": "material_shader/procedural_3d_floor_plan_generation_f2326689/skill.json"
+    },
+    {
+      "skill_id": "procedural_worn_painted_metal_edge_wear__e7ec6bae",
+      "skill_name": "Procedural Worn Painted Metal (Edge Wear, Scratches & Dirt)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=hAWLqRpzK6I",
+      "source_title": "3 Easy steps to make Realistic Materials",
+      "channel": "Jamie Dunbar",
+      "detail_path": "material_shader/procedural_worn_painted_metal_edge_wear__e7ec6bae/skill.json"
+    },
+    {
+      "skill_id": "procedural_smart_material_substance_styl_c2fdfcdb",
+      "skill_name": "Procedural \"Smart Material\" (Substance-Style Edge Wear & Dirt)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-x-b2U-MSgc",
+      "source_title": "How to Create Professional Materials",
+      "channel": "Kaizen",
+      "detail_path": "material_shader/procedural_smart_material_substance_styl_c2fdfcdb/skill.json"
+    },
+    {
+      "skill_id": "realistic_interior_artificial_lighting_r_7241f4a4",
+      "skill_name": "Realistic Interior Artificial Lighting Rig (Nighttime/Windowless)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=VZhBF1RzQf8",
+      "source_title": "The Secret to Realistic Night Interiors in Blender - Tutorial",
+      "channel": "CG Arch ",
+      "detail_path": "material_shader/realistic_interior_artificial_lighting_r_7241f4a4/skill.json"
+    },
+    {
+      "skill_id": "parametric_three_point_studio_lighting_r_4956e74c",
+      "skill_name": "Parametric Three-Point Studio Lighting Rig with Blackbody Temperatures",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=XcJyW5iBKlU",
+      "source_title": "Master Lighting in Blender Under 6 Minutes!",
+      "channel": "RenderRides",
+      "detail_path": "material_shader/parametric_three_point_studio_lighting_r_4956e74c/skill.json"
+    },
+    {
+      "skill_id": "non_destructive_architectural_shell_with_439cc687",
+      "skill_name": "Non-Destructive Architectural Shell with Collection Booleans",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=Orzzgxwiefk",
+      "source_title": "Mastering REALISTIC Interiors the RIGHT way in Blender",
+      "channel": "Blender Breakdown",
+      "detail_path": "material_shader/non_destructive_architectural_shell_with_439cc687/skill.json"
+    },
+    {
+      "skill_id": "procedural_gradient_strip_box_studio_lig_f90b4322",
+      "skill_name": "Procedural Gradient Strip Box (Studio Lighting)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=LBx0y3ZVwt8",
+      "source_title": "How to Light Products like a Pro in Blender",
+      "channel": "Denzel Modeste",
+      "detail_path": "material_shader/procedural_gradient_strip_box_studio_lig_f90b4322/skill.json"
+    },
+    {
+      "skill_id": "cinematic_studio_product_lighting_rig_d93a5479",
+      "skill_name": "Cinematic Studio Product Lighting Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=4Uy2SzB-Kuk",
+      "source_title": "Three Point Lighting Tutorial | Blender Product Rendering Series",
+      "channel": "blenderisms",
+      "detail_path": "material_shader/cinematic_studio_product_lighting_rig_d93a5479/skill.json"
+    },
+    {
+      "skill_id": "cinematic_gradient_studio_lighting_rig_fea744be",
+      "skill_name": "Cinematic Gradient Studio Lighting Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=WreZ_VKDn4M",
+      "source_title": "Realistic Product Lighting In Blender",
+      "channel": "Extra 3d",
+      "detail_path": "material_shader/cinematic_gradient_studio_lighting_rig_fea744be/skill.json"
+    },
+    {
+      "skill_id": "procedural_volumetric_wave_clusters_12b18c3c",
+      "skill_name": "Procedural Volumetric Wave-Clusters",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=L4CrrwkbQYw",
+      "source_title": "Create an abstract render with geometry nodes! | Blender beginner tutorial",
+      "channel": "Erik Hillinger 3D",
+      "detail_path": "material_shader/procedural_volumetric_wave_clusters_12b18c3c/skill.json"
+    },
+    {
+      "skill_id": "procedural_looping_abstract_cube_matrix_04eda480",
+      "skill_name": "Procedural Looping Abstract Cube Matrix",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=NyUJ6XH8A94",
+      "source_title": "Satisfying Geometry Nodes Animation (Blender Tutorial)",
+      "channel": "Ducky 3D",
+      "detail_path": "material_shader/procedural_looping_abstract_cube_matrix_04eda480/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_boolean_inset_ch_98c74a69",
+      "skill_name": "Procedural Hard-Surface Boolean Inset & Chamfer",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=LD9QEC-6UH0",
+      "source_title": "Mesh Machine Guide - Boolean and Selection Tools",
+      "channel": "Artisans of Vaul",
+      "detail_path": "material_shader/procedural_hard_surface_boolean_inset_ch_98c74a69/skill.json"
+    },
+    {
+      "skill_id": "procedural_abstract_geometric_loop_8a17d044",
+      "skill_name": "Procedural Abstract Geometric Loop",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=8tBM524XQPM",
+      "source_title": "Create an abstract loop with geometry nodes! | Blender tutorial",
+      "channel": "Erik Hillinger 3D",
+      "detail_path": "material_shader/procedural_abstract_geometric_loop_8a17d044/skill.json"
+    },
+    {
+      "skill_id": "particle_based_atmospheric_rain_25163767",
+      "skill_name": "Particle-Based Atmospheric Rain",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=BOWFPtZBYbQ",
+      "source_title": "Making (Fast n' Easy) Rain with Particles | Blender 3.3 Tutorial",
+      "channel": "Rendered in Blender",
+      "detail_path": "material_shader/particle_based_atmospheric_rain_25163767/skill.json"
+    },
+    {
+      "skill_id": "procedural_looping_falling_snow_ba36f468",
+      "skill_name": "Procedural Looping Falling Snow",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=S1ECFKXWngU",
+      "source_title": "Animated Falling Snow 🌨️ (Blender Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/procedural_looping_falling_snow_ba36f468/skill.json"
+    },
+    {
+      "skill_id": "procedural_weather_systems_snow_rain_san_4479e6ea",
+      "skill_name": "Procedural Weather Systems (Snow, Rain, Sandstorm)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=gd9S7Ln0vB4",
+      "source_title": "Weather Effects in Blender EEVEE",
+      "channel": "CG Boost",
+      "detail_path": "material_shader/procedural_weather_systems_snow_rain_san_4479e6ea/skill.json"
+    },
+    {
+      "skill_id": "procedural_mantaflow_mushroom_cloud_expl_a24215ce",
+      "skill_name": "Procedural Mantaflow Mushroom Cloud Explosion",
+      "category": "particle_physics",
+      "source_video": "https://www.youtube.com/watch?v=xSyUkV5lm5U",
+      "source_title": "Realistic Explosion in Blender | Fire, Smoke & Particles | Short Tutorial",
+      "channel": "Paweł Chądzyński",
+      "detail_path": "particle_physics/procedural_mantaflow_mushroom_cloud_expl_a24215ce/skill.json"
+    },
+    {
+      "skill_id": "advanced_4_point_studio_lighting_environ_e09d51d8",
+      "skill_name": "Advanced 4-Point Studio Lighting Environment",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=RsubPHDDeCc",
+      "source_title": "4 types of EEVEE Studio Lightings for Beginners.",
+      "channel": "IBN-Blender 3d Artwork",
+      "detail_path": "material_shader/advanced_4_point_studio_lighting_environ_e09d51d8/skill.json"
+    },
+    {
+      "skill_id": "realistic_volumetric_fire_simulation_109583da",
+      "skill_name": "Realistic Volumetric Fire Simulation",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=mh9tyFnzSUw",
+      "source_title": "Realistic Fire Tutorial in Blender! #blender3d",
+      "channel": "Faebe Tutorials",
+      "detail_path": "material_shader/realistic_volumetric_fire_simulation_109583da/skill.json"
+    },
+    {
+      "skill_id": "procedural_floating_glowing_embers_55e48c87",
+      "skill_name": "Procedural Floating Glowing Embers",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=QOMZ7oPLCd8",
+      "source_title": "How To Make Fiery Embers in Blender - Blender Particles Tutorial",
+      "channel": "Woodplank",
+      "detail_path": "material_shader/procedural_floating_glowing_embers_55e48c87/skill.json"
+    },
+    {
+      "skill_id": "procedural_displaced_ground_plane_f10cab70",
+      "skill_name": "Procedural Displaced Ground Plane",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=bPtg4rFkBcA",
+      "source_title": "basic ground displacement in blender (procedural) tutorial",
+      "channel": "powdered_bread",
+      "detail_path": "material_shader/procedural_displaced_ground_plane_f10cab70/skill.json"
+    },
+    {
+      "skill_id": "procedural_volumetric_explosion_mantaflo_8bdc923e",
+      "skill_name": "Procedural Volumetric Explosion (Mantaflow)",
+      "category": "particle_physics",
+      "source_video": "https://www.youtube.com/watch?v=MxfctMsd0Ck",
+      "source_title": "Blender Tutorial - Creating a Simple Explosion Simulation",
+      "channel": "Blender Made Easy",
+      "detail_path": "particle_physics/procedural_volumetric_explosion_mantaflo_8bdc923e/skill.json"
+    },
+    {
+      "skill_id": "procedural_sculpted_landscape_c7122613",
+      "skill_name": "Procedural Sculpted Landscape",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-R3XrmR1zd8",
+      "source_title": "How To Use The Sculpt Tool In Blender To Create Landscapes",
+      "channel": "Glen 3D",
+      "detail_path": "material_shader/procedural_sculpted_landscape_c7122613/skill.json"
+    },
+    {
+      "skill_id": "procedural_landscape_generation_a_n_t_la_44e3fbc8",
+      "skill_name": "Procedural Landscape Generation (A.N.T.Landscape)",
+      "category": "environment",
+      "source_video": "https://www.youtube.com/watch?v=uedN9nRYZTI",
+      "source_title": "Making Landscapes in Blender is EASY",
+      "channel": "Clonemace",
+      "detail_path": "environment/procedural_landscape_generation_a_n_t_la_44e3fbc8/skill.json"
+    },
+    {
+      "skill_id": "mathematical_proportional_displacement_p_b9f6ff00",
+      "skill_name": "Mathematical Proportional Displacement (Procedural Terrain)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=jGWP29LzI0o",
+      "source_title": "Blender Tutorial for Beginners - Part 10: Create a Terrain in Blender using Plane Object",
+      "channel": "HowToDoBasic",
+      "detail_path": "material_shader/mathematical_proportional_displacement_p_b9f6ff00/skill.json"
+    },
+    {
+      "skill_id": "advanced_modular_volumetric_domain_1142256a",
+      "skill_name": "Advanced Modular Volumetric Domain",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=A8KkY9zLbDI",
+      "source_title": "Everything About Volumetrics in Blender - Tutorial",
+      "channel": "Thridigi",
+      "detail_path": "material_shader/advanced_modular_volumetric_domain_1142256a/skill.json"
+    },
+    {
+      "skill_id": "procedural_atmospheric_ground_fog_a800c9d9",
+      "skill_name": "Procedural Atmospheric Ground Fog",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=0xZby2ObL6o",
+      "source_title": "Photoreal Volumetrics in Blender",
+      "channel": "Nico Linde",
+      "detail_path": "material_shader/procedural_atmospheric_ground_fog_a800c9d9/skill.json"
+    },
+    {
+      "skill_id": "cascading_overshoot_settle_animation_iso_3683be51",
+      "skill_name": "Cascading Overshoot & Settle Animation (Isometric Build-up)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=5SAJO11_p8g",
+      "source_title": "How to Animate an Isometric Room in Blender | Tutorial",
+      "channel": "Blender Made Easy",
+      "detail_path": "animation/cascading_overshoot_settle_animation_iso_3683be51/skill.json"
+    },
+    {
+      "skill_id": "animated_isometric_pop_in_prop_465c3339",
+      "skill_name": "Animated Isometric \"Pop-In\" Prop",
+      "category": "motion_graphics",
+      "source_video": "https://www.youtube.com/watch?v=oLxAYQRKVQ4",
+      "source_title": "4 steps to creating isometric animations | Blender tutorial 🇬🇧",
+      "channel": "Mina Pêcheux",
+      "detail_path": "motion_graphics/animated_isometric_pop_in_prop_465c3339/skill.json"
+    },
+    {
+      "skill_id": "stylized_isometric_environment_with_volu_05a3cc7d",
+      "skill_name": "Stylized Isometric Environment with Volumetric God-Rays",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=mvE_TykzJQU",
+      "source_title": "Essential Tips for Low Poly Scenes - Blender Tutorial",
+      "channel": "Grant Abbitt (Gabbitt)",
+      "detail_path": "material_shader/stylized_isometric_environment_with_volu_05a3cc7d/skill.json"
+    },
+    {
+      "skill_id": "smooth_camera_rig_via_path_and_target_co_6e77fec2",
+      "skill_name": "Smooth Camera Rig via Path and Target Constraints",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=COwENnPwWJ8",
+      "source_title": "Animate Cameras like a Pro (Blender Tutorial)",
+      "channel": "CG Boost",
+      "detail_path": "animation/smooth_camera_rig_via_path_and_target_co_6e77fec2/skill.json"
+    },
+    {
+      "skill_id": "cinematic_handheld_tracking_camera_rig_202e4c49",
+      "skill_name": "Cinematic Handheld Tracking Camera Rig",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=V2UbwO1uSZY",
+      "source_title": "Blender Cinematic Camera Animation Guide | 10 Tips & Tricks !",
+      "channel": "Max Novak",
+      "detail_path": "animation/cinematic_handheld_tracking_camera_rig_202e4c49/skill.json"
+    },
+    {
+      "skill_id": "procedural_cinematic_organic_camera_rig_df92aa9e",
+      "skill_name": "Procedural Cinematic Organic Camera Rig",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=a7qyW1G350g",
+      "source_title": "Tutorial: Quick Smooth Camera Movements in Blender",
+      "channel": "Polyfjord",
+      "detail_path": "animation/procedural_cinematic_organic_camera_rig_df92aa9e/skill.json"
+    },
+    {
+      "skill_id": "cinematic_camera_rig_path_track_to_and_p_c4b67dd3",
+      "skill_name": "Cinematic Camera Rig (Path, Track-To, and Procedural Shake)",
+      "category": "geometry_nodes",
+      "source_video": "https://www.youtube.com/watch?v=pcBji0dSc8o",
+      "source_title": "Take Your Blender Camera Animation to the Next Level",
+      "channel": "Florin Flammer",
+      "detail_path": "geometry_nodes/cinematic_camera_rig_path_track_to_and_p_c4b67dd3/skill.json"
+    },
+    {
+      "skill_id": "cinematic_4_point_character_lighting_rig_729a253b",
+      "skill_name": "Cinematic 4-Point Character Lighting Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=3Qbd2TaUTSU",
+      "source_title": "CINEMATIC LIGHTING TUTORIAL - BLENDER 3.0 EEVEE TUTORIAL",
+      "channel": "TutsByKai",
+      "detail_path": "material_shader/cinematic_4_point_character_lighting_rig_729a253b/skill.json"
+    },
+    {
+      "skill_id": "cinematic_virtual_cinematography_single__f12b4efb",
+      "skill_name": "Cinematic Virtual Cinematography: Single-Source Rim Lighting",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=si7UAgvBd4Y",
+      "source_title": "Tutorial: Cinematic Lighting in Blender",
+      "channel": "Polyfjord",
+      "detail_path": "material_shader/cinematic_virtual_cinematography_single__f12b4efb/skill.json"
+    },
+    {
+      "skill_id": "modern_archviz_exterior_setup_procedural_738db72c",
+      "skill_name": "Modern ArchViz Exterior Setup & Procedural Context",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=-k4LQm8YbpM",
+      "source_title": "Realistic Exterior Archviz In Blender | Beginner Architecture tutorial",
+      "channel": "AlternaVision Studio",
+      "detail_path": "material_shader/modern_archviz_exterior_setup_procedural_738db72c/skill.json"
+    },
+    {
+      "skill_id": "archviz_daylight_rig_procedural_dappled__c9865b64",
+      "skill_name": "ArchViz Daylight Rig & Procedural Dappled Shadows",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=zZkbWa_ePGI",
+      "source_title": "Easy Realistic Architecture And Environments In Blender - Beginner tutorial",
+      "channel": "AlternaVision Studio",
+      "detail_path": "material_shader/archviz_daylight_rig_procedural_dappled__c9865b64/skill.json"
+    },
+    {
+      "skill_id": "procedural_surface_grime_layering_95879d8f",
+      "skill_name": "Procedural Surface Grime Layering",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=zz8UXrkZQMc",
+      "source_title": "Make this Exterior in Blender| Realistic Architecture Visualization Tutorial",
+      "channel": "P-Designz",
+      "detail_path": "material_shader/procedural_surface_grime_layering_95879d8f/skill.json"
+    },
+    {
+      "skill_id": "modular_modern_architectural_blocking_do_b5a3b12e",
+      "skill_name": "Modular Modern Architectural Blocking & Downlighting",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=M38_wP_Nt7E",
+      "source_title": "Blender architecture exterior | This is how I visualize architecture just with Blender",
+      "channel": "Tender World",
+      "detail_path": "material_shader/modular_modern_architectural_blocking_do_b5a3b12e/skill.json"
+    },
+    {
+      "skill_id": "procedural_murky_pond_water_with_scatter_3525088e",
+      "skill_name": "Procedural Murky Pond Water with Scatter Ecology",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=5yIURiec0K8",
+      "source_title": "Easy Realistic Architecture And Environments In Blender - Beginner tutorial",
+      "channel": "AlternaVision Studio",
+      "detail_path": "material_shader/procedural_murky_pond_water_with_scatter_3525088e/skill.json"
+    },
+    {
+      "skill_id": "procedural_rigid_body_physics_playground_cddbc1dc",
+      "skill_name": "Procedural Rigid Body Physics Playground",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=YpUyGJ-do4o",
+      "source_title": "Learn Rigid Body Physics in Blender | All Settings Explained With Examples | Blender Eevee & Cycles",
+      "channel": "5 Minutes Blender",
+      "detail_path": "organic/procedural_rigid_body_physics_playground_cddbc1dc/skill.json"
+    },
+    {
+      "skill_id": "dynamic_rigid_body_physics_setup_c5b41689",
+      "skill_name": "Dynamic Rigid Body Physics Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=lctjzasiy64",
+      "source_title": "Rigid Body Physics for Beginners (Blender Tutorial)",
+      "channel": "Ryan King Art",
+      "detail_path": "material_shader/dynamic_rigid_body_physics_setup_c5b41689/skill.json"
+    },
+    {
+      "skill_id": "rigid_body_demolition_physics_setup_b4ea26b2",
+      "skill_name": "Rigid Body Demolition Physics Setup",
+      "category": "particle_physics",
+      "source_video": "https://www.youtube.com/watch?v=koibBznJzFo",
+      "source_title": "Blender Rigid Body Simulation Explained . From Zero to Destruction #animation #blender #tutorial",
+      "channel": "3DChobi",
+      "detail_path": "particle_physics/rigid_body_demolition_physics_setup_b4ea26b2/skill.json"
+    },
+    {
+      "skill_id": "procedural_rigid_body_demolition_setup_15ee9dae",
+      "skill_name": "Procedural Rigid Body Demolition Setup",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=2Dnks7C2q9U",
+      "source_title": "Tutorial: Tipping Over Stacks of Cubes in Blender",
+      "channel": "Polyfjord",
+      "detail_path": "organic/procedural_rigid_body_demolition_setup_15ee9dae/skill.json"
+    },
+    {
+      "skill_id": "procedural_rigid_body_wrecking_ball_brea_4a9c1c07",
+      "skill_name": "Procedural Rigid-Body Wrecking Ball & Breakable Wall",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=eMStCR7-7qg",
+      "source_title": "Chain Animation in Blender 5.0 | Rigid Body Physics",
+      "channel": "MK Graphics",
+      "detail_path": "material_shader/procedural_rigid_body_wrecking_ball_brea_4a9c1c07/skill.json"
+    },
+    {
+      "skill_id": "motivated_interior_lighting_kit_blackbod_c429a081",
+      "skill_name": "Motivated Interior Lighting Kit (Blackbody & Mixed Types)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=yKQMVIzUx_4",
+      "source_title": "Secrets to Lighting Interior Scenes - Blender Tutorial",
+      "channel": "WillUrquhart3D",
+      "detail_path": "material_shader/motivated_interior_lighting_kit_blackbod_c429a081/skill.json"
+    },
+    {
+      "skill_id": "procedural_cinematic_night_environment_a_9bc2e27d",
+      "skill_name": "Procedural Cinematic Night Environment (Atmospheric Volumetrics & Starlight)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=orYvJTrROhw",
+      "source_title": "Realistic Night Time Lighting In Blender",
+      "channel": "Extra 3d",
+      "detail_path": "material_shader/procedural_cinematic_night_environment_a_9bc2e27d/skill.json"
+    },
+    {
+      "skill_id": "atmospheric_interior_lighting_nishita_sk_851f9101",
+      "skill_name": "Atmospheric Interior Lighting (Nishita Sky + Volumetric God Rays)",
+      "category": "lighting",
+      "source_video": "https://www.youtube.com/watch?v=kxKUnQLn8cQ",
+      "source_title": "How to Create Photorealistic Interior Lighting in Blender",
+      "channel": "coral lab",
+      "detail_path": "lighting/atmospheric_interior_lighting_nishita_sk_851f9101/skill.json"
+    },
+    {
+      "skill_id": "cinematic_interior_lighting_post_process_8ba2556b",
+      "skill_name": "Cinematic Interior Lighting & Post-Processing Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=VxDEtL0WyOQ",
+      "source_title": "How to Light an Interior Scene at Night in Blender (Easy Tutorial) in English Explanation",
+      "channel": "Kailash Tutorials ",
+      "detail_path": "material_shader/cinematic_interior_lighting_post_process_8ba2556b/skill.json"
+    },
+    {
+      "skill_id": "cinematic_interior_night_lighting_rig_3a533762",
+      "skill_name": "Cinematic Interior Night Lighting Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=g3J89WPubPs",
+      "source_title": "Interior Lights in Blender",
+      "channel": "coral lab",
+      "detail_path": "material_shader/cinematic_interior_night_lighting_rig_3a533762/skill.json"
+    },
+    {
+      "skill_id": "cinematic_camera_movement_rig_procedural_b217554e",
+      "skill_name": "Cinematic Camera Movement Rig & Procedural City",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=asdU-MKpE6M",
+      "source_title": "BLENDER CAMERA MOVEMENT GUIDE | EASY Tutorial",
+      "channel": "Blender Savage",
+      "detail_path": "material_shader/cinematic_camera_movement_rig_procedural_b217554e/skill.json"
+    },
+    {
+      "skill_id": "constraint_based_tracking_camera_rig_3a05aea7",
+      "skill_name": "Constraint-Based Tracking Camera Rig",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=LeYUk3Ob5W8",
+      "source_title": "Blender Camera Constraints",
+      "channel": "Immersive Limit",
+      "detail_path": "material_shader/constraint_based_tracking_camera_rig_3a05aea7/skill.json"
+    },
+    {
+      "skill_id": "procedural_camera_orbit_path_4192898c",
+      "skill_name": "Procedural Camera Orbit Path",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=oR52jcMdQBQ",
+      "source_title": "How to Animate a Camera in Blender | Smooth Camera Movements & Tracking",
+      "channel": "Athar Teaches WordPress",
+      "detail_path": "animation/procedural_camera_orbit_path_4192898c/skill.json"
+    },
+    {
+      "skill_id": "sequential_multi_path_camera_rig_constra_6f92964a",
+      "skill_name": "Sequential Multi-Path Camera Rig (Constraint Crossfading)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=xSS7bWTqsqY",
+      "source_title": "Follow MULTIPLE Paths | Easy Camera Trick In Blender | Advanced Follow Path Constraint",
+      "channel": "5 Minutes Blender",
+      "detail_path": "animation/sequential_multi_path_camera_rig_constra_6f92964a/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_boolean_machinin_2dee6998",
+      "skill_name": "Procedural Hard-Surface Boolean Machining",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=lxtHuz6luJM",
+      "source_title": "BOOLEAN workflow - Blender Hard Surface Modeling Tutorial",
+      "channel": "Josh - Blender Bros",
+      "detail_path": "material_shader/procedural_hard_surface_boolean_machinin_2dee6998/skill.json"
+    },
+    {
+      "skill_id": "clean_hard_surface_boolean_cut_support_l_39d092ca",
+      "skill_name": "Clean Hard-Surface Boolean Cut (Support Loop Technique)",
+      "category": "motion_graphics",
+      "source_video": "https://www.youtube.com/watch?v=lCA1AFEQ_z4",
+      "source_title": "Become a Boolean PRO in Blender",
+      "channel": "Josh - Blender Bros",
+      "detail_path": "motion_graphics/clean_hard_surface_boolean_cut_support_l_39d092ca/skill.json"
+    },
+    {
+      "skill_id": "procedural_hard_surface_mechanical_frame_5b512a90",
+      "skill_name": "Procedural Hard-Surface Mechanical Frame",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=UvQuRvdblV8",
+      "source_title": "Hard Surface Tutorial for Blender - Boolean Workflow",
+      "channel": "Ryuu - Blender Bros",
+      "detail_path": "material_shader/procedural_hard_surface_mechanical_frame_5b512a90/skill.json"
+    },
+    {
+      "skill_id": "non_destructive_hard_surface_remesh_work_18691842",
+      "skill_name": "Non-Destructive Hard Surface Remesh Workflow",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=hC7EeqhKiak",
+      "source_title": "Blender - Hard Surface Remesh Workflow",
+      "channel": "PzThree",
+      "detail_path": "material_shader/non_destructive_hard_surface_remesh_work_18691842/skill.json"
+    },
+    {
+      "skill_id": "procedural_path_following_cinematic_came_b14f87a3",
+      "skill_name": "Procedural Path-Following Cinematic Camera Rig",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=r9i6g-pToVM",
+      "source_title": "Blender 3.3 Camera Controls And Animation Tutorial",
+      "channel": "MK Graphics",
+      "detail_path": "animation/procedural_path_following_cinematic_came_b14f87a3/skill.json"
+    },
+    {
+      "skill_id": "stylized_eevee_lighting_fake_bounce_and__5c7f8b77",
+      "skill_name": "Stylized EEVEE Lighting: Fake Bounce and Terminator Bleed",
+      "category": "lighting",
+      "source_video": "https://www.youtube.com/watch?v=pLMF9lGmhLQ",
+      "source_title": "Eevee Lighting Tips - Blender",
+      "channel": "Artof JoseVega",
+      "detail_path": "lighting/stylized_eevee_lighting_fake_bounce_and__5c7f8b77/skill.json"
+    },
+    {
+      "skill_id": "procedural_cinematic_environment_rig_atm_cfde8a0d",
+      "skill_name": "Procedural Cinematic Environment Rig (Atmosphere, Sky & Gobos)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=c3FnWQTMo9s",
+      "source_title": "How to get good lighting in blender",
+      "channel": "Max Hay",
+      "detail_path": "material_shader/procedural_cinematic_environment_rig_atm_cfde8a0d/skill.json"
+    },
+    {
+      "skill_id": "parametric_three_point_studio_lighting_1d070c1f",
+      "skill_name": "Parametric Three-Point Studio Lighting",
+      "category": "lighting",
+      "source_video": "https://www.youtube.com/watch?v=o0uc4sRArjE",
+      "source_title": "Blender 3D - Lighting for Beginners",
+      "channel": "SouthernShotty",
+      "detail_path": "lighting/parametric_three_point_studio_lighting_1d070c1f/skill.json"
+    },
+    {
+      "skill_id": "optimized_composite_hdri_environment_set_09bef253",
+      "skill_name": "Optimized Composite HDRI Environment Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=cu5oTHfeiSY",
+      "source_title": "Photorealistic Lighting in Interior Design (Blender Tutorial)",
+      "channel": "CG Arch ",
+      "detail_path": "material_shader/optimized_composite_hdri_environment_set_09bef253/skill.json"
+    },
+    {
+      "skill_id": "stylized_anime_surface_the_comfee_cel_sh_970fa139",
+      "skill_name": "Stylized Anime Surface (The \"Comfee\" Cel-Shader Pattern)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=YHCWITJ6HDc",
+      "source_title": "My TOP 3 TIPS For Stylized Shaders In Blender [EEVEE] - Comfee Tutorial",
+      "channel": "Comfee Mug",
+      "detail_path": "material_shader/stylized_anime_surface_the_comfee_cel_sh_970fa139/skill.json"
+    },
+    {
+      "skill_id": "optimized_interior_window_lighting_porta_eb1cc784",
+      "skill_name": "Optimized Interior Window Lighting (Portals & Shadowless Materials)",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=dLZEmfqob7k",
+      "source_title": "Optimize interior Renderings in Blender Cycles",
+      "channel": "rileyb3d",
+      "detail_path": "material_shader/optimized_interior_window_lighting_porta_eb1cc784/skill.json"
+    },
+    {
+      "skill_id": "hybrid_procedural_artificial_lighting_se_534f18ba",
+      "skill_name": "Hybrid Procedural & Artificial Lighting Setup",
+      "category": "material_shader",
+      "source_video": "https://www.youtube.com/watch?v=OMDbdEBqfg8",
+      "source_title": "4 Steps to Master Photorealistic Lighting in Blender",
+      "channel": "Chaos for Media & Entertainment and V-Ray ArchViz",
+      "detail_path": "material_shader/hybrid_procedural_artificial_lighting_se_534f18ba/skill.json"
+    },
+    {
+      "skill_id": "procedural_character_sculpting_blockout_43730211",
+      "skill_name": "Procedural Character Sculpting Blockout",
+      "category": "organic",
+      "source_video": "https://www.youtube.com/watch?v=J2_uiUEcY7w",
+      "source_title": "Blocking Out - Blender Character Sculpt Tutorial part 1",
+      "channel": "Bran Sculpts",
+      "detail_path": "organic/procedural_character_sculpting_blockout_43730211/skill.json"
+    }
+  ]
+}

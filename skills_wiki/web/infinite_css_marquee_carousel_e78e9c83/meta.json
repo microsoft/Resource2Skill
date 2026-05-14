@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for dynamically displaying continuous streams of content like client logos, testimonials, or feature highlights. It efficiently showcases multiple items in a compact space without requiring user interaction, making content feel dynamic and alive.",
+  "category_path": [
+    "components",
+    "carousel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "infinite_css_marquee_carousel_e78e9c83",
+  "skill_name": "Infinite CSS Marquee Carousel",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 240,
+    "type": "youtube",
+    "video_id": "KD1Yo8a_Qis",
+    "video_title": "Build Infinite Carousel Animations in 4 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=KD1Yo8a_Qis",
+    "views": 169242
+  },
+  "tags": [
+    "css animation",
+    "flexbox",
+    "carousel",
+    "marquee",
+    "scrolling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:40:51Z",
+  "wash_version": "1.0.0"
+}

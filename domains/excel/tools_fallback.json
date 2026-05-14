@@ -1,0 +1,272 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "create_workbook",
+      "description": "Create an in-memory openpyxl workbook. Returns workbook_id (use it for all subsequent calls). Optional theme is applied to shells/components when not overridden.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string", "description": "Human label, e.g. 'quarterly_report'"},
+          "theme": {"type": "string", "description": "Theme name (corporate_blue|dark_finance|clean_minimal|warm_report|kpi_traffic|ocean_calm). Default empty string."}
+        },
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "save_workbook",
+      "description": "Save the workbook to demo/excel/. Path must resolve under demo/excel/.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workbook_id": {"type": "string"},
+          "filepath": {"type": "string", "description": "Path under demo/excel/, e.g. demo/excel/report.xlsx"}
+        },
+        "required": ["workbook_id", "filepath"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_workbook_info",
+      "description": "Return live workbook metadata: sheets, row/col counts, charts, tables.",
+      "parameters": {
+        "type": "object",
+        "properties": {"workbook_id": {"type": "string"}},
+        "required": ["workbook_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "verify_workbook",
+      "description": "Re-open a saved .xlsx and report structural verification: sheet list, rows/cols, charts, tables, warnings (empty sheets, etc).",
+      "parameters": {
+        "type": "object",
+        "properties": {"filepath": {"type": "string"}},
+        "required": ["filepath"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "execute_xlsx_code",
+      "description": "Run arbitrary openpyxl code against the live workbook. Pre-injected names: wb, Font, PatternFill, Alignment, Border, Side, BarChart, LineChart, PieChart, ScatterChart, AreaChart, Reference, ColorScaleRule, CellIsRule, FormulaRule, IconSetRule, DataBarRule, Table, TableStyleInfo, get_column_letter, column_index_from_string, copy_style, token(kind, name).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workbook_id": {"type": "string"},
+          "code": {"type": "string", "description": "openpyxl Python source"},
+          "from_skill_ids": {"type": "string", "description": "JSON/comma list of inspected wiki skill ids adapted by this code."},
+          "target_node": {"type": "string", "description": "Sheet/block/role target, or JSON/comma list for multiple grounded sections."},
+          "adaptation_notes": {"type": "string", "description": "Short note describing the concrete mechanisms borrowed from the skills."}
+        },
+        "required": ["workbook_id", "code"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_tokens",
+      "description": "List token names under a given kind directory.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "kind": {"type": "string", "enum": ["themes", "format_presets", "chart_templates", "formulas", "cell_techniques"]}
+        },
+        "required": ["kind"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_palette_preset",
+      "description": "Return a theme palette JSON (header_bg, header_fg, accent, etc).",
+      "parameters": {
+        "type": "object",
+        "properties": {"name": {"type": "string"}},
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_format_preset",
+      "description": "Return a number-format preset JSON (e.g. currency_usd, percent_signed, kpi_traffic).",
+      "parameters": {
+        "type": "object",
+        "properties": {"name": {"type": "string"}},
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_chart_template",
+      "description": "Return a chart template JSON (chart_type, style, axis fonts, gridlines, default size).",
+      "parameters": {
+        "type": "object",
+        "properties": {"name": {"type": "string"}},
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_formula_snippet",
+      "description": "Return a formula pattern JSON with {placeholders}.",
+      "parameters": {
+        "type": "object",
+        "properties": {"name": {"type": "string"}},
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_component",
+      "description": "Apply a tier-3 component (KPI strip, header band, summary row, themed chart, etc.) at a cell anchor on a worksheet.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workbook_id": {"type": "string"},
+          "sheet_name": {"type": "string"},
+          "anchor": {"type": "string", "description": "Top-left cell, e.g. 'B2'"},
+          "component_id": {"type": "string", "description": "File stem under skills_library/excel/components/"},
+          "kwargs_json": {"type": "string", "description": "JSON-encoded kwargs for the component's render(ws, anchor, **kw) function"}
+        },
+        "required": ["workbook_id", "sheet_name", "anchor", "component_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_sheet_from_shell",
+      "description": "Add a tier-4 sheet shell (full sheet skeleton: title + data + chart + table) to the workbook.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workbook_id": {"type": "string"},
+          "shell_id": {"type": "string"},
+          "sheet_name": {"type": "string"},
+          "kwargs_json": {"type": "string", "description": "JSON-encoded kwargs for shell.render_sheet(wb, sheet_name, **kw)"}
+        },
+        "required": ["workbook_id", "shell_id", "sheet_name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "init_from_archetype",
+      "description": "Build a multi-sheet workbook from a tier-5 archetype (e.g. quarterly_report, financial_model).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workbook_id": {"type": "string"},
+          "archetype_id": {"type": "string"},
+          "kwargs_json": {"type": "string", "description": "JSON-encoded kwargs for archetype.render_workbook(wb, **kw)"}
+        },
+        "required": ["workbook_id", "archetype_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_skills",
+      "description": "Browse the skill library. Filter by tier (token|component|sheet_shell|archetype), category, or theme.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "tier": {"type": "string", "description": "token|component|sheet_shell|archetype (or empty for all)"},
+          "category": {"type": "string"},
+          "theme": {"type": "string"},
+          "limit": {"type": "integer"}
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_info",
+      "description": "Return full metadata for a skill (description, applicability, parameters).",
+      "parameters": {
+        "type": "object",
+        "properties": {"skill_id": {"type": "string"}},
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_code",
+      "description": "Return the .py source of a tier-3/4/5 skill so the agent can read technique and replicate.",
+      "parameters": {
+        "type": "object",
+        "properties": {"skill_id": {"type": "string"}},
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "search_skills",
+      "description": "Search wiki skills by task keywords, optionally filtered by tier or category_path.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string"},
+          "tier": {"type": "string", "description": "T1|T2|T3|T4|T5 or legacy aliases token|component|sheet_shell|archetype"},
+          "category_path": {"type": "string"},
+          "k": {"type": "integer"}
+        },
+        "required": ["query"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_visual",
+      "description": "Return the visual reference path for a wiki skill and attach it to the model when available.",
+      "parameters": {
+        "type": "object",
+        "properties": {"skill_id": {"type": "string"}},
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_skill",
+      "description": "Apply a wiki T3/T4/T5 skill to a workbook target through the domain capability matrix.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {"type": "string"},
+          "target_id": {"type": "string", "description": "workbook_id"},
+          "kwargs_json": {"type": "string", "description": "JSON-encoded kwargs"}
+        },
+        "required": ["skill_id", "target_id"]
+      }
+    }
+  }
+]

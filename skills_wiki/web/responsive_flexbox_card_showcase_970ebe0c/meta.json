@@ -1,0 +1,36 @@
+{
+  "applicability": "This ubiquitous pattern is ideal for feature showcases, pricing tiers, portfolio galleries, product grids, and dashboard widget layouts, providing intrinsically responsive layouts.",
+  "category_path": [
+    "layout",
+    "cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_card_showcase_970ebe0c",
+  "skill_name": "Responsive Flexbox Card Showcase",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1237,
+    "type": "youtube",
+    "video_id": "wsTv9y931o8",
+    "video_title": "Learn CSS Flexbox in 20 Minutes (Course)",
+    "video_url": "https://www.youtube.com/watch?v=wsTv9y931o8",
+    "views": 1042943
+  },
+  "tags": [
+    "flexbox",
+    "responsive",
+    "cards",
+    "grid",
+    "layout",
+    "ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:06:42Z",
+  "wash_version": "1.0.0"
+}

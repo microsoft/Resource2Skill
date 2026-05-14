@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for corporate, business, and educational presentations where clarity and narrative flow are paramount. The minimalist design supports the speaker's message without visual distraction.",
+  "category_path": [
+    "presentation_design",
+    "narrative_structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "structured_narrative_framework_7014d807",
+  "skill_name": "Structured Narrative Framework",
+  "source": {
+    "channel": "HubSpot Marketing",
+    "duration_sec": 308,
+    "type": "youtube",
+    "video_id": "grJ0FbpfvOw",
+    "video_title": "How to Make a Good PowerPoint Presentation (Tips)",
+    "video_url": "https://www.youtube.com/watch?v=grJ0FbpfvOw",
+    "views": 1069443
+  },
+  "tags": [
+    "minimalist",
+    "narrative",
+    "corporate",
+    "professional",
+    "typography"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:17:36Z",
+  "wash_version": "1.0.0"
+}

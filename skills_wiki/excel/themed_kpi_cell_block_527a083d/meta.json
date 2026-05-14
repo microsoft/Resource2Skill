@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_cell_block_527a083d",
+  "skill_name": "Themed KPI Cell Block",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 104,
+          "description": "Asia KPI with revenue value displayed"
+        },
+        {
+          "seconds": 130,
+          "description": "Completed Asia KPI with revenue and market share percentage"
+        },
+        {
+          "seconds": 201,
+          "description": "Grouped Asia KPI demonstrating movable unit"
+        },
+        {
+          "seconds": 317,
+          "description": "Completed Total Revenue KPI built via SmartArt and shapes"
+        }
+      ],
+      "frames": [
+        "frame_00_asia_kpi_with_revenue_value_di.jpg",
+        "frame_01_completed_asia_kpi_with_revenu.jpg",
+        "frame_02_grouped_asia_kpi_demonstrating.jpg"
+      ],
+      "recapped_at": 1777407702.4243245
+    },
+    "primary_path": "frame_00_asia_kpi_with_revenue_value_di.jpg"
+  }
+}

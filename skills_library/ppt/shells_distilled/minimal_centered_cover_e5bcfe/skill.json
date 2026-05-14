@@ -1,0 +1,64 @@
+{
+  "skill_id": "minimal_centered_cover_e5bcfe",
+  "skill_type": "shell",
+  "name": "Minimal Centered Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "title+subtitle"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "clean"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_centered_cover_e5bcfe/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "off_canvas_geometric_masking_4e155db3",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A clean, minimal cover or section divider with a centered headline and optional subtitle, maximizing whitespace for a modern corporate look.",
+  "_distill_attempts": 1
+}

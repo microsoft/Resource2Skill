@@ -1,0 +1,31 @@
+{
+  "applicability": "Ideal for beat drops, intros, arena rap anthems, and pop-rap crossovers, this skill provides a triumphant, larger-than-life energy for any track.",
+  "category_path": [
+    "hip_hop",
+    "arrangement"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kanye_west_stadium_hip_hop_anthem_gradua_3f8a7f31",
+  "skill_name": "Kanye West: Stadium Hip-Hop Anthem (Graduation Style)",
+  "source": {
+    "type": "youtube",
+    "video_title": "Kanye West production tutorial"
+  },
+  "tags": [
+    "stadium hip-hop",
+    "synth anthem",
+    "evolving drums",
+    "layered bass",
+    "arena rap",
+    "kanye style"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:04:05Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to display two different data series that share a common category axis (e.g., time) but have different value scales. This is ideal for showing the correlation between a volume metric (bars) and a rate or percentage metric (line).",
+  "category_path": [
+    "charts",
+    "combo_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_metric_combo_chart_overlay_dual_ax_5165c213",
+  "skill_name": "Dual-Axis Bar and Line Chart",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 182,
+    "type": "youtube",
+    "video_id": "zRoUmGh7teU",
+    "video_title": "Secrets of Combining Charts in Powerpoint : The Art of Clearer Communication",
+    "video_url": "https://www.youtube.com/watch?v=zRoUmGh7teU",
+    "views": 2623
+  },
+  "tags": [
+    "combo chart",
+    "dual-axis",
+    "correlation",
+    "bar chart",
+    "line chart",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:56Z",
+  "wash_version": "1.0.0"
+}

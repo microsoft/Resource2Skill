@@ -1,0 +1,61 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "attribute_driven_multi_modal_system_1bff0f95",
+  "skill_name": "Attribute-Driven Multi-Modal System",
+  "source": {
+    "channel": "Marc Hinton",
+    "duration_sec": 938,
+    "type": "youtube",
+    "video_id": "3m5xMCvkLco",
+    "video_title": "The BEST Way to Build a Popup Modal! [HTML,CSS,JS]",
+    "video_url": "https://www.youtube.com/watch?v=3m5xMCvkLco",
+    "views": 710
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Demonstration of the completed modal system with multiple modals."
+        },
+        {
+          "seconds": 300,
+          "description": "Initial HTML content for the profile modal visible on the page."
+        },
+        {
+          "seconds": 702,
+          "description": "Profile modal displayed with dark transparent overlay and white content box."
+        },
+        {
+          "seconds": 1496,
+          "description": "Final application with two buttons, 'Open Profile' and 'Open Login', demonstrating their respective functional modals."
+        }
+      ],
+      "frames": [
+        "frame_00_demonstration_of_the_completed.jpg",
+        "frame_01_initial_html_content_for_the_p.jpg",
+        "frame_02_profile_modal_displayed_with_d.jpg"
+      ],
+      "recapped_at": 1777408747.2136822
+    },
+    "primary_path": "frame_00_demonstration_of_the_completed.jpg"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for modern dashboard widgets, floating modals, hero section boxes, and profile cards over visually rich backgrounds. It provides a tactile, premium depth effect while maintaining text legibility.",
+  "category_path": [
+    "ui_components",
+    "cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_frosted_card_ce20446e",
+  "skill_name": "Glassmorphism Frosted Card",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 127,
+    "type": "youtube",
+    "video_id": "n77yqF5fdBE",
+    "video_title": "Create a glass effect in CSS (Glassmorphism)",
+    "video_url": "https://www.youtube.com/watch?v=n77yqF5fdBE",
+    "views": 33472
+  },
+  "tags": [
+    "glassmorphism",
+    "frosted-glass",
+    "backdrop-filter",
+    "card-ui",
+    "blur-effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:29Z",
+  "wash_version": "1.0.0"
+}

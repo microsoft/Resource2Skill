@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_low_poly_stone_ring__linear_t_410e3272",
+  "skill_name": "Procedural Low-Poly Stone Ring (Linear-to-Radial Deformation)",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=QPh8h0hWkg0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:38Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "Ideal for presenting a direct, side-by-side comparison of two products, services, or concepts, highlighting their features and differences.",
+  "category_path": [
+    "comparison"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "comparison_split_2e840c",
+  "skill_name": "Comparison Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "comparison",
+    "side-by-side",
+    "product_features",
+    "metrics",
+    "dual-panel"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:05:25Z",
+  "wash_version": "1.0.0"
+}

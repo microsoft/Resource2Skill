@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for SaaS landing page hero sections, integration showcase blocks, or data pipeline visualizations. Transforms static app constellations into a living, breathing network system.",
+  "category_path": [
+    "animation",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_orbital_ecosystem_c550978a",
+  "skill_name": "Neon Orbital Ecosystem",
+  "source": {
+    "channel": "LottieFiles",
+    "duration_sec": 109,
+    "type": "youtube",
+    "video_id": "A_sjNPSA4kg",
+    "video_title": "What is Lottie?",
+    "video_url": "https://www.youtube.com/watch?v=A_sjNPSA4kg",
+    "views": 72627
+  },
+  "tags": [
+    "neon",
+    "orbit",
+    "ecosystem",
+    "css_animation",
+    "saas"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:40Z",
+  "wash_version": "1.0.0"
+}

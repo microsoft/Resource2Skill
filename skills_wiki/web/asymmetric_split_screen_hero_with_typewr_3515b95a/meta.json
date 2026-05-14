@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for personal portfolios, freelancer landing pages, and interactive digital business cards to introduce individuals with dynamic flair.",
+  "category_path": [
+    "layout",
+    "hero",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_split_screen_hero_with_typewr_3515b95a",
+  "skill_name": "Asymmetric Split-Screen Hero with Typewriter Effect",
+  "source": {
+    "channel": "PinoyFreeCoder",
+    "duration_sec": 1921,
+    "type": "youtube",
+    "video_id": "oQsIsOGs-Q8",
+    "video_title": "Creating a One Page Portfolio Landing Page using HTML,CSS and JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=oQsIsOGs-Q8",
+    "views": 2905
+  },
+  "tags": [
+    "split screen",
+    "hero section",
+    "typewriter",
+    "portfolio",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:19:09Z",
+  "wash_version": "1.0.0"
+}

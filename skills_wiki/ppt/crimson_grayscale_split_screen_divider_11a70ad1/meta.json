@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this skill to create a striking visual break for chapter titles or major section transitions. It is ideal for corporate reports, business plans, or bold marketing presentations to signal a shift in topic.",
+  "category_path": [
+    "layout",
+    "divider"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "crimson_grayscale_split_screen_divider_11a70ad1",
+  "skill_name": "Color & Grayscale Split-Screen Divider",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 352,
+    "type": "youtube",
+    "video_id": "jvvcw3WKdQM",
+    "video_title": "\u3010PPT\u6a21\u677f\u8bbe\u8ba1\u3011\u8fd8\u62ff\u4e0d\u51c6\u5927\u6c14\u5546\u52a1\u98ce\u683c\uff1f\u770b\u8fd9\u4e2a\u89c6\u9891\u5c31\u660e\u767d\u4e86\u3002",
+    "video_url": "https://www.youtube.com/watch?v=jvvcw3WKdQM",
+    "views": 178
+  },
+  "tags": [
+    "divider",
+    "split screen",
+    "section break",
+    "contrast",
+    "layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:07:42Z",
+  "wash_version": "1.0.0"
+}

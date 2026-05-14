@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_bounce_css_page_loader_6af1625e",
+  "source": {
+    "channel": "dcode",
+    "duration_sec": 689,
+    "type": "youtube",
+    "video_id": "poaGij1gvqk",
+    "video_title": "Modern CSS Only Page Loading Animation (Web Design Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=poaGij1gvqk",
+    "views": 7209
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

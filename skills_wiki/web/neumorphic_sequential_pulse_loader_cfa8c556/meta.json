@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for modern web applications, dashboards, or portfolios that require a distinctive, tactile loading indicator. Functions well as a full-screen transition loader or a status indicator for complex operations.",
+  "category_path": [
+    "ui",
+    "indicator",
+    "loader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_sequential_pulse_loader_cfa8c556",
+  "skill_name": "Neumorphic Sequential Pulse Loader",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 320,
+    "type": "youtube",
+    "video_id": "nHY5zlTccvM",
+    "video_title": "CSS Neumorphism Animation Effects | How to Make CSS Website Animation",
+    "video_url": "https://www.youtube.com/watch?v=nHY5zlTccvM",
+    "views": 22143
+  },
+  "tags": [
+    "neumorphism",
+    "loader",
+    "css animation",
+    "css shadows",
+    "loading indicator"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:32Z",
+  "wash_version": "1.0.0"
+}

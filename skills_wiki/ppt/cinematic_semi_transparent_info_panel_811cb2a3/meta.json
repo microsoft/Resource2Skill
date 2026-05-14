@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_semi_transparent_info_panel_811cb2a3",
+  "skill_name": "Cinematic Semi-Transparent Info Panel",
+  "source": {
+    "channel": "30X40 Design Workshop",
+    "duration_sec": 1164,
+    "type": "youtube",
+    "video_id": "k4dVgbuxBAw",
+    "video_title": "Architecture Short Course: How to Develop a Design Concept",
+    "video_url": "https://www.youtube.com/watch?v=k4dVgbuxBAw",
+    "views": 2575831
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:59:27Z",
+  "wash_version": "1.0.0"
+}

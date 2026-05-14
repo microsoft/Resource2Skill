@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for visualizing processes, cycles, or components of a central theme, presenting eight distinct items around a focal point. Use it to detail features, metrics, or stages in a clear, segmented circular layout.",
+  "category_path": [
+    "diagrams",
+    "circular_process"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_8_part_circular_process_53ad3e",
+  "skill_name": "8-Part Circular Process",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "process",
+    "circular",
+    "8-segment",
+    "infographic",
+    "donut chart",
+    "metrics"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:20Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "vanilla_interactive_dom_component_fundam_5322f9c8",
+  "source": {
+    "channel": "devdojo",
+    "duration_sec": 1909,
+    "type": "youtube",
+    "video_id": "_GTMOmRrqkU",
+    "video_title": "HTML, CSS, and Javascript in 30 minutes",
+    "video_url": "https://www.youtube.com/watch?v=_GTMOmRrqkU",
+    "views": 773475
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

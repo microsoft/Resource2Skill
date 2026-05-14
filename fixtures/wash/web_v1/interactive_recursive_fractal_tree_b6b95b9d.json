@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_recursive_fractal_tree_b6b95b9d",
+  "source": {
+    "channel": " Code with Scriptify Studio",
+    "duration_sec": 285,
+    "type": "youtube",
+    "video_id": "Jw04YklJD-0",
+    "video_title": "Interactive Recursive Tree Growth Animation | HTML Canvas + JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=Jw04YklJD-0",
+    "views": 34
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

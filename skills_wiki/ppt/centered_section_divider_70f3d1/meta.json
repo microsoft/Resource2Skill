@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating clear, impactful section dividers within a presentation, providing a visual break and introducing new topics with a clean, focused design.",
+  "category_path": [
+    "slide_layouts",
+    "section_divider"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_section_divider_70f3d1",
+  "skill_name": "Centered Section Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section divider",
+    "minimal",
+    "centered",
+    "title",
+    "subtitle",
+    "image"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:03:42Z",
+  "wash_version": "1.0.0"
+}

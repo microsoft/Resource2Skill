@@ -1,0 +1,273 @@
+def create_component(
+    output_dir: str,
+    title_text: str = "Mushroom Guide",
+    body_text: str = "Explore different species with our auto-responsive grid.",
+    color_scheme: str = "dark",        
+    accent_color: str = "#4caf50",     
+    width_px: int = 1200,
+    height_px: int = 800,
+    **kwargs,
+) -> dict:
+    """
+    Create a web component reproducing the Auto-Responsive Fluid CSS Grid layout.
+    """
+    import os
+    import json
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    if color_scheme == "dark":
+        bg_color = "#121212"
+        surface_color = "#1e1e1e"
+        border_color = "#333333"
+        text_color = "#e0e0e0"
+        text_muted = "#aaaaaa"
+    else:
+        bg_color = "#f4f4f5"
+        surface_color = "#ffffff"
+        border_color = "#e4e4e7"
+        text_color = "#18181b"
+        text_muted = "#71717a"
+
+    # Card data to populate the grid
+    cards = [
+        {"title": "Chanterelle", "tag": "edible", "tag_color": accent_color, "desc": "Golden-yellow, funnel-shaped mushroom with false gills."},
+        {"title": "Morel", "tag": "spring", "tag_color": "#2196f3", "desc": "Distinctive honeycomb-like cap structure."},
+        {"title": "Death Cap", "tag": "toxic", "tag_color": "#f44336", "desc": "Pale green to white cap with white gills. Extremely toxic."},
+        {"title": "Lion's Mane", "tag": "edible", "tag_color": accent_color, "desc": "White, shaggy appearance like a lion's mane."},
+        {"title": "Oyster Mushroom", "tag": "beginner", "tag_color": "#ff9800", "desc": "Fan-shaped caps growing in clusters. Great for beginners."},
+        {"title": "Destroying Angel", "tag": "toxic", "tag_color": "#f44336", "desc": "Pure white mushroom with a sack-like base. Deadly."},
+    ]
+
+    # Generate Card HTML
+    cards_html = ""
+    for card in cards:
+        cards_html += f"""
+        <article class="card">
+            <div class="card-header">
+                <h2>{card['title']}</h2>
+                <span class="tag" style="background-color: {card['tag_color']}20; color: {card['tag_color']}; border: 1px solid {card['tag_color']}40;">
+                    {card['tag']}
+                </span>
+            </div>
+            <p class="card-desc">{card['desc']}</p>
+        </article>"""
+
+    css = f"""/* Auto-Responsive CSS Grid Component */
+:root {{
+    --bg: {bg_color};
+    --surface: {surface_color};
+    --border: {border_color};
+    --text: {text_color};
+    --text-muted: {text_muted};
+    --accent: {accent_color};
+}}
+
+* {{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
+
+body {{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 2rem;
+}}
+
+.page-container {{
+    max-width: {width_px}px;
+    margin: 0 auto;
+}}
+
+header {{
+    margin-bottom: 2rem;
+}}
+
+header h1 {{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}}
+
+header p {{
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}}
+
+/* =========================================
+   THE MAGIC GRID FORMULA
+   ========================================= */
+.auto-grid {{
+    /* Variables allow easy override per-instance */
+    --grid-min-col-size: 275px;
+    --grid-gap: 1.5rem;
+
+    display: grid;
+    gap: var(--grid-gap);
+    
+    /* 
+      1. auto-fill: Creates as many columns as will fit.
+      2. minmax: Columns flex between a minimum size and 1fr (equal fraction of remaining space).
+      3. min(..., 100%): If viewport is smaller than 275px, it caps the width at 100% to prevent overflow.
+    */
+    grid-template-columns: repeat(
+        auto-fill, 
+        minmax(min(var(--grid-min-col-size), 100%), 1fr)
+    );
+}}
+
+/* Component Styling */
+.card {{
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}}
+
+.card:hover {{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: var(--accent);
+}}
+
+.card-header {{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}}
+
+.card-header h2 {{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+}}
+
+.tag {{
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    white-space: nowrap;
+}}
+
+.card-desc {{
+    color: var(--text-muted);
+    line-height: 1.5;
+    font-size: 0.95rem;
+}}
+
+/* Controls for Demo */
+.controls {{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}}
+
+select, input {{
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 0.5rem;
+    border-radius: 4px;
+}}
+"""
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title_text}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <h1>{title_text}</h1>
+            <p>{body_text}</p>
+        </header>
+
+        <div class="controls">
+            <label>
+                Grid Behavior:
+                <select id="behavior-toggle">
+                    <option value="auto-fill">auto-fill (Maintains size, leaves empty gaps)</option>
+                    <option value="auto-fit">auto-fit (Stretches items to fill row)</option>
+                </select>
+            </label>
+            <label>
+                Min Column Size:
+                <input type="range" id="size-slider" min="150" max="400" value="275">
+                <span id="size-readout">275px</span>
+            </label>
+            <button id="remove-btn" style="padding: 0.5rem; background: var(--border); border: none; border-radius: 4px; color: var(--text); cursor: pointer;">Remove a Card</button>
+        </div>
+
+        <main class="auto-grid" id="grid">
+            {cards_html}
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>"""
+
+    js = f"""document.addEventListener('DOMContentLoaded', () => {{
+    const grid = document.getElementById('grid');
+    const behaviorToggle = document.getElementById('behavior-toggle');
+    const sizeSlider = document.getElementById('size-slider');
+    const sizeReadout = document.getElementById('size-readout');
+    const removeBtn = document.getElementById('remove-btn');
+
+    // Toggle between auto-fill and auto-fit to demonstrate the difference
+    behaviorToggle.addEventListener('change', (e) => {{
+        const behavior = e.target.value;
+        const currentSize = sizeSlider.value;
+        grid.style.gridTemplateColumns = `repeat(${{behavior}}, minmax(min(${{currentSize}}px, 100%), 1fr))`;
+    }});
+
+    // Adjust the CSS custom property for column size
+    sizeSlider.addEventListener('input', (e) => {{
+        const newSize = e.target.value;
+        sizeReadout.textContent = `${{newSize}}px`;
+        grid.style.setProperty('--grid-min-col-size', `${{newSize}}px`);
+    }});
+
+    // Remove cards to demonstrate how auto-fill vs auto-fit handles sparse rows
+    removeBtn.addEventListener('click', () => {{
+        if (grid.lastElementChild) {{
+            grid.removeChild(grid.lastElementChild);
+        }}
+        if (grid.children.length === 0) {{
+            removeBtn.disabled = true;
+        }}
+    }});
+}});
+"""
+
+    files = []
+    for fname, content in [("index.html", html), ("style.css", css), ("script.js", js)]:
+        path = os.path.join(output_dir, fname)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        files.append(path)
+
+    return {
+        "html": html,
+        "css": css,
+        "js": js,
+        "files": files,
+    }

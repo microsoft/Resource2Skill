@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_formula_driven_gantt_chart_0aa54718",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 934,
+    "type": "youtube",
+    "video_id": "vTbW8aNnWwY",
+    "video_title": "The Excel Gantt Chart That Replaces Your Project Management Tool",
+    "video_url": "https://www.youtube.com/watch?v=vTbW8aNnWwY",
+    "views": 56583
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,29 @@
+{
+  "applicability": "Calculates the percentage change between two sequential values, such as month-over-month sales or year-over-year profit. This is essential for trend analysis and tracking business performance.",
+  "category_path": [
+    "formulas",
+    "financial"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "growth_pct_88ed96a0",
+  "skill_name": "Period-over-Period Growth Percentage",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "growth rate",
+    "percentage change",
+    "period-over-period",
+    "variance analysis",
+    "financial modeling"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T09:01:56Z",
+  "wash_version": "1.0.0"
+}

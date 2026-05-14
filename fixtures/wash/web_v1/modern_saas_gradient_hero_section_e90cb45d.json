@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_saas_gradient_hero_section_e90cb45d",
+  "source": {
+    "channel": "Salman Designs ",
+    "duration_sec": 3250,
+    "type": "youtube",
+    "video_id": "5f4V6Y6WKyE",
+    "video_title": "Figma Tutorial: Clean B2B SaaS Landing Page Design + Free Resources | White Mode Professional UI",
+    "video_url": "https://www.youtube.com/watch?v=5f4V6Y6WKyE",
+    "views": 2172
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

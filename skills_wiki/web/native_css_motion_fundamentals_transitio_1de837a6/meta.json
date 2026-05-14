@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_motion_fundamentals_transitio_1de837a6",
+  "skill_name": "Native CSS Motion Fundamentals (Transitions & Keyframes)",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 125,
+    "type": "youtube",
+    "video_id": "HZHHBwzmJLk",
+    "video_title": "CSS Animation in 100 Seconds",
+    "video_url": "https://www.youtube.com/watch?v=HZHHBwzmJLk",
+    "views": 400264
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:04:50Z",
+  "wash_version": "1.0.0"
+}

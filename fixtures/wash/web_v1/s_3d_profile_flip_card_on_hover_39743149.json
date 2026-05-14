@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_profile_flip_card_on_hover_39743149",
+  "source": {
+    "channel": "Next Coding",
+    "duration_sec": 919,
+    "type": "youtube",
+    "video_id": "bigf5YYH-nk",
+    "video_title": "3D Flip Card Effect On Hover - HTML and CSS only",
+    "video_url": "https://www.youtube.com/watch?v=bigf5YYH-nk",
+    "views": 1033
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

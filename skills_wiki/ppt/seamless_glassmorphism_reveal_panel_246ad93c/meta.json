@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_glassmorphism_reveal_panel_246ad93c",
+  "skill_name": "Seamless Glassmorphism Reveal Panel",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 192,
+    "type": "youtube",
+    "video_id": "KJakkIC6gvg",
+    "video_title": "How to Create Glassmorphism Effect in PowerPoint | Blur Glass UI + Morph Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=KJakkIC6gvg",
+    "views": 65
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:42:40Z",
+  "wash_version": "1.0.0"
+}

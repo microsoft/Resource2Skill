@@ -1,0 +1,5 @@
+{
+  "example": "=B3-C3",
+  "pattern": "={actual}-{target}",
+  "result_format": "kpi_traffic"
+}

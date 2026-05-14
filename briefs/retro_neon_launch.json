@@ -1,0 +1,26 @@
+{
+  "variant_id": "retro_neon_launch",
+  "out_dirname": "retro_neon_launch",
+  "title": "NEONWAVE — the retro synth every producer has been waiting for",
+  "audience": "music-tech product launch video for bedroom producers + synth heads",
+  "tone_words": ["bold", "cinematic", "punchy", "playful"],
+  "archetype_preference": "brand",
+  "mood_preference": ["cinematic", "bold", "punchy", "playful"],
+  "mode_preference": "dark",
+  "n_slides": 10,
+  "role_prefer": ["cover", "hero_giant_metric", "hero_quote",
+                   "feature_grid", "comparison_split", "closing_cta"],
+  "role_avoid": ["agenda", "metric_dashboard"],
+  "dense_quota": 1,
+  "core_points": [
+    "massive cover moment: NEONWAVE name + tagline 'analog soul, digital brain'",
+    "hero stat: 4096 wavetables, 24-voice polyphony, sub-3ms latency",
+    "four signature features with bold icons: vintage filter models, granular engine, modulation matrix, built-in tape saturation",
+    "before/after sound comparison: what a lead line sounds like through stock plugins vs NEONWAVE",
+    "iconic user quote from a well-known producer about how it changed their workflow",
+    "hero stat #2: 72 factory presets crafted by 12 genre-leading artists",
+    "compatibility matrix: VST3, AU, AAX, standalone — and the DAWs it ships tuned for",
+    "launch price with anchor (normally $299 -> $179 launch week)",
+    "final hero moment: 'grab NEONWAVE today' CTA with bold URL"
+  ]
+}

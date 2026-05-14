@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "algorithmic_midi_generator_reanspiration_eef32339",
+  "skill_name": "Algorithmic MIDI Generator (Reanspiration Emulation)",
+  "source": {
+    "channel": "Learning Reaper",
+    "duration_sec": 808,
+    "type": "youtube",
+    "video_id": "k-ifO3my6rA",
+    "video_title": "Make Professional Chord Progressions in Reaper With ONE Tool!",
+    "video_url": "https://www.youtube.com/watch?v=k-ifO3my6rA",
+    "views": 6778
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:27Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_soft_ui_list_af182968",
+  "skill_name": "Asymmetric Soft-UI List",
+  "source": {
+    "channel": "SlideBazaar - PowerPoint Tutorials",
+    "duration_sec": 580,
+    "type": "youtube",
+    "video_id": "jO1Zlik4MI8",
+    "video_title": "How to Create a Table of Contents Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=jO1Zlik4MI8",
+    "views": 294
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:21:33Z",
+  "wash_version": "1.0.0"
+}

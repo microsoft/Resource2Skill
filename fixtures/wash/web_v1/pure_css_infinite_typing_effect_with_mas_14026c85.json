@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_infinite_typing_effect_with_mas_14026c85",
+  "source": {
+    "channel": "DarkCode",
+    "duration_sec": 346,
+    "type": "youtube",
+    "video_id": "R3UGK1RhY6I",
+    "video_title": "Typing Text Animation Using Only HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=R3UGK1RhY6I",
+    "views": 63293
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetrical_waveform_correction_headroo_6cfc9489",
+  "skill_name": "Asymmetrical Waveform Correction & Headroom Recovery",
+  "source": {
+    "channel": "No Label, No Producer, No Limits",
+    "duration_sec": 1055,
+    "type": "youtube",
+    "video_id": "nr55NRgULLU",
+    "video_title": "Asymmetrical Waveforms",
+    "video_url": "https://www.youtube.com/watch?v=nr55NRgULLU",
+    "views": 2574
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:10Z",
+  "wash_version": "1.0.0"
+}

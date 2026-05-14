@@ -1,0 +1,121 @@
+{
+  "theme_id": "primer_canvas",
+  "name": "Primer Canvas",
+  "origin": "web_distilled",
+  "source_url": "https://primer.style/foundations/color",
+  "source_title": "GitHub Primer Color",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#FFFFFF",
+    "panel": "#F6F8FA",
+    "accent": "#0969DA",
+    "accent2": "#218BFF",
+    "text": "#1F2328",
+    "muted": "#656D76",
+    "border": "#D0D7DE",
+    "success": "#1A7F37",
+    "warning": "#9A6700"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "fine repository grid with clean metric dividers"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "technical",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left",
+      "in_bottom"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "technical",
+    "restrained",
+    "boardroom"
+  ],
+  "archetype_fit": [
+    "data",
+    "product",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "grid",
+    "measured",
+    "audit",
+    "hairline"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "bounce",
+    "glow",
+    "organic"
+  ]
+}

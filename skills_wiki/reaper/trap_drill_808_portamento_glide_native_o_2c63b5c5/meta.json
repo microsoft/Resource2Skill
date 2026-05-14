@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trap_drill_808_portamento_glide_native_o_2c63b5c5",
+  "skill_name": "Trap/Drill 808 Portamento Glide (Native Overlapping Slides)",
+  "source": {
+    "channel": "Pritam Bajpai",
+    "duration_sec": 496,
+    "type": "youtube",
+    "video_id": "nysSttmHj1g",
+    "video_title": "Free 808 Slide Tutorial in Reaper - How to do it the rightway in Reaper No Extra Plugins",
+    "video_url": "https://www.youtube.com/watch?v=nysSttmHj1g",
+    "views": 3837
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:14Z",
+  "wash_version": "1.0.0"
+}

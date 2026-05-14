@@ -1,0 +1,36 @@
+{
+  "applicability": "This is a workhorse style ideal for executive summaries, performance dashboards, survey results, and any presentation where a single, clear takeaway from comparative data needs to be delivered with impact and clarity.",
+  "category_path": [
+    "data_visualization",
+    "bar_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "action_titled_decluttered_bar_chart_682ec632",
+  "skill_name": "Action-Titled Decluttered Bar Chart",
+  "source": {
+    "channel": "Spotlight Impact Data Design",
+    "duration_sec": 593,
+    "type": "youtube",
+    "video_id": "u4fPpa34lRQ",
+    "video_title": "How to Make Beautiful BAR CHARTS in PowerPoint! \ud83d\udd25 [PPT Tips]",
+    "video_url": "https://www.youtube.com/watch?v=u4fPpa34lRQ",
+    "views": 13147
+  },
+  "tags": [
+    "bar chart",
+    "decluttered",
+    "action title",
+    "data visualization",
+    "executive summary",
+    "sorted"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:48:09Z",
+  "wash_version": "1.0.0"
+}

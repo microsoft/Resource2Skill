@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "holographic_glassmorphism_title_page_0592de53",
+  "skill_name": "Holographic Glassmorphism Title Page",
+  "source": {
+    "channel": "Wei Huang",
+    "duration_sec": 79,
+    "type": "youtube",
+    "video_id": "AL0-S1xH3po",
+    "video_title": "\u9759\u6001\u7cbe\u9009PPT 9PPT\u6a21\u677f\u56fe\u7247\u7d20\u6750_PPT\u6a21\u677f\u6a21\u677f\u4e0b\u8f7d_PPT\u6a21\u677f\u56fe\u7247\u5927\u5168",
+    "video_url": "https://www.youtube.com/watch?v=AL0-S1xH3po",
+    "views": 24
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:36:27Z",
+  "wash_version": "1.0.0"
+}

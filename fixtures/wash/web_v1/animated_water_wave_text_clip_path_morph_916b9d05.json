@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_water_wave_text_clip_path_morph_916b9d05",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 169,
+    "type": "youtube",
+    "video_id": "Tf6qm5JMUXQ",
+    "video_title": "Pure CSS3 Water Wave Text Animation Effects Using CSS Clip-path",
+    "video_url": "https://www.youtube.com/watch?v=Tf6qm5JMUXQ",
+    "views": 222375
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

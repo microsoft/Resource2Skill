@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for financial models or summary tables where new rows are frequently inserted right above the total row. It ensures the sum range expands automatically without using volatile functions like OFFSET.",
+  "category_path": [
+    "formula",
+    "named_range"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "relative_named_range_dynamic_sum_83d1fe0e",
+  "skill_name": "Relative Named Range Dynamic Sum",
+  "source": {
+    "channel": "Goodly",
+    "duration_sec": 604,
+    "type": "youtube",
+    "video_id": "9XQNpdP9FvI",
+    "video_title": "Highly Useful Excel Tricks that NO ONE Knows | Advanced Excel Tips and Tricks",
+    "video_url": "https://www.youtube.com/watch?v=9XQNpdP9FvI",
+    "views": 106604
+  },
+  "tags": [
+    "named range",
+    "dynamic sum",
+    "relative reference",
+    "auto-expanding",
+    "non-volatile"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T08:56:58Z",
+  "wash_version": "1.0.0"
+}

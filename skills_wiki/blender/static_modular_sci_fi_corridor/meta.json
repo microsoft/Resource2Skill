@@ -1,0 +1,29 @@
+{
+  "applicability": "Reusable sci-fi corridor scene with PBR materials, modular array-friendly geometry, and EEVEE-ready lighting.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "cc0-1.0",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_modular_sci_fi_corridor",
+  "skill_name": "Modular Sci-Fi Corridor",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/blender-sci-fi-corridor"
+  },
+  "tags": [
+    "sci_fi",
+    "corridor",
+    "modular",
+    "pbr",
+    "geometry_nodes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:49:54Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_responsive_css_grid__no_media_queri_8f2a34ce",
+  "skill_name": "Auto-Responsive CSS Grid (No Media Queries)",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=3T0gjtXRNC0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:32Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "responsive grid with elements wrapping to the next line"
+        },
+        {
+          "seconds": 47,
+          "description": "target responsive grid with elements wrapping and resizing"
+        },
+        {
+          "seconds": 251,
+          "description": "grid with `repeat(4, 1fr)` showing resizing columns"
+        },
+        {
+          "seconds": 343,
+          "description": "grid with `repeat(auto-fit, 300px)` demonstrating column wrapping"
+        },
+        {
+          "seconds": 540,
+          "description": "final responsive grid with `minmax` for wrapping and resizing"
+        }
+      ],
+      "frames": [
+        "frame_00_responsive_grid_with_elements_.jpg",
+        "frame_01_target_responsive_grid_with_el.jpg",
+        "frame_02_grid_with_repeat_4_1fr_showing.jpg",
+        "frame_03_grid_with_repeat_auto_fit_300p.jpg"
+      ],
+      "recapped_at": 1777408753.0893834
+    },
+    "primary_path": "frame_00_responsive_grid_with_elements_.jpg"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_excel_dashboard_with_pivot_c_066bbd71",
+  "skill_name": "Interactive Excel Dashboard with Pivot Charts and Slicers",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:40:38Z",
+  "wash_version": "1.0.0"
+}

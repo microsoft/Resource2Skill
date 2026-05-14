@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_three_tier_kpi_dashboard_a9497efe",
+  "skill_name": "Dynamic Three-Tier KPI Dashboard",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:12:42Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Dynamic KPI Dashboard with changing data based on selected month."
+        },
+        {
+          "seconds": 34,
+          "description": "Interactive KPI Dashboard showing month-over-month comparisons."
+        },
+        {
+          "seconds": 330,
+          "description": "Full view of the KPI Dashboard, highlighting large fonts and color coding for easy readability."
+        },
+        {
+          "seconds": 631,
+          "description": "Detailed view of the KPI Dashboard, explaining various sections like Working Capital Efficiency, Sales KPIs, and Cost KPIs."
+        },
+        {
+          "seconds": 1147,
+          "description": "Final overview of the fully built and interactive KPI Dashboard."
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_kpi_dashboard_with_cha.jpg",
+        "frame_01_interactive_kpi_dashboard_show.jpg",
+        "frame_02_full_view_of_the_kpi_dashboard.jpg",
+        "frame_03_detailed_view_of_the_kpi_dashb.jpg"
+      ],
+      "recapped_at": 1777406670.1447687
+    },
+    "primary_path": "frame_00_dynamic_kpi_dashboard_with_cha.jpg"
+  }
+}

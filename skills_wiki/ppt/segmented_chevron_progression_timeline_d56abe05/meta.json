@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for illustrating project roadmaps, multi-phase strategic plans, or corporate histories. The forward-pointing chevron shapes naturally communicate chronological direction and temporal progression.",
+  "category_path": [
+    "diagrams",
+    "timelines"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_chevron_progression_timeline_d56abe05",
+  "skill_name": "Segmented Chevron Progression Timeline",
+  "source": {
+    "channel": "SlideBazaar - PowerPoint Tutorials",
+    "duration_sec": 140,
+    "type": "youtube",
+    "video_id": "XmIIMpKHKoI",
+    "video_title": "How to Create a Timeline in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=XmIIMpKHKoI",
+    "views": 19563
+  },
+  "tags": [
+    "timeline",
+    "chevron",
+    "process",
+    "roadmap",
+    "progression",
+    "diagram"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:22Z",
+  "wash_version": "1.0.0"
+}

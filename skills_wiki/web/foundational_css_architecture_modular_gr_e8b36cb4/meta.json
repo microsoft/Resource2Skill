@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "foundational_css_architecture_modular_gr_e8b36cb4",
+  "skill_name": "Foundational CSS Architecture (Modular Grid & Principle-Driven Styling)",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1738,
+    "type": "youtube",
+    "video_id": "JnTPd9G6hoY",
+    "video_title": "The 6 most important CSS concepts for beginners",
+    "video_url": "https://www.youtube.com/watch?v=JnTPd9G6hoY",
+    "views": 183079
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:12Z",
+  "wash_version": "1.0.0"
+}

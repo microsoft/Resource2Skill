@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "jungle_parallel_chords_sampler_style_cho_d42a48e7",
+  "skill_name": "Jungle Parallel Chords (Sampler-Style Chord Memory)",
+  "source": {
+    "channel": "Groovin in G",
+    "duration_sec": 956,
+    "type": "youtube",
+    "video_id": "QwZgTjdPSVI",
+    "video_title": "Music Theory for Jungle Producers",
+    "video_url": "https://www.youtube.com/watch?v=QwZgTjdPSVI",
+    "views": 21341
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:11Z",
+  "wash_version": "1.0.0"
+}

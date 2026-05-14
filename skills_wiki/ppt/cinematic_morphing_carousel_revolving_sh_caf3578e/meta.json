@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for product showcases, portfolio hero shots, timeline progressions, and zoom-in deep dives. It leverages object permanence via morph transitions to reduce cognitive load.",
+  "category_path": [
+    "animation",
+    "transitions",
+    "visual_showcase"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_morphing_carousel_revolving_sh_caf3578e",
+  "skill_name": "Cinematic Morphing Carousel",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 821,
+    "type": "youtube",
+    "video_id": "7u5mQ6rfows",
+    "video_title": "How to use PowerPoint Morph Transition",
+    "video_url": "https://www.youtube.com/watch?v=7u5mQ6rfows",
+    "views": 1285794
+  },
+  "tags": [
+    "morph",
+    "carousel",
+    "showcase",
+    "animation",
+    "object permanence",
+    "3d effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:26:25Z",
+  "wash_version": "1.0.0"
+}

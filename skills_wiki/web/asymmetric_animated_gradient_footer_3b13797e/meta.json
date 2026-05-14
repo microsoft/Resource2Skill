@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for modern websites like SaaS landing pages or creative portfolios that want to transform a standard footer into a memorable, high-tech design feature. The asymmetric curve and subtle animation add a polished, dynamic feel.",
+  "category_path": [
+    "layout",
+    "footer"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_animated_gradient_footer_3b13797e",
+  "skill_name": "Asymmetric Animated Gradient Footer",
+  "source": {
+    "channel": "GreatStack",
+    "duration_sec": 907,
+    "type": "youtube",
+    "video_id": "FRRlFLfdvBE",
+    "video_title": "How To Make Animated Website Footer Design Using HTML And CSS Step by Step Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=FRRlFLfdvBE",
+    "views": 247569
+  },
+  "tags": [
+    "footer",
+    "gradient",
+    "css animation",
+    "asymmetric",
+    "flexbox"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:55:02Z",
+  "wash_version": "1.0.0"
+}

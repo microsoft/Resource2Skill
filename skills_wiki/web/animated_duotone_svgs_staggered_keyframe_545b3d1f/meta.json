@@ -1,0 +1,71 @@
+{
+  "applicability": "Ideal for creating performant and themeable micro-interactions like animated icons, feature highlights, and loading sequences. Adds a polished, engaging feel to UIs without relying on JavaScript.",
+  "category_path": [
+    "web",
+    "css",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_duotone_svgs_staggered_keyframe_545b3d1f",
+  "skill_name": "Animated Duotone SVGs with Staggered Keyframes",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 740,
+    "type": "youtube",
+    "video_id": "UTHgr6NLeEw",
+    "video_title": "Make Awesome SVG Animations with CSS // 7 Useful Techniques",
+    "video_url": "https://www.youtube.com/watch?v=UTHgr6NLeEw",
+    "views": 1086176
+  },
+  "tags": [
+    "svg",
+    "css animation",
+    "keyframes",
+    "duotone",
+    "micro-interaction"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:20Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "web page with animated phone UI and play button icon"
+        },
+        {
+          "seconds": 7,
+          "description": "animated play button icon responding to hover event"
+        },
+        {
+          "seconds": 8,
+          "description": "animated looping explainer sequence on a phone UI"
+        },
+        {
+          "seconds": 737,
+          "description": "interactive play button icon with hover animation"
+        },
+        {
+          "seconds": 1202,
+          "description": "staggered looping animation on the phone UI"
+        }
+      ],
+      "frames": [
+        "frame_00_web_page_with_animated_phone_u.jpg",
+        "frame_01_animated_play_button_icon_resp.jpg",
+        "frame_02_animated_looping_explainer_seq.jpg",
+        "frame_03_interactive_play_button_icon_w.jpg"
+      ],
+      "recapped_at": 1777408434.684644
+    },
+    "primary_path": "frame_00_web_page_with_animated_phone_u.jpg"
+  }
+}

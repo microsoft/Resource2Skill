@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_soft_ui_shape_extrusion_c4d0288b",
+  "skill_name": "Neumorphic (Soft UI) Shape Extrusion",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 184,
+    "type": "youtube",
+    "video_id": "B2MmwsgwTDo",
+    "video_title": "Quick Neumorphism Tool For Soft UI By Adam Giebl | CSS Neumorphism Generator",
+    "video_url": "https://www.youtube.com/watch?v=B2MmwsgwTDo",
+    "views": 16553
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:03:48Z",
+  "wash_version": "1.0.0"
+}

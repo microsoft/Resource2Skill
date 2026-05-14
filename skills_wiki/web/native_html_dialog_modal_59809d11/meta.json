@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for user interaction panels like settings, confirmations, or alerts, it's well-suited for dashboards, SaaS platforms, and e-commerce sites needing robust, accessible pop-up content.",
+  "category_path": [
+    "ui_elements",
+    "dialogs"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_html_dialog_modal_59809d11",
+  "skill_name": "Native HTML Dialog Modal",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 580,
+    "type": "youtube",
+    "video_id": "TAB_v6yBXIE",
+    "video_title": "dialog = the easiest way to make a popup modal",
+    "video_url": "https://www.youtube.com/watch?v=TAB_v6yBXIE",
+    "views": 210631
+  },
+  "tags": [
+    "native dialog",
+    "modal window",
+    "accessibility",
+    "pop-up UI",
+    "html dialog"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:50Z",
+  "wash_version": "1.0.0"
+}

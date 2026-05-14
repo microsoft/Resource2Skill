@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for highly visual sites like creative portfolios or premium e-commerce where maintaining a polished aesthetic during navigation is critical. It replaces the default browser refresh with a fluid, branded motion experience.",
+  "category_path": [
+    "animation",
+    "page_transition"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_shutter_page_transition_15f2fe2e",
+  "skill_name": "Cinematic Shutter Page Transition",
+  "source": {
+    "channel": "PIXEL PERFECT",
+    "duration_sec": 456,
+    "type": "youtube",
+    "video_id": "YxJhV0OHREU",
+    "video_title": "The GSAP Page Transition Every Web Designer Needs to Know",
+    "video_url": "https://www.youtube.com/watch?v=YxJhV0OHREU",
+    "views": 3983
+  },
+  "tags": [
+    "page transition",
+    "gsap",
+    "animation",
+    "loading screen",
+    "stagger"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:43Z",
+  "wash_version": "1.0.0"
+}

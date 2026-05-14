@@ -1,0 +1,18 @@
+{
+  "domain": "web",
+  "verbs": [
+    "init_workspace",
+    "write_project_file",
+    "apply_component_into_workspace",
+    "init_site_from_archetype"
+  ],
+  "tier_to_verbs": {
+    "T1": [],
+    "T2": [],
+    "T3": ["apply_component_into_workspace"],
+    "T4": ["apply_component_into_workspace"],
+    "T5": ["init_site_from_archetype"]
+  },
+  "reference_only_supported": true,
+  "notes": "T1/T2 are reference-only (design tokens / CSS snippets). T3/T4 write a component file and patch the workspace manifest; T5 initialises a new site workspace from an archetype."
+}

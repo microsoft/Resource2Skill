@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "basic_prop_composition__chocolate_chip_c_e39b1dcc",
+  "skill_name": "Basic Prop Composition (Chocolate Chip Cookie Scene)",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ci3Has4L5W4"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:39Z",
+  "wash_version": "1.0.0"
+}

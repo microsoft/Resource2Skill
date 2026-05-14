@@ -1,0 +1,36 @@
+{
+  "applicability": "Slicers and timelines provide intuitive, interactive visual filtering controls for Pivot Tables. They are commonly used in dashboard reporting to quickly filter data by categories or specific date ranges.",
+  "category_path": [
+    "pivot_table",
+    "filtering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_e94b981d",
+  "skill_name": "Pivot Table Slicers and Timelines",
+  "source": {
+    "channel": "Sharon Smith",
+    "duration_sec": 135,
+    "type": "youtube",
+    "video_id": "mrk5MNrgPiU",
+    "video_title": "Simplifying Pivot Tables with Timelines and Slicers - Data Visualization Made Easy",
+    "video_url": "https://www.youtube.com/watch?v=mrk5MNrgPiU",
+    "views": 11942
+  },
+  "tags": [
+    "pivot table",
+    "slicer",
+    "timeline",
+    "filtering",
+    "dashboard"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:30Z",
+  "wash_version": "1.0.0"
+}

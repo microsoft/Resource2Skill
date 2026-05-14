@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scanner_bar_text_reveal_2555d24c",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 576,
+    "type": "youtube",
+    "video_id": "obrnWwsc1Y8",
+    "video_title": "Animated Text Reveal Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=obrnWwsc1Y8",
+    "views": 7901
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

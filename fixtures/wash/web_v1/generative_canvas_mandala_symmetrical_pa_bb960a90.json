@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "generative_canvas_mandala_symmetrical_pa_bb960a90",
+  "source": {
+    "channel": "Web Animation [Javascript, SVG,CSS, Canvas, GSAP] ",
+    "duration_sec": 92,
+    "type": "youtube",
+    "video_id": "jDsDhpqfCiw",
+    "video_title": "Advanced Web Animation with Canvas [ JavaScript CSS HTML ]",
+    "video_url": "https://www.youtube.com/watch?v=jDsDhpqfCiw",
+    "views": 408
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

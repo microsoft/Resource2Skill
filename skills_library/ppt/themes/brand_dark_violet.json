@@ -1,0 +1,129 @@
+{
+  "theme_id": "brand_dark_violet",
+  "name": "Brand Dark Violet",
+  "palette": {
+    "bg": "#12091F",
+    "panel": "#1D1333",
+    "accent": "#C084FC",
+    "accent2": "#F472B6",
+    "text": "#F4EDFF",
+    "muted": "#8B7FA3",
+    "border": "#2A1D47",
+    "success": "#52D4AD",
+    "warning": "#FFA94D"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Cambria",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Cambria",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Trebuchet MS",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Trebuchet MS",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Cambria",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "glow_blob",
+    "description": "Soft glow blobs on covers"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "zoom"
+    ],
+    "stagger_ms": 120,
+    "avoid": []
+  },
+  "mood": [
+    "cinematic",
+    "bold",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "iris",
+    "spotlight",
+    "vignette",
+    "ink-bleed",
+    "page-turn",
+    "polaroid",
+    "neon",
+    "chromatic",
+    "cta-arrow",
+    "tag-pill"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "pixel",
+    "dot-matrix",
+    "bounce",
+    "thesis",
+    "page-turn",
+    "ink-bleed"
+  ]
+}

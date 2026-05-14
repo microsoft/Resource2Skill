@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_reveal_animations_view_tim_b7d25858",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 656,
+    "type": "youtube",
+    "video_id": "Bhj4miRkSOc",
+    "video_title": "Master CSS Animation Property in 11 Minutes [Full Tutorial] \ud83d\ude80",
+    "video_url": "https://www.youtube.com/watch?v=Bhj4miRkSOc",
+    "views": 167447
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

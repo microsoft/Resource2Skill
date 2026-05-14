@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creative professionals and agencies (designers, photographers, etc.) seeking to showcase visual work in a clean layout. This pattern focuses on guiding visitors from project examples directly to a call-to-action, optimizing for lead generation.",
+  "category_path": [
+    "portfolio",
+    "grid_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_converting_minimalist_portfolio_gri_2cdf9326",
+  "skill_name": "High-Converting Minimalist Portfolio Grid",
+  "source": {
+    "channel": "Satori Graphics",
+    "duration_sec": 1111,
+    "type": "youtube",
+    "video_id": "DZ2bB8tL4O0",
+    "video_title": "\ud83d\udd38 The ONLY Graphic Design Portfolio Video You Need To Watch!",
+    "video_url": "https://www.youtube.com/watch?v=DZ2bB8tL4O0",
+    "views": 476994
+  },
+  "tags": [
+    "portfolio",
+    "grid layout",
+    "minimalist design",
+    "conversion optimization",
+    "hover effects"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:40:37Z",
+  "wash_version": "1.0.0"
+}

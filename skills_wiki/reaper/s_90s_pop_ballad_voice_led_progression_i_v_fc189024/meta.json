@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_90s_pop_ballad_voice_led_progression_i_v_fc189024",
+  "skill_name": "90s Pop Ballad Voice-Led Progression (I-V-vi-IV)",
+  "source": {
+    "channel": "Plugin Boutique",
+    "duration_sec": 92,
+    "type": "youtube",
+    "video_id": "BfHjWDMf0Xc",
+    "video_title": "Scaler 3 - Customizing a Chord Progression",
+    "video_url": "https://www.youtube.com/watch?v=BfHjWDMf0Xc",
+    "views": 24797
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:52Z",
+  "wash_version": "1.0.0"
+}

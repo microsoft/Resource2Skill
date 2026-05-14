@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_css_scroll_driven_parallax_stack_cec310d3",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1052,
+    "type": "youtube",
+    "video_id": "Qj0Qx8HpNUo",
+    "video_title": "True parallax with CSS-only is now possible",
+    "video_url": "https://www.youtube.com/watch?v=Qj0Qx8HpNUo",
+    "views": 272171
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

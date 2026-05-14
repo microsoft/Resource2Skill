@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for hard surface, sci-fi, and mechanical modeling to create intricate, flush panel cutouts. This non-destructive approach prevents topology pinching and complex retopology on curved surfaces.",
+  "category_path": [
+    "modeling",
+    "procedural",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_hard_surface_panel_splitting_119687b6",
+  "skill_name": "Procedural Hard Surface Panel Splitting",
+  "source": {
+    "channel": "Josh - Blender Bros",
+    "duration_sec": 281,
+    "type": "youtube",
+    "video_id": "IRJCChNu_pQ",
+    "video_title": "Blender Hard Surface Modeling | Slice Operation",
+    "video_url": "https://www.youtube.com/watch?v=IRJCChNu_pQ",
+    "views": 294655
+  },
+  "tags": [
+    "hard-surface",
+    "boolean",
+    "bevel",
+    "panel-cuts",
+    "procedural-modeling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:42Z",
+  "wash_version": "1.0.0"
+}

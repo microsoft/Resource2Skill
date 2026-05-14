@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly effective for presenting sequential steps in business processes, project timelines, or a list of features/services where a sense of progression is desired. It transforms standard lists into dynamic, visually engaging infographics.",
+  "category_path": [
+    "process_flow",
+    "infographic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_s_curve_process_flow_382d3f51",
+  "skill_name": "Interlocking S-Curve Process Flow",
+  "source": {
+    "channel": "EliteBps",
+    "duration_sec": 960,
+    "type": "youtube",
+    "video_id": "11F9wyEuG-M",
+    "video_title": "How To Create a Timeline Infographic On PowerPoint | Template FREE DOWNLOAD (Animated Powerpoint) #2",
+    "video_url": "https://www.youtube.com/watch?v=11F9wyEuG-M",
+    "views": 392
+  },
+  "tags": [
+    "s-curve",
+    "process flow",
+    "sequential steps",
+    "infographic",
+    "timeline",
+    "visual flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:38:06Z",
+  "wash_version": "1.0.0"
+}

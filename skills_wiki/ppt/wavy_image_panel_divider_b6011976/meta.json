@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "wavy_image_panel_divider_b6011976",
+  "skill_name": "Wavy Image Panel Divider",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 67,
+    "type": "youtube",
+    "video_id": "KMQIpsuV-pU",
+    "video_title": "PPT\u521b\u610f\u73a9\u6cd5\uff1a\u4e00\u5f20\u56fe\u5236\u4f5cPPT\u521b\u610f\u5c01\u9762",
+    "video_url": "https://www.youtube.com/watch?v=KMQIpsuV-pU",
+    "views": 1214
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:55Z",
+  "wash_version": "1.0.0"
+}

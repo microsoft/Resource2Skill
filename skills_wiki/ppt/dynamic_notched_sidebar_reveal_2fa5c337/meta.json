@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_notched_sidebar_reveal_2fa5c337",
+  "skill_name": "Dynamic Notched Sidebar Reveal",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 1428,
+    "type": "youtube",
+    "video_id": "_I8O5ZDystM",
+    "video_title": "Animated PowerPoint Slide Design Tutorial \ud83d\udd25Step by Step\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=_I8O5ZDystM",
+    "views": 4511953
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:19:21Z",
+  "wash_version": "1.0.0"
+}

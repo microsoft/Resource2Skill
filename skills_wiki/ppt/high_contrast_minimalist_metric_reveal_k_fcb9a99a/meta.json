@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_contrast_minimalist_metric_reveal_k_fcb9a99a",
+  "skill_name": "High-Contrast Minimalist Metric Reveal (Keynote Style)",
+  "source": {
+    "channel": "PAPAYA \u96fb\u8166\u6559\u5ba4",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "-hWsvuHlKwg",
+    "video_title": "\u5927\u5e2b\u7d1a\u7c21\u5831\u662f\u5982\u4f55\u7149\u6210\u7684\uff1f | PowerPoint \u6559\u5b78 #14",
+    "video_url": "https://www.youtube.com/watch?v=-hWsvuHlKwg",
+    "views": 1469940
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:35:24Z",
+  "wash_version": "1.0.0"
+}

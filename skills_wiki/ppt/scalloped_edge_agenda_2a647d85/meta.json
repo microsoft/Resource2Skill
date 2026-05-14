@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for presentations requiring numbered or itemized lists alongside a strong visual anchor. It enhances agenda, process, or feature slides by transforming a standard split-screen with an interactive, curved boundary.",
+  "category_path": [
+    "agenda",
+    "list",
+    "visual_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scalloped_edge_agenda_2a647d85",
+  "skill_name": "Scalloped Edge Agenda",
+  "source": {
+    "channel": "Presentation Mastery",
+    "duration_sec": 629,
+    "type": "youtube",
+    "video_id": "xUk-wiWOox8",
+    "video_title": "How to Create an AGENDA SLIDE in POWERPOINT | 6 EASY Design Ideas",
+    "video_url": "https://www.youtube.com/watch?v=xUk-wiWOox8",
+    "views": 22202
+  },
+  "tags": [
+    "agenda",
+    "list",
+    "visual anchor",
+    "curved edge",
+    "split screen",
+    "numbered items"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:22:52Z",
+  "wash_version": "1.0.0"
+}

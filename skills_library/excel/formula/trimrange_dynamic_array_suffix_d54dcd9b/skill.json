@@ -1,0 +1,18 @@
+{
+  "skill_id": "trimrange_dynamic_array_suffix_d54dcd9b",
+  "skill_name": "TrimRange Dynamic Array Suffix",
+  "domain": "excel",
+  "category": "formula",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=5h4wRTbmsSw",
+    "video_id": "5h4wRTbmsSw",
+    "video_title": "You're ONE DOT Away from Cleaner Excel Reports | Before vs. After TRIMRANGE",
+    "channel": "Leila Gharani",
+    "duration_sec": 624,
+    "views": 1027782
+  },
+  "extracted_at": "2026-04-25T03:13:00.804396",
+  "analysis": "### 1. High-level Skill Pattern Extraction\n\n> **Skill Name**: TrimRange Dynamic Array Suffix\n\n* **Tier**: snippet\n* **Core Mechanism**: Uses the new Excel dot (`.`) operator (or the `TRIMRANGE` function) appended to a range reference to automatically drop trailing blank cells. This is highly effective inside dynamic array formulas like `VSTACK`, `UNIQUE`, or `TAKE` to ignore empty buffer rows without needing complex `FILTER` logic.\n* **Applicability**: Perfect for aggregating data from multiple sheets where ranges have empty padding rows at the bottom, or when generating unique lists from oversized ranges that aren't fully populated. It effectively replaces the need for Excel Tables or verbose `OFFSET`/`FILTER` setups when referencing growing datasets.\n\n### 2. Structural Breakdown\n\n- **Data Layout**: Standard tabular data ranges that contain trailing empty rows (often used as buffer space for new data entry).\n- **Formula Logic**: Append a dot (`.`) to the end of a range reference, e.g., `A2:A100.`. This serves as shorthand for `TRIMRANGE(A2:A100, 2)` (trim trailing blanks). A dot before the range `.A2:A100` trims leading blanks.\n- **Visual Design**: N/A (Formula technique).\n- **Charts/Tables**: Dramatically simplifies dynamic chart inputs. For example, `=TAKE(A:B., -12)` effortlessly extracts the last 12 populated months for a chart, ignoring all empty rows at the bottom of columns A and B.\n- **Theme Hooks**: N/A\n\n### 3. Reproduction Code\n\n```json\n{\n  \"name\": \"trimrange_vstack\",\n  \"description\": \"Combine data from multiple ranges or sheets while automatically ignoring empty trailing rows using the new dot (.) trim operator.\",\n  \"formula\": \"=VSTACK({range1}., {range2}.)\",\n  \"placeholders\": {\n    \"range1\": \"Staff!A3:E100\",\n    \"range2\": \"Management!A3:E100\"\n  }\n}\n```",
+  "frames": []
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "staggered_cross_fade_accessible_carousel_7d7d5fc0",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 850,
+    "type": "youtube",
+    "video_id": "9HcxHDS2w1s",
+    "video_title": "How To Create An Animated Image Carousel With CSS/JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=9HcxHDS2w1s",
+    "views": 306030
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

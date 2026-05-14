@@ -1,0 +1,6 @@
+{
+  "_comment": "Default smoke fixture for Web skills. Web entrypoints typically render strings rather than write files; wash QA only asserts the entrypoint is callable.",
+  "kwargs": {},
+  "expected_artifacts": [],
+  "timeout_sec": 10
+}

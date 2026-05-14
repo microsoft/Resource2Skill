@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "phantom_glassmorphism_luminance_to_alpha_e30df9a6",
+  "skill_name": "Phantom Glassmorphism (Luminance-to-Alpha Object Masking)",
+  "source": {
+    "channel": "PS\u6559\u5b66\u7b80\u5355\u54e5",
+    "duration_sec": 131,
+    "type": "youtube",
+    "video_id": "sn-MFiwCcHk",
+    "video_title": "PS\u8da3\u5473\u4fee\u56fe\u6559\u7a0b\uff1a\u5982\u4f55\u628a\u7269\u4f53\u53d8\u900f\u660e\uff0c\u8ba9\u753b\u9762\u53d8\u5f97\u66f4\u6709\u8da3\u3002",
+    "video_url": "https://www.youtube.com/watch?v=sn-MFiwCcHk",
+    "views": 1183
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:33Z",
+  "wash_version": "1.0.0"
+}

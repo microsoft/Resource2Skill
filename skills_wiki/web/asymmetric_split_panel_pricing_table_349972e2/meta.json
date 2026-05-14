@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_split_panel_pricing_table_349972e2",
+  "skill_name": "Asymmetric Split-Panel Pricing Table",
+  "source": {
+    "channel": "Marius is Coding",
+    "duration_sec": 2400,
+    "type": "youtube",
+    "video_id": "Erd6pwB-Mz4",
+    "video_title": "Create a Responsive Pricing table with HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=Erd6pwB-Mz4",
+    "views": 100
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:27Z",
+  "wash_version": "1.0.0"
+}

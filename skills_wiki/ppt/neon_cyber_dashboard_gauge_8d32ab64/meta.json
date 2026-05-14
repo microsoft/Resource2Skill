@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_cyber_dashboard_gauge_8d32ab64",
+  "skill_name": "Neon Cyber Dashboard Gauge",
+  "source": {
+    "channel": "Faysal Easy Excel",
+    "duration_sec": 2476,
+    "type": "youtube",
+    "video_id": "fhYc2KfNidI",
+    "video_title": "Dashboard Gadget Speedometer Chart in Excel 2016",
+    "video_url": "https://www.youtube.com/watch?v=fhYc2KfNidI",
+    "views": 37453
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:49Z",
+  "wash_version": "1.0.0"
+}

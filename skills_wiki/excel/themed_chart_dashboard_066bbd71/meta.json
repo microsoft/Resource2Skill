@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_chart_dashboard_066bbd71",
+  "skill_name": "Themed Chart Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:12:43Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "demonstration of the interactive dashboard"
+        },
+        {
+          "seconds": 101,
+          "description": "all three charts are arranged on the dashboard"
+        },
+        {
+          "seconds": 105,
+          "description": "interactive dashboard with connected slicers"
+        },
+        {
+          "seconds": 107,
+          "description": "clean dashboard view with gridlines and headings removed"
+        },
+        {
+          "seconds": 108,
+          "description": "dashboard with a different visual theme applied"
+        }
+      ],
+      "frames": [
+        "frame_00_demonstration_of_the_interacti.jpg",
+        "frame_01_all_three_charts_are_arranged_.jpg",
+        "frame_02_interactive_dashboard_with_con.jpg",
+        "frame_03_clean_dashboard_view_with_grid.jpg",
+        "frame_04_dashboard_with_a_different_vis.jpg"
+      ],
+      "recapped_at": 1777407592.3464248
+    },
+    "primary_path": "frame_00_demonstration_of_the_interacti.jpg"
+  }
+}

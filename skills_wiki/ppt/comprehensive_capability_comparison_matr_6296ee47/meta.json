@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "product"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "comprehensive_capability_comparison_matr_6296ee47",
+  "skill_name": "Comprehensive Capability Comparison Matrix",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "Ne0y_NINzk0",
+    "video_title": "Product Capability Comparison Powerpoint Ppt Template Bundles",
+    "video_url": "https://www.youtube.com/watch?v=Ne0y_NINzk0",
+    "views": 68
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:24Z",
+  "wash_version": "1.0.0"
+}

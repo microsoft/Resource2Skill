@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "j_dilla_neo_soul_boom_bap_sample_flip_gr_f792026e",
+  "skill_name": "J Dilla: Neo-Soul / Boom-Bap Sample Flip Groove (Dilla Style)",
+  "source": {
+    "type": "youtube",
+    "video_title": "J Dilla production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:03:43Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_panel_geometric_agenda_slide_e13b46e7",
+  "skill_name": "Split-Panel Geometric Agenda Slide",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 195,
+    "type": "youtube",
+    "video_id": "LOy7Xu-TPqU",
+    "video_title": "Best Agenda Template 7 | Animated PowerPoint Slide Design Tutorial for Busy Professionals",
+    "video_url": "https://www.youtube.com/watch?v=LOy7Xu-TPqU",
+    "views": 3055
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:23:13Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "financial_model_shell__dcf_29303db9",
+  "skill_name": "Financial Model Shell (DCF)",
+  "source": {
+    "channel": "rareliquid",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=oDjhg57XH-A"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:06Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 22,
+          "description": "Relatively complete Amazon DCF model as a target"
+        },
+        {
+          "seconds": 540,
+          "description": "Basic setup with title and initial labels formatted"
+        },
+        {
+          "seconds": 1305,
+          "description": "Historical income statement data populated and columns unhidden"
+        },
+        {
+          "seconds": 2150,
+          "description": "Core DCF valuation section taking shape with dynamic assumptions"
+        },
+        {
+          "seconds": 2250,
+          "description": "Final Amazon DCF model with implied share price changing dynamically"
+        }
+      ],
+      "frames": [
+        "frame_00_relatively_complete_amazon_dcf.jpg",
+        "frame_01_basic_setup_with_title_and_ini.jpg",
+        "frame_02_historical_income_statement_da.jpg",
+        "frame_03_core_dcf_valuation_section_tak.jpg",
+        "frame_04_final_amazon_dcf_model_with_im.jpg"
+      ],
+      "recapped_at": 1777406925.500645
+    },
+    "primary_path": "frame_00_relatively_complete_amazon_dcf.jpg"
+  }
+}

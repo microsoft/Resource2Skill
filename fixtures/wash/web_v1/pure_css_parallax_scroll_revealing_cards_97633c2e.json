@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_parallax_scroll_revealing_cards_97633c2e",
+  "source": {
+    "channel": "Taha Shashtari",
+    "duration_sec": 584,
+    "type": "youtube",
+    "video_id": "k_5QFRwfRuQ",
+    "video_title": "Mastering CSS Scroll-driven Animations #10 - (Project) Parallax Cards",
+    "video_url": "https://www.youtube.com/watch?v=k_5QFRwfRuQ",
+    "views": 612
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

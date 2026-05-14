@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_90s_jungle_groove_atmosphere_scaffold_0f32b1a9",
+  "skill_name": "90s Jungle Groove & Atmosphere Scaffold",
+  "source": {
+    "channel": "Chris the Scientist",
+    "duration_sec": 355,
+    "type": "youtube",
+    "video_id": "Iv-u8hwjHw4",
+    "video_title": "How to make Jungle from the 90s",
+    "video_url": "https://www.youtube.com/watch?v=Iv-u8hwjHw4",
+    "views": 977119
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:07:27Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a dynamic, non-linear presentation structure with a central hub for navigation. Ideal for business dashboards, project portfolios, and educational overviews where flexibility is key.",
+  "category_path": [
+    "interactive_elements",
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_zoom_dashboard_a87f5f15",
+  "skill_name": "Interactive Zoom Dashboard",
+  "source": {
+    "channel": "\u65e9\u6668PPT",
+    "duration_sec": 1028,
+    "type": "youtube",
+    "video_id": "HnbKYYPyOMg",
+    "video_title": "99%\u7684\u4eba\u4e0d\u77e5\u9053PPT\u4e2d\u7684\u8d85\u7ea7\u52a8\u753b\u2014\u2014\u7f29\u653e\u5b9a\u4f4d",
+    "video_url": "https://www.youtube.com/watch?v=HnbKYYPyOMg",
+    "views": 14296
+  },
+  "tags": [
+    "interactive navigation",
+    "zoom transition",
+    "dashboard",
+    "non-linear",
+    "hub-and-spoke"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:42:35Z",
+  "wash_version": "1.0.0"
+}

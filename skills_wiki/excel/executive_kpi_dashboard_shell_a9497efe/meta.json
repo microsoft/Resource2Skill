@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_kpi_dashboard_shell_a9497efe",
+  "skill_name": "Executive KPI Dashboard Shell",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:34Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "KPI dashboard showing various metrics and month dropdown"
+        },
+        {
+          "seconds": 34,
+          "description": "Dynamic KPI dashboard with color-coded performance indicators"
+        },
+        {
+          "seconds": 330,
+          "description": "Full view of the interactive KPI dashboard with different sections"
+        },
+        {
+          "seconds": 605,
+          "description": "Demonstration of the dashboard's dynamic month selection and updates"
+        },
+        {
+          "seconds": 1147,
+          "description": "Final complete KPI dashboard highlighting color-coded results"
+        }
+      ],
+      "frames": [
+        "frame_00_kpi_dashboard_showing_various_.jpg",
+        "frame_01_dynamic_kpi_dashboard_with_col.jpg",
+        "frame_02_full_view_of_the_interactive_k.jpg",
+        "frame_03_demonstration_of_the_dashboard.jpg"
+      ],
+      "recapped_at": 1777406701.100153
+    },
+    "primary_path": "frame_00_kpi_dashboard_showing_various_.jpg"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entrypoint": "create_slide",
+  "lineno": 16,
+  "params": [
+    {
+      "name": "output_pptx_path",
+      "annotation": "str",
+      "default": null
+    },
+    {
+      "name": "title_text",
+      "annotation": "str",
+      "default": "'Meet our Team'"
+    },
+    {
+      "name": "active_index",
+      "annotation": "int",
+      "default": "1"
+    },
+    {
+      "name": "accent_color",
+      "annotation": "tuple",
+      "default": "(236, 64, 122)"
+    }
+  ],
+  "docstring": "Create a PPTX file reproducing the Stadium Focus Reveal Gallery."
+}

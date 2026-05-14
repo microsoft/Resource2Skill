@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "synthwave_nostalgia_groove_pumping_arps_088f1005",
+  "skill_name": "Synthwave Nostalgia Groove & Pumping Arps",
+  "source": {
+    "channel": "Songs By Spencer",
+    "duration_sec": 800,
+    "type": "youtube",
+    "video_id": "4DxfXr_TWvs",
+    "video_title": "6 SYNTHWAVE TRICKS to Instantly Nail That Classic \u201980s Sound",
+    "video_url": "https://www.youtube.com/watch?v=4DxfXr_TWvs",
+    "views": 31075
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:30Z",
+  "wash_version": "1.0.0"
+}

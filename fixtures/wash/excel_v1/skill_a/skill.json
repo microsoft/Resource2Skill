@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill_a",
+  "skill_name": "Quarterly P&L Build",
+  "applicability": "Construct a 3-sheet quarterly P&L workbook with KPI band, line items, and bar chart.",
+  "tags": ["finance", "p_and_l", "quarterly", "openpyxl"],
+  "source": {"type": "manual"},
+  "license": "permissive",
+  "tier": "T3",
+  "category_path": ["finance", "reporting"]
+}

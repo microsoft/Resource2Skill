@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this technique for impactful title or section cover slides in high-stakes presentations like annual kick-offs or strategic reviews. It establishes a cinematic, forward-looking tone by creating a sense of depth and scale.",
+  "category_path": [
+    "slide_design",
+    "cover_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "panoramic_typographic_depth_layered_wate_26aadbe6",
+  "skill_name": "Panoramic Typographic Depth with Layered Watermark",
+  "source": {
+    "channel": "\u749e\u77f3",
+    "duration_sec": 467,
+    "type": "youtube",
+    "video_id": "L-K5_nYFfOo",
+    "video_title": "\u3010PPT\u301110\u5206\u949f\u505a\u4e2a\u4e07\u80fdPPT\u5c01\u9762",
+    "video_url": "https://www.youtube.com/watch?v=L-K5_nYFfOo",
+    "views": 301
+  },
+  "tags": [
+    "cover slide",
+    "typographic layering",
+    "watermark text",
+    "panoramic image",
+    "visual depth"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:44Z",
+  "wash_version": "1.0.0"
+}

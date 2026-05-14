@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "narrative_driven_highlighted_chart_8267d4d3",
+  "skill_name": "Narrative-Driven Highlighted Chart",
+  "source": {
+    "channel": "Slide Cow",
+    "duration_sec": 727,
+    "type": "youtube",
+    "video_id": "ojXUCAFK_CQ",
+    "video_title": "Powerpoint Tutorial: Make Your Bar Charts Look Awesome",
+    "video_url": "https://www.youtube.com/watch?v=ojXUCAFK_CQ",
+    "views": 65654
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:28Z",
+  "wash_version": "1.0.0"
+}

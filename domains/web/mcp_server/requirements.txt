@@ -1,0 +1,3 @@
+# Web MCP Server dependencies
+fastmcp>=0.1.0
+playwright>=1.40.0

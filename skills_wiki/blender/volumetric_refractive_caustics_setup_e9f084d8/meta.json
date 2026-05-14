@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "volumetric_refractive_caustics_setup_e9f084d8",
+  "skill_name": "Volumetric Refractive Caustics Setup",
+  "source": {
+    "channel": "flycooler",
+    "duration_sec": 316,
+    "type": "youtube",
+    "video_id": "1mN0L6OQlTs",
+    "video_title": "Interactive Volume Caustics in Single-Scattering Media",
+    "video_url": "https://www.youtube.com/watch?v=1mN0L6OQlTs",
+    "views": 2228
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:59Z",
+  "wash_version": "1.0.0"
+}

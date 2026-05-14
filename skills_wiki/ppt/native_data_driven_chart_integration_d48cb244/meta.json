@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_data_driven_chart_integration_d48cb244",
+  "skill_name": "Native Data-Driven Chart Integration",
+  "source": {
+    "channel": "Guides by Leo",
+    "duration_sec": 213,
+    "type": "youtube",
+    "video_id": "FaTcUtcAC-U",
+    "video_title": "How To Create Charts In PowerPoint (2026 Easy Guide)",
+    "video_url": "https://www.youtube.com/watch?v=FaTcUtcAC-U",
+    "views": 12
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:00Z",
+  "wash_version": "1.0.0"
+}

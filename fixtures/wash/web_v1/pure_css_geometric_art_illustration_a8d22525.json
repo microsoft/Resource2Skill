@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_geometric_art_illustration_a8d22525",
+  "source": {
+    "channel": "Coding Artist",
+    "duration_sec": 898,
+    "type": "youtube",
+    "video_id": "srBJtwB6x1Q",
+    "video_title": "Tortoise CSS Art | CSS Art Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=srBJtwB6x1Q",
+    "views": 1372
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

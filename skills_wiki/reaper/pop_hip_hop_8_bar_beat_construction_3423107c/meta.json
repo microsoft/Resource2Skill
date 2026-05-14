@@ -1,0 +1,37 @@
+{
+  "applicability": "Creates a foundational 8-bar loop for modern Pop, Hip-Hop, R&B, and Trap. Ideal for building a verse or chorus section from scratch.",
+  "category_path": [
+    "composition",
+    "beat_making"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pop_hip_hop_8_bar_beat_construction_3423107c",
+  "skill_name": "Foundational Pop/Hip-Hop Loop",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "duration_sec": 896,
+    "type": "youtube",
+    "video_id": "bsuCiLz1lTo",
+    "video_title": "Producing Beats in REAPER - As Easy as FL Studio, Logic, and Pro Tools!",
+    "video_url": "https://www.youtube.com/watch?v=bsuCiLz1lTo",
+    "views": 11280
+  },
+  "tags": [
+    "beat making",
+    "hip-hop",
+    "pop",
+    "chord progression",
+    "drum loop",
+    "midi"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:43Z",
+  "wash_version": "1.0.0"
+}

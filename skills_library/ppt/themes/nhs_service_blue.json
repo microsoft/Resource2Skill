@@ -1,0 +1,121 @@
+{
+  "theme_id": "nhs_service_blue",
+  "name": "NHS Service Blue",
+  "origin": "web_distilled",
+  "source_url": "https://service-manual.nhs.uk/design-system/styles/colour",
+  "source_title": "NHS Design System \u2014 Colour",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#FFFFFF",
+    "panel": "#F0F4F5",
+    "accent": "#005EB8",
+    "accent2": "#41B6E6",
+    "text": "#231F20",
+    "muted": "#425563",
+    "border": "#D8DDE0",
+    "success": "#007F3B",
+    "warning": "#FFB81C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Arial",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Arial",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Arial",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "clean dividers with service-manual precision"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "clinical",
+    "boardroom",
+    "restrained",
+    "technical"
+  ],
+  "archetype_fit": [
+    "research",
+    "data",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "audit",
+    "hairline",
+    "grid"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "bounce",
+    "glitch",
+    "bloom"
+  ]
+}

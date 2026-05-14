@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "flat_design_dashboard_shell_a6597532",
+  "skill_name": "Flat-Design Dashboard Shell",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:44:03Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "initial glimpse of the completed dashboard"
+        },
+        {
+          "seconds": 750,
+          "description": "dashboard with KPI cards and sales agent pivot table"
+        },
+        {
+          "seconds": 1020,
+          "description": "dashboard with first bar chart added"
+        },
+        {
+          "seconds": 1550,
+          "description": "dashboard fully populated with all charts and tables"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_glimpse_of_the_complet.jpg",
+        "frame_01_dashboard_with_kpi_cards_and_s.jpg",
+        "frame_02_dashboard_with_first_bar_chart.jpg"
+      ],
+      "recapped_at": 1777406744.3951886
+    },
+    "primary_path": "frame_00_initial_glimpse_of_the_complet.jpg"
+  }
+}

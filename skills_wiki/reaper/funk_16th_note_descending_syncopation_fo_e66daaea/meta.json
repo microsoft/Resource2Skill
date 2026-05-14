@@ -1,0 +1,35 @@
+{
+  "applicability": "Essential for funk, neo-soul, and disco grooves. Use this mathematical rhythmic displacement on staccato comping instruments to create highly syncopated tension that disrupts predictable downbeats.",
+  "category_path": [
+    "midi",
+    "rhythm"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "funk_16th_note_descending_syncopation_fo_e66daaea",
+  "skill_name": "Funk 16th-Note Descending Syncopation",
+  "source": {
+    "channel": "Nahre Sol",
+    "duration_sec": 262,
+    "type": "youtube",
+    "video_id": "AXk6Bt0QrD0",
+    "video_title": "Formula for a Funky Feel",
+    "video_url": "https://www.youtube.com/watch?v=AXk6Bt0QrD0",
+    "views": 120056
+  },
+  "tags": [
+    "funk",
+    "syncopation",
+    "16th-notes",
+    "rhythm",
+    "chords"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:15:33Z",
+  "wash_version": "1.0.0"
+}

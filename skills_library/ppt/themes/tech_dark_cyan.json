@@ -1,0 +1,121 @@
+{
+  "theme_id": "tech_dark_cyan",
+  "name": "Tech Dark Cyan",
+  "palette": {
+    "bg": "#07141A",
+    "panel": "#0C2029",
+    "accent": "#00E5C4",
+    "accent2": "#A855F7",
+    "text": "#DAF0F2",
+    "muted": "#5F7A82",
+    "border": "#17323C",
+    "success": "#00E5C4",
+    "warning": "#FFBB33"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Consolas",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Consolas",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "code_rule",
+    "description": "Monospace caption style, tick markers"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "dynamic",
+    "preferred_entrance": [
+      "wipe",
+      "in_left"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "technical",
+    "punchy"
+  ],
+  "archetype_fit": [
+    "product",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "marquee",
+    "pixel",
+    "dot-matrix",
+    "glitch",
+    "chromatic",
+    "snap",
+    "cta-arrow"
+  ],
+  "avoided_motion_tags": [
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "balloon",
+    "confetti",
+    "mist",
+    "margin-note"
+  ]
+}

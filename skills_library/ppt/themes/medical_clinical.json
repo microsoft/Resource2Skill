@@ -1,0 +1,119 @@
+{
+  "theme_id": "medical_clinical",
+  "name": "Medical Clinical",
+  "palette": {
+    "bg": "#F8FAFC",
+    "panel": "#EAF0F5",
+    "accent": "#0B7285",
+    "accent2": "#C23F3F",
+    "text": "#0D2430",
+    "muted": "#5A6B75",
+    "border": "#D0DAE2",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Calibri",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Calibri",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Calibri",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "clinical_grid",
+    "description": "Clean clinical grid; subtle crosshair motifs"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "spin"
+    ]
+  },
+  "mood": [
+    "boardroom",
+    "restrained",
+    "technical",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "boardroom",
+    "data",
+    "research"
+  ],
+  "preferred_motion_tags": [
+    "hairline",
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "row-cascade",
+    "lab-blink",
+    "audit-tick"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "glitch",
+    "confetti",
+    "balloon",
+    "polaroid"
+  ]
+}

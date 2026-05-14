@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for generating realistic ground planes, forest floors, or ruins where debris or foliage naturally gathers in cracks. This technique ensures collision-free, non-destructive layering of assets.",
+  "category_path": [
+    "geometry_nodes",
+    "scattering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_environment_scatter_with_rayc_57cb0cdd",
+  "skill_name": "Procedural Environment Scatter with Raycast Masking",
+  "source": {
+    "channel": "Robin Squares",
+    "duration_sec": 1668,
+    "type": "youtube",
+    "video_id": "K8LVFNVLlYc",
+    "video_title": "How to make next-level procedural materials in Blender",
+    "video_url": "https://www.youtube.com/watch?v=K8LVFNVLlYc",
+    "views": 249095
+  },
+  "tags": [
+    "geometry_nodes",
+    "scattering",
+    "raycast",
+    "procedural",
+    "environment",
+    "masking"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:23Z",
+  "wash_version": "1.0.0"
+}

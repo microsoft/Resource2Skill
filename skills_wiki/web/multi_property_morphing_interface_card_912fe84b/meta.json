@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_property_morphing_interface_card_912fe84b",
+  "skill_name": "Multi-Property Morphing Interface Card",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 311,
+    "type": "youtube",
+    "video_id": "xdap5e3-DwM",
+    "video_title": "Learn All CSS Transition Property for Smooth Animation",
+    "video_url": "https://www.youtube.com/watch?v=xdap5e3-DwM",
+    "views": 242358
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:04:08Z",
+  "wash_version": "1.0.0"
+}

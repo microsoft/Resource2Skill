@@ -1,0 +1,18 @@
+{
+  "skill_id": "spilled_array_reference_operator_8bcf6755",
+  "skill_name": "Spilled Array Reference Operator",
+  "domain": "excel",
+  "category": "formula",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=WBuS4b2rujg",
+    "video_id": "WBuS4b2rujg",
+    "video_title": "10 Excel Formula Symbols You Wish You Knew Years Ago",
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 918,
+    "views": 553466
+  },
+  "extracted_at": "2026-04-25T03:13:19.858513",
+  "analysis": "### 1. High-level Skill Pattern Extraction\n\n> **Skill Name**: Spilled Array Reference Operator\n\n* **Tier**: snippet\n* **Core Mechanism**: By appending a hash (`#`) to a cell reference containing a dynamic array formula (e.g., `UNIQUE` or `FILTER`), Excel dynamically captures the entire spilled range. As the underlying data updates and the array resizes, the reference automatically expands or shrinks without requiring manual adjustment.\n* **Applicability**: Essential for aggregating, summarizing, or chaining dynamic arrays (e.g., `=COUNTA(F7#)`) and for defining dynamic named ranges used in chart series or data validation dropdowns where the data length is variable.\n\n### 2. Structural Breakdown\n\n- **Data Layout**: A dynamic array formula (like `=UNIQUE(SalesData[Category])`) is placed in a single anchor cell (e.g., `F7`), spilling its results into the adjacent cells below it.\n- **Formula Logic**: `={function}({anchor_cell}#)` — The `#` operator instructs Excel to resolve the anchor cell to its full spilled array dimensions rather than a single static cell.\n- **Visual Design**: N/A\n- **Charts/Tables**: Can be used inside the Name Manager to create dynamic, auto-expanding ranges that feed into Dashboard charts.\n- **Theme Hooks**: N/A\n\n### 3. Reproduction Code\n\n```json\n{\n  \"name\": \"spilled_array_reference\",\n  \"description\": \"Reference an entire dynamic array spill range by appending a hash (#) to the top-left anchor cell.\",\n  \"formula\": \"={function}({anchor_cell}#)\",\n  \"placeholders\": {\n    \"function\": \"Any Excel function that accepts a range or array (e.g., COUNTA, SUM, SORT, TEXTJOIN)\",\n    \"anchor_cell\": \"The single cell containing the parent dynamic array formula (e.g., F7)\"\n  },\n  \"example\": \"=COUNTA(F7#)\"\n}\n```",
+  "frames": []
+}

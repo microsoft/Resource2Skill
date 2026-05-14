@@ -1,0 +1,72 @@
+{
+  "skill_id": "full_bleed_hero_cover_3442bd",
+  "skill_type": "shell",
+  "name": "Full Bleed Hero Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "hero_image+headline"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "editorial",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/full_bleed_hero_cover_3442bd/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dynamic_layered_chevron_reveal_ecf2eeb7",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts a full-bleed image cover slide with a massive headline and optional subtitle, matching the visual hierarchy of the 2019 cityscape slide.",
+  "_distill_attempts": 2
+}

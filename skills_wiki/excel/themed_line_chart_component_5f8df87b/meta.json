@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for visualizing time-series data or trending metrics across multiple categories. It ensures consistent visual branding and marker formatting without relying on manual chart templates.",
+  "category_path": [
+    "data_visualization",
+    "charts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_line_chart_component_5f8df87b",
+  "skill_name": "Themed Line Chart Component",
+  "source": {
+    "channel": "TeachExcel",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "_VgHWCcGLlw",
+    "video_title": "Pivot Chart Formatting Copy Trick in Excel - Excel Quickie 79",
+    "video_url": "https://www.youtube.com/watch?v=_VgHWCcGLlw",
+    "views": 23895
+  },
+  "tags": [
+    "line chart",
+    "time-series",
+    "chart styling",
+    "data visualization",
+    "openpyxl"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:25Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_60_30_10_proportional_color_harmony_4ab644e5",
+  "skill_name": "60-30-10 Proportional Color Harmony",
+  "source": {
+    "channel": "Jennifer Sharkey",
+    "duration_sec": 290,
+    "type": "youtube",
+    "video_id": "UVzdRK2kedw",
+    "video_title": "Choose the Best Color Scheme For Your Slides",
+    "video_url": "https://www.youtube.com/watch?v=UVzdRK2kedw",
+    "views": 11711
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:50:35Z",
+  "wash_version": "1.0.0"
+}

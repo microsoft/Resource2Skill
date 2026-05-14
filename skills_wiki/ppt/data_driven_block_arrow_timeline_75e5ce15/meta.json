@@ -1,0 +1,35 @@
+{
+  "applicability": "Visually represents growth or progression over a period using data-driven arrows. Ideal for financial reports, project phase timelines, or illustrating a company's growth story in a compelling way.",
+  "category_path": [
+    "infographic",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_driven_block_arrow_timeline_75e5ce15",
+  "skill_name": "Data-Driven Block Arrow Timeline",
+  "source": {
+    "channel": "StephenEilers",
+    "duration_sec": 64,
+    "type": "youtube",
+    "video_id": "BBkG83bbh2g",
+    "video_title": "Before and After Case Study (PowerPoint)",
+    "video_url": "https://www.youtube.com/watch?v=BBkG83bbh2g",
+    "views": 135
+  },
+  "tags": [
+    "timeline",
+    "growth chart",
+    "data visualization",
+    "arrow chart",
+    "infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:11:15Z",
+  "wash_version": "1.0.0"
+}

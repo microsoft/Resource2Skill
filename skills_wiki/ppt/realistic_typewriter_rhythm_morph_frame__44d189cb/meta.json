@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "realistic_typewriter_rhythm_morph_frame__44d189cb",
+  "skill_name": "Realistic Typewriter Rhythm Morph (Frame-by-Frame Transition)",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 585,
+    "type": "youtube",
+    "video_id": "FbKo4h8I7Q0",
+    "video_title": "Realistic Typewriter Effect in PowerPoint [Creative Idea]",
+    "video_url": "https://www.youtube.com/watch?v=FbKo4h8I7Q0",
+    "views": 18810
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:10Z",
+  "wash_version": "1.0.0"
+}

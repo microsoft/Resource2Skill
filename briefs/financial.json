@@ -1,0 +1,25 @@
+{
+  "variant_id": "financial",
+  "out_dirname": "apple_style_financial",
+  "title": "Q3 2026 Board Review — numbers, narrative, next quarter",
+  "audience": "quarterly board briefing",
+  "tone_words": ["restrained", "boardroom", "technical"],
+  "archetype_preference": "boardroom",
+  "mood_preference": ["boardroom", "restrained", "technical"],
+  "mode_preference": "dark",
+  "n_slides": 10,
+  "role_prefer": ["metric_dashboard", "bullet_card_list",
+                   "comparison_split", "section_divider"],
+  "role_avoid": ["hero_quote", "feature_grid"],
+  "dense_quota": 3,
+  "core_points": [
+    "Q3 revenue $12.4M (+38% YoY)",
+    "net retention 128% (dollar-based)",
+    "top-line dashboard: ARR, new logos, gross margin, magic number, LTV/CAC, payback",
+    "plan vs actual: ahead on both axes with variance table",
+    "cohort and expansion narrative, with itemized list of wins",
+    "risks list: churn concentration, enterprise sales cycle, infra scale, hiring ramp",
+    "Q4 focus: 4 bets sized and owned with owners + KPIs",
+    "approval requested: $4M hiring + $1M infra by Nov 15"
+  ]
+}

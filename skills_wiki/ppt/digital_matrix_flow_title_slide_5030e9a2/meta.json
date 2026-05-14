@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "digital_matrix_flow_title_slide_5030e9a2",
+  "skill_name": "Digital Matrix Flow Title Slide",
+  "source": {
+    "channel": "CafeIO",
+    "duration_sec": 662,
+    "type": "youtube",
+    "video_id": "ZVaFUUC5-v8",
+    "video_title": "Get Ready to Create Your Own Software Architecture Diagrams!",
+    "video_url": "https://www.youtube.com/watch?v=ZVaFUUC5-v8",
+    "views": 10841
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:15:29Z",
+  "wash_version": "1.0.0"
+}

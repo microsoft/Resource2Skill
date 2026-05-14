@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "foundational_midi_track_channel_strip_se_51975f29",
+  "skill_name": "Foundational MIDI Track & Channel Strip Setup",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "duration_sec": 889,
+    "type": "youtube",
+    "video_id": "f6pUEjbCe5A",
+    "video_title": "REAPER Basics - The Complete Beginner Tutorial in under 15 MINUTES",
+    "video_url": "https://www.youtube.com/watch?v=f6pUEjbCe5A",
+    "views": 111215
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:48Z",
+  "wash_version": "1.0.0"
+}

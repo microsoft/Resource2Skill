@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "panoramic_chevron_reveal_slide_0da600de",
+  "skill_name": "Panoramic Chevron Reveal Slide",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 377,
+    "type": "youtube",
+    "video_id": "jkVGO9VFFf8",
+    "video_title": "How to create Title Slide in PowerPoint | Cover Slide design in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=jkVGO9VFFf8",
+    "views": 5516
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:04:27Z",
+  "wash_version": "1.0.0"
+}

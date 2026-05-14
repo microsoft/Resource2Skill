@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "heavy_reese_bass_detuned_saws_sub_multib_a6771bfe",
+  "skill_name": "Heavy Reese Bass (Detuned Saws + Sub + Multiband Distortion)",
+  "source": {
+    "channel": "Sounds Good",
+    "duration_sec": 318,
+    "type": "youtube",
+    "video_id": "jKj6LCoYErI",
+    "video_title": "HEAVY Reese Bass in Vital - Vital Sound Design",
+    "video_url": "https://www.youtube.com/watch?v=jKj6LCoYErI",
+    "views": 33157
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:50:53Z",
+  "wash_version": "1.0.0"
+}

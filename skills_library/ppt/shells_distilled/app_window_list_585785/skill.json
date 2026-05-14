@@ -1,0 +1,81 @@
+{
+  "skill_id": "app_window_list_585785",
+  "skill_type": "shell",
+  "name": "App Window List",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "window-panel+list+side-image"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "modern"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    },
+    {
+      "name": "side_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "portrait",
+      "bullet_capacity": null
+    },
+    {
+      "name": "action_text",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/app_window_list_585785/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "narrative_driven_highlight_chart_data_st_31af71ac",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the UI-like window layout with a numbered list on the left, a floating avatar/image on the right, and an optional action bar at the bottom.",
+  "_distill_attempts": 1
+}

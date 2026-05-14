@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell visualizes a proportional breakdown of a total into discrete segments, automatically sizing each bar based on parsed numerical values from its title, and includes a total bracket.",
+  "category_path": [
+    "charts",
+    "proportional_breakdown"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "proportional_split_bar_1d4573",
+  "skill_name": "Proportional Split Bar",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "proportional",
+    "horizontal bar",
+    "stacked bar",
+    "data visualization",
+    "segments",
+    "total"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:15:29Z",
+  "wash_version": "1.0.0"
+}

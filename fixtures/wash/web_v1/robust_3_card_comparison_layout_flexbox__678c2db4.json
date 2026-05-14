@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "robust_3_card_comparison_layout_flexbox__678c2db4",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 481,
+    "type": "youtube",
+    "video_id": "aEj6k-gi9-s",
+    "video_title": "CSS Flexbox vs Grid - Are you using them right?",
+    "video_url": "https://www.youtube.com/watch?v=aEj6k-gi9-s",
+    "views": 190495
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

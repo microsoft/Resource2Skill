@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to transform key percentages or metrics into a polished, dashboard-style visual component. Ideal for performance reports, project milestone tracking, or highlighting key product stats.",
+  "category_path": [
+    "infographic",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_pin_gauge_infographic_6da5324d",
+  "skill_name": "Circular Pin Gauge Infographic",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 401,
+    "type": "youtube",
+    "video_id": "V2QhdOhCa7c",
+    "video_title": "PowerPoint Animation Tutorial Infographic Slide",
+    "video_url": "https://www.youtube.com/watch?v=V2QhdOhCa7c",
+    "views": 90909
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "infographic",
+    "gauge",
+    "data visualization",
+    "progress"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:59:49Z",
+  "wash_version": "1.0.0"
+}

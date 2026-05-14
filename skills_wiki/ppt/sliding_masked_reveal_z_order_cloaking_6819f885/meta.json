@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sliding_masked_reveal_z_order_cloaking_6819f885",
+  "skill_name": "Sliding Masked Reveal (Z-Order Cloaking)",
+  "source": {
+    "channel": "Infographics Design",
+    "duration_sec": 490,
+    "type": "youtube",
+    "video_id": "8c3aYkXCZBU",
+    "video_title": "Best intro & outro text animation tutorial in PowerPoint | thanks for watching Slide in ppt",
+    "video_url": "https://www.youtube.com/watch?v=8c3aYkXCZBU",
+    "views": 107982
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:41Z",
+  "wash_version": "1.0.0"
+}

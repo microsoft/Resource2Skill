@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_data_driven_profile_dashboard_lay_4fd3a1ac",
+  "skill_name": "Modern Data-Driven Profile & Dashboard Layout",
+  "source": {
+    "channel": "Saba Presentation",
+    "duration_sec": 287,
+    "type": "youtube",
+    "video_id": "CNPTue8mEVU",
+    "video_title": "1000+ Different Categories PowerPoint Templates In PPTX Files | Saba Presentation |",
+    "video_url": "https://www.youtube.com/watch?v=CNPTue8mEVU",
+    "views": 40
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:39Z",
+  "wash_version": "1.0.0"
+}

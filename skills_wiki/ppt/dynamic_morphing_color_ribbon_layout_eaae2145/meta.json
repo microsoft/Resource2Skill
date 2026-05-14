@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for company profiles, modular service offerings, and multi-faceted product portfolios, providing a visual menu and progress indicator for seamless flow.",
+  "category_path": [
+    "layout",
+    "navigation",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_morphing_color_ribbon_layout_eaae2145",
+  "skill_name": "Dynamic Morphing Color Ribbon Layout",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 931,
+    "type": "youtube",
+    "video_id": "4BuU4F1Ftaw",
+    "video_title": "Create Complete Company Profile Presentation in PowerPoint | Free Template",
+    "video_url": "https://www.youtube.com/watch?v=4BuU4F1Ftaw",
+    "views": 183254
+  },
+  "tags": [
+    "morph transition",
+    "navigation",
+    "layout",
+    "progress indicator",
+    "company profile",
+    "visual menu"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:30:59Z",
+  "wash_version": "1.0.0"
+}

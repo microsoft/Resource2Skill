@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for dashboards, SaaS feature showcases, and portfolio pages where diverse content types need to be presented with a clear visual hierarchy. This layout effectively organizes and highlights information in a dynamic, scannable format.",
+  "category_path": [
+    "layout",
+    "grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_grid_layout_e344a628",
+  "skill_name": "Responsive Bento Grid Layout",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 356,
+    "type": "youtube",
+    "video_id": "v0o1kV-qfVI",
+    "video_title": "Learn GRID-AREA to Build Amazing BENTO GRIDS | CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=v0o1kV-qfVI",
+    "views": 89271
+  },
+  "tags": [
+    "css grid",
+    "layout",
+    "dashboard",
+    "asymmetric",
+    "feature grid"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:48:11Z",
+  "wash_version": "1.0.0"
+}

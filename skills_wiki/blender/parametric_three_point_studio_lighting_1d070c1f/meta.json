@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "lighting"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parametric_three_point_studio_lighting_1d070c1f",
+  "skill_name": "Parametric Three-Point Studio Lighting",
+  "source": {
+    "channel": "SouthernShotty",
+    "duration_sec": 951,
+    "type": "youtube",
+    "video_id": "o0uc4sRArjE",
+    "video_title": "Blender 3D - Lighting for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=o0uc4sRArjE",
+    "views": 304225
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:57:01Z",
+  "wash_version": "1.0.0"
+}

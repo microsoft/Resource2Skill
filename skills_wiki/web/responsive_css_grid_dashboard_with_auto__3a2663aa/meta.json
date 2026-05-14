@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_css_grid_dashboard_with_auto__3a2663aa",
+  "skill_name": "Responsive CSS Grid Dashboard with Auto-Fit Bento Cards",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=EiNiSFIPIQE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:59:51Z",
+  "wash_version": "1.0.0"
+}

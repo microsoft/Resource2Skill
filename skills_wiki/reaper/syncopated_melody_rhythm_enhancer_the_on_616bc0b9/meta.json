@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "syncopated_melody_rhythm_enhancer_the_on_616bc0b9",
+  "skill_name": "Syncopated Melody Rhythm Enhancer (The \"One-Note Test\" Pattern)",
+  "source": {
+    "channel": "Hack Music Theory",
+    "duration_sec": 359,
+    "type": "youtube",
+    "video_id": "WTj-b6oD-Ks",
+    "video_title": "Rhythm Rule for Better Melodies",
+    "video_url": "https://www.youtube.com/watch?v=WTj-b6oD-Ks",
+    "views": 1750116
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:26Z",
+  "wash_version": "1.0.0"
+}

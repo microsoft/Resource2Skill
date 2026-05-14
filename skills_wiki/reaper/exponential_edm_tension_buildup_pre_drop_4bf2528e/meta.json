@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "exponential_edm_tension_buildup_pre_drop_4bf2528e",
+  "skill_name": "Exponential EDM Tension Buildup & Pre-Drop Gap",
+  "source": {
+    "channel": "Alex Rome",
+    "duration_sec": 513,
+    "type": "youtube",
+    "video_id": "sYkuBw4JZhc",
+    "video_title": "How To Make Insanely Good Build-Ups",
+    "video_url": "https://www.youtube.com/watch?v=sYkuBw4JZhc",
+    "views": 108718
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:01Z",
+  "wash_version": "1.0.0"
+}

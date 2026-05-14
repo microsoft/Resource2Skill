@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "vanilla_js_scroll_triggered_transitions_3b53fab7",
+  "source": {
+    "channel": "Beyond Fireship",
+    "duration_sec": 304,
+    "type": "youtube",
+    "video_id": "T33NN_pPeNI",
+    "video_title": "Subtle, yet Beautiful Scroll Animations",
+    "video_url": "https://www.youtube.com/watch?v=T33NN_pPeNI",
+    "views": 2013685
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

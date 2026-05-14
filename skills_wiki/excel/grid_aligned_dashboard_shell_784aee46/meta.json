@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_aligned_dashboard_shell_784aee46",
+  "skill_name": "Grid-Aligned Dashboard Shell",
+  "source": {
+    "channel": "Teacher's Tech",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=9n-_vIAT-GY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:29:47Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 6,
+          "description": "Interactive dashboard preview"
+        },
+        {
+          "seconds": 499,
+          "description": "First chart (monthly revenue trend) with a state slicer"
+        },
+        {
+          "seconds": 1247,
+          "description": "All charts and slicers moved to the dashboard sheet"
+        },
+        {
+          "seconds": 2035,
+          "description": "Dashboard with theme and initial styling applied"
+        },
+        {
+          "seconds": 2156,
+          "description": "Dashboard displaying new, refreshed data"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_dashboard_preview.jpg",
+        "frame_01_first_chart_monthly_revenue_tr.jpg",
+        "frame_02_all_charts_and_slicers_moved_t.jpg"
+      ],
+      "recapped_at": 1777406852.391826
+    },
+    "primary_path": "frame_00_interactive_dashboard_preview.jpg"
+  }
+}

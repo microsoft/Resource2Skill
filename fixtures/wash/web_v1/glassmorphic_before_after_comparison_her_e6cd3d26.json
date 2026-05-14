@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphic_before_after_comparison_her_e6cd3d26",
+  "source": {
+    "channel": "Andy Lo",
+    "duration_sec": 1071,
+    "type": "youtube",
+    "video_id": "64PEJqIuZA8",
+    "video_title": "I Vibecoded a SaaS Landing Page with Google Gemini Free AI Tools \u2014 No Product, Just Validation",
+    "video_url": "https://www.youtube.com/watch?v=64PEJqIuZA8",
+    "views": 5224
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

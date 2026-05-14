@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_morphing_infographic_with_ci_7a79ab32",
+  "skill_name": "Interactive Morphing Infographic with Circular Menu",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 2658,
+    "type": "youtube",
+    "video_id": "V49pLEhLvDM",
+    "video_title": "Animated PowerPoint Slide Design Tutorial \ud83d\udd252022\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=V49pLEhLvDM",
+    "views": 459531
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:36:49Z",
+  "wash_version": "1.0.0"
+}

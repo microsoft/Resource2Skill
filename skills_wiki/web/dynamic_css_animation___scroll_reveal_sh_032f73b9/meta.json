@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_css_animation___scroll_reveal_sh_032f73b9",
+  "skill_name": "Dynamic CSS Animation & Scroll-Reveal Showcase",
+  "source": {
+    "channel": "chunkydotdev",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=_OEUbgLTWH0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:36:52Z",
+  "wash_version": "1.0.0"
+}

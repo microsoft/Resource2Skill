@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_style_highlighted_bar_chart_947b7da5",
+  "skill_name": "\"Dashboard-Style Highlighted Bar Chart\"",
+  "source": {
+    "channel": "\u5bb6\u6c90",
+    "duration_sec": 114,
+    "type": "youtube",
+    "video_id": "qtmKN-XOVkU",
+    "video_title": "\u3010ppt\u6559\u7a0b\u3011\u5feb\u901f\u5236\u4f5c\u67f1\u72b6\u56fe\u3001\u6761\u5f62\u56fe\u3001\u5f62\u8c61\u56fe\u8868\u3001\u5730\u56fe",
+    "video_url": "https://www.youtube.com/watch?v=qtmKN-XOVkU",
+    "views": 309
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:10:27Z",
+  "wash_version": "1.0.0"
+}

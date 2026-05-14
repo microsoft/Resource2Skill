@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gridless_kpi_dashboard_shell_066bbd71",
+  "skill_name": "Gridless KPI Dashboard Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:00:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "Example interactive dashboard"
+        },
+        {
+          "seconds": 814,
+          "description": "First chart placed on dashboard"
+        },
+        {
+          "seconds": 1137,
+          "description": "All three main charts placed on dashboard"
+        },
+        {
+          "seconds": 1418,
+          "description": "Timeline and slicers positioned on dashboard"
+        },
+        {
+          "seconds": 1739,
+          "description": "Cleaned up dashboard with no gridlines or headings"
+        }
+      ],
+      "frames": [
+        "frame_00_example_interactive_dashboard.jpg",
+        "frame_01_first_chart_placed_on_dashboar.jpg",
+        "frame_02_all_three_main_charts_placed_o.jpg"
+      ],
+      "recapped_at": 1777406949.6920443
+    },
+    "primary_path": "frame_00_example_interactive_dashboard.jpg"
+  }
+}

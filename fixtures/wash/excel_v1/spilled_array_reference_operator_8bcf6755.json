@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "spilled_array_reference_operator_8bcf6755",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 918,
+    "type": "youtube",
+    "video_id": "WBuS4b2rujg",
+    "video_title": "10 Excel Formula Symbols You Wish You Knew Years Ago",
+    "video_url": "https://www.youtube.com/watch?v=WBuS4b2rujg",
+    "views": 553466
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

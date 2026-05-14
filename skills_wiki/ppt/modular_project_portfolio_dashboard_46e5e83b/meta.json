@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for executive summaries and PMO dashboards where the status of multiple parallel projects must be conveyed efficiently. The modular design allows for quick scanning and comparison of project health.",
+  "category_path": [
+    "dashboard",
+    "project_management"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_project_portfolio_dashboard_46e5e83b",
+  "skill_name": "Modular Project Portfolio Dashboard",
+  "source": {
+    "channel": "SlideSalad",
+    "duration_sec": 85,
+    "type": "youtube",
+    "video_id": "wr8m_EkTKT4",
+    "video_title": "Project KPI Dashboards PowerPoint Templates - Project Management | SlideSalad",
+    "video_url": "https://www.youtube.com/watch?v=wr8m_EkTKT4",
+    "views": 1453
+  },
+  "tags": [
+    "dashboard",
+    "portfolio",
+    "project management",
+    "kpi",
+    "status report"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:08Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_displaced_ground_plane_f10cab70",
+  "skill_name": "Procedural Displaced Ground Plane",
+  "source": {
+    "channel": "powdered_bread",
+    "duration_sec": 246,
+    "type": "youtube",
+    "video_id": "bPtg4rFkBcA",
+    "video_title": "basic ground displacement in blender (procedural) tutorial",
+    "video_url": "https://www.youtube.com/watch?v=bPtg4rFkBcA",
+    "views": 51496
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:00Z",
+  "wash_version": "1.0.0"
+}

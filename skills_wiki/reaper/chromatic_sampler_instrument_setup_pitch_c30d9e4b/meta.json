@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "chromatic_sampler_instrument_setup_pitch_c30d9e4b",
+  "skill_name": "Chromatic Sampler Instrument Setup (Pitched Chop)",
+  "source": {
+    "channel": "Joe Markle",
+    "duration_sec": 128,
+    "type": "youtube",
+    "video_id": "bXMR1jZ0Pw4",
+    "video_title": "Basic Sampling in Reaper",
+    "video_url": "https://www.youtube.com/watch?v=bXMR1jZ0Pw4",
+    "views": 46414
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:10:58Z",
+  "wash_version": "1.0.0"
+}

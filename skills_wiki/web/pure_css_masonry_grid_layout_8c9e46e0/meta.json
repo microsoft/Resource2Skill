@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for image galleries, blog post feeds, or portfolio showcases where content cards have varying heights. Provides a native, performant alternative to JavaScript masonry libraries.",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_masonry_grid_layout_8c9e46e0",
+  "skill_name": "Pure CSS Masonry Grid Layout",
+  "source": {
+    "channel": "Web Tech Talk ",
+    "duration_sec": 194,
+    "type": "youtube",
+    "video_id": "-isQPqqnIBo",
+    "video_title": "CSS Tips & Tricks: Creating a Masonry Grid Layout with Pure CSS, No JavaScript Required",
+    "video_url": "https://www.youtube.com/watch?v=-isQPqqnIBo",
+    "views": 26894
+  },
+  "tags": [
+    "masonry",
+    "css columns",
+    "grid layout",
+    "pure css",
+    "responsive",
+    "card layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:45:45Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "This style is a cornerstone of IT documentation and communication, highly applicable for network design proposals, infrastructure documentation, and presentations to various stakeholders.",
+  "category_path": [
+    "it_infrastructure",
+    "network_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "icon_based_network_topology_diagram_072f1639",
+  "skill_name": "Icon-Based Network Topology Diagram",
+  "source": {
+    "channel": "IntellectMatrix",
+    "duration_sec": 569,
+    "type": "youtube",
+    "video_id": "tgRyzbAbbks",
+    "video_title": "How to prepare a basic network diagram using Cisco icons & MS Power Point",
+    "video_url": "https://www.youtube.com/watch?v=tgRyzbAbbks",
+    "views": 56641
+  },
+  "tags": [
+    "network topology",
+    "it architecture",
+    "diagramming",
+    "icons",
+    "hub-and-spoke",
+    "visual communication"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:26Z",
+  "wash_version": "1.0.0"
+}

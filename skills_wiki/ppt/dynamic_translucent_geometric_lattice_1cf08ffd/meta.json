@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_translucent_geometric_lattice_1cf08ffd",
+  "skill_name": "Dynamic Translucent Geometric Lattice",
+  "source": {
+    "channel": "Best PPT Template & Slides Theme Free",
+    "duration_sec": 170,
+    "type": "youtube",
+    "video_id": "SItwxYzeqr0",
+    "video_title": "Red Orange Diagonal Background PowerPoint Templates | Free",
+    "video_url": "https://www.youtube.com/watch?v=SItwxYzeqr0",
+    "views": 434
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:20:27Z",
+  "wash_version": "1.0.0"
+}

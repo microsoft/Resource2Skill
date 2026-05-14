@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for sci-fi vehicle design, product visualization, and mecha paneling. Ideal for creating high-fidelity hard-surface details on curved or deforming bodies without shading artifacts.",
+  "category_path": [
+    "modeling",
+    "topology"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hard_surface_subd_hole_topology_crease_w_92a01f33",
+  "skill_name": "Hard Surface SubD Hole Topology (Crease Workflow)",
+  "source": {
+    "channel": "Josh - Blender Bros",
+    "duration_sec": 1229,
+    "type": "youtube",
+    "video_id": "bYXYEZh5v_o",
+    "video_title": "Our FAVORITE sub-d modeling strategies",
+    "video_url": "https://www.youtube.com/watch?v=bYXYEZh5v_o",
+    "views": 24245
+  },
+  "tags": [
+    "hard-surface",
+    "subd",
+    "topology",
+    "edge-crease",
+    "quads"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:01Z",
+  "wash_version": "1.0.0"
+}

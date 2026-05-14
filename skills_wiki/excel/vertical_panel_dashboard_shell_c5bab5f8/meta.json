@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_panel_dashboard_shell_c5bab5f8",
+  "skill_name": "Vertical Panel Dashboard Shell",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:12:42Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 106,
+          "description": "fully interactive dashboard overview"
+        },
+        {
+          "seconds": 716,
+          "description": "dashboard side panel populated with dynamic KPIs"
+        },
+        {
+          "seconds": 1220,
+          "description": "dashboard incorporating a heat map for purchase patterns"
+        },
+        {
+          "seconds": 1914,
+          "description": "dashboard with geographical map charts displaying customer locations"
+        },
+        {
+          "seconds": 2744,
+          "description": "final polished dashboard with corporate color scheme applied"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_interactive_dashboard_ov.jpg",
+        "frame_01_dashboard_side_panel_populated.jpg",
+        "frame_02_dashboard_incorporating_a_heat.jpg"
+      ],
+      "recapped_at": 1777407999.967589
+    },
+    "primary_path": "frame_00_fully_interactive_dashboard_ov.jpg"
+  }
+}

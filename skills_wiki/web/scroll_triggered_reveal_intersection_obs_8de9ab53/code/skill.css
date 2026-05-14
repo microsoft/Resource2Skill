@@ -1,0 +1,7 @@
+  @media (prefers-reduced-motion: reduce) {
+      .fade-in {
+          transition: none !important;
+          opacity: 1 !important;
+          transform: translateY(0) !important;
+      }
+  }

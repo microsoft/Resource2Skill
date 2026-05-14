@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "text_driven_grid_profile_b50891c9",
+  "skill_name": "Text-Driven Grid Profile",
+  "source": {
+    "channel": "\u79cb\u53f6\u8bfe\u5802",
+    "duration_sec": 532,
+    "type": "youtube",
+    "video_id": "E5m3M3CFzIw",
+    "video_title": "PPT \u6559\u5b66 - \u7eaf\u6587\u5b57\u5236\u4f5c\u9ad8\u5927\u4e0a\u7684\u4e2a\u4eba\u4ecb\u7ecd\uff01",
+    "video_url": "https://www.youtube.com/watch?v=E5m3M3CFzIw",
+    "views": 364
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:49Z",
+  "wash_version": "1.0.0"
+}

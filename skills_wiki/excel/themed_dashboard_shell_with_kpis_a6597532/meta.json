@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_dashboard_shell_with_kpis_a6597532",
+  "skill_name": "Themed Dashboard Shell with KPIs",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:18:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Overview of the final interactive sales dashboard"
+        },
+        {
+          "seconds": 68,
+          "description": "Dashboard header with KPIs and icons designed"
+        },
+        {
+          "seconds": 629,
+          "description": "All KPI shapes, icons, and dynamic values displayed"
+        },
+        {
+          "seconds": 1441,
+          "description": "All charts and tables are built and formatted in the dashboard"
+        },
+        {
+          "seconds": 1819,
+          "description": "Final interactive dashboard with refreshed data for all elements"
+        }
+      ],
+      "frames": [
+        "frame_00_overview_of_the_final_interact.jpg",
+        "frame_01_dashboard_header_with_kpis_and.jpg",
+        "frame_02_all_kpi_shapes_icons_and_dynam.jpg"
+      ],
+      "recapped_at": 1777407672.4840987
+    },
+    "primary_path": "frame_00_overview_of_the_final_interact.jpg"
+  }
+}

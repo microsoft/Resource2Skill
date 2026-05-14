@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_808_portamento_glide_bass_97edd08b",
+  "skill_name": "808 Portamento Glide Bass",
+  "source": {
+    "channel": "Learning Reaper",
+    "duration_sec": 1410,
+    "type": "youtube",
+    "video_id": "vTN3QIspGJc",
+    "video_title": "Ultimate 808 Slide Tutorial for Reaper",
+    "video_url": "https://www.youtube.com/watch?v=vTN3QIspGJc",
+    "views": 8078
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:06:46Z",
+  "wash_version": "1.0.0"
+}

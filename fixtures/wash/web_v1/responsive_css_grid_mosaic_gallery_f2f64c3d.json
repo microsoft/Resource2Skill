@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_css_grid_mosaic_gallery_f2f64c3d",
+  "source": {
+    "channel": "DesignCourse",
+    "duration_sec": 1181,
+    "type": "youtube",
+    "video_id": "8KMgLzUCmV4",
+    "video_title": "Create a Responsive Masonry Grid with CSS Grid + UI/UX Design",
+    "video_url": "https://www.youtube.com/watch?v=8KMgLzUCmV4",
+    "views": 22572
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

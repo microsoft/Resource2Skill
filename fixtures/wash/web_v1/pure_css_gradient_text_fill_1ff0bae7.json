@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_gradient_text_fill_1ff0bae7",
+  "source": {
+    "channel": "Code Radiance",
+    "duration_sec": 293,
+    "type": "youtube",
+    "video_id": "HwI-fcCFDz4",
+    "video_title": "Set Gradient Colors for Text using CSS | With Code Example",
+    "video_url": "https://www.youtube.com/watch?v=HwI-fcCFDz4",
+    "views": 563
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

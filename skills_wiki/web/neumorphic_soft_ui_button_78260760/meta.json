@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_soft_ui_button_78260760",
+  "skill_name": "Neumorphic Soft UI Button",
+  "source": {
+    "channel": "Barmajli",
+    "duration_sec": 121,
+    "type": "youtube",
+    "video_id": "QP5Wd7VBc_o",
+    "video_title": "Create Modern Neumorphism Button with HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=QP5Wd7VBc_o",
+    "views": 4777
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:03:16Z",
+  "wash_version": "1.0.0"
+}

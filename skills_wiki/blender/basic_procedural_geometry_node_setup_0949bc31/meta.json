@@ -1,0 +1,35 @@
+{
+  "applicability": "This skill is the foundational pattern for all procedural modeling in Blender's Geometry Nodes. It establishes the essential workflow of generating and modifying geometry within a node tree.",
+  "category_path": [
+    "modeling",
+    "geometry_nodes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "basic_procedural_geometry_node_setup_0949bc31",
+  "skill_name": "Basic Procedural Geometry Node Setup",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 1402,
+    "type": "youtube",
+    "video_id": "tWvgHbZXCtA",
+    "video_title": "Geometry Nodes for Complete Beginners - Part 1 (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=tWvgHbZXCtA",
+    "views": 101490
+  },
+  "tags": [
+    "geometry nodes",
+    "procedural modeling",
+    "parametric",
+    "node setup"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:42Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_offset_underlay_accent_df52bd4d",
+  "skill_name": "Geometric Offset Underlay Accent",
+  "source": {
+    "channel": "Learn with Freddie",
+    "duration_sec": 131,
+    "type": "youtube",
+    "video_id": "KTehda9LSkY",
+    "video_title": "How To Use an Overlay in Powerpoint for a More Creative Look [2025 Full Guide]",
+    "video_url": "https://www.youtube.com/watch?v=KTehda9LSkY",
+    "views": 85
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:30:44Z",
+  "wash_version": "1.0.0"
+}

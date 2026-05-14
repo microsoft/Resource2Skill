@@ -1,0 +1,62 @@
+{
+  "skill_id": "centered_title_bullets_39e368",
+  "skill_type": "shell",
+  "name": "Centered Title & Bullets",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list"
+    ],
+    "content_shape": [
+      "title+bullets"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_title_bullets_39e368/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "seamless_directional_continuity_cross_sl_3495fd00",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A minimal, low-density layout featuring a prominent centered headline and a block of large bullet points below it, ideal for simple, impactful statements.",
+  "_distill_attempts": 1
+}

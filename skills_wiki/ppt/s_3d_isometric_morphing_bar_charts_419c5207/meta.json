@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_isometric_morphing_bar_charts_419c5207",
+  "skill_name": "3D Isometric Morphing Bar Charts",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 740,
+    "type": "youtube",
+    "video_id": "RoH_K7vLpDI",
+    "video_title": "Animated PowerPoint Tutorial 2023 - 3D Bar Charts",
+    "video_url": "https://www.youtube.com/watch?v=RoH_K7vLpDI",
+    "views": 17907
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:06Z",
+  "wash_version": "1.0.0"
+}

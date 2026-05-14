@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for interactive portfolio galleries, premium SaaS feature cards, and team member bios. Uses JavaScript to force a continuous forward rotation loop, preventing jarring animation reversals on rapid mouse movements.",
+  "category_path": [
+    "components",
+    "cards",
+    "interactive"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_3d_looping_flip_card_06818024",
+  "skill_name": "Continuous 3D Looping Flip Card",
+  "source": {
+    "channel": "Hemant Dutta",
+    "duration_sec": 298,
+    "type": "youtube",
+    "video_id": "YvkmhJjm4pw",
+    "video_title": "3D Flip Card Hover Effect Under 5 Minutes [HTML/CSS/JS]",
+    "video_url": "https://www.youtube.com/watch?v=YvkmhJjm4pw",
+    "views": 1750
+  },
+  "tags": [
+    "3d-transform",
+    "flip-card",
+    "continuous-loop",
+    "hover-effect",
+    "javascript-animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:27:39Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,71 @@
+{
+  "applicability": "Applicable for modern UI elements like hero sections, pricing cards, and dashboard widgets, especially where a sleek, futuristic, and integrated aesthetic is desired.",
+  "category_path": [
+    "web",
+    "visual_design",
+    "css_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_glassmorphism_with_lighting_tex_a3a49103",
+  "skill_name": "Advanced Glassmorphism with Lighting & Textures",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "bnC-kuL_CYw",
+    "video_title": "3 Level Glassmorphism Design In CSS | CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=bnC-kuL_CYw",
+    "views": 170230
+  },
+  "tags": [
+    "glassmorphism",
+    "CSS",
+    "UI design",
+    "backdrop-filter",
+    "textures",
+    "lighting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:27Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "Landing page with initial glassmorphism header"
+        },
+        {
+          "seconds": 138,
+          "description": "Landing page with blurred tab (Level 1)"
+        },
+        {
+          "seconds": 326,
+          "description": "Landing page with white, transparent blurred tab (Level 2)"
+        },
+        {
+          "seconds": 417,
+          "description": "Landing page with gradient pattern blurred tab (Level 3)"
+        },
+        {
+          "seconds": 445,
+          "description": "Landing page with repeating striped pattern blurred tab (Level 3 advanced)"
+        }
+      ],
+      "frames": [
+        "frame_00_landing_page_with_initial_glas.jpg",
+        "frame_01_landing_page_with_blurred_tab_.jpg",
+        "frame_02_landing_page_with_white_transp.jpg"
+      ],
+      "recapped_at": 1777408210.6439438
+    },
+    "primary_path": "frame_00_landing_page_with_initial_glas.jpg"
+  }
+}

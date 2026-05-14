@@ -1,0 +1,2507 @@
+{
+  "beginner_webpage_scaffolding_foundationa_bbc197d4": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Simple and functional but dated styling, weak typography/color choices, and little visual or technical novelty.",
+    "exec_ok": true
+  },
+  "retro_cozy_gaming_portfolio_layout_a1700c1e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, tasteful retro-minimal layout with nice gradients and spacing; modular card sections compose well, though the interaction/design treatment is fairly simple.",
+    "exec_ok": true
+  },
+  "asymmetric_grid_layout_with_curved_secti_2eead84a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern promo/signup section with strong spacing and hierarchy; wave shapes add polish, though the layout is fairly standard.",
+    "exec_ok": true
+  },
+  "scalable_css_token_architecture_modern_r_56015e20": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card with strong typography and reusable structure, though the styling is fairly conventional.",
+    "exec_ok": true
+  },
+  "glassmorphism_frosted_card_ce20446e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean glassmorphism card over a scenic photo looks modern and polished, though the effect is fairly common and the component depends somewhat on the background image for impact.",
+    "exec_ok": true
+  },
+  "semantic_portfolio_showcase_with_grid_ga_517ad989": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero card with solid spacing and typography, but the layout is fairly standard and only mildly distinctive.",
+    "exec_ok": true
+  },
+  "advanced_glassmorphism_ui_18b47fc2": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Polished glassmorphism card with strong lighting and spacing; visually appealing and reusable, though the effect is fairly standard.",
+    "exec_ok": true
+  },
+  "glassmorphism_pill_navigation_bar_8e14579e": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Attractive glassmorphism hero with pleasing imagery and decent polish, but weak text contrast and full-bleed hero assumptions make it only moderately reusable and not especially novel.",
+    "exec_ok": true
+  },
+  "liquid_glassmorphism_svg_displacement_fi_593eefe6": {
+    "visual_quality": 5,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Polished glassmorphism card with attractive neon diffusion and solid spacing; visually strong and fairly reusable, though the dramatic full-bleed glow feels somewhat page-dependent.",
+    "exec_ok": true
+  },
+  "glassmorphism_card_with_masked_gradient__8638275e": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Polished dark glassmorphism-style card with good spacing and typography, but the heavy full-screen background treatment makes it feel somewhat less drop-in composable.",
+    "exec_ok": true
+  },
+  "pure_css_target_modal_popup_28899600": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean and usable but very minimal; decent as a simple centered CTA block, with limited visual polish or novelty.",
+    "exec_ok": true
+  },
+  "native_html_dialog_modal_59809d11": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable minimal hero-style modal trigger, but visually sparse and not especially distinctive or novel.",
+    "exec_ok": true
+  },
+  "elegant_fade_in_modal_dialog_f158e679": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "A very basic centered button with minimal styling; functional but not especially polished, flexible, or novel.",
+    "exec_ok": true
+  },
+  "modular_responsive_overlay_modal_system_e8396a18": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Very minimal default-style buttons with basic spacing; functional but not especially polished or distinctive.",
+    "exec_ok": true
+  },
+  "smooth_fade_in_centered_modal_6a5f0afe": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal modal trigger with decent spacing, but it feels plain, underdeveloped, and not especially distinctive.",
+    "exec_ok": true
+  },
+  "responsive_auto_fit_bento_grid_with_nati_ab4f9fb7": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Polished modern bento-grid with strong hierarchy and cohesive styling; highly reusable, though the pattern is fairly familiar.",
+    "exec_ok": true
+  },
+  "responsive_bento_box_grid_dashboard_d156d86f": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card-based grid with strong color blocking and solid hierarchy; highly reusable, though the concept itself is fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_auto_fit_css_grid_no_media_qu_9b97a188": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme card grid with solid spacing and responsiveness, though the styling is fairly standard rather than especially novel.",
+    "exec_ok": true
+  },
+  "perfectly_aligned_nested_grids_via_css_s_2a7b43dd": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card layout with strong alignment and hierarchy; highly reusable, though the concept is more polished than novel.",
+    "exec_ok": true
+  },
+  "perfect_responsive_grid_auto_fill_auto_f_340031dd": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Clean, modern dark-mode demo with strong layout and clear utility, though the visual treatment is somewhat conventional.",
+    "exec_ok": true
+  },
+  "pure_css_monospace_typewriter_effect_61a3719f": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Minimal typewriter-style text on a black background is clean but very basic, with limited visual interest or standalone impact.",
+    "exec_ok": true
+  },
+  "dynamic_pure_css_typewriter_effect_12449511": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean minimal typing cursor effect, but very basic and not especially distinctive or production-rich on its own.",
+    "exec_ok": true
+  },
+  "javascript_typewriter_effect_d9056928": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean dark card with solid typography and spacing; polished and reusable, though the typewriter effect itself is fairly common.",
+    "exec_ok": true
+  },
+  "auto_typing_hero_text_6062442b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern typing-style headline with strong contrast, though it's fairly simple and not especially novel.",
+    "exec_ok": true
+  },
+  "dynamic_auto_typing_text_cycler_8710004d": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Minimal centered brush-text treatment has some personality, but it feels unfinished and not especially polished or versatile.",
+    "exec_ok": true
+  },
+  "interactive_flexbox_layout_engine_03974064": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, polished flexbox demo with strong hierarchy and reusable card layout, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "robust_3_card_comparison_layout_flexbox__678c2db4": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme comparison cards with strong spacing and hierarchy; highly reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "responsive_flexbox_card_showcase_970ebe0c": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark UI with strong structure and reusable card patterns, though the overall concept is fairly standard.",
+    "exec_ok": true
+  },
+  "intentional_1d_vs_2d_layouts_grid_auto_f_3ba2fa06": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode component with strong layout hierarchy and reusable structure, though the presentation is fairly conventional.",
+    "exec_ok": true
+  },
+  "pure_css_translucent_3d_cube_8052009c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern dark-mode hero with a stylish 3D wireframe cube; polished and reusable, though somewhat minimal in originality.",
+    "exec_ok": true
+  },
+  "interactive_flexbox_layout_playground_56cbe6d8": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-themed playground with polished controls and colorful blocks, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "interactive_css_3d_transform_showcase_ga_a340dfd4": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card-grid demo with solid spacing and styling; highly reusable, though the concept itself is fairly standard.",
+    "exec_ok": true
+  },
+  "3d_interactive_hover_card_css_3d_transfo_8cb382bb": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark card with strong polish and easy reusability, though the concept and layout are fairly conventional.",
+    "exec_ok": true
+  },
+  "interactive_3d_css_transform_explorer_9472065d": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern control panel with strong composability, though the interaction pattern is fairly standard rather than especially novel.",
+    "exec_ok": true
+  },
+  "masterful_css_gradients_animated_conic_t_cca3a05e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient showcase with solid card layout and CTA, though the concept feels more polished than especially novel.",
+    "exec_ok": true
+  },
+  "interactive_3d_parallax_flip_card_218cf086": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark card with solid polish and easy reuse, though the idea feels fairly standard from the static view.",
+    "exec_ok": true
+  },
+  "animated_glowing_gradient_blob_e2151ecf": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern quote card with attractive neon-gradient ambience, though the concept is fairly standard and minimal.",
+    "exec_ok": true
+  },
+  "animated_fluid_radial_background_ef2d2343": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean pastel gradient with a polished glass-like card; attractive and reusable, though the concept is fairly familiar.",
+    "exec_ok": true
+  },
+  "continuous_animated_gradient_background_56fc117c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient card with solid polish and easy reuse, though the concept is fairly common.",
+    "exec_ok": true
+  },
+  "animated_gradient_background_63d42040": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern gradient hero-style card with solid typography, but the concept is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "pure_css_animated_character_art_honey_be_97a2b828": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, polished card with a charming CSS bee illustration; visually appealing and reusable, though not especially groundbreaking.",
+    "exec_ok": true
+  },
+  "pure_css_character_art_mascot_0b80dc95": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, charming CSS mascot with solid polish and layout, though the presentation is simple rather than highly innovative.",
+    "exec_ok": true
+  },
+  "faux_3d_isometric_hardware_ui_8f9317fb": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Polished dark-mode isometric card with strong depth and lighting; modern and reusable, though not especially groundbreaking.",
+    "exec_ok": true
+  },
+  "pure_css_character_illustration_animatio_cb3a6b13": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, charming CSS character with solid visual polish; simple and reusable, though somewhat minimal in originality.",
+    "exec_ok": true
+  },
+  "pure_css_animated_character_art_cat_face_ec71fe50": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, playful 404 card with strong contrast and a charming mascot; polished and reusable, though relatively simple in layout.",
+    "exec_ok": true
+  },
+  "glassmorphism_card_overlay_6369cf59": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern glassmorphism card with pleasing gradients, though the concept is familiar and the typography/detailing are fairly simple.",
+    "exec_ok": true
+  },
+  "advanced_glassmorphism_with_lighting_tex_a3a49103": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Polished, modern glassmorphism cards with strong lighting and texture treatment; highly reusable, with moderate originality.",
+    "exec_ok": true
+  },
+  "glassmorphism_navigation_bar_b44dcf2a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, attractive glassmorphism hero with smooth gradients and decent polish, though the style is fairly familiar rather than especially novel.",
+    "exec_ok": true
+  },
+  "glassmorphism_masked_gradient_border_car_cebe9470": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean dark-glass referral card with subtle glow and solid hierarchy; polished and reusable, though not especially novel.",
+    "exec_ok": true
+  },
+  "liquid_glass_displacement_effect_cc292275": {
+    "visual_quality": 5,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Polished liquid-glass card with vibrant lighting and tasteful depth; visually strong and reusable, though the dramatic background may need toning down in broader layouts.",
+    "exec_ok": true
+  },
+  "css_only_target_popup_a52afb9b": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean and functional but very minimal, with basic styling and limited visual distinction or novelty.",
+    "exec_ok": true
+  },
+  "native_html_dialog_modal_with_styled_bac_818b9d38": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable minimalist modal trigger section, but visually sparse and not especially novel.",
+    "exec_ok": true
+  },
+  "smooth_fade_in_css_modal_overlay_9f3c21c8": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal placeholder-style card with a basic centered button; clean but not especially polished, distinctive, or production-ready.",
+    "exec_ok": true
+  },
+  "attribute_driven_multi_modal_system_1bff0f95": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal and functional, but visually plain and generic with little styling or distinctive interaction design.",
+    "exec_ok": true
+  },
+  "flex_centered_fade_in_modal_dialog_e5079fc5": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Clean dark backdrop and decent button styling, but the component is extremely minimal and not especially distinctive or composition-ready on its own.",
+    "exec_ok": true
+  },
+  "css_variable_theme_switcher_with_custom__c8653804": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean dark card with solid spacing and contrast, but fairly generic and only mildly distinctive.",
+    "exec_ok": true
+  },
+  "persistent_dark_mode_toggle_with_css_ico_6d9f1d84": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable minimalist hero section, but very sparse and not especially distinctive or polished.",
+    "exec_ok": true
+  },
+  "dynamic_theme_toggle_landing_page_d8a92671": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero section with solid typography and spacing, but the layout and graphic treatment are fairly standard.",
+    "exec_ok": true
+  },
+  "developer_centric_dark_mode_hero_feature_203cdbf9": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Highly polished, modern hero component with strong typography and clean layout; very reusable, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "themeable_portfolio_hero_with_morphing_b_e409644d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong contrast and solid layout, though it uses fairly standard portfolio design patterns.",
+    "exec_ok": true
+  },
+  "pure_css_animated_number_counters_4841491c": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern stat cards with solid spacing and contrast; highly reusable, though the overall treatment is fairly standard.",
+    "exec_ok": true
+  },
+  "animated_number_counter_cards_1cb7cc44": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern stats cards with solid spacing and contrast; highly reusable, though the design pattern is fairly standard.",
+    "exec_ok": true
+  },
+  "scroll_activated_statistics_grid_9afa9d08": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean metric strip with decent spacing and readability, but overall very minimal and not especially distinctive or polished.",
+    "exec_ok": true
+  },
+  "pure_css_odometer_mechanical_counter_8c85005b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern split-flap counter with strong contrast and neat framing; visually solid and easy to place in a dashboard, though only moderately novel.",
+    "exec_ok": true
+  },
+  "3d_mechanical_flip_clock_ede6fccf": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern countdown card with strong contrast and solid typography, though the flip-clock treatment feels fairly conventional.",
+    "exec_ok": true
+  },
+  "interactive_lottie_animation_integration_90f66d29": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean modern dark hero with strong typography and gradient styling, though the layout feels sparse and only mildly novel.",
+    "exec_ok": true
+  },
+  "kinetic_typography_with_bouncing_embedde_f8072937": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Bold, clean kinetic-typography style with strong contrast and modern appeal, though the concept is fairly simple.",
+    "exec_ok": true
+  },
+  "neo_brutalist_lottie_feature_card_2a3d257d": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable card layout with decent structure, but the large empty area and minimal styling make it feel basic rather than polished or novel.",
+    "exec_ok": true
+  },
+  "neon_pulse_button_85d88ba3": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern CTA with tasteful neon glow; highly reusable, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "neon_orbital_ecosystem_c550978a": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Polished, modern hero-style component with strong neon orbital visuals and clear layout; highly reusable, with moderately novel execution.",
+    "exec_ok": true
+  },
+  "modern_css_scroll_driven_parallax_stack_cec310d3": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero with tasteful gradients and geometric layering; polished and reusable, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "pure_css_parallax_scrolling_742cbb7c": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Beautiful high-quality landscape image with clean presentation, but it's a fairly standard static photo card with limited novelty.",
+    "exec_ok": true
+  },
+  "multi_layered_parallax_hero_95a95c32": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, atmospheric parallax-style hero with strong typography and layering, though the concept is fairly familiar.",
+    "exec_ok": true
+  },
+  "pure_css_3d_perspective_parallax_e800f3d3": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean hero-style depth effect with strong typography and scenic layering, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "cinematic_scroll_driven_parallax_engine_8496d406": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean hero-style component with strong glow and nighttime mood; polished overall, though fairly conventional in concept.",
+    "exec_ok": true
+  },
+  "fluid_aurora_background_css_shape_morphi_769cbc5a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern glassmorphism card over a smooth aurora gradient; polished and reusable, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "modern_css_shape_masking_clip_path_galle_5ceef90b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern demo with cohesive styling and engaging clip-path concept, though more like a showcase widget than a broadly reusable content component.",
+    "exec_ok": true
+  },
+  "3d_morphing_css_matrix_gallery_cube_to_r_999ec5f9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Polished dark-themed 3D demo with strong visual interest; slightly niche but integrates well as a modern showcase component.",
+    "exec_ok": true
+  },
+  "elastic_svg_shape_morphing_a9aefded": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean dark card with decent hierarchy and drop-in usability, but the styling is fairly minimal and the visual idea feels only moderately distinctive.",
+    "exec_ok": true
+  },
+  "responsive_auto_fit_css_grid_4d89859b": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode card grid with solid spacing and hierarchy; highly reusable, though the pattern itself is fairly standard.",
+    "exec_ok": true
+  },
+  "responsive_asymmetric_bento_grid_b5070d72": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode feature grid with strong typography and spacing; highly reusable, though the layout is fairly conventional.",
+    "exec_ok": true
+  },
+  "auto_responsive_css_grid_media_query_fre_8feb2f10": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme card grid with solid spacing and responsiveness, though the design is fairly standard visually.",
+    "exec_ok": true
+  },
+  "perfectly_aligned_subgrid_card_deck_b4997731": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card layout with strong alignment and good drop-in usability, though the design is fairly conventional.",
+    "exec_ok": true
+  },
+  "modern_svg_animation_toolkit_3008d18b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark UI with cohesive spacing and typography; polished and reusable, though the concepts feel fairly standard.",
+    "exec_ok": true
+  },
+  "auto_responsive_fluid_grid_gallery_dc4cc0a4": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card grid with strong composability, though the visual treatment is fairly standard rather than especially novel.",
+    "exec_ok": true
+  },
+  "scrollytelling_reveal_grid_scroll_driven_82291f4a": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and minimal hero section with decent typography, but it feels plain and not especially novel.",
+    "exec_ok": true
+  },
+  "performant_scroll_reveal_animations_inte_46b663aa": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero/card layout with polished gradients and spacing; highly reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "scroll_pinned_morphing_product_showcase_9253450f": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Elegant editorial aesthetic with strong whitespace and bottle/title layering, though the extreme sparsity and tiny text hurt usability and reuse.",
+    "exec_ok": true
+  },
+  "vanilla_js_scroll_triggered_transitions_3b53fab7": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark card with strong typography, but the interaction concept appears fairly minimal and not especially novel from the screenshot alone.",
+    "exec_ok": true
+  },
+  "scroll_driven_canvas_image_sequence_3d_t_63a541b6": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Minimal dark hero has a subtle mood, but it feels sparse, low-contrast, and not especially polished or distinctive.",
+    "exec_ok": true
+  },
+  "bento_box_vcard_dashboard_0682fc96": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean modern dark dashboard-style portfolio card with solid hierarchy and polish, though the layout feels somewhat conventional.",
+    "exec_ok": true
+  },
+  "neon_glassmorphism_profile_hero_4e6d8376": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong contrast and polished styling, though the layout and glowing orb feel fairly conventional.",
+    "exec_ok": true
+  },
+  "minimalist_single_column_portfolio_stack_44dee240": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, airy editorial layout with tasteful pastel blocks; polished and reusable, though the visual technique is fairly conventional.",
+    "exec_ok": true
+  },
+  "minimalist_neobrutalist_grid_with_hover__833ff682": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card layout with strong typography and reusable structure, though the design technique is fairly conventional.",
+    "exec_ok": true
+  },
+  "dark_mode_neon_glow_hero_with_glassmorph_afaef063": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern neon-on-dark hero section with solid polish and reusability, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "fluid_responsive_card_grid_with_clamp_ty_c37960f6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern card grid with cohesive styling and strong responsiveness theme, though the layout and effects are fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_bento_dashboard_f5fe0522": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-dashboard card with strong hierarchy and reusable layout, though the oversized wavy chart feels more stylish than novel.",
+    "exec_ok": true
+  },
+  "interactive_3d_hero_canvas_three_js_webg_d6ee1be6": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Striking, highly polished hero-style WebGL component with strong visual impact and clean layout; slightly niche but very composable.",
+    "exec_ok": true
+  },
+  "neon_pulse_hero_with_pure_css_typing_ani_4aa22042": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong contrast and glow effects; reusable on a portfolio page, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "scroll_driven_3d_canvas_parallax_5f732c0b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style intro with strong typography, though visually simple and not especially novel.",
+    "exec_ok": true
+  },
+  "native_webgl2_primitive_rendering_the_gr_8b6006b4": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Clean but very barebones; the typography is decent, yet the empty canvas and minimal styling make it feel more like a raw demo than a polished reusable component.",
+    "exec_ok": true
+  },
+  "raw_webgl_rgb_triangle_rendering_a5c94b60": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very basic tutorial-style canvas embed; functional but visually plain, minimally styled, and not especially novel.",
+    "exec_ok": true
+  },
+  "optimized_dark_mode_ui_components_deebaa20": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode product card with solid spacing and polish, though the concept is fairly standard and minimal.",
+    "exec_ok": true
+  },
+  "interactive_3d_artifact_showcase_studio__531c43b9": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Minimal dark card feels clean and usable, but the screenshot is very sparse and doesn’t showcase enough visual richness or novelty.",
+    "exec_ok": true
+  },
+  "robust_theme_switcher_with_native_ui_syn_a4d61602": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode demo with solid spacing and hierarchy; useful and composable, though visually fairly conventional.",
+    "exec_ok": true
+  },
+  "modern_minimalist_dark_mode_card_87ca4d07": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark card with solid hierarchy and easy page integration, though the design pattern is fairly standard.",
+    "exec_ok": true
+  },
+  "persistent_css_variable_theme_architectu_72d198e8": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable profile card with decent spacing, but the styling is fairly basic and not especially distinctive.",
+    "exec_ok": true
+  },
+  "3d_neon_sequential_flip_loader_882b4c01": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern loading card with polished neon styling; reusable in dashboards or apps, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "scroll_driven_reveal_animations_view_tim_b7d25858": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card gallery with solid spacing and subtle accents; polished and reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "dynamic_landing_page_interactions_keyfra_129a97f6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark hero card with strong typography, though the CTA feels underdeveloped and the layout is fairly conventional.",
+    "exec_ok": true
+  },
+  "pure_css_analog_clock_animation_1451694a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode clock with solid polish and easy reuse, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "continuous_multi_stage_keyframe_sequence_4f4e6186": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card loader with good polish and layout, though the interaction pattern is fairly standard.",
+    "exec_ok": true
+  },
+  "prime_distributed_dom_particle_field_c381c803": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Playful particle background with decent contrast and reusable hero-style composition, but it feels somewhat generic and visually noisy rather than polished.",
+    "exec_ok": true
+  },
+  "interactive_particle_constellation_netwo_a0227a9d": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Polished hero-style component with strong contrast, clean typography, and an engaging network animation that feels modern and reusable.",
+    "exec_ok": true
+  },
+  "ambient_canvas_particle_system_dff730bd": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean and polished particle-style hero card with good contrast, though the effect is fairly common and slightly busy.",
+    "exec_ok": true
+  },
+  "animated_gradient_text_mask_102faa8a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, bold gradient typography on a subtle grid feels polished and reusable, though the concept is fairly simple.",
+    "exec_ok": true
+  },
+  "interactive_canvas_particle_image_5e98e80b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean neon dot-matrix typography with a modern dark theme; polished and reusable, though the concept is only moderately novel.",
+    "exec_ok": true
+  },
+  "css_gradient_text_clipping_f68f6aed": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient text hero with good typography, though the effect is fairly common and the component is quite minimal.",
+    "exec_ok": true
+  },
+  "3d_css_procedural_laser_cut_particle_phy_ff70be68": {
+    "exec_ok": false,
+    "error": "name 'tz' is not defined"
+  },
+  "interactive_spotlight_text_gradient_5ec450a5": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern spotlight-gradient typography with solid polish, though the concept is fairly common and somewhat minimal.",
+    "exec_ok": true
+  },
+  "pure_css_gradient_text_fill_1ff0bae7": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient typography with strong contrast; polished and reusable, though the technique is fairly common.",
+    "exec_ok": true
+  },
+  "gradient_text_stroke_via_background_clip_8782ec72": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient stroke typography with strong contrast; polished and reusable, though the effect itself is fairly familiar.",
+    "exec_ok": true
+  },
+  "fluid_css_hamburger_to_close_animation_8a30ce25": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern minimal presentation with a polished hamburger animation concept, though the overall treatment is fairly standard and sparse.",
+    "exec_ok": true
+  },
+  "math_driven_css_only_morphing_hamburger__0cd6d0f1": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern dark-card presentation with a polished hamburger accent; restrained layout is reusable, though the overall design is fairly minimal.",
+    "exec_ok": true
+  },
+  "animated_morphing_hamburger_off_screen_s_e1f3be11": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable dark-mode header/layout, but fairly generic with limited visual flair or novelty.",
+    "exec_ok": true
+  },
+  "morphing_6_span_hamburger_icon_2aa2624d": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable minimalist hamburger icon demo, but visually sparse and not especially novel.",
+    "exec_ok": true
+  },
+  "single_path_morphing_hamburger_menu_082c88d5": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark card with subtle depth and a nice micro-interaction feel, though the concept is fairly standard and minimal.",
+    "exec_ok": true
+  },
+  "cinematic_svg_text_tracing_animation_832dfa9e": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Clean neon-styled typography on a dark gradient, but very minimal and more like a logo treatment than a broadly reusable component.",
+    "exec_ok": true
+  },
+  "animated_duotone_svgs_staggered_keyframe_545b3d1f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card layout with subtle SVG animation concepts; polished and reusable, though not especially novel from the static view.",
+    "exec_ok": true
+  },
+  "declarative_interactive_svg_geometry_fe5d6c70": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern card with strong contrast and a nicely animated-feeling SVG motif; polished and reusable, though not especially groundbreaking.",
+    "exec_ok": true
+  },
+  "inline_svg_sub_element_css_animation_3bc6e1e4": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style component with a charming illustration; polished and reusable, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "state_driven_spa_page_transitions_swup_s_293520f7": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark UI with solid spacing and typography; highly reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "native_css_scroll_driven_reveal_animatio_0e0876d3": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Clean minimal demo with simple overlapping animated blocks; concept is interesting but the visual execution feels sparse and basic.",
+    "exec_ok": true
+  },
+  "dynamic_view_transitions_gallery_ebfca3a4": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Clean, polished card grid with strong imagery and a modern dark theme; highly reusable, with the native view-transition concept adding some novelty.",
+    "exec_ok": true
+  },
+  "neumorphic_soft_ui_shape_extrusion_c4d0288b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, cohesive neumorphic UI with solid polish and reusable controls, though the style feels somewhat dated rather than novel.",
+    "exec_ok": true
+  },
+  "multi_property_morphing_interface_card_912fe84b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme demo with strong contrast and spacing; polished but fairly simple and conventional.",
+    "exec_ok": true
+  },
+  "neumorphic_soft_ui_button_78260760": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "A very minimal button with soft shadow; clean but generic, with limited visual interest or distinctive technique.",
+    "exec_ok": true
+  },
+  "view_transition_hero_morph_shared_elemen_2914478f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark-card music grid with solid hierarchy and reusable layout, though the design is fairly conventional.",
+    "exec_ok": true
+  },
+  "neumorphic_soft_ui_interface_a02d8f92": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean neumorphic dark-mode card with solid polish and page-ready structure, though the styling is fairly conventional and very low-contrast.",
+    "exec_ok": true
+  },
+  "neumorphic_soft_ui_icons_d46269e5": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Clean neumorphic icon set with a cohesive look, but the low contrast and sparse presentation limit versatility and polish.",
+    "exec_ok": true
+  },
+  "neumorphic_sequential_pulse_loader_cfa8c556": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern loader with soft neumorphic styling; polished and reusable, though not especially novel.",
+    "exec_ok": true
+  },
+  "native_css_motion_fundamentals_transitio_1de837a6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark UI with subtle animation-focused styling; polished and reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "multi_stage_orbital_keyframe_choreograph_11a3bc6d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern card with an appealing animated glow effect; polished and reusable, though somewhat minimal in originality.",
+    "exec_ok": true
+  },
+  "pure_css_keyframe_animation_toolkit_55db6c4b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card layout with polished typography and hover-focused presentation, though the interaction pattern is fairly conventional.",
+    "exec_ok": true
+  },
+  "saas_bento_box_feature_grid_74ac1057": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, polished dark-mode feature grid with strong hierarchy and easy reuse, though the design pattern is fairly conventional.",
+    "exec_ok": true
+  },
+  "conversion_optimized_saas_hero_with_anim_830c8b5e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero-style component with solid typography and layout, though the visual treatment is fairly conventional.",
+    "exec_ok": true
+  },
+  "high_converting_saas_landing_page_archit_2cba9926": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern SaaS hero with solid hierarchy and easy page integration, but fairly conventional styling and layout.",
+    "exec_ok": true
+  },
+  "modern_saas_gradient_hero_section_e90cb45d": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong typography and CTA structure; highly reusable, though fairly conventional in concept.",
+    "exec_ok": true
+  },
+  "native_css_scroll_snap_carousel_ee63d565": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern carousel with nice gradients and spacing; polished enough for reuse, though the interaction pattern is fairly standard.",
+    "exec_ok": true
+  },
+  "glassmorphic_before_after_comparison_her_e6cd3d26": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Highly polished hero component with strong modern styling and an engaging before/after slider concept that would fit well in a larger landing page.",
+    "exec_ok": true
+  },
+  "infinite_css_marquee_carousel_e78e9c83": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card feature section with solid polish and easy page integration, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "css_only_scroll_snapping_carousel_1934cf70": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode carousel with solid presentation, though the styling is fairly minimal and the concept is only mildly novel.",
+    "exec_ok": true
+  },
+  "native_feel_css_scroll_snap_carousel_0b7eb1a8": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark carousel with solid typography and spacing; polished and reusable, though the interaction pattern is fairly conventional.",
+    "exec_ok": true
+  },
+  "fading_focussed_hero_carousel_380071be": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero banner with solid typography and CTA, but it uses a fairly standard layout and visual treatment.",
+    "exec_ok": true
+  },
+  "viewport_aware_revealer_infinite_scroll_6634e6b4": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style section with strong typography and subtle gradient, though the layout is fairly standard and minimally distinctive.",
+    "exec_ok": true
+  },
+  "scroll_triggered_reveal_intersection_obs_8de9ab53": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean and minimal with decent spacing, but the styling is very basic and the reveal concept feels common rather than visually distinctive.",
+    "exec_ok": true
+  },
+  "scroll_triggered_reveal_infinite_scroll_13c10ba1": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card list with solid hierarchy and reusable styling, though the interaction pattern feels fairly standard.",
+    "exec_ok": true
+  },
+  "scroll_triggered_contextual_fab_floating_139433f9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean dark-mode microinteraction demo with solid spacing and hierarchy, though the card styling and FAB concept feel fairly standard.",
+    "exec_ok": true
+  },
+  "orbital_staggered_comet_loader_a0e531c6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern loading state with good contrast and spacing, but the pattern is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "neon_pulse_circular_loader_e82a4784": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, polished loading-state component with strong glow treatment, though it uses a fairly standard sci-fi spinner concept.",
+    "exec_ok": true
+  },
+  "minimalist_css_preloader_suite_32be91bc": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark UI with well-spaced loader cards; highly reusable, though the concepts feel more polished than novel.",
+    "exec_ok": true
+  },
+  "orbiting_glow_comets_css_border_tapering_b707c10e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern loading/processing animation with elegant neon arcs; polished and reusable, though relatively minimal in originality.",
+    "exec_ok": true
+  },
+  "circular_neon_spinner_4e66c0ae": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern loading indicator with solid contrast and balance, though it's a fairly standard spinner treatment.",
+    "exec_ok": true
+  },
+  "animated_water_wave_text_clip_path_morph_916b9d05": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, bold water-text effect with strong contrast; polished and reusable, though the concept is fairly simple.",
+    "exec_ok": true
+  },
+  "pure_css_liquid_wave_background_7bd4a56d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero card with nice glassmorphism and depth, though the concept is fairly familiar rather than especially novel.",
+    "exec_ok": true
+  },
+  "infinite_layered_wave_banner_9fb3566e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern wave hero with solid layering and typography, though the concept is fairly common and somewhat minimal.",
+    "exec_ok": true
+  },
+  "unknown_skill_a0c9e620": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style interaction with solid polish and easy reuse, though the concept feels fairly familiar.",
+    "exec_ok": true
+  },
+  "continuous_css_gradient_wave_background_ad49ab76": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient card with solid typography and good drop-in usability, though the effect feels more refined than novel.",
+    "exec_ok": true
+  },
+  "scroll_driven_text_reveal_6099f2bf": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Minimal dark aesthetic has some mood, but the content is too low-contrast and sparse to feel polished or broadly usable.",
+    "exec_ok": true
+  },
+  "cascading_staggered_text_reveal_4ed9440a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero-style title with strong typography and contrast, but the concept is fairly standard and minimal.",
+    "exec_ok": true
+  },
+  "cinematic_block_reveal_text_animation_79eb8cdb": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Minimal dark scroll interaction has some stylistic intent, but it feels sparse and unfinished rather than polished or easily reusable.",
+    "exec_ok": true
+  },
+  "scanner_bar_text_reveal_2555d24c": {
+    "visual_quality": 1,
+    "composability": 1,
+    "creativity": 1,
+    "notes": "Nearly blank dark frame with no visible component details, so it does not demonstrate polish, reuse, or novelty.",
+    "exec_ok": true,
+    "pruned": true,
+    "prune_reason": "visual_quality=1 < 2.0"
+  },
+  "responsive_flexbox_navbar_with_hamburger_ac938208": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Clean but very basic responsive navbar/hero layout; usable as a simple starter component, not especially polished or novel.",
+    "exec_ok": true
+  },
+  "responsive_glassmorphism_sidebar_navigat_f1289c6e": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean dark hero with soft glow accents, but sparse content, weak navigation styling, and basic execution limit polish and originality.",
+    "exec_ok": true
+  },
+  "flexbox_navbar_layout_patterns_4b1f720f": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern navbar set with strong composability and polished styling, though the concept itself is fairly standard.",
+    "exec_ok": true
+  },
+  "glassmorphism_responsive_side_drawer_nav_e719ff9a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Strong cinematic hero with clean typography and space imagery; polished and reusable, though the layout is fairly conventional.",
+    "exec_ok": true
+  },
+  "expandable_vertical_to_horizontal_respon_ff2c5163": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean dark card with a polished sidebar and typography; solid for reuse, though the overall concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "modern_interactive_pricing_card_trio_52c5b2f5": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern pricing cards with strong reusability, though the layout and styling are fairly standard.",
+    "exec_ok": true
+  },
+  "glassmorphism_responsive_pricing_cards_28bd98e1": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Vibrant gradient pricing cards feel modern and eye-catching, though the heavy background effects slightly reduce clarity and flexibility.",
+    "exec_ok": true
+  },
+  "asymmetric_split_panel_pricing_table_349972e2": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern pricing card layout with solid polish and page-ready structure, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "saas_highlighted_tier_pricing_table_4ae7aa4f": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern pricing table with strong hierarchy and good drop-in usability, though the layout is fairly conventional.",
+    "exec_ok": true
+  },
+  "native_css_grid_masonry_with_progressive_499394c0": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card-based masonry layout that feels reusable and polished, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "accent_banded_pricing_cards_1fac5938": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern pricing cards with strong hierarchy and easy reuse, though the layout and styling are fairly conventional.",
+    "exec_ok": true
+  },
+  "grid_lanes_masonry_gallery_layout_56453df7": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, cohesive masonry card layout with solid modern styling and strong reusability, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "pure_css_masonry_grid_layout_8c9e46e0": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean and professional masonry card grid with solid polish and reusability, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "responsive_bento_grid_layout_e344a628": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card grid with strong composability, though the visual treatment is fairly conventional.",
+    "exec_ok": true
+  },
+  "pure_css_responsive_masonry_grid_4e30f722": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern masonry-style portfolio grid with strong imagery and solid card styling, though the layout technique feels fairly standard.",
+    "exec_ok": true
+  },
+  "native_css_scroll_driven_viewport_animat_1aca29ce": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Clean futuristic dark aesthetic with subtle cyan accents, but the layout feels very sparse and underdeveloped as a standalone component.",
+    "exec_ok": true
+  },
+  "creative_css_link_hover_gallery_7590bccb": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, cohesive dark-card grid with solid typography and spacing; polished and reusable, though the concept feels more conventional than novel.",
+    "exec_ok": true
+  },
+  "interactive_agency_showcase_scroll_drive_7b5aec74": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Minimal abstract motion concept has some intrigue, but the screenshot feels too dark, sparse, and underdeveloped to look polished or broadly reusable.",
+    "exec_ok": true
+  },
+  "pseudo_element_gradient_border_b09e6b66": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode button demo with a polished gradient look, though the concept is fairly common.",
+    "exec_ok": true
+  },
+  "animated_gradient_glow_button_780cfe77": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Minimal dark-mode button with a subtle glow; clean and usable, but very simple and not especially novel.",
+    "exec_ok": true
+  },
+  "sliding_text_push_button_09478fa0": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme button demo with solid polish and easy reuse, though the concept feels fairly standard.",
+    "exec_ok": true
+  },
+  "sliced_typography_hover_effect_68a7d75a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean minimalist glitch-menu concept with strong typography, though the presentation is fairly simple and not especially novel.",
+    "exec_ok": true
+  },
+  "interactive_3d_flip_card_d468bbb6": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and minimal card with decent polish, easy to place in a UI, but visually simple and not especially novel.",
+    "exec_ok": true
+  },
+  "3d_profile_flip_card_on_hover_39743149": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable profile card with decent hierarchy, but the styling feels basic and somewhat dated rather than especially polished or novel.",
+    "exec_ok": true
+  },
+  "3d_flip_card_hover_effect_19d42bee": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable basic card with decent spacing and shadow, but minimal styling and low originality.",
+    "exec_ok": true
+  },
+  "interactive_3d_profile_card_flip_8f1f73ff": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, polished image card with subtle depth and strong contrast, but the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "3d_rolling_cube_reveal_card_3a45e98d": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable dark-card icon row, but fairly basic styling and not especially novel.",
+    "exec_ok": true
+  },
+  "gsap_staggered_scroll_reveals_38aa0ad5": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Minimal dark teaser with subtle typography feels intentional but too sparse to read as a polished standalone component.",
+    "exec_ok": true
+  },
+  "orchestrated_gsap_entry_timeline_03f4c983": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Minimal header bar has a clean color accent, but the component feels unfinished, sparse, and not especially distinctive.",
+    "exec_ok": true
+  },
+  "modular_gsap_timeline_choreography_f48f4b1f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern demo card with good spacing and polish, though the concept is fairly standard and visually a bit sparse.",
+    "exec_ok": true
+  },
+  "gsap_style_interactive_showcase_dynamic__17369f20": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style component with strong typography and spacing, though visually minimal and not especially novel.",
+    "exec_ok": true
+  },
+  "pseudo_element_button_hover_animations_981b4250": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme button demo with solid layout and typography, though the concept feels fairly standard.",
+    "exec_ok": true
+  },
+  "animated_conic_glow_border_f16daee8": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark card with a nice neon border accent; polished and reusable, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "retro_personal_webpage_foundation_092654d0": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Basic unstyled webpage with default typography and spacing; the embedded image is polished, but the component itself feels dated and not especially novel.",
+    "exec_ok": true
+  },
+  "interactive_css_micro_interaction_button_eb3066f2": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-theme button showcase with solid spacing and styling, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "modern_css_token_architecture_utility_bo_03d74c4b": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, polished design-system card layout with strong reusability, though the presentation is fairly conventional.",
+    "exec_ok": true
+  },
+  "seamless_svg_wave_section_divider_f47dd876": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero/newsletter component with solid hierarchy and a nice wave divider, though the layout is fairly simple and not especially novel.",
+    "exec_ok": true
+  },
+  "asymmetric_bento_grid_gallery_native_htm_59836e72": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable gallery-plus-FAQ layout with decent structure, but inconsistent image rendering and plain styling make it feel only moderately polished.",
+    "exec_ok": true
+  },
+  "split_flexbox_hero_with_layered_backgrou_8265ab6f": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean hero-style layout with decent structure and typography, but low contrast and generic styling make it feel only moderately polished.",
+    "exec_ok": true
+  },
+  "high_conversion_cinematic_hero_section_cdffb351": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean cinematic hero with strong typography and spacing, but fairly standard layout and only modest originality.",
+    "exec_ok": true
+  },
+  "full_screen_immersive_flexbox_hero_9f841079": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean hero banner with strong imagery and clear CTA, but it uses a very standard full-width overlay pattern.",
+    "exec_ok": true
+  },
+  "neo_brutalist_editorial_hero_card_aba67f8b": {
+    "visual_quality": 5,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Striking editorial-style hero with strong typography and playful accent badges; polished and memorable, though the bold stickers make it slightly niche for broader layouts.",
+    "exec_ok": true
+  },
+  "futuristic_tubelight_hero_glow_339575dc": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero with strong typography and lighting, though the layout and effects feel fairly conventional.",
+    "exec_ok": true
+  },
+  "dynamic_floating_product_hero_carousel_66cdcad1": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero/card-style sneaker promo with strong contrast and polish, though the layout and effects feel fairly standard.",
+    "exec_ok": true
+  },
+  "minimalist_index_with_hover_reveal_media_b1812d29": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern portfolio-style card with strong spacing and color, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "asymmetric_bento_grid_portfolio_b5141c66": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern developer-card layout with strong composability, though the design is fairly standard rather than especially novel.",
+    "exec_ok": true
+  },
+  "dynamic_perspective_portfolio_mockup_d3ecf61e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean dark hero with solid typography and illustration; polished and reusable, though fairly conventional.",
+    "exec_ok": true
+  },
+  "context_aware_dynamic_cursor_brutalist_t_ae1e21ad": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Strong typography and clean card layout feel polished and reusable, though the interaction concept appears fairly standard and one card looks unfinished.",
+    "exec_ok": true
+  },
+  "webgl_fluid_noise_mesh_gradient_c964cf64": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card with strong composability and decent polish, though the static presentation feels somewhat generic rather than especially novel.",
+    "exec_ok": true
+  },
+  "pure_css_geometric_tessellation_backgrou_93c02c02": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card UI with solid hierarchy and reusable styling, though the concept feels more polished than especially novel.",
+    "exec_ok": true
+  },
+  "glassmorphism_navigation_with_organic_gr_8b16b79f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Polished dark-gradient hero card with solid typography and layout, though the concept is fairly standard and only moderately distinctive.",
+    "exec_ok": true
+  },
+  "scroll_driven_viewport_reveal_cards_3e749df3": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean modern dark-theme concept with good layout potential, but low contrast and sparse execution make it feel unfinished rather than standout.",
+    "exec_ok": true
+  },
+  "css_only_scroll_driven_fade_in_up_reveal_822ca7a7": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean dark-themed layout with decent card structure, but it feels sparse and fairly generic rather than especially polished or inventive.",
+    "exec_ok": true
+  },
+  "native_css_scroll_driven_animations_e5f1fc72": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Clean dark minimalism and clear structure, but the sparse layout and tiny text make it feel more like a rough demo than a polished production component.",
+    "exec_ok": true
+  },
+  "native_css_scroll_driven_viewport_animat_567601d0": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark hero panel with strong typography and good spacing; highly reusable, though the concept itself is fairly standard.",
+    "exec_ok": true
+  },
+  "scroll_driven_aperture_zoom_parallax_rev_b9d9919b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Elegant dark editorial layout with a striking oval focal treatment; polished and reusable, though somewhat niche in style.",
+    "exec_ok": true
+  },
+  "smooth_parallax_draggable_image_track_ffd5b9d3": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Moody dark concept with a nice gallery/parallax idea, but the sparse layout and apparent broken/misaligned image make it feel unfinished rather than polished.",
+    "exec_ok": true
+  },
+  "liquid_scroll_morphogenesis_webgl_maskin_5aa92bfb": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Atmospheric image and minimal typography are tasteful, but the excessive empty space makes the component feel unfinished and hard to place in a polished layout.",
+    "exec_ok": true
+  },
+  "scroll_driven_split_image_3d_card_flip_e209fdfe": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean minimal composition with a nice gradient card, but the sparse layout and simple treatment feel more basic than distinctive.",
+    "exec_ok": true
+  },
+  "intrinsic_responsive_layout_system_ec19e4bd": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card-and-grid layout with strong reusability, though the design and effects are fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_flexbox_navigation_bar_with_m_a75f77ce": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark hero with a polished sticky-nav treatment, though fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "responsive_css_grid_mosaic_gallery_f2f64c3d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-themed mosaic with strong imagery, though one empty/failed tile and a fairly standard layout reduce polish and novelty.",
+    "exec_ok": true
+  },
+  "svg_path_line_drawing_reveal_4a9493c1": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Minimal abstract dot-and-dash motif with clean spacing, but too sparse and underdeveloped to feel polished or broadly reusable.",
+    "exec_ok": true
+  },
+  "comprehensive_modern_responsive_foundati_6078f9a4": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong typography and card layout; highly reusable, though the overall treatment is fairly conventional.",
+    "exec_ok": true
+  },
+  "high_converting_minimalist_portfolio_gri_2cdf9326": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern portfolio-style gallery with strong usability and layout polish, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_flexbox_pricing_cards_9f66c166": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, professional pricing cards with strong reusability, but the design is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "interactive_3d_layered_flip_card_2f776053": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern card overlay with strong typography and image treatment, though the interaction concept feels fairly standard.",
+    "exec_ok": true
+  },
+  "cinematic_masked_text_reveal_cf270921": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean minimalist hero text with strong contrast, but very basic styling and limited originality.",
+    "exec_ok": true
+  },
+  "modern_dark_mode_with_ambient_glows_inte_35516e45": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style feature section with strong composability, though the gradient-card treatment feels fairly standard rather than novel.",
+    "exec_ok": true
+  },
+  "pure_css_infinite_typing_effect_with_mas_14026c85": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal placeholder-like text on a flat dark background; clean but not polished, distinctive, or clearly component-ready.",
+    "exec_ok": true
+  },
+  "dynamic_button_ripple_effect_850e2394": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gradient-button demo with solid polish and easy reuse, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "interactive_saas_hero_with_embedded_prod_5e249e48": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero/dashboard composition with strong SaaS aesthetics and good drop-in usability, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "ai_driven_prompt_hero_section_68589e19": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern prompt UI with strong composability, though the concept and styling feel fairly standard rather than especially novel.",
+    "exec_ok": true
+  },
+  "semantic_css_grid_dashboard_layout_73632f38": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-mode grid demo with strong composability, though the layout concept is fairly standard.",
+    "exec_ok": true
+  },
+  "continuous_3d_looping_flip_card_06818024": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean minimal dark card with decent typography, but it feels sparse and fairly standard rather than especially polished or novel.",
+    "exec_ok": true
+  },
+  "dual_method_parallax_scrolling_js_fracti_545dd559": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean basic parallax demo with decent card styling, but the large flat color blocks feel simplistic and not especially novel.",
+    "exec_ok": true
+  },
+  "minimalist_high_contrast_landing_page_70f070e0": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong contrast and solid layout; highly reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "intersection_observer_scroll_reveal_5576952f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark card with solid typography and spacing, though the concept is fairly standard and visually minimal.",
+    "exec_ok": true
+  },
+  "dynamic_class_based_dark_mode_themed_her_449c085c": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark hero with polished cards and controls; highly reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "gsap_scroll_scrubbed_pinned_animation_a8eaf3f1": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark card with strong typography and subtle depth, though the composition is fairly minimal and not especially novel.",
+    "exec_ok": true
+  },
+  "css_gradient_text_reveal_e6c9d129": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean gradient text on a neutral background is simple and usable, but it feels basic rather than especially polished or novel.",
+    "exec_ok": true
+  },
+  "pure_css_parallax_scroll_revealing_cards_97633c2e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern card grid with tasteful imagery and spacing; polished and reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "morphing_bounce_css_page_loader_6af1625e": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal dark panel with a single cyan square; clean but too sparse and generic to feel polished or distinctive.",
+    "exec_ok": true
+  },
+  "css_radial_dot_loading_spinner_6249a8b7": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and professional loading state with solid contrast and alignment, but it’s very standard and not especially distinctive.",
+    "exec_ok": true
+  },
+  "generative_network_particle_trails_18545355": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern logo-style hero with strong contrast, but fairly minimal and not especially novel.",
+    "exec_ok": true
+  },
+  "neon_wave_particle_matrix_f8cf3d1c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Visually striking particle-field hero with a polished glass card; modern and reusable, though slightly niche due to the intense animated background.",
+    "exec_ok": true
+  },
+  "interactive_canvas_particle_swarm_9e6b99b9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, polished particle-field hero with strong contrast and typography; visually solid and reusable, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "responsive_app_shell_dashboard_with_css__2bed2567": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable dashboard sidebar/content layout, but fairly generic with minimal styling and limited visual distinction.",
+    "exec_ok": true
+  },
+  "dynamic_dashboard_grid_layout_scaffoldin_354383af": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark dashboard card with strong layout composability, though the visual treatment is fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_holy_grail_application_layout_900b3328": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean dark dashboard layout with solid spacing and structure, but fairly standard and not especially distinctive.",
+    "exec_ok": true
+  },
+  "css_sprite_sheet_animation_with_steps_dd8241e3": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card demo with solid presentation, though the concept is fairly standard and somewhat sparse.",
+    "exec_ok": true
+  },
+  "pure_css_scalable_illustration_camera_ic_01d27966": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, polished camera illustration with good balance and usability, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_asymmetric_bento_layout_18131296": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern bento-style card layout with strong color blocking; polished and reusable, though not especially novel.",
+    "exec_ok": true
+  },
+  "mobile_first_app_shell_with_sticky_foote_c58385cc": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very minimal splash-style screen with basic centering and branding, but it feels plain and lacks polish or distinctive design treatment.",
+    "exec_ok": true
+  },
+  "pure_css_isometric_3d_cube_d2be8feb": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern demo with solid typography and a nicely rendered CSS cube, though concept and layout are fairly simple.",
+    "exec_ok": true
+  },
+  "hollow_isometric_glow_cubes_c1f4cc0c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern neon-isometric treatment with strong polish and reusable hero-card appeal, though the concept is somewhat familiar.",
+    "exec_ok": true
+  },
+  "css_3d_isometric_escher_pattern_137d1cd8": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 5,
+    "notes": "Striking Escher-inspired tessellation with strong visual impact, though the busy full-bleed pattern slightly limits easy reuse in varied layouts.",
+    "exec_ok": true
+  },
+  "full_screen_cinematic_video_hero_1c3af82a": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern hero-style CTA with strong typography and easy reuse, but the design is very minimal and not especially novel.",
+    "exec_ok": true
+  },
+  "centered_text_overlay_on_image_2a343f62": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, polished hero-style card with strong imagery and readable overlay text, though the pattern is fairly conventional.",
+    "exec_ok": true
+  },
+  "zero_element_video_overlay_hero_d0927458": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, cinematic gradient overlay with strong typography; polished and reusable, though the technique feels fairly familiar.",
+    "exec_ok": true
+  },
+  "responsive_split_screen_flex_layout_94ee284d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, bold split-screen hero with strong contrast and solid typography, though the concept is fairly common.",
+    "exec_ok": true
+  },
+  "asymmetric_split_screen_hero_with_animat_c0696edc": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, premium hero layout with strong typography and imagery; highly reusable, though the design approach is fairly conventional.",
+    "exec_ok": true
+  },
+  "css_grid_bleed_layout_split_hero_416d7ec6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern split-hero layout with good typography and spacing; polished and reusable, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "interactive_gooey_fluid_gradient_backgro_7fd5e6f7": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Polished neon-gradient hero with smooth modern styling; versatile as a landing-page section, though the effect is fairly common.",
+    "exec_ok": true
+  },
+  "animated_gradient_overlay_hero_a50dce34": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero banner with a tasteful gradient overlay; polished and reusable, though the concept is fairly common.",
+    "exec_ok": true
+  },
+  "animated_text_clipping_mask_34728e76": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern image-filled typography with strong hierarchy; attractive and reusable, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "staggered_slice_page_transition_c48e2a38": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern card with strong typography and imagery; polished and reusable, but fairly standard in concept.",
+    "exec_ok": true
+  },
+  "cinematic_shutter_page_transition_15f2fe2e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean minimalist hero/navigation with strong typography and framing, polished but fairly conventional.",
+    "exec_ok": true
+  },
+  "staggered_curtain_page_transition_06812cc1": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean minimalist hero with strong typography and subtle corner accents; polished and reusable, though not especially novel.",
+    "exec_ok": true
+  },
+  "floating_isometric_svg_cube_b1e219af": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern isometric cube with strong gradients and lighting; polished and reusable, though conceptually fairly familiar.",
+    "exec_ok": true
+  },
+  "layered_pinning_stacking_cards_on_scroll_369f8042": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style intro with strong typography and spacing; highly reusable, though the concept feels fairly standard.",
+    "exec_ok": true
+  },
+  "isometric_device_network_animation_1b9cfa93": {
+    "visual_quality": 5,
+    "composability": 5,
+    "creativity": 4,
+    "notes": "Polished dark isometric illustration with strong hierarchy and clean spacing; highly reusable in modern landing pages, though the concept is stylistically familiar.",
+    "exec_ok": true
+  },
+  "scroll_driven_video_scrubber_scrollytell_d0dc17ac": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Minimal dark scroll-demo aesthetic with clean typography, but it feels sparse and more like a concept section than a polished standalone component.",
+    "exec_ok": true
+  },
+  "smooth_scroll_linked_content_reveal_gsap_01c63635": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean and understated dark grid aesthetic, but extremely sparse and not especially distinctive or functional as a standalone component.",
+    "exec_ok": true
+  },
+  "interactive_recursive_fractal_tree_b6b95b9d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, elegant dark-mode fractal visualization with good whitespace and interaction hint, though somewhat minimal and niche.",
+    "exec_ok": true
+  },
+  "procedural_kinematic_skeleton_ddcf84df": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Sleek cyberpunk-style line animation with a polished glow, though it's sparse and niche for general page layouts.",
+    "exec_ok": true
+  },
+  "interactive_canvas_dot_polygon_0dc934fe": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean and polished interactive demo with good spacing and color, though the concept is fairly simple rather than especially novel.",
+    "exec_ok": true
+  },
+  "interactive_dashboard_data_list_with_opt_b9372d9e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark-table link manager with solid polish and reusable layout, though the design is fairly conventional.",
+    "exec_ok": true
+  },
+  "interactive_spatial_3d_canvas_65e517d3": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Sleek dark-mode concept with an interesting 3D spatial canvas, but the sparse/underlit presentation makes it feel more prototype-like than fully polished.",
+    "exec_ok": true
+  },
+  "procedural_particle_entity_animation_132f18af": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern particle-demo aesthetic with solid presentation; visually appealing and reusable, though the sparse state and off-center subject reduce impact.",
+    "exec_ok": true
+  },
+  "responsive_bento_dashboard_layout_2020e633": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-dashboard card layout with strong composability, though the design is fairly conventional rather than especially novel.",
+    "exec_ok": true
+  },
+  "nested_css_grid_dashboard_shell_fc4ffdb8": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern dashboard card layout with strong composability, but the design is fairly conventional and not especially novel.",
+    "exec_ok": true
+  },
+  "saas_multi_tenant_team_switcher_294accac": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark dashboard shell with solid spacing and polish, though it feels fairly standard and minimal.",
+    "exec_ok": true
+  },
+  "three_pane_point_of_sale_pos_dashboard_b8e0801f": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and functional POS-style layout with decent structure, but it feels generic and somewhat dated rather than especially polished or novel.",
+    "exec_ok": true
+  },
+  "b2b_saas_organization_management_panel_b8a02464": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern team-management card with strong composability, though the design is fairly conventional.",
+    "exec_ok": true
+  },
+  "multi_step_progress_registration_form_8d4f008c": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern multi-step signup card with strong composability, though the design is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "vanilla_interactive_dom_component_fundam_5322f9c8": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, readable card with decent contrast and layout, but fairly generic styling and limited visual sophistication.",
+    "exec_ok": true
+  },
+  "vanilla_js_single_page_application_spa_r_26adc180": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark dashboard card with solid layout and reusability, though the design is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "scroll_spy_navigation_bar_1fe08223": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable dark hero/navigation section, but fairly generic with limited visual distinction or inventive styling.",
+    "exec_ok": true
+  },
+  "minimalist_job_board_card_list_bcd1ed1f": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern job-list layout with strong reusability, though the presentation is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "semantic_flexbox_architecture_with_exter_3fa1b398": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Very basic low-fidelity layout with minimal styling and weak spacing hierarchy; functional as a wireframe but not polished or novel.",
+    "exec_ok": true
+  },
+  "dynamic_active_navigation_indicator_vani_5fa6a03b": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean and functional with a pleasant hero image, but the styling feels basic and somewhat dated rather than especially polished or novel.",
+    "exec_ok": true
+  },
+  "native_css_scroll_snapping_full_height_s_d467ae5d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern dark-section hero with solid typography and spacing, but the concept is fairly standard and visually minimal.",
+    "exec_ok": true
+  },
+  "2_5d_parallax_depth_slicing_via_webgl_d0845e75": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, cinematic hero-style card with strong typography and gradient depth, though the screenshot appears sparse and only moderately novel.",
+    "exec_ok": true
+  },
+  "3d_interactive_product_hero_with_particl_c7b1b24d": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Minimal but mostly empty and low-contrast; feels unfinished rather than polished or distinctive.",
+    "exec_ok": true
+  },
+  "pure_css_responsive_masonry_gallery_34a6b73c": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, usable masonry-style card grid with decent consistency, but it feels fairly generic and only moderately polished.",
+    "exec_ok": true
+  },
+  "interactive_3d_particle_landing_page_42f1ee43": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero section with strong typography and subtle motion-oriented visuals, though the sparse layout feels somewhat generic.",
+    "exec_ok": true
+  },
+  "asymmetric_css_grid_mosaic_gallery_e5efa6f3": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern gallery with strong visual hierarchy and reusable card styling, though the masonry/grid treatment feels fairly standard.",
+    "exec_ok": true
+  },
+  "interactive_webgl_fluid_gradient_f6b2525b": {
+    "visual_quality": 5,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Polished, modern gradient hero with strong typography and subtle uniqueness, though it reads more like a full-page banner than a highly modular component.",
+    "exec_ok": true
+  },
+  "responsive_gradient_hero_section_with_du_df4cfda9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean modern hero card with solid gradient and CTA hierarchy, though fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "fluid_responsive_layout_system_css_units_dc2308dc": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern card-based educational component with strong hierarchy and easy page integration, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "animated_svg_line_drawing_dynamic_dash_o_d4f38276": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Clean pastel gradient and minimalist motion feel modern, but the component is very sparse and fairly generic.",
+    "exec_ok": true
+  },
+  "hero_section_with_parallax_image_and_gra_86942ee8": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, polished hero banner with solid typography and contrast, but it uses a fairly standard real-estate landing page pattern.",
+    "exec_ok": true
+  },
+  "pure_css_mascot_illustration_interactive_d888a1f5": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, charming CSS character with solid polish and reusability, though the concept is fairly familiar rather than highly novel.",
+    "exec_ok": true
+  },
+  "centered_hero_with_floating_orbital_elem_75398515": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Polished dark hero section with strong hierarchy and easy drop-in usability, though the concept feels fairly standard.",
+    "exec_ok": true
+  },
+  "interactive_parallax_depth_hero_b45bba83": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern parallax hero card with solid polish and strong reusability, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "neon_dynamic_glow_navigation_5cf8e3c2": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern neon nav with solid polish and easy reuse, though the concept is fairly familiar.",
+    "exec_ok": true
+  },
+  "infinite_pulsating_element_animation_8b9878f7": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern neon pulse treatment with solid standalone appeal, though the concept is fairly familiar.",
+    "exec_ok": true
+  },
+  "pure_css_geometric_character_art_with_in_3ede7e2e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, playful CSS character card with solid polish and easy page integration, though the concept is fairly familiar.",
+    "exec_ok": true
+  },
+  "full_screen_scroll_snapping_layout_cda21f30": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean modern hero-style card with solid typography and gradient, but fairly standard and minimally distinctive.",
+    "exec_ok": true
+  },
+  "pure_css_volumetric_character_illustrati_ca683cf5": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Clean, charming CSS-drawn mascot with solid polish and novelty, though it feels more like a demo card than a broadly reusable UI component.",
+    "exec_ok": true
+  },
+  "scroll_triggered_clip_path_reveal_image__ae95eb20": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Very minimal dark gradient with tiny instructional text; clean but sparse, with limited visual polish or distinctiveness.",
+    "exec_ok": true
+  },
+  "pure_css_character_illustration_cc85ceed": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean, modern hero-style component with a playful CSS avatar; polished and reusable, though the concept is fairly simple.",
+    "exec_ok": true
+  },
+  "perfect_fit_css_scroll_snapping_be8b10f1": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark hero card with strong typography and layout; highly reusable, though the concept and treatment are fairly conventional.",
+    "exec_ok": true
+  },
+  "pure_css_geometric_art_illustration_a8d22525": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, friendly error-state card with solid illustration and layout, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "native_css_scroll_snapping_full_section__5b21319c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern card with solid typography and spacing, but the design is simple and not especially novel.",
+    "exec_ok": true
+  },
+  "interactive_pure_css_character_shy_ghost_30078950": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, polished 404 illustration with strong contrast and friendly styling, though it’s a fairly common error-page concept.",
+    "exec_ok": true
+  },
+  "continuous_day_night_cycle_animation_a661ce76": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean and polished with a pleasant dark-frame presentation, though the scene itself is quite simple and only moderately novel.",
+    "exec_ok": true
+  },
+  "astrophotography_time_lapse_rotating_sta_c6ec699e": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 4,
+    "notes": "Polished cosmic hero with strong contrast and a creative jagged frame, though the highly stylized shape limits drop-in versatility.",
+    "exec_ok": true
+  },
+  "scroll_driven_isometric_exploded_view_254deee3": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 3,
+    "notes": "Clean minimalist isometric cube with a sleek dark palette, but it feels sparse and underdeveloped as a standalone component.",
+    "exec_ok": true
+  },
+  "cosmic_horizon_with_wavy_canvas_reflecti_085bf899": {
+    "visual_quality": 4,
+    "composability": 3,
+    "creativity": 5,
+    "notes": "Striking and inventive cosmic/reflection effect with strong visual appeal, though the highly stylized full-canvas presentation is less universally drop-in composable.",
+    "exec_ok": true
+  },
+  "scroll_scrubbed_cinematic_background_vid_37d77ae5": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 2,
+    "notes": "Clean minimalist hero with strong typography, but it feels overly sparse and not especially distinctive or complete.",
+    "exec_ok": true
+  },
+  "foundational_css_architecture_modular_gr_e8b36cb4": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern three-card feature section with solid hierarchy and reusable layout, though the design is fairly conventional.",
+    "exec_ok": true
+  },
+  "non_rectangular_layouts_section_dividers_f1db8941": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Bold modern card with strong color blocking and angled section break; polished and reusable, though slightly sparse and niche in style.",
+    "exec_ok": true
+  },
+  "single_div_css_illustration_box_shadow_s_13ee0652": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Charming minimalist CSS mascot with clever box-shadow construction, though the overall presentation is fairly simple.",
+    "exec_ok": true
+  },
+  "staggered_cross_fade_accessible_carousel_7d7d5fc0": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Polished hero-style carousel with strong imagery and clean overlay, though the pattern is fairly standard rather than especially novel.",
+    "exec_ok": true
+  },
+  "animated_css_text_gradient_3744194e": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable hero-style text treatment, but fairly simple and not especially novel.",
+    "exec_ok": true
+  },
+  "asymmetric_split_screen_hero_with_typewr_3515b95a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and modern hero card with solid layout and contrast, but the concept is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "neon_vertical_timeline_system_98db3f8c": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark timeline layout with strong structure and reusable card design, though the concept is fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_split_hero_with_pulse_cta_nat_d4b13860": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero section with strong typography and layout, though the concept is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "scroll_triggered_glassmorphism_parallax_58154f53": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean, modern hero section with strong typography and contrast, but the layout is very minimal and fairly conventional.",
+    "exec_ok": true
+  },
+  "smooth_parallax_hero_animation_with_scro_3fd07c14": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, atmospheric hero card with strong typography and imagery, though the concept is fairly standard and slightly limited by low contrast/details.",
+    "exec_ok": true
+  },
+  "responsive_art_direction_resolution_swit_cecc4118": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dark-card presentation with strong composability, though the concept is more practical than visually novel.",
+    "exec_ok": true
+  },
+  "native_responsive_image_optimization_art_e64da18f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern demo card layout with solid hierarchy and spacing, though it feels more instructional than especially novel.",
+    "exec_ok": true
+  },
+  "responsive_art_directed_image_architectu_870621db": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern dark-themed demo with solid hierarchy and spacing, though it feels more instructional than especially novel.",
+    "exec_ok": true
+  },
+  "generative_canvas_mandala_symmetrical_pa_bb960a90": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Polished dark-glass card with attractive generative canvas effects; visually strong and reusable, though somewhat niche in style.",
+    "exec_ok": true
+  },
+  "real_time_image_filter_dashboard_cba413a7": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean dark dashboard layout with decent structure, but it feels fairly generic and visually sparse.",
+    "exec_ok": true
+  },
+  "interactive_polygon_mesh_background_93ed1daa": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, modern hero-style network visualization with strong contrast and typography, though the effect is fairly familiar.",
+    "exec_ok": true
+  },
+  "centered_hero_with_floating_parallax_ele_ea580d95": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Polished modern hero with strong typography and subtle social-callout accents; highly reusable, though the concept is fairly familiar.",
+    "exec_ok": true
+  },
+  "animated_sidebar_to_bottom_nav_with_grid_3a6c32f8": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 3,
+    "notes": "Clean, modern dashboard card with solid layout and embed-friendly structure, though the design is fairly conventional.",
+    "exec_ok": true
+  },
+  "responsive_snap_scroll_component_archite_ca63dfc9": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern hero card with strong typography and CTA, highly reusable but fairly conventional in design.",
+    "exec_ok": true
+  },
+  "cinematic_3d_coverflow_gallery_with_dyna_bfbf1cea": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean, polished dark gallery card with strong presentation, though the concept is fairly standard.",
+    "exec_ok": true
+  },
+  "asymmetric_animated_gradient_footer_3b13797e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clean and modern footer with strong gradient styling, though fairly standard in layout and interaction.",
+    "exec_ok": true
+  },
+  "responsive_bento_box_dashboard_grid_b5d90b62": {
+    "visual_quality": 4,
+    "composability": 5,
+    "creativity": 2,
+    "notes": "Clean, modern dashboard card layout with strong drop-in usability, though the design is fairly standard and not especially novel.",
+    "exec_ok": true
+  },
+  "discord_style_morphing_sidebar_animated__e7b53ebf": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clean dark-mode sidebar with polished spacing and a neat morphing interaction, though the overall layout is fairly minimal.",
+    "exec_ok": true
+  },
+  "full_height_dashboard_grid_layout_with_e_30d23000": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clean and usable admin dashboard card layout, but visually basic and not especially distinctive.",
+    "exec_ok": true
+  }
+}

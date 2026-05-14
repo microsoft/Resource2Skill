@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for dynamically showcasing sequential lists such as team members, project portfolios, or event speakers, focusing audience attention one item at a time. It transforms static content into an engaging narrative.",
+  "category_path": [
+    "animation",
+    "content_reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_roster_morph_2b28e4e0",
+  "skill_name": "Vertical Roster Morph",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 450,
+    "type": "youtube",
+    "video_id": "R5JrqFSBdWk",
+    "video_title": "134.How to make this VIRAL PowerPoint Presentation. MORPH Tutorial | Team Intro Template",
+    "video_url": "https://www.youtube.com/watch?v=R5JrqFSBdWk",
+    "views": 11689
+  },
+  "tags": [
+    "morph",
+    "scrolling",
+    "team roster",
+    "sequential reveal",
+    "dynamic display",
+    "content focus"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:44:33Z",
+  "wash_version": "1.0.0"
+}

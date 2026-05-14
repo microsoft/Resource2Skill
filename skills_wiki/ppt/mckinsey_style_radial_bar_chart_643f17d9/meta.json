@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for showcasing survey results, market share, or KPIs for a small number of categories (4-8). Use this for dashboard-style slides or section dividers to present data in a visually engaging and modern way.",
+  "category_path": [
+    "charts",
+    "comparison_charts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mckinsey_style_radial_bar_chart_643f17d9",
+  "skill_name": "McKinsey-Style Radial Bar Chart",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 1007,
+    "type": "youtube",
+    "video_id": "FvjuF9swbdw",
+    "video_title": "Make Impressive McKinsey Visuals in Excel!",
+    "video_url": "https://www.youtube.com/watch?v=FvjuF9swbdw",
+    "views": 455701
+  },
+  "tags": [
+    "radial bar chart",
+    "data visualization",
+    "kpi dashboard",
+    "comparison chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:48:29Z",
+  "wash_version": "1.0.0"
+}

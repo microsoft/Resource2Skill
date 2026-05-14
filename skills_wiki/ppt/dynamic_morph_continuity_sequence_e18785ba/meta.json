@@ -1,0 +1,37 @@
+{
+  "applicability": "Use this sequence to visually explain complex processes, structural changes, or macro-to-micro relationships across slides. By leveraging object permanence, it reduces cognitive load and creates a fluid, cinematic viewing experience.",
+  "category_path": [
+    "animation",
+    "transitions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_morph_continuity_sequence_e18785ba",
+  "skill_name": "Dynamic Morph Continuity Sequence",
+  "source": {
+    "channel": "Samuel Suresh",
+    "duration_sec": 506,
+    "type": "youtube",
+    "video_id": "MT9bj7xy2Wg",
+    "video_title": "How to TRANSFORM your Presentations with ANIMATIONS | Keynote Tutorial (Mac)",
+    "video_url": "https://www.youtube.com/watch?v=MT9bj7xy2Wg",
+    "views": 254895
+  },
+  "tags": [
+    "morph",
+    "transition",
+    "continuity",
+    "cinematic",
+    "interpolation",
+    "object permanence"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:54:42Z",
+  "wash_version": "1.0.0"
+}

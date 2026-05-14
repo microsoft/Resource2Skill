@@ -1,0 +1,71 @@
+{
+  "skill_id": "centered_section_divider_70f3d1",
+  "skill_type": "shell",
+  "name": "Centered Section Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider"
+    ],
+    "content_shape": [
+      "title+subtitle+image"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_section_divider_70f3d1/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "sequential_object_visibility_state_seque_7187b77e",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A minimal, centered layout perfect for section transitions, featuring a prominent title, a thick accent divider, a subtitle, and an optional central graphic.",
+  "_distill_attempts": 1
+}

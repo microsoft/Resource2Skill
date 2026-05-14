@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "formulas"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "index_match_377dfb8b",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

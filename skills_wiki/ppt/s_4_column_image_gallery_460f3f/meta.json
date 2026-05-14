@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for showcasing a series of four portrait-oriented images, such as team photos, product displays, or visual comparisons, with an optional headline.",
+  "category_path": [
+    "image_layout",
+    "gallery",
+    "grid"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_4_column_image_gallery_460f3f",
+  "skill_name": "4-Column Image Gallery",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "image gallery",
+    "four column",
+    "portrait grid",
+    "visual display",
+    "photo array"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:07Z",
+  "wash_version": "1.0.0"
+}

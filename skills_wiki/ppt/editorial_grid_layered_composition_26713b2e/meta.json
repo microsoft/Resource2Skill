@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_grid_layered_composition_26713b2e",
+  "skill_name": "Editorial Grid & Layered Composition",
+  "source": {
+    "channel": "Shapes By Sean",
+    "duration_sec": 421,
+    "type": "youtube",
+    "video_id": "eEWRbpDu6CU",
+    "video_title": "5 laws of design layout & composition *golden rules*",
+    "video_url": "https://www.youtube.com/watch?v=eEWRbpDu6CU",
+    "views": 691332
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:21:36Z",
+  "wash_version": "1.0.0"
+}

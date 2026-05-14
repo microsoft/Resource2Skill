@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_low_poly_pine_tree_a1f59a97",
+  "skill_name": "Stylized Low-Poly Pine Tree",
+  "source": {
+    "channel": "RoBuilder",
+    "duration_sec": 412,
+    "type": "youtube",
+    "video_id": "QTnBCUqyUX0",
+    "video_title": "Blender Is Easier Then You Think - Here's What You Need to Know!",
+    "video_url": "https://www.youtube.com/watch?v=QTnBCUqyUX0",
+    "views": 157791
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:59Z",
+  "wash_version": "1.0.0"
+}

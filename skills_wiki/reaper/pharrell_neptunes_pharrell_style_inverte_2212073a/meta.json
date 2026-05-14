@@ -1,0 +1,30 @@
+{
+  "applicability": "Use this technique to create an infectious, bouncy groove that maintains high energy while leaving a large sonic pocket for a lead vocal or rapper. It's highly effective in Hip-hop, Pop, Funk, and R&B.",
+  "category_path": [
+    "arrangement",
+    "groove_construction"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pharrell_neptunes_pharrell_style_inverte_2212073a",
+  "skill_name": "Pharrell-Style Inverted Groove",
+  "source": {
+    "type": "youtube",
+    "video_title": "Pharrell/Neptunes production tutorial"
+  },
+  "tags": [
+    "neptunes",
+    "groove",
+    "arrangement",
+    "sparsity",
+    "hip hop"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:04:59Z",
+  "wash_version": "1.0.0"
+}

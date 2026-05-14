@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_beat_arrangement__sparse_verse___d1d31da8",
+  "skill_name": "Dynamic Beat Arrangement (Sparse Verse & Filter-Riser Transition)",
+  "source": {
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=lJAmSS-ndoU"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:40:33Z",
+  "wash_version": "1.0.0"
+}

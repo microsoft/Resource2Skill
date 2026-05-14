@@ -1,0 +1,25 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_templates"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stacked_area_ba2418c6",
+  "skill_name": "stacked_area",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:17Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is applied to the master or mix bus at the final stage of production to achieve a cohesive, loud, and balanced track. It uses a stock plugin chain featuring a Mid/Side low-end mono matrix and transparent transient control.",
+  "category_path": [
+    "mastering",
+    "stock_plugins"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stock_plugin_mastering_chain_low_end_mon_583c560b",
+  "skill_name": "Stock Plugin Mastering Chain & Low-End Mono Matrix",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 1383,
+    "type": "youtube",
+    "video_id": "RUkpuA-DwyQ",
+    "video_title": "Mastering with REAPER stock FX Plugins.",
+    "video_url": "https://www.youtube.com/watch?v=RUkpuA-DwyQ",
+    "views": 69532
+  },
+  "tags": [
+    "mastering",
+    "stock plugins",
+    "low-end mono",
+    "mid/side",
+    "limiter"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:57:58Z",
+  "wash_version": "1.0.0"
+}

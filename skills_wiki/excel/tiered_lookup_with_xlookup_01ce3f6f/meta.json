@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for financial models, HR compensation tools, or sales commission trackers where numerical values must be slotted into dynamic reference tiers that may not be sequentially ordered.",
+  "category_path": [
+    "formula",
+    "lookup"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tiered_lookup_with_xlookup_01ce3f6f",
+  "skill_name": "Tiered Lookup With XLOOKUP",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 419,
+    "type": "youtube",
+    "video_id": "xnLvEhXWSas",
+    "video_title": "How an Excel Pro Uses XLOOKUP (R.I.P. VLOOKUP & INDEX MATCH)",
+    "video_url": "https://www.youtube.com/watch?v=xnLvEhXWSas",
+    "views": 1450501
+  },
+  "tags": [
+    "xlookup",
+    "lookup",
+    "tiered lookup",
+    "approximate match",
+    "dynamic bands"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:14Z",
+  "wash_version": "1.0.0"
+}

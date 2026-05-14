@@ -1,0 +1,36 @@
+{
+  "applicability": "This design visualizes sequential information like project roadmaps, customer journeys, process workflows, or historical timelines. It leverages continuity to make complex multi-stage processes feel interconnected and easy to follow.",
+  "category_path": [
+    "process_flow",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "serpentine_process_timeline_6fa28163",
+  "skill_name": "Serpentine Process Timeline",
+  "source": {
+    "channel": "Centre of Best Learnings (CBL)",
+    "duration_sec": 799,
+    "type": "youtube",
+    "video_id": "P7dSJbCY9x4",
+    "video_title": "Animated PowerPoint Slide Design Tutorial | Infographic Design | Flow Chart| presentation",
+    "video_url": "https://www.youtube.com/watch?v=P7dSJbCY9x4",
+    "views": 608
+  },
+  "tags": [
+    "process",
+    "timeline",
+    "workflow",
+    "serpentine",
+    "stages",
+    "roadmap"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:14:08Z",
+  "wash_version": "1.0.0"
+}

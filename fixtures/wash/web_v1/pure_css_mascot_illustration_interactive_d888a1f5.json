@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_mascot_illustration_interactive_d888a1f5",
+  "source": {
+    "channel": "CSS IDEA",
+    "duration_sec": 1446,
+    "type": "youtube",
+    "video_id": "KDKWMp_UaGA",
+    "video_title": "Animated CSS Bird | Cute Penguin Animation Using Only HTML & CSS | CSS Character Design",
+    "video_url": "https://www.youtube.com/watch?v=KDKWMp_UaGA",
+    "views": 10
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_magazine_split_grid_color_bloc_c00201e1",
+  "skill_name": "Editorial Magazine Split-Grid & Color Block",
+  "source": {
+    "channel": "Norma Daenna",
+    "duration_sec": 198,
+    "type": "youtube",
+    "video_id": "D8Me_lvbtrU",
+    "video_title": "HOERA Magazine - Powerpoint Template",
+    "video_url": "https://www.youtube.com/watch?v=D8Me_lvbtrU",
+    "views": 2041
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:22:40Z",
+  "wash_version": "1.0.0"
+}

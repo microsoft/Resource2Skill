@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vibrant_corporate_mosaic_info_grid_77cd3f3a",
+  "skill_name": "Vibrant Corporate Mosaic Info Grid",
+  "source": {
+    "channel": "SlideSalad",
+    "duration_sec": 413,
+    "type": "youtube",
+    "video_id": "VRTDH7gmRD0",
+    "video_title": "New Product Launch Go To Market Plan and Strategy PowerPoint Template",
+    "video_url": "https://www.youtube.com/watch?v=VRTDH7gmRD0",
+    "views": 31861
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:40Z",
+  "wash_version": "1.0.0"
+}

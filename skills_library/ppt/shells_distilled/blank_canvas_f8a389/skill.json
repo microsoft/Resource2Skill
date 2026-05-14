@@ -1,0 +1,52 @@
+{
+  "skill_id": "blank_canvas_f8a389",
+  "skill_type": "shell",
+  "name": "Blank Canvas",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "closing",
+      "section_divider"
+    ],
+    "content_shape": [
+      "blank"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "message",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/blank_canvas_f8a389/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "hero_object_showcase_layout_755bd3b7",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The provided image is completely blank, so this shell represents a minimal canvas with an optional centered message, suitable for a closing or transition slide.",
+  "_distill_attempts": 1
+}

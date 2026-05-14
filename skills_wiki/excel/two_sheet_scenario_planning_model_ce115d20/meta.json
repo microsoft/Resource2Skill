@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_sheet_scenario_planning_model_ce115d20",
+  "skill_name": "Two-Sheet Scenario Planning Model",
+  "source": {
+    "channel": "Ali H. Salem",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=iEh53QLluNw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:41Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 406,
+          "description": "Initial model assumptions tab"
+        },
+        {
+          "seconds": 419,
+          "description": "Full 24-month forecast model with chart"
+        },
+        {
+          "seconds": 549,
+          "description": "Enhanced model's assumptions tab"
+        },
+        {
+          "seconds": 621,
+          "description": "Updated chart with contribution margin"
+        },
+        {
+          "seconds": 834,
+          "description": "Claude explaining selected cells"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_model_assumptions_tab.jpg",
+        "frame_01_full_24_month_forecast_model_w.jpg",
+        "frame_02_enhanced_model_s_assumptions_t.jpg"
+      ],
+      "recapped_at": 1777407914.1106327
+    },
+    "primary_path": "frame_00_initial_model_assumptions_tab.jpg"
+  }
+}

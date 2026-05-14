@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-stakes corporate presentations like keynote addresses, leadership quotes, or testimonials. It transforms standard text and picture slides into premium, engaging compositions.",
+  "category_path": [
+    "presentation_design",
+    "content_display"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_impact_geometric_quote_reveal_acfe27bd",
+  "skill_name": "High-Impact Geometric Quote Reveal",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 424,
+    "type": "youtube",
+    "video_id": "tHFC0q6AmFM",
+    "video_title": "Make AWESOME Quotes in PowerPoint \ud83d\udd25 Easy Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=tHFC0q6AmFM",
+    "views": 56667
+  },
+  "tags": [
+    "quote",
+    "testimonial",
+    "geometric",
+    "high-contrast",
+    "modern",
+    "dynamic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:35:51Z",
+  "wash_version": "1.0.0"
+}

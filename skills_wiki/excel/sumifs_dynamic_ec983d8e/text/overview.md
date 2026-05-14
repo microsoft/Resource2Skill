@@ -1,0 +1,15 @@
+# sumifs_dynamic
+
+## Description
+
+Multi-criteria SUMIFS with dynamic criteria range
+
+## Parameters
+
+```json
+{
+  "example": "=SUMIFS(D:D, A:A, \"Q1\", B:B, \"North\")",
+  "pattern": "=SUMIFS({sum_range},{crit_range_1},{crit_1},{crit_range_2},{crit_2})",
+  "result_format": "thousand_sep"
+}
+```

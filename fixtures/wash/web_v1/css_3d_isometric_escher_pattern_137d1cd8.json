@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_3d_isometric_escher_pattern_137d1cd8",
+  "source": {
+    "channel": "Hunor M\u00e1rton Borb\u00e9ly",
+    "duration_sec": 563,
+    "type": "youtube",
+    "video_id": "cNqgatGqvC8",
+    "video_title": "How to create 3D patterns with CSS transform",
+    "video_url": "https://www.youtube.com/watch?v=cNqgatGqvC8",
+    "views": 1604
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

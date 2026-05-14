@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "apple_style_cinematic_minimalist_keynote_25b3d012",
+  "skill_name": "Apple-Style Cinematic Minimalist Keynote (\u9ad8\u5bf9\u6bd4\u5ea6\u82f9\u679c\u98ce\u6781\u7b80\u5927\u5b57\u62a5)",
+  "source": {
+    "channel": "\u4e0d\u6b62\u6253\u5de5",
+    "duration_sec": 335,
+    "type": "youtube",
+    "video_id": "2qOslyZRdS0",
+    "video_title": "\u3010\u804c\u573a\u3011\u6f14\u8bb2\u6280\u5de7 | \u5982\u4f55\u5236\u4f5c\u6f14\u8bb2PPT | PPT\u8bbe\u8ba1\u7684\u827a\u672f | \u4e0d\u6b62\u6253\u5de5",
+    "video_url": "https://www.youtube.com/watch?v=2qOslyZRdS0",
+    "views": 3600
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:50:05Z",
+  "wash_version": "1.0.0"
+}

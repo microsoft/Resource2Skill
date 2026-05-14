@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_container_chart_cylinder_f47100f3",
+  "source": {
+    "channel": "PK: An Excel Expert",
+    "duration_sec": 912,
+    "type": "youtube",
+    "video_id": "o81URVWGVG4",
+    "video_title": "Quick 3D Container Chart in Excel",
+    "video_url": "https://www.youtube.com/watch?v=o81URVWGVG4",
+    "views": 143514
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

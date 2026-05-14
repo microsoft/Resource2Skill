@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for explaining complex multi-branch decision trees, medical guidelines, or corporate SOPs step-by-step. It uses progressive disclosure to focus the audience's attention without losing overall context.",
+  "category_path": [
+    "diagrams",
+    "flowchart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "horizontal_flowchart_pagination_masking_39d12ce8",
+  "skill_name": "Horizontal Flowchart Pagination & Masking",
+  "source": {
+    "channel": "\u7c21\u5831\u85dd\u8853\u70d8\u7119\u574a SlideArt",
+    "duration_sec": 393,
+    "type": "youtube",
+    "video_id": "aNEFnrkAsuo",
+    "video_title": "\u5b78\u8853\u7c21\u5831\u6848\u4f8b\uff1a\u8907\u96dc\u6d41\u7a0b\u5716\u8a72\u5982\u4f55\u8a2d\u8a08\uff5c10 \u5206\u9418\u5b78\u7c21\u5831 #084 #\u5b78\u8853\u7c21\u5831 #\u6d41\u7a0b\u5716",
+    "video_url": "https://www.youtube.com/watch?v=aNEFnrkAsuo",
+    "views": 18180
+  },
+  "tags": [
+    "flowchart",
+    "masking",
+    "progressive disclosure",
+    "decision tree",
+    "pagination"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:59Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Establishes a professional static mix balance with proper headroom (-14dBFS) for analog-modeled plugins. Use this as the foundational mixing step before applying EQ, compression, or other processing.",
+  "category_path": [
+    "mixing",
+    "gain_staging"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "master_vu_gain_staging_headroom_balancin_d4845ed1",
+  "skill_name": "Master VU Gain Staging & Headroom Balancing",
+  "source": {
+    "channel": "Sara Carter - Simply Mixing",
+    "duration_sec": 1087,
+    "type": "youtube",
+    "video_id": "oETuEXuY8Kg",
+    "video_title": "Gain Staging In 5 Easy Steps",
+    "video_url": "https://www.youtube.com/watch?v=oETuEXuY8Kg",
+    "views": 53192
+  },
+  "tags": [
+    "gain-staging",
+    "headroom",
+    "mixing",
+    "levels",
+    "metering"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:29Z",
+  "wash_version": "1.0.0"
+}

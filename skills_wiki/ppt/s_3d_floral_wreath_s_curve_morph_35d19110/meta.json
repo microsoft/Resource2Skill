@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_floral_wreath_s_curve_morph_35d19110",
+  "skill_name": "3D Floral Wreath S-Curve Morph",
+  "source": {
+    "channel": "Dr. Saeed Faal",
+    "duration_sec": 299,
+    "type": "youtube",
+    "video_id": "0U5ZwCbVgsg",
+    "video_title": "How to Design Professional Infographics in PowerPoint Easily",
+    "video_url": "https://www.youtube.com/watch?v=0U5ZwCbVgsg",
+    "views": 22177
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:45:54Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Generates complex, non-destructive sci-fi paneling on curved surfaces using a specific modifier chain. Ideal for spaceship exteriors, mecha armor joints, and vehicle hulls.",
+  "category_path": [
+    "modeling",
+    "modifiers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_hard_surface_panel_cuts_via_m_a4c06a47",
+  "skill_name": "Procedural Hard-Surface Panel Cuts",
+  "source": {
+    "channel": "Blender Secrets",
+    "duration_sec": 79,
+    "type": "youtube",
+    "video_id": "YD9u-5h9_3Q",
+    "video_title": "Blender Secrets -  Easy Non-Destructive Panel Cuts",
+    "video_url": "https://www.youtube.com/watch?v=YD9u-5h9_3Q",
+    "views": 91982
+  },
+  "tags": [
+    "hard-surface",
+    "modifiers",
+    "paneling",
+    "sci-fi",
+    "procedural"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:32Z",
+  "wash_version": "1.0.0"
+}

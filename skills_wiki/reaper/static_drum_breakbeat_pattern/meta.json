@@ -1,0 +1,29 @@
+{
+  "applicability": "Reusable breakbeat MIDI pattern as a rhythmic foundation for hip-hop, drum-and-bass, or jungle compositions.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "cc-by-4.0",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_drum_breakbeat_pattern",
+  "skill_name": "Drum Breakbeat Pattern",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/reaper-breakbeat"
+  },
+  "tags": [
+    "breakbeat",
+    "drums",
+    "midi",
+    "90_bpm",
+    "amen"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:05Z",
+  "wash_version": "1.0.0"
+}

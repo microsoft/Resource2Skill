@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "liquid_drum_bass_groove_84c7e935",
+  "skill_name": "Liquid Drum & Bass Groove",
+  "source": {
+    "channel": "Will Hatton",
+    "duration_sec": 764,
+    "type": "youtube",
+    "video_id": "6RE8lh4HE1E",
+    "video_title": "5 Drum & Bass / Jungle Patterns You NEED to Know [+ Template DL]",
+    "video_url": "https://www.youtube.com/watch?v=6RE8lh4HE1E",
+    "views": 32652
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:34Z",
+  "wash_version": "1.0.0"
+}

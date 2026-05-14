@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_dashboard_archetype_066bbd71",
+  "skill_name": "Static Dashboard Archetype",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:23:31Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial interactive dashboard preview"
+        },
+        {
+          "seconds": 809,
+          "description": "first chart added to the dashboard"
+        },
+        {
+          "seconds": 1128,
+          "description": "all three charts added to the dashboard"
+        },
+        {
+          "seconds": 1418,
+          "description": "slicers added for interactivity"
+        },
+        {
+          "seconds": 1714,
+          "description": "polished interactive dashboard with hidden gridlines and updated data"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_interactive_dashboard_.jpg",
+        "frame_01_first_chart_added_to_the_dashb.jpg",
+        "frame_02_all_three_charts_added_to_the_.jpg"
+      ],
+      "recapped_at": 1777407525.330328
+    },
+    "primary_path": "frame_00_initial_interactive_dashboard_.jpg"
+  }
+}

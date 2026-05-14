@@ -1,0 +1,128 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Harness session data
+.harness/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+state/
+outputs/
+manifests/
+cache/
+*.npz
+skills_library/*/embeddings.npz
+
+# Open-source release boundary
+# Keep runtime code + skill libraries. Do not publish experiment orchestration,
+# generated artifacts, paper drafts, private infra notes, or benchmark results.
+experiments/
+bench/
+reports/
+demo/
+scripts/
+docs/
+tests/
+main.tex
+reference.bib
+reference_decks/
+mc_demo/
+snapshots/
+Haress2PPT/
+CLAUDE.md
+DESIGN.md
+.verify.png
+.agents/
+skills_library/_snapshots/
+skills_library/cad/
+skills_library/minecraft/
+skills_wiki/review_audit_probe/
+skills_wiki/cad/
+skills_wiki/minecraft/
+skills_wiki/*/_quarantine/
+skills_wiki/*/cycle_report*.json
+skills_wiki/*/wash_report.json
+skills_wiki/*/taxonomy_pending.jsonl
+*.blend1
+*.pptx#
+.~lock.*
+
+# Sensitive docs (API keys, credentials)
+docs/api_setup.md
+
+# Wiki registry runtime state — operator-managed, not source.
+skills_wiki/*/wal.jsonl
+skills_wiki/*/.index.lock
+skills_wiki/*/.taxonomy.lock
+skills_wiki/*/cap_reached_*.json
+
+# Per-run reproducibility logs (logs/<command>_<timestamp>/<domain>.log).
+logs/
+
+# Temp files
+temp_*
+tmp_*
+*.tmp
+humanize/
+docs/plan_excel_mcp.md
+.humanize*
+.codex
+demo/excel/review_*.xlsx
+demo/excel/audit_*.xlsx
+demo/excel/output.xlsx
+demo/excel/batch_*.xlsx
+demo/excel/test_*.xlsx
+demo/excel/batch_review/
+domains/cad/
+domains/minecraft/
+demo/excel/cond_format_*.xlsx
+demo/excel/check_*.xlsx
+demo/excel/color_scale_*.xlsx
+demo/excel/condfmt_*.xlsx
+demo/excel/pivot_*_test.xlsx
+demo/excel/pivot_*_bug.xlsx
+demo/excel/review_batch/
+demo/excel/live_test_*.xlsx
+demo/excel/live_test_*.xlsx
+demo/excel/cf_test*.xlsx
+demo/excel/pivot_noagg*.xlsx
+demo/excel/cf_*.xlsx
+*.zip
+
+# Node modules
+mc_demo/node_modules/
+
+# Claude Code plugin cache
+.claude/
+
+# Misc
+**WARNING**
+NEVER
+docs/plan_three_domains
+
+docs/final_humanize_aha_acceptance_criteria.md
+
+# Backup files
+*.bak
+
+# Local paper drafts
+Resource2Skills__*.pdf
+Resource2Skill*.pdf

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bossa_nova_rhythm_bass_groove_9e3fc089",
+  "skill_name": "Bossa Nova Rhythm & Bass Groove",
+  "source": {
+    "channel": "Reuben Chng",
+    "duration_sec": 316,
+    "type": "youtube",
+    "video_id": "IF5jy4qLX_I",
+    "video_title": "Basic Bossa Nova Rhythm Arrangement Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=IF5jy4qLX_I",
+    "views": 26219
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:57Z",
+  "wash_version": "1.0.0"
+}

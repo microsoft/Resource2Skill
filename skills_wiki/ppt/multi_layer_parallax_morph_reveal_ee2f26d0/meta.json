@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-stakes presentations like hero slides, section breaks, and product reveals, this skill seamlessly shifts focus from evocative imagery to concrete text data with a cinematic feel.",
+  "category_path": [
+    "animation",
+    "parallax"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_layer_parallax_morph_reveal_ee2f26d0",
+  "skill_name": "Multi-Layer Parallax Morph Reveal",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 1410,
+    "type": "youtube",
+    "video_id": "QX_SahquvZw",
+    "video_title": "How to Create a Parallax Effect in PowerPoint - 3 LEVELS! \ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=QX_SahquvZw",
+    "views": 286879
+  },
+  "tags": [
+    "parallax",
+    "morph",
+    "animation",
+    "layers",
+    "cinematic",
+    "reveal"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:40:25Z",
+  "wash_version": "1.0.0"
+}

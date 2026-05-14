@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_electric_guitar_wash_clarity_eq__ec9e1276",
+  "skill_name": "Ambient Electric Guitar Wash (Clarity EQ & Spatial FX)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 740,
+    "type": "youtube",
+    "video_id": "yIxkGwC1Hkk",
+    "video_title": "Mixing Electric Guitars - Part I in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=yIxkGwC1Hkk",
+    "views": 17551
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:48:54Z",
+  "wash_version": "1.0.0"
+}

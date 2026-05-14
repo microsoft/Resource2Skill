@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "performance_dashboard_shell_066bbd71",
+  "skill_name": "Performance Dashboard Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "completed interactive dashboard example"
+        },
+        {
+          "seconds": 815,
+          "description": "first chart positioned on the dashboard"
+        },
+        {
+          "seconds": 1147,
+          "description": "all three main charts on the dashboard"
+        },
+        {
+          "seconds": 1443,
+          "description": "dashboard with interactive slicers and timeline"
+        },
+        {
+          "seconds": 1809,
+          "description": "polished dashboard with a new theme and hidden gridlines"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_dashboar.jpg",
+        "frame_01_first_chart_positioned_on_the_.jpg",
+        "frame_02_all_three_main_charts_on_the_d.jpg"
+      ],
+      "recapped_at": 1777407312.441028
+    },
+    "primary_path": "frame_00_completed_interactive_dashboar.jpg"
+  }
+}

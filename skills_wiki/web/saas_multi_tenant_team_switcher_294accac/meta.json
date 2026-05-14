@@ -1,0 +1,35 @@
+{
+  "applicability": "Essential for multi-tenant SaaS applications, dashboards, or client portals where users need to switch between different organizations or workspaces. This component provides immediate context and a seamless user experience.",
+  "category_path": [
+    "navigation",
+    "context_switcher"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "saas_multi_tenant_team_switcher_294accac",
+  "skill_name": "SaaS Team Switcher",
+  "source": {
+    "channel": "Jan Marshal",
+    "duration_sec": 2357,
+    "type": "youtube",
+    "video_id": "bFLGwVyIotA",
+    "video_title": "Multi-Tenant SaaS Architecture in 3 Simple Steps",
+    "video_url": "https://www.youtube.com/watch?v=bFLGwVyIotA",
+    "views": 40595
+  },
+  "tags": [
+    "team-switcher",
+    "dropdown",
+    "saas",
+    "multi-tenant"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:07:44Z",
+  "wash_version": "1.0.0"
+}

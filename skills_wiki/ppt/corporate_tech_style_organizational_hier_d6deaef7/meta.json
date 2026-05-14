@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_tech_style_organizational_hier_d6deaef7",
+  "skill_name": "Corporate Tech-Style Organizational Hierarchy (\u79d1\u6280\u98ce\u4f01\u4e1a\u7ec4\u7ec7\u67b6\u6784\u56fe)",
+  "source": {
+    "channel": "\u990a\u751f\u8b1b\u5802",
+    "duration_sec": 508,
+    "type": "youtube",
+    "video_id": "YYdY7BJV4iM",
+    "video_title": "PPT\u7ec4\u7ec7\u67b6\u6784\u56fe\uff0c\u7075\u6d3b\u8fd0\u7528SmartArt office\u529e\u516c\u6280\u5de7 ppt\u6559\u5b66 wps \u529e\u516c\u6280\u5de7 ppt",
+    "video_url": "https://www.youtube.com/watch?v=YYdY7BJV4iM",
+    "views": 427
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:53Z",
+  "wash_version": "1.0.0"
+}

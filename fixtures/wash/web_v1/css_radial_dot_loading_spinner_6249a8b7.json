@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_radial_dot_loading_spinner_6249a8b7",
+  "source": {
+    "channel": "CodingLab",
+    "duration_sec": 321,
+    "type": "youtube",
+    "video_id": "DijlvL2E80s",
+    "video_title": "How to make a Loader in HTML & CSS | Website Loading Animation",
+    "video_url": "https://www.youtube.com/watch?v=DijlvL2E80s",
+    "views": 31493
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "financial_model_income_statement_shell_bf631599",
+  "skill_name": "Financial Model Income Statement Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=64A6HJDEbKA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:35Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Financial Modeling Crash Course title screen."
+        },
+        {
+          "seconds": 40,
+          "description": "Excel spreadsheet with years formatted to show actual (A) and estimate (E) suffixes."
+        },
+        {
+          "seconds": 110,
+          "description": "Years formatted with 'A' for actual, showing the custom number format result."
+        },
+        {
+          "seconds": 124,
+          "description": "Years header row with actual and estimate suffixes, and background/font colors applied."
+        },
+        {
+          "seconds": 145,
+          "description": "Excel spreadsheet showing placeholders for income statement line items and formatted headers."
+        }
+      ],
+      "frames": [
+        "frame_00_financial_modeling_crash_cours.jpg",
+        "frame_01_excel_spreadsheet_with_years_f.jpg",
+        "frame_02_years_formatted_with_a_for_act.jpg",
+        "frame_03_years_header_row_with_actual_a.jpg",
+        "frame_04_excel_spreadsheet_showing_plac.jpg"
+      ],
+      "recapped_at": 1777406741.0944827
+    },
+    "primary_path": "frame_00_financial_modeling_crash_cours.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_flip_card_hover_effect_19d42bee",
+  "source": {
+    "channel": "Coding Ninja",
+    "duration_sec": 251,
+    "type": "youtube",
+    "video_id": "QON4dFDzsiE",
+    "video_title": "HTML and CSS Flip Card Effect Tutorial | Interactive Card Animation | Coding Ninja",
+    "video_url": "https://www.youtube.com/watch?v=QON4dFDzsiE",
+    "views": 47414
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

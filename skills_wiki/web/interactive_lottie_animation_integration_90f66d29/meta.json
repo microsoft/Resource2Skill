@@ -1,0 +1,35 @@
+{
+  "applicability": "Integrate lightweight, scalable vector animations into web pages using the `<lottie-player>` web component. Ideal for engaging hero visuals, loading states, and interactive hover effects.",
+  "category_path": [
+    "animation",
+    "lottie"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_lottie_animation_integration_90f66d29",
+  "skill_name": "Interactive Lottie Animation Integration",
+  "source": {
+    "channel": "LottieFiles",
+    "duration_sec": 385,
+    "type": "youtube",
+    "video_id": "L08gUpqwLSE",
+    "video_title": "1# Integrate Lottie on the Web | Introduction to Lottie Animations for Developers",
+    "video_url": "https://www.youtube.com/watch?v=L08gUpqwLSE",
+    "views": 9811
+  },
+  "tags": [
+    "lottie",
+    "animation",
+    "web-components",
+    "micro-interactions",
+    "vector-graphics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:08Z",
+  "wash_version": "1.0.0"
+}

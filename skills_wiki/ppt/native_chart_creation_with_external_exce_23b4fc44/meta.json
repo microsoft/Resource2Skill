@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_chart_creation_with_external_exce_23b4fc44",
+  "skill_name": "Native Chart Creation with External Excel Data",
+  "source": {
+    "channel": "ThinkOutsideTheSlide.com",
+    "duration_sec": 151,
+    "type": "youtube",
+    "video_id": "9lV10Hmn1-A",
+    "video_title": "Excel Chart Tip: Create a graph in PowerPoint using data from Excel",
+    "video_url": "https://www.youtube.com/watch?v=9lV10Hmn1-A",
+    "views": 252835
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:44Z",
+  "wash_version": "1.0.0"
+}

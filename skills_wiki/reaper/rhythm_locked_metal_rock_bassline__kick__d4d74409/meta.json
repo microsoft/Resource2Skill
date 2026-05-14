@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rhythm_locked_metal_rock_bassline__kick__d4d74409",
+  "skill_name": "Rhythm-Locked Metal/Rock Bassline (Kick-Matching & Octave Jumps)",
+  "source": {
+    "channel": "Andrew Bassett",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=s2MgjCbheoY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:09:02Z",
+  "wash_version": "1.0.0"
+}

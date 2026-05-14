@@ -1,0 +1,32 @@
+{
+  "applicability": "Use to compare two distinct items, features, or concepts side-by-side. The window pane metaphor provides a visually structured way to present a title and description for each item.",
+  "category_path": [
+    "layouts",
+    "comparison"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "window_pane_comparison_a8144d",
+  "skill_name": "Window Pane Comparison",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "comparison",
+    "two column",
+    "features",
+    "structured"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:21:08Z",
+  "wash_version": "1.0.0"
+}

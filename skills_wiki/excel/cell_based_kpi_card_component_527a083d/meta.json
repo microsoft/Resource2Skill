@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cell_based_kpi_card_component_527a083d",
+  "skill_name": "Cell-Based KPI Card Component",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:35:29Z",
+  "wash_version": "1.0.0"
+}

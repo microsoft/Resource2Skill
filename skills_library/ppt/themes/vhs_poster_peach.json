@@ -1,0 +1,129 @@
+{
+  "theme_id": "vhs_poster_peach",
+  "name": "VHS Poster Peach",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/f1e9da-ff6b35-ffd23f-2e294e-541388",
+  "source_title": "Coolors Retro Poster Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#F1E9DA",
+    "panel": "#FFD23F",
+    "accent": "#FF6B35",
+    "accent2": "#541388",
+    "text": "#2E294E",
+    "muted": "#541388",
+    "border": "#FF6B35",
+    "success": "#541388",
+    "warning": "#FF6B35"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Impact",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Impact",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Trebuchet MS",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Trebuchet MS",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "soft grain wash with faded tape edges"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom",
+      "slide_in_left"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "cinematic",
+    "warm",
+    "editorial",
+    "bold"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "wash",
+    "cinematic",
+    "bloom",
+    "editorial"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "grid",
+    "audit"
+  ]
+}

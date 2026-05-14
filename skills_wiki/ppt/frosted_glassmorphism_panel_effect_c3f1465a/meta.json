@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frosted_glassmorphism_panel_effect_c3f1465a",
+  "skill_name": "Frosted Glassmorphism Panel Effect",
+  "source": {
+    "channel": "Sara Groblechner",
+    "duration_sec": 904,
+    "type": "youtube",
+    "video_id": "K9WeHyI7-ik",
+    "video_title": "GLASS Effect on POWERPOINT \u2728",
+    "video_url": "https://www.youtube.com/watch?v=K9WeHyI7-ik",
+    "views": 2183
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:28:01Z",
+  "wash_version": "1.0.0"
+}

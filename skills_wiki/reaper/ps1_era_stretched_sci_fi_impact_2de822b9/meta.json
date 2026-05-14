@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ps1_era_stretched_sci_fi_impact_2de822b9",
+  "skill_name": "PS1-Era Stretched Sci-Fi Impact",
+  "source": {
+    "channel": "Akash Thakkar",
+    "duration_sec": 719,
+    "type": "youtube",
+    "video_id": "rQYgUcldNYY",
+    "video_title": "One of my Favorite Reaper Features (for Sound Design)",
+    "video_url": "https://www.youtube.com/watch?v=rQYgUcldNYY",
+    "views": 12084
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:53:53Z",
+  "wash_version": "1.0.0"
+}

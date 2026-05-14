@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_geometric_character_art_with_in_3ede7e2e",
+  "source": {
+    "channel": "Charles Kasasira",
+    "duration_sec": 197,
+    "type": "youtube",
+    "video_id": "GJ5kroCJ41c",
+    "video_title": "CSS ART: SpongeBob with CSS only as a beginner || HTML5 CSS3",
+    "video_url": "https://www.youtube.com/watch?v=GJ5kroCJ41c",
+    "views": 498
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

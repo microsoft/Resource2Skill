@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for title slides, team profiles, and contact pages where a strong, modern corporate identity is required. The angled split creates visual momentum and clearly separates brand elements from detailed content.",
+  "category_path": [
+    "layout",
+    "split"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_angled_split_layout_corporate_ge_83ef5f3e",
+  "skill_name": "Angled Split Corporate Layout",
+  "source": {
+    "channel": "G D Graphic designer",
+    "duration_sec": 1680,
+    "type": "youtube",
+    "video_id": "XU3JU96NAug",
+    "video_title": "PowerPoint Tutorial:- How to Make Business Card Design using in Microsoft PowerPoint 2022",
+    "video_url": "https://www.youtube.com/watch?v=XU3JU96NAug",
+    "views": 83
+  },
+  "tags": [
+    "angled layout",
+    "geometric",
+    "split screen",
+    "corporate branding",
+    "modern"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:16:57Z",
+  "wash_version": "1.0.0"
+}

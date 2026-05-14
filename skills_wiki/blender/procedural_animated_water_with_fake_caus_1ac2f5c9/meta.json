@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_animated_water_with_fake_caus_1ac2f5c9",
+  "skill_name": "Procedural Animated Water with Fake Caustics",
+  "source": {
+    "channel": "ChuckCG",
+    "duration_sec": 304,
+    "type": "youtube",
+    "video_id": "WckheAMvaZo",
+    "video_title": "Blender Water Material - Full Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=WckheAMvaZo",
+    "views": 10026
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:19Z",
+  "wash_version": "1.0.0"
+}

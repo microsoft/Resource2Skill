@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_theme_switcher___system_wide_da_f4b9e561",
+  "skill_name": "Animated Theme Switcher & System-Wide Dark Mode",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:57:13Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "hero section in light mode with light button on"
+        },
+        {
+          "seconds": 8,
+          "description": "hero section in dark mode with light button off"
+        },
+        {
+          "seconds": 16,
+          "description": "youtube channel shown in dark mode"
+        },
+        {
+          "seconds": 40,
+          "description": "hero section after toggle, posts, blogs, videos, and light button"
+        },
+        {
+          "seconds": 221,
+          "description": "the Youtube button showing on the page"
+        }
+      ],
+      "frames": [
+        "frame_00_hero_section_in_light_mode_wit.jpg",
+        "frame_01_hero_section_in_dark_mode_with.jpg",
+        "frame_02_youtube_channel_shown_in_dark_.jpg",
+        "frame_03_hero_section_after_toggle_post.jpg",
+        "frame_04_the_youtube_button_showing_on_.jpg"
+      ],
+      "recapped_at": 1777408545.2484972
+    },
+    "primary_path": "frame_00_hero_section_in_light_mode_wit.jpg"
+  }
+}

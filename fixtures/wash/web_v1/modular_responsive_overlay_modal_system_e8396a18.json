@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modular_responsive_overlay_modal_system_e8396a18",
+  "source": {
+    "channel": "Marc Hinton",
+    "duration_sec": 938,
+    "type": "youtube",
+    "video_id": "3m5xMCvkLco",
+    "video_title": "The BEST Way to Build a Popup Modal! [HTML,CSS,JS]",
+    "video_url": "https://www.youtube.com/watch?v=3m5xMCvkLco",
+    "views": 710
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

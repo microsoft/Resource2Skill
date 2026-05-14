@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for product galleries, article listing pages, and dashboard widgets where items need to dynamically reflow. This pattern creates a container-aware grid that perfectly sizes itself based on available space, eliminating fixed media query breakpoints.",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perfect_responsive_grid_auto_fill_auto_f_340031dd",
+  "skill_name": "Perfect Responsive Grid (Auto-fill/Auto-fit + Minmax)",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 683,
+    "type": "youtube",
+    "video_id": "bj0Z_GncIwY",
+    "video_title": "Breakpoint-Free CSS Grid Layouts",
+    "video_url": "https://www.youtube.com/watch?v=bj0Z_GncIwY",
+    "views": 67997
+  },
+  "tags": [
+    "CSS Grid",
+    "Responsive Design",
+    "Auto-fill",
+    "Minmax",
+    "Container-aware",
+    "Layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:45:07Z",
+  "wash_version": "1.0.0"
+}

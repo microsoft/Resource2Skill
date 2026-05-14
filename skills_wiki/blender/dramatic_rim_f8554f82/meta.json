@@ -1,0 +1,29 @@
+{
+  "applicability": "This lighting setup is designed for dramatic, high-contrast scenes, emphasizing subject outlines with a strong rim light and casting deep shadows. It's particularly effective for cinematic portraits, hero villains, and noir aesthetics.",
+  "category_path": [
+    "lighting_rigs"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dramatic_rim_f8554f82",
+  "skill_name": "dramatic_rim",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cinematic",
+    "high-contrast",
+    "rim-light",
+    "portrait",
+    "noir",
+    "lighting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:49:56Z",
+  "wash_version": "1.0.0"
+}

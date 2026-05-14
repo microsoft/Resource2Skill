@@ -1,0 +1,35 @@
+{
+  "applicability": "This is a fundamental final step for any full-track production before export. It provides a genre-agnostic template for adding loudness, punch, and polish to a finished mix using only stock plugins.",
+  "category_path": [
+    "mastering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stock_plugin_mastering_chain_f525a9dd",
+  "skill_name": "Stock Plugin Mastering Chain",
+  "source": {
+    "channel": "Audiohackr",
+    "duration_sec": 620,
+    "type": "youtube",
+    "video_id": "Wt0Dp-YPCJs",
+    "video_title": "How to master your mix using stock plugins in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=Wt0Dp-YPCJs",
+    "views": 246331
+  },
+  "tags": [
+    "mastering",
+    "stock plugins",
+    "loudness",
+    "compression",
+    "limiter"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:57:44Z",
+  "wash_version": "1.0.0"
+}

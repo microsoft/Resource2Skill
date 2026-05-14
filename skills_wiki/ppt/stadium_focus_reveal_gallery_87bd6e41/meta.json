@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for 'Meet the Team' slides, speaker lineups, or product showcases. This design effectively highlights one item while keeping the others visible for context, creating a strong visual hierarchy.",
+  "category_path": [
+    "people",
+    "roster"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "source",
+    "visual",
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stadium_focus_reveal_gallery_87bd6e41",
+  "skill_name": "Focus Reveal Team Gallery",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 712,
+    "type": "youtube",
+    "video_id": "gYkQUFhWqeI",
+    "video_title": "Easy TEAM SLIDES in PowerPoint \ud83d\ude0e (step-by-step)",
+    "video_url": "https://www.youtube.com/watch?v=gYkQUFhWqeI",
+    "views": 20556
+  },
+  "tags": [
+    "team",
+    "roster",
+    "focus",
+    "gallery",
+    "hierarchy"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:55:54Z",
+  "wash_version": "1.0.0"
+}

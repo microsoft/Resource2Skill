@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_app_shell_dashboard_with_css__2bed2567",
+  "source": {
+    "channel": "GoPlusPlus",
+    "duration_sec": 275,
+    "type": "youtube",
+    "video_id": "lCYY2t6BRSI",
+    "video_title": "React CSS Grid Responsive Dashboard Tutorial | Build Adaptive Layouts for Any Screen Size",
+    "video_url": "https://www.youtube.com/watch?v=lCYY2t6BRSI",
+    "views": 89
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

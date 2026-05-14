@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "themes"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_blue_b5427a1a",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

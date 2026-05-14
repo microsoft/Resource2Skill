@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for initial application load screens, asynchronous data fetching overlays, and form submission states. It provides smooth, lightweight visual feedback without blocking the main JavaScript thread.",
+  "category_path": [
+    "ui_components",
+    "feedback",
+    "loaders"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_css_preloader_suite_32be91bc",
+  "skill_name": "Minimalist CSS Preloader Suite",
+  "source": {
+    "channel": "wpshopmart",
+    "duration_sec": 169,
+    "type": "youtube",
+    "video_id": "9Bl8szMyfhU",
+    "video_title": "20 Creative HTML CSS Loading Animation Preloaders Must See",
+    "video_url": "https://www.youtube.com/watch?v=9Bl8szMyfhU",
+    "views": 23883
+  },
+  "tags": [
+    "preloader",
+    "loading spinner",
+    "css animation",
+    "pulse effect",
+    "orbit animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:31Z",
+  "wash_version": "1.0.0"
+}

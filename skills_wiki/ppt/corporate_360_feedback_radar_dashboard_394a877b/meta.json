@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_360_feedback_radar_dashboard_394a877b",
+  "skill_name": "Corporate 360\u00b0 Feedback Radar Dashboard",
+  "source": {
+    "channel": "Creative Presentation Ideas by infoDiagram",
+    "duration_sec": 75,
+    "type": "youtube",
+    "video_id": "6K0XB-sNxzE",
+    "video_title": "Employee Performance Review Made Easy with PowerPoint | HR Presentation",
+    "video_url": "https://www.youtube.com/watch?v=6K0XB-sNxzE",
+    "views": 2338
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:04:03Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,124 @@
+{
+  "theme_id": "boardroom_dark_slate",
+  "name": "Boardroom Dark Slate",
+  "palette": {
+    "bg": "#0B1321",
+    "panel": "#131B2A",
+    "accent": "#4FD1C5",
+    "accent2": "#9F7AEA",
+    "text": "#E6EAF3",
+    "muted": "#7A8499",
+    "border": "#1F2A3B",
+    "success": "#38B27F",
+    "warning": "#F59E0B"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Segoe UI",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "numeric_badge",
+    "description": "Small numeric badges for KPI tiles"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade",
+      "in_top"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "spin"
+    ]
+  },
+  "mood": [
+    "boardroom",
+    "restrained",
+    "technical"
+  ],
+  "archetype_fit": [
+    "boardroom",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "hairline",
+    "row-cascade",
+    "audit-tick",
+    "typewriter",
+    "kicker-tick",
+    "margin-note",
+    "marquee"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "confetti",
+    "balloon",
+    "glitch",
+    "ink-bleed",
+    "chromatic",
+    "neon",
+    "thesis"
+  ]
+}

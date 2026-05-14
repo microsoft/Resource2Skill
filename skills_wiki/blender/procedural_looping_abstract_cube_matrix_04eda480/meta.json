@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_looping_abstract_cube_matrix_04eda480",
+  "skill_name": "Procedural Looping Abstract Cube Matrix",
+  "source": {
+    "channel": "Ducky 3D",
+    "duration_sec": 785,
+    "type": "youtube",
+    "video_id": "NyUJ6XH8A94",
+    "video_title": "Satisfying Geometry Nodes Animation (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=NyUJ6XH8A94",
+    "views": 463701
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:23Z",
+  "wash_version": "1.0.0"
+}

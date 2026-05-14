@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_shell_with_linked_chart_c1511c1e",
+  "source": {
+    "channel": "Chandoo",
+    "duration_sec": 333,
+    "type": "youtube",
+    "video_id": "ZZ-UGMztoqo",
+    "video_title": "How to use Excel Slicers like a PRO: Basics + 5 Advanced Tricks",
+    "video_url": "https://www.youtube.com/watch?v=ZZ-UGMztoqo",
+    "views": 246315
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

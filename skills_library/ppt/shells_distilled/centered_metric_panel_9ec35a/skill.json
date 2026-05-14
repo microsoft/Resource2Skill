@@ -1,0 +1,54 @@
+{
+  "skill_id": "centered_metric_panel_9ec35a",
+  "skill_type": "shell",
+  "name": "Centered Metric Panel",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "section_divider"
+    ],
+    "content_shape": [
+      "single-metric-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "minimal",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "metric",
+      "kind": "text",
+      "required": true,
+      "style": "metric_xl",
+      "max_chars": 15,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_metric_panel_9ec35a/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dynamic_odometer_morph_b82ac55d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A highly focused, minimal layout featuring a single prominent metric inside a centered, styled panel, ideal for highlighting a key number or countdown.",
+  "_distill_attempts": 1
+}

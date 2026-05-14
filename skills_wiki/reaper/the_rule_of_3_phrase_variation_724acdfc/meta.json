@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "the_rule_of_3_phrase_variation_724acdfc",
+  "skill_name": "The \"Rule of 3\" Phrase Variation",
+  "source": {
+    "channel": "Nathan James Larsen",
+    "duration_sec": 447,
+    "type": "youtube",
+    "video_id": "iiL3K3ewfuc",
+    "video_title": "This Arrangement Rule Will Change Your Music",
+    "video_url": "https://www.youtube.com/watch?v=iiL3K3ewfuc",
+    "views": 713169
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:23Z",
+  "wash_version": "1.0.0"
+}

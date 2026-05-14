@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "validation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_two_way_lookup_c3b513a9",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 280,
+    "type": "youtube",
+    "video_id": "-4yCXpv-drg",
+    "video_title": "4 Mins. to MASTER Excel INDEX & MATCH formulas!",
+    "video_url": "https://www.youtube.com/watch?v=-4yCXpv-drg",
+    "views": 542183
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

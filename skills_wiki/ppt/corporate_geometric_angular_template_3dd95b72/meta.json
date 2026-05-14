@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_geometric_angular_template_3dd95b72",
+  "skill_name": "Corporate Geometric Angular Template",
+  "source": {
+    "channel": "Nuts & Bolts Speed Training",
+    "duration_sec": 468,
+    "type": "youtube",
+    "video_id": "W1vvgOI1zAo",
+    "video_title": "PowerPoint Template Tips & Tricks: 10 Things You Need To Know To Nail Your Template",
+    "video_url": "https://www.youtube.com/watch?v=W1vvgOI1zAo",
+    "views": 89704
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:05:32Z",
+  "wash_version": "1.0.0"
+}

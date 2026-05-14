@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "nested_css_grid_dashboard_shell_fc4ffdb8",
+  "source": {
+    "channel": "ByteGrad",
+    "duration_sec": 1494,
+    "type": "youtube",
+    "video_id": "NnniXasJIpY",
+    "video_title": "Responsive Dashboard Layouts with CSS Grid",
+    "video_url": "https://www.youtube.com/watch?v=NnniXasJIpY",
+    "views": 86940
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

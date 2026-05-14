@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_diagonal_split_hero_30a9d93a",
+  "skill_name": "Modern Diagonal Split Hero",
+  "source": {
+    "channel": "SlideSalad",
+    "duration_sec": 149,
+    "type": "youtube",
+    "video_id": "LT_mS3aASKk",
+    "video_title": "Master\u2019s Thesis Defense Free PowerPoint Template Design - SlideSalad",
+    "video_url": "https://www.youtube.com/watch?v=LT_mS3aASKk",
+    "views": 231948
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:55Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_scrubbed_cinematic_background_vid_37d77ae5",
+  "source": {
+    "channel": "Design Synth",
+    "duration_sec": 574,
+    "type": "youtube",
+    "video_id": "mciULR6y4ts",
+    "video_title": "Play Video on Scroll Using HTML, CSS & JavaScript | GSAP ScrollTrigger Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=mciULR6y4ts",
+    "views": 3737
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

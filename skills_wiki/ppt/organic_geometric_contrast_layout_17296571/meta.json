@@ -1,0 +1,36 @@
+{
+  "applicability": "Balances professionalism with creativity by juxtaposing an organic image shape with a geometric text panel. Ideal for title slides, section dividers, or hero slides to make a strong visual impact.",
+  "category_path": [
+    "slide_layout",
+    "image_and_text"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "organic_geometric_contrast_layout_17296571",
+  "skill_name": "Organic-Geometric Contrast Layout",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 70,
+    "type": "youtube",
+    "video_id": "QHcfDD8zEXM",
+    "video_title": "Production Plant Powerpoint Ppt Template Bundles",
+    "video_url": "https://www.youtube.com/watch?v=QHcfDD8zEXM",
+    "views": 173
+  },
+  "tags": [
+    "organic shape",
+    "geometric panel",
+    "visual contrast",
+    "dynamic layout",
+    "image and text",
+    "modern design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:02Z",
+  "wash_version": "1.0.0"
+}

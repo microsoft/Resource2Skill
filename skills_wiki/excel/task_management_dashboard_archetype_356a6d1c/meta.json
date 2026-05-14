@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for project tracking, CRM pipelines, or list-driven trackers. It provides a frozen executive summary of dynamic KPIs at the top with a live, sortable data table below.",
+  "category_path": [
+    "dashboards",
+    "project_management"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "task_management_dashboard_archetype_356a6d1c",
+  "skill_name": "Task Management Dashboard Archetype",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 1140,
+    "type": "youtube",
+    "video_id": "AUe_Q6SWsqo",
+    "video_title": "Make a Dynamic Task Management Tracker in Excel!",
+    "video_url": "https://www.youtube.com/watch?v=AUe_Q6SWsqo",
+    "views": 289402
+  },
+  "tags": [
+    "project_management",
+    "kpi_dashboard",
+    "task_tracker",
+    "excel_table",
+    "charts"
+  ],
+  "tier": "T5",
+  "wash_run_at": "2026-04-27T08:55:50Z",
+  "wash_version": "1.0.0"
+}

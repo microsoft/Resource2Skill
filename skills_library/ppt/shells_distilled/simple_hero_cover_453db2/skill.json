@@ -1,0 +1,62 @@
+{
+  "skill_id": "simple_hero_cover_453db2",
+  "skill_type": "shell",
+  "name": "Simple Hero Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover"
+    ],
+    "content_shape": [
+      "title+hero_image"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/simple_hero_cover_453db2/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "hero_object_showcase_layout_755bd3b7",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A highly minimal cover or feature slide consisting of a prominent headline and a large hero image, ideal for impactful visual introductions.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for character design, biological creature concepts, and organic rendering. It establishes a procedural baseline for lifelike flesh, wax, or soft translucent materials.",
+  "category_path": [
+    "materials",
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_organic_skin_material_sss_set_2abbe7ee",
+  "skill_name": "Procedural Organic Skin Material",
+  "source": {
+    "channel": "TLD Studios",
+    "duration_sec": 194,
+    "type": "youtube",
+    "video_id": "881SkusymKI",
+    "video_title": "Blender Head Sculpt - Textured in Substance Painter",
+    "video_url": "https://www.youtube.com/watch?v=881SkusymKI",
+    "views": 612
+  },
+  "tags": [
+    "skin_material",
+    "subsurface_scattering",
+    "procedural_textures",
+    "ambient_occlusion",
+    "organic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:29Z",
+  "wash_version": "1.0.0"
+}

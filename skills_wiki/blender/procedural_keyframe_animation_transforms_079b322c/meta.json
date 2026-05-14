@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_keyframe_animation_transforms_079b322c",
+  "skill_name": "Procedural Keyframe Animation (Transforms, Materials, & Lighting)",
+  "source": {
+    "channel": "PIXXO 3D",
+    "duration_sec": 748,
+    "type": "youtube",
+    "video_id": "8gi9lUYMRcI",
+    "video_title": "Tutorial: Blender Keyframes For Beginners",
+    "video_url": "https://www.youtube.com/watch?v=8gi9lUYMRcI",
+    "views": 349594
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:13Z",
+  "wash_version": "1.0.0"
+}

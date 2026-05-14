@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_synth_transition__swell__chop__bf02e3c2",
+  "skill_name": "Automated Synth Transition (Swell, Chop & Widen)",
+  "source": {
+    "channel": "The REAPER Blog",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jgUIOpybK8Y"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:57Z",
+  "wash_version": "1.0.0"
+}

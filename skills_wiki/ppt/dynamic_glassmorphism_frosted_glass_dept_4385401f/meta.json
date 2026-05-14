@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-impact title slides, portfolio hero shots, or section dividers in creative, marketing, or tech presentations requiring a visual 'wow' factor.",
+  "category_path": [
+    "ui_design",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_glassmorphism_frosted_glass_dept_4385401f",
+  "skill_name": "Dynamic Glassmorphism (Frosted Glass) Depth Panel",
+  "source": {
+    "channel": "Presentation Tutor ",
+    "duration_sec": 375,
+    "type": "youtube",
+    "video_id": "ERDIQylJhhQ",
+    "video_title": "How to Create a Stunning GLASS EFFECT in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=ERDIQylJhhQ",
+    "views": 82722
+  },
+  "tags": [
+    "glassmorphism",
+    "frosted_glass",
+    "depth_effect",
+    "frame_breaking",
+    "modern_ui",
+    "visual_hierarchy"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:30:16Z",
+  "wash_version": "1.0.0"
+}

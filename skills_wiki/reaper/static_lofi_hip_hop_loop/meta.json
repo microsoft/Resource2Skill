@@ -1,0 +1,29 @@
+{
+  "applicability": "Lo-fi hip-hop instrumental loop reference with classic boom-bap drums and jazz-influenced Rhodes chords.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "cc0-1.0",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_lofi_hip_hop_loop",
+  "skill_name": "Lo-fi Hip-Hop Loop",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/reaper-lofi-loop"
+  },
+  "tags": [
+    "lofi",
+    "hip_hop",
+    "loop",
+    "f_minor",
+    "80_bpm"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:37:23Z",
+  "wash_version": "1.0.0"
+}

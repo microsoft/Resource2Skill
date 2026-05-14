@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hierarchical_visual_flow_for_diagrams_d1d21b3d",
+  "skill_name": "Hierarchical Visual Flow for Diagrams",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 495,
+    "type": "youtube",
+    "video_id": "8s_vQjJDqVg",
+    "video_title": "2\u6b65\uff0c\u6559\u4f60\u7528PPT\u7ed8\u5236\u8d85\u590d\u6742\u4f46\u7f8e\u89c2\u7684\u7ec4\u7ec7\u56fe/\u4eba\u7269\u5173\u7cfb\u56fe/\u67b6\u6784\u56fe/\u903b\u8f91\u56fe\uff01PowerPoint \u514d\u8d39\u6559\u5b66 [Free PPT tutorial]",
+    "video_url": "https://www.youtube.com/watch?v=8s_vQjJDqVg",
+    "views": 6558
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:33:59Z",
+  "wash_version": "1.0.0"
+}

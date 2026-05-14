@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is ideal for visualizing annual project plans, product roadmaps, and marketing schedules, offering a clear, digestible overview of complex timelines for executive summaries.",
+  "category_path": [
+    "project_planning",
+    "timeline_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "quarterly_gantt_timetable_grid_5b1aca3f",
+  "skill_name": "Quarterly Gantt Timetable Grid",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 685,
+    "type": "youtube",
+    "video_id": "uqplXfLH0wI",
+    "video_title": "Create Project Timeline template in PowerPoint. Tutorial No.: 975",
+    "video_url": "https://www.youtube.com/watch?v=uqplXfLH0wI",
+    "views": 7060
+  },
+  "tags": [
+    "gantt",
+    "timeline",
+    "project planning",
+    "quarterly",
+    "roadmap",
+    "schedule"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:07Z",
+  "wash_version": "1.0.0"
+}

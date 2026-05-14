@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for aggregating data from multiple sheets where ranges have empty padding rows, or when extracting lists from oversized ranges. It effectively replaces the need for complex OFFSET or FILTER setups.",
+  "category_path": [
+    "formula",
+    "dynamic_arrays"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trimrange_dynamic_array_suffix_d54dcd9b",
+  "skill_name": "TrimRange Dynamic Array Suffix",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 624,
+    "type": "youtube",
+    "video_id": "5h4wRTbmsSw",
+    "video_title": "You're ONE DOT Away from Cleaner Excel Reports | Before vs. After TRIMRANGE",
+    "video_url": "https://www.youtube.com/watch?v=5h4wRTbmsSw",
+    "views": 1027782
+  },
+  "tags": [
+    "trimrange",
+    "dynamic array",
+    "dot operator",
+    "vstack",
+    "range sizing"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T08:57:28Z",
+  "wash_version": "1.0.0"
+}

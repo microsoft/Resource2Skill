@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for Monthly/Quarterly Business Reviews, financial reports, strategic planning, and any data-heavy corporate updates requiring a premium dashboard feel. It transforms standard updates into a modular, high-impact presentation.",
+  "category_path": [
+    "presentation_layout",
+    "data_cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_chevron_anchor_minimalist_metr_2a163b0b",
+  "skill_name": "Corporate Chevron Anchor & Minimalist Metric Cards",
+  "source": {
+    "channel": "Creative Presentation Ideas by infoDiagram",
+    "duration_sec": 84,
+    "type": "youtube",
+    "video_id": "wIR7foez8lk",
+    "video_title": "Monthly Business Review | PowerPoint Presentation Template",
+    "video_url": "https://www.youtube.com/watch?v=wIR7foez8lk",
+    "views": 4222
+  },
+  "tags": [
+    "chevron banners",
+    "metric cards",
+    "data dashboard",
+    "corporate reporting",
+    "visual hierarchy",
+    "section anchor"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:04:21Z",
+  "wash_version": "1.0.0"
+}

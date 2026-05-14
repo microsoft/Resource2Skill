@@ -1,0 +1,35 @@
+{
+  "applicability": "Applicable when you need to provide an interactive, visual filtering mechanism for Excel Tables. Slicers make it easy for users to quickly understand and manipulate the current filter state at a glance.",
+  "category_path": [
+    "table",
+    "filtering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_4d140d62",
+  "skill_name": "Insert Table Slicer",
+  "source": {
+    "channel": "Excel Dashboard Templates",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "atjz34a7KT8",
+    "video_title": "How-to Create Excel Slicers for Your Dynamic Dashboard",
+    "video_url": "https://www.youtube.com/watch?v=atjz34a7KT8",
+    "views": 4785
+  },
+  "tags": [
+    "slicer",
+    "table_filtering",
+    "interactive_filter",
+    "excel_ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:49Z",
+  "wash_version": "1.0.0"
+}

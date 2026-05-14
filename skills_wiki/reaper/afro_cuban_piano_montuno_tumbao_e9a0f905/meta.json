@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for authentic Latin Jazz, Salsa, and Afro-Cuban grooves. It is also highly effective for adding syncopated Latin flavor to Pop, House, and Electronic dance music.",
+  "category_path": [
+    "midi",
+    "generator",
+    "keys"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "afro_cuban_piano_montuno_tumbao_e9a0f905",
+  "skill_name": "Afro-Cuban Piano Montuno & Tumbao",
+  "source": {
+    "channel": "Walk That Bass",
+    "duration_sec": 1429,
+    "type": "youtube",
+    "video_id": "8BShjpnliKc",
+    "video_title": "Afro-Cuban Latin Jazz Explained",
+    "video_url": "https://www.youtube.com/watch?v=8BShjpnliKc",
+    "views": 208137
+  },
+  "tags": [
+    "montuno",
+    "tumbao",
+    "latin",
+    "syncopation",
+    "piano"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:05Z",
+  "wash_version": "1.0.0"
+}

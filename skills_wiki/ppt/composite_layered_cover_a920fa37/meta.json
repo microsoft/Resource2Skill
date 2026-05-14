@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "composite_layered_cover_a920fa37",
+  "skill_name": "Composite Layered Cover (\u56fe\u7247+\u8272\u5757+\u7ebf\u6846\u53e0\u5c42\u5c01\u9762\u6cd5)",
+  "source": {
+    "channel": "\u5b59\u8d85",
+    "duration_sec": 92,
+    "type": "youtube",
+    "video_id": "yKuC2mdXKao",
+    "video_title": "\u3010PPT\u8fdb\u9636\u6559\u7a0b\u3011A01 \u5c01\u9762\u8bbe\u8ba1\u7684\u5e38\u89c1\u5957\u8def",
+    "video_url": "https://www.youtube.com/watch?v=yKuC2mdXKao",
+    "views": 131
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:01:29Z",
+  "wash_version": "1.0.0"
+}

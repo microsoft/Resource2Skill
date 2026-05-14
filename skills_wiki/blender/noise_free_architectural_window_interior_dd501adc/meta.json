@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "noise_free_architectural_window_interior_dd501adc",
+  "skill_name": "Noise-Free Architectural Window & Interior Lighting Rig",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 1535,
+    "type": "youtube",
+    "video_id": "rRuwN8DXjm0",
+    "video_title": "How to Make Interiors in Blender (Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=rRuwN8DXjm0",
+    "views": 167457
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:29Z",
+  "wash_version": "1.0.0"
+}

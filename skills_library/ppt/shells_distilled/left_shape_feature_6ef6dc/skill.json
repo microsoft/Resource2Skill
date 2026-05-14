@@ -1,0 +1,61 @@
+{
+  "skill_id": "left_shape_feature_6ef6dc",
+  "skill_type": "shell",
+  "name": "Left Shape Feature",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider"
+    ],
+    "content_shape": [
+      "shape+text"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/left_shape_feature_6ef6dc/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "sleek_process_flow_diagramming_d72f66d9",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extrapolated a minimal feature/divider slide from the single circle graphic, adding text slots to make it a functional layout.",
+  "_distill_attempts": 1
+}

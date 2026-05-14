@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating immersive, documentary-style narratives like company histories, product roadmaps, or project timelines. It spatially connects sequential events using the Morph transition to enhance storytelling.",
+  "category_path": [
+    "animation",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_spatial_morph_timeline_e51d782d",
+  "skill_name": "Cinematic Spatial Morph Timeline",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 657,
+    "type": "youtube",
+    "video_id": "aQlTPUvVH5E",
+    "video_title": "Cinematic presentations in POWERPOINT \ud83e\udd2f Step-by-step",
+    "video_url": "https://www.youtube.com/watch?v=aQlTPUvVH5E",
+    "views": 2481005
+  },
+  "tags": [
+    "timeline",
+    "morph",
+    "animation",
+    "cinematic",
+    "storytelling",
+    "roadmap"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:27:12Z",
+  "wash_version": "1.0.0"
+}

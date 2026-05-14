@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_block_reveal_text_animation_79eb8cdb",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 1105,
+    "type": "youtube",
+    "video_id": "0H9aKFkBcS4",
+    "video_title": "Next.js + GSAP = The Block Reveal Text Animation That Stole the Spotlight",
+    "video_url": "https://www.youtube.com/watch?v=0H9aKFkBcS4",
+    "views": 12615
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

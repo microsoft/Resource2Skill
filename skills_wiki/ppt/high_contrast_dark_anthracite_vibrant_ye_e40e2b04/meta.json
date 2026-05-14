@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_contrast_dark_anthracite_vibrant_ye_e40e2b04",
+  "skill_name": "High-Contrast \"Dark Anthracite & Vibrant Yellow\" Corporate Profile",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 1751,
+    "type": "youtube",
+    "video_id": "znq0DwK6I5A",
+    "video_title": "PowerPoint MasterClass - Create a Stunning 5-Page Black & Yellow Deck",
+    "video_url": "https://www.youtube.com/watch?v=znq0DwK6I5A",
+    "views": 49755
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:34:32Z",
+  "wash_version": "1.0.0"
+}

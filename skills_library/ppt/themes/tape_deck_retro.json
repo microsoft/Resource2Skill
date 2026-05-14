@@ -1,0 +1,124 @@
+{
+  "theme_id": "tape_deck_retro",
+  "name": "Tape Deck Retro",
+  "palette": {
+    "bg": "#161012",
+    "panel": "#1F1619",
+    "accent": "#E8B94A",
+    "accent2": "#52BFE0",
+    "text": "#F4E9D8",
+    "muted": "#9C8D7A",
+    "border": "#332428",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Impact",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Impact",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Courier New",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Impact",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "tape_motif",
+    "description": "Reel-to-reel tape cassette motif; retro heavy type"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "zoom",
+      "wipe"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "fade-only"
+    ]
+  },
+  "mood": [
+    "cinematic",
+    "warm",
+    "bold",
+    "punchy"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "audio-wave",
+    "neon",
+    "chromatic",
+    "marquee",
+    "spotlight",
+    "cta-arrow"
+  ],
+  "avoided_motion_tags": [
+    "ink-bleed",
+    "thesis",
+    "margin-note",
+    "page-turn"
+  ]
+}

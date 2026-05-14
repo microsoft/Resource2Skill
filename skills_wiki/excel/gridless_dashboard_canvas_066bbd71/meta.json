@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gridless_dashboard_canvas_066bbd71",
+  "skill_name": "Gridless Dashboard Canvas",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:59:51Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "initial preview of the interactive dashboard"
+        },
+        {
+          "seconds": 65,
+          "description": "first pivot chart is created"
+        },
+        {
+          "seconds": 815,
+          "description": "first chart placed on the dashboard"
+        },
+        {
+          "seconds": 1527,
+          "description": "interactive dashboard with all slicers connected"
+        },
+        {
+          "seconds": 1741,
+          "description": "fully polished dashboard with hidden gridlines and headings"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_preview_of_the_interac.jpg",
+        "frame_01_first_pivot_chart_is_created.jpg",
+        "frame_02_first_chart_placed_on_the_dash.jpg"
+      ],
+      "recapped_at": 1777406939.6779802
+    },
+    "primary_path": "frame_00_initial_preview_of_the_interac.jpg"
+  }
+}

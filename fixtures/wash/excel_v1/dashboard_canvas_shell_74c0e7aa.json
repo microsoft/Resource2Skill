@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_canvas_shell_74c0e7aa",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 639,
+    "type": "youtube",
+    "video_id": "Lrr-INjPEts",
+    "video_title": "Make Your Reports Pop with Custom Excel Dashboard Backgrounds",
+    "video_url": "https://www.youtube.com/watch?v=Lrr-INjPEts",
+    "views": 63341
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

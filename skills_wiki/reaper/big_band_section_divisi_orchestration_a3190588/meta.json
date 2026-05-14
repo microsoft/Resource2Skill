@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "big_band_section_divisi_orchestration_a3190588",
+  "skill_name": "Big Band Section Divisi Orchestration",
+  "source": {
+    "channel": "LoFiLeif",
+    "duration_sec": 640,
+    "type": "youtube",
+    "video_id": "e8eMmfSKhgo",
+    "video_title": "MIDI Guitar 2 and the Divisimate BigBand Voicings - a BigBand setup",
+    "video_url": "https://www.youtube.com/watch?v=e8eMmfSKhgo",
+    "views": 1175
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:32Z",
+  "wash_version": "1.0.0"
+}

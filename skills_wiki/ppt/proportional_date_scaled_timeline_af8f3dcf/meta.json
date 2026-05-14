@@ -1,0 +1,35 @@
+{
+  "applicability": "Use to accurately visualize project roadmaps, historical events, or legal chronologies where the true passage of time is critical. Unlike standard timelines, it spaces events proportionally to the time elapsed, correctly showing clusters of activity and long delays.",
+  "category_path": [
+    "charts",
+    "timelines"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "proportional_date_scaled_timeline_af8f3dcf",
+  "skill_name": "Proportional Date-Scaled Timeline",
+  "source": {
+    "channel": "Power UP! Computer Training",
+    "duration_sec": 962,
+    "type": "youtube",
+    "video_id": "F-teBhk3Bxw",
+    "video_title": "Create PowerPoint Timelines:  4 Different \"How-To\" Techniques",
+    "video_url": "https://www.youtube.com/watch?v=F-teBhk3Bxw",
+    "views": 48704
+  },
+  "tags": [
+    "timeline",
+    "roadmap",
+    "chronology",
+    "project plan",
+    "date-scaled"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:10:04Z",
+  "wash_version": "1.0.0"
+}

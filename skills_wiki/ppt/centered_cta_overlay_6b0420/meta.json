@@ -1,0 +1,29 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_cta_overlay_6b0420",
+  "skill_name": "Centered CTA Overlay",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T4",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:01:54Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for hero sections on landing pages, portfolios, or product introductions, providing a modern, dynamic aesthetic without the performance cost of video backgrounds.",
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_overlay_hero_a50dce34",
+  "skill_name": "Animated Gradient Overlay Hero",
+  "source": {
+    "channel": "SoftCode",
+    "duration_sec": 296,
+    "type": "youtube",
+    "video_id": "qxLf-BcsmhU",
+    "video_title": "Gradient Overlay with Background Image | CSS Gradient Animation",
+    "video_url": "https://www.youtube.com/watch?v=qxLf-BcsmhU",
+    "views": 365
+  },
+  "tags": [
+    "animated",
+    "gradient",
+    "hero",
+    "css",
+    "background",
+    "overlay"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:17Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for introducing individual items from a group, such as team members, product features, or portfolio projects. The effect focuses audience attention on one item while maintaining the context of the larger set.",
+  "category_path": [
+    "animation",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "team_spotlight_morph_ce76faac",
+  "skill_name": "Team Spotlight Morph",
+  "source": {
+    "channel": "Akshrika Tutorials",
+    "duration_sec": 191,
+    "type": "youtube",
+    "video_id": "t-w-nTajmOU",
+    "video_title": "PowerPoint Team Presentation with Morph Transition - Slide Master Tutorial 2025",
+    "video_url": "https://www.youtube.com/watch?v=t-w-nTajmOU",
+    "views": 76
+  },
+  "tags": [
+    "team spotlight",
+    "profile showcase",
+    "morph transition",
+    "focus effect",
+    "image gallery"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:43:11Z",
+  "wash_version": "1.0.0"
+}

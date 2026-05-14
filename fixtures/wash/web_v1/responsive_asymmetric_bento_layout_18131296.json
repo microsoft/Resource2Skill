@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "responsive"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_asymmetric_bento_layout_18131296",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 498,
+    "type": "youtube",
+    "video_id": "lyvbZJ12DmE",
+    "video_title": "Create Responsive Flexbox Layout in 8 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=lyvbZJ12DmE",
+    "views": 7626
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_dashboard_shell_c5bab5f8",
+  "skill_name": "Grid-Based Dashboard Shell",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:46Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 106,
+          "description": "fully interactive dashboard display"
+        },
+        {
+          "seconds": 1216,
+          "description": "purchase patterns heatmap"
+        },
+        {
+          "seconds": 1802,
+          "description": "geographic analysis map charts"
+        },
+        {
+          "seconds": 2147,
+          "description": "dashboard with interactive slicers"
+        },
+        {
+          "seconds": 2653,
+          "description": "fully styled and interactive dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_interactive_dashboard_di.jpg",
+        "frame_01_purchase_patterns_heatmap.jpg"
+      ],
+      "recapped_at": 1777406823.1945796
+    },
+    "primary_path": "frame_00_fully_interactive_dashboard_di.jpg"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for crafting dynamic winter environments, holiday renders, or atmospheric effects, this technique efficiently simulates falling snow. It quickly adds mood and realism to scenes, reacting well to camera and lighting for impactful visuals.",
+  "category_path": [
+    "particle_systems",
+    "environmental_effects",
+    "snow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_falling_snow_particle_system_d492ab3a",
+  "skill_name": "Procedural Falling Snow Particle System",
+  "source": {
+    "channel": "Rendered in Blender",
+    "duration_sec": 77,
+    "type": "youtube",
+    "video_id": "Wv23dh6d3oE",
+    "video_title": "Making (Fast n' Easy) Snow with Particles | Blender 3.0 Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Wv23dh6d3oE",
+    "views": 154101
+  },
+  "tags": [
+    "snow",
+    "particle system",
+    "weather effect",
+    "procedural animation",
+    "blender",
+    "atmospheric"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:49:04Z",
+  "wash_version": "1.0.0"
+}

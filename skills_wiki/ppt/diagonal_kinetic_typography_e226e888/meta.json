@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diagonal_kinetic_typography_e226e888",
+  "skill_name": "Diagonal Kinetic Typography",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 605,
+    "type": "youtube",
+    "video_id": "4jlAjHT06Eg",
+    "video_title": "PowerPoint Animation Tutorial Motion Graphics and Kinetic Typography",
+    "video_url": "https://www.youtube.com/watch?v=4jlAjHT06Eg",
+    "views": 264795
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:14:39Z",
+  "wash_version": "1.0.0"
+}

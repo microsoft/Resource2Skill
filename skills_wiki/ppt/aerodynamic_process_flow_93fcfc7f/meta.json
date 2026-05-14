@@ -1,0 +1,36 @@
+{
+  "applicability": "This design powerfully visualizes growth, development, and progress through a dynamic, flowing shape. It's ideal for corporate timelines, project roadmaps, strategic growth plans, and customer journey maps.",
+  "category_path": [
+    "process_flow",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "aerodynamic_process_flow_93fcfc7f",
+  "skill_name": "Aerodynamic Process Flow",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 113,
+    "type": "youtube",
+    "video_id": "Sw6J6_4uLYA",
+    "video_title": "\u8d85\u9177PPT\u65f6\u95f4\u8f74\u52a8\u753b\u6548\u679c\uff0c\u8ba9\u4f60\u7684\u6f14\u793a\u4e00\u79d2\u53d8\u9ad8\u7ea7\uff01",
+    "video_url": "https://www.youtube.com/watch?v=Sw6J6_4uLYA",
+    "views": 780
+  },
+  "tags": [
+    "progression",
+    "timeline",
+    "roadmap",
+    "growth",
+    "narrative",
+    "flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:23:57Z",
+  "wash_version": "1.0.0"
+}

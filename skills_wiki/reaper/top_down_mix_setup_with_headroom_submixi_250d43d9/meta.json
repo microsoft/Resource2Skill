@@ -1,0 +1,36 @@
+{
+  "applicability": "Universally applicable to any multi-track production across all genres, serving as an essential 'Stage 0' preparation and initial processing layer before creative volume automation. It establishes a professional routing hierarchy and applies crucial acoustic clean-up.",
+  "category_path": [
+    "mixing",
+    "setup"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "top_down_mix_setup_with_headroom_submixi_250d43d9",
+  "skill_name": "Top-Down Mix Setup with Headroom Submixing",
+  "source": {
+    "channel": "Paul Douglas",
+    "duration_sec": 1561,
+    "type": "youtube",
+    "video_id": "1xfU7IM4oBU",
+    "video_title": "Mixing a song on Reaper | My mixing process",
+    "video_url": "https://www.youtube.com/watch?v=1xfU7IM4oBU",
+    "views": 92005
+  },
+  "tags": [
+    "top-down mix",
+    "submix",
+    "headroom management",
+    "corrective eq",
+    "compression",
+    "mix setup"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:46:34Z",
+  "wash_version": "1.0.0"
+}

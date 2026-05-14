@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for modern Pop, Latin R&B, and Reggaeton-infused tracks. It works exceptionally well for verses or smooth, vocal-driven choruses requiring a laid-back but rhythmic pulse.",
+  "category_path": [
+    "composition",
+    "grooves"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "latin_r_b_dembow_fusion_groove_3ff44ec9",
+  "skill_name": "Latin-R&B Dembow Fusion Groove",
+  "source": {
+    "channel": "Latin Music Revolution",
+    "duration_sec": 198,
+    "type": "youtube",
+    "video_id": "y418gWd94IM",
+    "video_title": "What Latin Rhythms Are Used In Modern R&B? - Latin Music Revolution",
+    "video_url": "https://www.youtube.com/watch?v=y418gWd94IM",
+    "views": 7
+  },
+  "tags": [
+    "dembow",
+    "reggaeton",
+    "r&b",
+    "groove",
+    "syncopation",
+    "tresillo"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:23Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for creating synthwave basslines, trance/EDM plucks, cinematic ostinatos, and generative ambient textures. It efficiently transforms static block chords into driving rhythmic melodies.",
+  "category_path": [
+    "midi",
+    "generation",
+    "arpeggiation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "algorithmic_chord_arpeggiation_random_se_9138f272",
+  "skill_name": "Algorithmic Chord Arpeggiation (Random & Sequential)",
+  "source": {
+    "channel": "Rob van Hees",
+    "duration_sec": 117,
+    "type": "youtube",
+    "video_id": "QPwSHyZAGeY",
+    "video_title": "Reaper MIDI Editor: Creating various arp styles from Chords",
+    "video_url": "https://www.youtube.com/watch?v=QPwSHyZAGeY",
+    "views": 2429
+  },
+  "tags": [
+    "arpeggiation",
+    "generative_midi",
+    "chord_progression",
+    "rhythm",
+    "python_script"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:54:12Z",
+  "wash_version": "1.0.0"
+}

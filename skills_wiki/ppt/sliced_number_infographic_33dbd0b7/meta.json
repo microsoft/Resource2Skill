@@ -1,0 +1,36 @@
+{
+  "applicability": "Transforms standard numbered lists into dynamic infographics, ideal for presenting sequential information, key features, or statistical highlights like process steps or KPIs.",
+  "category_path": [
+    "infographics",
+    "numbers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sliced_number_infographic_33dbd0b7",
+  "skill_name": "Sliced Number Infographic",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 435,
+    "type": "youtube",
+    "video_id": "mw-HTNfOomg",
+    "video_title": "Create 8 steps Infographic slide in PowerPoint. Tutorial No. 891",
+    "video_url": "https://www.youtube.com/watch?v=mw-HTNfOomg",
+    "views": 59917
+  },
+  "tags": [
+    "sliced number",
+    "infographic",
+    "typography",
+    "sequential data",
+    "depth effect",
+    "dynamic presentation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:15:15Z",
+  "wash_version": "1.0.0"
+}

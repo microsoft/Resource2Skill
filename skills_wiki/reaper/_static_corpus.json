@@ -1,0 +1,45 @@
+[
+  {
+    "skill_id": "static_lofi_hip_hop_loop",
+    "name": "Lo-fi Hip-Hop Loop",
+    "license": "cc0-1.0",
+    "path": "_seed/lofi_loop.wav",
+    "format": "wav",
+    "description": "# Lo-fi Hip-Hop Loop\n\nFour-bar lo-fi hip-hop instrumental at 80 BPM in F minor. Stereo 44.1kHz / 16-bit WAV, ~12 seconds. Layers: vinyl-textured boom-bap drums (kick + dusty snare + hi-hats), warm Rhodes chord progression (Fm7 - Bbm7 - Eb7 - Abmaj7), filtered sub bass, and a soft sidechain pad. Suitable as a backing reference for any lo-fi composition skill.",
+    "applicability": "Lo-fi hip-hop instrumental loop reference with classic boom-bap drums and jazz-influenced Rhodes chords.",
+    "tags": ["lofi", "hip_hop", "loop", "f_minor", "80_bpm"],
+    "source_url": "https://github.com/skill-wiki-static/reaper-lofi-loop"
+  },
+  {
+    "skill_id": "static_drum_breakbeat_pattern",
+    "name": "Drum Breakbeat Pattern",
+    "license": "cc-by-4.0",
+    "path": "_seed/breakbeat_pattern.mid",
+    "format": "mid",
+    "description": "# Drum Breakbeat Pattern\n\nTwo-bar MIDI breakbeat pattern in 4/4 at 90 BPM, single track. Pattern: classic Amen-style break — kick on beats 1+3, snare on 2+4 with ghost notes, syncopated hi-hat 16ths, and crash on the downbeat of bar 2. Pitched on GM drum channel (channel 10, MIDI key 36 = kick, 38 = snare, 42 = closed hat, 49 = crash).",
+    "applicability": "Reusable breakbeat MIDI pattern as a rhythmic foundation for hip-hop, drum-and-bass, or jungle compositions.",
+    "tags": ["breakbeat", "drums", "midi", "90_bpm", "amen"],
+    "source_url": "https://github.com/skill-wiki-static/reaper-breakbeat"
+  },
+  {
+    "skill_id": "static_synth_pad_chord_bed",
+    "name": "Synth Pad Chord Bed",
+    "license": "mit",
+    "path": "_seed/synth_pad_bed.wav",
+    "format": "wav",
+    "description": "# Synth Pad Chord Bed\n\nEight-bar warm synth pad bed in C major, stereo 44.1kHz / 24-bit WAV, ~16 seconds. Slow attack, gentle filter sweep, subtle stereo width via chorus. Chord progression: I - vi - IV - V (C - Am - F - G). Suitable as a foundation layer for ambient, cinematic, or pop arrangement skills.",
+    "applicability": "Warm synth pad chord bed as a foundation layer for ambient, cinematic, or pop arrangements.",
+    "tags": ["pad", "synth", "ambient", "c_major", "i_vi_iv_v"],
+    "source_url": "https://github.com/skill-wiki-static/reaper-synth-pad"
+  },
+  {
+    "skill_id": "static_label_release_blocked",
+    "name": "Label Release Master (proprietary)",
+    "license": "proprietary",
+    "path": "_seed/label_master.wav",
+    "format": "wav",
+    "description": "Commercial label release master, NOT redistributable.",
+    "tags": ["label"],
+    "source_url": "https://example.com/internal/label-master"
+  }
+]

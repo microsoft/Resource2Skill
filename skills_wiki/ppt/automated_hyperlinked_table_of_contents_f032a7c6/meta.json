@@ -1,0 +1,35 @@
+{
+  "applicability": "Automatically generates a navigable overview slide for a presentation. This is ideal for long decks or materials that will be shared for self-exploration, as it links each section title to its corresponding slide.",
+  "category_path": [
+    "navigation",
+    "table_of_contents"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_hyperlinked_table_of_contents_f032a7c6",
+  "skill_name": "Hyperlinked Table of Contents",
+  "source": {
+    "channel": "Chester Tugwell",
+    "duration_sec": 335,
+    "type": "youtube",
+    "video_id": "WMb0F08p_yw",
+    "video_title": "Create a Clickable Table of Contents in PowerPoint - Outline Text & Slide Zoom Methods",
+    "video_url": "https://www.youtube.com/watch?v=WMb0F08p_yw",
+    "views": 122053
+  },
+  "tags": [
+    "navigation",
+    "hyperlinks",
+    "table of contents",
+    "agenda",
+    "summary"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:21:53Z",
+  "wash_version": "1.0.0"
+}

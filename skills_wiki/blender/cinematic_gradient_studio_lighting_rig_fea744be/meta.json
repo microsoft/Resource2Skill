@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-end product visualization and cosmetic renders. It provides smooth, procedural gradient reflections on glossy or glass surfaces without requiring external HDRIs.",
+  "category_path": [
+    "lighting",
+    "studio_rig"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_gradient_studio_lighting_rig_fea744be",
+  "skill_name": "Cinematic Gradient Studio Lighting Rig",
+  "source": {
+    "channel": "Extra 3d",
+    "duration_sec": 485,
+    "type": "youtube",
+    "video_id": "WreZ_VKDn4M",
+    "video_title": "Realistic Product Lighting In Blender",
+    "video_url": "https://www.youtube.com/watch?v=WreZ_VKDn4M",
+    "views": 86574
+  },
+  "tags": [
+    "lighting",
+    "gradient",
+    "product-rendering",
+    "emission",
+    "studio"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:41Z",
+  "wash_version": "1.0.0"
+}

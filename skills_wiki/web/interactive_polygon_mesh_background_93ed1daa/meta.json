@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_polygon_mesh_background_93ed1daa",
+  "skill_name": "Interactive Polygon Mesh Background",
+  "source": {
+    "channel": "Tomojit Tutorials",
+    "duration_sec": 434,
+    "type": "youtube",
+    "video_id": "mwYQ8Twmm4U",
+    "video_title": "POLYGON PARTICLE JS (2020) | JAVASCRIPT ANIMATION",
+    "video_url": "https://www.youtube.com/watch?v=mwYQ8Twmm4U",
+    "views": 1046
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:40Z",
+  "wash_version": "1.0.0"
+}

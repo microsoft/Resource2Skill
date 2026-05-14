@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates an engaging, app-like experience for showcasing a list of selectable items. Ideal for product catalogs, portfolios, team introductions, or interactive chapter navigation within a presentation.",
+  "category_path": [
+    "interactive_elements",
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_morphing_carousel_menu_c65667d9",
+  "skill_name": "Interactive Morphing Carousel Menu",
+  "source": {
+    "channel": "Gemo Edits",
+    "duration_sec": 726,
+    "type": "youtube",
+    "video_id": "rd6IIUy_mUI",
+    "video_title": "How to Create Carousel Effect Animation in PowerPoint using Morph Transition | Step-by-Step Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=rd6IIUy_mUI",
+    "views": 777157
+  },
+  "tags": [
+    "morph",
+    "carousel",
+    "interactive",
+    "menu",
+    "navigation",
+    "gallery"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:36:18Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "performant_scroll_reveal_animations_inte_46b663aa",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 254,
+    "type": "youtube",
+    "video_id": "adqwnu3gs2k",
+    "video_title": "Create Amazing SCROLL Animations with Intersection Observer",
+    "video_url": "https://www.youtube.com/watch?v=adqwnu3gs2k",
+    "views": 50503
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

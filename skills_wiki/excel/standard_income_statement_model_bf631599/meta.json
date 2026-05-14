@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "standard_income_statement_model_bf631599",
+  "skill_name": "Standard Income Statement Model",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=64A6HJDEbKA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 112,
+          "description": "Years formatted with 'A' (actual) and 'E' (estimate)"
+        },
+        {
+          "seconds": 421,
+          "description": "Historical income statement values filled and color-coded"
+        },
+        {
+          "seconds": 1146,
+          "description": "Fully completed income statement with all historical and forecasted figures"
+        },
+        {
+          "seconds": 1622,
+          "description": "Income statement assumptions grouped and collapsed for better organization"
+        },
+        {
+          "seconds": 1900,
+          "description": "Dynamic income statement updating based on scenario selection"
+        }
+      ],
+      "frames": [
+        "frame_00_years_formatted_with_a_actual_.jpg",
+        "frame_01_historical_income_statement_va.jpg",
+        "frame_02_fully_completed_income_stateme.jpg"
+      ],
+      "recapped_at": 1777407508.7111447
+    },
+    "primary_path": "frame_00_years_formatted_with_a_actual_.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for immersive hero sections, storytelling landing pages, and editorial layouts where spatial depth and visual layering are paramount. It delivers a buttery-smooth, hardware-accelerated 60FPS scroll experience without relying on JavaScript.",
+  "category_path": [
+    "css",
+    "visual_effects",
+    "parallax"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_3d_perspective_parallax_e800f3d3",
+  "skill_name": "Pure CSS 3D Perspective Parallax",
+  "source": {
+    "channel": "Red Stapler",
+    "duration_sec": 306,
+    "type": "youtube",
+    "video_id": "Jt2yNZdOHxQ",
+    "video_title": "Easiest Pure CSS Parallax Effect Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Jt2yNZdOHxQ",
+    "views": 101835
+  },
+  "tags": [
+    "parallax",
+    "3d-transforms",
+    "css-only",
+    "scroll-effect",
+    "gpu-accelerated"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:45Z",
+  "wash_version": "1.0.0"
+}

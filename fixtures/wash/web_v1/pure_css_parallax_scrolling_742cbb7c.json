@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_parallax_scrolling_742cbb7c",
+  "source": {
+    "channel": "NeduZone",
+    "duration_sec": 209,
+    "type": "youtube",
+    "video_id": "HaHvFPmZ9ok",
+    "video_title": "How to Create a Simple Parallax Scrolling Effect using CSS | CSS parallax scroll",
+    "video_url": "https://www.youtube.com/watch?v=HaHvFPmZ9ok",
+    "views": 196
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

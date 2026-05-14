@@ -1,0 +1,32 @@
+{
+  "applicability": "Best used for highly visual dashboards or infographics showing fill rates, service levels, or completion percentages across a small number of categories (e.g., 3-5 quarters or regions). Excellent for executive summary visuals.",
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_container_chart_cylinder_f47100f3",
+  "skill_name": "3D Container Chart (Cylinder)",
+  "source": {
+    "channel": "PK: An Excel Expert",
+    "duration_sec": 912,
+    "type": "youtube",
+    "video_id": "o81URVWGVG4",
+    "video_title": "Quick 3D Container Chart in Excel",
+    "video_url": "https://www.youtube.com/watch?v=o81URVWGVG4",
+    "views": 143514
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:51:15Z",
+  "wash_version": "1.0.0"
+}

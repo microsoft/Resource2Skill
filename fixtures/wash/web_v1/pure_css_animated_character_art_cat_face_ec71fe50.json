@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_animated_character_art_cat_face_ec71fe50",
+  "source": {
+    "channel": "Divinector",
+    "duration_sec": 220,
+    "type": "youtube",
+    "video_id": "OVaTmTG24y0",
+    "video_title": "Cat Face CSS Art | Pure CSS Tricks",
+    "video_url": "https://www.youtube.com/watch?v=OVaTmTG24y0",
+    "views": 89
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_comic_diorama_morph_scene_56d614dc",
+  "skill_name": "Animated Comic Diorama (Morph Scene)",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 481,
+    "type": "youtube",
+    "video_id": "7KXrLkghRfg",
+    "video_title": "How to Make Animated Cartoon of Yourself in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=7KXrLkghRfg",
+    "views": 768019
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:24:23Z",
+  "wash_version": "1.0.0"
+}

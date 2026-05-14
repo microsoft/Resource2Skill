@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sidebar_navigation_dashboard_archetype_3976e712",
+  "skill_name": "Sidebar Navigation Dashboard Archetype",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:32:56Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 355,
+          "description": "Empty dashboard layout with all main titles and placeholder shapes."
+        },
+        {
+          "seconds": 837,
+          "description": "All individual charts (donut, radar, map, line) are created in the 'Inputs' tab."
+        },
+        {
+          "seconds": 1300,
+          "description": "Major charts (map, line, radar) are placed on the dashboard and number text boxes are added."
+        },
+        {
+          "seconds": 1506,
+          "description": "Fully completed and formatted interactive Excel dashboard."
+        }
+      ],
+      "frames": [
+        "frame_00_empty_dashboard_layout_with_al.jpg",
+        "frame_01_all_individual_charts_donut_ra.jpg"
+      ],
+      "recapped_at": 1777407432.5410051
+    },
+    "primary_path": "frame_00_empty_dashboard_layout_with_al.jpg"
+  }
+}

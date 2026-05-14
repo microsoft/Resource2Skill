@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this pattern to compare multiple items (e.g., products, regions) across several different metrics or KPIs. It is highly effective for marketing, sales, or product performance analysis by presenting complex data in an easily scannable format.",
+  "category_path": [
+    "charts",
+    "comparative"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "small_multiples_comparative_panel_chart_cda61fde",
+  "skill_name": "Small Multiples Panel Chart",
+  "source": {
+    "channel": "AhaPitch",
+    "duration_sec": 572,
+    "type": "youtube",
+    "video_id": "hJJBx8HHKeA",
+    "video_title": "PowerPoint Graphs for Data Visualization and Presentation",
+    "video_url": "https://www.youtube.com/watch?v=hJJBx8HHKeA",
+    "views": 198
+  },
+  "tags": [
+    "small multiples",
+    "panel chart",
+    "trellis chart",
+    "comparative analysis",
+    "bar chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:15:21Z",
+  "wash_version": "1.0.0"
+}

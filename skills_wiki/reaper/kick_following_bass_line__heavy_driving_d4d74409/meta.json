@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kick_following_bass_line__heavy_driving_d4d74409",
+  "skill_name": "Kick-Following Bass Line (Heavy/Driving)",
+  "source": {
+    "channel": "Andrew Bassett",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=s2MgjCbheoY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:36:00Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_flexbox_layout_engine_03974064",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "duration_sec": 496,
+    "type": "youtube",
+    "video_id": "phWxA89Dy94",
+    "video_title": "Learn Flexbox CSS in 8 minutes",
+    "video_url": "https://www.youtube.com/watch?v=phWxA89Dy94",
+    "views": 2163103
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

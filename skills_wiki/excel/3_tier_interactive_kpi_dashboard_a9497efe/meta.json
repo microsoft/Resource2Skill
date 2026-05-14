@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3_tier_interactive_kpi_dashboard_a9497efe",
+  "skill_name": "3-Tier Interactive KPI Dashboard",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Fully built KPI dashboard with multiple sections and metrics"
+        },
+        {
+          "seconds": 35,
+          "description": "KPI dashboard showing August 20 data with green and red conditional formatting"
+        },
+        {
+          "seconds": 204,
+          "description": "Close-up of the Gross Margin KPI card showing its percentage and color coding"
+        },
+        {
+          "seconds": 232,
+          "description": "Close-up of the DSO (Days Sales Outstanding) KPI card with target comparison"
+        },
+        {
+          "seconds": 627,
+          "description": "Overview of the complete KPI dashboard structure, showing different categories like Working Capital, Sales, and Cost KPIs"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_built_kpi_dashboard_with.jpg",
+        "frame_01_kpi_dashboard_showing_august_2.jpg",
+        "frame_02_close_up_of_the_gross_margin_k.jpg",
+        "frame_03_close_up_of_the_dso_days_sales.jpg",
+        "frame_04_overview_of_the_complete_kpi_d.jpg"
+      ],
+      "recapped_at": 1777406042.5339718
+    },
+    "primary_path": "frame_00_fully_built_kpi_dashboard_with.jpg"
+  }
+}

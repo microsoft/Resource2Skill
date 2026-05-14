@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_rolling_cube_reveal_card_3a45e98d",
+  "source": {
+    "channel": "FRONTEND BEAST",
+    "duration_sec": 313,
+    "type": "youtube",
+    "video_id": "Uq14OW1HZt0",
+    "video_title": "HTML and CSS Card Hover Effects | 3D Flip",
+    "video_url": "https://www.youtube.com/watch?v=Uq14OW1HZt0",
+    "views": 77
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

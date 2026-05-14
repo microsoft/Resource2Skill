@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_phase_split_roadmap_traction_vision_2dfe2a0a",
+  "skill_name": "Dual-Phase Split Roadmap (Traction & Vision)",
+  "source": {
+    "channel": "Matt C Smith",
+    "duration_sec": 798,
+    "type": "youtube",
+    "video_id": "jYWF64Um7pw",
+    "video_title": "What investors ACTUALLY want to see in your PITCH DECK.",
+    "video_url": "https://www.youtube.com/watch?v=jYWF64Um7pw",
+    "views": 827173
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:32Z",
+  "wash_version": "1.0.0"
+}

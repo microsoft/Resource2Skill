@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_4_point_studio_lighting_environ_e09d51d8",
+  "skill_name": "Advanced 4-Point Studio Lighting Environment",
+  "source": {
+    "channel": "IBN-Blender 3d Artwork",
+    "duration_sec": 1447,
+    "type": "youtube",
+    "video_id": "RsubPHDDeCc",
+    "video_title": "4 types of EEVEE Studio Lightings for Beginners.",
+    "video_url": "https://www.youtube.com/watch?v=RsubPHDDeCc",
+    "views": 4176
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:35Z",
+  "wash_version": "1.0.0"
+}

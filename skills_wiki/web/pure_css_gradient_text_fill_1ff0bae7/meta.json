@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-prominence text in hero sections, landing pages, or product labels to emphasize key messages with a modern, vibrant aesthetic.",
+  "category_path": [
+    "typography",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_gradient_text_fill_1ff0bae7",
+  "skill_name": "Pure CSS Gradient Text Fill",
+  "source": {
+    "channel": "Code Radiance",
+    "duration_sec": 293,
+    "type": "youtube",
+    "video_id": "HwI-fcCFDz4",
+    "video_title": "Set Gradient Colors for Text using CSS | With Code Example",
+    "video_url": "https://www.youtube.com/watch?v=HwI-fcCFDz4",
+    "views": 563
+  },
+  "tags": [
+    "gradient",
+    "text effect",
+    "typography",
+    "css",
+    "web design",
+    "emphasis"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T07:22:42Z",
+  "wash_version": "1.0.0"
+}

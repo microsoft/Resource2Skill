@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_3d_looping_flip_card_06818024",
+  "source": {
+    "channel": "Hemant Dutta",
+    "duration_sec": 298,
+    "type": "youtube",
+    "video_id": "YvkmhJjm4pw",
+    "video_title": "3D Flip Card Hover Effect Under 5 Minutes [HTML/CSS/JS]",
+    "video_url": "https://www.youtube.com/watch?v=YvkmhJjm4pw",
+    "views": 1750
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

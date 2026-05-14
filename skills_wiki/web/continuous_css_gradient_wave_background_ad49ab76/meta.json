@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a dynamic, fluid background effect for hero sections, landing pages, or login screens. It provides a modern, calming aesthetic without the performance cost of video or complex JavaScript.",
+  "category_path": [
+    "background",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_css_gradient_wave_background_ad49ab76",
+  "skill_name": "CSS Animated Gradient Wave",
+  "source": {
+    "channel": "Coding with Edson",
+    "duration_sec": 291,
+    "type": "youtube",
+    "video_id": "MgGIAVejYho",
+    "video_title": "Creating Ocean Waves with HTML & CSS: A Step-by-Step Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=MgGIAVejYho",
+    "views": 507
+  },
+  "tags": [
+    "background",
+    "animation",
+    "gradient",
+    "wave",
+    "css"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:35Z",
+  "wash_version": "1.0.0"
+}

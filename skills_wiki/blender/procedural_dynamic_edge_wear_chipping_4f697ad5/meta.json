@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_dynamic_edge_wear_chipping_4f697ad5",
+  "skill_name": "Procedural Dynamic Edge Wear & Chipping",
+  "source": {
+    "channel": "Christopher Fraser",
+    "duration_sec": 245,
+    "type": "youtube",
+    "video_id": "EQ149bMtKRA",
+    "video_title": "The RIGHT Way to do Edge Wear (in Cycles!)",
+    "video_url": "https://www.youtube.com/watch?v=EQ149bMtKRA",
+    "views": 189273
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:11Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creating a driving, energetic bridge or transition in rock, pop-punk, and alternative music. This component builds momentum and harmonic tension to set up a powerful return to a chorus or verse.",
+  "category_path": [
+    "songwriting",
+    "bridges"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rock_anthem_bridge_turnaround_builder_276fd419",
+  "skill_name": "Rock Anthem Bridge Builder",
+  "source": {
+    "channel": "Blues House",
+    "duration_sec": 549,
+    "type": "youtube",
+    "video_id": "4KVU82huEIg",
+    "video_title": "Rapid Composer - Let's Make Rock music! - Part 2",
+    "video_url": "https://www.youtube.com/watch?v=4KVU82huEIg",
+    "views": 1987
+  },
+  "tags": [
+    "rock",
+    "bridge",
+    "turnaround",
+    "arrangement",
+    "songwriting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:35Z",
+  "wash_version": "1.0.0"
+}

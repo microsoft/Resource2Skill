@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "other"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_65d368f9",
+  "source": {
+    "channel": "Excel For Freelancers",
+    "duration_sec": 844,
+    "type": "youtube",
+    "video_id": "-tva3eTr5q8",
+    "video_title": "Turn  Excel Data Into Amazing Infographics In 1 CLICK",
+    "video_url": "https://www.youtube.com/watch?v=-tva3eTr5q8",
+    "views": 37585
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

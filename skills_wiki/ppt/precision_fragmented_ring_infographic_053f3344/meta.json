@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "precision_fragmented_ring_infographic_053f3344",
+  "skill_name": "Precision Fragmented Ring Infographic",
+  "source": {
+    "channel": "Magnas Media",
+    "duration_sec": 2890,
+    "type": "youtube",
+    "video_id": "_2d66e8PL8g",
+    "video_title": "PowerPoint Diagram & Infographic Design",
+    "video_url": "https://www.youtube.com/watch?v=_2d66e8PL8g",
+    "views": 2751
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:07:32Z",
+  "wash_version": "1.0.0"
+}

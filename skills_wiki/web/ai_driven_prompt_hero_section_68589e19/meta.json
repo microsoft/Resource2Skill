@@ -1,0 +1,70 @@
+{
+  "applicability": "Ideal for generative AI tools, complex data-querying dashboards, or advanced search engines. This pattern replaces a traditional hero section to invite immediate user interaction with the product's core value.",
+  "category_path": [
+    "page_layout",
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ai_driven_prompt_hero_section_68589e19",
+  "skill_name": "AI-Driven Prompt Hero Section",
+  "source": {
+    "channel": "Codex Community",
+    "duration_sec": 457,
+    "type": "youtube",
+    "video_id": "aLZCG8XMM_s",
+    "video_title": "Best Hero Layout Inspiration of 2026",
+    "video_url": "https://www.youtube.com/watch?v=aLZCG8XMM_s",
+    "views": 50784
+  },
+  "tags": [
+    "ai",
+    "prompt",
+    "hero section",
+    "search ui",
+    "landing page"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 25,
+          "description": "Basic hero design with text on left and products on right"
+        },
+        {
+          "seconds": 54,
+          "description": "Full-screen image hero with large brand name"
+        },
+        {
+          "seconds": 147,
+          "description": "Full-screen video hero with text overlay 'Game-changing Websites'"
+        },
+        {
+          "seconds": 221,
+          "description": "Web app preview hero for GitHub CoPilot showing code editor UI"
+        },
+        {
+          "seconds": 527,
+          "description": "3D interactive elements hero for Spline"
+        }
+      ],
+      "frames": [
+        "frame_00_basic_hero_design_with_text_on.jpg",
+        "frame_01_full_screen_image_hero_with_la.jpg",
+        "frame_02_full_screen_video_hero_with_te.jpg",
+        "frame_03_web_app_preview_hero_for_githu.jpg"
+      ],
+      "recapped_at": 1777408222.2064219
+    },
+    "primary_path": "frame_00_basic_hero_design_with_text_on.jpg"
+  }
+}

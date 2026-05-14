@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_assumptions_block_338f0b26",
+  "skill_name": "Dynamic Scenario Assumptions Block",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:44:03Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Dynamic financial model with scenario toggle"
+        },
+        {
+          "seconds": 230,
+          "description": "Revenue line item calculated in the income statement"
+        },
+        {
+          "seconds": 732,
+          "description": "COGS and Gross Profit sections fully calculated and dynamic"
+        },
+        {
+          "seconds": 1018,
+          "description": "Complete income statement with profit/loss calculated for one scenario"
+        },
+        {
+          "seconds": 1414,
+          "description": "Fully dynamic income statement updating based on scenario selection"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_financial_model_with_s.jpg",
+        "frame_01_revenue_line_item_calculated_i.jpg",
+        "frame_02_cogs_and_gross_profit_sections.jpg"
+      ],
+      "recapped_at": 1777406573.3941653
+    },
+    "primary_path": "frame_00_dynamic_financial_model_with_s.jpg"
+  }
+}

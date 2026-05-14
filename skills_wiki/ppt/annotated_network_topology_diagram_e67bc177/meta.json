@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for technical documentation, educational content, or system architecture proposals, this skill clearly illustrates network topologies, data flow, and subnets using standardized iconography and sequential annotations to reduce cognitive load.",
+  "category_path": [
+    "technical_diagrams",
+    "network_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "annotated_network_topology_diagram_e67bc177",
+  "skill_name": "Annotated Network Topology Diagram",
+  "source": {
+    "channel": "Cisco Mmu",
+    "duration_sec": 120,
+    "type": "youtube",
+    "video_id": "d25sLKnjau8",
+    "video_title": "Intro TCP/IP 3: How to determine the number of networks in a network diagram",
+    "video_url": "https://www.youtube.com/watch?v=d25sLKnjau8",
+    "views": 33670
+  },
+  "tags": [
+    "network topology",
+    "technical diagram",
+    "networking",
+    "annotations",
+    "it infrastructure",
+    "data flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:47Z",
+  "wash_version": "1.0.0"
+}

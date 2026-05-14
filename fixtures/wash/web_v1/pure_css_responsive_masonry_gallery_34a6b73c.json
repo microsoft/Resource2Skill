@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_responsive_masonry_gallery_34a6b73c",
+  "source": {
+    "channel": "Mr. Web Designer",
+    "duration_sec": 406,
+    "type": "youtube",
+    "video_id": "NFmszPCnsVs",
+    "video_title": "Pure CSS Responsive Masonry Gallery Layout || Masonry Image Card Gallery Using Media Queries",
+    "video_url": "https://www.youtube.com/watch?v=NFmszPCnsVs",
+    "views": 2572
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

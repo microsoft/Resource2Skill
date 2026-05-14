@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for creating sci-fi props, mechanical joints, and engine parts using a non-destructive workflow. This mimics real-world CNC milling and allows rapid iteration of complex engineered shapes.",
+  "category_path": [
+    "modeling",
+    "modifiers",
+    "boolean"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_hard_surface_boolean_machinin_2dee6998",
+  "skill_name": "Procedural Hard-Surface Boolean Machining",
+  "source": {
+    "channel": "Josh - Blender Bros",
+    "duration_sec": 863,
+    "type": "youtube",
+    "video_id": "lxtHuz6luJM",
+    "video_title": "BOOLEAN workflow - Blender Hard Surface Modeling Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=lxtHuz6luJM",
+    "views": 54406
+  },
+  "tags": [
+    "hard-surface",
+    "boolean",
+    "modifiers",
+    "procedural",
+    "csg",
+    "bevel"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:04Z",
+  "wash_version": "1.0.0"
+}

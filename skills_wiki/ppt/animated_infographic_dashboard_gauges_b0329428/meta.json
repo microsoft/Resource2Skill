@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_infographic_dashboard_gauges_b0329428",
+  "skill_name": "Animated Infographic Dashboard Gauges",
+  "source": {
+    "channel": "PowerPointCourse",
+    "duration_sec": 421,
+    "type": "youtube",
+    "video_id": "_yryx-xAImE",
+    "video_title": "\u5982\u4f55\u7528PPT\u505a\u5100\u9336\u677f\u6578\u5b57\u52d5\u756b",
+    "video_url": "https://www.youtube.com/watch?v=_yryx-xAImE",
+    "views": 1792
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:49:56Z",
+  "wash_version": "1.0.0"
+}

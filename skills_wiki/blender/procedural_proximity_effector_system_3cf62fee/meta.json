@@ -1,0 +1,36 @@
+{
+  "applicability": "This technique is highly effective for motion graphics, abstract satisfying animations, and reactive sci-fi panels. It creates a tactile relationship between objects without relying on expensive physics simulations.",
+  "category_path": [
+    "geometry_nodes",
+    "procedural_animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_proximity_effector_system_3cf62fee",
+  "skill_name": "Procedural Proximity Effector System",
+  "source": {
+    "channel": "Ducky 3D",
+    "duration_sec": 1359,
+    "type": "youtube",
+    "video_id": "XytiZObyYAA",
+    "video_title": "You Should be Using Proximity in Your Animations (Blender)",
+    "video_url": "https://www.youtube.com/watch?v=XytiZObyYAA",
+    "views": 183412
+  },
+  "tags": [
+    "geometry_nodes",
+    "proximity",
+    "effector",
+    "displacement",
+    "reactive_shading"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:15Z",
+  "wash_version": "1.0.0"
+}

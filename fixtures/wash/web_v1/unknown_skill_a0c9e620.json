@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_a0c9e620",
+  "source": {
+    "channel": "Snippets Code",
+    "duration_sec": 200,
+    "type": "youtube",
+    "video_id": "boqvpJrVTzI",
+    "video_title": "Animated Waves Effect on Button Hover Using HTML CSS",
+    "video_url": "https://www.youtube.com/watch?v=boqvpJrVTzI",
+    "views": 4439
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

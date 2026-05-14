@@ -1,0 +1,35 @@
+{
+  "applicability": "Builds robust process diagrams, decision trees, or organizational charts. Uses native connectors that automatically adjust when shapes are moved, ensuring the diagram's logical integrity remains intact.",
+  "category_path": [
+    "diagrams",
+    "flowchart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_native_flowchart_layout_7f41e18d",
+  "skill_name": "Dynamic Flowchart with Anchored Connectors",
+  "source": {
+    "channel": "The Office Guys Tutorials",
+    "duration_sec": 695,
+    "type": "youtube",
+    "video_id": "SHdxQGMlWuQ",
+    "video_title": "Flowchart in PowerPoint | Advance Microsoft Office Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=SHdxQGMlWuQ",
+    "views": 744
+  },
+  "tags": [
+    "flowchart",
+    "process diagram",
+    "decision tree",
+    "connectors",
+    "logic flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:19:01Z",
+  "wash_version": "1.0.0"
+}

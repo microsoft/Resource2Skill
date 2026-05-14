@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_morph_reveal_7b4de50f",
+  "skill_name": "Circular Morph Reveal",
+  "source": {
+    "channel": "The Office Guy",
+    "duration_sec": 447,
+    "type": "youtube",
+    "video_id": "L6AqWFuOtGo",
+    "video_title": "Morph Transition PowerPoint Slides: Step-by-Step Guide | Free Template",
+    "video_url": "https://www.youtube.com/watch?v=L6AqWFuOtGo",
+    "views": 75929
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:28:42Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,128 @@
+def create_pattern(
+    project_name: str = "MyProject",
+    track_name: str = "Acid Bass Sequence",
+    bpm: int = 125,
+    key: str = "A",
+    scale: str = "pentatonic_minor",
+    bars: int = 4,
+    velocity_base: int = 100,
+    **kwargs,
+) -> str:
+    """
+    Creates a 16-step sequenced acid bassline pattern with overlaps for glide,
+    and configures a stock REAPER synth to play it.
+
+    Args:
+        project_name: Project identifier (for logging).
+        track_name: Name for the created track.
+        bpm: Tempo in BPM.
+        key: Root note (C, C#, D, ..., B).
+        scale: Scale type (minor, pentatonic_minor, dorian).
+        bars: Number of bars to generate.
+        velocity_base: Base MIDI velocity (0-127).
+        **kwargs: Additional overrides.
+
+    Returns:
+        Status string.
+    """
+    import reaper_python as RPR
+
+    # Set BPM
+    RPR.RPR_SetCurrentBPM(0, bpm, True)
+
+    # Scale definition
+    NOTE_MAP = {"C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3,
+                "E": 4, "F": 5, "F#": 6, "Gb": 6, "G": 7, "G#": 8,
+                "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11}
+    SCALES = {
+        "minor": [0, 2, 3, 5, 7, 8, 10],
+        "pentatonic_minor": [0, 3, 5, 7, 10],
+        "dorian": [0, 2, 3, 5, 7, 9, 10]
+    }
+    scale_intervals = SCALES.get(scale, SCALES["pentatonic_minor"])
+    base_note = NOTE_MAP.get(key, 9) + 36  # Base octave around MIDI note 36-47 (Bass range)
+
+    # Create Track
+    track_idx = RPR.RPR_CountTracks(0)
+    RPR.RPR_InsertTrackAtIndex(track_idx, True)
+    track = RPR.RPR_GetTrack(0, track_idx)
+    RPR.RPR_GetSetMediaTrackInfo_String(track, "P_NAME", track_name, True)
+
+    # Add and configure ReaSynth for an acid/techno sound
+    reasynth_idx = RPR.RPR_TrackFX_AddByName(track, "ReaSynth", False, -1)
+    
+    # ReaSynth Parameters: 0=Vol, 2=Square, 3=Saw, 7=Attack, 8=Decay, 9=Sustain, 10=Release, 11=Portamento
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 0, -6.0)   # Volume (-6 dB)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 2, 0.0)    # Square mix (0%)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 3, 1.0)    # Saw mix (100%)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 7, 5.0)    # Attack (5 ms)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 8, 250.0)  # Decay (250 ms)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 9, 0.0)    # Sustain (0 linear)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 10, 50.0)  # Release (50 ms)
+    RPR.RPR_TrackFX_SetParam(track, reasynth_idx, 11, 40.0)  # Portamento/Glide (40 ms) - Triggered by note overlaps
+
+    # Optional FX: Saturation for acid grit
+    sat_idx = RPR.RPR_TrackFX_AddByName(track, "JS: Saturation", False, -1)
+    if sat_idx >= 0:
+        RPR.RPR_TrackFX_SetParam(track, sat_idx, 0, 50.0)    # Saturation Amount (%)
+
+    # Timing calculations
+    sec_per_beat = 60.0 / bpm
+    sec_per_16th = sec_per_beat / 4.0
+    item_length = bars * 4 * sec_per_beat
+
+    # Create MIDI Item
+    item = RPR.RPR_AddMediaItemToTrack(track)
+    RPR.RPR_SetMediaItemInfo_Value(item, "D_POSITION", 0.0)
+    RPR.RPR_SetMediaItemInfo_Value(item, "D_LENGTH", item_length)
+    take = RPR.RPR_AddTakeToMediaItem(item)
+
+    # 16-step "OffBeat" Sequence Definition
+    # Format: (scale_degree, octave_offset, length_multiplier, velocity_offset)
+    # length_multiplier > 1.0 forces an overlap with the next note, triggering portamento.
+    pattern = [
+        (0, -1, 0.5, 20),   # Step 0: Low Root, staccato, accented
+        None,               # Step 1: Rest
+        (0, 0, 0.8, 0),     # Step 2: Root, offbeat
+        (1, 0, 0.5, -10),   # Step 3: 3rd degree
+        None,               # Step 4: Rest
+        (0, 0, 0.5, 0),     # Step 5: Root
+        (0, 1, 1.8, 20),    # Step 6: High Root, heavily tied (1.8x length), accented
+        None,               # Step 7: Rest
+        (3, 0, 0.5, 0),     # Step 8: 5th degree
+        None,               # Step 9: Rest
+        (0, 0, 0.8, 0),     # Step 10: Root, offbeat
+        (4, 0, 0.5, -10),   # Step 11: 7th degree
+        (0, -1, 0.5, 20),   # Step 12: Low Root, accented
+        (1, 0, 1.2, 0),     # Step 13: 3rd degree, slightly tied to glide into next step
+        (3, 0, 0.8, 0),     # Step 14: 5th degree
+        (2, 0, 0.5, -10),   # Step 15: 4th degree
+    ]
+
+    note_count = 0
+    for b in range(bars):
+        for step in range(16):
+            if pattern[step] is not None:
+                degree, oct_offset, len_mult, vel_offset = pattern[step]
+                
+                # Pitch mapping
+                note_idx = degree % len(scale_intervals)
+                octave_add = (degree // len(scale_intervals)) + oct_offset
+                pitch = base_note + scale_intervals[note_idx] + (octave_add * 12)
+                
+                # Timing mapped to grid
+                start_pos = (b * 16 + step) * sec_per_16th
+                end_pos = start_pos + (sec_per_16th * len_mult)
+                
+                # Velocity clamped
+                vel = int(min(127, max(1, velocity_base + vel_offset)))
+                
+                start_ppq = RPR.RPR_MIDI_GetPPQPosFromProjTime(take, start_pos)
+                end_ppq = RPR.RPR_MIDI_GetPPQPosFromProjTime(take, end_pos)
+                
+                RPR.RPR_MIDI_InsertNote(take, False, False, start_ppq, end_ppq, 0, pitch, vel, False)
+                note_count += 1
+
+    RPR.RPR_MIDI_Sort(take)
+    
+    return f"Created '{track_name}' with {note_count} sequenced notes over {bars} bars at {bpm} BPM."

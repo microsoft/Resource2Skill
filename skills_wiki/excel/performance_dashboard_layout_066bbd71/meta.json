@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "performance_dashboard_layout_066bbd71",
+  "skill_name": "Performance Dashboard Layout",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "demonstration of a completed interactive dashboard"
+        },
+        {
+          "seconds": 815,
+          "description": "first chart showing profit by market and cookie type added to dashboard"
+        },
+        {
+          "seconds": 1137,
+          "description": "all three charts added to the dashboard, unaligned"
+        },
+        {
+          "seconds": 1527,
+          "description": "dashboard with connected slicers demonstrating interactivity"
+        },
+        {
+          "seconds": 1739,
+          "description": "final dashboard with gridlines and headings hidden"
+        }
+      ],
+      "frames": [
+        "frame_00_demonstration_of_a_completed_i.jpg",
+        "frame_01_first_chart_showing_profit_by_.jpg",
+        "frame_02_all_three_charts_added_to_the_.jpg"
+      ],
+      "recapped_at": 1777407309.913488
+    },
+    "primary_path": "frame_00_demonstration_of_a_completed_i.jpg"
+  }
+}

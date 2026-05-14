@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_panoramic_panning_gradient_typ_be0189b4",
+  "skill_name": "Cinematic Panoramic Panning & Gradient Typography (\u5168\u666f\u6f2b\u6e38\u4e0e\u6e10\u53d8\u9690\u6ca1\u6392\u7248)",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 84,
+    "type": "youtube",
+    "video_id": "ACV6qpeATfQ",
+    "video_title": "Use PPT to smoothly switch animations and make a picture creative!(\u7528PPT\u5e73\u6ed1\u5207\u6362\u52a8\u753b,\u628a\u4e00\u5f20\u56fe\u73a9\u51fa\u521b\u610f!)",
+    "video_url": "https://www.youtube.com/watch?v=ACV6qpeATfQ",
+    "views": 477
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:26:33Z",
+  "wash_version": "1.0.0"
+}

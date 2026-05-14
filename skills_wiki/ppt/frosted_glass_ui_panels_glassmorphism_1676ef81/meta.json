@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frosted_glass_ui_panels_glassmorphism_1676ef81",
+  "skill_name": "Frosted Glass UI Panels (Glassmorphism)",
+  "source": {
+    "channel": "hmppt",
+    "duration_sec": 450,
+    "type": "youtube",
+    "video_id": "q_Db85fSpIw",
+    "video_title": "EASY GUIDE: How to make Glassmorphism effect in Powerpoint from design to animation step by step",
+    "video_url": "https://www.youtube.com/watch?v=q_Db85fSpIw",
+    "views": 140600
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:31:43Z",
+  "wash_version": "1.0.0"
+}

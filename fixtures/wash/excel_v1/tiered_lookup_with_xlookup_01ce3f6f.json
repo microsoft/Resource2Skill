@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "tiered_lookup_with_xlookup_01ce3f6f",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 419,
+    "type": "youtube",
+    "video_id": "xnLvEhXWSas",
+    "video_title": "How an Excel Pro Uses XLOOKUP (R.I.P. VLOOKUP & INDEX MATCH)",
+    "video_url": "https://www.youtube.com/watch?v=xnLvEhXWSas",
+    "views": 1450501
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "structured_information_architecture_node_305ed28b",
+  "skill_name": "Structured Information Architecture (Node-Based Hierarchy Diagram)",
+  "source": {
+    "channel": "PPT\u53ef\u89c6\u5316",
+    "duration_sec": 490,
+    "type": "youtube",
+    "video_id": "SEQ_v9cMFu0",
+    "video_title": "\u8fd9\u624d\u662fPPT\u5927\u795e\u5e38\u7528\u7684\u6392\u7248\u601d\u7ef4\uff0c\u4e00\u4e2a\u9875\u9762\u8bbe\u8ba1\u51fa8\u79cd\u7248\u5f0f\uff0c\u725b\u6c14",
+    "video_url": "https://www.youtube.com/watch?v=SEQ_v9cMFu0",
+    "views": 24244
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:12Z",
+  "wash_version": "1.0.0"
+}

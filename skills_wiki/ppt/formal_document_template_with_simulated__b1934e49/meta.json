@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "formal_document_template_with_simulated__b1934e49",
+  "skill_name": "Formal Document Template with Simulated Form Fields",
+  "source": {
+    "channel": "Press ISAC",
+    "duration_sec": 869,
+    "type": "youtube",
+    "video_id": "DsWEM632qhU",
+    "video_title": "NDC Writer \u7368\u5bb6\u529f\u80fd\uff1a\u6703\u8b70\u7d00\u9304\u7bc4\u672c\u65e5\u671f\u8a2d\u5b9a\u3001\u8f38\u5165\u6e05\u55ae",
+    "video_url": "https://www.youtube.com/watch?v=DsWEM632qhU",
+    "views": 163
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:27:01Z",
+  "wash_version": "1.0.0"
+}

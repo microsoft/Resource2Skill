@@ -1,0 +1,34 @@
+{
+  "applicability": "Applicable for slides requiring a clear separation of a central topic, detailed explanatory text, and a supporting data chart. Ideal for presenting metrics, comparisons, or analytical insights in a structured layout.",
+  "category_path": [
+    "data_presentation",
+    "split_layout"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "text_and_chart_split_6a7639",
+  "skill_name": "Text and Chart Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "split layout",
+    "text and chart",
+    "data visualization",
+    "corporate",
+    "analytical",
+    "metrics"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:17:50Z",
+  "wash_version": "1.0.0"
+}

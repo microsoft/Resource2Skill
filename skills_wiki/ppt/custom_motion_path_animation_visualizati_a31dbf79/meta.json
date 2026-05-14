@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "custom_motion_path_animation_visualizati_a31dbf79",
+  "skill_name": "Custom Motion Path Animation & Visualization",
+  "source": {
+    "channel": "IT Magics",
+    "duration_sec": 203,
+    "type": "youtube",
+    "video_id": "KvMGR4KmDd4",
+    "video_title": "PowerPoint animation move object from one point to another",
+    "video_url": "https://www.youtube.com/watch?v=KvMGR4KmDd4",
+    "views": 198553
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:09Z",
+  "wash_version": "1.0.0"
+}

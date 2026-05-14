@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_spotlight_text_gradient_5ec450a5",
+  "source": {
+    "channel": "Codecka",
+    "duration_sec": 215,
+    "type": "youtube",
+    "video_id": "DrpDGVqZAEo",
+    "video_title": "Moving Text Gradient Hover Effect | HTML, CSS & JS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=DrpDGVqZAEo",
+    "views": 234
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

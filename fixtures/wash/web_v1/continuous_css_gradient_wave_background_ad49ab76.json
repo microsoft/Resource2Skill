@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_css_gradient_wave_background_ad49ab76",
+  "source": {
+    "channel": "Coding with Edson",
+    "duration_sec": 291,
+    "type": "youtube",
+    "video_id": "MgGIAVejYho",
+    "video_title": "Creating Ocean Waves with HTML & CSS: A Step-by-Step Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=MgGIAVejYho",
+    "views": 507
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

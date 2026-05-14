@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "quote"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_gradient_header_watermark_quot_c933c9e8",
+  "skill_name": "Corporate Gradient Header & Watermark Quote Frame",
+  "source": {
+    "channel": "Jennifer Sharkey",
+    "duration_sec": 560,
+    "type": "youtube",
+    "video_id": "sQCPs849Bu4",
+    "video_title": "How to Create a PowerPoint Template (2022) | Step by Step",
+    "video_url": "https://www.youtube.com/watch?v=sQCPs849Bu4",
+    "views": 125855
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:55Z",
+  "wash_version": "1.0.0"
+}

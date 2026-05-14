@@ -1,0 +1,32 @@
+{
+  "applicability": "Best for performance dashboards, financial reporting, and budget variance sheets where visual indicators need to automatically flip states based on target thresholds.",
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "budget_vs_actuals_doughnut_dashboard_9d97d3db",
+  "skill_name": "Budget Vs Actuals Doughnut Dashboard",
+  "source": {
+    "channel": "Josh Aharonoff (Your CFO Guy)",
+    "duration_sec": 1107,
+    "type": "youtube",
+    "video_id": "JWO5r6DK7FE",
+    "video_title": "Build a Dynamic Excel Budget vs Actual Dashboard with Power Query \u2013 Full Tutorial (Free Template)",
+    "video_url": "https://www.youtube.com/watch?v=JWO5r6DK7FE",
+    "views": 38435
+  },
+  "tags": [],
+  "tier": "T4",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:43Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "indie_disco_humanized_bass_fills_ghost_n_ae71e943",
+  "skill_name": "Indie Disco Humanized Bass Fills (Ghost Notes & Syncopation)",
+  "source": {
+    "channel": "MusicTechHelpGuy",
+    "duration_sec": 497,
+    "type": "youtube",
+    "video_id": "Lrmg2VqKdB0",
+    "video_title": "Improve your BASS LINES with this SESSION BASS trick! (Logic Pro 11)",
+    "video_url": "https://www.youtube.com/watch?v=Lrmg2VqKdB0",
+    "views": 36363
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:00Z",
+  "wash_version": "1.0.0"
+}

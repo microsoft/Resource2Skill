@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_glassmorphism_profile_hero_4e6d8376",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 2938,
+    "type": "youtube",
+    "video_id": "uTPO6fKtBvM",
+    "video_title": "Build a Responsive Personal Portfolio Website Using HTML & CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=uTPO6fKtBvM",
+    "views": 118836
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

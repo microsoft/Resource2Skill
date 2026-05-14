@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for illustrating dynamic processes within static architecture diagrams, such as CI/CD pipelines, data flows, user request paths, or incident response. It clarifies complex system interactions and dependencies.",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_architecture_flow_e52c7a27",
+  "skill_name": "Animated Architecture Flow",
+  "source": {
+    "channel": "VPC Network",
+    "duration_sec": 313,
+    "type": "youtube",
+    "video_id": "x9gSsPEMaQM",
+    "video_title": "How to draw a Network traffic diagram animated",
+    "video_url": "https://www.youtube.com/watch?v=x9gSsPEMaQM",
+    "views": 74191
+  },
+  "tags": [
+    "architecture",
+    "animation",
+    "data flow",
+    "process flow",
+    "system diagram",
+    "workflow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:24:18Z",
+  "wash_version": "1.0.0"
+}

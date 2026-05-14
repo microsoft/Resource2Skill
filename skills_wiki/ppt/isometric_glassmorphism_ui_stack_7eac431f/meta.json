@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_glassmorphism_ui_stack_7eac431f",
+  "skill_name": "Isometric Glassmorphism UI Stack",
+  "source": {
+    "channel": "Studio 42 Presentation Design",
+    "duration_sec": 581,
+    "type": "youtube",
+    "video_id": "lYyqNuiQ3Dg",
+    "video_title": "Create Isometric Phone Mockup + App in PowerPoint (with glassmorphism effects & text)",
+    "video_url": "https://www.youtube.com/watch?v=lYyqNuiQ3Dg",
+    "views": 2460
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:45:11Z",
+  "wash_version": "1.0.0"
+}

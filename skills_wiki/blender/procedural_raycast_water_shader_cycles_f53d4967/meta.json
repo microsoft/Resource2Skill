@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_raycast_water_shader_cycles_f53d4967",
+  "skill_name": "Procedural Raycast Water Shader (Cycles)",
+  "source": {
+    "channel": "3Dan",
+    "duration_sec": 752,
+    "type": "youtube",
+    "video_id": "-YaUfyew6aE",
+    "video_title": "Blender 5.1 Shaders are INSANE (Water Shader Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=-YaUfyew6aE",
+    "views": 17522
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:51Z",
+  "wash_version": "1.0.0"
+}

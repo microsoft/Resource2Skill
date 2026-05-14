@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_neon_cube_loading_animation_42a900fb",
+  "skill_name": "3D Neon Cube Loading Animation",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:48:25Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Website portfolio showcasing various CSS animations"
+        },
+        {
+          "seconds": 48,
+          "description": "Blue square animating rotation and border-radius, demonstrating CSS animations"
+        },
+        {
+          "seconds": 255,
+          "description": "Blue square growing, then rotating and rounding into a large circle"
+        },
+        {
+          "seconds": 655,
+          "description": "Interactive blue square with play and pause buttons controlling its animation"
+        },
+        {
+          "seconds": 829,
+          "description": "Final loading animation with a rotating 3D square"
+        }
+      ],
+      "frames": [
+        "frame_00_website_portfolio_showcasing_v.jpg",
+        "frame_01_blue_square_animating_rotation.jpg",
+        "frame_02_blue_square_growing_then_rotat.jpg"
+      ],
+      "recapped_at": 1777408047.7828803
+    },
+    "primary_path": "frame_00_website_portfolio_showcasing_v.jpg"
+  }
+}

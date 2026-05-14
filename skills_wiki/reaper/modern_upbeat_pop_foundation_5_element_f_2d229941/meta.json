@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_upbeat_pop_foundation_5_element_f_2d229941",
+  "skill_name": "Modern Upbeat Pop Foundation (5-Element Formula)",
+  "source": {
+    "channel": "Ethan Davis",
+    "duration_sec": 1597,
+    "type": "youtube",
+    "video_id": "NEH_w54u_ZM",
+    "video_title": "Pop Music Production For Beginners (Step By Step Masterclass)",
+    "video_url": "https://www.youtube.com/watch?v=NEH_w54u_ZM",
+    "views": 521324
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:41Z",
+  "wash_version": "1.0.0"
+}

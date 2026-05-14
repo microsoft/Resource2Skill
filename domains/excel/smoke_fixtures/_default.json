@@ -1,0 +1,10 @@
+{
+  "_comment": "Default smoke fixture for Excel skills. Provides a tiny, deterministic kwargs payload that wash QA invokes against `entrypoint(**kwargs)`. Override per-skill by creating <skill_id>.json next to this file.",
+  "kwargs": {
+    "workbook_path": "/data/tmp/_smoke.xlsx"
+  },
+  "expected_artifacts": [
+    "/data/tmp/_smoke.xlsx"
+  ],
+  "timeout_sec": 10
+}

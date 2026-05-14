@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "transparent_accent_split_screen_monochro_da74522e",
+  "skill_name": "Transparent Accent Split-Screen (Monochrome Overlay)",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "Dzt1ZtOmEzY",
+    "video_title": "New Product Launch Tools And Techniques PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=Dzt1ZtOmEzY",
+    "views": 427
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:55Z",
+  "wash_version": "1.0.0"
+}

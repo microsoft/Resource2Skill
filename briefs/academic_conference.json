@@ -1,0 +1,29 @@
+{
+  "variant_id": "academic_conference",
+  "out_dirname": "academic_climate_talk",
+  "title": "Attribution of Summer 2025 Heatwaves: A Multi-Model Ensemble",
+  "audience": "NeurIPS Climate & ML workshop — climate scientists and ML researchers",
+  "tone_words": ["research", "restrained", "editorial", "technical"],
+  "archetype_preference": "research",
+  "mood_preference": ["research", "restrained", "editorial"],
+  "mode_preference": "light",
+  "n_slides": 12,
+  "role_prefer": ["hero_quote", "bullet_card_list", "metric_dashboard",
+                   "comparison_split", "timeline_horizontal",
+                   "section_divider", "agenda"],
+  "role_avoid": ["hero_giant_metric", "feature_grid"],
+  "dense_quota": 4,
+  "core_points": [
+    "research question: to what extent are 2025 NH summer heatwaves attributable to anthropogenic forcing?",
+    "related work positioning: Stott et al. 2004, Otto et al. 2020, IPCC AR6 WG1 Ch.11 — how our approach differs",
+    "data: 18 CMIP6 models, ERA5 reanalysis 1950-2025, HadCRUT5 observations",
+    "method: ensemble optimal fingerprinting with regularized EOFs; details in 4 equations",
+    "dense results table: 6 regions x attribution fraction + 95% CI + p-value",
+    "regional comparison: Europe vs North America vs East Asia side-by-side",
+    "model disagreement deep-dive: 8 bullet points on variance sources",
+    "timeline: data release 2026 Q1 -> code release Q2 -> follow-up paper Q4",
+    "limitations: 9 bullets covering model biases, observational uncertainty, regional resolution, stationarity assumptions",
+    "conclusion quote from lead author about societal implications",
+    "acknowledgements and funding footer, then Q&A"
+  ]
+}

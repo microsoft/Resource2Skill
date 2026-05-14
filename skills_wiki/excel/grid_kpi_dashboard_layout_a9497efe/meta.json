@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_kpi_dashboard_layout_a9497efe",
+  "skill_name": "Grid KPI Dashboard Layout",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:51Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Initial view of the completed KPI dashboard"
+        },
+        {
+          "seconds": 34,
+          "description": "KPI dashboard showing dynamic data and color coding"
+        },
+        {
+          "seconds": 408,
+          "description": "Dynamic updates and conditional formatting in action after changing month"
+        },
+        {
+          "seconds": 507,
+          "description": "Dashboard metrics changing color dynamically based on selection"
+        },
+        {
+          "seconds": 1147,
+          "description": "Full view of the final interactive KPI dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_view_of_the_completed_.jpg",
+        "frame_01_kpi_dashboard_showing_dynamic_.jpg",
+        "frame_02_dynamic_updates_and_conditiona.jpg",
+        "frame_03_dashboard_metrics_changing_col.jpg"
+      ],
+      "recapped_at": 1777406899.4605744
+    },
+    "primary_path": "frame_00_initial_view_of_the_completed_.jpg"
+  }
+}

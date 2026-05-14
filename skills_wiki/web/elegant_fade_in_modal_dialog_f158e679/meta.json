@@ -1,0 +1,36 @@
+{
+  "applicability": "A foundational UI pattern for creating smooth, attention-grabbing pop-ups such as confirmation dialogs, login forms, product quick views, or critical alerts.",
+  "category_path": [
+    "web_ui",
+    "modal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "elegant_fade_in_modal_dialog_f158e679",
+  "skill_name": "Elegant Fade-In Modal Dialog",
+  "source": {
+    "channel": "Florin Pop",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "XH5OW46yO8I",
+    "video_title": "Create a Modal (Popup) with HTML/CSS and JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=XH5OW46yO8I",
+    "views": 154914
+  },
+  "tags": [
+    "modal",
+    "dialog",
+    "overlay",
+    "fade-in",
+    "pop-up",
+    "transition"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:58:46Z",
+  "wash_version": "1.0.0"
+}

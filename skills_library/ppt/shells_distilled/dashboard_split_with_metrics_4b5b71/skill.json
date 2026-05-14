@@ -1,0 +1,80 @@
+{
+  "skill_id": "dashboard_split_with_metrics_4b5b71",
+  "skill_type": "shell",
+  "name": "Dashboard Split with Metrics",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "chart+chart+4-metrics"
+    ],
+    "density": "high",
+    "mood": [
+      "corporate",
+      "technical",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "main_chart",
+      "kind": "chart",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "secondary_chart",
+      "kind": "chart",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metrics",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 4
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/dashboard_split_with_metrics_4b5b71/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neo_dark_analytics_dashboard_901dde61",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Extracted a 3-panel dashboard layout featuring a large primary area on the left, a secondary area top-right, and a 2x2 metric grid bottom-right.",
+  "_distill_attempts": 1
+}

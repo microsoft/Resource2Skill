@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_tumbling_neon_loader_42a900fb",
+  "skill_name": "3D Tumbling Neon Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:23:34Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 129,
+          "description": "Square element rotates and rounds into a circle"
+        },
+        {
+          "seconds": 216,
+          "description": "Element rotates, rounds, and grows in size"
+        },
+        {
+          "seconds": 490,
+          "description": "Animation looping infinitely"
+        },
+        {
+          "seconds": 651,
+          "description": "Interactive animation with play/pause buttons"
+        },
+        {
+          "seconds": 818,
+          "description": "3D loading animation with multi-axis rotation"
+        }
+      ],
+      "frames": [
+        "frame_00_square_element_rotates_and_rou.jpg",
+        "frame_01_element_rotates_rounds_and_gro.jpg",
+        "frame_02_animation_looping_infinitely.jpg"
+      ],
+      "recapped_at": 1777408104.2426581
+    },
+    "primary_path": "frame_00_square_element_rotates_and_rou.jpg"
+  }
+}

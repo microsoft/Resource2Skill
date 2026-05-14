@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_button_ripple_effect_850e2394",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 226,
+    "type": "youtube",
+    "video_id": "ueyRcYEmsrI",
+    "video_title": "Button Ripple Effect on Click Using CSS3 & Vanilla Javascript",
+    "video_url": "https://www.youtube.com/watch?v=ueyRcYEmsrI",
+    "views": 191089
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

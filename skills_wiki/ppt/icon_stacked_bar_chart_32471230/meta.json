@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "icon_stacked_bar_chart_32471230",
+  "skill_name": "Icon-Stacked Bar Chart",
+  "source": {
+    "channel": "\u7ecf\u672c\u6b63\u4e00",
+    "duration_sec": 838,
+    "type": "youtube",
+    "video_id": "Q25-nSQ1Fsc",
+    "video_title": "20\u4e2a\u4f60\u5e94\u8be5\u77e5\u9053\u7684PPT\u6280\u5de7\uff08\u4e0a\uff09\u3010\u7ecf\u672c\u6b63\u4e00\u3011",
+    "video_url": "https://www.youtube.com/watch?v=Q25-nSQ1Fsc",
+    "views": 41588
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:37:28Z",
+  "wash_version": "1.0.0"
+}

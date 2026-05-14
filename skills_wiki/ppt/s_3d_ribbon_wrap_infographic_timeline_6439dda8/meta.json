@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for showcasing chronological events such as corporate milestones, product roadmaps, historical timelines, or sequential process flows, transforming linear data into an engaging infographic.",
+  "category_path": [
+    "infographics",
+    "timelines"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_ribbon_wrap_infographic_timeline_6439dda8",
+  "skill_name": "3D Ribbon Wrap Infographic Timeline",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 920,
+    "type": "youtube",
+    "video_id": "kFwpAuA1mJI",
+    "video_title": "Timeline infographics design template with 4 options in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=kFwpAuA1mJI",
+    "views": 5544
+  },
+  "tags": [
+    "timeline",
+    "infographic",
+    "ribbon",
+    "3D effect",
+    "milestones",
+    "process flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:39Z",
+  "wash_version": "1.0.0"
+}

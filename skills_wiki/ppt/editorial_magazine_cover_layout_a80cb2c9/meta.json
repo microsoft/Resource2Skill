@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this skill to create engaging title slides, document covers, or section breaks with a professional, editorial feel. Ideal for portfolios, executive summaries, and introducing key initiatives.",
+  "category_path": [
+    "layout",
+    "cover_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_magazine_cover_layout_a80cb2c9",
+  "skill_name": "Editorial Magazine Cover Layout",
+  "source": {
+    "channel": "Mrs. Motta",
+    "duration_sec": 402,
+    "type": "youtube",
+    "video_id": "uNMA-k9RNtU",
+    "video_title": "PowerPoint Magazine Cover",
+    "video_url": "https://www.youtube.com/watch?v=uNMA-k9RNtU",
+    "views": 182
+  },
+  "tags": [
+    "magazine cover",
+    "editorial design",
+    "title slide",
+    "portrait layout",
+    "layered graphics"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:21:52Z",
+  "wash_version": "1.0.0"
+}

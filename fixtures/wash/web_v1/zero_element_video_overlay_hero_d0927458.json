@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "zero_element_video_overlay_hero_d0927458",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 655,
+    "type": "youtube",
+    "video_id": "RIDA6elhmBU",
+    "video_title": "How to create a background video | HTML & CSS tutorial",
+    "video_url": "https://www.youtube.com/watch?v=RIDA6elhmBU",
+    "views": 92603
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_glassmorphism_ui_18b47fc2",
+  "skill_name": "Advanced Glassmorphism UI",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "bnC-kuL_CYw",
+    "video_title": "3 Level Glassmorphism Design In CSS | CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=bnC-kuL_CYw",
+    "views": 170230
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:51:35Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 52,
+          "description": "Initial landing page design with a dark, opaque content tab."
+        },
+        {
+          "seconds": 145,
+          "description": "Content tab with basic blur effect applied (Level 1), making it transparent."
+        },
+        {
+          "seconds": 327,
+          "description": "Content tab with a tinted, blurred background using RGBA (Level 2)."
+        },
+        {
+          "seconds": 445,
+          "description": "Content tab with a repeating linear gradient pattern and blur (Level 3)."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_landing_page_design_wi.jpg",
+        "frame_01_content_tab_with_basic_blur_ef.jpg",
+        "frame_02_content_tab_with_a_tinted_blur.jpg"
+      ],
+      "recapped_at": 1777408219.5515006
+    },
+    "primary_path": "frame_00_initial_landing_page_design_wi.jpg"
+  }
+}

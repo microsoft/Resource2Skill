@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "instagram_style_interactive_team_roster_3ccf221a",
+  "skill_name": "Instagram-Style Interactive Team Roster",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 585,
+    "type": "youtube",
+    "video_id": "XYTGAB-L-78",
+    "video_title": "Instagram-Inspired TEAM SLIDES in PowerPoint \ud83d\ude4c\ud83c\udffc How to make them.",
+    "video_url": "https://www.youtube.com/watch?v=XYTGAB-L-78",
+    "views": 89861
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:41Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a tactile, physical hardware aesthetic for digital UI elements. Ideal for high-impact showcases, product feature highlights, or interactive portfolio widgets to make standard cards more engaging.",
+  "category_path": [
+    "display",
+    "card"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "faux_3d_isometric_hardware_ui_8f9317fb",
+  "skill_name": "Isometric Hardware UI Card",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1308,
+    "type": "youtube",
+    "video_id": "sI9p5EswxdQ",
+    "video_title": "These 20 Art Pieces Are Done PURELY In CSS",
+    "video_url": "https://www.youtube.com/watch?v=sI9p5EswxdQ",
+    "views": 39034
+  },
+  "tags": [
+    "css 3d",
+    "isometric",
+    "skeuomorphism",
+    "interactive ui",
+    "css art"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:59:07Z",
+  "wash_version": "1.0.0"
+}

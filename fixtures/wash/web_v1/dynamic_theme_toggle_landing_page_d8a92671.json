@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_theme_toggle_landing_page_d8a92671",
+  "source": {
+    "channel": "Coding Master",
+    "duration_sec": 1136,
+    "type": "youtube",
+    "video_id": "Wtz2IfY9Sik",
+    "video_title": "Landing Page Design With Dark Theme Using HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=Wtz2IfY9Sik",
+    "views": 631
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

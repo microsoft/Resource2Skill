@@ -1,0 +1,18 @@
+{
+  "skill_id": "unknown_skill_e94b981d",
+  "skill_name": "Unknown Skill",
+  "domain": "excel",
+  "category": "pivot_table",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=mrk5MNrgPiU",
+    "video_id": "mrk5MNrgPiU",
+    "video_title": "Simplifying Pivot Tables with Timelines and Slicers - Data Visualization Made Easy",
+    "channel": "Sharon Smith",
+    "duration_sec": 135,
+    "views": 11942
+  },
+  "extracted_at": "2026-04-25T03:18:04.505325",
+  "analysis": "Skip — basic walk-through of built-in Pivot Table UI features (inserting Slicers and Timelines), lacks distinct structural or visual patterns for code generation, and openpyxl does not support creating Pivot Table Slicers/Timelines from scratch.",
+  "frames": []
+}

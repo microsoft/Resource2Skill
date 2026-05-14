@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consulting_style_focus_chart_95241584",
+  "skill_name": "Consulting-Style Focus Chart",
+  "source": {
+    "channel": "Firm Learning",
+    "duration_sec": 896,
+    "type": "youtube",
+    "video_id": "lIv2vDE6ENo",
+    "video_title": "Data Visualization for Slide Presentations - Storytelling, Charts, Formatting",
+    "video_url": "https://www.youtube.com/watch?v=lIv2vDE6ENo",
+    "views": 244684
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:02:54Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "applicability": "Ideal for rendering luxurious and soft velvet surfaces in Blender, providing a distinctive sheen at grazing angles suitable for furniture, drapes, and high-end interior decor.",
+  "category_path": [
+    "materials",
+    "fabrics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fabric_velvet_b5fbd16c",
+  "skill_name": "fabric_velvet",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "velvet",
+    "fabric",
+    "material",
+    "sheen",
+    "luxury",
+    "textile"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:30Z",
+  "wash_version": "1.0.0"
+}

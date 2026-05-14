@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for illustrating how multiple disparate elements converge into a central pipeline or timeline, or for comparing two sets of items (e.g., pros/cons, strategies) with a dynamic visual flow.",
+  "category_path": [
+    "infographic",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "symmetrical_ribbon_flow_infographic_dcd967ea",
+  "skill_name": "Symmetrical Ribbon-Flow Infographic",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 778,
+    "type": "youtube",
+    "video_id": "X5axoHS88r8",
+    "video_title": "10 Points Agenda Slide in PowerPoint | Comparison Slide",
+    "video_url": "https://www.youtube.com/watch?v=X5axoHS88r8",
+    "views": 39082
+  },
+  "tags": [
+    "ribbon",
+    "flow",
+    "infographic",
+    "symmetrical",
+    "timeline",
+    "comparison",
+    "process"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:13Z",
+  "wash_version": "1.0.0"
+}

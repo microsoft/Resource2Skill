@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_character_illustration_cc85ceed",
+  "source": {
+    "channel": "Ayush Saxena",
+    "duration_sec": 637,
+    "type": "youtube",
+    "video_id": "cSASaiLc68Y",
+    "video_title": "FERB CHARACTER DESIGNING USING PURE CSS TUTORIAL || [link to code in description]",
+    "video_url": "https://www.youtube.com/watch?v=cSASaiLc68Y",
+    "views": 374
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

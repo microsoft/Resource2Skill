@@ -1,0 +1,62 @@
+{
+  "skill_id": "two_circles_comparison_41ff78",
+  "skill_type": "shell",
+  "name": "Two Circles Comparison",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "two-circles"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "left_text",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "right_text",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/two_circles_comparison_41ff78/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "glowing_concentric_data_nodes_d5937e44",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Extracted the two distinct circles into a minimal comparison layout, adding optional text slots inside them to make the shell reusable for abstract concepts.",
+  "_distill_attempts": 1
+}

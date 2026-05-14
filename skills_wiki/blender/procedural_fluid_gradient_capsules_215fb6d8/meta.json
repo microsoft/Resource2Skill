@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_fluid_gradient_capsules_215fb6d8",
+  "skill_name": "Procedural Fluid Gradient Capsules",
+  "source": {
+    "channel": "Bad Normals",
+    "duration_sec": 875,
+    "type": "youtube",
+    "video_id": "oAKrQboXo78",
+    "video_title": "How to make this style in Blender",
+    "video_url": "https://www.youtube.com/watch?v=oAKrQboXo78",
+    "views": 123487
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:59Z",
+  "wash_version": "1.0.0"
+}

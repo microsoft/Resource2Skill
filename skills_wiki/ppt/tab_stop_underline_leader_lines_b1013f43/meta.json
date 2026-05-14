@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tab_stop_underline_leader_lines_b1013f43",
+  "skill_name": "\"Tab-Stop Underline Leader Lines\"",
+  "source": {
+    "channel": "Spotlight Impact Data Design",
+    "duration_sec": 224,
+    "type": "youtube",
+    "video_id": "b9cbqLSwQ4w",
+    "video_title": "How to Make Table of Contents Leader Lines in PowerPoint! \ud83d\udd25[PPT TRICKS!]",
+    "video_url": "https://www.youtube.com/watch?v=b9cbqLSwQ4w",
+    "views": 15749
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:23:35Z",
+  "wash_version": "1.0.0"
+}

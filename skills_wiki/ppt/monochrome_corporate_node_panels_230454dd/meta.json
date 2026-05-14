@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "monochrome_corporate_node_panels_230454dd",
+  "skill_name": "Monochrome Corporate Node Panels",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 299,
+    "type": "youtube",
+    "video_id": "59Xuji3ePVQ",
+    "video_title": "Powerpoint design\u5546\u52a1PPT\u6a21\u677f\u8bbe\u8ba1\u5c55\u793a",
+    "video_url": "https://www.youtube.com/watch?v=59Xuji3ePVQ",
+    "views": 3387
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:11Z",
+  "wash_version": "1.0.0"
+}

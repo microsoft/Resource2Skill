@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_duotone_svgs_staggered_keyframe_545b3d1f",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 740,
+    "type": "youtube",
+    "video_id": "UTHgr6NLeEw",
+    "video_title": "Make Awesome SVG Animations with CSS // 7 Useful Techniques",
+    "video_url": "https://www.youtube.com/watch?v=UTHgr6NLeEw",
+    "views": 1086176
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

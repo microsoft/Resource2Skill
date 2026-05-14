@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for high-end interfaces like SaaS dashboards, Web3 platforms, or pricing tiers. It provides a premium, tactile feel by combining frosted glass effects with dynamic glowing borders.",
+  "category_path": [
+    "surfaces",
+    "cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_masked_gradient_border_car_cebe9470",
+  "skill_name": "Glassmorphism Masked Gradient Border Card",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1146,
+    "type": "youtube",
+    "video_id": "dsZ7RN9ItR4",
+    "video_title": "Create this trendy blurry glass effect with CSS",
+    "video_url": "https://www.youtube.com/watch?v=dsZ7RN9ItR4",
+    "views": 66339
+  },
+  "tags": [
+    "glassmorphism",
+    "gradient-border",
+    "css-mask",
+    "backdrop-filter",
+    "card"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:43Z",
+  "wash_version": "1.0.0"
+}

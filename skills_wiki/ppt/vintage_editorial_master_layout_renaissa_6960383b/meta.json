@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vintage_editorial_master_layout_renaissa_6960383b",
+  "skill_name": "Vintage Editorial Master Layout (\"Renaissance\" Style)",
+  "source": {
+    "channel": "Chita Hunter",
+    "duration_sec": 355,
+    "type": "youtube",
+    "video_id": "y1xbFXEWANQ",
+    "video_title": "01 Apple Keynote: Templates UI Master Slides Themes",
+    "video_url": "https://www.youtube.com/watch?v=y1xbFXEWANQ",
+    "views": 2512
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:38Z",
+  "wash_version": "1.0.0"
+}

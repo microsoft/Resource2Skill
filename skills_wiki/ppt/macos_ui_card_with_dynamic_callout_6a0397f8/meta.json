@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "macos_ui_card_with_dynamic_callout_6a0397f8",
+  "skill_name": "macOS UI Card with Dynamic Callout",
+  "source": {
+    "channel": "MacVince",
+    "duration_sec": 568,
+    "type": "youtube",
+    "video_id": "sGIjOxo8ja8",
+    "video_title": "Apple Notes is AWESOME (when you know how to use it)",
+    "video_url": "https://www.youtube.com/watch?v=sGIjOxo8ja8",
+    "views": 473778
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:53:35Z",
+  "wash_version": "1.0.0"
+}

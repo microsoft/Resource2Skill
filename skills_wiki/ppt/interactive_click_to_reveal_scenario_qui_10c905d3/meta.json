@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_click_to_reveal_scenario_qui_10c905d3",
+  "skill_name": "Interactive \"Click-to-Reveal\" Scenario/Quiz Board",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 558,
+    "type": "youtube",
+    "video_id": "Mo5-Bu1SHGQ",
+    "video_title": "Click to Reveal in PowerPoint | Trigger an Animation When YOU Need",
+    "video_url": "https://www.youtube.com/watch?v=Mo5-Bu1SHGQ",
+    "views": 623011
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:11Z",
+  "wash_version": "1.0.0"
+}

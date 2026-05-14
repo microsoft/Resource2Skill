@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "classic_academic_split_layout_399fdc67",
+  "skill_name": "Classic Academic Split-Layout",
+  "source": {
+    "channel": "macmostvideo",
+    "duration_sec": 717,
+    "type": "youtube",
+    "video_id": "xi1SLP0mZIg",
+    "video_title": "Using Apple Creator Studio To Build Keynote Presentations",
+    "video_url": "https://www.youtube.com/watch?v=xi1SLP0mZIg",
+    "views": 6215
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:18Z",
+  "wash_version": "1.0.0"
+}

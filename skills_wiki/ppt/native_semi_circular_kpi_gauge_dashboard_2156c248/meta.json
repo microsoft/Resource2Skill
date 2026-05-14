@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_semi_circular_kpi_gauge_dashboard_2156c248",
+  "skill_name": "Native Semi-Circular KPI Gauge Dashboard",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 195,
+    "type": "youtube",
+    "video_id": "iDmgVl_6D0g",
+    "video_title": "Customer Service Team Review Complete PowerPoint Presentation With Slides",
+    "video_url": "https://www.youtube.com/watch?v=iDmgVl_6D0g",
+    "views": 1753
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:46Z",
+  "wash_version": "1.0.0"
+}

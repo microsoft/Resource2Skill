@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for Product Requirements Documents, app architecture overviews, user journey presentations, and system logic mapping to bridge text requirements with high-fidelity prototypes.",
+  "category_path": [
+    "design",
+    "user_experience",
+    "flowchart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ui_ux_logic_flow_wireframe_mapping_e5023e42",
+  "skill_name": "UI/UX Logic Flow & Wireframe Mapping",
+  "source": {
+    "channel": "it\u6280\u672f\u5b66\u9662",
+    "duration_sec": 624,
+    "type": "youtube",
+    "video_id": "v9tCyYgux2c",
+    "video_title": "\u6d41\u7a0b\u56fe-11.ppt\u7ed8\u5236\u9875\u9762\u6d41\u7a0b\u56fe",
+    "video_url": "https://www.youtube.com/watch?v=v9tCyYgux2c",
+    "views": 610
+  },
+  "tags": [
+    "ui/ux",
+    "logic flow",
+    "wireframe",
+    "user journey",
+    "app architecture",
+    "process map"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:06Z",
+  "wash_version": "1.0.0"
+}

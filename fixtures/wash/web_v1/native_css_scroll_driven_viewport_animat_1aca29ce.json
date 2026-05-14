@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_viewport_animat_1aca29ce",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 440,
+    "type": "youtube",
+    "video_id": "16PncZlSNds",
+    "video_title": "Scroll Animation using only CSS | No JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=16PncZlSNds",
+    "views": 92112
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

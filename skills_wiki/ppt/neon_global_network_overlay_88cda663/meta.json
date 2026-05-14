@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for presentations on telecommunications, global supply chains, and internet infrastructure. It transforms standard maps into a cinematic, data-viz aesthetic using striking dark-mode contrasts.",
+  "category_path": [
+    "graphics",
+    "maps",
+    "network"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_global_network_overlay_88cda663",
+  "skill_name": "Neon Global Network Overlay",
+  "source": {
+    "channel": "Business Insider",
+    "duration_sec": 143,
+    "type": "youtube",
+    "video_id": "DKHZKTRyzeg",
+    "video_title": "Animated map reveals the 550,000 miles of cable hidden under the ocean that power the internet",
+    "video_url": "https://www.youtube.com/watch?v=DKHZKTRyzeg",
+    "views": 351914
+  },
+  "tags": [
+    "network map",
+    "globe",
+    "dark mode",
+    "connectivity",
+    "neon",
+    "cybersecurity"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:25Z",
+  "wash_version": "1.0.0"
+}

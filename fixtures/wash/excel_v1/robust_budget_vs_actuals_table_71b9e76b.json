@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "robust_budget_vs_actuals_table_71b9e76b",
+  "source": {
+    "channel": "Josh Aharonoff (Your CFO Guy)",
+    "duration_sec": 756,
+    "type": "youtube",
+    "video_id": "Y8_1jMn0UXc",
+    "video_title": "Budget vs Actuals: The #1 Financial Report You NEED to Master",
+    "video_url": "https://www.youtube.com/watch?v=Y8_1jMn0UXc",
+    "views": 18641
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

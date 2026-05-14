@@ -1,0 +1,67 @@
+archetype_id: keynote
+name: "Conference Keynote"
+description: >
+  Narrative talk for a conference stage. Heavier on divider slides
+  (for rhythm between sections), lighter on data dashboards. Audience
+  is watching for ideas, not numbers. Big type, slow cadence.
+suggested_slides: 15
+recommended_themes:
+  - editorial_dark
+  - editorial_light
+sections:
+  - section: hook
+    slides:
+      - role: cover
+        content: "Talk title + speaker + affiliation + hero image"
+        required: true
+      - role: section_divider
+        content: "Big opening question or provocation"
+        required: true
+
+  - section: act_one
+    slides:
+      - role: section_divider
+        content: "01 / the old way"
+        required: true
+      - role: bullet_card_list
+        content: "Three observations about how things are done today"
+        required: true
+      - role: metric_dashboard
+        content: "1-2 big headline numbers that anchor the status quo"
+        required: false
+
+  - section: act_two
+    slides:
+      - role: section_divider
+        content: "02 / what changed"
+        required: true
+      - role: timeline_horizontal
+        content: "Inflection points / shifts leading to now (4 steps)"
+        required: true
+      - role: bullet_card_list
+        content: "Three signals that confirm the shift"
+        required: false
+
+  - section: act_three
+    slides:
+      - role: section_divider
+        content: "03 / what's possible"
+        required: true
+      - role: bullet_card_list
+        content: "Three things this unlocks (concrete examples, not abstractions)"
+        required: true
+      - role: metric_dashboard
+        content: "2-3 outcome metrics for the world after the shift"
+        required: false
+
+  - section: close
+    slides:
+      - role: section_divider
+        content: "04 / what to do monday morning"
+        required: true
+      - role: bullet_card_list
+        content: "Three concrete actions for the audience"
+        required: true
+      - role: closing
+        content: "Thank you + contact / resources"
+        required: true

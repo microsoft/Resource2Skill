@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_card_showcase_970ebe0c",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1237,
+    "type": "youtube",
+    "video_id": "wsTv9y931o8",
+    "video_title": "Learn CSS Flexbox in 20 Minutes (Course)",
+    "video_url": "https://www.youtube.com/watch?v=wsTv9y931o8",
+    "views": 1042943
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

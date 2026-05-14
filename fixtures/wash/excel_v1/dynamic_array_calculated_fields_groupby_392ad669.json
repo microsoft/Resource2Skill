@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_array_calculated_fields_groupby_392ad669",
+  "source": {
+    "channel": "Excel Off The Grid",
+    "duration_sec": 586,
+    "type": "youtube",
+    "video_id": "sMPCDBBg3BQ",
+    "video_title": "Budget vs Actual with GROUPBY & PIVOTBY - SUPERCHARGE your reporting!",
+    "video_url": "https://www.youtube.com/watch?v=sMPCDBBg3BQ",
+    "views": 24918
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Transforms static chord progressions into driving, evolving soundscapes. This technique is a staple in cinematic scoring, ambient electronic music, progressive house, and synthwave.",
+  "category_path": [
+    "composition",
+    "harmony",
+    "arpeggiation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "displaced_polymetric_arpeggio_46735614",
+  "skill_name": "Displaced Polymetric Arpeggio",
+  "source": {
+    "channel": "Jameson Nathan Jones",
+    "duration_sec": 615,
+    "type": "youtube",
+    "video_id": "MvqlpIFCzqE",
+    "video_title": "How to ARPEGGIATE without boring everyone",
+    "video_url": "https://www.youtube.com/watch?v=MvqlpIFCzqE",
+    "views": 83374
+  },
+  "tags": [
+    "arpeggio",
+    "polymeter",
+    "harmonic texture",
+    "composition",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:18Z",
+  "wash_version": "1.0.0"
+}

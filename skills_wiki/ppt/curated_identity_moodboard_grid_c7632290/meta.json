@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for presenting design concepts, brand identities, or product mockups in a visually engaging and modern 'floating UI card' style, enhancing perceived quality and presentation polish.",
+  "category_path": [
+    "design",
+    "brand_identity",
+    "presentation_gallery"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "curated_identity_moodboard_grid_c7632290",
+  "skill_name": "Curated Identity Moodboard Grid",
+  "source": {
+    "channel": "\u674e\u5382\u957f\u6765\u4e86",
+    "duration_sec": 719,
+    "type": "youtube",
+    "video_id": "xAEZlJe3MrU",
+    "video_title": "\u6211\u7528 Lovart \u505a\u8a2d\u8a08\uff0c\u7d50\u679c\u6bd4\u5c08\u696d\u8a2d\u8a08\u5e2b\u9084\u597d\uff01\u4e00\u96bb\u5f71\u7247\u6559\u4f60\u5982\u4f55\u7528 Lovart\u505a\u8a2d\u8a08",
+    "video_url": "https://www.youtube.com/watch?v=xAEZlJe3MrU",
+    "views": 20238
+  },
+  "tags": [
+    "moodboard",
+    "brand identity",
+    "product mockup",
+    "ui cards",
+    "asymmetrical layout",
+    "presentation gallery"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:56:39Z",
+  "wash_version": "1.0.0"
+}

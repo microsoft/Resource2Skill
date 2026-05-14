@@ -1,0 +1,63 @@
+{
+  "skill_id": "centered_accent_divider_a42e61",
+  "skill_type": "shell",
+  "name": "Centered Accent Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "nested-rectangles-centered"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_accent_divider_a42e61/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neumorphic_dual_shadow_card_soft_ui_embo_e8daa7ea",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A bold, centered layout using nested rectangles to draw focus to a short title, ideal for section transitions.",
+  "_distill_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "in_the_box_serial_mastering_chain_fbd00e70",
+  "skill_name": "In-the-Box Serial Mastering Chain",
+  "source": {
+    "channel": "Home Music Maker",
+    "duration_sec": 1993,
+    "type": "youtube",
+    "video_id": "NiE0i6Fwg1A",
+    "video_title": "How to Master in REAPER: Turn Your Songs into Masterpieces!",
+    "video_url": "https://www.youtube.com/watch?v=NiE0i6Fwg1A",
+    "views": 69327
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:52Z",
+  "wash_version": "1.0.0"
+}

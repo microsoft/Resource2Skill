@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "responsive"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_responsive_image_optimization_art_e64da18f",
+  "source": {
+    "channel": "Simple HTML Studio",
+    "duration_sec": 247,
+    "type": "youtube",
+    "video_id": "o6O9rsxhMJE",
+    "video_title": "How To Make Responsive Images With Srcset In HTML? - Simple HTML Studio",
+    "video_url": "https://www.youtube.com/watch?v=o6O9rsxhMJE",
+    "views": 9
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

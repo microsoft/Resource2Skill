@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_diagonal_geometric_overlay_1aa15c77",
+  "skill_name": "Dynamic Diagonal Geometric Overlay",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 113,
+    "type": "youtube",
+    "video_id": "EcqG8CAJmbw",
+    "video_title": "Revolutionize Your Product Launch: A Comprehensive Go-to-Market Guide (+PPT Template)",
+    "video_url": "https://www.youtube.com/watch?v=EcqG8CAJmbw",
+    "views": 19
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:18:12Z",
+  "wash_version": "1.0.0"
+}

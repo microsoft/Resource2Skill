@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "liquid_glass_displacement_effect_cc292275",
+  "skill_name": "Liquid Glass Displacement Effect",
+  "source": {
+    "channel": "Better Stack",
+    "duration_sec": 182,
+    "type": "youtube",
+    "video_id": "Cv8zFvM8fEk",
+    "video_title": "I Built Apple\u2019s Liquid Glass but ONLY with CSS...",
+    "video_url": "https://www.youtube.com/watch?v=Cv8zFvM8fEk",
+    "views": 37011
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:42:11Z",
+  "wash_version": "1.0.0"
+}

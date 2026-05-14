@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hierarchical_bottom_up_animation_overlap_e4a7c0c7",
+  "skill_name": "Hierarchical Bottom-Up Animation & Overlap (Blocking to Splining)",
+  "source": {
+    "channel": "Fergus_3D",
+    "duration_sec": 1200,
+    "type": "youtube",
+    "video_id": "LcUM_VFGSzU",
+    "video_title": "How to take your animation to final - Spline and Polish Timelapse with voiceover",
+    "video_url": "https://www.youtube.com/watch?v=LcUM_VFGSzU",
+    "views": 1992
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:52Z",
+  "wash_version": "1.0.0"
+}

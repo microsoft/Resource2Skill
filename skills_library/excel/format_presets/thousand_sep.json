@@ -1,0 +1,5 @@
+{
+  "name": "thousand_sep",
+  "description": "Plain integer with thousand separators",
+  "number_format": "#,##0;[Red]-#,##0"
+}

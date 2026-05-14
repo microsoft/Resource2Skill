@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "auto_typing_hero_text_6062442b",
+  "source": {
+    "channel": "Html Camp",
+    "duration_sec": 174,
+    "type": "youtube",
+    "video_id": "IbGSsy17Ass",
+    "video_title": "How to Make An Auto Typing Text Effect Using Html Css & Javascript",
+    "video_url": "https://www.youtube.com/watch?v=IbGSsy17Ass",
+    "views": 53101
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

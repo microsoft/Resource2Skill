@@ -1,0 +1,34 @@
+{
+  "applicability": "Use AI to rapidly generate the code for complex, structured visuals like flowcharts, process maps, or org charts from natural language prompts. This is ideal for technical, business, and project management presentations.",
+  "category_path": [
+    "diagrams"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ai_assisted_diagramming_with_mermaid_21c2d7ea",
+  "skill_name": "AI-Assisted Diagramming with Mermaid",
+  "source": {
+    "channel": "\u6770\u68ee\u7684\u6548\u7387\u5de5\u574a",
+    "duration_sec": 514,
+    "type": "youtube",
+    "video_id": "tprbIYqZdTI",
+    "video_title": "AI\u65f6\u4ee3\u7684\u56fe\u8868\u8bed\u8a00\uff01Mermaid \u65b0\u624b\u5165\u95e8\u6559\u7a0b\uff1a\u8ba9\u4f60\u7528\u6587\u672c\u79d2\u751f\u6d41\u7a0b\u56fe\u3001\u7518\u7279\u56fe\uff0c\u601d\u7ef4\u5bfc\u56fe\u2026\u2026",
+    "video_url": "https://www.youtube.com/watch?v=tprbIYqZdTI",
+    "views": 2730
+  },
+  "tags": [
+    "mermaid",
+    "diagram as code",
+    "ai-generated",
+    "flowchart",
+    "automation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:48:29Z",
+  "wash_version": "1.0.0"
+}

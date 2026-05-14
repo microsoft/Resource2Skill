@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "billboard_typography_cinematic_contrast_f383c998",
+  "skill_name": "Billboard Typography & Cinematic Contrast",
+  "source": {
+    "channel": "Carl Kwan",
+    "duration_sec": 241,
+    "type": "youtube",
+    "video_id": "tEF2vNP3S9A",
+    "video_title": "The Do's and Don'ts of Effective Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=tEF2vNP3S9A",
+    "views": 124737
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:19Z",
+  "wash_version": "1.0.0"
+}

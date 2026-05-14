@@ -1,0 +1,63 @@
+{
+  "skill_id": "circular_concept_diagram_949348",
+  "skill_type": "shell",
+  "name": "Circular Concept Diagram",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "section_divider"
+    ],
+    "content_shape": [
+      "donut-arrow-diagram"
+    ],
+    "density": "medium",
+    "mood": [
+      "bold",
+      "corporate",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "main_label",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": "caption",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 10
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/circular_concept_diagram_949348/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "rotating_dial_morph_panel_wheel_selector_87d765bb",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Abstracts the custom circular diagram into a reusable 'feature_grid' shell using a donut and arrow shape, calculating radial coordinates and dynamic text rotation to distribute items along the ring.",
+  "_distill_attempts": 1
+}

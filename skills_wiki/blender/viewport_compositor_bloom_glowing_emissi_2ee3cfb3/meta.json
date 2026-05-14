@@ -1,0 +1,38 @@
+{
+  "applicability": "Creates a realistic glow or halo effect for bright objects like neon lights, thrusters, or magical elements. This compositor-based method is the standard for achieving bloom in both EEVEE and Cycles.",
+  "category_path": [
+    "rendering",
+    "effects",
+    "bloom"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "viewport_compositor_bloom_glowing_emissi_2ee3cfb3",
+  "skill_name": "Real-time Bloom with Emission and Compositor",
+  "source": {
+    "channel": "blenderian",
+    "duration_sec": 141,
+    "type": "youtube",
+    "video_id": "OHA5rcw2qnI",
+    "video_title": "How to make Glow Effect with Blender Glow Material",
+    "video_url": "https://www.youtube.com/watch?v=OHA5rcw2qnI",
+    "views": 141659
+  },
+  "tags": [
+    "bloom",
+    "glow",
+    "emission",
+    "compositor",
+    "real-time",
+    "glare"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:45:06Z",
+  "wash_version": "1.0.0"
+}

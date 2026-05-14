@@ -1,0 +1,16 @@
+{
+  "name": "bar_compare",
+  "description": "Clustered column chart for actual vs target style comparisons",
+  "chart_type": "BarChart",
+  "type": "col",
+  "style": 11,
+  "grouping": "clustered",
+  "show_legend": true,
+  "legend_position": "b",
+  "title_size": 14,
+  "axis_font_size": 10,
+  "gridlines_major_y": true,
+  "gridlines_major_x": false,
+  "data_labels": false,
+  "default_size": {"width": 18, "height": 10}
+}

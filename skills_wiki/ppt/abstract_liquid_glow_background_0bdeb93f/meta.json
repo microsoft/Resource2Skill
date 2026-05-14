@@ -1,0 +1,70 @@
+{
+  "applicability": "Ideal for hero slides, tech product launches, and pitch decks, this style excels in dark-mode presentations needing vibrant color without visual clutter.",
+  "category_path": [
+    "backgrounds",
+    "abstract"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "abstract_liquid_glow_background_0bdeb93f",
+  "skill_name": "Abstract Liquid Glow Background",
+  "source": {
+    "channel": "Dansky",
+    "duration_sec": 352,
+    "type": "youtube",
+    "video_id": "77MY9YjJrsc",
+    "video_title": "How To Photoshop Stunning Backgrounds In Seconds!",
+    "video_url": "https://www.youtube.com/watch?v=77MY9YjJrsc",
+    "views": 294430
+  },
+  "tags": [
+    "abstract",
+    "liquid glow",
+    "dark mode",
+    "modern",
+    "dynamic",
+    "tech style"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:47Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 23,
+          "description": "initial canvas size settings"
+        },
+        {
+          "seconds": 205,
+          "description": "canvas filled with colored splashes"
+        },
+        {
+          "seconds": 337,
+          "description": "first liquified wavy pattern design"
+        },
+        {
+          "seconds": 402,
+          "description": "second liquified pattern design"
+        },
+        {
+          "seconds": 528,
+          "description": "final liquified design with brightened colors"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_canvas_size_settings.jpg",
+        "frame_01_canvas_filled_with_colored_spl.jpg",
+        "frame_02_first_liquified_wavy_pattern_d.jpg"
+      ],
+      "recapped_at": 1777405954.6789892
+    },
+    "primary_path": "frame_00_initial_canvas_size_settings.jpg"
+  }
+}

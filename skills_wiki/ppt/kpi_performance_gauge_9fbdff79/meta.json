@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for executive dashboards and performance reports, this visual instantly communicates the status of a single KPI against defined targets. It's effective in sales, project management, and customer satisfaction reporting.",
+  "category_path": [
+    "chart_data",
+    "gauge"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_performance_gauge_9fbdff79",
+  "skill_name": "KPI Performance Gauge",
+  "source": {
+    "channel": "Horace Hu",
+    "duration_sec": 957,
+    "type": "youtube",
+    "video_id": "GhifTGd_sRA",
+    "video_title": "\u8bfe\u65f639 \u4eea\u8868\u548c\u9a6c\u8868\u56fe",
+    "video_url": "https://www.youtube.com/watch?v=GhifTGd_sRA",
+    "views": 301
+  },
+  "tags": [
+    "kpi",
+    "gauge",
+    "performance",
+    "dashboard",
+    "status",
+    "reporting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:46:37Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "card_based_sidebar_dashboard_layout_3976e712",
+  "skill_name": "Card-Based Sidebar Dashboard Layout",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:32Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Final interactive Excel dashboard preview"
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard layout with all shape placeholders and titles"
+        },
+        {
+          "seconds": 840,
+          "description": "All charts (radar, map, line, donuts) created on the 'Inputs' sheet"
+        },
+        {
+          "seconds": 1029,
+          "description": "Map chart integrated and customized on the dashboard sheet"
+        },
+        {
+          "seconds": 1495,
+          "description": "Fully completed and integrated Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_final_interactive_excel_dashbo.jpg",
+        "frame_01_dashboard_layout_with_all_shap.jpg",
+        "frame_02_all_charts_radar_map_line_donu.jpg"
+      ],
+      "recapped_at": 1777406182.692181
+    },
+    "primary_path": "frame_00_final_interactive_excel_dashbo.jpg"
+  }
+}

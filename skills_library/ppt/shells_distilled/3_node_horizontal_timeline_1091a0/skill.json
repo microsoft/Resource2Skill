@@ -1,0 +1,71 @@
+{
+  "skill_id": "3_node_horizontal_timeline_1091a0",
+  "skill_type": "shell",
+  "name": "3-Node Horizontal Timeline",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "timeline_horizontal"
+    ],
+    "content_shape": [
+      "timeline+3-nodes"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "timeline_items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/3_node_horizontal_timeline_1091a0/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neon_cyberpunk_alternating_timeline_015c752d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the minimal horizontal 3-node timeline structure with a connecting line, accent nodes, and drop-down text areas.",
+  "_distill_attempts": 1
+}

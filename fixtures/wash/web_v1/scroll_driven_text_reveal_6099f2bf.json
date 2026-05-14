@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_text_reveal_6099f2bf",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1037,
+    "type": "youtube",
+    "video_id": "d10GaL6F-lA",
+    "video_title": "Can I copy this text reveal scroll effect with CSS-only?",
+    "video_url": "https://www.youtube.com/watch?v=d10GaL6F-lA",
+    "views": 150156
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

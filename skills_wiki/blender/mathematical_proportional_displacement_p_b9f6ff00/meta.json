@@ -1,0 +1,36 @@
+{
+  "applicability": "Provides an automated, math-based approach to recreating Blender's proportional editing tool via Python. Ideal for sculpting precise, art-directable terrain features like hills and valleys without relying on global noise.",
+  "category_path": [
+    "modeling",
+    "procedural_generation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mathematical_proportional_displacement_p_b9f6ff00",
+  "skill_name": "Mathematical Proportional Displacement",
+  "source": {
+    "channel": "HowToDoBasic",
+    "duration_sec": 128,
+    "type": "youtube",
+    "video_id": "jGWP29LzI0o",
+    "video_title": "Blender Tutorial for Beginners - Part 10: Create a Terrain in Blender using Plane Object",
+    "video_url": "https://www.youtube.com/watch?v=jGWP29LzI0o",
+    "views": 9890
+  },
+  "tags": [
+    "procedural_terrain",
+    "mesh_deformation",
+    "bmesh",
+    "spatial_falloff",
+    "proportional_editing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:24Z",
+  "wash_version": "1.0.0"
+}

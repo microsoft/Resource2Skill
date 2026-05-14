@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "legato_walking_bassline_octave_pumping_g_8a02a32d",
+  "skill_name": "Legato Walking Bassline (Octave-Pumping Groove)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "iG8xMdqIRwY",
+    "video_title": "Your First Bass Guitar Track in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=iG8xMdqIRwY",
+    "views": 48929
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:14Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for product feature showcases, architectural concept slides, and portfolio hero images. Transforms a standard 2D image grid into a premium, sculptural 3D asset that spatially anchors the presentation.",
+  "category_path": [
+    "images",
+    "3d_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_3d_photo_cube_dynamic_faces_93b05549",
+  "skill_name": "Isometric 3D Photo Cube (Dynamic Faces)",
+  "source": {
+    "channel": "Knowledge for Future",
+    "duration_sec": 482,
+    "type": "youtube",
+    "video_id": "pWPgb6Bssgs",
+    "video_title": "3D Cube with Auto Changing Picture Animation in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=pWPgb6Bssgs",
+    "views": 57352
+  },
+  "tags": [
+    "isometric",
+    "3d_cube",
+    "photo_gallery",
+    "product_showcase",
+    "dynamic_faces"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:49Z",
+  "wash_version": "1.0.0"
+}

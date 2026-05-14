@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_flexbox_hero_with_layered_backgrou_8265ab6f",
+  "skill_name": "Split Flexbox Hero with Layered Background Portrait",
+  "source": {
+    "channel": "Dani Krossing",
+    "duration_sec": 2134,
+    "type": "youtube",
+    "video_id": "XDGig-nJUg8",
+    "video_title": "16 | MAKING A HERO SECTION WITH HTML | 2023 | Learn HTML and CSS Full Course for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=XDGig-nJUg8",
+    "views": 51641
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:52:50Z",
+  "wash_version": "1.0.0"
+}

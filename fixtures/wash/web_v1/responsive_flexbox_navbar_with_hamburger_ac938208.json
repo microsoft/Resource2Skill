@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_navbar_with_hamburger_ac938208",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 815,
+    "type": "youtube",
+    "video_id": "At4B7A4GOPg",
+    "video_title": "Responsive Navbar Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=At4B7A4GOPg",
+    "views": 517765
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

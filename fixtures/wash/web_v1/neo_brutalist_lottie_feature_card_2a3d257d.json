@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neo_brutalist_lottie_feature_card_2a3d257d",
+  "source": {
+    "channel": "Jesse Showalter",
+    "duration_sec": 826,
+    "type": "youtube",
+    "video_id": "4eNr5SIF_1g",
+    "video_title": "Adding Motion to Your Designs with LottieFiles",
+    "video_url": "https://www.youtube.com/watch?v=4eNr5SIF_1g",
+    "views": 46068
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

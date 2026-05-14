@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_gradient_text_reveal_e6c9d129",
+  "source": {
+    "channel": "WebSprint",
+    "duration_sec": 224,
+    "type": "youtube",
+    "video_id": "eOPYyOaAbJU",
+    "video_title": "How to add Gradient Color to Text in CSS",
+    "video_url": "https://www.youtube.com/watch?v=eOPYyOaAbJU",
+    "views": 296
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

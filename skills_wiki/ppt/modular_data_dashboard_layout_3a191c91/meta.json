@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_data_dashboard_layout_3a191c91",
+  "skill_name": "\"Modular Data Dashboard Layout\"",
+  "source": {
+    "channel": "Maptable",
+    "duration_sec": 780,
+    "type": "youtube",
+    "video_id": "-j0hnhYFMq8",
+    "video_title": "\u5feb\u901f\u5236\u4f5c\u4e00\u4e2a\u5e26\u5730\u56fe\u53ef\u89c6\u5316\u7684\u6570\u636e\u4eea\u8868\u76d8",
+    "video_url": "https://www.youtube.com/watch?v=-j0hnhYFMq8",
+    "views": 94
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:56:20Z",
+  "wash_version": "1.0.0"
+}

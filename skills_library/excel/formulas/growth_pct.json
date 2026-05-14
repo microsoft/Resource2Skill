@@ -1,0 +1,7 @@
+{
+  "name": "growth_pct",
+  "description": "Period-over-period percentage growth: (current - prior) / prior",
+  "pattern": "=({current}-{prior})/{prior}",
+  "example": "=(B3-B2)/B2",
+  "result_format": "percent_signed"
+}

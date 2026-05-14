@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "arrangement"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "macro_arrangement_region_generator_bb1d4b1c",
+  "skill_name": "Macro-Arrangement Region Generator",
+  "source": {
+    "channel": "Isaiah Prather",
+    "duration_sec": 138,
+    "type": "youtube",
+    "video_id": "vVi9lJCTqlQ",
+    "video_title": "USING REGIONS IN REAPER TO REARRANGE AND COPY PARTS OF YOUR SONG",
+    "video_url": "https://www.youtube.com/watch?v=vVi9lJCTqlQ",
+    "views": 6434
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:51:24Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_data_panel_39707756",
+  "skill_name": "Glassmorphism Data Panel",
+  "source": {
+    "channel": "Chubike Roy Agu",
+    "duration_sec": 795,
+    "type": "youtube",
+    "video_id": "Y4NSCMTBLqo",
+    "video_title": "How to Create a \"GLASSMORPHIC\" effect in PowerPoint | BEHIND THE SLIDE Episode 3",
+    "video_url": "https://www.youtube.com/watch?v=Y4NSCMTBLqo",
+    "views": 41645
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:32:48Z",
+  "wash_version": "1.0.0"
+}

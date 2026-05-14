@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for rendering glazed pottery, modern bathroom fixtures, cups, tiles, and product hero shots, providing a highly reflective, clearcoat finish.",
+  "category_path": [
+    "material_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ceramic_glossy_36f4b292",
+  "skill_name": "Glossy Ceramic",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "glossy",
+    "ceramic",
+    "material",
+    "glaze",
+    "pottery",
+    "product_render"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:20Z",
+  "wash_version": "1.0.0"
+}

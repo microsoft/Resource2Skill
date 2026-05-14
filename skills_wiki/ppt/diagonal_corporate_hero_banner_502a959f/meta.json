@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diagonal_corporate_hero_banner_502a959f",
+  "skill_name": "Diagonal Corporate Hero Banner",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 123,
+    "type": "youtube",
+    "video_id": "OWqcUv6yWz0",
+    "video_title": "Mastering the Art of Company Profile Creation (PPT Template Included)",
+    "video_url": "https://www.youtube.com/watch?v=OWqcUv6yWz0",
+    "views": 238
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:14:11Z",
+  "wash_version": "1.0.0"
+}

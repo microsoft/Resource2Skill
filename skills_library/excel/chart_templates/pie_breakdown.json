@@ -1,0 +1,12 @@
+{
+  "name": "pie_breakdown",
+  "description": "Pie chart for share-of-total with data labels showing percent",
+  "chart_type": "PieChart",
+  "style": 10,
+  "show_legend": true,
+  "legend_position": "r",
+  "title_size": 14,
+  "data_labels": true,
+  "data_label_pct": true,
+  "default_size": {"width": 14, "height": 10}
+}

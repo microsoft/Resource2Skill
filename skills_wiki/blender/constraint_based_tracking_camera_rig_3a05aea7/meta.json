@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "constraint_based_tracking_camera_rig_3a05aea7",
+  "skill_name": "Constraint-Based Tracking Camera Rig",
+  "source": {
+    "channel": "Immersive Limit",
+    "duration_sec": 584,
+    "type": "youtube",
+    "video_id": "LeYUk3Ob5W8",
+    "video_title": "Blender Camera Constraints",
+    "video_url": "https://www.youtube.com/watch?v=LeYUk3Ob5W8",
+    "views": 214416
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:04:54Z",
+  "wash_version": "1.0.0"
+}

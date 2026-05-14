@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "comprehensive_modern_responsive_foundati_6078f9a4",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 579,
+    "type": "youtube",
+    "video_id": "2IV08sP9m3U",
+    "video_title": "5 CSS Tips & Tricks for better Responsive Web Design",
+    "video_url": "https://www.youtube.com/watch?v=2IV08sP9m3U",
+    "views": 496209
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

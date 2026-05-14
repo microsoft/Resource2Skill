@@ -1,0 +1,35 @@
+{
+  "applicability": "This pattern is essential for modern website homepages, portfolios, and landing pages to immediately engage users. It captures attention and sets the site's tone by centrally presenting core content over an immersive background.",
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_screen_immersive_flexbox_hero_9f841079",
+  "skill_name": "Full-Screen Immersive Flexbox Hero",
+  "source": {
+    "channel": "Learn Web",
+    "duration_sec": 184,
+    "type": "youtube",
+    "video_id": "b-zYrMTl0zI",
+    "video_title": "Designing a Hero Section with HTML, CSS | Hero Section Website",
+    "video_url": "https://www.youtube.com/watch?v=b-zYrMTl0zI",
+    "views": 7258
+  },
+  "tags": [
+    "full-screen",
+    "hero section",
+    "flexbox layout",
+    "centered content",
+    "immersive",
+    "landing page"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:35Z",
+  "wash_version": "1.0.0"
+}

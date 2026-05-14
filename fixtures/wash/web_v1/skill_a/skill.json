@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill_a",
+  "skill_name": "Hero Panel Gradient",
+  "applicability": "Render a marketing hero panel with gradient background, headline column, and CTA button.",
+  "tags": ["hero", "gradient", "css_grid", "landing_page"],
+  "source": {"type": "manual"},
+  "license": "permissive",
+  "tier": "T3",
+  "category_path": ["hero"]
+}

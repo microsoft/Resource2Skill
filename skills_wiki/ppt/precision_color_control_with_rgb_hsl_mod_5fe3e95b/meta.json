@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "precision_color_control_with_rgb_hsl_mod_5fe3e95b",
+  "skill_name": "Precision Color Control with RGB & HSL Models",
+  "source": {
+    "channel": "fei wu (How To Make)",
+    "duration_sec": 398,
+    "type": "youtube",
+    "video_id": "3y4mTwdJ1jw",
+    "video_title": "17\uff1aPPT\u5f62\u72b6\u586b\u5145\u989c\u8272\u8c03\u6574",
+    "video_url": "https://www.youtube.com/watch?v=3y4mTwdJ1jw",
+    "views": 73
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:07:00Z",
+  "wash_version": "1.0.0"
+}

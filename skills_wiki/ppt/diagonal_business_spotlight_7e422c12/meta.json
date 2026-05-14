@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diagonal_business_spotlight_7e422c12",
+  "skill_name": "Diagonal Business Spotlight",
+  "source": {
+    "channel": "Creative Venus",
+    "duration_sec": 1181,
+    "type": "youtube",
+    "video_id": "U63UW3MfoYY",
+    "video_title": "How To #Design #Process Showcase #Presentation Slide in Microsoft Office365 PowerPoint PPT",
+    "video_url": "https://www.youtube.com/watch?v=U63UW3MfoYY",
+    "views": 7342
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:14:04Z",
+  "wash_version": "1.0.0"
+}

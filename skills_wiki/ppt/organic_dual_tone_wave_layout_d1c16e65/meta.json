@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill breaks rigidity in corporate presentations using organic, bezier-style curves, making them feel modern and dynamic. It's ideal for corporate overviews, company profiles, and title/divider slides that balance emotional imagery with hard text.",
+  "category_path": [
+    "slide_design",
+    "organic_shapes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "organic_dual_tone_wave_layout_d1c16e65",
+  "skill_name": "Organic Dual-Tone Wave Layout",
+  "source": {
+    "channel": "Crineti Design",
+    "duration_sec": 193,
+    "type": "youtube",
+    "video_id": "aOtiVT_dNM0",
+    "video_title": "Elegant PowerPoint Template | Slide Deck",
+    "video_url": "https://www.youtube.com/watch?v=aOtiVT_dNM0",
+    "views": 189
+  },
+  "tags": [
+    "organic curves",
+    "dual-tone",
+    "modern layout",
+    "image masking",
+    "corporate slides",
+    "dynamic design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:57Z",
+  "wash_version": "1.0.0"
+}

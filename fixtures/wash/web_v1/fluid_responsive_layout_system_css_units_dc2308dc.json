@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_responsive_layout_system_css_units_dc2308dc",
+  "source": {
+    "channel": "WPDev",
+    "duration_sec": 291,
+    "type": "youtube",
+    "video_id": "ydfVTgsUynk",
+    "video_title": "Make ANY Design Responsive - Elementor CSS Units Guide",
+    "video_url": "https://www.youtube.com/watch?v=ydfVTgsUynk",
+    "views": 21243
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

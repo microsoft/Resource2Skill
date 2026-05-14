@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for presenting multi-part business frameworks (e.g., SWOT, 3Cs), process steps, or product pillars. This layout visually separates and equalizes distinct concepts for easy comparison and scanning.",
+  "category_path": [
+    "diagrams",
+    "framework"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_framework_alignment_overlapping__1e313702",
+  "skill_name": "Pillar Layout with Overlapping Badge Headers",
+  "source": {
+    "channel": "Bryce Lee",
+    "duration_sec": 208,
+    "type": "youtube",
+    "video_id": "lROdViaux_I",
+    "video_title": "PPT\u529f\u80fd//\u6d41\u7a0b\u5716\u7e6a\u88fd\u8207\u61c9\u7528",
+    "video_url": "https://www.youtube.com/watch?v=lROdViaux_I",
+    "views": 427
+  },
+  "tags": [
+    "framework",
+    "modular layout",
+    "overlapping shapes",
+    "process steps",
+    "visual hierarchy"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:41Z",
+  "wash_version": "1.0.0"
+}

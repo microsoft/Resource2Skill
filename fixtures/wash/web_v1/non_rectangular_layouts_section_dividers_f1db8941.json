@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "non_rectangular_layouts_section_dividers_f1db8941",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1115,
+    "type": "youtube",
+    "video_id": "QY7Rj8aZcZk",
+    "video_title": "How to make shapes with CSS",
+    "video_url": "https://www.youtube.com/watch?v=QY7Rj8aZcZk",
+    "views": 360024
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

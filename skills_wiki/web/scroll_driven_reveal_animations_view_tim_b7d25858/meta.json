@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_reveal_animations_view_tim_b7d25858",
+  "skill_name": "Scroll-Driven Reveal Animations (View Timeline)",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 656,
+    "type": "youtube",
+    "video_id": "Bhj4miRkSOc",
+    "video_title": "Master CSS Animation Property in 11 Minutes [Full Tutorial] \ud83d\ude80",
+    "video_url": "https://www.youtube.com/watch?v=Bhj4miRkSOc",
+    "views": 167447
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:54Z",
+  "wash_version": "1.0.0"
+}

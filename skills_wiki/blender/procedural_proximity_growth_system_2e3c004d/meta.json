@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_proximity_growth_system_2e3c004d",
+  "skill_name": "Procedural Proximity Growth System",
+  "source": {
+    "channel": "BlenderDude",
+    "duration_sec": 621,
+    "type": "youtube",
+    "video_id": "CWomo4_E6l8",
+    "video_title": "Proximity Growth - Blender Geometry Nodes 3.0 Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=CWomo4_E6l8",
+    "views": 62436
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:27Z",
+  "wash_version": "1.0.0"
+}

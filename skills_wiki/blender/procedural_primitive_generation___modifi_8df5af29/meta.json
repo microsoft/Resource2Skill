@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_primitive_generation___modifi_8df5af29",
+  "skill_name": "Procedural Primitive Generation & Modification (Geometry Nodes Basics)",
+  "source": {
+    "channel": "Ryan King Art",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=tWvgHbZXCtA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:39Z",
+  "wash_version": "1.0.0"
+}

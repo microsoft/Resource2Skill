@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_card_based_dashboard_ui_f0165a80",
+  "skill_name": "Modern Card-Based Dashboard UI",
+  "source": {
+    "channel": "How to Power BI",
+    "duration_sec": 1222,
+    "type": "youtube",
+    "video_id": "v6fP8gyCLLc",
+    "video_title": "5 DESIGN TRICKS that Make EVERY Power BI Report Look GREAT!",
+    "video_url": "https://www.youtube.com/watch?v=v6fP8gyCLLc",
+    "views": 913844
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:51:44Z",
+  "wash_version": "1.0.0"
+}

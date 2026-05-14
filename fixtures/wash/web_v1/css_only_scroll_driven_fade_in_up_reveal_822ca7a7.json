@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_only_scroll_driven_fade_in_up_reveal_822ca7a7",
+  "source": {
+    "channel": "The Admin Bar",
+    "duration_sec": 661,
+    "type": "youtube",
+    "video_id": "srwOTsD_dYo",
+    "video_title": "Scroll-based Animations for WordPress (A lightweight, CSS-only solution! No Plugins or JavaScript!)",
+    "video_url": "https://www.youtube.com/watch?v=srwOTsD_dYo",
+    "views": 24682
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

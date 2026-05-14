@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_text_mask_102faa8a",
+  "source": {
+    "channel": "Optimistic Web",
+    "duration_sec": 342,
+    "type": "youtube",
+    "video_id": "QHIrp24xf-0",
+    "video_title": "Create stunning GRADIENT TEXT ANIMATION using only CSS",
+    "video_url": "https://www.youtube.com/watch?v=QHIrp24xf-0",
+    "views": 4880
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

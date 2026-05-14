@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating seamless background movements, floating sci-fi props, or UI motion graphics. It brings static scenes to life by demonstrating the passage of time without complex physics.",
+  "category_path": [
+    "animation",
+    "transforms"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "basic_looping_transform_animation_bf599794",
+  "skill_name": "Basic Looping Transform Animation",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 858,
+    "type": "youtube",
+    "video_id": "5WOrfMz2Sqs",
+    "video_title": "Beginners Guide to Animation in blender 4 : Part 1 - Keyframes",
+    "video_url": "https://www.youtube.com/watch?v=5WOrfMz2Sqs",
+    "views": 50904
+  },
+  "tags": [
+    "animation",
+    "keyframing",
+    "loop",
+    "transform",
+    "motion_graphics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:51:15Z",
+  "wash_version": "1.0.0"
+}

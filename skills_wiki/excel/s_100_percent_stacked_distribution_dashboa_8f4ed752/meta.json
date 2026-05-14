@@ -1,0 +1,36 @@
+{
+  "applicability": "Best used when automating a dashboard showing category composition over time, emphasizing relative percentages over absolute totals. Serves as a programmatic alternative to manual Pivot Charts.",
+  "category_path": [
+    "data_visualization",
+    "dashboards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_100_percent_stacked_distribution_dashboa_8f4ed752",
+  "skill_name": "100% Stacked Distribution Dashboard",
+  "source": {
+    "channel": "Productivity Land",
+    "duration_sec": 263,
+    "type": "youtube",
+    "video_id": "J0qzcBNNWi4",
+    "video_title": "How to Add Slicers to a Pivot Table in Excel in Under 5 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=J0qzcBNNWi4",
+    "views": 13895
+  },
+  "tags": [
+    "stacked-column-chart",
+    "distribution",
+    "dashboard",
+    "composition",
+    "data-visualization"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:58:22Z",
+  "wash_version": "1.0.0"
+}

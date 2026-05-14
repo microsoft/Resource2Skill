@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for B2C product reports and customer-facing dashboards. The soft teal and slate color palette provides an approachable and calming visual style.",
+  "category_path": [
+    "formatting",
+    "themes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ocean_calm_0270ee96",
+  "skill_name": "ocean_calm",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "teal",
+    "slate",
+    "theme",
+    "color_palette",
+    "b2c"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:03:44Z",
+  "wash_version": "1.0.0"
+}

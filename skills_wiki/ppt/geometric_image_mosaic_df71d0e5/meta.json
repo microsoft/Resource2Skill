@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_image_mosaic_df71d0e5",
+  "skill_name": "Geometric Image Mosaic",
+  "source": {
+    "channel": "\u7ecf\u672c\u6b63\u4e00",
+    "duration_sec": 295,
+    "type": "youtube",
+    "video_id": "LIV0qhslPqA",
+    "video_title": "\u3010\u5c01\u9762\u8bbe\u8ba1\u30114\u4e2a\u5c0f\u5999\u62db\uff0c\u8ba9\u4f60\u7684PPT\u5c01\u9762\u53d8\u9ad8\u5927\u4e0a\uff01 \u7ecf\u672c\u6b63\u4e00",
+    "video_url": "https://www.youtube.com/watch?v=LIV0qhslPqA",
+    "views": 83167
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:30:17Z",
+  "wash_version": "1.0.0"
+}

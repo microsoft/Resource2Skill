@@ -1,0 +1,30 @@
+# concrete_raw
+
+## Description
+
+Raw poured concrete — high roughness, neutral grey, subtle blueish cast for cool architectural feel
+
+## Parameters
+
+```json
+{
+  "best_for": [
+    "walls",
+    "floors",
+    "brutalist architecture",
+    "industrial environments"
+  ],
+  "displacement_hint": "add Voronoi or Noise texture to Roughness/Normal for surface variation",
+  "principled": {
+    "Base Color": [
+      0.42,
+      0.43,
+      0.45,
+      1.0
+    ],
+    "Metallic": 0.0,
+    "Roughness": 0.88,
+    "Specular IOR Level": 0.3
+  }
+}
+```

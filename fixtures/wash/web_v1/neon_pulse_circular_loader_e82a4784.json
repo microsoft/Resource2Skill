@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_pulse_circular_loader_e82a4784",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 193,
+    "type": "youtube",
+    "video_id": "ttWXapXj4cg",
+    "video_title": "Creative CSS Loading Animations Effects | CSS Animation Tutorial for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=ttWXapXj4cg",
+    "views": 219097
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

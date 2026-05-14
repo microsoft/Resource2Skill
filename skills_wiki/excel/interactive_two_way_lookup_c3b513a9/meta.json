@@ -1,0 +1,32 @@
+{
+  "applicability": "Best for dashboards, pricing matrices, and schedule tables where a specific value must be retrieved from a 2D cross-tab based on two user-selected parameters.",
+  "category_path": [
+    "validation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_two_way_lookup_c3b513a9",
+  "skill_name": "Interactive Two-Way Lookup",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 280,
+    "type": "youtube",
+    "video_id": "-4yCXpv-drg",
+    "video_title": "4 Mins. to MASTER Excel INDEX & MATCH formulas!",
+    "video_url": "https://www.youtube.com/watch?v=-4yCXpv-drg",
+    "views": 542183
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:02Z",
+  "wash_version": "1.0.0"
+}

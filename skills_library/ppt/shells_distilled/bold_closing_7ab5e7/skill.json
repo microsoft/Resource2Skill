@@ -1,0 +1,53 @@
+{
+  "skill_id": "bold_closing_7ab5e7",
+  "skill_type": "shell",
+  "name": "Bold Closing",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "closing"
+    ],
+    "content_shape": [
+      "single centered text"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/bold_closing_7ab5e7/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "animated_paper_fold_reveal_transition_769baf7e",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.6499999999999999
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A minimal, high-impact closing slide featuring a single centered headline on a bold accent background.",
+  "_distill_attempts": 3
+}

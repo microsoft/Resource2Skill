@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "subtractive_electro_pluck_filter_envelop_8aba0359",
+  "skill_name": "Subtractive Electro-Pluck (Filter Envelope Modulation)",
+  "source": {
+    "channel": "Alex Rome",
+    "duration_sec": 1444,
+    "type": "youtube",
+    "video_id": "p1-WmITJqBk",
+    "video_title": "How To Make Any Sound From Scratch (escape the preset trap)",
+    "video_url": "https://www.youtube.com/watch?v=p1-WmITJqBk",
+    "views": 525493
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:00:53Z",
+  "wash_version": "1.0.0"
+}

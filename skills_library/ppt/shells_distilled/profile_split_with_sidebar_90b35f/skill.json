@@ -1,0 +1,99 @@
+{
+  "skill_id": "profile_split_with_sidebar_90b35f",
+  "skill_type": "shell",
+  "name": "Profile Split with Sidebar",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "profile-split-with-sidebar"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "bold",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "first_name",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "last_name",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "primary_role",
+      "kind": "text",
+      "required": true,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "secondary_roles",
+      "kind": "bullet_list",
+      "required": false,
+      "style": "caption",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    },
+    {
+      "name": "bio",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 300,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "photo",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "9:16",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/profile_split_with_sidebar_90b35f/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "vertical_morphing_carousel_profile_deck_1b156b00",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a 3-column profile layout featuring a sidebar for roles, a staggered large typography section for the name, and a hero image on the right.",
+  "_distill_attempts": 1
+}

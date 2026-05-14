@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_swimlane_roadmap_8f2ff498",
+  "skill_name": "Minimalist Swimlane Roadmap",
+  "source": {
+    "channel": "Andrew Pach - PowerPoint Training",
+    "duration_sec": 816,
+    "type": "youtube",
+    "video_id": "K8DAvP2HWdg",
+    "video_title": "Product Roadmap Template in PowerPoint \u2714",
+    "video_url": "https://www.youtube.com/watch?v=K8DAvP2HWdg",
+    "views": 130446
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:53:51Z",
+  "wash_version": "1.0.0"
+}

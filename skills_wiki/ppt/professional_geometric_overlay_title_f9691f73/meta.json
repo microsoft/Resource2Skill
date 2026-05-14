@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "professional_geometric_overlay_title_f9691f73",
+  "skill_name": "Professional Geometric Overlay Title (\u4e13\u4e1a\u51e0\u4f55\u659c\u89d2\u8499\u7248)",
+  "source": {
+    "channel": "JonJon MBA",
+    "duration_sec": 1504,
+    "type": "youtube",
+    "video_id": "m4YKkj8An0s",
+    "video_title": "\u3010\u6709\u9748\u9b42\u7684PPT\u6559\u5ba4\u3011PowerPoint\u6559\u5b78101 \u5c08\u696d\u98a8\u683c \u4e0d\u7528\u6a21\u677f\u4e5f\u80fd\u7c21\u55ae\u505a\u51fa\u5c08\u696dPPT \u62ff\u7d93\u6fdf\u90e8\u7684\u7c21\u5831\u6539\u7d66\u4f60\u770b",
+    "video_url": "https://www.youtube.com/watch?v=m4YKkj8An0s",
+    "views": 1187355
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:25Z",
+  "wash_version": "1.0.0"
+}

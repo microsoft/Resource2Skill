@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_responsive_css_grid__auto_fit___min_8f2a34ce",
+  "skill_name": "Auto-Responsive CSS Grid (Auto-fit + Minmax)",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=3T0gjtXRNC0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:51Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial responsive grid with wrapping elements"
+        },
+        {
+          "seconds": 22,
+          "description": "ideal responsive grid with wrapping and resizing elements"
+        },
+        {
+          "seconds": 110,
+          "description": "flexbox layout demonstrating inconsistent element sizing problems"
+        },
+        {
+          "seconds": 350,
+          "description": "grid with auto-fit for wrapping, but fixed element widths"
+        },
+        {
+          "seconds": 559,
+          "description": "final responsive grid using auto-fit and minmax for optimal wrapping and resizing"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_responsive_grid_with_w.jpg",
+        "frame_01_ideal_responsive_grid_with_wra.jpg",
+        "frame_02_flexbox_layout_demonstrating_i.jpg",
+        "frame_03_grid_with_auto_fit_for_wrappin.jpg"
+      ],
+      "recapped_at": 1777408753.1582875
+    },
+    "primary_path": "frame_00_initial_responsive_grid_with_w.jpg"
+  }
+}

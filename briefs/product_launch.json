@@ -1,0 +1,24 @@
+{
+  "variant_id": "product_launch",
+  "out_dirname": "apple_style_product_launch",
+  "title": "Lumen Pro — your team's second brain",
+  "audience": "bold product launch keynote",
+  "tone_words": ["bold", "punchy", "cinematic"],
+  "archetype_preference": "product",
+  "mood_preference": ["bold", "punchy", "cinematic"],
+  "mode_preference": "light",
+  "n_slides": 10,
+  "role_prefer": ["hero_giant_metric", "feature_grid",
+                   "comparison_split", "closing_cta"],
+  "role_avoid": ["hero_quote", "timeline_horizontal"],
+  "dense_quota": 2,
+  "core_points": [
+    "one search across every doc, channel, and meeting",
+    "search latency: 120ms median across 80M docs",
+    "six core capabilities: semantic search, live summarization with citations, custom connectors, end-to-end encryption, audit logs, API",
+    "before/after story: context trapped in 11 tools -> ask once, cite everything",
+    "plan tiers: Starter / Team / Enterprise with feature matrix",
+    "pricing and customer logos",
+    "bold CTA to install this week"
+  ]
+}

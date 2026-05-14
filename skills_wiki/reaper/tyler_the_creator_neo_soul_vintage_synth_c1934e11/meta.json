@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tyler_the_creator_neo_soul_vintage_synth_c1934e11",
+  "skill_name": "Tyler the Creator: Neo-Soul / Vintage Synth Groove",
+  "source": {
+    "type": "youtube",
+    "video_title": "Tyler the Creator production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:06:00Z",
+  "wash_version": "1.0.0"
+}

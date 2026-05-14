@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for corporate reporting or strategic presentations to display \"Before vs. After\" or \"Actual vs. Target\" comparisons. It emphasizes the data gap and direction of change with high visual clarity.",
+  "category_path": [
+    "data_visualization",
+    "charts",
+    "comparisons"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "publication_grade_dumbbell_chart_connect_1de1f07a",
+  "skill_name": "Publication-Grade Dumbbell Chart",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 1147,
+    "type": "youtube",
+    "video_id": "wP8NWRR0Fdg",
+    "video_title": "Make Beautiful Excel Charts Like The Economist (file included)",
+    "video_url": "https://www.youtube.com/watch?v=wP8NWRR0Fdg",
+    "views": 631795
+  },
+  "tags": [
+    "dumbbell chart",
+    "dot plot",
+    "data visualization",
+    "gap analysis",
+    "comparative chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:30Z",
+  "wash_version": "1.0.0"
+}

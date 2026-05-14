@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_kpi_card_dashboard_85a17951",
+  "skill_name": "Modern KPI Card Dashboard",
+  "source": {
+    "channel": "SlideSalad",
+    "duration_sec": 159,
+    "type": "youtube",
+    "video_id": "D7bmmIxbv8c",
+    "video_title": "Financial KPI Dashboards PowerPoint Templates Designs |  SlideSalad",
+    "video_url": "https://www.youtube.com/watch?v=D7bmmIxbv8c",
+    "views": 469
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:36Z",
+  "wash_version": "1.0.0"
+}

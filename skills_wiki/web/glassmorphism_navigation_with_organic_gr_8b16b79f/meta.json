@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for SaaS landing pages, modern portfolios, and AI product dashboards requiring a tech-forward aesthetic. It balances rich visual depth with crisp readability by layering frosted-glass elements over a vibrant background.",
+  "category_path": [
+    "navigation",
+    "header"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_navigation_with_organic_gr_8b16b79f",
+  "skill_name": "Glassmorphism Navigation with Organic Gradient Mesh",
+  "source": {
+    "channel": "WPTuts",
+    "duration_sec": 499,
+    "type": "youtube",
+    "video_id": "waxVyqQZ5iU",
+    "video_title": "Create Stunning Glassmorphism and Gradient Mesh Effects",
+    "video_url": "https://www.youtube.com/watch?v=waxVyqQZ5iU",
+    "views": 9348
+  },
+  "tags": [
+    "glassmorphism",
+    "gradient-mesh",
+    "navigation",
+    "hero",
+    "backdrop-filter"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:51Z",
+  "wash_version": "1.0.0"
+}

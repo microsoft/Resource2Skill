@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "custom_freeform_image_masking_silhouette_1cce09f4",
+  "skill_name": "Custom Freeform Image Masking (Silhouette Crop)",
+  "source": {
+    "channel": "Tutorials with Ilker",
+    "duration_sec": 164,
+    "type": "youtube",
+    "video_id": "ax--_8BYhcI",
+    "video_title": "How to Mask an Image with Any Custom Shape in PowerPoint [2026 Full Guide]",
+    "video_url": "https://www.youtube.com/watch?v=ax--_8BYhcI",
+    "views": 290
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:32Z",
+  "wash_version": "1.0.0"
+}

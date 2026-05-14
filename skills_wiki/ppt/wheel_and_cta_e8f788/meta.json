@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for concluding presentations, this shell encourages audience engagement with a clear call-to-action, such as subscribing or following.",
+  "category_path": [
+    "closing_slides",
+    "call_to_action"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "wheel_and_cta_e8f788",
+  "skill_name": "Wheel and CTA",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "wheel",
+    "cta",
+    "closing slide",
+    "call to action",
+    "engagement",
+    "playful"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:21:02Z",
+  "wash_version": "1.0.0"
+}

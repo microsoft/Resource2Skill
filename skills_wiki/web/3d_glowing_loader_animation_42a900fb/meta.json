@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_loader_animation_42a900fb",
+  "skill_name": "3D Glowing Loader Animation",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:32:15Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "portfolio website with multiple elements animating into view"
+        },
+        {
+          "seconds": 43,
+          "description": "button transitioning its background color and size on hover"
+        },
+        {
+          "seconds": 218,
+          "description": "blue square animating with rotation, border-radius, and scaling"
+        },
+        {
+          "seconds": 640,
+          "description": "interactive blue square animation with play and pause buttons"
+        },
+        {
+          "seconds": 828,
+          "description": "loading animation with a rotating 3D square outline"
+        }
+      ],
+      "frames": [
+        "frame_00_portfolio_website_with_multipl.jpg",
+        "frame_01_button_transitioning_its_backg.jpg",
+        "frame_02_blue_square_animating_with_rot.jpg"
+      ],
+      "recapped_at": 1777408013.6123097
+    },
+    "primary_path": "frame_00_portfolio_website_with_multipl.jpg"
+  }
+}

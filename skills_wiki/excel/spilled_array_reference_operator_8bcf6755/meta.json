@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for referencing dynamic arrays to aggregate, summarize, or chain data. It is also used to define dynamic named ranges for chart series or data validation dropdowns with variable lengths.",
+  "category_path": [
+    "formulas",
+    "references",
+    "dynamic_arrays"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "spilled_array_reference_operator_8bcf6755",
+  "skill_name": "Spilled Array Reference Operator",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 918,
+    "type": "youtube",
+    "video_id": "WBuS4b2rujg",
+    "video_title": "10 Excel Formula Symbols You Wish You Knew Years Ago",
+    "video_url": "https://www.youtube.com/watch?v=WBuS4b2rujg",
+    "views": 553466
+  },
+  "tags": [
+    "dynamic_arrays",
+    "spilled_range",
+    "hash_operator",
+    "cell_reference",
+    "automation"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T08:57:05Z",
+  "wash_version": "1.0.0"
+}

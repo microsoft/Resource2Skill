@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_switcher_338f0b26",
+  "skill_name": "Dynamic Scenario Switcher",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:05:54Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Demonstration of the completed dynamic Excel model with scenario switching."
+        },
+        {
+          "seconds": 26,
+          "description": "Initial state of the Excel income statement and assumptions table."
+        },
+        {
+          "seconds": 234,
+          "description": "Revenue line populated in the income statement after initial calculations."
+        },
+        {
+          "seconds": 838,
+          "description": "A significant portion of the income statement, including fixed and variable expenses and initial profit margins, has been calculated."
+        },
+        {
+          "seconds": 1411,
+          "description": "The final dynamic model in action, demonstrating scenario switching and automated updates across the income statement."
+        }
+      ],
+      "frames": [
+        "frame_00_demonstration_of_the_completed.jpg",
+        "frame_01_initial_state_of_the_excel_inc.jpg",
+        "frame_02_revenue_line_populated_in_the_.jpg",
+        "frame_03_a_significant_portion_of_the_i.jpg"
+      ],
+      "recapped_at": 1777406662.1393287
+    },
+    "primary_path": "frame_00_demonstration_of_the_completed.jpg"
+  }
+}

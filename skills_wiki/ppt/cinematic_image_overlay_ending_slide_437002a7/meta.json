@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_image_overlay_ending_slide_437002a7",
+  "skill_name": "Cinematic Image Overlay Ending Slide",
+  "source": {
+    "channel": "Bobbie Lee",
+    "duration_sec": 650,
+    "type": "youtube",
+    "video_id": "QyjyGOShj3o",
+    "video_title": "\u5370\u8c61\u6df1\u523b\u7684\u7ed3\u675f\u9875\u8bbe\u8ba1\u53c2\u8003 - \u7528 WPS \u641e\u5b9a PPT",
+    "video_url": "https://www.youtube.com/watch?v=QyjyGOShj3o",
+    "views": 183
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:58:24Z",
+  "wash_version": "1.0.0"
+}

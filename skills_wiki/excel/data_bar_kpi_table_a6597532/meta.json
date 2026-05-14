@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_bar_kpi_table_a6597532",
+  "skill_name": "Data Bar KPI Table",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:37Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "target sales dashboard overview"
+        },
+        {
+          "seconds": 749,
+          "description": "dashboard with header, KPI shapes, icons, values and sales rep slicer"
+        },
+        {
+          "seconds": 1019,
+          "description": "dashboard with sales agent KPIs table and conditional formatting"
+        },
+        {
+          "seconds": 1442,
+          "description": "dashboard with all charts added"
+        },
+        {
+          "seconds": 1831,
+          "description": "final interactive dashboard after data refresh"
+        }
+      ],
+      "frames": [
+        "frame_00_target_sales_dashboard_overvie.jpg",
+        "frame_01_dashboard_with_header_kpi_shap.jpg",
+        "frame_02_dashboard_with_sales_agent_kpi.jpg"
+      ],
+      "recapped_at": 1777406468.9292564
+    },
+    "primary_path": "frame_00_target_sales_dashboard_overvie.jpg"
+  }
+}

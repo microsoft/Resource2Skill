@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scattered_3d_cubic_typography_3d_fd0b2ccd",
+  "skill_name": "Scattered 3D Cubic Typography (\u6563\u843d\u76843D\u7acb\u65b9\u5b57\u9ad4)",
+  "source": {
+    "channel": "\u7c21\u55ae\u60f3\uff0e\u52d5\u624b\u756b\uff0e\u4e00\u8d77\u73a9\u5716\u5361",
+    "duration_sec": 94,
+    "type": "youtube",
+    "video_id": "oddRASdT-4Q",
+    "video_title": "\u3010\u4e00\u8d77\u73a9\u5716\u5361 09\uff5c\u7ffb\u8f49\u5427\uff01\u7acb\u65b9\u5b57\u3011#PPT\u6559\u5b78 #\u77e5\u8b58\u5716\u5361 #Microsoft_PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=oddRASdT-4Q",
+    "views": 156
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:14Z",
+  "wash_version": "1.0.0"
+}

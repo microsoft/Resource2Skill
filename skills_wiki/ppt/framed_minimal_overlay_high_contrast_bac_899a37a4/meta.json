@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "framed_minimal_overlay_high_contrast_bac_899a37a4",
+  "skill_name": "Framed Minimal Overlay (High-Contrast Background Juxtaposition)",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 523,
+    "type": "youtube",
+    "video_id": "vFQLanK7Gi4",
+    "video_title": "How to properly present PowerPoint slides in Microsoft Teams",
+    "video_url": "https://www.youtube.com/watch?v=vFQLanK7Gi4",
+    "views": 1121858
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:27:28Z",
+  "wash_version": "1.0.0"
+}

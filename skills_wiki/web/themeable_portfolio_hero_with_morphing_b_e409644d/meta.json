@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for personal portfolios, creative agencies, or freelance resumes, this component offers interactive polish and a strong brand statement. It's suitable for any site needing a modern, dynamic hero section with theme toggling.",
+  "category_path": [
+    "ui_components",
+    "hero_sections"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themeable_portfolio_hero_with_morphing_b_e409644d",
+  "skill_name": "Themeable Portfolio Hero with Morphing Blob",
+  "source": {
+    "channel": "Coding Master",
+    "duration_sec": 1086,
+    "type": "youtube",
+    "video_id": "KNR___XhbBA",
+    "video_title": "How To Make Website With Dark Theme Using HTML, CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=KNR___XhbBA",
+    "views": 1675
+  },
+  "tags": [
+    "theme toggle",
+    "morphing blob",
+    "css animation",
+    "flexbox",
+    "portfolio hero",
+    "dark mode"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:09:25Z",
+  "wash_version": "1.0.0"
+}

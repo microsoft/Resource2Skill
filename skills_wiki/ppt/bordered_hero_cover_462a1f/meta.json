@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating impactful cover or section divider slides. It features a large, bordered hero image that fills most of the slide, with an optional headline overlay for strong visual communication.",
+  "category_path": [
+    "cover_page",
+    "image_layout"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bordered_hero_cover_462a1f",
+  "skill_name": "Bordered Hero Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover slide",
+    "hero image",
+    "bordered",
+    "title",
+    "bold",
+    "visual"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:00:37Z",
+  "wash_version": "1.0.0"
+}

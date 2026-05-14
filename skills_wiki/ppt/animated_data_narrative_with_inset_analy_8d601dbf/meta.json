@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for business reviews, research findings, and dashboard summaries, this technique effectively presents a primary trend with immediate breakdown of key drivers on a single slide. It layers information and guides the audience through complex data narratives.",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_data_narrative_with_inset_analy_8d601dbf",
+  "skill_name": "Animated Data Narrative with Inset Analysis",
+  "source": {
+    "channel": "Usman Aafaq",
+    "duration_sec": 310,
+    "type": "youtube",
+    "video_id": "edPchZsUhFA",
+    "video_title": "A simple way to edit Excel Graphs in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=edPchZsUhFA",
+    "views": 1444
+  },
+  "tags": [
+    "animation",
+    "data narrative",
+    "inset chart",
+    "time series",
+    "breakdown",
+    "sequential reveal"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:49:36Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for app mockups, software feature highlights, and dashboard slides requiring a high-fidelity digital product feel. Establish a professional design system logic directly in the presentation with seamless light and dark modes.",
+  "category_path": [
+    "ui_elements",
+    "cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ui_card_depth_lighting_dual_mode_design_c212b41e",
+  "skill_name": "UI Card Depth & Lighting (Dual-Mode Design)",
+  "source": {
+    "channel": "Sajid",
+    "duration_sec": 577,
+    "type": "youtube",
+    "video_id": "vvPklRN0Tco",
+    "video_title": "The Easy Way to Pick UI Colors",
+    "video_url": "https://www.youtube.com/watch?v=vvPklRN0Tco",
+    "views": 360609
+  },
+  "tags": [
+    "ui card",
+    "mockup",
+    "depth",
+    "drop shadow",
+    "light/dark mode",
+    "edge highlight"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:29:37Z",
+  "wash_version": "1.0.0"
+}

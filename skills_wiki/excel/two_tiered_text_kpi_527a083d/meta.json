@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_tiered_text_kpi_527a083d",
+  "skill_name": "Two-Tiered Text KPI",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:02:56Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Intro: boring numbers in Excel with colorful KPIs"
+        },
+        {
+          "seconds": 1,
+          "description": "Intro: boring numbers in Excel with colorful KPIs"
+        },
+        {
+          "seconds": 104,
+          "description": "Asia KPI with revenue and region title displayed"
+        },
+        {
+          "seconds": 130,
+          "description": "Asia KPI with revenue, market share, and region title completed"
+        },
+        {
+          "seconds": 247,
+          "description": "SmartArt shapes converted and styled in black and white"
+        }
+      ],
+      "frames": [
+        "frame_00_intro_boring_numbers_in_excel_.jpg",
+        "frame_01_intro_boring_numbers_in_excel_.jpg",
+        "frame_02_asia_kpi_with_revenue_and_regi.jpg",
+        "frame_03_asia_kpi_with_revenue_market_s.jpg"
+      ],
+      "recapped_at": 1777407927.9172468
+    },
+    "primary_path": "frame_00_intro_boring_numbers_in_excel_.jpg"
+  }
+}

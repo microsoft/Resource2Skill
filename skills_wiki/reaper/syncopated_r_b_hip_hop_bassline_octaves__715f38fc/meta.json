@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "syncopated_r_b_hip_hop_bassline_octaves__715f38fc",
+  "skill_name": "Syncopated R&B/Hip-Hop Bassline (Octaves, Fifths, & Passing Tones)",
+  "source": {
+    "channel": "Yaahn Hunter Jr.",
+    "duration_sec": 501,
+    "type": "youtube",
+    "video_id": "GezIe567DzU",
+    "video_title": "Basslines EXPLAINED! Make UNBELIEVABLE Basslines!",
+    "video_url": "https://www.youtube.com/watch?v=GezIe567DzU",
+    "views": 161782
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:57Z",
+  "wash_version": "1.0.0"
+}

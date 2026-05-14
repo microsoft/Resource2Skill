@@ -1,0 +1,71 @@
+{
+  "skill_id": "curved_split_cover_fa6ce6",
+  "skill_type": "shell",
+  "name": "Curved Split Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover"
+    ],
+    "content_shape": [
+      "curved-split-cover"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "warm",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/curved_split_cover_fa6ce6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "unified_master_layout_branding_51b40dd8",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A dynamic cover layout using a large oval overlay to create a curved split between the hero image and the title area.",
+  "_distill_attempts": 1
+}

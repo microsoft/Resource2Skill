@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_glassmorphism_bar_chart_a880b15e",
+  "skill_name": "Isometric Glassmorphism Bar Chart",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 726,
+    "type": "youtube",
+    "video_id": "PVydErV-wdc",
+    "video_title": "Create Animated Bar Chart Design Slide in PowerPoint | Tutorial 1011 | Free Template.",
+    "video_url": "https://www.youtube.com/watch?v=PVydErV-wdc",
+    "views": 102125
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:44:54Z",
+  "wash_version": "1.0.0"
+}

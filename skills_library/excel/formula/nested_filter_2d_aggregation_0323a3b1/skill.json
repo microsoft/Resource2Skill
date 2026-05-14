@@ -1,0 +1,18 @@
+{
+  "skill_id": "nested_filter_2d_aggregation_0323a3b1",
+  "skill_name": "Nested Filter 2D Aggregation",
+  "domain": "excel",
+  "category": "formula",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=zOG-Dl9W83U",
+    "video_id": "zOG-Dl9W83U",
+    "video_title": "5 Advanced Excel Formulas You Probably Didn't Know!",
+    "channel": "Kenji Explains",
+    "duration_sec": 701,
+    "views": 382124
+  },
+  "extracted_at": "2026-04-25T03:12:56.951708",
+  "analysis": "### 1. High-level Skill Pattern Extraction\n\n> **Skill Name**: Nested Filter 2D Aggregation\n\n* **Tier**: snippet\n* **Core Mechanism**: Nests two `FILTER` functions to slice a 2D data matrix by both row criteria and column criteria. The inner filter isolates matching rows based on a vertical lookup, while the outer filter isolates matching columns based on a horizontal lookup. The result is then wrapped in a `SUM` function to aggregate the values at the intersection.\n* **Applicability**: Best used for cross-tabular datasets (e.g., matrices with months on columns and product categories on rows) where you need to aggregate values based on both a row label (which may appear multiple times) and a column header. This technique cleanly overcomes the limitations of `SUMIFS`, which strictly requires 1D ranges of identical dimensions.\n\n### 2. Structural Breakdown\n\n- **Data Layout**: Requires a 2D grid of values (e.g., `C4:F25`), an adjacent vertical column of row labels (`B4:B25`), and an adjacent horizontal row of column headers (`C3:F3`). \n- **Formula Logic**: `=SUM(FILTER(FILTER({data_range}, {row_criteria_range}={row_criteria_value}), {col_criteria_range}={col_criteria_value}))`. The inner array filters vertically, outputting a smaller 2D array of rows; the outer array filters horizontally, yielding a 1D vertical array of values from the target column, which are then summed.\n- **Visual Design**: N/A (Formula Logic)\n- **Charts/Tables**: N/A (Formula Logic)\n- **Theme Hooks**: N/A (Formula Logic)\n\n### 3. Reproduction Code\n\n```json\n{\n  \"name\": \"nested_filter_2d_sum\",\n  \"description\": \"Sum the intersection of a 2D array by filtering rows based on one criteria and columns based on another.\",\n  \"formula\": \"=SUM(FILTER(FILTER({data_range}, {row_criteria_range}={row_criteria_value}), {col_criteria_range}={col_criteria_value}))\"\n}\n```",
+  "frames": []
+}

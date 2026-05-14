@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_triggered_glassmorphism_parallax_58154f53",
+  "skill_name": "Scroll-Triggered Glassmorphism Parallax",
+  "source": {
+    "channel": "QCT",
+    "duration_sec": 455,
+    "type": "youtube",
+    "video_id": "Dea2WttPMDs",
+    "video_title": "Modern Scroll Animation Landing Page From Scratch | HTML, CSS, JS",
+    "video_url": "https://www.youtube.com/watch?v=Dea2WttPMDs",
+    "views": 2372
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:32Z",
+  "wash_version": "1.0.0"
+}

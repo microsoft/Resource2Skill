@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates high-impact, cinematic title slides or section breaks. Best used for key announcements, event keynotes, or modern portfolios where visual punch is paramount over dense information.",
+  "category_path": [
+    "slide_layout",
+    "title_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vibrant_geometric_framed_overlay_8a0c8ef3",
+  "skill_name": "Vibrant Geometric Framed Overlay",
+  "source": {
+    "channel": "Warna Slides - Multi-Purpose PowerPoint Template",
+    "duration_sec": 247,
+    "type": "youtube",
+    "video_id": "upHH5jslZLE",
+    "video_title": "Section Breaker PowerPoint Templates",
+    "video_url": "https://www.youtube.com/watch?v=upHH5jslZLE",
+    "views": 364
+  },
+  "tags": [
+    "title slide",
+    "geometric frame",
+    "neon",
+    "high contrast",
+    "modern"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:18Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "skill_id": "static_quarterly_pnl_template",
+    "name": "Quarterly P&L Template",
+    "license": "cc0-1.0",
+    "path": "_seed/quarterly_pnl_template.xlsx",
+    "format": "xlsx",
+    "description": "# Quarterly P&L Template\n\nThree-sheet workbook (Summary, Details, Charts) demonstrating a quarterly profit-and-loss layout: KPI header band, line-item table with Excel SUM formulas, and a side-by-side bar chart comparing Q1-Q4. Suitable as a structural reference for `apply_component` cells targeting `quarterly_report` archetypes.\n\n## Layout\n- **Summary** — 4-row KPI band (Revenue, COGS, Gross Profit, Net Income) with absolute values and YoY %\n- **Details** — line items × quarters matrix with totals row\n- **Charts** — embedded BarChart referencing Details!B2:E12\n\n## Suggested use\nClone this layout when the agent needs a tidy P&L without inventing column structure from scratch.",
+    "applicability": "Quarterly profit and loss reporting with KPI band, line-item detail, and side-by-side quarter comparison chart.",
+    "tags": ["finance", "p_and_l", "kpi", "quarterly", "bar_chart"],
+    "source_url": "https://github.com/skill-wiki-static/excel-pnl-template"
+  },
+  {
+    "skill_id": "static_inventory_dashboard",
+    "name": "Inventory Dashboard",
+    "license": "mit",
+    "path": "_seed/inventory_dashboard.xlsx",
+    "format": "xlsx",
+    "description": "# Inventory Dashboard\n\nSingle-sheet inventory tracker with conditional formatting on stock-level columns (red < 10, yellow < 25, green ≥ 25), VLOOKUP for product names, and a donut chart for category distribution. Demonstrates a tight 12-row × 6-col layout that fits on screen without scrolling.\n\n## Cells of interest\n- B2:G2 — KPI tiles (Total SKUs, Reorder Count, Out-of-Stock, Avg DOS)\n- B4:G16 — main inventory table with conditional fill\n- I4:O14 — donut chart by category",
+    "applicability": "Inventory tracking dashboard with conditional formatting, VLOOKUP product names, and category donut chart.",
+    "tags": ["inventory", "dashboard", "conditional_format", "vlookup", "donut_chart"],
+    "source_url": "https://github.com/skill-wiki-static/excel-inventory"
+  },
+  {
+    "skill_id": "static_budget_variance_report",
+    "name": "Budget vs Actual Variance Report",
+    "license": "permissive",
+    "path": "_seed/budget_variance.xlsx",
+    "format": "xlsx",
+    "description": "# Budget vs Actual Variance Report\n\nTwo-sheet variance report: (1) Budget — planned line items per cost center; (2) Actual — observed line items; with a third Variance sheet computed via cross-sheet formulas (=Actual!B2-Budget!B2) and conditional formatting that highlights overspend in red and underspend in green. Headers anchored at row 2 so they stay visible when the table grows.\n\n## Formulas\n- C2:C100 — `=Actual!B2-Budget!B2` (variance amount)\n- D2:D100 — `=IFERROR(C2/Budget!B2, 0)` (variance %)\n- E1 — `=SUM(C2:C100)` (total variance)\n\n## Suggested use\nUse this layout for any periodic plan-vs-observed comparison; the cross-sheet formulas generalise beyond budgets.",
+    "applicability": "Plan-vs-actual variance reporting with cross-sheet formulas and conditional formatting on overspend/underspend.",
+    "tags": ["budget", "variance", "cross_sheet", "conditional_format", "finance"],
+    "source_url": "https://github.com/skill-wiki-static/excel-budget"
+  },
+  {
+    "skill_id": "static_employee_timesheet_blocked",
+    "name": "Employee Timesheet (proprietary)",
+    "license": "proprietary",
+    "path": "_seed/timesheet_proprietary.xlsx",
+    "format": "xlsx",
+    "description": "Internal timesheet template, NOT redistributable.",
+    "tags": ["timesheet"],
+    "source_url": "https://example.com/internal/timesheet"
+  }
+]

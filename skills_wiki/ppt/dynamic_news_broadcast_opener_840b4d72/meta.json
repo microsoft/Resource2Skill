@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for impactful title slides, section dividers, or event openers in corporate, technology, or finance presentations. It conveys a modern, fast-paced, and data-rich environment.",
+  "category_path": [
+    "presentation_elements",
+    "opener"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_news_broadcast_opener_840b4d72",
+  "skill_name": "Dynamic News Broadcast Opener",
+  "source": {
+    "channel": "\u4e09\u7acbiNEWS",
+    "duration_sec": 70,
+    "type": "youtube",
+    "video_id": "tAwPY5dhGKs",
+    "video_title": "\u9ad8\u96c4\u5e02\u9577\u6c92\u4e86\u5e02\u8b70\u6703\u8b70\u7a0b\u4e2d\u65b7\uff1f\u85cd\u7da0\u5c0d\u6b64\u610f\u898b\u4e0d\u540c\u3000\u6700\u7d42\u5354\u5546\u5305\u542b\u7e3d\u8cea\u8a62\u90fd\u4e0d\u4e2d\u65b7\u2502\u8a18\u8005 \u8cf4\u78a7\u9999 \u9023\u51a0\u667a \u6731\u6021\u84c9\u2502\u3010\u53f0\u7063\u8981\u805e\u3002\u5148\u77e5\u9053\u301120200609\u2502\u4e09\u7acbiNEWS",
+    "video_url": "https://www.youtube.com/watch?v=tAwPY5dhGKs",
+    "views": 857
+  },
+  "tags": [
+    "modern",
+    "dynamic",
+    "news",
+    "corporate",
+    "technology",
+    "broadcast"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:19:16Z",
+  "wash_version": "1.0.0"
+}

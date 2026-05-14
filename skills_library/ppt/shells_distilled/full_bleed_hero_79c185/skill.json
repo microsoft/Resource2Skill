@@ -1,0 +1,74 @@
+{
+  "skill_id": "full_bleed_hero_79c185",
+  "skill_type": "shell",
+  "name": "Full Bleed Hero",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "full-bleed-image"
+    ],
+    "density": "low",
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal",
+      "warm"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/full_bleed_hero_79c185/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "curated_identity_moodboard_grid_c7632290",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Extracts the full-bleed cinematic visual into a reusable cover/divider shell, adding optional text slots in the lower third for practical presentation use.",
+  "_distill_attempts": 1
+}

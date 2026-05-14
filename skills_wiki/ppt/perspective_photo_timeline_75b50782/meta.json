@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for visually representing historical progression, product roadmaps, project portfolios, or agendas by transforming static information into a dynamic, compelling journey that guides the viewer's eye.",
+  "category_path": [
+    "visual_effects",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perspective_photo_timeline_75b50782",
+  "skill_name": "Perspective Photo Timeline",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "jkbfCVIcHsk",
+    "video_title": "PPT\u521b\u610f\u8bbe\u8ba1\uff1aPPT\u5236\u4f5c\u7acb\u4f53\u56fe\u7247\u52a8\u753b\u5c55\u793a\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=jkbfCVIcHsk",
+    "views": 1275
+  },
+  "tags": [
+    "perspective",
+    "3d",
+    "timeline",
+    "photos",
+    "progression",
+    "dynamic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:42:03Z",
+  "wash_version": "1.0.0"
+}

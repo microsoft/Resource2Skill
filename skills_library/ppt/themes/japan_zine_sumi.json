@@ -1,0 +1,127 @@
+{
+  "theme_id": "japan_zine_sumi",
+  "name": "Japan Zine Sumi",
+  "palette": {
+    "bg": "#F7F4ED",
+    "panel": "#E8E2D5",
+    "accent": "#262423",
+    "accent2": "#C4402B",
+    "text": "#15130F",
+    "muted": "#6B665C",
+    "border": "#C8C2B2",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Cambria",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Cambria",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Book Antiqua",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Book Antiqua",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Book Antiqua",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Cambria",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "sumi_stroke",
+    "description": "Single sumi ink stroke as chapter mark"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "calm",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "glitch"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "calm",
+    "warm",
+    "research"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "research",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "ink-bleed",
+    "page-turn",
+    "margin-note",
+    "typewriter",
+    "column-rule",
+    "thesis"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "marquee",
+    "chromatic",
+    "neon"
+  ]
+}

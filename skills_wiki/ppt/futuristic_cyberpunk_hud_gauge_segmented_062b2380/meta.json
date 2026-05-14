@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "futuristic_cyberpunk_hud_gauge_segmented_062b2380",
+  "skill_name": "Futuristic Cyberpunk HUD Gauge (Segmented Circular Progress)",
+  "source": {
+    "channel": "\u5c0f\u5496PPT\u66f9\u5b78\u658c",
+    "duration_sec": 209,
+    "type": "youtube",
+    "video_id": "n2geMa68TYM",
+    "video_title": "\u5feb\u901f\u505a\u51fa\u5100\u8868\u677f\u7684\u8a2d\u8a08\u611f\uff01\u3010\u5546\u696d\u7c21\u5831PPT\u6559\u5b78\u3011\u5716\u8868\u8a2d\u8a08\uff1a32\u89d2\u661f\u5f62\uff0b\u751c\u751c\u5708(PPT DESIGN)   #\u7c21\u5831 \uff03PPT \uff03\u8a2d\u8a08 #ppt",
+    "video_url": "https://www.youtube.com/watch?v=n2geMa68TYM",
+    "views": 1327
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:28:44Z",
+  "wash_version": "1.0.0"
+}

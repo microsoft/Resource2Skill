@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_triad_displacement_voice_leading_a664d27a",
+  "skill_name": "Ambient Triad Displacement & Voice-Leading Sketch",
+  "source": {
+    "channel": "Jameson Nathan Jones",
+    "duration_sec": 923,
+    "type": "youtube",
+    "video_id": "zJmszSX8LPY",
+    "video_title": "How to make Ambient Music (that doesn't sound like AI slop)",
+    "video_url": "https://www.youtube.com/watch?v=zJmszSX8LPY",
+    "views": 26063
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:50Z",
+  "wash_version": "1.0.0"
+}

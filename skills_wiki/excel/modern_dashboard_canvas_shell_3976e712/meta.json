@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_dashboard_canvas_shell_3976e712",
+  "skill_name": "Modern Dashboard Canvas Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Preview of the final interactive Excel dashboard"
+        },
+        {
+          "seconds": 349,
+          "description": "Dashboard structure with titled shapes laid out"
+        },
+        {
+          "seconds": 840,
+          "description": "All individual charts (radar, map, line, donuts) created on the inputs tab"
+        },
+        {
+          "seconds": 1453,
+          "description": "Fully integrated and customized interactive Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_preview_of_the_final_interacti.jpg",
+        "frame_01_dashboard_structure_with_title.jpg",
+        "frame_02_all_individual_charts_radar_ma.jpg"
+      ],
+      "recapped_at": 1777407174.6085365
+    },
+    "primary_path": "frame_00_preview_of_the_final_interacti.jpg"
+  }
+}

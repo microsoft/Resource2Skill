@@ -1,0 +1,36 @@
+{
+  "applicability": "Use as a foundational layout for sales reports or KPI dashboards. It constructs a visual shell with a linked chart and reserved space for manual Slicer insertion via the Excel UI.",
+  "category_path": [
+    "reporting",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_shell_with_linked_chart_c1511c1e",
+  "skill_name": "Dashboard Shell with Linked Chart",
+  "source": {
+    "channel": "Chandoo",
+    "duration_sec": 333,
+    "type": "youtube",
+    "video_id": "ZZ-UGMztoqo",
+    "video_title": "How to use Excel Slicers like a PRO: Basics + 5 Advanced Tricks",
+    "video_url": "https://www.youtube.com/watch?v=ZZ-UGMztoqo",
+    "views": 246315
+  },
+  "tags": [
+    "dashboard",
+    "layout",
+    "bar chart",
+    "slicer placeholder",
+    "kpi report"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:53:15Z",
+  "wash_version": "1.0.0"
+}

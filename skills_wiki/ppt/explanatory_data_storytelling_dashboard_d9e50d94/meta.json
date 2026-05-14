@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for recurring business reports, such as monthly sales reviews or executive summaries, where a guided narrative is paramount. This layout moves the audience logically from high-level performance to detailed drivers.",
+  "category_path": [
+    "layout",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "explanatory_data_storytelling_dashboard_d9e50d94",
+  "skill_name": "Explanatory Storytelling Dashboard",
+  "source": {
+    "channel": "Maven Analytics",
+    "duration_sec": 821,
+    "type": "youtube",
+    "video_id": "OYbPOhK0wPo",
+    "video_title": "Telling a Story with Data | Dashboard Build Demo",
+    "video_url": "https://www.youtube.com/watch?v=OYbPOhK0wPo",
+    "views": 373871
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "data storytelling",
+    "business report",
+    "executive summary"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:24:48Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_hard_surface_sci_fi_crate_09310b57",
+  "skill_name": "Procedural Hard-Surface Sci-Fi Crate",
+  "source": {
+    "channel": "Josh - Blender Bros",
+    "duration_sec": 3416,
+    "type": "youtube",
+    "video_id": "O8UH8UBKO8w",
+    "video_title": "Create a smart box in Blender!",
+    "video_url": "https://www.youtube.com/watch?v=O8UH8UBKO8w",
+    "views": 104855
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:52Z",
+  "wash_version": "1.0.0"
+}

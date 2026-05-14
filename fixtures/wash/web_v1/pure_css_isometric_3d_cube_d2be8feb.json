@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_isometric_3d_cube_d2be8feb",
+  "source": {
+    "channel": "SoftCode",
+    "duration_sec": 474,
+    "type": "youtube",
+    "video_id": "CiPCauTLK9Y",
+    "video_title": "CSS3 Isometric Cube | 3D Isometric Design Html & CSS",
+    "video_url": "https://www.youtube.com/watch?v=CiPCauTLK9Y",
+    "views": 769
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

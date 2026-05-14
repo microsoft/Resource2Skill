@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for tech conference title slides, software architecture overviews, or product launches. This energetic visual transforms basic typography into a modern, data-driven focal point.",
+  "category_path": [
+    "visual_elements",
+    "dividers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fragmented_data_stream_tech_glitch_bar_ac2443a4",
+  "skill_name": "Fragmented Tech Glitch Bar",
+  "source": {
+    "channel": "ISTA Conference",
+    "duration_sec": 2519,
+    "type": "youtube",
+    "video_id": "xtJULQfpx3Q",
+    "video_title": "ISTA 2016 - Keynote: Corporate culture and creativity by Anthony Christov",
+    "video_url": "https://www.youtube.com/watch?v=xtJULQfpx3Q",
+    "views": 773
+  },
+  "tags": [
+    "tech design",
+    "glitch effect",
+    "data stream",
+    "fragmented divider",
+    "geometric shapes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:44Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parametric_arch_viz_room_shell_79d335ec",
+  "skill_name": "Parametric Arch-Viz Room Shell",
+  "source": {
+    "channel": "3D blend",
+    "duration_sec": 305,
+    "type": "youtube",
+    "video_id": "M4p7ztXFNuM",
+    "video_title": "how to create realistic architecture using blender (FREE) #viralvideo #blender #architecture #addon",
+    "video_url": "https://www.youtube.com/watch?v=M4p7ztXFNuM",
+    "views": 2529
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:19Z",
+  "wash_version": "1.0.0"
+}

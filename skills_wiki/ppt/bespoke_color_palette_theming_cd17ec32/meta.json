@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bespoke_color_palette_theming_cd17ec32",
+  "skill_name": "Bespoke Color Palette Theming",
+  "source": {
+    "channel": "Spotlight Impact Data Design",
+    "duration_sec": 421,
+    "type": "youtube",
+    "video_id": "BB5T6t_adGg",
+    "video_title": "How to Program Custom Color Palettes in PowerPoint! \ud83c\udf08 [PPT TIPS]",
+    "video_url": "https://www.youtube.com/watch?v=BB5T6t_adGg",
+    "views": 32282
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:52:46Z",
+  "wash_version": "1.0.0"
+}

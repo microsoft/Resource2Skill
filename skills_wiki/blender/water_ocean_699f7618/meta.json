@@ -1,0 +1,29 @@
+{
+  "applicability": "This material preset is ideal for rendering large, clear bodies of water such as oceans, lakes, and pools, providing realistic deep water characteristics.",
+  "category_path": [
+    "material_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "water_ocean_699f7618",
+  "skill_name": "water_ocean",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "water",
+    "ocean",
+    "liquid",
+    "reflection",
+    "material",
+    "blender"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:55Z",
+  "wash_version": "1.0.0"
+}

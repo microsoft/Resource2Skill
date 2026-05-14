@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_grid_based_presentation_dashboard_83c7782f",
+  "skill_name": "Native Grid-Based Presentation Dashboard",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 187,
+    "type": "youtube",
+    "video_id": "WgpfiVGs6qc",
+    "video_title": "Embed Excel Dashboards in PowerPoint - It's so bad!",
+    "video_url": "https://www.youtube.com/watch?v=WgpfiVGs6qc",
+    "views": 113567
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:33Z",
+  "wash_version": "1.0.0"
+}

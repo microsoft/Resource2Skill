@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for character portraits, hero prop showcases, or stylized item renders where the subject needs to stand out. Creates immediate drama, mood, and depth without relying on complex environments.",
+  "category_path": [
+    "lighting",
+    "rig"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_4_point_character_lighting_rig_729a253b",
+  "skill_name": "Cinematic 4-Point Character Lighting Rig",
+  "source": {
+    "channel": "TutsByKai",
+    "duration_sec": 480,
+    "type": "youtube",
+    "video_id": "3Qbd2TaUTSU",
+    "video_title": "CINEMATIC LIGHTING TUTORIAL - BLENDER 3.0 EEVEE TUTORIAL",
+    "video_url": "https://www.youtube.com/watch?v=3Qbd2TaUTSU",
+    "views": 5705
+  },
+  "tags": [
+    "lighting-rig",
+    "cinematic",
+    "character-lighting",
+    "rim-light",
+    "studio-lighting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:09Z",
+  "wash_version": "1.0.0"
+}

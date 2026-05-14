@@ -1,0 +1,36 @@
+# fabric_velvet
+
+## Description
+
+Soft velvet fabric — high roughness with sheen for grazing-angle highlight
+
+## Parameters
+
+```json
+{
+  "best_for": [
+    "sofas",
+    "curtains",
+    "luxury interiors",
+    "stage drapes"
+  ],
+  "principled": {
+    "Base Color": [
+      0.18,
+      0.05,
+      0.08,
+      1.0
+    ],
+    "Metallic": 0.0,
+    "Roughness": 0.95,
+    "Sheen Roughness": 0.3,
+    "Sheen Tint": [
+      0.95,
+      0.7,
+      0.7,
+      1.0
+    ],
+    "Sheen Weight": 0.6
+  }
+}
+```

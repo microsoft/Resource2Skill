@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_geometric_brackets_reveal_6d8e271a",
+  "skill_name": "Interlocking Geometric Brackets Reveal",
+  "source": {
+    "channel": "Med Aye",
+    "duration_sec": 239,
+    "type": "youtube",
+    "video_id": "uZmkZ0C20LI",
+    "video_title": "Creative PowerPoint Intro | Stunning Opening with Morph Transition",
+    "video_url": "https://www.youtube.com/watch?v=uZmkZ0C20LI",
+    "views": 1236
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:43:38Z",
+  "wash_version": "1.0.0"
+}

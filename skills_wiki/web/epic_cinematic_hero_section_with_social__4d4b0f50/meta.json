@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "epic_cinematic_hero_section_with_social__4d4b0f50",
+  "skill_name": "Epic Cinematic Hero Section with Social Proof Optimization",
+  "source": {
+    "channel": "Flux Academy",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=LJbkLdtEW00"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:37:49Z",
+  "wash_version": "1.0.0"
+}

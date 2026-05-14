@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_modern_architectural_blocking_do_b5a3b12e",
+  "skill_name": "Modular Modern Architectural Blocking & Downlighting",
+  "source": {
+    "channel": "Tender World",
+    "duration_sec": 1455,
+    "type": "youtube",
+    "video_id": "M38_wP_Nt7E",
+    "video_title": "Blender architecture exterior | This is how I visualize architecture just with Blender",
+    "video_url": "https://www.youtube.com/watch?v=M38_wP_Nt7E",
+    "views": 892
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:45Z",
+  "wash_version": "1.0.0"
+}

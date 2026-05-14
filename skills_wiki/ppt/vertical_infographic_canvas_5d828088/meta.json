@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating scrollable, continuous narratives like timelines, process flows, or listicles, which are best exported as PDFs or embedded online for a web-like reading experience.",
+  "category_path": [
+    "layout_design",
+    "infographic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_infographic_canvas_5d828088",
+  "skill_name": "Vertical Infographic Canvas",
+  "source": {
+    "channel": "How to Canvas",
+    "duration_sec": 294,
+    "type": "youtube",
+    "video_id": "WkSYjZRgtqI",
+    "video_title": "Creating an Infographic in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=WkSYjZRgtqI",
+    "views": 125647
+  },
+  "tags": [
+    "infographic",
+    "vertical",
+    "scrollable",
+    "timeline",
+    "process",
+    "web_export"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:17Z",
+  "wash_version": "1.0.0"
+}

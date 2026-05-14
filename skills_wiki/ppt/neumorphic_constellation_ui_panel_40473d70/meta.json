@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_constellation_ui_panel_40473d70",
+  "skill_name": "Neumorphic Constellation UI Panel",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 618,
+    "type": "youtube",
+    "video_id": "rylG2-jsrgo",
+    "video_title": "Motion Graphics and Kinetic Typography Animation Tutorial in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=rylG2-jsrgo",
+    "views": 131416
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:21:45Z",
+  "wash_version": "1.0.0"
+}

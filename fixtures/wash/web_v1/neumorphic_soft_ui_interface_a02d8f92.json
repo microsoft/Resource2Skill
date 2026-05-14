@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_soft_ui_interface_a02d8f92",
+  "source": {
+    "channel": "TemplateMonster",
+    "duration_sec": 177,
+    "type": "youtube",
+    "video_id": "-mb00gOdpa4",
+    "video_title": "NEUMORPHISM - DON'T FOLLOW THIS TREND! | TemplateMonster",
+    "video_url": "https://www.youtube.com/watch?v=-mb00gOdpa4",
+    "views": 80110
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

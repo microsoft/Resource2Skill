@@ -1,0 +1,35 @@
+{
+  "applicability": "This slide provides a clean, full-width layout for presenting a single chart, ideal for corporate dashboards and data visualizations with dedicated title, subtitle, and footer slots.",
+  "category_path": [
+    "ppt",
+    "slides",
+    "charts"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "standard_chart_slide_67f038",
+  "skill_name": "Standard Chart Slide",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "chart",
+    "data visualization",
+    "corporate",
+    "dashboard",
+    "minimal",
+    "slide shell"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:17:25Z",
+  "wash_version": "1.0.0"
+}

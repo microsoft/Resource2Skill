@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pop_punk_drone_riff_6da4b6d6",
+  "skill_name": "Pop Punk Drone Riff",
+  "source": {
+    "channel": "SugarpillProductions",
+    "duration_sec": 141,
+    "type": "youtube",
+    "video_id": "f8EQcGT0H6E",
+    "video_title": "Why You Should Write Pop Punk Riffs Like This",
+    "video_url": "https://www.youtube.com/watch?v=f8EQcGT0H6E",
+    "views": 75646
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:01Z",
+  "wash_version": "1.0.0"
+}

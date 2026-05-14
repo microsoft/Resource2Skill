@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "typography_cutout_mask_negative_space_te_dca06a70",
+  "skill_name": "Typography Cutout Mask (Negative Space Text Reveal)",
+  "source": {
+    "channel": "Microsoft Solutions",
+    "duration_sec": 156,
+    "type": "youtube",
+    "video_id": "9vzZ4vAzbtY",
+    "video_title": "Creative \ud83d\udd25 Motion Change Animated Thank You Slide in PowerPoint | Step-by-Step Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=9vzZ4vAzbtY",
+    "views": 49201
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:50:19Z",
+  "wash_version": "1.0.0"
+}

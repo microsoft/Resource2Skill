@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "architectural_minimalist_grid_layout_fb78878a",
+  "skill_name": "Architectural Minimalist Grid Layout",
+  "source": {
+    "channel": "Llyan Austria",
+    "duration_sec": 605,
+    "type": "youtube",
+    "video_id": "iPVzX0uHhpI",
+    "video_title": "Architecture Presentation Board Techniques",
+    "video_url": "https://www.youtube.com/watch?v=iPVzX0uHhpI",
+    "views": 105481
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:50:39Z",
+  "wash_version": "1.0.0"
+}

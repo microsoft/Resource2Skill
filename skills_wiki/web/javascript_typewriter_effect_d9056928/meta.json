@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly effective for hero banners, portfolio introductions, terminal interfaces, and chatbot UI responses. It grabs user attention by revealing text sequentially at a controlled pace, adding dynamism to static content.",
+  "category_path": [
+    "animation",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "javascript_typewriter_effect_d9056928",
+  "skill_name": "JavaScript Typewriter Effect",
+  "source": {
+    "channel": "dcode",
+    "duration_sec": 486,
+    "type": "youtube",
+    "video_id": "MiTJnYHX3iA",
+    "video_title": "How to Easily Create a Text Typewriter Effect with JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=MiTJnYHX3iA",
+    "views": 19663
+  },
+  "tags": [
+    "typewriter_effect",
+    "text_animation",
+    "typing_simulation",
+    "javascript",
+    "dynamic_text",
+    "ui_animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:01Z",
+  "wash_version": "1.0.0"
+}

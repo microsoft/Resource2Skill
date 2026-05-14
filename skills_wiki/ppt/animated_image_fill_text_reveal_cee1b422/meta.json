@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_image_fill_text_reveal_cee1b422",
+  "skill_name": "Animated Image-Fill Text Reveal",
+  "source": {
+    "channel": "Tech Tricks CM- \u062f \u06a9\u0645\u067e\u06cc\u0648\u067c\u0631 \u0627\u0648 \u0645\u0648\u0628\u0627\u06cc\u0644 \u067c\u0631\u06cc\u06a9\u0648\u0646\u0647",
+    "duration_sec": 257,
+    "type": "youtube",
+    "video_id": "P35qoPv_6_A",
+    "video_title": "How to Make a Stunning Welcome Slide in PowerPoint \ud83d\udd25 | Easy Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=P35qoPv_6_A",
+    "views": 8
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:24:44Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "discord_style_morphing_sidebar_animated__e7b53ebf",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 776,
+    "type": "youtube",
+    "video_id": "pfaSUYaSgRo",
+    "video_title": "Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar",
+    "video_url": "https://www.youtube.com/watch?v=pfaSUYaSgRo",
+    "views": 1612199
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

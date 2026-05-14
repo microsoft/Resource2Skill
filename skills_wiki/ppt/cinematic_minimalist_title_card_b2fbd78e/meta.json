@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a dramatic pause or introduces a key concept using stark, minimalist typography on a black background. Ideal for title sequences, section breaks, or impactful quotation slides to command audience attention.",
+  "category_path": [
+    "layout",
+    "title"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_minimalist_title_card_b2fbd78e",
+  "skill_name": "Cinematic Minimalist Title Card",
+  "source": {
+    "channel": "MrDogbrain",
+    "duration_sec": 60,
+    "type": "youtube",
+    "video_id": "nSWBF8cjcF4",
+    "video_title": "Customer Service PowerPoint Presentation For Dummies",
+    "video_url": "https://www.youtube.com/watch?v=nSWBF8cjcF4",
+    "views": 339
+  },
+  "tags": [
+    "minimalist",
+    "cinematic",
+    "title slide",
+    "typography",
+    "transition"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:59:12Z",
+  "wash_version": "1.0.0"
+}

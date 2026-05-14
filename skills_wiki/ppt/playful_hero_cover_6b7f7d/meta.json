@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating eye-catching cover or section divider slides, featuring a prominent hero image balanced by left-aligned text and an accent block.",
+  "category_path": [
+    "slide_types",
+    "cover"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "playful_hero_cover_6b7f7d",
+  "skill_name": "Playful Hero Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover",
+    "hero image",
+    "playful",
+    "minimal",
+    "section divider",
+    "accent"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:14:49Z",
+  "wash_version": "1.0.0"
+}

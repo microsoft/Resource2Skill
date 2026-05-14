@@ -1,0 +1,45 @@
+[
+  {
+    "skill_id": "static_corporate_pitch_template",
+    "name": "Corporate Pitch Template",
+    "license": "cc-by-4.0",
+    "path": "_seed/corporate_pitch.pptx",
+    "format": "pptx",
+    "description": "# Corporate Pitch Template\n\nTen-slide pitch deck template covering cover, problem, solution, market, product, business model, traction, team, ask, and closing. Uses a consistent navy + cyan palette with white sans-serif typography on a dark slide master. Each content slide demonstrates a different layout: split-image, three-bullet card row, KPI band, big-number callout, and quote-with-portrait.\n\n## Suggested use\nClone the deck and replace the placeholder text with the agent's content; the layouts and palette stay constant.",
+    "applicability": "Corporate pitch deck with consistent navy/cyan palette, 10-slide narrative arc, and varied layouts.",
+    "tags": ["pitch", "corporate", "navy", "10_slides", "deck_template"],
+    "source_url": "https://github.com/skill-wiki-static/ppt-corporate-pitch"
+  },
+  {
+    "skill_id": "static_data_storytelling_deck",
+    "name": "Data Storytelling Deck",
+    "license": "mit",
+    "path": "_seed/data_storytelling.pptx",
+    "format": "pptx",
+    "description": "# Data Storytelling Deck\n\nEight-slide deck demonstrating chart-driven storytelling: cover, key metric, bar chart with annotation arrows, line chart with trend overlay, donut chart with category callouts, comparison table, insight summary, and closing CTA. All charts are native PowerPoint shapes (no images) so colours can be re-themed via palette swap.",
+    "applicability": "Data-storytelling deck with annotated charts, comparison tables, and insight summary slides.",
+    "tags": ["data", "charts", "storytelling", "deck_template"],
+    "source_url": "https://github.com/skill-wiki-static/ppt-data-storytelling"
+  },
+  {
+    "skill_id": "static_minimal_one_pager",
+    "name": "Minimal One-Pager",
+    "license": "cc0-1.0",
+    "path": "_seed/minimal_one_pager.pptx",
+    "format": "pptx",
+    "description": "# Minimal One-Pager\n\nSingle-slide layout in 16:9 with a 60/40 column split: large headline + 3-bullet body on the left, hero illustration on the right. Designed as a drop-in for product summary one-pagers and meeting handouts. Uses a single accent colour token for headline + bullet markers so the entire layout re-themes via one CSS-style variable.",
+    "applicability": "Single-slide product summary one-pager with 60/40 column split and accent-color theming.",
+    "tags": ["one_pager", "summary", "minimal", "single_slide"],
+    "source_url": "https://github.com/skill-wiki-static/ppt-one-pager"
+  },
+  {
+    "skill_id": "static_internal_template_blocked",
+    "name": "Internal Sales Template (proprietary)",
+    "license": "proprietary",
+    "path": "_seed/internal_sales.pptx",
+    "format": "pptx",
+    "description": "Internal sales-org pitch template, NOT redistributable.",
+    "tags": ["sales"],
+    "source_url": "https://example.com/internal/sales-pitch"
+  }
+]

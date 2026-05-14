@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_text_cutout_mask_0e4184e8",
+  "skill_name": "Cinematic Text Cutout Mask",
+  "source": {
+    "channel": "Knowledge for Future",
+    "duration_sec": 265,
+    "type": "youtube",
+    "video_id": "D7W4VSCtolA",
+    "video_title": "Motion Change Animated Thank you  Slide In PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=D7W4VSCtolA",
+    "views": 437705
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:45Z",
+  "wash_version": "1.0.0"
+}

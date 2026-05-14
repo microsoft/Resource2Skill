@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_hero_metric_layout_d2f65155",
+  "skill_name": "Cinematic Hero Metric Layout",
+  "source": {
+    "channel": "satdubai",
+    "duration_sec": 96,
+    "type": "youtube",
+    "video_id": "55vAeZ6wrMs",
+    "video_title": "Presentology Before and After Examples created in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=55vAeZ6wrMs",
+    "views": 720
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:57:51Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_mechanical_flip_clock_ede6fccf",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 72,
+    "type": "youtube",
+    "video_id": "e696h2j9Qiw",
+    "video_title": "Pure CSS Number Counter - CSS Number Countdown Animation Effects No Javascript - Coming Soon",
+    "video_url": "https://www.youtube.com/watch?v=e696h2j9Qiw",
+    "views": 9188
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

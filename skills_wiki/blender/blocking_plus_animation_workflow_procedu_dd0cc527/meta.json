@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "blocking_plus_animation_workflow_procedu_dd0cc527",
+  "skill_name": "Blocking Plus Animation Workflow (Procedural Bouncing Ball)",
+  "source": {
+    "channel": "Sir Wade Neistadt",
+    "duration_sec": 539,
+    "type": "youtube",
+    "video_id": "KSRZg7PwgyU",
+    "video_title": "Why Your Stepped Animation Sucks in Spline",
+    "video_url": "https://www.youtube.com/watch?v=KSRZg7PwgyU",
+    "views": 61181
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:51:23Z",
+  "wash_version": "1.0.0"
+}

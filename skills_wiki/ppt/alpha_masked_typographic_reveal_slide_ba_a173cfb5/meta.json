@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "alpha_masked_typographic_reveal_slide_ba_a173cfb5",
+  "skill_name": "Alpha-Masked Typographic Reveal (Slide Background Fill Effect)",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 278,
+    "type": "youtube",
+    "video_id": "cDdLZO7ET_I",
+    "video_title": "MODERN Animated PowerPoint Slide Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=cDdLZO7ET_I",
+    "views": 345127
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:19Z",
+  "wash_version": "1.0.0"
+}

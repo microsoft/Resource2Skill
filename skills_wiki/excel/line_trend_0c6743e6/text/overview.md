@@ -1,0 +1,26 @@
+# line_trend
+
+## Description
+
+Smoothed line chart for time-series trend with markers
+
+## Parameters
+
+```json
+{
+  "axis_font_size": 10,
+  "chart_type": "LineChart",
+  "default_size": {
+    "height": 9,
+    "width": 18
+  },
+  "gridlines_major_x": false,
+  "gridlines_major_y": true,
+  "legend_position": "b",
+  "markers": true,
+  "show_legend": true,
+  "smooth": true,
+  "style": 12,
+  "title_size": 14
+}
+```

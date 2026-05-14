@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_frosted_glass_character_card_0b576a64",
+  "skill_name": "Cinematic Frosted Glass Character Card",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 220,
+    "type": "youtube",
+    "video_id": "axorL84as7U",
+    "video_title": "PPT | \u4eba\u7269\u4ecb\u7ecdPPT\u5c31\u7167\u8fd9\u4e2a\u5377\uff0c\u771f\u7684\u725b\uff01\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=axorL84as7U",
+    "views": 2160
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:57:22Z",
+  "wash_version": "1.0.0"
+}

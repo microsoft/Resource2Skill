@@ -1,0 +1,18 @@
+{
+  "skill_id": "unknown_skill_d073e0f0",
+  "skill_name": "Unknown Skill",
+  "domain": "excel",
+  "category": "other",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=gAthkbDcZ2c",
+    "video_id": "gAthkbDcZ2c",
+    "video_title": "How to Enable Dark Mode in Excel (The Ultimate Guide)",
+    "channel": "Excel Tutorials by EasyClick Academy",
+    "duration_sec": 249,
+    "views": 123830
+  },
+  "extracted_at": "2026-04-25T03:20:47.144441",
+  "analysis": "Skip — video covers Excel application-level UI settings (Office Theme) and a worksheet background image trick, neither of which are robust or standard patterns for `openpyxl` data automation.",
+  "frames": []
+}

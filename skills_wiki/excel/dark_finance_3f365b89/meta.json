@@ -1,0 +1,30 @@
+{
+  "applicability": "Applies a high-contrast dark mode styled after Bloomberg terminals, utilizing charcoal backgrounds and amber accents. Perfect for trading dashboards and financial models requiring monospace data presentation.",
+  "category_path": [
+    "formatting",
+    "themes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_finance_3f365b89",
+  "skill_name": "dark_finance",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "dark mode",
+    "theme",
+    "finance",
+    "dashboard",
+    "monospace",
+    "bloomberg"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:03:30Z",
+  "wash_version": "1.0.0"
+}

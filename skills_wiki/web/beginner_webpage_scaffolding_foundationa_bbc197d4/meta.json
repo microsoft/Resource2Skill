@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "beginner_webpage_scaffolding_foundationa_bbc197d4",
+  "skill_name": "Beginner Webpage Scaffolding & Foundational Styling",
+  "source": {
+    "channel": "Marighoul",
+    "duration_sec": 590,
+    "type": "youtube",
+    "video_id": "9z8FP8ear2Y",
+    "video_title": "HTML/CSS For Beginners ",
+    "video_url": "https://www.youtube.com/watch?v=9z8FP8ear2Y",
+    "views": 126309
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:04Z",
+  "wash_version": "1.0.0"
+}

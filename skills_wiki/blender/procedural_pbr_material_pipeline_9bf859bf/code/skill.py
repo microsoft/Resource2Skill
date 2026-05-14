@@ -1,0 +1,118 @@
+def create_object(
+    scene_name: str = "Scene",
+    object_name: str = "PBR_Surface",
+    location: tuple = (0, 0, 0),
+    scale: float = 1.0,
+    material_color: tuple = (0.7, 0.25, 0.25),
+    **kwargs,
+) -> str:
+    """
+    Create a highly detailed PBR material surface using true displacement.
+
+    Args:
+        scene_name: Name of the target scene.
+        object_name: Name for the created plane.
+        location: (x, y, z) world-space position.
+        scale: Uniform scale factor.
+        material_color: (R, G, B) base color of the surface.
+        **kwargs: Additional overrides.
+
+    Returns:
+        Status string.
+    """
+    import bpy
+
+    # Get scene and set up Render Engine for Displacement (Cycles Experimental)
+    scene = bpy.data.scenes.get(scene_name) or bpy.context.scene
+    scene.render.engine = 'CYCLES'
+    scene.cycles.feature_set = 'EXPERIMENTAL'
+
+    # === Step 1: Create Base Geometry ===
+    bpy.ops.mesh.primitive_plane_add(size=2, location=location)
+    obj = bpy.context.active_object
+    obj.name = object_name
+    obj.scale = (scale, scale, scale)
+
+    # Add Subdivision Surface modifier for Adaptive Displacement
+    subdiv_mod = obj.modifiers.new(name="Subdivision", type='SUBSURF')
+    subdiv_mod.subdivision_type = 'SIMPLE'
+    subdiv_mod.levels = 3
+    subdiv_mod.render_levels = 3
+    
+    # Enable Adaptive Subdivision if Cycles is available on the object
+    if hasattr(obj, 'cycles'):
+        obj.cycles.use_adaptive_subdivision = True
+
+    # === Step 2: Build Material ===
+    mat = bpy.data.materials.new(name=f"{object_name}_PBR_Mat")
+    mat.use_nodes = True
+    obj.data.materials.append(mat)
+
+    # Enable Displacement and Bump in material settings
+    mat.cycles.displacement_method = 'DISPLACEMENT_BUMP'
+
+    tree = mat.node_tree
+    nodes = tree.nodes
+    links = tree.links
+
+    # Clear default nodes
+    nodes.clear()
+
+    # Output Node
+    out_node = nodes.new('ShaderNodeOutputMaterial')
+    out_node.location = (1000, 0)
+
+    # Principled BSDF
+    bsdf = nodes.new('ShaderNodeBsdfPrincipled')
+    bsdf.location = (600, 0)
+    links.new(bsdf.outputs['BSDF'], out_node.inputs['Surface'])
+
+    # Mapping Coordinates (Ctrl+T setup)
+    tc_node = nodes.new('ShaderNodeTexCoord')
+    tc_node.location = (-800, 0)
+
+    map_node = nodes.new('ShaderNodeMapping')
+    map_node.location = (-600, 0)
+    links.new(tc_node.outputs['UV'], map_node.inputs['Vector'])
+
+    # Base Procedural Texture (Acts as our downloaded Image files)
+    noise_node = nodes.new('ShaderNodeTexNoise')
+    noise_node.location = (-400, 0)
+    noise_node.inputs['Scale'].default_value = 10.0
+    noise_node.inputs['Detail'].default_value = 15.0
+    links.new(map_node.outputs['Vector'], noise_node.inputs['Vector'])
+
+    # --- Channel 1: Base Color ---
+    color_ramp = nodes.new('ShaderNodeValToRGB')
+    color_ramp.location = (-100, 200)
+    color_ramp.color_ramp.elements[0].color = (0.05, 0.05, 0.05, 1.0)
+    color_ramp.color_ramp.elements[1].color = (material_color[0], material_color[1], material_color[2], 1.0)
+    links.new(noise_node.outputs['Fac'], color_ramp.inputs['Fac'])
+
+    hue_sat = nodes.new('ShaderNodeHueSaturation')
+    hue_sat.location = (200, 200)
+    links.new(color_ramp.outputs['Color'], hue_sat.inputs['Color'])
+    links.new(hue_sat.outputs['Color'], bsdf.inputs['Base Color'])
+
+    # --- Channel 2: Roughness (Simulating the Gloss -> Invert workflow) ---
+    invert_node = nodes.new('ShaderNodeInvert')
+    invert_node.location = (200, 0)
+    links.new(noise_node.outputs['Fac'], invert_node.inputs['Color'])
+    links.new(invert_node.outputs['Color'], bsdf.inputs['Roughness'])
+
+    # --- Channel 3: Normal Map ---
+    bump_node = nodes.new('ShaderNodeBump')
+    bump_node.location = (200, -200)
+    bump_node.inputs['Strength'].default_value = 0.5
+    links.new(noise_node.outputs['Fac'], bump_node.inputs['Height'])
+    links.new(bump_node.outputs['Normal'], bsdf.inputs['Normal'])
+
+    # --- Channel 4: Displacement ---
+    disp_node = nodes.new('ShaderNodeDisplacement')
+    disp_node.location = (600, -400)
+    disp_node.inputs['Scale'].default_value = 0.1
+    disp_node.inputs['Midlevel'].default_value = 0.5
+    links.new(noise_node.outputs['Fac'], disp_node.inputs['Height'])
+    links.new(disp_node.outputs['Displacement'], out_node.inputs['Displacement'])
+
+    return f"Created '{object_name}' with Procedural PBR Material Pipeline at {location}"

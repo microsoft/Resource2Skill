@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for application dashboards, admin panels, or documentation sites that require persistent navigation. The layout fluidly adapts from a multi-column desktop view to a mobile-friendly off-canvas menu.",
+  "category_path": [
+    "layout",
+    "application_shell"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_holy_grail_application_layout_900b3328",
+  "skill_name": "Responsive Holy Grail Layout",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 664,
+    "type": "youtube",
+    "video_id": "S9OiWe5iBYo",
+    "video_title": "How to create RESPONSIVE Layouts with CSS GRID",
+    "video_url": "https://www.youtube.com/watch?v=S9OiWe5iBYo",
+    "views": 217574
+  },
+  "tags": [
+    "css grid",
+    "responsive layout",
+    "application shell",
+    "sticky navigation",
+    "off-canvas"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:17:32Z",
+  "wash_version": "1.0.0"
+}

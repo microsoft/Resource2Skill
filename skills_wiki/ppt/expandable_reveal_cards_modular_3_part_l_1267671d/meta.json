@@ -1,0 +1,35 @@
+{
+  "applicability": "Replaces standard bullet points with dynamic, modular cards that animate to reveal content. This is ideal for presenting strategic pillars, core product features, or multi-step processes where each item requires a brief explanation.",
+  "category_path": [
+    "layouts",
+    "lists"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "expandable_reveal_cards_modular_3_part_l_1267671d",
+  "skill_name": "Animated Reveal Cards",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 364,
+    "type": "youtube",
+    "video_id": "JnQAfPXf__s",
+    "video_title": "PowerPoint Infographic With Stunning Sliding Animation Effect",
+    "video_url": "https://www.youtube.com/watch?v=JnQAfPXf__s",
+    "views": 5934
+  },
+  "tags": [
+    "animated list",
+    "reveal effect",
+    "info cards",
+    "process steps",
+    "vertical layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:24:32Z",
+  "wash_version": "1.0.0"
+}

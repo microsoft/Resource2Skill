@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diverging_symmetrical_comparison_split_r_742aa084",
+  "skill_name": "Diverging Symmetrical Comparison (\"Split-Ring Before/After Infographic\")",
+  "source": {
+    "channel": "SlideEgg",
+    "duration_sec": 579,
+    "type": "youtube",
+    "video_id": "QihgzDG9HCs",
+    "video_title": "How To Do A Before And After PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=QihgzDG9HCs",
+    "views": 4911
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:15:56Z",
+  "wash_version": "1.0.0"
+}

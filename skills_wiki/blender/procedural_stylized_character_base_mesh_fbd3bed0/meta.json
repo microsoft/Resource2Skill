@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_stylized_character_base_mesh_fbd3bed0",
+  "skill_name": "Procedural Stylized Character Base Mesh",
+  "source": {
+    "channel": "Domango",
+    "duration_sec": 216,
+    "type": "youtube",
+    "video_id": "H4A0WDC9T7k",
+    "video_title": "How to Make a 3D Game Character | Blender",
+    "video_url": "https://www.youtube.com/watch?v=H4A0WDC9T7k",
+    "views": 323306
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:46Z",
+  "wash_version": "1.0.0"
+}

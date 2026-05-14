@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_neon_sequential_spinner_42a900fb",
+  "skill_name": "3D Neon Sequential Spinner",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:55Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 48,
+          "description": "basic spinning square animation"
+        },
+        {
+          "seconds": 258,
+          "description": "multi-step animation with scaling and rotation"
+        },
+        {
+          "seconds": 541,
+          "description": "animation stopping and holding final state"
+        },
+        {
+          "seconds": 639,
+          "description": "interactive animation with play/pause buttons"
+        },
+        {
+          "seconds": 821,
+          "description": "complex 3D rotation loading animation"
+        }
+      ],
+      "frames": [
+        "frame_00_basic_spinning_square_animatio.jpg",
+        "frame_01_multi_step_animation_with_scal.jpg"
+      ],
+      "recapped_at": 1777408067.131634
+    },
+    "primary_path": "frame_00_basic_spinning_square_animatio.jpg"
+  }
+}

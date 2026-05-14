@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_holy_grail_application_layout_900b3328",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 664,
+    "type": "youtube",
+    "video_id": "S9OiWe5iBYo",
+    "video_title": "How to create RESPONSIVE Layouts with CSS GRID",
+    "video_url": "https://www.youtube.com/watch?v=S9OiWe5iBYo",
+    "views": 217574
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

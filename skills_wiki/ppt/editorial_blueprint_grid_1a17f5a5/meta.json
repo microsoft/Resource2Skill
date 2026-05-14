@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for concept breakdowns, corporate lookbooks, or case studies that need to balance varied information (images, text, stats) without looking cluttered. This skill transforms standard slides into a professional, publication-quality spread.",
+  "category_path": [
+    "layout",
+    "composition"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_blueprint_grid_1a17f5a5",
+  "skill_name": "Editorial Blueprint Grid",
+  "source": {
+    "channel": "Aworkzon",
+    "duration_sec": 575,
+    "type": "youtube",
+    "video_id": "D-q5SKSNIR8",
+    "video_title": "12 \u7f16\u8f91\u8bbe\u8ba1\uff08\u6392\u7248\uff09\uff08\u6392\u7248\u9700\u8981\u6ce8\u610f\u7684\u6587\u5b57\u548c\u56fe\u7247\u95ee\u9898\uff09",
+    "video_url": "https://www.youtube.com/watch?v=D-q5SKSNIR8",
+    "views": 40503
+  },
+  "tags": [
+    "grid layout",
+    "editorial design",
+    "alignment",
+    "composition",
+    "asymmetric"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:20:43Z",
+  "wash_version": "1.0.0"
+}

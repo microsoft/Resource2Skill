@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "transparent_dashboard_line_chart_c4d7021f",
+  "skill_name": "Transparent Dashboard Line Chart",
+  "source": {
+    "channel": "Other Level\u2019s",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=2FCUWp2HWXQ"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:38:28Z",
+  "wash_version": "1.0.0"
+}

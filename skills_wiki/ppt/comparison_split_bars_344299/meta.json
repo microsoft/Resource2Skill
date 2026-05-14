@@ -1,0 +1,34 @@
+{
+  "applicability": "Compares two products or concepts side-by-side using diverging horizontal bars to visualize performance across multiple shared metrics, ideal for direct contrasts.",
+  "category_path": [
+    "data_visualization",
+    "comparison"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "comparison_split_bars_344299",
+  "skill_name": "Comparison Split Bars",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "comparison",
+    "product comparison",
+    "split bar chart",
+    "metrics",
+    "data visualization",
+    "divergent"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:05:30Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_dashboard_with_custom_zoom_t_f0d05381",
+  "skill_name": "Interactive Dashboard with Custom Zoom Triggers",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 596,
+    "type": "youtube",
+    "video_id": "bOCN17NnuTI",
+    "video_title": "PowerPoint Infographic Dashboard + \ud83d\udd25Slide Zooms\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=bOCN17NnuTI",
+    "views": 324569
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:41:09Z",
+  "wash_version": "1.0.0"
+}

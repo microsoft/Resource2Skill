@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "swiss_international_typographic_layout_a7ea8409",
+  "skill_name": "Swiss International Typographic Layout",
+  "source": {
+    "channel": "CharmIQ",
+    "duration_sec": 916,
+    "type": "youtube",
+    "video_id": "9ATtZg4D0ak",
+    "video_title": "The Right & Simple Way to Build AI Presentations (Why Most Look Terrible)",
+    "video_url": "https://www.youtube.com/watch?v=9ATtZg4D0ak",
+    "views": 5
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:31Z",
+  "wash_version": "1.0.0"
+}

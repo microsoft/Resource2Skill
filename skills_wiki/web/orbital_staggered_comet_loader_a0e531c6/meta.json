@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a visually engaging loading indicator for web applications, suitable for full-page overlays or component-level placeholders. The dynamic, comet-like effect transforms standard wait times into a polished micro-interaction.",
+  "category_path": [
+    "components",
+    "loaders"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "orbital_staggered_comet_loader_a0e531c6",
+  "skill_name": "Orbital Staggered Comet Loader",
+  "source": {
+    "channel": "The WebShala",
+    "duration_sec": 545,
+    "type": "youtube",
+    "video_id": "apdk8YwsVpo",
+    "video_title": "Creative Loading Animation using Html  Css",
+    "video_url": "https://www.youtube.com/watch?v=apdk8YwsVpo",
+    "views": 1695
+  },
+  "tags": [
+    "loader",
+    "spinner",
+    "css animation",
+    "staggered",
+    "orbital"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:51Z",
+  "wash_version": "1.0.0"
+}

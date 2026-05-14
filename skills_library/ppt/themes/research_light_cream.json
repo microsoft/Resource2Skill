@@ -1,0 +1,132 @@
+{
+  "theme_id": "research_light_cream",
+  "name": "Research Light Cream",
+  "palette": {
+    "bg": "#FCF8F1",
+    "panel": "#EFE7D4",
+    "accent": "#886321",
+    "accent2": "#42689E",
+    "text": "#1F1A11",
+    "muted": "#6F6552",
+    "border": "#DCD1B4",
+    "success": "#3A8F72",
+    "warning": "#CF8A2F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Book Antiqua",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Book Antiqua",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Book Antiqua",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Book Antiqua",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Book Antiqua",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Book Antiqua",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Garamond",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "footnote_rule",
+    "description": "Footnote-style rule"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "calm",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "spin"
+    ]
+  },
+  "mood": [
+    "research",
+    "editorial",
+    "calm",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "research",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "typewriter",
+    "margin-note",
+    "thesis",
+    "hairline",
+    "column-rule",
+    "ink-bleed",
+    "page-turn",
+    "kicker-tick",
+    "mist",
+    "explorer-pin"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "glitch",
+    "confetti",
+    "balloon",
+    "slot-machine",
+    "neon",
+    "chromatic",
+    "marquee"
+  ]
+}

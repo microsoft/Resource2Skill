@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_gradient_text_clipping_f68f6aed",
+  "source": {
+    "channel": "Pratham Kumar",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "-6Yb9kpSbDk",
+    "video_title": "How to create a Gradient Text instead of a solid color using CSS",
+    "video_url": "https://www.youtube.com/watch?v=-6Yb9kpSbDk",
+    "views": 29729
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

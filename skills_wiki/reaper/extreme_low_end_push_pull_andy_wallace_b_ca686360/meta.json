@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for rock, metal, pop, and electronic music to achieve a bass that is massive in weight but tightly controlled. This technique works equally well on DI bass, synth bass, or blended bass bus signals.",
+  "category_path": [
+    "mixing",
+    "bass",
+    "dynamics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "extreme_low_end_push_pull_andy_wallace_b_ca686360",
+  "skill_name": "Push-Pull Low-End Bass Technique",
+  "source": {
+    "channel": "Green Light Sound",
+    "duration_sec": 268,
+    "type": "youtube",
+    "video_id": "zrWA9rglG24",
+    "video_title": "Andy Wallace Bass EQ Trick | Get Huge, Tight Bass In Your Mix",
+    "video_url": "https://www.youtube.com/watch?v=zrWA9rglG24",
+    "views": 380172
+  },
+  "tags": [
+    "bass",
+    "mixing",
+    "compression",
+    "low-end",
+    "andy wallace",
+    "eq"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:23Z",
+  "wash_version": "1.0.0"
+}

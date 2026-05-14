@@ -1,0 +1,29 @@
+{
+  "applicability": "Inventory tracking dashboard with conditional formatting, VLOOKUP product names, and category donut chart.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "mit",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_inventory_dashboard",
+  "skill_name": "Inventory Dashboard",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/excel-inventory"
+  },
+  "tags": [
+    "inventory",
+    "dashboard",
+    "conditional_format",
+    "vlookup",
+    "donut_chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:06Z",
+  "wash_version": "1.0.0"
+}

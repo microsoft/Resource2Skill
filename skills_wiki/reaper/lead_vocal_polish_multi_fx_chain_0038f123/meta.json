@@ -1,0 +1,36 @@
+{
+  "applicability": "A universal starting template for mixing any focal element like lead vocals, synths, or guitars. It establishes a standard signal flow for tonal sculpting, dynamic control, and spatial depth.",
+  "category_path": [
+    "mixing",
+    "vocal_processing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lead_vocal_polish_multi_fx_chain_0038f123",
+  "skill_name": "Lead Vocal Polishing FX Chain",
+  "source": {
+    "channel": "Goobster's Room",
+    "duration_sec": 503,
+    "type": "youtube",
+    "video_id": "JGGnla8RKP4",
+    "video_title": "Every Major Audio Effect Explained in 8 Minutes!",
+    "video_url": "https://www.youtube.com/watch?v=JGGnla8RKP4",
+    "views": 508156
+  },
+  "tags": [
+    "vocal mixing",
+    "fx chain",
+    "signal flow",
+    "compression",
+    "eq",
+    "polish"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:51:29Z",
+  "wash_version": "1.0.0"
+}

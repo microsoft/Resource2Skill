@@ -1,0 +1,61 @@
+{
+  "skill_id": "centered_pie_chart_d6fa19",
+  "skill_type": "shell",
+  "name": "Centered Pie Chart",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "chart+legend"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "data_points",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 14
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_pie_chart_d6fa19/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "interactive_gamified_spinning_wheel_whee_cecf461b",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the centered pie chart layout with a bottom legend, using a bullet list slot to populate the legend items.",
+  "_distill_attempts": 1
+}

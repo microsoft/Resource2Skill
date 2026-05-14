@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_gamified_spinning_wheel_whee_cecf461b",
+  "skill_name": "Interactive Gamified Spinning Wheel (\"Wheel of Fortune\")",
+  "source": {
+    "channel": "Office Tutorials",
+    "duration_sec": 278,
+    "type": "youtube",
+    "video_id": "mWF8D7ysL9k",
+    "video_title": "[HOW-TO] Create a Randomized SPINNING WHEEL Name SELECTOR in PowerPoint (Easy Method!)",
+    "video_url": "https://www.youtube.com/watch?v=mWF8D7ysL9k",
+    "views": 281522
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:31Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for B2B SaaS landing pages, tech startup homepages, and product launch announcements. It effectively communicates modernity, speed, and reliability to elevate user engagement and conversion.",
+  "category_path": [
+    "layout",
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_saas_gradient_hero_section_e90cb45d",
+  "skill_name": "Modern SaaS Gradient Hero Section",
+  "source": {
+    "channel": "Salman Designs ",
+    "duration_sec": 3250,
+    "type": "youtube",
+    "video_id": "5f4V6Y6WKyE",
+    "video_title": "Figma Tutorial: Clean B2B SaaS Landing Page Design + Free Resources | White Mode Professional UI",
+    "video_url": "https://www.youtube.com/watch?v=5f4V6Y6WKyE",
+    "views": 2172
+  },
+  "tags": [
+    "saas",
+    "hero section",
+    "gradient",
+    "b2b",
+    "landing page",
+    "marketing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:15:06Z",
+  "wash_version": "1.0.0"
+}

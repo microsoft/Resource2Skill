@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "infographic_table_of_contents_with_fadin_bd7dda56",
+  "skill_name": "Infographic Table of Contents with Fading Bars",
+  "source": {
+    "channel": "powerpoint skills",
+    "duration_sec": 783,
+    "type": "youtube",
+    "video_id": "w140NJjM9mE",
+    "video_title": "tuto 4 [part I]: create a table of content infographic in powerpoint | \u062a\u0635\u0645\u064a\u0645 \u0639\u0631\u0636 \u0644\u0644\u0645\u062d\u062a\u0648\u064a\u0627\u062a \u0628\u0627\u062d\u062a\u0631\u0627\u0641\u064a\u0629",
+    "video_url": "https://www.youtube.com/watch?v=w140NJjM9mE",
+    "views": 28716
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:39:51Z",
+  "wash_version": "1.0.0"
+}

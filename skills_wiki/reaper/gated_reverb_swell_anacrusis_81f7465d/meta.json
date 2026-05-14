@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for EDM, pop, and cinematic transitions to build tension before a major downbeat or drop. The crescendo and sudden silence create a vacuum effect that maximizes the impact of the following section.",
+  "category_path": [
+    "fx",
+    "transitions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gated_reverb_swell_anacrusis_81f7465d",
+  "skill_name": "Gated Reverb Swell (Anacrusis)",
+  "source": {
+    "channel": "ThaLoops",
+    "duration_sec": 68,
+    "type": "youtube",
+    "video_id": "IrVvZTAyCd0",
+    "video_title": "How To Automate Your Reverb Using A Volume Envelope",
+    "video_url": "https://www.youtube.com/watch?v=IrVvZTAyCd0",
+    "views": 89
+  },
+  "tags": [
+    "gated-reverb",
+    "swell",
+    "transition",
+    "automation",
+    "anacrusis",
+    "tension"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:03Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rhythmic_gating___fake_sidechain_pump__a_3f727ca0",
+  "skill_name": "Rhythmic Gating / Fake Sidechain Pump (Automation Envelopes)",
+  "source": {
+    "channel": "REAPER Mania",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=ckjl-rpzDPA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:54:03Z",
+  "wash_version": "1.0.0"
+}

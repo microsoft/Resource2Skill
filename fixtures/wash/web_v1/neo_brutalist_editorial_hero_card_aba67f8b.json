@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neo_brutalist_editorial_hero_card_aba67f8b",
+  "source": {
+    "channel": "edgykatrina",
+    "duration_sec": 876,
+    "type": "youtube",
+    "video_id": "sFY1_tEXcOs",
+    "video_title": "How to design a creative portfolio | resources, personal branding, tips & tricks",
+    "video_url": "https://www.youtube.com/watch?v=sFY1_tEXcOs",
+    "views": 101027
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

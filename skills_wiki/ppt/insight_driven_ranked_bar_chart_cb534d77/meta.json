@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for scenarios requiring clear ranking or comparison of discrete categories, like market share or performance data. A staple in consulting and executive reporting for presenting persuasive, data-driven arguments.",
+  "category_path": [
+    "charts",
+    "bar_charts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "insight_driven_ranked_bar_chart_cb534d77",
+  "skill_name": "Insight-Driven Ranked Bar Chart",
+  "source": {
+    "channel": "Analyst Academy",
+    "duration_sec": 1010,
+    "type": "youtube",
+    "video_id": "MuSSeIE3Og8",
+    "video_title": "Redesigning beautiful charts to look like McKinsey slides",
+    "video_url": "https://www.youtube.com/watch?v=MuSSeIE3Og8",
+    "views": 124578
+  },
+  "tags": [
+    "bar chart",
+    "ranking",
+    "data visualization",
+    "consulting",
+    "business reporting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:40:06Z",
+  "wash_version": "1.0.0"
+}

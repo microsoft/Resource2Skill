@@ -1,0 +1,110 @@
+def create_pattern(
+    project_name: str = "MyProject",
+    track_name: str = "Generative Drums",
+    bpm: int = 120,
+    key: str = "C",  # Retained for API signature, ignored for unpitched drums
+    scale: str = "major", # Retained for API signature, ignored for unpitched drums
+    bars: int = 4,
+    velocity_base: int = 100,
+    **kwargs,
+) -> str:
+    """
+    Create a Syncopated Generative Drum Loop in the current REAPER project.
+    Emulates an algorithmic 16-step sequencer pattern.
+
+    Args:
+        project_name: Project identifier (for logging).
+        track_name: Name for the created track.
+        bpm: Tempo in BPM.
+        key: Root note (ignored).
+        scale: Scale type (ignored).
+        bars: Number of bars to generate.
+        velocity_base: Base MIDI velocity (0-127).
+        **kwargs: Additional overrides.
+
+    Returns:
+        Status string describing the creation.
+    """
+    import reaper_python as RPR
+
+    # === Step 1: Set Tempo ===
+    RPR.RPR_SetCurrentBPM(0, bpm, False)
+
+    # === Step 2: Create Track ===
+    # purely additive, appends to the end
+    track_idx = RPR.RPR_CountTracks(0)
+    RPR.RPR_InsertTrackAtIndex(track_idx, True)
+    track = RPR.RPR_GetTrack(0, track_idx)
+    RPR.RPR_GetSetMediaTrackInfo_String(track, "P_NAME", track_name, True)
+
+    # === Step 3: Create MIDI Item ===
+    beats_per_bar = 4
+    bar_length_sec = (60.0 / bpm) * beats_per_bar
+    step_length_sec = bar_length_sec / 16.0
+    item_length = bar_length_sec * bars
+    
+    start_time = RPR.RPR_GetCursorPosition()
+    
+    item = RPR.RPR_AddMediaItemToTrack(track)
+    RPR.RPR_SetMediaItemInfo_Value(item, "D_POSITION", start_time)
+    RPR.RPR_SetMediaItemInfo_Value(item, "D_LENGTH", item_length)
+    take = RPR.RPR_AddTakeToMediaItem(item)
+
+    # Standard GM Drum Map Notes
+    KICK = 36
+    SNARE = 38
+    HAT = 42
+
+    # 16-step binary patterns
+    # Pattern A has a syncopated kick before beat 2 and 4
+    kick_pattern_a = [1, 0, 0, 1,  1, 0, 0, 0,  1, 0, 0, 1,  1, 0, 0, 0]
+    # Pattern B varies the ending to act as a turnaround
+    kick_pattern_b = [1, 0, 0, 0,  1, 0, 0, 0,  1, 0, 0, 1,  1, 0, 1, 0]
+    
+    # Standard snare on 2 and 4
+    snare_pattern =  [0, 0, 0, 0,  1, 0, 0, 0,  0, 0, 0, 0,  1, 0, 0, 0]
+    # Continuous 16th note hi-hats
+    hat_pattern =    [1, 1, 1, 1,  1, 1, 1, 1,  1, 1, 1, 1,  1, 1, 1, 1]
+    
+    # Velocity accents (accentuating off-beats for groove)
+    hat_vel_pattern =[70, 40, 100, 40,  70, 40, 100, 40,  70, 40, 100, 40,  70, 40, 100, 40]
+
+    note_count = 0
+    
+    # === Step 4: Populate MIDI Notes ===
+    for bar in range(bars):
+        # Alternate kick pattern every other bar for generative variation
+        kick_p = kick_pattern_a if bar % 2 == 0 else kick_pattern_b
+        
+        for step in range(16):
+            step_time = start_time + (bar * bar_length_sec) + (step * step_length_sec)
+            end_time = step_time + (step_length_sec * 0.8) # 80% gate duration for tightness
+            
+            # Convert absolute seconds to MIDI PPQ (Pulses Per Quarter Note)
+            start_ppq = RPR.RPR_MIDI_GetPPQPosFromProjTime(take, step_time)
+            end_ppq = RPR.RPR_MIDI_GetPPQPosFromProjTime(take, end_time)
+            
+            # Insert Kick
+            if kick_p[step] == 1:
+                v = max(1, min(127, int(velocity_base)))
+                RPR.RPR_MIDI_InsertNote(take, False, False, start_ppq, end_ppq, 0, KICK, v, True)
+                note_count += 1
+                
+            # Insert Snare
+            if snare_pattern[step] == 1:
+                v = max(1, min(127, int(velocity_base)))
+                RPR.RPR_MIDI_InsertNote(take, False, False, start_ppq, end_ppq, 0, SNARE, v, True)
+                note_count += 1
+                
+            # Insert Hi-Hat
+            if hat_pattern[step] == 1:
+                # Scale predefined velocity contour against the global velocity_base
+                v_scaled = int(hat_vel_pattern[step] * (velocity_base / 100.0))
+                v = max(1, min(127, v_scaled))
+                RPR.RPR_MIDI_InsertNote(take, False, False, start_ppq, end_ppq, 0, HAT, v, True)
+                note_count += 1
+
+    # Finalize by sorting MIDI events (required by REAPER API after bulk insertions)
+    RPR.RPR_MIDI_Sort(take)
+
+    return f"Created '{track_name}' with {note_count} drum notes over {bars} bars at {bpm} BPM."

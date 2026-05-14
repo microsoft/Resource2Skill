@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for explaining complex system interactions and data flows in technical presentations, this skill transforms static diagrams into an engaging, sequential narrative.",
+  "category_path": [
+    "animation",
+    "data_flow",
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_data_flow_architectural_diagram_65d45e53",
+  "skill_name": "Animated Data Flow Architectural Diagram",
+  "source": {
+    "channel": "Amigoscode",
+    "duration_sec": 672,
+    "type": "youtube",
+    "video_id": "JRwTCKjc37o",
+    "video_title": "Here's The Secret How To Create These Animated Diagrams",
+    "video_url": "https://www.youtube.com/watch?v=JRwTCKjc37o",
+    "views": 637529
+  },
+  "tags": [
+    "data flow",
+    "system architecture",
+    "animation",
+    "technical explanation",
+    "motion path",
+    "microservices"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:24:39Z",
+  "wash_version": "1.0.0"
+}

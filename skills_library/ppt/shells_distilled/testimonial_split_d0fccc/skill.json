@@ -1,0 +1,107 @@
+{
+  "skill_id": "testimonial_split_d0fccc",
+  "skill_type": "shell",
+  "name": "Testimonial Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote"
+    ],
+    "content_shape": [
+      "image-header+quote-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "editorial",
+      "warm",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "landscape",
+      "bullet_capacity": null
+    },
+    {
+      "name": "author_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "square",
+      "bullet_capacity": null
+    },
+    {
+      "name": "author_name",
+      "kind": "text",
+      "required": true,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "author_title",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "quote",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/testimonial_split_d0fccc/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "horizontal_testimonial_carousel_social_p_19600d28",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A split horizontal layout featuring a hero image header with an overlaid title, and a distinct lower panel for the testimonial quote and author details.",
+  "_distill_attempts": 1
+}

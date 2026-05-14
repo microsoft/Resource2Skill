@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_neobrutalist_grid_with_hover__833ff682",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 2637,
+    "type": "youtube",
+    "video_id": "NWZQkwXtHJo",
+    "video_title": "Modern Responsive Portfolio Website with HTML & CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=NWZQkwXtHJo",
+    "views": 61541
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

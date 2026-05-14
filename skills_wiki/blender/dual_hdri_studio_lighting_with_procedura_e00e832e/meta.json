@@ -1,0 +1,36 @@
+{
+  "applicability": "Enhances product, automotive, or character renders by combining the realism of a primary HDRI with the artistic control of a secondary, tinted HDRI for dramatic rim lighting. This technique provides granular control over reflections without complex manual light setups.",
+  "category_path": [
+    "lighting",
+    "world_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_hdri_studio_lighting_with_procedura_e00e832e",
+  "skill_name": "Dual HDRI Studio Lighting with Procedural Tint",
+  "source": {
+    "channel": "Bacosil",
+    "duration_sec": 217,
+    "type": "youtube",
+    "video_id": "-rK2twqsIT4",
+    "video_title": "Blender HDRI lighting tutorial (with secrets)",
+    "video_url": "https://www.youtube.com/watch?v=-rK2twqsIT4",
+    "views": 11613
+  },
+  "tags": [
+    "hdri",
+    "studio lighting",
+    "world shader",
+    "rim light",
+    "product viz"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:05:58Z",
+  "wash_version": "1.0.0"
+}

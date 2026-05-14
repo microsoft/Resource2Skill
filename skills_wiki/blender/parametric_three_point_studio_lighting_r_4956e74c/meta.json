@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parametric_three_point_studio_lighting_r_4956e74c",
+  "skill_name": "Parametric Three-Point Studio Lighting Rig with Blackbody Temperatures",
+  "source": {
+    "channel": "RenderRides",
+    "duration_sec": 372,
+    "type": "youtube",
+    "video_id": "XcJyW5iBKlU",
+    "video_title": "Master Lighting in Blender Under 6 Minutes!",
+    "video_url": "https://www.youtube.com/watch?v=XcJyW5iBKlU",
+    "views": 149284
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:41Z",
+  "wash_version": "1.0.0"
+}

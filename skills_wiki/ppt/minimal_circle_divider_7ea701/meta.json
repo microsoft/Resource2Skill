@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for creating clean and modern section dividers or title slides, providing a visual break with a large, stylistic circle and focused text content.",
+  "category_path": [
+    "section_divider",
+    "minimal_design"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_circle_divider_7ea701",
+  "skill_name": "Minimal Circle Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "minimal",
+    "section divider",
+    "cover slide",
+    "geometric",
+    "corporate",
+    "clean"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:35Z",
+  "wash_version": "1.0.0"
+}

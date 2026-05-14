@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for 'Hero' metric slides and high-impact dashboards, perfect for showcasing global statistics or key performance indicators in tech and annual reports.",
+  "category_path": [
+    "data_visualization",
+    "metric_display"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "radial_burst_metric_visualization_249df0f0",
+  "skill_name": "Radial Burst Metric Visualization",
+  "source": {
+    "channel": "\u78ca\u571f\u89c6\u754c",
+    "duration_sec": 720,
+    "type": "youtube",
+    "video_id": "7Yfq_enx-jg",
+    "video_title": "\u7528AI\u7b14\u5237\u5de5\u5177\u5236\u4f5c\u4fe1\u606f\u56fe\u8868 | Adobe illustrator Tutorials infographic",
+    "video_url": "https://www.youtube.com/watch?v=7Yfq_enx-jg",
+    "views": 603
+  },
+  "tags": [
+    "radial chart",
+    "metric visualization",
+    "infographic",
+    "dashboard element",
+    "data visualization",
+    "hero metric"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:12Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for educational decks, data science portfolios, and training materials. This layout emphasizes the relationship within the data over specific numerical values, making complex concepts easier to digest.",
+  "category_path": [
+    "layout",
+    "showcase"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "analytical_chart_educational_showcase_la_64b054b4",
+  "skill_name": "Analytical Chart Showcase Layout",
+  "source": {
+    "channel": "Prof. Ryan Ahmed",
+    "duration_sec": 429,
+    "type": "youtube",
+    "video_id": "csXmVBw8cdo",
+    "video_title": "Science of Data Visualization | Bar, scatter plot, line, histograms, pie, box plots, bubble chart",
+    "video_url": "https://www.youtube.com/watch?v=csXmVBw8cdo",
+    "views": 191331
+  },
+  "tags": [
+    "data visualization",
+    "educational",
+    "charts",
+    "minimalist",
+    "infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:49:20Z",
+  "wash_version": "1.0.0"
+}

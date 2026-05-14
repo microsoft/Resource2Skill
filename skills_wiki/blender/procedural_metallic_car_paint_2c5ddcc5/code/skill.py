@@ -1,0 +1,180 @@
+def create_object(
+    scene_name: str = "Scene",
+    object_name: str = "CarPaintMaterial_Demo",
+    location: tuple = (0, 0, 0),
+    scale: float = 1.0,
+    material_color_1: tuple = (0.02, 0.1, 0.05, 1.0), # Dark base green
+    material_color_2: tuple = (0.05, 0.2, 0.1, 1.0),  # Lighter green highlight
+    flakes_scale: float = 10000.0,
+    orange_peel_scale: float = 1000.0,
+    **kwargs,
+) -> str:
+    """
+    Create a procedural metallic car paint material applied to a subdivided mesh.
+
+    Args:
+        scene_name: Name of the target scene.
+        object_name: Name for the created mesh object.
+        location: (x, y, z) world-space position.
+        scale: Uniform scale factor.
+        material_color_1: Base primary color.
+        material_color_2: Base secondary variation color.
+        flakes_scale: Scale of the Voronoi metallic flakes (higher = smaller flakes).
+        orange_peel_scale: Scale of the clearcoat noise ripple.
+
+    Returns:
+        Status string.
+    """
+    import bpy
+
+    # Ensure we are operating on the correct scene
+    scene = bpy.data.scenes.get(scene_name) or bpy.data.scenes[0]
+    
+    # === Step 1: Create Base Geometry (Monkey for curved reflections) ===
+    bpy.ops.mesh.primitive_monkey_add(location=location)
+    obj = bpy.context.active_object
+    obj.name = object_name
+    obj.scale = (scale, scale, scale)
+    
+    # Add subdivision surface to make it perfectly smooth
+    subsurf = obj.modifiers.new(name="Subdivision", type='SUBSURF')
+    subsurf.levels = 3
+    subsurf.render_levels = 3
+    
+    # Enable smooth shading
+    for poly in obj.data.polygons:
+        poly.use_smooth = True
+
+    # === Step 2: Build Procedural Shader Material ===
+    mat = bpy.data.materials.new(name=f"{object_name}_Mat")
+    mat.use_nodes = True
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+
+    # Clear default nodes
+    for node in nodes:
+        nodes.remove(node)
+
+    # Output node
+    out_node = nodes.new('ShaderNodeOutputMaterial')
+    out_node.location = (1200, 0)
+
+    # Principled BSDF
+    bsdf = nodes.new('ShaderNodeBsdfPrincipled')
+    bsdf.location = (800, 0)
+    links.new(bsdf.outputs['BSDF'], out_node.inputs['Surface'])
+
+    # Base properties
+    bsdf.inputs['Metallic'].default_value = 1.0
+    bsdf.inputs['Roughness'].default_value = 0.3
+
+    # Handle API changes for Clearcoat (Blender <4.0 vs >=4.0)
+    if 'Clearcoat' in bsdf.inputs:
+        bsdf.inputs['Clearcoat'].default_value = 1.0
+        bsdf.inputs['Clearcoat Roughness'].default_value = 0.01
+    elif 'Clearcoat Weight' in bsdf.inputs:
+        bsdf.inputs['Clearcoat Weight'].default_value = 1.0
+        bsdf.inputs['Clearcoat Roughness'].default_value = 0.01
+
+    # Handle API changes for Specular
+    if 'Specular' in bsdf.inputs:
+        bsdf.inputs['Specular'].default_value = 0.1
+    elif 'Specular IOR Level' in bsdf.inputs:
+        bsdf.inputs['Specular IOR Level'].default_value = 0.1
+
+    # === Flakes (Voronoi -> Separate/Combine -> Normal Map -> Normal) ===
+    tex_voronoi = nodes.new('ShaderNodeTexVoronoi')
+    tex_voronoi.location = (-200, -200)
+    tex_voronoi.inputs['Scale'].default_value = flakes_scale
+
+    # Handle API changes for RGB/Color Separation
+    if bpy.app.version >= (3, 3, 0):
+        sep_rgb = nodes.new('ShaderNodeSeparateColor')
+        comb_rgb = nodes.new('ShaderNodeCombineColor')
+        comb_rgb.inputs[2].default_value = 1.0 # Blue to 1.0
+    else:
+        sep_rgb = nodes.new('ShaderNodeSeparateRGB')
+        comb_rgb = nodes.new('ShaderNodeCombineRGB')
+        comb_rgb.inputs['B'].default_value = 1.0
+
+    sep_rgb.location = (0, -200)
+    comb_rgb.location = (200, -200)
+
+    normal_map = nodes.new('ShaderNodeNormalMap')
+    normal_map.location = (400, -200)
+    normal_map.inputs['Strength'].default_value = 0.2
+
+    links.new(tex_voronoi.outputs['Color'], sep_rgb.inputs[0])
+    links.new(sep_rgb.outputs[0], comb_rgb.inputs[0]) # Red -> Red
+    links.new(sep_rgb.outputs[1], comb_rgb.inputs[1]) # Green -> Green
+    links.new(comb_rgb.outputs[0], normal_map.inputs['Color'])
+    links.new(normal_map.outputs['Normal'], bsdf.inputs['Normal'])
+
+    # === Orange Peel (Noise -> Bump -> Clearcoat Normal) ===
+    tex_noise_op = nodes.new('ShaderNodeTexNoise')
+    tex_noise_op.location = (200, -500)
+    tex_noise_op.inputs['Scale'].default_value = orange_peel_scale
+
+    bump = nodes.new('ShaderNodeBump')
+    bump.location = (400, -500)
+    bump.inputs['Strength'].default_value = 0.05
+    bump.inputs['Distance'].default_value = 0.1
+
+    links.new(tex_noise_op.outputs['Fac'], bump.inputs['Height'])
+    
+    # Handle normal naming change (if any, standard is 'Clearcoat Normal')
+    if 'Clearcoat Normal' in bsdf.inputs:
+        links.new(bump.outputs['Normal'], bsdf.inputs['Clearcoat Normal'])
+
+    # === Base Color Variation & Specks ===
+    tex_noise_base = nodes.new('ShaderNodeTexNoise')
+    tex_noise_base.location = (-400, 400)
+    tex_noise_base.inputs['Scale'].default_value = 1000.0
+    tex_noise_base.inputs['Detail'].default_value = 15.0
+
+    ramp_base = nodes.new('ShaderNodeValToRGB')
+    ramp_base.location = (-200, 400)
+    ramp_base.color_ramp.elements[0].color = material_color_1
+    ramp_base.color_ramp.elements[1].color = material_color_2
+
+    tex_noise_specks = nodes.new('ShaderNodeTexNoise')
+    tex_noise_specks.location = (-400, 100)
+    tex_noise_specks.inputs['Scale'].default_value = 1000.0
+    tex_noise_specks.inputs['Detail'].default_value = 15.0
+
+    ramp_specks = nodes.new('ShaderNodeValToRGB')
+    ramp_specks.location = (-200, 100)
+    ramp_specks.color_ramp.elements[0].position = 0.85
+    ramp_specks.color_ramp.elements[0].color = (0, 0, 0, 1) # Black
+    ramp_specks.color_ramp.elements[1].position = 0.95
+    ramp_specks.color_ramp.elements[1].color = (1, 1, 1, 1) # White specks
+
+    # Handle Mix node API changes (Blender <3.4 vs >=3.4)
+    if bpy.app.version >= (3, 4, 0):
+        mix_color = nodes.new('ShaderNodeMix')
+        mix_color.data_type = 'RGBA'
+        mix_color.blend_type = 'ADD'
+        mix_color.inputs[0].default_value = 0.15 # Factor
+        mix_color.location = (200, 250)
+        links.new(ramp_base.outputs['Color'], mix_color.inputs[6]) # A
+        links.new(ramp_specks.outputs['Color'], mix_color.inputs[7]) # B
+        links.new(mix_color.outputs[2], bsdf.inputs['Base Color'])
+    else:
+        mix_color = nodes.new('ShaderNodeMixRGB')
+        mix_color.blend_type = 'ADD'
+        mix_color.inputs['Fac'].default_value = 0.15
+        mix_color.location = (200, 250)
+        links.new(ramp_base.outputs['Color'], mix_color.inputs['Color1'])
+        links.new(ramp_specks.outputs['Color'], mix_color.inputs['Color2'])
+        links.new(mix_color.outputs['Color'], bsdf.inputs['Base Color'])
+
+    links.new(tex_noise_base.outputs['Fac'], ramp_base.inputs['Fac'])
+    links.new(tex_noise_specks.outputs['Fac'], ramp_specks.inputs['Fac'])
+
+    # Apply material
+    if len(obj.data.materials) == 0:
+        obj.data.materials.append(mat)
+    else:
+        obj.data.materials[0] = mat
+
+    return f"Created '{object_name}' with procedural car paint material at {location}"

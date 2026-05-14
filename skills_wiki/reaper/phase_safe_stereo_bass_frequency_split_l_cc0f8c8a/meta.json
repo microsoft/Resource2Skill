@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for electronic, pop, or hip-hop productions utilizing wide, detuned, or chorused synth basses. Ensures robust low-end mono compatibility while maintaining a broad stereo image.",
+  "category_path": [
+    "mixing",
+    "stereo_management"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "phase_safe_stereo_bass_frequency_split_l_cc0f8c8a",
+  "skill_name": "Phase-Safe Stereo Bass (Frequency Split / Low-End Monoing)",
+  "source": {
+    "channel": "Produce in a Minute",
+    "duration_sec": 235,
+    "type": "youtube",
+    "video_id": "lHLnf-N8r6M",
+    "video_title": "How to Avoid Phase Issues",
+    "video_url": "https://www.youtube.com/watch?v=lHLnf-N8r6M",
+    "views": 48918
+  },
+  "tags": [
+    "bass",
+    "stereo",
+    "mono",
+    "crossover",
+    "phase-safe",
+    "mixing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:53:16Z",
+  "wash_version": "1.0.0"
+}

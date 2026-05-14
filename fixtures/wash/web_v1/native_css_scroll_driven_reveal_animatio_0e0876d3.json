@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_reveal_animatio_0e0876d3",
+  "source": {
+    "channel": "Snippets Code",
+    "duration_sec": 171,
+    "type": "youtube",
+    "video_id": "0TnO1GzKWPc",
+    "video_title": "Animate On Scroll With Just 3 LINES Of CSS (No Libraries Needed)",
+    "video_url": "https://www.youtube.com/watch?v=0TnO1GzKWPc",
+    "views": 621279
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for Neo-Soul, R&B, and Lo-Fi hip-hop where melody-driven harmony is essential. Harmonizing from the top down ensures that the chord progression inherently serves and supports the lead melody.",
+  "category_path": [
+    "harmony",
+    "chord_progressions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "melodic_top_down_chord_progression_shell_7affc6cc",
+  "skill_name": "Melodic Top-Down Chord Progression (Shell Voicing Harmonization)",
+  "source": {
+    "channel": "Trevor Wong",
+    "duration_sec": 357,
+    "type": "youtube",
+    "video_id": "NaMmHqJI6UI",
+    "video_title": "Chord Progression Secret: MELODY FIRST",
+    "video_url": "https://www.youtube.com/watch?v=NaMmHqJI6UI",
+    "views": 458264
+  },
+  "tags": [
+    "shell-voicings",
+    "top-down-harmony",
+    "neo-soul",
+    "lo-fi",
+    "harmonization",
+    "chords"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:34Z",
+  "wash_version": "1.0.0"
+}

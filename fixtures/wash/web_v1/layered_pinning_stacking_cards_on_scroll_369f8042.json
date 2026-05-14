@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "layered_pinning_stacking_cards_on_scroll_369f8042",
+  "source": {
+    "channel": "GSAP Learning",
+    "duration_sec": 1303,
+    "type": "youtube",
+    "video_id": "X7IBa7vZjmo",
+    "video_title": "Introducing ScrollTrigger for GSAP",
+    "video_url": "https://www.youtube.com/watch?v=X7IBa7vZjmo",
+    "views": 420540
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

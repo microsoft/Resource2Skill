@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "latin_caribbean_percussion_grooves_0870607a",
+  "skill_name": "Latin & Caribbean Percussion Grooves",
+  "source": {
+    "channel": "Sight Read Drums",
+    "duration_sec": 210,
+    "type": "youtube",
+    "video_id": "MNbpj_BltaE",
+    "video_title": "10 Latin Beats Every Drum Kit Player Should Know \ud83e\udd41",
+    "video_url": "https://www.youtube.com/watch?v=MNbpj_BltaE",
+    "views": 203906
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:13Z",
+  "wash_version": "1.0.0"
+}

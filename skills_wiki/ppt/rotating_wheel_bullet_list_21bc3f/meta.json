@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for displaying a list of key points or features with a dynamic, rotating visual element. Suitable for section dividers or bulleted cards requiring a playful yet corporate aesthetic.",
+  "category_path": [
+    "presentation",
+    "lists",
+    "animated_elements"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rotating_wheel_bullet_list_21bc3f",
+  "skill_name": "Rotating Wheel Bullet List",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "rotating wheel",
+    "bullet list",
+    "dynamic layout",
+    "section divider",
+    "animated",
+    "corporate"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:15:38Z",
+  "wash_version": "1.0.0"
+}

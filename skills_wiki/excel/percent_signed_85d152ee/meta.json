@@ -1,0 +1,29 @@
+{
+  "applicability": "Useful for displaying changes or variances as percentages, explicitly showing positive/negative signs and highlighting negative values in red.",
+  "category_path": [
+    "formatting",
+    "number_formats"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "percent_signed_85d152ee",
+  "skill_name": "percent_signed",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "percent",
+    "variance",
+    "color-coded",
+    "number format",
+    "signed"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:01:37Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+  "variant_id": "esports_team_intro",
+  "out_dirname": "esports_team_intro",
+  "title": "Midnight Reef Esports — Series A",
+  "audience": "gaming-focused VC partners evaluating a competitive esports org",
+  "tone_words": ["bold", "cinematic", "punchy"],
+  "archetype_preference": "product",
+  "mood_preference": ["bold", "cinematic", "punchy"],
+  "mode_preference": "dark",
+  "n_slides": 11,
+  "role_prefer": ["cover", "hero_giant_metric", "feature_grid", "metric_dashboard", "timeline_horizontal", "closing_cta"],
+  "role_avoid": ["hero_quote", "section_divider"],
+  "dense_quota": 3,
+  "core_points": [
+    "Org thesis: esports spend the next decade re-verticalizing — regional orgs beat global brands",
+    "Our five-game roster built around SEA+ANZ timezone: Valorant, League, Dota 2, Apex, Smash",
+    "Champion hardware: 7 top-32 placements across 3 games in 2025",
+    "Audience footprint: 2.1M monthly unique viewers across Twitch + YouTube, 58% 18-24",
+    "Sponsor mix: 4 anchor brands locked, $3.4M committed for 2026, 2 renewals already signed",
+    "Content arm: weekly team-media series, 140K avg views per episode, brand-safe and creator-led",
+    "Facility: dedicated 4,200 sqft bootcamp in Auckland with practice rooms, studio, PT/physio",
+    "Player pipeline: academy program with 18 under-20 players; two have already promoted to starting roster",
+    "Unit economics: $220K avg revenue per team, $140K avg cost per team, profitable at top-2-game focus",
+    "Risk and mitigation: game-title risk (hedged via 5-game portfolio), talent retention (equity + tenure bonuses)",
+    "Series A ask: $18M at $72M post, 18-month runway to double sponsor roster and expand to Korea"
+  ]
+}

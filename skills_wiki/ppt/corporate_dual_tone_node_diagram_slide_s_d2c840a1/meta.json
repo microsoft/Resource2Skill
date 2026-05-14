@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_dual_tone_node_diagram_slide_s_d2c840a1",
+  "skill_name": "Corporate Dual-Tone Node Diagram (Slide Science Style)",
+  "source": {
+    "channel": "Dan Galletta",
+    "duration_sec": 148,
+    "type": "youtube",
+    "video_id": "QeYCt2Wjr_M",
+    "video_title": "How (and Why) to Add Sections in PowerPoint in 2 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=QeYCt2Wjr_M",
+    "views": 8377
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:04:43Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,34 @@
+{
+  "applicability": "Presents information in a UI-like application window layout, featuring a numbered list of items on the left, an optional side image, and a bottom action bar.",
+  "category_path": [
+    "layouts",
+    "application_ui"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "app_window_list_585785",
+  "skill_name": "App Window List",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "ui layout",
+    "numbered list",
+    "feature list",
+    "side image",
+    "application window",
+    "modern"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:35Z",
+  "wash_version": "1.0.0"
+}

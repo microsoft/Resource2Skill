@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_keyframe_loader___play_state__42a900fb",
+  "skill_name": "3D Glowing Keyframe Loader & Play-State Controller",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:49:29Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 18,
+          "description": "blue square rotating and changing shape"
+        },
+        {
+          "seconds": 54,
+          "description": "website with an animated plane flying"
+        },
+        {
+          "seconds": 235,
+          "description": "element growing as a square, then rotating and becoming rounded"
+        },
+        {
+          "seconds": 628,
+          "description": "looping animation pauses on mouse hover"
+        },
+        {
+          "seconds": 712,
+          "description": "a glowing square rotating in 3D as a loading animation"
+        }
+      ],
+      "frames": [
+        "frame_00_blue_square_rotating_and_chang.jpg",
+        "frame_01_website_with_an_animated_plane.jpg",
+        "frame_02_element_growing_as_a_square_th.jpg"
+      ],
+      "recapped_at": 1777408020.4147873
+    },
+    "primary_path": "frame_00_blue_square_rotating_and_chang.jpg"
+  }
+}

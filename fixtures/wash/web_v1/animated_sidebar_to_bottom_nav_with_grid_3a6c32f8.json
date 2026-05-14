@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_sidebar_to_bottom_nav_with_grid_3a6c32f8",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1982,
+    "type": "youtube",
+    "video_id": "R7b3OlEyqug",
+    "video_title": "Build a Responsive Sidebar Menu with Animated Dropdowns | HTML CSS JavaScript Project",
+    "video_url": "https://www.youtube.com/watch?v=R7b3OlEyqug",
+    "views": 271645
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

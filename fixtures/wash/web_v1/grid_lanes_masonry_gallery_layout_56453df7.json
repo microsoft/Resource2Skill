@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "grid_lanes_masonry_gallery_layout_56453df7",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 386,
+    "type": "youtube",
+    "video_id": "yikbSQ6tvlE",
+    "video_title": "display: masonry is offiially DEAD",
+    "video_url": "https://www.youtube.com/watch?v=yikbSQ6tvlE",
+    "views": 24905
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

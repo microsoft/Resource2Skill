@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "groovy_slap_style_bassline_427bb40e",
+  "skill_name": "Groovy Slap-Style Bassline",
+  "source": {
+    "channel": "Synthet",
+    "duration_sec": 122,
+    "type": "youtube",
+    "video_id": "FVoDtyZzO8s",
+    "video_title": "how to BASS",
+    "video_url": "https://www.youtube.com/watch?v=FVoDtyZzO8s",
+    "views": 2871786
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:16:53Z",
+  "wash_version": "1.0.0"
+}

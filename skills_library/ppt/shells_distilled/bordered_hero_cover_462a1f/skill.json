@@ -1,0 +1,61 @@
+{
+  "skill_id": "bordered_hero_cover_462a1f",
+  "skill_type": "shell",
+  "name": "Bordered Hero Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover"
+    ],
+    "content_shape": [
+      "hero-image"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title_xl",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/bordered_hero_cover_462a1f/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "retro_futuristic_flight_perspective_grid_62e4eb2c",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The slide features a large central graphic, which translates well to a hero image slot with an optional headline overlay.",
+  "_distill_attempts": 2
+}

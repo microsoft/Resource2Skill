@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "exploded_geometric_reveal_fragmented_cal_c22dd959",
+  "skill_name": "Exploded Geometric Reveal (Fragmented Callout)",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 1083,
+    "type": "youtube",
+    "video_id": "zcITARGg3CQ",
+    "video_title": "PowerPoint Tips & Tricks",
+    "video_url": "https://www.youtube.com/watch?v=zcITARGg3CQ",
+    "views": 1048749
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:25:03Z",
+  "wash_version": "1.0.0"
+}

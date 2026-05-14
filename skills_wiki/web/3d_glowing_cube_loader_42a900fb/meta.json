@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_cube_loader_42a900fb",
+  "skill_name": "3D Glowing Cube Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:01:27Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Showcase of various website animations"
+        },
+        {
+          "seconds": 0,
+          "description": "Basic square rotating and becoming a circle"
+        },
+        {
+          "seconds": 2,
+          "description": "Element scaling up and rotating into a circle"
+        },
+        {
+          "seconds": 5,
+          "description": "Animation alternating direction (forward and backward rotation)"
+        },
+        {
+          "seconds": 6,
+          "description": "Interactive animation with play/pause buttons"
+        }
+      ],
+      "frames": [
+        "frame_00_showcase_of_various_website_an.jpg",
+        "frame_01_basic_square_rotating_and_beco.jpg",
+        "frame_02_element_scaling_up_and_rotatin.jpg",
+        "frame_03_animation_alternating_directio.jpg",
+        "frame_04_interactive_animation_with_pla.jpg"
+      ],
+      "recapped_at": 1777407985.9101675
+    },
+    "primary_path": "frame_00_showcase_of_various_website_an.jpg"
+  }
+}

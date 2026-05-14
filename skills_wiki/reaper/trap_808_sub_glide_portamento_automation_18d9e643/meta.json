@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trap_808_sub_glide_portamento_automation_18d9e643",
+  "skill_name": "Trap 808 Sub Glide (Portamento Automation)",
+  "source": {
+    "channel": "Beats By Canna",
+    "duration_sec": 620,
+    "type": "youtube",
+    "video_id": "9u-42WLHn5o",
+    "video_title": "How To Create BASS SLIDES in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=9u-42WLHn5o",
+    "views": 10640
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:01:09Z",
+  "wash_version": "1.0.0"
+}

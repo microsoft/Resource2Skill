@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "pivot_table"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_e94b981d",
+  "source": {
+    "channel": "Sharon Smith",
+    "duration_sec": 135,
+    "type": "youtube",
+    "video_id": "mrk5MNrgPiU",
+    "video_title": "Simplifying Pivot Tables with Timelines and Slicers - Data Visualization Made Easy",
+    "video_url": "https://www.youtube.com/watch?v=mrk5MNrgPiU",
+    "views": 11942
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

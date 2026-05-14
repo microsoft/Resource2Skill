@@ -1,0 +1,39 @@
+{
+  "skill_id": "procedural_displaced_ground_plane_f10cab70",
+  "skill_name": "Procedural Displaced Ground Plane",
+  "domain": "blender",
+  "category": "material_shader",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=bPtg4rFkBcA",
+    "video_id": "bPtg4rFkBcA",
+    "video_title": "basic ground displacement in blender (procedural) tutorial",
+    "channel": "powdered_bread",
+    "duration_sec": 246,
+    "views": 51496
+  },
+  "extracted_at": "2026-04-14T04:51:12.198407",
+  "analysis": "### 1. High-level Design Pattern Extraction\n\n> **Skill Name**: Procedural Displaced Ground Plane\n\n* **Core Visual Mechanism**: A high-density polygonal grid deformed by a **Displacement Modifier**, which is driven by a procedural **Clouds (Noise) texture**. This instantly creates an uneven, organic, bumpy surface.\n* **Why Use This Skill (Rationale)**: Hand-modeling or sculpting large areas of uneven ground is time-consuming and often requires massive polygon counts. Using a procedural displacement modifier allows for quick iteration, infinite variation (by changing the noise seed/size), and immediate terrain generation without relying on external heightmap image textures.\n* **Overall Applicability**: Ideal for generating foundational dirt patches, background terrain, grassy fields, or quick exterior ground planes for environmental renders.\n* **Value Addition**: Transforms a flat, artificial plane into an organic, natural-looking surface in seconds, providing a realistic base for scattering rocks, grass, or debris.\n\n### 2. Technical Breakdown\n\n* **Step A: Geometry & Topology**\n  - **Primitive**: Starts as a flat Plane, but requires heavy subdivision to give the displacement modifier enough vertices to move. \n  - **Topology**: Instead of manually subdividing a plane in Edit Mode (as shown in the tutorial), creating a **Grid primitive** with high subdivisions (e.g., 100x100) is a more efficient programmatic equivalent.\n  - **Modifiers**: A `Displace` modifier is applied to the mesh to push vertices along their normals based on texture data.\n* **Step B: Materials & Shading**\n  - **Texture**: A built-in Blender 'CLOUDS' (Perlin noise) texture is created and linked to the modifier. \n  - **Material**: A standard Principled BSDF with a high roughness value (~0.85) and an earthy brown base color to simulate dirt/soil.\n* **Step C: Lighting & Rendering Context**\n  - Works equally well in EEVEE and Cycles. The physical bumps will react naturally to any directional or HDRI lighting, casting real shadows across the surface.\n* **Step D: Animation & Dynamics**\n  - While static in this tutorial, the procedural texture's coordinates could be driven by an Empty object to create rolling terrain or animated waves.\n\n### 3. Reproduction Code\n\n#### 3a. Implementation Method Selection\n\n| Aspect of the effect | Method | Why this method |\n|---|---|---|\n| Base Geometry | `bpy.ops.mesh.primitive_grid_add` | A Grid primitive instantly generates the dense topology needed for displacement without requiring destructive Edit Mode operations. |\n| Surface Unevenness | Displacement Modifier | Non-destructive, parametrically controllable height variation. |\n| Noise Pattern | `bpy.data.textures.new(type='CLOUDS')` | Reproduces the exact built-in procedural noise texture used in the tutorial. |\n\n> **Feasibility Assessment**: 100% reproducible. The script captures the exact mechanism of the tutorial but optimizes the workflow by using a generated Grid instead of manual Edit Mode subdivision.\n\n#### 3b. Complete Reproduction Code\n\n```python\ndef create_object(\n    scene_name: str = \"Scene\",\n    object_name: str = \"ProceduralGround\",\n    location: tuple = (0, 0, 0),\n    scale: float = 5.0,\n    material_color: tuple = (0.35, 0.25, 0.15),\n    **kwargs,\n) -> str:\n    \"\"\"\n    Create a Procedural Displaced Ground Plane in the active Blender scene.\n\n    Args:\n        scene_name: Name of the target scene.\n        object_name: Name for the created object.\n        location: (x, y, z) world-space position.\n        scale: Uniform scale factor for the ground plane.\n        material_color: (R, G, B) base color representing soil/dirt.\n        **kwargs: \n            grid_subdivisions (int): Number of subdivisions for the grid (default 100).\n            displace_strength (float): Intensity of the displacement (default 0.15).\n            noise_size (float): Scale of the cloud noise (default 0.5).\n\n    Returns:\n        Status string describing the created object.\n    \"\"\"\n    import bpy\n    import bmesh\n    from mathutils import Vector\n    \n    # Get scene\n    scene = bpy.data.scenes.get(scene_name) or bpy.data.scenes[0]\n    \n    # Extract kwargs with fallbacks\n    grid_subdivisions = kwargs.get('grid_subdivisions', 100)\n    displace_strength = kwargs.get('displace_strength', 0.15)\n    noise_size = kwargs.get('noise_size', 0.5)\n\n    # === Step 1: Create Base Geometry ===\n    # Using a high-resolution grid directly bypasses the need for Edit Mode subdivisions\n    bpy.ops.mesh.primitive_grid_add(\n        x_subdivisions=grid_subdivisions, \n        y_subdivisions=grid_subdivisions, \n        size=2.0, \n        location=location\n    )\n    \n    obj = bpy.context.active_object\n    obj.name = object_name\n    \n    # Apply scale uniformly\n    obj.scale = (scale, scale, scale)\n    \n    # Enable smooth shading for a natural look\n    bpy.ops.object.shade_smooth()\n\n    # === Step 2: Create Procedural Texture ===\n    # This texture lives in Blender's internal texture data, specifically for modifiers\n    tex_name = f\"{object_name}_CloudsTex\"\n    tex = bpy.data.textures.new(name=tex_name, type='CLOUDS')\n    tex.noise_scale = noise_size\n    tex.noise_depth = 2\n\n    # === Step 3: Add Displacement Modifier ===\n    mod = obj.modifiers.new(name=\"GroundDisplacement\", type='DISPLACE')\n    mod.texture = tex\n    mod.strength = displace_strength\n    mod.mid_level = 0.5\n\n    # === Step 4: Build & Assign Material ===\n    mat_name = f\"{object_name}_DirtMat\"\n    mat = bpy.data.materials.get(mat_name)\n    if not mat:\n        mat = bpy.data.materials.new(name=mat_name)\n        mat.use_nodes = True\n        \n        if mat.node_tree:\n            bsdf = mat.node_tree.nodes.get(\"Principled BSDF\")\n            if bsdf:\n                # Set dirt base color\n                bsdf.inputs[\"Base Color\"].default_value = (*material_color, 1.0)\n                # Dirt is highly rough and non-metallic\n                bsdf.inputs[\"Roughness\"].default_value = 0.85\n                bsdf.inputs[\"Specular IOR Level\"].default_value = 0.2\n                \n    # Assign material to object\n    if len(obj.data.materials) == 0:\n        obj.data.materials.append(mat)\n    else:\n        obj.data.materials[0] = mat\n\n    # Link to specified scene if not already in it\n    if obj.name not in scene.collection.objects:\n        scene.collection.objects.link(obj)\n\n    return f\"Created '{object_name}' (Grid {grid_subdivisions}x{grid_subdivisions}) at {location} with displacement strength {displace_strength}.\"\n```",
+  "frames": [
+    {
+      "path": "frame_00_stage_20pct.jpg",
+      "seconds": 49,
+      "description": "stage_20pct"
+    },
+    {
+      "path": "frame_01_stage_40pct.jpg",
+      "seconds": 98,
+      "description": "stage_40pct"
+    },
+    {
+      "path": "frame_02_stage_60pct.jpg",
+      "seconds": 147,
+      "description": "stage_60pct"
+    },
+    {
+      "path": "frame_03_stage_80pct.jpg",
+      "seconds": 196,
+      "description": "stage_80pct"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_radial_infographic_precision_d_9c5077e4",
+  "skill_name": "Segmented Radial Infographic (Precision Donut Slicing)",
+  "source": {
+    "channel": "Egg Bramhill",
+    "duration_sec": 364,
+    "type": "youtube",
+    "video_id": "u9NHPzjlQmw",
+    "video_title": "create a doughnut chart",
+    "video_url": "https://www.youtube.com/watch?v=u9NHPzjlQmw",
+    "views": 158
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:32Z",
+  "wash_version": "1.0.0"
+}

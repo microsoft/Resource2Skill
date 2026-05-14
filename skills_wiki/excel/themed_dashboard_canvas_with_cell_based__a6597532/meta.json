@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_dashboard_canvas_with_cell_based__a6597532",
+  "skill_name": "Themed Dashboard Canvas with Cell-based KPI Cards",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:08:17Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "final dashboard preview"
+        },
+        {
+          "seconds": 748,
+          "description": "dashboard layout with KPIs and agent table"
+        },
+        {
+          "seconds": 1019,
+          "description": "agent table with conditional data bars"
+        },
+        {
+          "seconds": 1551,
+          "description": "all charts and KPIs on dashboard"
+        },
+        {
+          "seconds": 1831,
+          "description": "fully interactive and updated dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_final_dashboard_preview.jpg",
+        "frame_01_dashboard_layout_with_kpis_and.jpg",
+        "frame_02_agent_table_with_conditional_d.jpg"
+      ],
+      "recapped_at": 1777407622.8529427
+    },
+    "primary_path": "frame_00_final_dashboard_preview.jpg"
+  }
+}

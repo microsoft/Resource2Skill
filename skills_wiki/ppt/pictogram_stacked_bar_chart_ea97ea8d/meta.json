@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for executive dashboards and marketing reports, this skill transforms standard bar charts into engaging visual narratives using themed icons, perfect for demographic or category breakdowns where visual engagement is crucial.",
+  "category_path": [
+    "chart_design",
+    "pictogram"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pictogram_stacked_bar_chart_ea97ea8d",
+  "skill_name": "Pictogram Stacked Bar Chart",
+  "source": {
+    "channel": "\u5c0f\u5496PPT\u66f9\u5b78\u658c",
+    "duration_sec": 110,
+    "type": "youtube",
+    "video_id": "MRseg5jggN4",
+    "video_title": "\u6a6b\u5411\u7684\u689d\u5f62\u5716\uff0c\u8b8a\u6210\u7528\u5716\u6a19\u6a6b\u5411\u6392\u5217\uff0c\uff30\uff30\uff34\u771f\u6b63\u7684\u4e00\u76ee\u77ad\u7136\uff01\u3010 \u5546\u696d\u7c21\u5831PPT\u6559\u5b78\u3011\u8cc7\u8a0a\u5716\u8868(PPT Design)",
+    "video_url": "https://www.youtube.com/watch?v=MRseg5jggN4",
+    "views": 626
+  },
+  "tags": [
+    "pictogram",
+    "infographic",
+    "stacked bar",
+    "visual narrative",
+    "executive dashboard",
+    "thematic chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:20Z",
+  "wash_version": "1.0.0"
+}

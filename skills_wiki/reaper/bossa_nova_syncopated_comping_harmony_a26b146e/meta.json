@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for introducing a relaxed, sophisticated Brazilian jazz feel. Highly applicable in lo-fi hip hop, lounge, nu-jazz, or as a contrasting mellow section in pop/EDM tracks.",
+  "category_path": [
+    "midi",
+    "chords",
+    "jazz"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bossa_nova_syncopated_comping_harmony_a26b146e",
+  "skill_name": "Bossa Nova Syncopated Comping & Harmony",
+  "source": {
+    "channel": "Learn Jazz Standards",
+    "duration_sec": 1302,
+    "type": "youtube",
+    "video_id": "VfOvhlUn0Jw",
+    "video_title": "How to Play Bossa Nova (Comping Patterns, Chords, Songs)",
+    "video_url": "https://www.youtube.com/watch?v=VfOvhlUn0Jw",
+    "views": 11872
+  },
+  "tags": [
+    "bossa-nova",
+    "syncopation",
+    "jazz-chords",
+    "tritone-sub",
+    "comping"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:13Z",
+  "wash_version": "1.0.0"
+}

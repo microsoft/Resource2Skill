@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_murky_pond_water_with_scatter_3525088e",
+  "skill_name": "Procedural Murky Pond Water with Scatter Ecology",
+  "source": {
+    "channel": "AlternaVision Studio",
+    "duration_sec": 1304,
+    "type": "youtube",
+    "video_id": "5yIURiec0K8",
+    "video_title": "Easy Realistic Architecture And Environments In Blender - Beginner tutorial",
+    "video_url": "https://www.youtube.com/watch?v=5yIURiec0K8",
+    "views": 17944
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:46Z",
+  "wash_version": "1.0.0"
+}

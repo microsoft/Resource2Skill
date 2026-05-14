@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for executive dashboards, business reviews, and performance snapshots where at-a-glance assessment of key metrics is crucial. The color-coding instantly highlights areas of success and concern.",
+  "category_path": [
+    "infographic",
+    "kpi_card"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "color_coded_kpi_scorecard_2ca2e79f",
+  "skill_name": "Color-Coded KPI Scorecard",
+  "source": {
+    "channel": "The Financial Controller",
+    "duration_sec": 788,
+    "type": "youtube",
+    "video_id": "b2QUdg5FyiY",
+    "video_title": "How To Create a KPI Dashboard in 10 Minutes!",
+    "video_url": "https://www.youtube.com/watch?v=b2QUdg5FyiY",
+    "views": 264409
+  },
+  "tags": [
+    "kpi",
+    "scorecard",
+    "dashboard",
+    "performance metrics",
+    "status report"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:01:07Z",
+  "wash_version": "1.0.0"
+}

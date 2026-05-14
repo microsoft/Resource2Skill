@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creating impactful presentation covers or section dividers. It features a full-bleed background image with a prominent, centrally framed title, offering a minimalist yet striking introduction.",
+  "category_path": [
+    "presentation_structure",
+    "cover_slides",
+    "section_dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_photo_cover_208e82",
+  "skill_name": "Centered Photo Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover",
+    "section divider",
+    "full-bleed",
+    "centered title",
+    "minimalist",
+    "editorial"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:03:13Z",
+  "wash_version": "1.0.0"
+}

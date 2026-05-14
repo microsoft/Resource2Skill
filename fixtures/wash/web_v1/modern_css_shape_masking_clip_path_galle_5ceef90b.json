@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_css_shape_masking_clip_path_galle_5ceef90b",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 464,
+    "type": "youtube",
+    "video_id": "oWXm5n-Zi38",
+    "video_title": "Master CSS Clip-Path: Create Custom Shapes with One Line of Code!",
+    "video_url": "https://www.youtube.com/watch?v=oWXm5n-Zi38",
+    "views": 153752
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

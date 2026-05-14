@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_split_overlay_agenda_cascade_dff0a1f0",
+  "skill_name": "Dynamic Split-Overlay Agenda Cascade",
+  "source": {
+    "channel": "Narith KIM",
+    "duration_sec": 785,
+    "type": "youtube",
+    "video_id": "pIFetB_JNyU",
+    "video_title": "Create slide of 5 Agenda Meeting",
+    "video_url": "https://www.youtube.com/watch?v=pIFetB_JNyU",
+    "views": 332
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:19:55Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "skill_id": "unknown_skill_65d368f9",
+  "skill_name": "Unknown Skill",
+  "domain": "excel",
+  "category": "other",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=-tva3eTr5q8",
+    "video_id": "-tva3eTr5q8",
+    "video_title": "Turn  Excel Data Into Amazing Infographics In 1 CLICK",
+    "channel": "Excel For Freelancers",
+    "duration_sec": 844,
+    "views": 37585
+  },
+  "extracted_at": "2026-04-25T03:26:20.478828",
+  "analysis": "Skip — tutorial demonstrates a third-party AI tool (Google NotebookLM) for data visualization outside of Excel, not a native Excel or openpyxl skill.",
+  "frames": []
+}

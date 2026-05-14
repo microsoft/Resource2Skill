@@ -1,0 +1,9 @@
+{
+  "name": "trimrange_vstack",
+  "description": "Combine data from multiple ranges or sheets while automatically ignoring empty trailing rows using the new dot (.) trim operator.",
+  "formula": "=VSTACK({range1}., {range2}.)",
+  "placeholders": {
+    "range1": "Staff!A3:E100",
+    "range2": "Management!A3:E100"
+  }
+}

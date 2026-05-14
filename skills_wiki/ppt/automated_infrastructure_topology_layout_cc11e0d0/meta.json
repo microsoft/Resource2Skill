@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for IT architecture proposals, cloud migration plans, and system documentation. It translates complex technical relationships and data flows into an intuitive, visually structured map.",
+  "category_path": [
+    "diagrams",
+    "network_topology"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_infrastructure_topology_layout_cc11e0d0",
+  "skill_name": "Automated Infrastructure Topology Layout",
+  "source": {
+    "channel": "SmartDraw",
+    "duration_sec": 165,
+    "type": "youtube",
+    "video_id": "YWfsq_Issls",
+    "video_title": "How to Draw Network Diagrams | SmartDraw Dashboard",
+    "video_url": "https://www.youtube.com/watch?v=YWfsq_Issls",
+    "views": 19249
+  },
+  "tags": [
+    "topology",
+    "infrastructure",
+    "network",
+    "architecture",
+    "diagram"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:11Z",
+  "wash_version": "1.0.0"
+}

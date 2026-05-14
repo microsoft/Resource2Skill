@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for landing pages presenting binary choices or comparing two concepts, maximizing full-viewport real estate without scrolling and clarifying navigation through spatial separation.",
+  "category_path": [
+    "responsive",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_split_screen_flex_layout_94ee284d",
+  "skill_name": "Responsive Split-Screen Flex Layout",
+  "source": {
+    "channel": "Mr Digital",
+    "duration_sec": 299,
+    "type": "youtube",
+    "video_id": "bh3UAetYkUI",
+    "video_title": "Split screen into two sections responsive  in HTML/CSS (5 Mins)",
+    "video_url": "https://www.youtube.com/watch?v=bh3UAetYkUI",
+    "views": 177848
+  },
+  "tags": [
+    "responsive",
+    "flexbox",
+    "split screen",
+    "dual pane",
+    "landing page",
+    "comparison"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:19:04Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "filtered_noise_riser_rhythmic_pumping_im_6cd9d3b4",
+  "skill_name": "Filtered Noise Riser & Rhythmic Pumping Impact",
+  "source": {
+    "channel": "Robbie Hogg",
+    "duration_sec": 2991,
+    "type": "youtube",
+    "video_id": "l1a61V-xd70",
+    "video_title": "How I do it, Part 3: Adding Risers, Downers and FX",
+    "video_url": "https://www.youtube.com/watch?v=l1a61V-xd70",
+    "views": 404
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:51Z",
+  "wash_version": "1.0.0"
+}

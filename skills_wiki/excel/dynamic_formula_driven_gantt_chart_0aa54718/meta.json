@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for project management trackers where start dates and task durations change frequently. It relies purely on formulas and conditional formatting, avoiding fragile static drawings or complex macros.",
+  "category_path": [
+    "project_management",
+    "gantt_charts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_formula_driven_gantt_chart_0aa54718",
+  "skill_name": "Dynamic Formula-Driven Gantt Chart",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 934,
+    "type": "youtube",
+    "video_id": "vTbW8aNnWwY",
+    "video_title": "The Excel Gantt Chart That Replaces Your Project Management Tool",
+    "video_url": "https://www.youtube.com/watch?v=vTbW8aNnWwY",
+    "views": 56583
+  },
+  "tags": [
+    "gantt chart",
+    "project management",
+    "conditional formatting",
+    "dynamic timeline",
+    "sequence"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:54:51Z",
+  "wash_version": "1.0.0"
+}

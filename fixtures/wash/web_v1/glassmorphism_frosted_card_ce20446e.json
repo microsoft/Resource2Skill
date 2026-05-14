@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_frosted_card_ce20446e",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 127,
+    "type": "youtube",
+    "video_id": "n77yqF5fdBE",
+    "video_title": "Create a glass effect in CSS (Glassmorphism)",
+    "video_url": "https://www.youtube.com/watch?v=n77yqF5fdBE",
+    "views": 33472
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

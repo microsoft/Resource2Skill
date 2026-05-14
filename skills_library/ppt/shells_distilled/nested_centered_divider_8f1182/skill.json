@@ -1,0 +1,63 @@
+{
+  "skill_id": "nested_centered_divider_8f1182",
+  "skill_type": "shell",
+  "name": "Nested Centered Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "nested-centered-cards"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/nested_centered_divider_8f1182/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neumorphic_dual_shadow_card_soft_ui_embo_e8daa7ea",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A highly focused, minimal layout using nested centered rectangles to draw attention to a short headline, ideal for section transitions.",
+  "_distill_attempts": 1
+}

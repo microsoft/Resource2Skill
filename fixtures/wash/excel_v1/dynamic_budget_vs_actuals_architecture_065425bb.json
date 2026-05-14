@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_budget_vs_actuals_architecture_065425bb",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 968,
+    "type": "youtube",
+    "video_id": "9uFKAwIa3V0",
+    "video_title": "Build a Dynamic Budget vs Actuals Dashboard on Excel (Variance Analysis)",
+    "video_url": "https://www.youtube.com/watch?v=9uFKAwIa3V0",
+    "views": 1014602
+  },
+  "tier": "T5",
+  "wash_version": "1.0.0"
+}

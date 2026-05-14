@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "off_canvas_geometric_masking_4e155db3",
+  "skill_name": "Off-Canvas Geometric Masking",
+  "source": {
+    "channel": "\u79cb\u53f6\u8bfe\u5802",
+    "duration_sec": 922,
+    "type": "youtube",
+    "video_id": "q8hCLkW93yA",
+    "video_title": "PPT \u6559\u5b66 - \u7528\u73b0\u72b6\u5236\u4f5c\u7b80\u6d01PPT\u5c01\u9762\uff01",
+    "video_url": "https://www.youtube.com/watch?v=q8hCLkW93yA",
+    "views": 1902
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:41:46Z",
+  "wash_version": "1.0.0"
+}

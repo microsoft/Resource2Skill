@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "semantic_css_grid_dashboard_layout_73632f38",
+  "skill_name": "Semantic CSS Grid Dashboard Layout",
+  "source": {
+    "channel": "Learndev",
+    "duration_sec": 540,
+    "type": "youtube",
+    "video_id": "eHaZlFcGl6k",
+    "video_title": "Learn CSS Grid Layouts the Easy Way",
+    "video_url": "https://www.youtube.com/watch?v=eHaZlFcGl6k",
+    "views": 137133
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:54Z",
+  "wash_version": "1.0.0"
+}

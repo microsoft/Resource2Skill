@@ -1,0 +1,36 @@
+{
+  "applicability": "This versatile design pattern is ideal for visually comparing two binary options, such as pros vs. cons or opportunities vs. risks, to facilitate clear decision-making. It applies to business case analysis, vendor evaluations, and strategic debates.",
+  "category_path": [
+    "slide_design",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dichotomy_decision_panel_6930faa0",
+  "skill_name": "Dichotomy Decision Panel",
+  "source": {
+    "channel": "Versus Verdict",
+    "duration_sec": 196,
+    "type": "youtube",
+    "video_id": "oViTd2JI0DU",
+    "video_title": "Pros And Cons Powerpoint Template",
+    "video_url": "https://www.youtube.com/watch?v=oViTd2JI0DU",
+    "views": 47
+  },
+  "tags": [
+    "pros_cons",
+    "decision_making",
+    "comparison",
+    "evaluation",
+    "binary_layout",
+    "visual_impact"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:14:49Z",
+  "wash_version": "1.0.0"
+}

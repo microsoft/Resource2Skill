@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for presenting a sequence of three distinct events or stages in a clear, linear progression, offering a concise overview with supporting details for each node.",
+  "category_path": [
+    "timeline",
+    "horizontal"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3_node_horizontal_timeline_1091a0",
+  "skill_name": "3-Node Horizontal Timeline",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "timeline",
+    "horizontal",
+    "3-node",
+    "progression",
+    "events",
+    "minimalist"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:02Z",
+  "wash_version": "1.0.0"
+}

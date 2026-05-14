@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_overlay_hero_a50dce34",
+  "source": {
+    "channel": "SoftCode",
+    "duration_sec": 296,
+    "type": "youtube",
+    "video_id": "qxLf-BcsmhU",
+    "video_title": "Gradient Overlay with Background Image | CSS Gradient Animation",
+    "video_url": "https://www.youtube.com/watch?v=qxLf-BcsmhU",
+    "views": 365
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

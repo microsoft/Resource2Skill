@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "chart_templates"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pie_breakdown_7e302b04",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

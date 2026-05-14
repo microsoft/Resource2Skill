@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly effective for executive summaries, project status, KPI dashboards, sales or marketing performance reports, and financial analysis. It's ideal for situations where multiple key metrics need to be presented clearly and with high impact on a single slide.",
+  "category_path": [
+    "data_visualization",
+    "dashboard_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_theme_bi_dashboard_panel_82c79503",
+  "skill_name": "Dark-Theme BI Dashboard Panel",
+  "source": {
+    "channel": "YOTTA \u53cb\u8b80-\u966a\u4f60\u6210\u9577\u7684\u5b78\u7fd2\u5925\u4f34",
+    "duration_sec": 117,
+    "type": "youtube",
+    "video_id": "v_xjrJK2S2Y",
+    "video_title": "Excel\u5546\u696d\u5206\u6790\uff0c\u8cc7\u6599\u8996\u89ba\u5316\u8207\u4e92\u52d5\u5f0f\u5100\u8868\u677f",
+    "video_url": "https://www.youtube.com/watch?v=v_xjrJK2S2Y",
+    "views": 6271
+  },
+  "tags": [
+    "dark theme",
+    "dashboard",
+    "BI",
+    "data visualization",
+    "panels",
+    "high contrast"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:10:22Z",
+  "wash_version": "1.0.0"
+}

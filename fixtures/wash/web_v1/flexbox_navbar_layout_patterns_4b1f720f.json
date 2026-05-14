@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "flexbox_navbar_layout_patterns_4b1f720f",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 347,
+    "type": "youtube",
+    "video_id": "HmaQwuKUYTc",
+    "video_title": "Navbar CSS Tutorial: 5 Ways to Create a Navigation Bar with Flexbox",
+    "video_url": "https://www.youtube.com/watch?v=HmaQwuKUYTc",
+    "views": 41601
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

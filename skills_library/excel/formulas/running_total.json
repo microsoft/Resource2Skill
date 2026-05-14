@@ -1,0 +1,7 @@
+{
+  "name": "running_total",
+  "description": "Cumulative sum from row 2 down — anchor first cell of range, leave end relative",
+  "pattern": "=SUM($B$2:{cur})",
+  "example": "=SUM($B$2:B5)",
+  "result_format": "thousand_sep"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for hero sections on landing pages, product showcases, or portfolios. It uses background video to grab attention and convey mood, creating an immersive, premium feel.",
+  "category_path": [
+    "hero_section",
+    "video"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_screen_cinematic_video_hero_1c3af82a",
+  "skill_name": "Full-Screen Cinematic Video Hero",
+  "source": {
+    "channel": "Html Camp",
+    "duration_sec": 273,
+    "type": "youtube",
+    "video_id": "-unASUgYtVI",
+    "video_title": "How to Create a Website With Video Background | Html and Css",
+    "video_url": "https://www.youtube.com/watch?v=-unASUgYtVI",
+    "views": 151694
+  },
+  "tags": [
+    "background video",
+    "hero",
+    "cinematic",
+    "full screen",
+    "immersive",
+    "video overlay"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:30Z",
+  "wash_version": "1.0.0"
+}

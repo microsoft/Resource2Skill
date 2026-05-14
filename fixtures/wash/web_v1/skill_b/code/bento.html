@@ -1,0 +1,11 @@
+<ul class="bento">
+  <li class="bento__card"><h3>Speed</h3><p>Ship in hours, not weeks.</p></li>
+  <li class="bento__card"><h3>Safety</h3><p>Type-checked end to end.</p></li>
+  <li class="bento__card"><h3>Scale</h3><p>From 0 to 1M users.</p></li>
+</ul>
+<style>
+  .bento { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--bento-gap, 1.25rem); list-style: none; padding: 0; }
+  .bento__card { background: white; border-radius: var(--bento-radius, 1rem); padding: 1.5rem; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.08); transition: transform .15s ease; }
+  .bento__card:hover { transform: translateY(-2px); }
+  @media (max-width: 768px) { .bento { grid-template-columns: 1fr; } }
+</style>

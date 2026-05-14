@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for custom loading indicators, ambient background effects, and continuous attention-drawing widgets. It provides smooth, multi-phasic visual feedback to signal active processing or state changes.",
+  "category_path": [
+    "styling",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_multi_stage_keyframe_sequence_4f4e6186",
+  "skill_name": "Continuous Multi-Stage Keyframe Sequence",
+  "source": {
+    "channel": "Coding Bathulu",
+    "duration_sec": 802,
+    "type": "youtube",
+    "video_id": "oUZSrZx5cVI",
+    "video_title": "Web Development CSS ANIMATIONS Detail Explanation in Telugu ( Lesson - 24 )",
+    "video_url": "https://www.youtube.com/watch?v=oUZSrZx5cVI",
+    "views": 5107
+  },
+  "tags": [
+    "css-animation",
+    "keyframes",
+    "looping",
+    "motion-path",
+    "state-transition"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:17Z",
+  "wash_version": "1.0.0"
+}

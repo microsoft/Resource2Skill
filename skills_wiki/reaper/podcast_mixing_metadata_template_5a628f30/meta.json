@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "podcast_mixing_metadata_template_5a628f30",
+  "skill_name": "Podcast Mixing & Metadata Template",
+  "source": {
+    "channel": "Reaper for Podcasting",
+    "duration_sec": 341,
+    "type": "youtube",
+    "video_id": "UPqFhuk1i4U",
+    "video_title": "Improving Your Workflow with Reaper Project Templates | Reaper for Podcasting",
+    "video_url": "https://www.youtube.com/watch?v=UPqFhuk1i4U",
+    "views": 1001
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:22Z",
+  "wash_version": "1.0.0"
+}

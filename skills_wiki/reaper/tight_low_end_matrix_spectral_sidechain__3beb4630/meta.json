@@ -1,0 +1,35 @@
+{
+  "applicability": "Essential for modern electronic, pop, and hip-hop genres where heavy kick drums and deep bass lines must coexist without creating a muddy mix. Creates professional low-end clarity and punch.",
+  "category_path": [
+    "mixing",
+    "low_end_management"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tight_low_end_matrix_spectral_sidechain__3beb4630",
+  "skill_name": "Spectral Sidechain for Low-End Clarity",
+  "source": {
+    "channel": "Streaky",
+    "duration_sec": 436,
+    "type": "youtube",
+    "video_id": "Uf-xPF98y-k",
+    "video_title": "FIX YOUR LOW END",
+    "video_url": "https://www.youtube.com/watch?v=Uf-xPF98y-k",
+    "views": 54184
+  },
+  "tags": [
+    "mixing",
+    "low_end",
+    "sidechain",
+    "dynamic_eq",
+    "kick_bass"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:46:18Z",
+  "wash_version": "1.0.0"
+}

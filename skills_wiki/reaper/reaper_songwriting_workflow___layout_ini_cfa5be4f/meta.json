@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "reaper_songwriting_workflow___layout_ini_cfa5be4f",
+  "skill_name": "REAPER Songwriting Workflow & Layout Initialization",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=5gmCE3zd0nk"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:21:48Z",
+  "wash_version": "1.0.0"
+}

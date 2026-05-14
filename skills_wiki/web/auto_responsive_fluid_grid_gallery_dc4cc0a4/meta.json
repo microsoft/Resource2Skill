@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for product catalogs, blog feeds, and portfolio galleries that require adaptable layouts. It provides an intrinsically responsive grid that automatically adjusts to its container width without relying on CSS media queries.",
+  "category_path": [
+    "layout",
+    "grid",
+    "gallery"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_responsive_fluid_grid_gallery_dc4cc0a4",
+  "skill_name": "Auto-Responsive Fluid Grid Gallery",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 683,
+    "type": "youtube",
+    "video_id": "bj0Z_GncIwY",
+    "video_title": "Breakpoint-Free CSS Grid Layouts",
+    "video_url": "https://www.youtube.com/watch?v=bj0Z_GncIwY",
+    "views": 67997
+  },
+  "tags": [
+    "css-grid",
+    "auto-fit",
+    "responsive",
+    "media-query-free",
+    "fluid-grid"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:57Z",
+  "wash_version": "1.0.0"
+}

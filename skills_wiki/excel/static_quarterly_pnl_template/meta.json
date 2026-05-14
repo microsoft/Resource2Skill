@@ -1,0 +1,29 @@
+{
+  "applicability": "Quarterly profit and loss reporting with KPI band, line-item detail, and side-by-side quarter comparison chart.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "cc0-1.0",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_quarterly_pnl_template",
+  "skill_name": "Quarterly P&L Template",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/excel-pnl-template"
+  },
+  "tags": [
+    "finance",
+    "p_and_l",
+    "kpi",
+    "quarterly",
+    "bar_chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:47:45Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Excellent for formatting raw data tabs to be readable and presentable. It acts as a mini-dashboard or high-level summary using KPIs and sparklines before feeding into complex visual layers.",
+  "category_path": [
+    "reporting",
+    "summary_dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_summary_with_top_kpis_and_sparkline_984ede7b",
+  "skill_name": "Data Summary with Top KPIs and Sparklines",
+  "source": {
+    "channel": "Aki Stepinska",
+    "duration_sec": 3090,
+    "type": "youtube",
+    "video_id": "1BROwwH1mAw",
+    "video_title": "Custom Excel Dashboard Tutorial: Charts, Themes & KPIs (Beginner to Pro)",
+    "video_url": "https://www.youtube.com/watch?v=1BROwwH1mAw",
+    "views": 678
+  },
+  "tags": [
+    "kpi",
+    "sparklines",
+    "data_summary",
+    "mini_dashboard",
+    "formatting"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:53:31Z",
+  "wash_version": "1.0.0"
+}

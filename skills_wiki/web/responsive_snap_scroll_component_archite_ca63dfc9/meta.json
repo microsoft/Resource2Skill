@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_snap_scroll_component_archite_ca63dfc9",
+  "skill_name": "Responsive Snap-Scroll Component Architecture",
+  "source": {
+    "channel": "Sajid",
+    "duration_sec": 656,
+    "type": "youtube",
+    "video_id": "OjEg0IBR_ak",
+    "video_title": "The Easiest Way to Build Websites",
+    "video_url": "https://www.youtube.com/watch?v=OjEg0IBR_ak",
+    "views": 1321471
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:06:51Z",
+  "wash_version": "1.0.0"
+}

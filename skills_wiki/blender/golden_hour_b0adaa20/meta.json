@@ -1,0 +1,29 @@
+{
+  "applicability": "This lighting rig simulates the warm, low sun of the 'golden hour' with long shadows and a cool sky bounce, ideal for outdoor landscapes, exteriors, and warm sunset scenes.",
+  "category_path": [
+    "lighting_rigs"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "golden_hour_b0adaa20",
+  "skill_name": "golden_hour",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "golden hour",
+    "lighting",
+    "sunset",
+    "landscape",
+    "exterior",
+    "warm"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:01Z",
+  "wash_version": "1.0.0"
+}
