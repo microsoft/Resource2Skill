@@ -8,6 +8,9 @@ git add \
   README.md \
   .env.example \
   LICENSE \
+  CODE_OF_CONDUCT.md \
+  SECURITY.md \
+  SUPPORT.md \
   OPEN_SOURCE_ALLOWLIST.md \
   OPEN_SOURCE_TODO.md \
   assets/teaser.png \
