@@ -1,0 +1,5 @@
+{
+  "name": "percent_basic",
+  "description": "Plain percentage with one decimal",
+  "number_format": "0.0%"
+}

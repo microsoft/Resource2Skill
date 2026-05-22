@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_contrast_oversized_number_divider_8f5fde6f",
+  "skill_name": "High-Contrast Oversized Number Divider",
+  "source": {
+    "channel": "Style Factory",
+    "duration_sec": 439,
+    "type": "youtube",
+    "video_id": "MbfzdJ21Amo",
+    "video_title": "Canva vs PowerPoint \u2014 Which is the Better Presentation Maker?",
+    "video_url": "https://www.youtube.com/watch?v=MbfzdJ21Amo",
+    "views": 39166
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:35:40Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_fit_responsive_grid_layout__zero_me_8f2a34ce",
+  "skill_name": "Auto-Fit Responsive Grid Layout (Zero Media Queries)",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=3T0gjtXRNC0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:19:40Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "initial problem: grid overflowing"
+        },
+        {
+          "seconds": 22,
+          "description": "desired responsive grid with wrapping and resizing (intro)"
+        },
+        {
+          "seconds": 137,
+          "description": "cards stacked vertically after basic CSS"
+        },
+        {
+          "seconds": 339,
+          "description": "grid with auto-fitting columns based on minimum width"
+        },
+        {
+          "seconds": 536,
+          "description": "final responsive grid with auto-fitting and proportional resizing columns"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_problem_grid_overflowi.jpg",
+        "frame_01_desired_responsive_grid_with_w.jpg",
+        "frame_02_cards_stacked_vertically_after.jpg",
+        "frame_03_grid_with_auto_fitting_columns.jpg"
+      ],
+      "recapped_at": 1777408735.2123377
+    },
+    "primary_path": "frame_00_initial_problem_grid_overflowi.jpg"
+  }
+}

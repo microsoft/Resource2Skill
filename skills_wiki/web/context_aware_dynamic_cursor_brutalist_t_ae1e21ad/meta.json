@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creative portfolios, agency landing pages, and immersive case studies. It replaces explicit buttons by integrating contextual calls-to-action directly into a dynamic custom cursor, creating a highly polished and engaging feel.",
+  "category_path": [
+    "hero_section",
+    "custom_cursor"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "context_aware_dynamic_cursor_brutalist_t_ae1e21ad",
+  "skill_name": "Context-Aware Dynamic Cursor & Brutalist Hero",
+  "source": {
+    "channel": "Leander Angst",
+    "duration_sec": 902,
+    "type": "youtube",
+    "video_id": "m3HjNOJ4aLU",
+    "video_title": "5 UX/UI Portfolios You SHOULD Copy",
+    "video_url": "https://www.youtube.com/watch?v=m3HjNOJ4aLU",
+    "views": 282372
+  },
+  "tags": [
+    "custom cursor",
+    "brutalist typography",
+    "hover interaction",
+    "hero section",
+    "call to action"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:27:29Z",
+  "wash_version": "1.0.0"
+}

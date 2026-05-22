@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "nested_css_grid_dashboard_shell_fc4ffdb8",
+  "skill_name": "Nested CSS Grid Dashboard Shell",
+  "source": {
+    "channel": "ByteGrad",
+    "duration_sec": 1494,
+    "type": "youtube",
+    "video_id": "NnniXasJIpY",
+    "video_title": "Responsive Dashboard Layouts with CSS Grid",
+    "video_url": "https://www.youtube.com/watch?v=NnniXasJIpY",
+    "views": 86940
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:51Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "emo_punk_power_chord_rhythm_i_v_vi_iv_0d19161c",
+  "skill_name": "Emo-Punk Power Chord Rhythm (I-V-vi-IV)",
+  "source": {
+    "channel": "Tim Makes Media",
+    "duration_sec": 427,
+    "type": "youtube",
+    "video_id": "HnmvFQUZ1rE",
+    "video_title": "How To Get Suno To Perform The MELODY & HARMONY of Any Song",
+    "video_url": "https://www.youtube.com/watch?v=HnmvFQUZ1rE",
+    "views": 36390
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:57:48Z",
+  "wash_version": "1.0.0"
+}

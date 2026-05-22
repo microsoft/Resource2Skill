@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "central_spine_dual_comparison_296bf4fc",
+  "skill_name": "Central Spine Dual Comparison",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 685,
+    "type": "youtube",
+    "video_id": "g_tDIwoCZFU",
+    "video_title": "Create Comparison Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=g_tDIwoCZFU",
+    "views": 4693
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:55:51Z",
+  "wash_version": "1.0.0"
+}

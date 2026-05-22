@@ -1,0 +1,107 @@
+{
+  "skill_id": "split_banner_testimonial_134c21",
+  "skill_type": "shell",
+  "name": "Split Banner Testimonial",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote"
+    ],
+    "content_shape": [
+      "split-banner+author-quote-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "editorial",
+      "warm",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "3:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "author_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "author_name",
+      "kind": "text",
+      "required": true,
+      "style": "body_bold",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "author_role",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "quote",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 250,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/split_banner_testimonial_134c21/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "horizontal_testimonial_carousel_social_p_19600d28",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Separates the visual context (hero image and headline) from the specific testimonial content (author and quote) using distinct horizontal panels.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for long presentations like pitch decks or comprehensive corporate reports. It provides a persistent visual map of the presentation's structure, helping the audience track spatial context and progress.",
+  "category_path": [
+    "navigation",
+    "progress_indicators"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_color_coded_structural_ribbon_5d97cbf4",
+  "skill_name": "Dynamic Color-Coded Structural Ribbon",
+  "source": {
+    "channel": "The Startup Club by Slidebean and Slidebean",
+    "duration_sec": 687,
+    "type": "youtube",
+    "video_id": "67y16cJ-mz8",
+    "video_title": "The Pitch Deck that Shaped All Pitch Decks",
+    "video_url": "https://www.youtube.com/watch?v=67y16cJ-mz8",
+    "views": 54008
+  },
+  "tags": [
+    "progress bar",
+    "navigation ribbon",
+    "agenda",
+    "color-coded",
+    "section divider"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:09:13Z",
+  "wash_version": "1.0.0"
+}

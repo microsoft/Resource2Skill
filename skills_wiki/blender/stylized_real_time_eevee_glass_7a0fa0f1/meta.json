@@ -1,0 +1,36 @@
+{
+  "applicability": "This technique is ideal for motion graphics, stylized scenes, or architectural visualization previews, prioritizing real-time performance over raytraced realism. It suits any scenario constrained by rendering time or hardware.",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_real_time_eevee_glass_7a0fa0f1",
+  "skill_name": "Stylized Real-Time EEVEE Glass",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 76,
+    "type": "youtube",
+    "video_id": "0G9-Txjns1k",
+    "video_title": "Best Glass Material in Blender Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=0G9-Txjns1k",
+    "views": 34085
+  },
+  "tags": [
+    "EEVEE",
+    "glass shader",
+    "real-time",
+    "stylized",
+    "performance",
+    "non-raytraced"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:44:56Z",
+  "wash_version": "1.0.0"
+}

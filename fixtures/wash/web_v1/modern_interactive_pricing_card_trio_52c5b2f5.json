@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_interactive_pricing_card_trio_52c5b2f5",
+  "source": {
+    "channel": "Potential WebCode",
+    "duration_sec": 2294,
+    "type": "youtube",
+    "video_id": "DLgiNy-XcmU",
+    "video_title": "How to make Responsive Pricing Table Template Using HTML and CSS only | Price List",
+    "video_url": "https://www.youtube.com/watch?v=DLgiNy-XcmU",
+    "views": 11941
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

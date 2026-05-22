@@ -1,0 +1,62 @@
+{
+  "skill_id": "vertical_node_agenda_8346d6",
+  "skill_type": "shell",
+  "name": "Vertical Node Agenda",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "agenda"
+    ],
+    "content_shape": [
+      "title+vertical-nodes"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "title",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/vertical_node_agenda_8346d6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "connected_vertical_flow_agenda_30ff079b",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Extracts the bold, split-layout agenda with a vertical connecting line and numbered nodes.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "semantic_css_grid_dashboard_layout_73632f38",
+  "source": {
+    "channel": "Learndev",
+    "duration_sec": 540,
+    "type": "youtube",
+    "video_id": "eHaZlFcGl6k",
+    "video_title": "Learn CSS Grid Layouts the Easy Way",
+    "video_url": "https://www.youtube.com/watch?v=eHaZlFcGl6k",
+    "views": 137133
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

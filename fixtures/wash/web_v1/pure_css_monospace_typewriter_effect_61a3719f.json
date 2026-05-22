@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_monospace_typewriter_effect_61a3719f",
+  "source": {
+    "channel": "Redhouane Aouadi",
+    "duration_sec": 890,
+    "type": "youtube",
+    "video_id": "Sm1CYfuIKM8",
+    "video_title": "Typewriter Effect CSS | [EXPLAINED]",
+    "video_url": "https://www.youtube.com/watch?v=Sm1CYfuIKM8",
+    "views": 3406
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

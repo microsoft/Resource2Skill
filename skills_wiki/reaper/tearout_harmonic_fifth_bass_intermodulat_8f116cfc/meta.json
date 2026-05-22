@@ -1,0 +1,37 @@
+{
+  "applicability": "A foundational technique for creating aggressive, growling bass sounds in modern electronic music like Dubstep, D&B, and Tearout. It is ideal for rhythmic off-beat stabs or sustained, powerful drop basses.",
+  "category_path": [
+    "sound_design",
+    "bass",
+    "synth"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tearout_harmonic_fifth_bass_intermodulat_8f116cfc",
+  "skill_name": "Tearout Intermodulation Bass",
+  "source": {
+    "channel": "Ghosthack",
+    "duration_sec": 781,
+    "type": "youtube",
+    "video_id": "aapL3u5arYg",
+    "video_title": "Sound Request Series #3: Recreating the Bass from Death Rattle by Blanke and REAPER in SERUM",
+    "video_url": "https://www.youtube.com/watch?v=aapL3u5arYg",
+    "views": 7246
+  },
+  "tags": [
+    "tearout",
+    "dubstep",
+    "bass design",
+    "intermodulation",
+    "distortion",
+    "sound design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:09Z",
+  "wash_version": "1.0.0"
+}

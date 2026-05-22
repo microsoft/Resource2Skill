@@ -1,0 +1,36 @@
+{
+  "applicability": "This component is ideal for visualizing sequential information such as company histories, product roadmaps, or step-by-step processes. It effectively manages information density by magnifying only the active timeline event.",
+  "category_path": [
+    "animation",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morph_driven_horizontal_timeline_magnifi_ffbf31bb",
+  "skill_name": "Morph-Driven Horizontal Timeline Magnifier",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 597,
+    "type": "youtube",
+    "video_id": "i40XEuJR5ac",
+    "video_title": "ANIMATED PowerPoint Morph Timeline \u2728 Free Download",
+    "video_url": "https://www.youtube.com/watch?v=i40XEuJR5ac",
+    "views": 268137
+  },
+  "tags": [
+    "timeline",
+    "morph",
+    "magnifier",
+    "horizontal scroll",
+    "dynamic",
+    "history"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:39:32Z",
+  "wash_version": "1.0.0"
+}

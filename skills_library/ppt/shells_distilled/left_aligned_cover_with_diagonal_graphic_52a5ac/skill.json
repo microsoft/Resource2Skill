@@ -1,0 +1,63 @@
+{
+  "skill_id": "left_aligned_cover_with_diagonal_graphic_52a5ac",
+  "skill_type": "shell",
+  "name": "Left Aligned Cover with Diagonal Graphic",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "title+subtitle"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "corporate",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/left_aligned_cover_with_diagonal_graphic_52a5ac/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "modern_diagonal_split_hero_layout_e3e352f8",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a bold, left-aligned cover layout with a dynamic diagonal background element, suitable for high-impact intros.",
+  "_distill_attempts": 1
+}

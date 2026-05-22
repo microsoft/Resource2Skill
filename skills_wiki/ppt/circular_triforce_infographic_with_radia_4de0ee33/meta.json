@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_triforce_infographic_with_radia_4de0ee33",
+  "skill_name": "Circular Triforce Infographic with Radial Shadow Nodes",
+  "source": {
+    "channel": "DESIGNING UNIVERSITY",
+    "duration_sec": 693,
+    "type": "youtube",
+    "video_id": "hAOycjrfXQk",
+    "video_title": "3 steps infographic presentation slide in PowerPoint, tutorial no 112",
+    "video_url": "https://www.youtube.com/watch?v=hAOycjrfXQk",
+    "views": 299
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:00:02Z",
+  "wash_version": "1.0.0"
+}

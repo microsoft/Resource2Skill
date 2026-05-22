@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for quickly outlining harmonic foundations in any genre without playing out-of-key notes. Ideal for creating lush synth pads, upbeat piano stabs, or driving rhythmic synths.",
+  "category_path": [
+    "midi",
+    "chords",
+    "progressions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "programmatic_diatonic_chord_progression__9526dc2b",
+  "skill_name": "Programmatic Diatonic Chord Progression Generator",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 898,
+    "type": "youtube",
+    "video_id": "-v5oE79NJMg",
+    "video_title": "The Chord Gun (MIDI) in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=-v5oE79NJMg",
+    "views": 132930
+  },
+  "tags": [
+    "chord_progression",
+    "diatonic",
+    "voice_leading",
+    "midi_generation",
+    "music_theory"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:22Z",
+  "wash_version": "1.0.0"
+}

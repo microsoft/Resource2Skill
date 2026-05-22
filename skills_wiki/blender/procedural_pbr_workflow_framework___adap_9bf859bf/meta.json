@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_pbr_workflow_framework___adap_9bf859bf",
+  "skill_name": "Procedural PBR Workflow Framework & Adaptive Displacement",
+  "source": {
+    "channel": "Brandon 3D",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jBT6MD7IzHU"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:38Z",
+  "wash_version": "1.0.0"
+}

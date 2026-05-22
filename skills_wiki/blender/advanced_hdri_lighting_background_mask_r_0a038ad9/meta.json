@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for product visualization and compositing. It provides photorealistic image-based lighting and reflections while keeping the visible background clean or transparent.",
+  "category_path": [
+    "lighting",
+    "environment"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_hdri_lighting_background_mask_r_0a038ad9",
+  "skill_name": "Advanced HDRI Lighting & Background Mask Rig",
+  "source": {
+    "channel": "The CG Essentials",
+    "duration_sec": 1330,
+    "type": "youtube",
+    "video_id": "N3DZL56cG84",
+    "video_title": "The ULTIMATE GUIDE to HDRI Lighting in Blender!",
+    "video_url": "https://www.youtube.com/watch?v=N3DZL56cG84",
+    "views": 44955
+  },
+  "tags": [
+    "hdri",
+    "lighting",
+    "light-path",
+    "masking",
+    "world-shader"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:26Z",
+  "wash_version": "1.0.0"
+}

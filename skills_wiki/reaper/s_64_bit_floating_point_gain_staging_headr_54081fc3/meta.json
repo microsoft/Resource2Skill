@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_64_bit_floating_point_gain_staging_headr_54081fc3",
+  "skill_name": "64-Bit Floating-Point Gain Staging (Headroom Demonstration)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 725,
+    "type": "youtube",
+    "video_id": "5efick6yJA4",
+    "video_title": "Gain Staging in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=5efick6yJA4",
+    "views": 97477
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:54:51Z",
+  "wash_version": "1.0.0"
+}

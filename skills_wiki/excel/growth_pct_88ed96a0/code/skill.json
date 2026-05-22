@@ -1,0 +1,5 @@
+{
+  "example": "=(B3-B2)/B2",
+  "pattern": "=({current}-{prior})/{prior}",
+  "result_format": "percent_signed"
+}

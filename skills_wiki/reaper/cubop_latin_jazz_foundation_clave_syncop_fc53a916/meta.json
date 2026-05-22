@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cubop_latin_jazz_foundation_clave_syncop_fc53a916",
+  "skill_name": "Cubop / Latin Jazz Foundation (Clave & Syncopated Comping)",
+  "source": {
+    "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+    "duration_sec": 306,
+    "type": "youtube",
+    "video_id": "wCGxg60d0U8",
+    "video_title": "What Is Latin Jazz?",
+    "video_url": "https://www.youtube.com/watch?v=wCGxg60d0U8",
+    "views": 36604
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:56:02Z",
+  "wash_version": "1.0.0"
+}

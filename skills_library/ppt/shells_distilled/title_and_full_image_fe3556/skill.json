@@ -1,0 +1,72 @@
+{
+  "skill_id": "title_and_full_image_fe3556",
+  "skill_type": "shell",
+  "name": "Title and Full Image",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid"
+    ],
+    "content_shape": [
+      "title+subtitle+large-image"
+    ],
+    "density": "low",
+    "mood": [
+      "technical",
+      "minimal",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "diagram",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/title_and_full_image_fe3556/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "isometric_3d_it_infrastructure_mapping_28530083",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A simple, low-density layout featuring a top-left title block and a large dedicated area for a diagram or image, ideal for technical architecture or visual features.",
+  "_distill_attempts": 1
+}

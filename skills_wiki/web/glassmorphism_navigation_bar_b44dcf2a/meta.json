@@ -1,0 +1,37 @@
+{
+  "applicability": "Creates a modern, premium feel for navigation menus on websites with complex or dynamic backgrounds. Ideal for landing pages, portfolios, or as a sticky header, ensuring text legibility over any content.",
+  "category_path": [
+    "web",
+    "component",
+    "navigation_bar"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_navigation_bar_b44dcf2a",
+  "skill_name": "Glassmorphism Navigation Bar",
+  "source": {
+    "channel": "MzCode",
+    "duration_sec": 221,
+    "type": "youtube",
+    "video_id": "MsioY73mvBI",
+    "video_title": "Create a Glass Morphism Navbar\ud83d\udd2e | Step-by-Step UI Design Tutorial (HTML/CSS) | mzcode01 #coding #css",
+    "video_url": "https://www.youtube.com/watch?v=MsioY73mvBI",
+    "views": 8643
+  },
+  "tags": [
+    "glassmorphism",
+    "navigation",
+    "frosted-glass",
+    "css",
+    "header",
+    "ui-effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:13:50Z",
+  "wash_version": "1.0.0"
+}

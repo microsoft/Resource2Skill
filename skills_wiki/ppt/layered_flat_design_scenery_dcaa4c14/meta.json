@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for title slides, section dividers, conceptual illustrations, and infographics, especially for themes like nature, growth, or journey. It adds a handcrafted, unique aesthetic to presentations.",
+  "category_path": [
+    "visual_elements",
+    "illustration",
+    "scenery"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_flat_design_scenery_dcaa4c14",
+  "skill_name": "Layered Flat Design Scenery",
+  "source": {
+    "channel": "PowerPointCourse",
+    "duration_sec": 361,
+    "type": "youtube",
+    "video_id": "Q4wpZvJa9po",
+    "video_title": "\u5982\u4f55\u7528PPT\u7e6a\u5716\u8a2d\u8a08\u4e00\u5e45\u5c71\u6c34\u756b",
+    "video_url": "https://www.youtube.com/watch?v=Q4wpZvJa9po",
+    "views": 1356
+  },
+  "tags": [
+    "flat design",
+    "layered",
+    "scenery",
+    "illustration",
+    "geometric shapes",
+    "custom graphics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:27:59Z",
+  "wash_version": "1.0.0"
+}

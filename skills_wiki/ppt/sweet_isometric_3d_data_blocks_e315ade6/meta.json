@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sweet_isometric_3d_data_blocks_e315ade6",
+  "skill_name": "Sweet Isometric 3D Data Blocks",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 204,
+    "type": "youtube",
+    "video_id": "5HZwQ9s_7uI",
+    "video_title": "Powerpoint \u65af\u5a01\u7279\u56fe\u8868\u8bbe\u8ba1",
+    "video_url": "https://www.youtube.com/watch?v=5HZwQ9s_7uI",
+    "views": 70
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:20Z",
+  "wash_version": "1.0.0"
+}

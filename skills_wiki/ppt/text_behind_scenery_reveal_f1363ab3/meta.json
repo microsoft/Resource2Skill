@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "text_behind_scenery_reveal_f1363ab3",
+  "skill_name": "Text-Behind-Scenery Reveal",
+  "source": {
+    "channel": "Knowledge for Future",
+    "duration_sec": 250,
+    "type": "youtube",
+    "video_id": "5zXGdCY_8wY",
+    "video_title": "Unlock Your Creativity with Morph Transition in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=5zXGdCY_8wY",
+    "views": 117634
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:43:26Z",
+  "wash_version": "1.0.0"
+}

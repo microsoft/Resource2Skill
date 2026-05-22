@@ -1,0 +1,35 @@
+{
+  "applicability": "Unifies presentations with diverse content by applying a recurring, fragmented geometric element across slides. Ideal for pitch decks and corporate templates to create a strong, cohesive brand identity.",
+  "category_path": [
+    "design_system",
+    "visual_motif"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "thematic_motif_unification_variation_84fe528c",
+  "skill_name": "Fragmented Visual Motif",
+  "source": {
+    "channel": "\u884c\u92b7\u754c\u5168\u80fd\u7f8e\u5c11\u5973",
+    "duration_sec": 63,
+    "type": "youtube",
+    "video_id": "IFK3A1_hmWs",
+    "video_title": "\u5982\u4f55\u8b93PPT\u7d71\u4e00\u98a8\u683c",
+    "video_url": "https://www.youtube.com/watch?v=IFK3A1_hmWs",
+    "views": 62
+  },
+  "tags": [
+    "visual identity",
+    "branding",
+    "layout system",
+    "geometric motif",
+    "cohesion"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:22Z",
+  "wash_version": "1.0.0"
+}

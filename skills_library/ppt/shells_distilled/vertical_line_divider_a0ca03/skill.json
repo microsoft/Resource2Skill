@@ -1,0 +1,62 @@
+{
+  "skill_id": "vertical_line_divider_a0ca03",
+  "skill_type": "shell",
+  "name": "Vertical Line Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider"
+    ],
+    "content_shape": [
+      "vertical-line+text"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/vertical_line_divider_a0ca03/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "minimalist_spatial_masking_line_reveal_bb618084",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "The image shows a minimal vertical line being drawn on a blank canvas. This is interpreted as a minimal section divider layout featuring a central accent line and adjacent text.",
+  "_distill_attempts": 1
+}

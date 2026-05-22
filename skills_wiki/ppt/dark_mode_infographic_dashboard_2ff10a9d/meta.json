@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_infographic_dashboard_2ff10a9d",
+  "skill_name": "Dark Mode Infographic Dashboard",
+  "source": {
+    "channel": "Infographics Design",
+    "duration_sec": 998,
+    "type": "youtube",
+    "video_id": "IAPJHlo3Nt4",
+    "video_title": "Excel dashboard - How to design dashboards | data visualization",
+    "video_url": "https://www.youtube.com/watch?v=IAPJHlo3Nt4",
+    "views": 29030
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:08:58Z",
+  "wash_version": "1.0.0"
+}

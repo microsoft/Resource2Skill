@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_analog_clock_animation_1451694a",
+  "source": {
+    "channel": "Hexabirds",
+    "duration_sec": 281,
+    "type": "youtube",
+    "video_id": "zUH4F4k6VuQ",
+    "video_title": "Clock animation || Animation in CSS ||HTML CSS - 2024",
+    "video_url": "https://www.youtube.com/watch?v=zUH4F4k6VuQ",
+    "views": 233
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

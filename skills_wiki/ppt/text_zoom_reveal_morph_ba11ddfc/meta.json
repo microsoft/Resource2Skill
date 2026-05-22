@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "text_zoom_reveal_morph_ba11ddfc",
+  "skill_name": "Text Zoom-Reveal Morph",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 515,
+    "type": "youtube",
+    "video_id": "iGjSdWxKfjA",
+    "video_title": "Make this VIRAL SLIDE DESIGN in PowerPoint, Canva, and Google Slides \ud83e\udd13",
+    "video_url": "https://www.youtube.com/watch?v=iGjSdWxKfjA",
+    "views": 609316
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:43:42Z",
+  "wash_version": "1.0.0"
+}

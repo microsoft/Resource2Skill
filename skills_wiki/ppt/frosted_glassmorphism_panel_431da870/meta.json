@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a modern, sleek panel for placing text over a complex or vibrant background, ensuring legibility. Ideal for title slides, UI/UX mockups, and tech-focused presentations to signal a premium aesthetic.",
+  "category_path": [
+    "design",
+    "panel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frosted_glassmorphism_panel_431da870",
+  "skill_name": "Frosted Glassmorphism Panel",
+  "source": {
+    "channel": "AHD Mawan",
+    "duration_sec": 159,
+    "type": "youtube",
+    "video_id": "f_Qp_89NtGo",
+    "video_title": "Step-by-Step Guide: Creating Glass Morphism Effect in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=f_Qp_89NtGo",
+    "views": 3508
+  },
+  "tags": [
+    "glassmorphism",
+    "blur effect",
+    "modern design",
+    "ui panel",
+    "transparency"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:32:16Z",
+  "wash_version": "1.0.0"
+}

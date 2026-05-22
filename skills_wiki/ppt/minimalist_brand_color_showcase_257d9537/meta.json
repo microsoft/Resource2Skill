@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for showcasing brand color palettes in presentations, UI/UX design handoffs, and mood boards, it visually communicates a unified aesthetic.",
+  "category_path": [
+    "design_elements",
+    "color_display"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_brand_color_showcase_257d9537",
+  "skill_name": "Minimalist Brand Color Showcase",
+  "source": {
+    "channel": "PoweredTemplate.com",
+    "duration_sec": 294,
+    "type": "youtube",
+    "video_id": "fSGO_DmdjjI",
+    "video_title": "How to create a custom color palette in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=fSGO_DmdjjI",
+    "views": 29906
+  },
+  "tags": [
+    "brand identity",
+    "color palette",
+    "minimalist design",
+    "hex codes",
+    "swatch display",
+    "design system"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:49:33Z",
+  "wash_version": "1.0.0"
+}

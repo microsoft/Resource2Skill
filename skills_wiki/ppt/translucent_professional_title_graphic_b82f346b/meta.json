@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for title or section break slides in corporate presentations. Effectively introduces topics or speakers by blending a professional photo with subtle, data-driven background visuals.",
+  "category_path": [
+    "slide_design",
+    "title_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "translucent_professional_title_graphic_b82f346b",
+  "skill_name": "Professional Title Slide with Translucent Graphic",
+  "source": {
+    "channel": "Moxie Institute | Fia Fasbinder CEO & Speaker",
+    "duration_sec": 878,
+    "type": "youtube",
+    "video_id": "soZBrFglqtc",
+    "video_title": "10 Tips For Impressive Presentations To Senior Leadership And Executives",
+    "video_url": "https://www.youtube.com/watch?v=soZBrFglqtc",
+    "views": 294327
+  },
+  "tags": [
+    "title slide",
+    "corporate design",
+    "image transparency",
+    "layered graphic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:23Z",
+  "wash_version": "1.0.0"
+}

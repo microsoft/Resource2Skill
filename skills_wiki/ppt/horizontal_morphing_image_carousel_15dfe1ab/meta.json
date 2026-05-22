@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "horizontal_morphing_image_carousel_15dfe1ab",
+  "skill_name": "Horizontal Morphing Image Carousel",
+  "source": {
+    "channel": "Presentation Tutor ",
+    "duration_sec": 517,
+    "type": "youtube",
+    "video_id": "4DcPZFm0pjE",
+    "video_title": "How to Create a Professional Topic Menu in PowerPoint | Morph Transition Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=4DcPZFm0pjE",
+    "views": 1
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:34:22Z",
+  "wash_version": "1.0.0"
+}

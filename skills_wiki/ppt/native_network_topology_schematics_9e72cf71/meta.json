@@ -1,0 +1,37 @@
+{
+  "applicability": "This skill translates complex IT infrastructures and logical workflows into standardized visual topologies, reducing cognitive load for audiences. It is ideal for system architecture reviews, deployment plans, database schemas, and technical educational presentations.",
+  "category_path": [
+    "architecture",
+    "network",
+    "diagrams"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_network_topology_schematics_9e72cf71",
+  "skill_name": "Native Network Topology Schematics",
+  "source": {
+    "channel": "The Harahaps",
+    "duration_sec": 820,
+    "type": "youtube",
+    "video_id": "HDfIgDkAt_0",
+    "video_title": "Lab 0.5 How to Draw Network Topology using draw.io and creately.com",
+    "video_url": "https://www.youtube.com/watch?v=HDfIgDkAt_0",
+    "views": 71
+  },
+  "tags": [
+    "IT architecture",
+    "network diagrams",
+    "data flow",
+    "PowerPoint native",
+    "system topology",
+    "technical schematics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:40Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "educational_chalkboard_explainer_2370f8c5",
+  "skill_name": "\"Educational Chalkboard Explainer\"",
+  "source": {
+    "channel": "Neso Academy",
+    "duration_sec": 816,
+    "type": "youtube",
+    "video_id": "uSKdjjw5zow",
+    "video_title": "Network Topology",
+    "video_url": "https://www.youtube.com/watch?v=uSKdjjw5zow",
+    "views": 1416292
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:23:26Z",
+  "wash_version": "1.0.0"
+}

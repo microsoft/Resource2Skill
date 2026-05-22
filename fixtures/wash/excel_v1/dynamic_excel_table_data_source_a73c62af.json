@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "table"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_excel_table_data_source_a73c62af",
+  "source": {
+    "channel": "\u5c0f\u79cb\u8001\u5e08\u7684Excel",
+    "duration_sec": 538,
+    "type": "youtube",
+    "video_id": "kJR-EVk9LNM",
+    "video_title": "Excel\u5927\u6570\u636e\uff0c\u5e97\u94fa\u6570\u636eBI\u6df1\u5ea6\u5206\u6790\u770b\u677f\uff08\u9500\u552e+\u65f6\u523b+\u4ea7\u54c1+\u4f1a\u5458\uff09",
+    "video_url": "https://www.youtube.com/watch?v=kJR-EVk9LNM",
+    "views": 56
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

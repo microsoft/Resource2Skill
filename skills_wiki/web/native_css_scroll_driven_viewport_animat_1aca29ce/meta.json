@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_viewport_animat_1aca29ce",
+  "skill_name": "Native CSS Scroll-Driven Viewport Animations",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 440,
+    "type": "youtube",
+    "video_id": "16PncZlSNds",
+    "video_title": "Scroll Animation using only CSS | No JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=16PncZlSNds",
+    "views": 92112
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:54Z",
+  "wash_version": "1.0.0"
+}

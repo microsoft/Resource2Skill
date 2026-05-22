@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "eevee_realistic_alpha_hashed_glass_4d44c2a4",
+  "skill_name": "EEVEE Realistic Alpha-Hashed Glass",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "JYyUMMboZFk",
+    "video_title": "Realistic Glass Shader in Blender Eevee - Tutorial (Updated Video Link in Description)",
+    "video_url": "https://www.youtube.com/watch?v=JYyUMMboZFk",
+    "views": 561570
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:06:47Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_spotlight_series_thematic_q_a_mo_5c4e6f8a",
+  "skill_name": "Dynamic Spotlight Series (Thematic Q&A Morph)",
+  "source": {
+    "channel": "Farmers Insurance Federal Credit Union (FIGFCU)",
+    "duration_sec": 181,
+    "type": "youtube",
+    "video_id": "qkpnZgU4qcc",
+    "video_title": "Employee Spotlight: Jimmy Pineda",
+    "video_url": "https://www.youtube.com/watch?v=qkpnZgU4qcc",
+    "views": 160
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:55:15Z",
+  "wash_version": "1.0.0"
+}

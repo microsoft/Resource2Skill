@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_dashboard_sheet_a9497efe",
+  "skill_name": "Themed KPI Dashboard Sheet",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:26Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 6,
+          "description": "Example of a complete KPI Dashboard with interactive elements"
+        },
+        {
+          "seconds": 35,
+          "description": "Close-up of KPI Dashboard showing calculated values and color coding"
+        },
+        {
+          "seconds": 120,
+          "description": "Full view of the KPI Dashboard template for user implementation"
+        },
+        {
+          "seconds": 406,
+          "description": "Dashboard dynamically updating KPIs and colors based on month selection"
+        },
+        {
+          "seconds": 606,
+          "description": "Interactive KPI Dashboard demonstrating seamless data changes across various metrics"
+        }
+      ],
+      "frames": [
+        "frame_00_example_of_a_complete_kpi_dash.jpg",
+        "frame_01_close_up_of_kpi_dashboard_show.jpg",
+        "frame_02_full_view_of_the_kpi_dashboard.jpg",
+        "frame_03_dashboard_dynamically_updating.jpg",
+        "frame_04_interactive_kpi_dashboard_demo.jpg"
+      ],
+      "recapped_at": 1777407743.9964268
+    },
+    "primary_path": "frame_00_example_of_a_complete_kpi_dash.jpg"
+  }
+}

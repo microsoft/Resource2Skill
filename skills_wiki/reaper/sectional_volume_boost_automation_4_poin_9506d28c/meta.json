@@ -1,0 +1,35 @@
+{
+  "applicability": "A foundational mixing technique for creating dynamic mixes. Use it to temporarily boost the volume of a specific track section, such as a solo, vocal line, or drum fill, to make it stand out.",
+  "category_path": [
+    "mixing",
+    "automation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sectional_volume_boost_automation_4_poin_9506d28c",
+  "skill_name": "Volume Plateau Automation",
+  "source": {
+    "channel": "Audiohackr",
+    "duration_sec": 266,
+    "type": "youtube",
+    "video_id": "2s2dVeTxvRQ",
+    "video_title": "How to use automation in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=2s2dVeTxvRQ",
+    "views": 43551
+  },
+  "tags": [
+    "mixing",
+    "automation",
+    "volume",
+    "dynamics",
+    "envelope"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:00:21Z",
+  "wash_version": "1.0.0"
+}

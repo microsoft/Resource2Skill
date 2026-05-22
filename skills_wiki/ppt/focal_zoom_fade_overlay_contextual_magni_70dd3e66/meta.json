@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "product"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "focal_zoom_fade_overlay_contextual_magni_70dd3e66",
+  "skill_name": "Focal Zoom & Fade Overlay (Contextual Magnification)",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 414,
+    "type": "youtube",
+    "video_id": "085vy_DN3ZE",
+    "video_title": "Zoom Effect in PowerPoint 2016 (Newspaper Article)",
+    "video_url": "https://www.youtube.com/watch?v=085vy_DN3ZE",
+    "views": 104261
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:16Z",
+  "wash_version": "1.0.0"
+}

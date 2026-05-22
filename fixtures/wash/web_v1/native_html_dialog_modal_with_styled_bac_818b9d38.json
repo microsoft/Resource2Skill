@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_html_dialog_modal_with_styled_bac_818b9d38",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 580,
+    "type": "youtube",
+    "video_id": "TAB_v6yBXIE",
+    "video_title": "dialog = the easiest way to make a popup modal",
+    "video_url": "https://www.youtube.com/watch?v=TAB_v6yBXIE",
+    "views": 210631
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

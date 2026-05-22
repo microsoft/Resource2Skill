@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gridless_dashboard_canvas_784aee46",
+  "skill_name": "Gridless Dashboard Canvas",
+  "source": {
+    "channel": "Teacher's Tech",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=9n-_vIAT-GY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:11:34Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 7,
+          "description": "The complete, interactive Excel dashboard is shown as the tutorial's goal."
+        },
+        {
+          "seconds": 1247,
+          "description": "All individual charts and slicers are transferred to the dashboard sheet, showing all components loosely arranged."
+        },
+        {
+          "seconds": 1527,
+          "description": "The dashboard begins to take shape with initial organization and alignment of charts and slicers."
+        },
+        {
+          "seconds": 1817,
+          "description": "A logo and main title are added to the dashboard, enhancing its visual identity."
+        },
+        {
+          "seconds": 2035,
+          "description": "The final interactive dashboard with consistent styling, theme, and hidden gridlines."
+        }
+      ],
+      "frames": [
+        "frame_00_the_complete_interactive_excel.jpg",
+        "frame_01_all_individual_charts_and_slic.jpg"
+      ],
+      "recapped_at": 1777406975.64866
+    },
+    "primary_path": "frame_00_the_complete_interactive_excel.jpg"
+  }
+}

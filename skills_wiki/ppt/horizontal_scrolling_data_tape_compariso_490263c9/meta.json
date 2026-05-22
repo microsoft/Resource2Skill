@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "horizontal_scrolling_data_tape_compariso_490263c9",
+  "skill_name": "Horizontal Scrolling Data Tape (Comparison Ticker)",
+  "source": {
+    "channel": "Joris Presents",
+    "duration_sec": 259,
+    "type": "youtube",
+    "video_id": "gf7fK4DozmY",
+    "video_title": "How To Make a Comparison Video In PowerPoint | Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=gf7fK4DozmY",
+    "views": 55543
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:37:06Z",
+  "wash_version": "1.0.0"
+}

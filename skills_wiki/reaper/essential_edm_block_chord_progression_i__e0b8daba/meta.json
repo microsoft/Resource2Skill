@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "essential_edm_block_chord_progression_i__e0b8daba",
+  "skill_name": "Essential EDM Block Chord Progression (I - V - vi - IV)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 1028,
+    "type": "youtube",
+    "video_id": "t6Qu_Nv5Jto",
+    "video_title": "Create Simple EDM Chords in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=t6Qu_Nv5Jto",
+    "views": 29320
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:07Z",
+  "wash_version": "1.0.0"
+}

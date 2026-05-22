@@ -1,0 +1,117 @@
+{
+  "theme_id": "monochrome_onyx",
+  "name": "Monochrome Onyx",
+  "palette": {
+    "bg": "#050505",
+    "panel": "#0C0C0C",
+    "accent": "#FFFFFF",
+    "accent2": "#6A6A6A",
+    "text": "#F6F6F6",
+    "muted": "#8E8E8E",
+    "border": "#1F1F1F",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Segoe UI",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "Pure monochrome; ultra-thin rules"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "restrained",
+    "editorial",
+    "cinematic",
+    "bold"
+  ],
+  "archetype_fit": [
+    "brand",
+    "research",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "hairline",
+    "typewriter",
+    "axis",
+    "ink-bleed",
+    "iris",
+    "margin-note"
+  ],
+  "avoided_motion_tags": [
+    "chromatic",
+    "confetti",
+    "balloon",
+    "bubble",
+    "dot-matrix"
+  ]
+}

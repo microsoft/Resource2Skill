@@ -1,0 +1,13 @@
+{
+  "name": "glass_frosted",
+  "description": "Frosted translucent glass with high transmission and rough surface for soft caustics",
+  "principled": {
+    "Base Color": [0.92, 0.95, 0.98, 1.0],
+    "Metallic": 0.0,
+    "Roughness": 0.18,
+    "IOR": 1.45,
+    "Transmission Weight": 1.0,
+    "Alpha": 1.0
+  },
+  "best_for": ["windows", "diffuser panels", "modern interiors", "lamp shades"]
+}

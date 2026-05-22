@@ -1,0 +1,37 @@
+{
+  "applicability": "Use this technique for architectural visualization, daylight interiors, or high-end product showcases that require realistic atmospheric lighting. It provides soft, complex shadows and allows for stylized reflections without altering the fundamental scene illumination.",
+  "category_path": [
+    "lighting",
+    "world_environment"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_dual_sky_lighting_with_glossy_ov_efd29842",
+  "skill_name": "Dynamic Dual-Sky Lighting with Glossy Override",
+  "source": {
+    "channel": "Poly Playground",
+    "duration_sec": 121,
+    "type": "youtube",
+    "video_id": "Hyhew7kuhgA",
+    "video_title": "Easy Blender Lighting HACK [Blender Tutorial]",
+    "video_url": "https://www.youtube.com/watch?v=Hyhew7kuhgA",
+    "views": 232262
+  },
+  "tags": [
+    "world_shader",
+    "nishita_sky",
+    "light_path",
+    "glossy_override",
+    "procedural_lighting",
+    "archviz"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:16Z",
+  "wash_version": "1.0.0"
+}

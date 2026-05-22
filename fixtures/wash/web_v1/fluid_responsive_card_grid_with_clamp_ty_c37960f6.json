@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_responsive_card_grid_with_clamp_ty_c37960f6",
+  "source": {
+    "channel": "Coder Coder",
+    "duration_sec": 2353,
+    "type": "youtube",
+    "video_id": "vQDgoQKfdzM",
+    "video_title": "How to make your website responsive",
+    "video_url": "https://www.youtube.com/watch?v=vQDgoQKfdzM",
+    "views": 95979
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

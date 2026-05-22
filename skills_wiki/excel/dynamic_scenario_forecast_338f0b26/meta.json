@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_forecast_338f0b26",
+  "skill_name": "Dynamic Scenario Forecast",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:59:52Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Completed dynamic income statement model"
+        },
+        {
+          "seconds": 229,
+          "description": "Revenue calculated for all 5 years"
+        },
+        {
+          "seconds": 1018,
+          "description": "Full income statement calculated with base assumptions"
+        },
+        {
+          "seconds": 1352,
+          "description": "Dynamic linking of assumptions applied"
+        },
+        {
+          "seconds": 1419,
+          "description": "Dynamic model in action with scenario switch"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_dynamic_income_state.jpg",
+        "frame_01_revenue_calculated_for_all_5_y.jpg"
+      ],
+      "recapped_at": 1777406609.2307212
+    },
+    "primary_path": "frame_00_completed_dynamic_income_state.jpg"
+  }
+}

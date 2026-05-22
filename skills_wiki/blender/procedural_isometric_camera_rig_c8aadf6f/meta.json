@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates a non-perspective, blueprint-like view ideal for technical visualizations, motion graphics, architectural cutaways, and stylized game asset rendering. It ensures parallel lines remain parallel, regardless of distance.",
+  "category_path": [
+    "camera",
+    "rigging"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_isometric_camera_rig_c8aadf6f",
+  "skill_name": "Procedural Isometric Camera Rig",
+  "source": {
+    "channel": "Motion Design School",
+    "duration_sec": 60,
+    "type": "youtube",
+    "video_id": "4kTP0OcaSr0",
+    "video_title": "Tips & Tricks in After Effects: Isometric Camera",
+    "video_url": "https://www.youtube.com/watch?v=4kTP0OcaSr0",
+    "views": 93002
+  },
+  "tags": [
+    "isometric",
+    "orthographic",
+    "camera rig",
+    "technical art",
+    "motion graphics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:47:08Z",
+  "wash_version": "1.0.0"
+}

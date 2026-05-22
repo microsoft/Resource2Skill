@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "format_presets"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "currency_usd_a9c424f6",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,122 @@
+{
+  "theme_id": "editorial_dark_mono",
+  "name": "Editorial Dark Mono",
+  "palette": {
+    "bg": "#0A0A0C",
+    "panel": "#141417",
+    "accent": "#E7E7DC",
+    "accent2": "#A78BFA",
+    "text": "#FAFAF5",
+    "muted": "#72727B",
+    "border": "#23232A",
+    "success": "#5EEAD4",
+    "warning": "#FBBF24"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Consolas",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Consolas",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "Thin horizontal rules as dividers"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "editorial",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "spin"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "restrained",
+    "calm"
+  ],
+  "archetype_fit": [
+    "research",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "typewriter",
+    "ink-bleed",
+    "column-rule",
+    "margin-note",
+    "page-turn",
+    "kicker-tick",
+    "thesis",
+    "hairline",
+    "axis",
+    "row-cascade"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "bounce",
+    "confetti",
+    "chromatic",
+    "balloon",
+    "neon",
+    "marquee"
+  ]
+}

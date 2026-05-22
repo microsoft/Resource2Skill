@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "funky_16th_note_triad_interplay_5c094ac1",
+  "skill_name": "Funky 16th-Note Triad Interplay",
+  "source": {
+    "channel": "The Keys Coach",
+    "duration_sec": 1347,
+    "type": "youtube",
+    "video_id": "sK8OG-wGxHI",
+    "video_title": "Become a Funk Piano Pro with THIS Must-Know Pattern",
+    "video_url": "https://www.youtube.com/watch?v=sK8OG-wGxHI",
+    "views": 121070
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:43Z",
+  "wash_version": "1.0.0"
+}

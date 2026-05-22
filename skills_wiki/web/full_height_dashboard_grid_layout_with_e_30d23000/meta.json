@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_height_dashboard_grid_layout_with_e_30d23000",
+  "skill_name": "Full-Height Dashboard Grid Layout with Expandable Sidebar",
+  "source": {
+    "channel": "Optimistic Web",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "xR23ktLwvrg",
+    "video_title": "CSS Grid - Create a FULL-HEIGHT RESPONSIVE Layout in Minutes",
+    "video_url": "https://www.youtube.com/watch?v=xR23ktLwvrg",
+    "views": 33441
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:27Z",
+  "wash_version": "1.0.0"
+}

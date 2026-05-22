@@ -1,0 +1,22 @@
+{
+  "accent": "65A30D",
+  "accent_alt": "DC2626",
+  "bad": "B91C1C",
+  "body_bg": "FFFBF5",
+  "body_fg": "1C1917",
+  "border_color": "FDBA74",
+  "font_body": "Calibri",
+  "font_size_body": 11,
+  "font_size_data": 11,
+  "font_size_subheader": 12,
+  "font_size_title": 16,
+  "font_title": "Calibri",
+  "good": "65A30D",
+  "header_bg": "C2410C",
+  "header_fg": "FFF7ED",
+  "subheader_bg": "FED7AA",
+  "subheader_fg": "7C2D12",
+  "title_fg": "7C2D12",
+  "warn": "D97706",
+  "zebra_bg": "FEF3E8"
+}

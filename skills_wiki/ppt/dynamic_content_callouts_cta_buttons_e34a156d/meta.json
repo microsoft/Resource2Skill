@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_content_callouts_cta_buttons_e34a156d",
+  "skill_name": "Dynamic Content Callouts & CTA Buttons",
+  "source": {
+    "channel": "Declan O'Flaherty",
+    "duration_sec": 466,
+    "type": "youtube",
+    "video_id": "GVoNP5D8p40",
+    "video_title": "How To Create Call To Action Buttons Inside PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=GVoNP5D8p40",
+    "views": 1611
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:27Z",
+  "wash_version": "1.0.0"
+}

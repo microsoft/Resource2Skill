@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "jazz_chord_melody_shell_harmonization_ca7549fb",
+  "skill_name": "Jazz Chord-Melody Shell Harmonization",
+  "source": {
+    "channel": "Jens Larsen",
+    "duration_sec": 648,
+    "type": "youtube",
+    "video_id": "f_HOaeaQSGQ",
+    "video_title": "Chord Melody Made Simple \u2013 Start Playing Today",
+    "video_url": "https://www.youtube.com/watch?v=f_HOaeaQSGQ",
+    "views": 47771
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:51Z",
+  "wash_version": "1.0.0"
+}

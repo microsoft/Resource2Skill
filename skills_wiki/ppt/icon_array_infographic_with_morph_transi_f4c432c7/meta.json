@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "icon_array_infographic_with_morph_transi_f4c432c7",
+  "skill_name": "Icon Array Infographic with Morph Transition",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 1624,
+    "type": "youtube",
+    "video_id": "taceKyboFJU",
+    "video_title": "6 Easy Infographics to Bring Your Data to Life in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=taceKyboFJU",
+    "views": 35538
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:34:54Z",
+  "wash_version": "1.0.0"
+}

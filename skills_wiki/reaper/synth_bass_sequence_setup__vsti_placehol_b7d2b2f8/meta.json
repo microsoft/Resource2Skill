@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "synth_bass_sequence_setup__vsti_placehol_b7d2b2f8",
+  "skill_name": "Synth Bass Sequence Setup (VSTi Placeholder)",
+  "source": {
+    "channel": "Krinstar",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=RuzpiVPB5L8"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:58:09Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for modern Web3, SaaS, and creative portfolio landing pages, functioning best as a hero section background behind high-contrast typography or glassmorphic cards.",
+  "category_path": [
+    "visual_effects",
+    "backgrounds"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_gooey_fluid_gradient_backgro_7fd5e6f7",
+  "skill_name": "Interactive Gooey Fluid Gradient Background",
+  "source": {
+    "channel": "WeCoded",
+    "duration_sec": 884,
+    "type": "youtube",
+    "video_id": "Ml-B-W91gtw",
+    "video_title": "CSS Morphing Gradients Animated Background",
+    "video_url": "https://www.youtube.com/watch?v=Ml-B-W91gtw",
+    "views": 190137
+  },
+  "tags": [
+    "fluid-gradient",
+    "gooey-effect",
+    "interactive-background",
+    "svg-filters",
+    "css-animation",
+    "hero-section"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:01:29Z",
+  "wash_version": "1.0.0"
+}

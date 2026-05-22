@@ -1,0 +1,112 @@
+{
+  "model": "gpt-5.4",
+  "reasoning": "medium",
+  "quotas": [
+    {
+      "category": "entrance",
+      "target": 12,
+      "batch": 6
+    },
+    {
+      "category": "emphasis",
+      "target": 6,
+      "batch": 6
+    },
+    {
+      "category": "ambient",
+      "target": 8,
+      "batch": 6
+    },
+    {
+      "category": "transition",
+      "target": 4,
+      "batch": 6
+    },
+    {
+      "category": "text",
+      "target": 5,
+      "batch": 6
+    },
+    {
+      "category": "composite",
+      "target": 4,
+      "batch": 6
+    }
+  ],
+  "accepted_ids": [
+    "badge_pinwheel_pop",
+    "card_rise_settle",
+    "cinematic_lateral_reveal",
+    "eyebrow_slant_settle",
+    "focus_pull_dissolve",
+    "glass_crossfade_settle",
+    "headline_arc_settle",
+    "headline_letterpress_stagger",
+    "headline_mist_rise",
+    "hero_arc_glide",
+    "logo_swoop_resolve",
+    "metric_bloom_echo",
+    "metric_digit_pop_stagger",
+    "metric_snap_focus",
+    "page_hinge_drop",
+    "panel_shutter_unfold",
+    "photo_wipe_drift",
+    "quote_arc_whisper",
+    "quote_lens_arrive",
+    "quote_lilt_reveal",
+    "seal_twirl_land",
+    "stat_scan_reveal",
+    "subhead_glide_stagger",
+    "subhead_mask_stagger",
+    "subhead_stagger_fade"
+  ],
+  "rejected": [],
+  "timestamp": 1776575640,
+  "previous_runs": [
+    {
+      "timestamp": 1776574192,
+      "accepted_ids": [
+        "badge_swing_in",
+        "editorial_wipe_rise",
+        "headline_word_cascade"
+      ]
+    },
+    {
+      "timestamp": 1776575630,
+      "accepted_ids": [
+        "agenda_marker_sweep",
+        "background_parallax_glide",
+        "chart_peak_ping",
+        "cinematic_veil_reveal",
+        "editorial_side_nudge",
+        "eyebrow_tick_in",
+        "floating_card_drift",
+        "gentle_rise_fade",
+        "glass_card_hover_loop",
+        "headline_prism_stagger",
+        "headline_restrike_focus",
+        "hero_lens_focus",
+        "hero_metric_heartbeat_loop",
+        "hero_metric_surge_settle",
+        "hinge_pivot_reveal",
+        "icon_orbit_tap",
+        "lateral_handoff_crossfade",
+        "metric_digit_spark",
+        "metric_snap_pop",
+        "milestone_stamp_confirm",
+        "numeric_confidence_bump",
+        "panel_unveil_settle",
+        "planet_orbit_idle",
+        "product_card_swoop_focus",
+        "quote_breath_arc",
+        "quote_lantern_reveal",
+        "runway_push_transition",
+        "seal_slow_spin",
+        "seal_tilt_reaffirm",
+        "signal_beacon_idle",
+        "soft_arc_settle",
+        "tilt_drop_land"
+      ]
+    }
+  ]
+}

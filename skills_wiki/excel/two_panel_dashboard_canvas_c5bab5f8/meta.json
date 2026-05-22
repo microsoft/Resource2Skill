@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_panel_dashboard_canvas_c5bab5f8",
+  "skill_name": "Two-Panel Dashboard Canvas",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:29:47Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "Initial demonstration of key features the tutorial will cover."
+        },
+        {
+          "seconds": 110,
+          "description": "A fully built and interactive Excel dashboard demonstration."
+        },
+        {
+          "seconds": 1605,
+          "description": "The dashboard with multiple charts and data visualizations populated."
+        },
+        {
+          "seconds": 2146,
+          "description": "All charts and elements placed on the dashboard, ready for final touches."
+        },
+        {
+          "seconds": 2752,
+          "description": "The completed, interactive Excel dashboard with custom colors and titles."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_demonstration_of_key_f.jpg",
+        "frame_01_a_fully_built_and_interactive_.jpg",
+        "frame_02_the_dashboard_with_multiple_ch.jpg"
+      ],
+      "recapped_at": 1777407916.3296165
+    },
+    "primary_path": "frame_00_initial_demonstration_of_key_f.jpg"
+  }
+}

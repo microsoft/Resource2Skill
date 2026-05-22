@@ -1,0 +1,34 @@
+{
+  "applicability": "This skill presents a two-step process or two key points using horizontal cards. It is suitable for comparing distinct items or outlining a simple sequence on a slide.",
+  "category_path": [
+    "content_layouts",
+    "process_steps"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_step_horizontal_cards_56cb4c",
+  "skill_name": "Two Step Horizontal Cards",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "two steps",
+    "horizontal cards",
+    "process",
+    "comparison",
+    "ribbon",
+    "corporate"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:14Z",
+  "wash_version": "1.0.0"
+}

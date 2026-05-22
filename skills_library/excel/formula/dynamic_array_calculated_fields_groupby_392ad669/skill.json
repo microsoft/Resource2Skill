@@ -1,0 +1,18 @@
+{
+  "skill_id": "dynamic_array_calculated_fields_groupby_392ad669",
+  "skill_name": "Dynamic Array Calculated Fields (GROUPBY)",
+  "domain": "excel",
+  "category": "formula",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=sMPCDBBg3BQ",
+    "video_id": "sMPCDBBg3BQ",
+    "video_title": "Budget vs Actual with GROUPBY & PIVOTBY - SUPERCHARGE your reporting!",
+    "channel": "Excel Off The Grid",
+    "duration_sec": 586,
+    "views": 24918
+  },
+  "extracted_at": "2026-04-25T03:23:54.466079",
+  "analysis": "### 1. High-level Skill Pattern Extraction\n\n> **Skill Name**: Dynamic Array Calculated Fields (GROUPBY)\n\n* **Tier**: snippet\n* **Core Mechanism**: Uses the `LET` function to execute and store a base `GROUPBY` (or `PIVOTBY`) array result. It then utilizes `CHOOSECOLS` to extract the aggregated metric columns, performs row-by-row arithmetic to generate new \"Calculated Fields\" (like Variance and % Variance), and uses `HSTACK` to append these new columns to the original summary table. \n* **Applicability**: Essential for creating modern, single-formula summary reports comparing metrics (Budget vs. Actual, YoY, Forecast vs. Actual) where you need calculated variance columns attached to grouped data, overcoming the limitation that `GROUPBY` doesn't natively support calculated fields like PivotTables do.\n\n### 2. Structural Breakdown\n\n- **Data Layout**: Requires a tabular source with at least one categorical column (for row grouping) and two aligned numeric columns representing the metrics to compare (e.g., a Budget column and an Actual column).\n- **Formula Logic**: \n  - `calc`: Calculates the base summary using `GROUPBY({row_categories}, HSTACK({budget}, {actual}), SUM)`.\n  - `variance`: Extracts actuals `CHOOSECOLS(calc, 3)` and subtracts budget `CHOOSECOLS(calc, 2)`.\n  - `pct_variance`: Divides the computed `variance` by the budget column.\n  - Final output stacks everything horizontally: `HSTACK(calc, variance, pct_variance)`.\n- **Visual Design**: N/A (Formula snippet)\n- **Charts/Tables**: N/A (Formula snippet)\n- **Theme Hooks**: N/A (Formula snippet)\n\n### 3. Reproduction Code\n\n```json\n{\n  \"name\": \"groupby_variance_calculated_fields\",\n  \"description\": \"Dynamic array formula extending GROUPBY with calculated Variance and % Variance columns using LET and HSTACK.\",\n  \"formula\": \"=LET(calc, GROUPBY({row_category_range}, HSTACK({baseline_range}, {actual_range}), SUM), variance, CHOOSECOLS(calc, 3) - CHOOSECOLS(calc, 2), pct_variance, variance / CHOOSECOLS(calc, 2), HSTACK(calc, variance, pct_variance))\",\n  \"placeholders\": {\n    \"row_category_range\": \"Range containing the categorical values to group by (e.g., Table1[Product])\",\n    \"baseline_range\": \"Range containing the budget/target values (e.g., Table1[Budget])\",\n    \"actual_range\": \"Range containing the actual values (e.g., Table1[Actual])\"\n  }\n}\n```",
+  "frames": []
+}

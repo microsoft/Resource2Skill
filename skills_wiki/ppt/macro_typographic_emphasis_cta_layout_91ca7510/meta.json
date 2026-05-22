@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "macro_typographic_emphasis_cta_layout_91ca7510",
+  "skill_name": "Macro Typographic Emphasis & CTA Layout",
+  "source": {
+    "channel": "Expert Academy (GLOBAL)",
+    "duration_sec": 148,
+    "type": "youtube",
+    "video_id": "c5JGl3jZb2M",
+    "video_title": "How to end a presentation",
+    "video_url": "https://www.youtube.com/watch?v=c5JGl3jZb2M",
+    "views": 846416
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:33Z",
+  "wash_version": "1.0.0"
+}

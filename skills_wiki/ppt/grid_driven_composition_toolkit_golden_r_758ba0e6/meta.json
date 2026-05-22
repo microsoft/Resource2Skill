@@ -1,0 +1,36 @@
+{
+  "applicability": "Applies classic design principles like the Golden Ratio, Rule of Thirds, and Symmetry to create balanced, professional, and aesthetically pleasing layouts. Ideal for premium showcases, full-bleed image slides, and comparison slides.",
+  "category_path": [
+    "layout",
+    "composition"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_driven_composition_toolkit_golden_r_758ba0e6",
+  "skill_name": "Compositional Grid Toolkit",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 239,
+    "type": "youtube",
+    "video_id": "imQiojAph1Q",
+    "video_title": "3 Grids for Balanced Slides in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=imQiojAph1Q",
+    "views": 15425
+  },
+  "tags": [
+    "layout",
+    "grid",
+    "composition",
+    "alignment",
+    "design principles"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:53:15Z",
+  "wash_version": "1.0.0"
+}

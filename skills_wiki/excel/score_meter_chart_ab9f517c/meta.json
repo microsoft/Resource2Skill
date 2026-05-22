@@ -1,0 +1,38 @@
+{
+  "applicability": "Perfect for executive dashboards or KPI reporting where a single metric needs to be contextualized against qualitative bands (e.g., poor, average, good).",
+  "category_path": [
+    "data_visualization",
+    "charts",
+    "custom"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "score_meter_chart_ab9f517c",
+  "skill_name": "Score Meter Chart",
+  "source": {
+    "channel": "Excel Bootcamp",
+    "duration_sec": 265,
+    "type": "youtube",
+    "video_id": "bgO0XoJsaxQ",
+    "video_title": "Build a Score Meter Chart in Excel - Infographic Chart Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=bgO0XoJsaxQ",
+    "views": 36763
+  },
+  "tags": [
+    "gauge chart",
+    "bullet chart",
+    "kpi",
+    "dashboard",
+    "stacked bar",
+    "progress indicator"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:39Z",
+  "wash_version": "1.0.0"
+}

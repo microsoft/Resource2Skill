@@ -1,0 +1,47 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "authority_driven_split_hero_4d4b0f50",
+  "skill_name": "Authority-Driven Split Hero",
+  "source": {
+    "channel": "Flux Academy",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=LJbkLdtEW00"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:40:42Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 345,
+          "description": "Wireframe showing content layout options"
+        },
+        {
+          "seconds": 831,
+          "description": "Hero section with integrated imagery"
+        },
+        {
+          "seconds": 1124,
+          "description": "Final optimized hero section design"
+        }
+      ],
+      "frames": [
+        "frame_00_wireframe_showing_content_layo.jpg"
+      ],
+      "recapped_at": 1777408735.4765356
+    },
+    "primary_path": "frame_00_wireframe_showing_content_layo.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_3d_canvas_parallax_5f732c0b",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 938,
+    "type": "youtube",
+    "video_id": "Q7AOvWpIVHU",
+    "video_title": "Build a Mindblowing 3D Portfolio Website // Three.js Beginner\u2019s Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Q7AOvWpIVHU",
+    "views": 3021859
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

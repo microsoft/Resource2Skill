@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_fluid_radial_background_ef2d2343",
+  "source": {
+    "channel": "Leanne R",
+    "duration_sec": 215,
+    "type": "youtube",
+    "video_id": "5KFd9OzmX78",
+    "video_title": "Code an animated gradient background with CSS",
+    "video_url": "https://www.youtube.com/watch?v=5KFd9OzmX78",
+    "views": 1392
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

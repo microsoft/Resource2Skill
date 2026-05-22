@@ -1,0 +1,29 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "center_image_metric_split_f04e3c",
+  "skill_name": "Center Image Metric Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T4",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:00:59Z",
+  "wash_version": "1.0.0"
+}

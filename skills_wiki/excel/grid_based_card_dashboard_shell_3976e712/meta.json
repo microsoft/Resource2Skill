@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_card_dashboard_shell_3976e712",
+  "skill_name": "Grid-Based Card Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:46:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Fully completed interactive Excel dashboard"
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard structure with labeled sections"
+        },
+        {
+          "seconds": 847,
+          "description": "Course selection webpage"
+        },
+        {
+          "seconds": 1494,
+          "description": "Final Excel dashboard with all visuals formatted"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_completed_interactive_ex.jpg",
+        "frame_01_dashboard_structure_with_label.jpg",
+        "frame_02_course_selection_webpage.jpg"
+      ],
+      "recapped_at": 1777406775.2480056
+    },
+    "primary_path": "frame_00_fully_completed_interactive_ex.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "intersection_observer_scroll_reveal_5576952f",
+  "skill_name": "Intersection Observer Scroll Reveal",
+  "source": {
+    "channel": "Train To Code",
+    "duration_sec": 408,
+    "type": "youtube",
+    "video_id": "nDPsLFPzVEA",
+    "video_title": "Effortlessly Create Scroll Animations with the Intersection Observer API",
+    "video_url": "https://www.youtube.com/watch?v=nDPsLFPzVEA",
+    "views": 3791
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:18Z",
+  "wash_version": "1.0.0"
+}

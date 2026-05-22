@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_voxel_remeshed_sculpt_base_441988d0",
+  "skill_name": "Procedural Voxel-Remeshed Sculpt Base",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 2620,
+    "type": "youtube",
+    "video_id": "5-mNgCpEkCI",
+    "video_title": "Master Blender Sculpting: Every Brush Explained",
+    "video_url": "https://www.youtube.com/watch?v=5-mNgCpEkCI",
+    "views": 92265
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:48:32Z",
+  "wash_version": "1.0.0"
+}

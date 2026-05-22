@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_pane_dashboard_canvas_c5bab5f8",
+  "skill_name": "Two-Pane Dashboard Canvas",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:10:37Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 1,
+          "description": "Preview of the final interactive Excel dashboard"
+        },
+        {
+          "seconds": 105,
+          "description": "Initial view of the dashboard layout and interactive elements"
+        },
+        {
+          "seconds": 1046,
+          "description": "Dashboard with side panel KPIs and multiple charts integrated"
+        },
+        {
+          "seconds": 2147,
+          "description": "All charts on the dashboard are now interactive via slicers"
+        },
+        {
+          "seconds": 2701,
+          "description": "Completed dashboard with a custom corporate color theme"
+        }
+      ],
+      "frames": [
+        "frame_00_preview_of_the_final_interacti.jpg",
+        "frame_01_initial_view_of_the_dashboard_.jpg",
+        "frame_02_dashboard_with_side_panel_kpis.jpg"
+      ],
+      "recapped_at": 1777407909.0494635
+    },
+    "primary_path": "frame_00_preview_of_the_final_interacti.jpg"
+  }
+}

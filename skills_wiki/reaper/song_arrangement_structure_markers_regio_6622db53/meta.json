@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "arrangement"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "song_arrangement_structure_markers_regio_6622db53",
+  "skill_name": "Song Arrangement Structure (Markers, Regions & Guide Chords)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 685,
+    "type": "youtube",
+    "video_id": "jumsoyUROzU",
+    "video_title": "This is REAPER 6 - Markers & Regions (11/15)",
+    "video_url": "https://www.youtube.com/watch?v=jumsoyUROzU",
+    "views": 29828
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:12Z",
+  "wash_version": "1.0.0"
+}

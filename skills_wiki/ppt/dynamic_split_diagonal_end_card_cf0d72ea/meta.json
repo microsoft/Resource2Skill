@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_split_diagonal_end_card_cf0d72ea",
+  "skill_name": "Dynamic Split-Diagonal End Card",
+  "source": {
+    "channel": "Aim Apple",
+    "duration_sec": 512,
+    "type": "youtube",
+    "video_id": "w8FHFbBEGkE",
+    "video_title": "Apple Keynote vs Microsoft PowerPoint \u2014 Which Makes Better Slides?",
+    "video_url": "https://www.youtube.com/watch?v=w8FHFbBEGkE",
+    "views": 8539
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:16Z",
+  "wash_version": "1.0.0"
+}

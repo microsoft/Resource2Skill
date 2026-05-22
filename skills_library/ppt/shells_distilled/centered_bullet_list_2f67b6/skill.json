@@ -1,0 +1,52 @@
+{
+  "skill_id": "centered_bullet_list_2f67b6",
+  "skill_type": "shell",
+  "name": "Centered Bullet List",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list"
+    ],
+    "content_shape": [
+      "single-column-bullets"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": "title",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_bullet_list_2f67b6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "segmented_chevron_progression_timeline_d56abe05",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The image shows a standard blank slide with a single, large, centered content placeholder. Extracted as a simple, centered bullet list.",
+  "_distill_attempts": 1
+}

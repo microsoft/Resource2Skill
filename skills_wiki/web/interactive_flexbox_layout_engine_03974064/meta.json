@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for responsive UI components like card galleries, navigation bars, or tag lists. It provides a robust, predictable way to build 1-dimensional layouts that adapt to varying screen sizes and content.",
+  "category_path": [
+    "web_design",
+    "css_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_flexbox_layout_engine_03974064",
+  "skill_name": "Interactive Flexbox Layout Engine",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "duration_sec": 496,
+    "type": "youtube",
+    "video_id": "phWxA89Dy94",
+    "video_title": "Learn Flexbox CSS in 8 minutes",
+    "video_url": "https://www.youtube.com/watch?v=phWxA89Dy94",
+    "views": 2163103
+  },
+  "tags": [
+    "flexbox",
+    "responsive design",
+    "css layout",
+    "ui components",
+    "web development",
+    "card gallery"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:01:23Z",
+  "wash_version": "1.0.0"
+}

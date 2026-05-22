@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "multi_layered_parallax_hero_95a95c32",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 287,
+    "type": "youtube",
+    "video_id": "TawH-AqHTXc",
+    "video_title": "Simple Parallax Scrolling Effect with CSS & Vanilla Javascript",
+    "video_url": "https://www.youtube.com/watch?v=TawH-AqHTXc",
+    "views": 390439
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

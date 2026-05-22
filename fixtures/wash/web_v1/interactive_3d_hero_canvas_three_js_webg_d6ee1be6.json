@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_hero_canvas_three_js_webg_d6ee1be6",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 127,
+    "type": "youtube",
+    "video_id": "f-9LEoYYvE4",
+    "video_title": "WebGL 3D Graphics Explained in 100 Seconds",
+    "video_url": "https://www.youtube.com/watch?v=f-9LEoYYvE4",
+    "views": 438875
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

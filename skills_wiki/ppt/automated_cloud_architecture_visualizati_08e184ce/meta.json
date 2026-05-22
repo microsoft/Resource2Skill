@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_cloud_architecture_visualizati_08e184ce",
+  "skill_name": "Automated Cloud Architecture Visualization (Hierarchical Node-Link Diagram)",
+  "source": {
+    "channel": "MadeForCloud",
+    "duration_sec": 928,
+    "type": "youtube",
+    "video_id": "m7EuZ7GhinE",
+    "video_title": "Create Professional Architecture Diagrams using AI for Free using Python and Github Copilot",
+    "video_url": "https://www.youtube.com/watch?v=m7EuZ7GhinE",
+    "views": 91613
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:51:58Z",
+  "wash_version": "1.0.0"
+}

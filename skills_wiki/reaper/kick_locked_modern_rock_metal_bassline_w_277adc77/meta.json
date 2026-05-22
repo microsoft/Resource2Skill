@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kick_locked_modern_rock_metal_bassline_w_277adc77",
+  "skill_name": "Kick-Locked Modern Rock/Metal Bassline with Octave Fills",
+  "source": {
+    "channel": "Andrew Bassett",
+    "duration_sec": 421,
+    "type": "youtube",
+    "video_id": "s2MgjCbheoY",
+    "video_title": "How To Program Bass (In Reaper)",
+    "video_url": "https://www.youtube.com/watch?v=s2MgjCbheoY",
+    "views": 542
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:59Z",
+  "wash_version": "1.0.0"
+}

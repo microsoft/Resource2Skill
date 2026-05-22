@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphic_concentric_pill_overlay_312de8cf",
+  "skill_name": "Glassmorphic Concentric Pill Overlay",
+  "source": {
+    "channel": "On Learner",
+    "duration_sec": 333,
+    "type": "youtube",
+    "video_id": "QBbgKwalhE4",
+    "video_title": "Call to Action slide | animated video in PowerPoint | Course | On Learner",
+    "video_url": "https://www.youtube.com/watch?v=QBbgKwalhE4",
+    "views": 328
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:38Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_layer_reverb_depth_early_mid_late__10c86202",
+  "skill_name": "Multi-Layer Reverb Depth (Early / Mid / Late Reflections)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 331,
+    "type": "youtube",
+    "video_id": "Bguiim9HZs8",
+    "video_title": "How to Layer Reverbs in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=Bguiim9HZs8",
+    "views": 10303
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:52:14Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "semantic_portfolio_showcase_with_grid_ga_517ad989",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1561,
+    "type": "youtube",
+    "video_id": "ZPMtug9qExk",
+    "video_title": "Build a Personal Website with HTML & CSS (Beginner Crash Course)",
+    "video_url": "https://www.youtube.com/watch?v=ZPMtug9qExk",
+    "views": 47209
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

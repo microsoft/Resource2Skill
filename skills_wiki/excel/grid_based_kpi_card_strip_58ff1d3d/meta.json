@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_kpi_card_strip_58ff1d3d",
+  "skill_name": "Grid-Based KPI Card Strip",
+  "source": {
+    "channel": "EliteBps",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=ESUxLmMDmMI"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:55:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 80,
+          "description": "Initial pivot table for net sales by segment"
+        },
+        {
+          "seconds": 927,
+          "description": "Dashboard layout with colored rectangles defined"
+        },
+        {
+          "seconds": 1250,
+          "description": "Dashboard with KPI cards for total revenue, profit, and units sold"
+        },
+        {
+          "seconds": 1940,
+          "description": "Dashboard with multiple charts (line, bar, radar, donut) and KPI cards"
+        },
+        {
+          "seconds": 3120,
+          "description": "Fully interactive sales dashboard with all visual elements and slicers"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_pivot_table_for_net_sa.jpg",
+        "frame_01_dashboard_layout_with_colored_.jpg",
+        "frame_02_dashboard_with_kpi_cards_for_t.jpg",
+        "frame_03_dashboard_with_multiple_charts.jpg"
+      ],
+      "recapped_at": 1777406896.1672993
+    },
+    "primary_path": "frame_00_initial_pivot_table_for_net_sa.jpg"
+  }
+}

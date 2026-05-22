@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "line_art_coloring_page_aesthetic_e2048ee1",
+  "skill_name": "Line-Art Coloring Page Aesthetic",
+  "source": {
+    "channel": "StackinProfit",
+    "duration_sec": 510,
+    "type": "youtube",
+    "video_id": "jvTvqIHQ1uY",
+    "video_title": "Nano Banana Makes INSANE Quote Pages for KDP",
+    "video_url": "https://www.youtube.com/watch?v=jvTvqIHQ1uY",
+    "views": 2795
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:47:29Z",
+  "wash_version": "1.0.0"
+}

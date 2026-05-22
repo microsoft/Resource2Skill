@@ -1,0 +1,35 @@
+{
+  "applicability": "Use a full-screen video background with animated text to create a powerful and professional impression. Ideal for title slides, section breaks, or memorable presentation finales.",
+  "category_path": [
+    "slide_design",
+    "video_background"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_video_title_card_1e511231",
+  "skill_name": "Cinematic Title Card with Video Background",
+  "source": {
+    "channel": "\u4e0d\u8d30\u6cd5\u95e8PPT",
+    "duration_sec": 66,
+    "type": "youtube",
+    "video_id": "0Otl4_K-zY4",
+    "video_title": "\u7528PPT\u505a\u51fa\u7535\u5f71\u7ea7PPT\u7ed3\u5c3e\uff0c\u9886\u5bfc\u5938\u7206\u4e86\uff01 PPT PPT\u6559\u5b66 \u4e00\u5206\u949f\u5e72\u8d27\u6559\u5b66 0\u57fa\u7840\u5b66\u7535\u8111 PPT\u6a21\u677f @\u6296\u97f3\u521b\u4f5c\u5c0f\u52a9\u624b",
+    "video_url": "https://www.youtube.com/watch?v=0Otl4_K-zY4",
+    "views": 0
+  },
+  "tags": [
+    "video background",
+    "title slide",
+    "text animation",
+    "cinematic",
+    "typography"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:28:26Z",
+  "wash_version": "1.0.0"
+}

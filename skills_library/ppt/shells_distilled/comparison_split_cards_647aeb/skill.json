@@ -1,0 +1,89 @@
+{
+  "skill_id": "comparison_split_cards_647aeb",
+  "skill_type": "shell",
+  "name": "Comparison Split Cards",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "2-column-cards"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "corporate",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "left_headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "left_subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "right_headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "right_subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/comparison_split_cards_647aeb/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "cinematic_picture_in_picture_reveal_85c03192",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Uses two large side-by-side panels to compare two concepts or designs, with the right panel highlighted using the accent color to simulate a 'before/after' or 'A/B' comparison.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_single_column_portfolio_stack_44dee240",
+  "skill_name": "Minimalist Single-Column Portfolio Stack",
+  "source": {
+    "channel": "Nashallery",
+    "duration_sec": 1460,
+    "type": "youtube",
+    "video_id": "7vp2Pc_0WLs",
+    "video_title": "Coding my portfolio website from scratch (aesthetic & easy html css tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=7vp2Pc_0WLs",
+    "views": 13086
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:21:08Z",
+  "wash_version": "1.0.0"
+}

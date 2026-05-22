@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for game audio and UI sound design to generate multiple unique variations of an effect like a footstep, gunshot, or impact. Also highly effective in music production for creating organic hi-hats or glitchy percussion loops.",
+  "category_path": [
+    "sound_design",
+    "variation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sound_design_variation_generator_paramet_1bb0c1bf",
+  "skill_name": "MIDI SFX Variation Generator",
+  "source": {
+    "channel": "David Dumais Audio",
+    "duration_sec": 203,
+    "type": "youtube",
+    "video_id": "HiUWUMegpic",
+    "video_title": "Sound Design Workflow | A Quick Reaper Workflow For Creating Sound Effects With Lots Of Variations",
+    "video_url": "https://www.youtube.com/watch?v=HiUWUMegpic",
+    "views": 7548
+  },
+  "tags": [
+    "sound design",
+    "sfx",
+    "variation",
+    "randomization",
+    "midi",
+    "game audio"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:00:36Z",
+  "wash_version": "1.0.0"
+}

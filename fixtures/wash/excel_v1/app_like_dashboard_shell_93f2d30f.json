@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "app_like_dashboard_shell_93f2d30f",
+  "source": {
+    "channel": "Vedakarna",
+    "duration_sec": 906,
+    "type": "youtube",
+    "video_id": "qdfVQc7AsVM",
+    "video_title": "Secret Excel Dashboard Buttons REVEALED \ud83d\udd25 (\ud83d\udd01 Refresh | \ud83d\udcbb Full Screen | \ud83c\udf13 Dark Mode)",
+    "video_url": "https://www.youtube.com/watch?v=qdfVQc7AsVM",
+    "views": 10941
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

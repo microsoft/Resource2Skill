@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_glow_button_780cfe77",
+  "source": {
+    "channel": "Coding Play",
+    "duration_sec": 354,
+    "type": "youtube",
+    "video_id": "b_8fHNIHFk4",
+    "video_title": "CSS Glowing Button - How to Design Glowing Button with Hover Effects [Pure CSS]",
+    "video_url": "https://www.youtube.com/watch?v=b_8fHNIHFk4",
+    "views": 539619
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

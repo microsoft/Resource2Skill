@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "r_b_bassline_construction__octaves___per_8b111aa2",
+  "skill_name": "R&B Bassline Construction (Octaves & Perfect 5ths Drill)",
+  "source": {
+    "channel": "Yaahn Hunter Jr.",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=GezIe567DzU"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:28:11Z",
+  "wash_version": "1.0.0"
+}

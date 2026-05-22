@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "formulas"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "growth_pct_88ed96a0",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

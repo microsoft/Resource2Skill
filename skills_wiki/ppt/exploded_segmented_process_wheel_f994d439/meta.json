@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "exploded_segmented_process_wheel_f994d439",
+  "skill_name": "Exploded Segmented Process Wheel",
+  "source": {
+    "channel": "Creative Moments Hub",
+    "duration_sec": 193,
+    "type": "youtube",
+    "video_id": "oymWmumkT_k",
+    "video_title": "How To Divide Circle In Photoshop - Split Circle Into different Sectors Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=oymWmumkT_k",
+    "views": 62531
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:21Z",
+  "wash_version": "1.0.0"
+}

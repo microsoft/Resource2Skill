@@ -1,0 +1,17 @@
+{
+  "axis_font_size": 10,
+  "chart_type": "BarChart",
+  "data_labels": false,
+  "default_size": {
+    "height": 10,
+    "width": 18
+  },
+  "gridlines_major_x": false,
+  "gridlines_major_y": true,
+  "grouping": "clustered",
+  "legend_position": "b",
+  "show_legend": true,
+  "style": 11,
+  "title_size": 14,
+  "type": "col"
+}

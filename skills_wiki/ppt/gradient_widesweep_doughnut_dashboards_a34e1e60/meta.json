@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to display key percentage-based KPIs in a highly engaging, modern aesthetic. Ideal for dashboard hero sections, executive summaries, or SaaS product feature slides.",
+  "category_path": [
+    "charts",
+    "doughnut_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gradient_widesweep_doughnut_dashboards_a34e1e60",
+  "skill_name": "Modern KPI Doughnut Charts",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 956,
+    "type": "youtube",
+    "video_id": "PcIHGTZofxs",
+    "video_title": "Animated PowerPoint Slide Design Tutorial \ud83d\udd25Doughnut Charts\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=PcIHGTZofxs",
+    "views": 178941
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "doughnut chart",
+    "infographic",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:38Z",
+  "wash_version": "1.0.0"
+}

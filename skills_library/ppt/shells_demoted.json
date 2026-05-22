@@ -1,0 +1,152 @@
+[
+  {
+    "shell_id": "2x2_agenda_grid_4b4b5f",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 4 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "5_step_chevron_timeline_6f814b",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "8_part_circular_process_53ad3e",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 32 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "8_segment_wheel_with_cta_20fffd",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 36 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "architecture_diagram_a5836c",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 3 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "balance_scale_comparison_5ca424",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 9 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "centered_ring_divider_cd858b",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 3 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "chevron_list_461f89",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "circular_agenda_split_ac6ba0",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 5 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "circular_concept_diagram_949348",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 6 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "comparison_split_bars_344299",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 12 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "dashboard_2x2_with_side_tabs_b68ea1",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 10 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "dashboard_split_with_metrics_4b5b71",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "four_column_split_feature_aed4dd",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 3 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "horizontal_task_progress_f46595",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 6 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "left_circular_diagram_a9e486",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 8 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "minimal_bullet_list_037056",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 6 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "minimal_two_panel_comparison_1cea07",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 4 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "perspective_grid_divider_ab7005",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 8 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "staggered_magnifier_grid_cb03f3",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 3 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "three_circle_focus_fc3c35",
+    "source": "distilled",
+    "reason": "contrast: low contrast on 3 text shapes (max 2, min ratio 3.0)"
+  },
+  {
+    "shell_id": "triple_gauge_dashboard_b2d47d",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 3 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "two_column_table_split_acf5a0",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "two_row_circle_banner_fe781b",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "two_step_horizontal_cards_56cb4c",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 8 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "vertical_node_agenda_8346d6",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 11 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "vision_overview_split_de4445",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 6 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "wavy_ribbon_split_cover_f3b7c4",
+    "source": "distilled",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "agenda_numbered",
+    "source": "seed",
+    "reason": "overlap: too many overlaps: 4 bad pairs (max 2)"
+  },
+  {
+    "shell_id": "timeline_horizontal",
+    "source": "seed",
+    "reason": "overlap: too many overlaps: 5 bad pairs (max 2)"
+  }
+]

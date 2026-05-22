@@ -1,0 +1,37 @@
+{
+  "applicability": "Perfect for corporate histories, product roadmaps, project phase planning, and career journey slides. It works best when you have 4 to 6 distinct chronological milestones.",
+  "category_path": [
+    "timeline",
+    "infographic",
+    "process"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "alternating_horizontal_infographic_timel_1c0e7185",
+  "skill_name": "Alternating Horizontal Infographic Timeline",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 230,
+    "type": "youtube",
+    "video_id": "yu7At2ZBrl4",
+    "video_title": "10 Different Ways You Can Use PowerPoint\u00a0Timeline\u00a0Slide Templates! \ud83e\udd2f #ppttemplates",
+    "video_url": "https://www.youtube.com/watch?v=yu7At2ZBrl4",
+    "views": 2085
+  },
+  "tags": [
+    "timeline",
+    "infographic",
+    "milestone",
+    "roadmap",
+    "chronological",
+    "process"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:49:09Z",
+  "wash_version": "1.0.0"
+}

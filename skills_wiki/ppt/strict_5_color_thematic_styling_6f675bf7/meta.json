@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "strict_5_color_thematic_styling_6f675bf7",
+  "skill_name": "Strict 5-Color Thematic Styling",
+  "source": {
+    "channel": "Andrew Pach - PowerPoint Training",
+    "duration_sec": 244,
+    "type": "youtube",
+    "video_id": "E4Nuw7ZJx6w",
+    "video_title": "Master PowerPoint 2013 Presentation & Design  - How to Choose a Color Scheme",
+    "video_url": "https://www.youtube.com/watch?v=E4Nuw7ZJx6w",
+    "views": 5929
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:14Z",
+  "wash_version": "1.0.0"
+}

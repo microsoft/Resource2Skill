@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_3d_perspective_parallax_e800f3d3",
+  "source": {
+    "channel": "Red Stapler",
+    "duration_sec": 306,
+    "type": "youtube",
+    "video_id": "Jt2yNZdOHxQ",
+    "video_title": "Easiest Pure CSS Parallax Effect Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Jt2yNZdOHxQ",
+    "views": 101835
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,132 @@
+{
+  "theme_id": "editorial_light_paper",
+  "name": "Editorial Light Paper",
+  "palette": {
+    "bg": "#FAF7F0",
+    "panel": "#F1ECE0",
+    "accent": "#9A6A2E",
+    "accent2": "#4A6FA5",
+    "text": "#1A1A1A",
+    "muted": "#6B6B6B",
+    "border": "#D9D3C4",
+    "success": "#2E8B57",
+    "warning": "#C97E2E"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Palatino Linotype",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Palatino Linotype",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Palatino Linotype",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Palatino Linotype",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Palatino Linotype",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Palatino Linotype",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Palatino Linotype",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "serif_number",
+    "description": "Large serif numerals as section markers"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "editorial",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "warm",
+    "calm"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "research",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "typewriter",
+    "ink-bleed",
+    "column-rule",
+    "margin-note",
+    "page-turn",
+    "kicker-tick",
+    "thesis",
+    "balloon",
+    "bubble",
+    "polaroid"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "bounce",
+    "confetti",
+    "chromatic",
+    "marquee",
+    "pixel",
+    "neon"
+  ]
+}

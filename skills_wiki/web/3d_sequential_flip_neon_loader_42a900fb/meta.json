@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_sequential_flip_neon_loader_42a900fb",
+  "skill_name": "3D Sequential Flip Neon Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:53:14Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 32,
+          "description": "button with background and scale transition on hover"
+        },
+        {
+          "seconds": 145,
+          "description": "blue square rotating and transforming into a circle"
+        },
+        {
+          "seconds": 639,
+          "description": "interactive animation with play and pause buttons"
+        },
+        {
+          "seconds": 821,
+          "description": "final 3D-like loading animation with glowing square"
+        }
+      ],
+      "frames": [
+        "frame_00_button_with_background_and_sca.jpg",
+        "frame_01_blue_square_rotating_and_trans.jpg"
+      ],
+      "recapped_at": 1777408077.2129521
+    },
+    "primary_path": "frame_00_button_with_background_and_sca.jpg"
+  }
+}

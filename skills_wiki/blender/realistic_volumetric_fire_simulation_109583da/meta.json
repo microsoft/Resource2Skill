@@ -1,0 +1,38 @@
+{
+  "applicability": "Essential for creating dynamic, physically calculated fire in VFX, cinematics, and architectural visualization. It provides realistic volumetric flames that illuminate scenes, surpassing static geometric models.",
+  "category_path": [
+    "vfx",
+    "fluid_simulation",
+    "volumetric_shading"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "realistic_volumetric_fire_simulation_109583da",
+  "skill_name": "Realistic Volumetric Fire Simulation",
+  "source": {
+    "channel": "Faebe Tutorials",
+    "duration_sec": 88,
+    "type": "youtube",
+    "video_id": "mh9tyFnzSUw",
+    "video_title": "Realistic Fire Tutorial in Blender! #blender3d",
+    "video_url": "https://www.youtube.com/watch?v=mh9tyFnzSUw",
+    "views": 338286
+  },
+  "tags": [
+    "blender",
+    "mantaflow",
+    "volumetric fire",
+    "physics simulation",
+    "cycles rendering",
+    "vfx"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:42:28Z",
+  "wash_version": "1.0.0"
+}

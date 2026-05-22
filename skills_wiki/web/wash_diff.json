@@ -1,0 +1,3822 @@
+{
+  "rows": [
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "visual_design",
+          "css_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "advanced_glassmorphism_with_lighting_tex_a3a49103"
+    },
+    {
+      "after": {
+        "category_path": [
+          "page_layout",
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "ai_driven_prompt_hero_section_68589e19"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "animation",
+          "background_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "ambient_canvas_particle_system_dff730bd"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "svg"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "animated_duotone_svgs_staggered_keyframe_545b3d1f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_design",
+          "backgrounds",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "animated_fluid_radial_background_ef2d2343"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "backgrounds",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "animated_gradient_background_63d42040"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css",
+          "typography",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "animated_gradient_text_mask_102faa8a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "typography",
+          "visual_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "animated_text_clipping_mask_34728e76"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "text_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "animated_water_wave_text_clip_path_morph_916b9d05"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "canvas",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "astrophotography_time_lapse_rotating_sta_c6ec699e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "footer"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "asymmetric_animated_gradient_footer_3b13797e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "grid"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "asymmetric_bento_grid_gallery_native_htm_59836e72"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "layout",
+          "gallery"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "asymmetric_css_grid_mosaic_gallery_e5efa6f3"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "hero",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "asymmetric_split_screen_hero_with_typewr_3515b95a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "responsive_grid"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "auto_responsive_css_grid_media_query_fre_8feb2f10"
+    },
+    {
+      "after": {
+        "category_path": [
+          "responsive_design",
+          "grid_layout",
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "auto_responsive_fluid_grid_gallery_dc4cc0a4"
+    },
+    {
+      "after": {
+        "category_path": [
+          "typography",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T2",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "cascading_staggered_text_reveal_4ed9440a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "centered_hero_with_floating_orbital_elem_75398515"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_patterns",
+          "hero_section",
+          "parallax"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "centered_hero_with_floating_parallax_ele_ea580d95"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "visuals"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "centered_text_overlay_on_image_2a343f62"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "cinematic_block_reveal_text_animation_79eb8cdb"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "page_transition"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "cinematic_shutter_page_transition_15f2fe2e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "svg",
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "cinematic_svg_text_tracing_animation_832dfa9e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "loading",
+          "spinner"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "circular_neon_spinner_4e66c0ae"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "environment"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "continuous_day_night_cycle_animation_a661ce76"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_components",
+          "hero_sections",
+          "conversion"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "conversion_optimized_saas_hero_with_anim_830c8b5e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "scroll_driven_effect"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "css_only_scroll_driven_fade_in_up_reveal_822ca7a7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "carousel"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "css_only_scroll_snapping_carousel_1934cf70"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui",
+          "loaders"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "css_radial_dot_loading_spinner_6249a8b7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dark_mode_neon_glow_hero_with_glassmorph_afaef063"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_graphics",
+          "interactive_svg"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "declarative_interactive_svg_geometry_fe5d6c70"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "text_effect"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_auto_typing_text_cycler_8710004d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "dashboard",
+          "grid_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_dashboard_grid_layout_scaffoldin_354383af"
+    },
+    {
+      "after": {
+        "category_path": [
+          "page_structure",
+          "theming"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "dynamic_theme_toggle_landing_page_d8a92671"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_animation",
+          "svg_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "css_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "elastic_svg_shape_morphing_a9aefded"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_ui",
+          "modal"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "elegant_fade_in_modal_dialog_f158e679"
+    },
+    {
+      "after": {
+        "category_path": [
+          "display",
+          "card"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "faux_3d_isometric_hardware_ui_8f9317fb"
+    },
+    {
+      "after": {
+        "category_path": [
+          "navigation",
+          "layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "flexbox_navbar_layout_patterns_4b1f720f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_design",
+          "responsive_design",
+          "css_fundamentals"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "fluid_responsive_layout_system_css_units_dc2308dc"
+    },
+    {
+      "after": {
+        "category_path": [
+          "hero_section",
+          "video"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "full_screen_cinematic_video_hero_1c3af82a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "hero_section",
+          "effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "futuristic_tubelight_hero_glow_339575dc"
+    },
+    {
+      "after": {
+        "category_path": [
+          "canvas_animation",
+          "generative_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "generative_network_particle_trails_18545355"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "component",
+          "navigation_bar"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "glassmorphism_navigation_bar_b44dcf2a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "card_layout",
+          "grid_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "grid_lanes_masonry_gallery_layout_56453df7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "scroll_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "gsap_staggered_scroll_reveals_38aa0ad5"
+    },
+    {
+      "after": {
+        "category_path": [
+          "portfolio",
+          "grid_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "high_converting_minimalist_portfolio_gri_2cdf9326"
+    },
+    {
+      "after": {
+        "category_path": [
+          "components",
+          "carousel"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "infinite_css_marquee_carousel_e78e9c83"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_component",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "infinite_layered_wave_banner_9fb3566e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "visual_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "infinite_pulsating_element_animation_8b9878f7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "webgl",
+          "3d_showcase"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_3d_artifact_showcase_studio__531c43b9"
+    },
+    {
+      "after": {
+        "category_path": [
+          "display",
+          "card",
+          "interactive"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_3d_flip_card_d468bbb6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "graphics",
+          "3d"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_3d_hero_canvas_three_js_webg_d6ee1be6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "card_layout",
+          "interactive_elements",
+          "3d_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_3d_layered_flip_card_2f776053"
+    },
+    {
+      "after": {
+        "category_path": [
+          "webgl",
+          "ui_design",
+          "landing_page"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_3d_particle_landing_page_42f1ee43"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_component",
+          "card",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_3d_profile_card_flip_8f1f73ff"
+    },
+    {
+      "after": {
+        "category_path": [
+          "html5_canvas",
+          "generative_animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_canvas_particle_swarm_9e6b99b9"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_display",
+          "dashboard_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_dashboard_data_list_with_opt_b9372d9e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_design",
+          "css_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_flexbox_layout_engine_03974064"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_design",
+          "css_layouts",
+          "flexbox"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_flexbox_layout_playground_56cbe6d8"
+    },
+    {
+      "after": {
+        "category_path": [
+          "visual_effects",
+          "backgrounds"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_gooey_fluid_gradient_backgro_7fd5e6f7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "backgrounds",
+          "animated"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_polygon_mesh_background_93ed1daa"
+    },
+    {
+      "after": {
+        "category_path": [
+          "canvas",
+          "generative_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_recursive_fractal_tree_b6b95b9d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "hero"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "interactive_saas_hero_with_embedded_prod_5e249e48"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "text_effects",
+          "ui_components"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "javascript_typewriter_effect_d9056928"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "kinetic_typography_with_bouncing_embedde_f8072937"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_effects",
+          "glassmorphism"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "liquid_glassmorphism_svg_displacement_fi_593eefe6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "scroll_triggered",
+          "webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "liquid_scroll_morphogenesis_webgl_maskin_5aa92bfb"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui",
+          "loading_indicator"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "minimalist_css_preloader_suite_32be91bc"
+    },
+    {
+      "after": {
+        "category_path": [
+          "list",
+          "directory"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "minimalist_job_board_card_list_bcd1ed1f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css",
+          "layout",
+          "shapes"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "css_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modern_css_shape_masking_clip_path_galle_5ceef90b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css",
+          "architecture"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modern_css_token_architecture_utility_bo_03d74c4b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "pricing",
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modern_interactive_pricing_card_trio_52c5b2f5"
+    },
+    {
+      "after": {
+        "category_path": [
+          "card_layout",
+          "dark_mode"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modern_minimalist_dark_mode_card_87ca4d07"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modern_saas_gradient_hero_section_e90cb45d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "animation",
+          "svg"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modern_svg_animation_toolkit_3008d18b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_animation",
+          "choreography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "modular_gsap_timeline_choreography_f48f4b1f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_animation",
+          "loading_indicator"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "morphing_bounce_css_page_loader_6af1625e"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_design",
+          "animation",
+          "parallax"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "multi_layered_parallax_hero_95a95c32"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "css_effects",
+          "ui_components"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "multi_property_morphing_interface_card_912fe84b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "forms",
+          "wizards"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "multi_step_progress_registration_form_8d4f008c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "interaction"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_css_scroll_driven_animations_e5f1fc72"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "scroll_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_css_scroll_driven_reveal_animatio_0e0876d3"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "css",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_css_scroll_driven_viewport_animat_1aca29ce"
+    },
+    {
+      "after": {
+        "category_path": [
+          "components",
+          "carousel"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_css_scroll_snap_carousel_ee63d565"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_elements",
+          "dialogs"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_html_dialog_modal_59809d11"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_ui",
+          "dialog_modal"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_html_dialog_modal_with_styled_bac_818b9d38"
+    },
+    {
+      "after": {
+        "category_path": [
+          "webgl",
+          "fundamentals"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "native_webgl2_primitive_rendering_the_gr_8b6006b4"
+    },
+    {
+      "after": {
+        "category_path": [
+          "navigation",
+          "effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "neon_dynamic_glow_navigation_5cf8e3c2"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_component",
+          "hero_section",
+          "profile"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "neon_glassmorphism_profile_hero_4e6d8376"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "loading_indicator"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "neon_pulse_circular_loader_e82a4784"
+    },
+    {
+      "after": {
+        "category_path": [
+          "hero",
+          "css_effects",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "neon_pulse_hero_with_pure_css_typing_ani_4aa22042"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "ui_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "neumorphic_sequential_pulse_loader_cfa8c556"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_components",
+          "card"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "optimized_dark_mode_ui_components_deebaa20"
+    },
+    {
+      "after": {
+        "category_path": [
+          "loaders",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "orbital_staggered_comet_loader_a0e531c6"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "page_load"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "orchestrated_gsap_entry_timeline_03f4c983"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "performant_scroll_reveal_animations_inte_46b663aa"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_architecture",
+          "theming"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "persistent_css_variable_theme_architectu_72d198e8"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_controls",
+          "theming"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "persistent_dark_mode_toggle_with_css_ico_6d9f1d84"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css",
+          "visual_effects",
+          "dom_animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "prime_distributed_dom_particle_field_c381c803"
+    },
+    {
+      "after": {
+        "category_path": [
+          "canvas",
+          "procedural_graphics"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "canvas_webgl"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "procedural_kinematic_skeleton_ddcf84df"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_animation",
+          "css_3d_transforms"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_3d_perspective_parallax_e800f3d3"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "ui_element",
+          "time"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_analog_clock_animation_1451694a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "css_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_animated_character_art_cat_face_ec71fe50"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "data_display"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_animated_number_counters_4841491c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css",
+          "animation",
+          "illustration"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_character_illustration_animatio_cb3a6b13"
+    },
+    {
+      "after": {
+        "category_path": [
+          "typography",
+          "text_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_gradient_text_fill_1ff0bae7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_elements",
+          "3d_graphics"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_isometric_3d_cube_d2be8feb"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "css",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_keyframe_animation_toolkit_55db6c4b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_ui",
+          "animation",
+          "counters"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_odometer_mechanical_counter_8c85005b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "visual_effects",
+          "scrolling"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_parallax_scrolling_742cbb7c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "masonry_grid"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_responsive_masonry_grid_4e30f722"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_components",
+          "modal"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_target_modal_popup_28899600"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css",
+          "3d",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_translucent_3d_cube_8052009c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "frontend",
+          "css",
+          "illustration"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "pure_css_volumetric_character_illustrati_ca683cf5"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "dashboard"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T4",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "real_time_image_filter_dashboard_cba413a7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "app_shell"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_app_shell_dashboard_with_css__2bed2567"
+    },
+    {
+      "after": {
+        "category_path": [
+          "media",
+          "image"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_art_directed_image_architectu_870621db"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_development",
+          "images",
+          "responsive_design"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "typography"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T1",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_art_direction_resolution_swit_cecc4118"
+    },
+    {
+      "after": {
+        "category_path": [
+          "responsive",
+          "layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "responsive"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_asymmetric_bento_layout_18131296"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "responsive_grid"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_auto_fit_css_grid_4d89859b"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "grid"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_bento_grid_layout_e344a628"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "cards"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_flexbox_card_showcase_970ebe0c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "navigation",
+          "header"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_flexbox_navbar_with_hamburger_ac938208"
+    },
+    {
+      "after": {
+        "category_path": [
+          "card_layout",
+          "pricing"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_flexbox_pricing_cards_9f66c166"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_layout",
+          "hero_sections"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_gradient_hero_section_with_du_df4cfda9"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "application_shell"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_holy_grail_application_layout_900b3328"
+    },
+    {
+      "after": {
+        "category_path": [
+          "responsive",
+          "layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "responsive"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "responsive_split_screen_flex_layout_94ee284d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "layout",
+          "card_comparison"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "robust_3_card_comparison_layout_flexbox__678c2db4"
+    },
+    {
+      "after": {
+        "category_path": [
+          "visual_effects",
+          "3d_animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "s_3d_css_procedural_laser_cut_particle_phy_ff70be68"
+    },
+    {
+      "after": {
+        "category_path": [
+          "interactive_elements",
+          "cards"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "s_3d_flip_card_hover_effect_19d42bee"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "ui_loader"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "s_3d_neon_sequential_flip_loader_882b4c01"
+    },
+    {
+      "after": {
+        "category_path": [
+          "card_layout",
+          "grid"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "saas_bento_box_feature_grid_74ac1057"
+    },
+    {
+      "after": {
+        "category_path": [
+          "data_display",
+          "pricing_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "saas_highlighted_tier_pricing_table_4ae7aa4f"
+    },
+    {
+      "after": {
+        "category_path": [
+          "navigation",
+          "context_switcher"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "saas_multi_tenant_team_switcher_294accac"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "text_effect"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scanner_bar_text_reveal_2555d24c"
+    },
+    {
+      "after": {
+        "category_path": [
+          "interactive_ui",
+          "svg_animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "css_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_driven_isometric_exploded_view_254deee3"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "interaction",
+          "scroll_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_driven_reveal_animations_view_tim_b7d25858"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "animation",
+          "text_effect"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_driven_text_reveal_6099f2bf"
+    },
+    {
+      "after": {
+        "category_path": [
+          "card_layout",
+          "scroll_animations"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_driven_viewport_reveal_cards_3e749df3"
+    },
+    {
+      "after": {
+        "category_path": [
+          "hero_section",
+          "video",
+          "interaction"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "hero_section"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_scrubbed_cinematic_background_vid_37d77ae5"
+    },
+    {
+      "after": {
+        "category_path": [
+          "navigation",
+          "page_structure"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_spy_navigation_bar_1fe08223"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_triggered_clip_path_reveal_image__ae95eb20"
+    },
+    {
+      "after": {
+        "category_path": [
+          "scroll_behavior",
+          "dynamic_content"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_triggered_reveal_infinite_scroll_13c10ba1"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "element_reveal"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scroll_triggered_reveal_intersection_obs_8de9ab53"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "scroll_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "scrollytelling_reveal_grid_scroll_driven_82291f4a"
+    },
+    {
+      "after": {
+        "category_path": [
+          "css_art",
+          "illustration"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "css_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "single_div_css_illustration_box_shadow_s_13ee0652"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_element",
+          "button"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "sliding_text_push_button_09478fa0"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_ui",
+          "modal"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "smooth_fade_in_css_modal_overlay_9f3c21c8"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_design",
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "smooth_parallax_hero_animation_with_scro_3fd07c14"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "scroll_effects"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "smooth_scroll_linked_content_reveal_gsap_01c63635"
+    },
+    {
+      "after": {
+        "category_path": [
+          "media",
+          "carousel"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "staggered_cross_fade_accessible_carousel_7d7d5fc0"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "animation",
+          "page_transition"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "staggered_curtain_page_transition_06812cc1"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "animation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "state_driven_spa_page_transitions_swup_s_293520f7"
+    },
+    {
+      "after": {
+        "category_path": [
+          "animation",
+          "svg"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "css_art"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "svg_path_line_drawing_reveal_4a9493c1"
+    },
+    {
+      "after": {
+        "category_path": [
+          "ui_components",
+          "hero_sections"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "form_ui"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "themeable_portfolio_hero_with_morphing_b_e409644d"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web",
+          "frontend",
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "vanilla_js_single_page_application_spa_r_26adc180"
+    },
+    {
+      "after": {
+        "category_path": [
+          "web_ui",
+          "navigation"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "before": {
+        "category_path": [
+          "card_layout"
+        ],
+        "exec_ok": null,
+        "schema_version": "1.0.0",
+        "source_type": "youtube",
+        "tier": "T3",
+        "wash_version": "1.0.0"
+      },
+      "skill_id": "view_transition_hero_morph_shared_elemen_2914478f"
+    },
+    {
+      "silently_dropped": [
+        "retro_personal_webpage_foundation_092654d0"
+      ]
+    }
+  ],
+  "run_id": "wash_1777270366",
+  "ts": "2026-04-27T07:23:28Z"
+}

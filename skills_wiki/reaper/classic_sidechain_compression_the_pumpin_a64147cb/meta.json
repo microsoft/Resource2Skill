@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for EDM, House, and Hip-Hop to clear up low-end masking between the kick and bass. It also injects rhythmic momentum and 'bounce' into static, sustained pads or synths.",
+  "category_path": [
+    "mixing",
+    "dynamics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "classic_sidechain_compression_the_pumpin_a64147cb",
+  "skill_name": "Classic Sidechain Compression (Pumping Effect)",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 673,
+    "type": "youtube",
+    "video_id": "hGU38x6QvMk",
+    "video_title": "How To Sidechain In REAPER DAW 2019 - Compression and Gating 3 ways",
+    "video_url": "https://www.youtube.com/watch?v=hGU38x6QvMk",
+    "views": 107572
+  },
+  "tags": [
+    "sidechain",
+    "compression",
+    "ducking",
+    "reacomp",
+    "mixing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:19Z",
+  "wash_version": "1.0.0"
+}

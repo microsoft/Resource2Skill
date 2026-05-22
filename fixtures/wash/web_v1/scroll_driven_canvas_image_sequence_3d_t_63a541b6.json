@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_canvas_image_sequence_3d_t_63a541b6",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 1275,
+    "type": "youtube",
+    "video_id": "DTTNSjyEtes",
+    "video_title": "ScrollTrigger Hijacked My Video Playback (Now It Plays on Scroll)",
+    "video_url": "https://www.youtube.com/watch?v=DTTNSjyEtes",
+    "views": 27670
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

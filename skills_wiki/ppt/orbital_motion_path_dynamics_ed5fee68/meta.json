@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for system architecture diagrams, cyclical business flows, and educational presentations. It utilizes continuous trajectories to intuitively explain spatial relationships and complex cyclic processes.",
+  "category_path": [
+    "animation",
+    "motion_paths"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "orbital_motion_path_dynamics_ed5fee68",
+  "skill_name": "Orbital Motion & Path Dynamics",
+  "source": {
+    "channel": "TeachMe",
+    "duration_sec": 155,
+    "type": "youtube",
+    "video_id": "D_BMLW6joeM",
+    "video_title": "How to use Animations in PowerPoint to create Motion Paths",
+    "video_url": "https://www.youtube.com/watch?v=D_BMLW6joeM",
+    "views": 24533
+  },
+  "tags": [
+    "orbital animation",
+    "motion paths",
+    "radial layout",
+    "cyclical processes",
+    "dynamic diagram"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:58:01Z",
+  "wash_version": "1.0.0"
+}

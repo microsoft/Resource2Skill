@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for presenting a short list of key points or features with a clean, uncluttered aesthetic. Suitable for slides focused on specific takeaways or enumerations.",
+  "category_path": [
+    "content",
+    "bullet_list"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_bullet_list_037056",
+  "skill_name": "Minimal Bullet List",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "minimalist",
+    "bullet points",
+    "key points",
+    "vertical list",
+    "corporate",
+    "simple"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:16Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this design for modern, professional title or section divider slides in corporate or tech presentations. The asymmetric layout effectively balances a vibrant brand gradient with a sophisticated, shaped B&W image.",
+  "category_path": [
+    "layout",
+    "title_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_gradient_with_shaped_image_in_792cda77",
+  "skill_name": "Asymmetric Gradient with Shaped Image Inset",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 80,
+    "type": "youtube",
+    "video_id": "sj26fNRrAB0",
+    "video_title": "New Software Development Powerpoint Ppt Template Bundles",
+    "video_url": "https://www.youtube.com/watch?v=sj26fNRrAB0",
+    "views": 47
+  },
+  "tags": [
+    "asymmetric layout",
+    "gradient background",
+    "shaped image",
+    "title slide",
+    "corporate"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:31:36Z",
+  "wash_version": "1.0.0"
+}

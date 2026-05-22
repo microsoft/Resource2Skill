@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_breakable_structure_rigid_bod_319da668",
+  "skill_name": "Procedural Breakable Structure (Rigid Body Constraint Physics)",
+  "source": {
+    "channel": "FxForge",
+    "duration_sec": 926,
+    "type": "youtube",
+    "video_id": "VFmaKeZ0Sko",
+    "video_title": "Wall destruction simulation in blender",
+    "video_url": "https://www.youtube.com/watch?v=VFmaKeZ0Sko",
+    "views": 159586
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:41Z",
+  "wash_version": "1.0.0"
+}

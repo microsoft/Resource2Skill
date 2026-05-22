@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "validation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "process_flow_kanban_dashboard_b103bf88",
+  "source": {
+    "channel": "Rin\u7684Excel",
+    "duration_sec": 812,
+    "type": "youtube",
+    "video_id": "4zcey-6A0a0",
+    "video_title": "Excel\u5236\u4f5c\u52a8\u6001\u751f\u4ea7\u4eea\u8868\u770b\u677f",
+    "video_url": "https://www.youtube.com/watch?v=4zcey-6A0a0",
+    "views": 594
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

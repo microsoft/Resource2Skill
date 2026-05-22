@@ -1,0 +1,349 @@
+def create_component(
+    output_dir: str,
+    title_text: str = "Feature Dashboard",
+    body_text: str = "Explore our powerful suite of tools organized perfectly for your workflow.",
+    color_scheme: str = "dark",        
+    accent_color: str = "#8b5cf6",     
+    width_px: int = 1200,
+    height_px: int = 800,
+    **kwargs,
+) -> dict:
+    """
+    Create a web component reproducing the Responsive Bento Grid & Grid Stacking effect.
+    Writes index.html, style.css, and script.js to output_dir.
+    """
+    import os
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Derive theme colors
+    if color_scheme == "dark":
+        bg_color = "#0f172a"          # Slate 900
+        text_color = "#f8fafc"        # Slate 50
+        text_muted = "#94a3b8"        # Slate 400
+        surface_color = "rgba(30, 41, 59, 0.7)"  # Slate 800 with opacity
+        border_color = "rgba(255, 255, 255, 0.1)"
+        shadow = "0 10px 30px -10px rgba(0, 0, 0, 0.5)"
+    else:
+        bg_color = "#f8fafc"
+        text_color = "#0f172a"
+        text_muted = "#475569"
+        surface_color = "rgba(255, 255, 255, 0.8)"
+        border_color = "rgba(0, 0, 0, 0.05)"
+        shadow = "0 10px 30px -10px rgba(0, 0, 0, 0.1)"
+
+    css = f"""/* Responsive Bento Grid & Grid Stacking */
+*, *::before, *::after {{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
+
+:root {{
+    --bg: {bg_color};
+    --text: {text_color};
+    --text-muted: {text_muted};
+    --accent: {accent_color};
+    --surface: {surface_color};
+    --border: {border_color};
+    --shadow: {shadow};
+    --max-width: {width_px}px;
+}}
+
+body {{
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    line-height: 1.5;
+}}
+
+/* Header Section */
+.header {{
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}}
+
+.header h1 {{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    margin-bottom: 1rem;
+}}
+
+.header p {{
+    color: var(--text-muted);
+    font-size: 1.125rem;
+}}
+
+/* Bento Grid Layout */
+.bento-container {{
+    width: 100%;
+    max-width: var(--max-width);
+    
+    /* CSS GRID CORE SETUP */
+    display: grid;
+    gap: 1.5rem;
+    
+    /* Desktop layout defaults */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, minmax(280px, auto));
+    grid-template-areas: 
+        "hero hero card1 card2"
+        "hero hero card3 card4";
+}}
+
+/* Tablet Breakpoint */
+@media (max-width: 900px) {{
+    .bento-container {{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "hero hero"
+            "hero hero"
+            "card1 card2"
+            "card3 card4";
+    }}
+}}
+
+/* Mobile Breakpoint */
+@media (max-width: 600px) {{
+    .bento-container {{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "hero"
+            "card1"
+            "card2"
+            "card3"
+            "card4";
+    }}
+}}
+
+/* Card Common Styles */
+.bento-card {{
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}}
+
+.bento-card:hover {{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.2);
+    border-color: var(--accent);
+}}
+
+/* Assigning Grid Areas */
+.hero-card {{ grid-area: hero; }}
+.card-1 {{ grid-area: card1; justify-content: center; }}
+.card-2 {{ grid-area: card2; justify-content: center; }}
+.card-3 {{ grid-area: card3; justify-content: center; }}
+.card-4 {{ grid-area: card4; justify-content: center; }}
+
+/* -- Grid Stacking Technique (Hero Card) -- */
+.hero-card {{
+    padding: 0; /* reset padding for stack */
+    display: grid;
+    grid-template-areas: "stack"; /* Single 1x1 grid cell */
+    place-items: end start; /* Align content to bottom left */
+}}
+
+.hero-img-wrapper {{
+    grid-area: stack; /* Assign to stack */
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}}
+
+.hero-img-wrapper img {{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}}
+
+.hero-card:hover .hero-img-wrapper img {{
+    transform: scale(1.05);
+}}
+
+/* Dark gradient overlay for text readability */
+.hero-overlay {{
+    grid-area: stack; /* Assign to stack */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+    z-index: 2;
+}}
+
+.hero-content {{
+    grid-area: stack; /* Assign to stack */
+    z-index: 3;
+    padding: 2.5rem;
+    color: #ffffff; /* Always white due to image overlay */
+}}
+
+.hero-content h2 {{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}}
+
+.hero-content p {{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+}}
+
+/* Standard Card Content */
+.card-icon {{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(139, 92, 246, 0.1);
+    color: var(--accent);
+    margin-bottom: auto; /* Pushes text to the bottom */
+}}
+
+.card-icon svg {{
+    width: 24px;
+    height: 24px;
+}}
+
+.bento-card h3 {{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}}
+
+.bento-card p {{
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}}
+"""
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title_text}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1>{title_text}</h1>
+        <p>{body_text}</p>
+    </header>
+
+    <main class="bento-container">
+        
+        <!-- Hero Card demonstrating Grid Stacking -->
+        <article class="bento-card hero-card">
+            <div class="hero-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Retro computing setup">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2>Grid Stacking Magic</h2>
+                <p>Images, gradients, and text layered perfectly in a single grid cell—no position absolute required.</p>
+            </div>
+        </article>
+
+        <!-- Standard Card 1 -->
+        <article class="bento-card card-1">
+            <div class="card-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            </div>
+            <h3>Lightning Fast</h3>
+            <p>Optimized rendering with pure CSS layouts.</p>
+        </article>
+
+        <!-- Standard Card 2 -->
+        <article class="bento-card card-2">
+            <div class="card-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
+            </div>
+            <h3>Template Areas</h3>
+            <p>Easily shuffle your UI using simple string maps.</p>
+        </article>
+
+        <!-- Standard Card 3 -->
+        <article class="bento-card card-3">
+            <div class="card-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+            </div>
+            <h3>Responsive</h3>
+            <p>Adapts flawlessly to any device screen size.</p>
+        </article>
+
+        <!-- Standard Card 4 -->
+        <article class="bento-card card-4">
+            <div class="card-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
+            </div>
+            <h3>Robust</h3>
+            <p>No absolute positioning fragile height bugs.</p>
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>"""
+
+    js = f"""// Bento Grid & Grid Stacking - Interactive Behavior
+document.addEventListener('DOMContentLoaded', () => {{
+    // The core magic of this component is purely driven by CSS Grid.
+    // However, we can add a subtle script to track mouse movement for a glow effect
+    // on the cards, which is highly typical for modern dashboard UIs.
+
+    const cards = document.querySelectorAll('.bento-card');
+
+    cards.forEach(card => {{
+        card.addEventListener('mousemove', e => {{
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            // Apply custom CSS variables for a radial gradient glow in hover states
+            card.style.setProperty('--mouse-x', `${{x}}px`);
+            card.style.setProperty('--mouse-y', `${{y}}px`);
+        }});
+    }});
+}});
+"""
+
+    files = []
+    for fname, content in [("index.html", html), ("style.css", css), ("script.js", js)]:
+        path = os.path.join(output_dir, fname)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        files.append(path)
+
+    return {
+        "html": html,
+        "css": css,
+        "js": js,
+        "files": files,
+    }

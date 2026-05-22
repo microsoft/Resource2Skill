@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for performance reviews, quarterly business reviews (QBRs), project status updates, and operational metrics. It effectively communicates progress and status on summary and title slides.",
+  "category_path": [
+    "dashboard",
+    "kpi_widgets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_flat_ui_kpi_dashboard_widgets_d5552d30",
+  "skill_name": "Modern Flat-UI KPI Dashboard Widgets",
+  "source": {
+    "channel": "Quickbase",
+    "duration_sec": 959,
+    "type": "youtube",
+    "video_id": "v80gwRF8GY8",
+    "video_title": "Build Meaningful KPI Widgets on Dashboards",
+    "video_url": "https://www.youtube.com/watch?v=v80gwRF8GY8",
+    "views": 1493
+  },
+  "tags": [
+    "KPI",
+    "dashboard",
+    "gauge chart",
+    "flat UI",
+    "data visualization",
+    "metrics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:12Z",
+  "wash_version": "1.0.0"
+}

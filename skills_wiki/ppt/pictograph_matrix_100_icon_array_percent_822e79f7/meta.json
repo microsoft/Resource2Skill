@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pictograph_matrix_100_icon_array_percent_822e79f7",
+  "skill_name": "Pictograph Matrix (100-Icon Array) Percentage Visualizer",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 622,
+    "type": "youtube",
+    "video_id": "F9WZAWArktI",
+    "video_title": "DATA SLIDES in PowerPoint \ud83d\ude32 How to make them engaging.",
+    "video_url": "https://www.youtube.com/watch?v=F9WZAWArktI",
+    "views": 80770
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:44Z",
+  "wash_version": "1.0.0"
+}

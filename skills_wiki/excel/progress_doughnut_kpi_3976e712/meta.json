@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "progress_doughnut_kpi_3976e712",
+  "skill_name": "Progress Doughnut KPI",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Fully designed interactive Excel dashboard showcasing sales, profit, customer data, and geographical sales distribution."
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard structure laid out with shapes and titles for various data sections, ready for visual elements."
+        },
+        {
+          "seconds": 810,
+          "description": "All individual charts (radar, map, line, and donut charts) have been created in the input tab."
+        },
+        {
+          "seconds": 1494,
+          "description": "Complete interactive Excel dashboard with all charts, maps, and dynamic KPI figures integrated and formatted."
+        }
+      ],
+      "frames": [
+        "frame_00_fully_designed_interactive_exc.jpg",
+        "frame_01_dashboard_structure_laid_out_w.jpg",
+        "frame_02_all_individual_charts_radar_ma.jpg"
+      ],
+      "recapped_at": 1777407319.6344166
+    },
+    "primary_path": "frame_00_fully_designed_interactive_exc.jpg"
+  }
+}

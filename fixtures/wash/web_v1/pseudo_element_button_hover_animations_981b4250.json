@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pseudo_element_button_hover_animations_981b4250",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 1102,
+    "type": "youtube",
+    "video_id": "cH0TC9gWiAg",
+    "video_title": "Advanced Button Hover Animations - CSS Only",
+    "video_url": "https://www.youtube.com/watch?v=cH0TC9gWiAg",
+    "views": 148387
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

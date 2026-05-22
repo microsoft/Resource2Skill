@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_multi_chart_dashboard_layout_066bbd71",
+  "skill_name": "Clean Multi-Chart Dashboard Layout",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:05:04Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "initial view of the interactive dashboard"
+        },
+        {
+          "seconds": 653,
+          "description": "first chart showing profit by market and cookie type"
+        },
+        {
+          "seconds": 1137,
+          "description": "all three charts added to the dashboard layout"
+        },
+        {
+          "seconds": 1449,
+          "description": "slicers in place, showing interactive filtering of data"
+        },
+        {
+          "seconds": 1729,
+          "description": "final polished dashboard with gridlines and headings removed"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_view_of_the_interactiv.jpg",
+        "frame_01_first_chart_showing_profit_by_.jpg",
+        "frame_02_all_three_charts_added_to_the_.jpg"
+      ],
+      "recapped_at": 1777406300.8166847
+    },
+    "primary_path": "frame_00_initial_view_of_the_interactiv.jpg"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Transforms standard vertical scrolling into a cinematic, narrative experience. Ideal for immersive landing pages, storytelling editorials, and high-impact product unveilings.",
+  "category_path": [
+    "animation",
+    "scroll_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_scroll_driven_parallax_engine_8496d406",
+  "skill_name": "Cinematic Scroll-Driven Parallax Engine",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 301,
+    "type": "youtube",
+    "video_id": "UgIwjLg4ONk",
+    "video_title": "The Parallax Effect // 5 Minute WebDev Project",
+    "video_url": "https://www.youtube.com/watch?v=UgIwjLg4ONk",
+    "views": 745554
+  },
+  "tags": [
+    "parallax",
+    "scroll-animation",
+    "scrollytelling",
+    "2.5d-depth",
+    "sticky-positioning"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:33Z",
+  "wash_version": "1.0.0"
+}

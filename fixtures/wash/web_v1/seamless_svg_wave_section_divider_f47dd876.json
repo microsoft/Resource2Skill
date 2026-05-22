@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_svg_wave_section_divider_f47dd876",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 2761,
+    "type": "youtube",
+    "video_id": "K8BigvW7sZU",
+    "video_title": "Responsive Landing Page Tutorial - HTML/CSS",
+    "video_url": "https://www.youtube.com/watch?v=K8BigvW7sZU",
+    "views": 47934
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_animations_e5f1fc72",
+  "source": {
+    "channel": "QCT",
+    "duration_sec": 602,
+    "type": "youtube",
+    "video_id": "aETL8DfADqw",
+    "video_title": "Mind-blowing CSS Scroll Animations | Quick Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=aETL8DfADqw",
+    "views": 869
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

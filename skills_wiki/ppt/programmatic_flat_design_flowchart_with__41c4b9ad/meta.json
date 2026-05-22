@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "programmatic_flat_design_flowchart_with__41c4b9ad",
+  "skill_name": "Programmatic Flat-Design Flowchart with Retro Accents",
+  "source": {
+    "channel": "Guides by Leo",
+    "duration_sec": 195,
+    "type": "youtube",
+    "video_id": "i-1oyEHy0A8",
+    "video_title": "How To Make A Flow Chart In PowerPoint (2026 Easy Guide)",
+    "video_url": "https://www.youtube.com/watch?v=i-1oyEHy0A8",
+    "views": 3
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:07Z",
+  "wash_version": "1.0.0"
+}

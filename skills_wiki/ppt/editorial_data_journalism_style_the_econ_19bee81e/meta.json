@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_data_journalism_style_the_econ_19bee81e",
+  "skill_name": "Editorial Data Journalism Style (The Economist Method)",
+  "source": {
+    "channel": "Analyst Academy",
+    "duration_sec": 414,
+    "type": "youtube",
+    "video_id": "cGGkAGBre3A",
+    "video_title": "How The Economist makes the best charts on the internet",
+    "video_url": "https://www.youtube.com/watch?v=cGGkAGBre3A",
+    "views": 149564
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:20:58Z",
+  "wash_version": "1.0.0"
+}

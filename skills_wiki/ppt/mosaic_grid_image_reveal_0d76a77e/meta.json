@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mosaic_grid_image_reveal_0d76a77e",
+  "skill_name": "Mosaic Grid Image Reveal",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 79,
+    "type": "youtube",
+    "video_id": "5INeZr7X8Qg",
+    "video_title": "PPT\u521b\u610f\u73a9\u6cd5\uff1a\u7528\u8868\u683c\u5236\u4f5c\u521b\u610f\u5c01\u9762",
+    "video_url": "https://www.youtube.com/watch?v=5INeZr7X8Qg",
+    "views": 13341
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:25Z",
+  "wash_version": "1.0.0"
+}

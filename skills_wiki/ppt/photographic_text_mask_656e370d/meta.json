@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating high-impact title slides, section dividers, or marketing banners where a strong thematic link between text and imagery is desired. This technique transforms simple words into a sophisticated and memorable graphic element.",
+  "category_path": [
+    "design",
+    "typography",
+    "text_effect"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "photographic_text_mask_656e370d",
+  "skill_name": "Photographic Text Mask",
+  "source": {
+    "channel": "Tutorials with Ilker",
+    "duration_sec": 176,
+    "type": "youtube",
+    "video_id": "47r5CW9QUQs",
+    "video_title": "How to Mask an Image with Text in PowerPoint [2026 Full Guide]",
+    "video_url": "https://www.youtube.com/watch?v=47r5CW9QUQs",
+    "views": 37
+  },
+  "tags": [
+    "text effect",
+    "image fill",
+    "typography",
+    "masking",
+    "visual impact"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:05:49Z",
+  "wash_version": "1.0.0"
+}

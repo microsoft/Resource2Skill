@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "purpose_driven_thematic_template_layout_411b87f5",
+  "skill_name": "Purpose-Driven Thematic Template Layout",
+  "source": {
+    "channel": "Jennifer Sharkey",
+    "duration_sec": 228,
+    "type": "youtube",
+    "video_id": "cCWCvQ7sUxo",
+    "video_title": "PowerPoint Templates vs Themes vs Layouts | PowerPoint Basics",
+    "video_url": "https://www.youtube.com/watch?v=cCWCvQ7sUxo",
+    "views": 6875
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:10:51Z",
+  "wash_version": "1.0.0"
+}

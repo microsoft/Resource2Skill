@@ -1,0 +1,18 @@
+{
+  "domain": "excel",
+  "verbs": [
+    "init_workbook",
+    "apply_component",
+    "add_sheet_from_shell",
+    "init_from_archetype"
+  ],
+  "tier_to_verbs": {
+    "T1": [],
+    "T2": [],
+    "T3": ["apply_component"],
+    "T4": ["add_sheet_from_shell"],
+    "T5": ["init_from_archetype"]
+  },
+  "reference_only_supported": true,
+  "notes": "T1/T2 are reference-only (tokens / formula snippets). T3 applies a component to a target workbook; T4 adds a full sheet shell; T5 initialises a workbook from an archetype."
+}

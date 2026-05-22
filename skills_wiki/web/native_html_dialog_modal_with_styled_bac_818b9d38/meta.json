@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating accessible, browser-native modals for user interruptions, confirmations, forms, and detailed view expansions without third-party libraries.",
+  "category_path": [
+    "web_ui",
+    "dialog_modal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_html_dialog_modal_with_styled_bac_818b9d38",
+  "skill_name": "Native HTML Dialog Modal with Styled Backdrop",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 580,
+    "type": "youtube",
+    "video_id": "TAB_v6yBXIE",
+    "video_title": "dialog = the easiest way to make a popup modal",
+    "video_url": "https://www.youtube.com/watch?v=TAB_v6yBXIE",
+    "views": 210631
+  },
+  "tags": [
+    "native dialog",
+    "modal",
+    "HTML5",
+    "web UI",
+    "accessibility",
+    "backdrop"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:55Z",
+  "wash_version": "1.0.0"
+}

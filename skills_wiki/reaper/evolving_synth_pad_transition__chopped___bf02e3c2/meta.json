@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "evolving_synth_pad_transition__chopped___bf02e3c2",
+  "skill_name": "Evolving Synth Pad Transition (Chopped, Widening, Modulated) and Lo-Fi Vinyl Crackle Processing",
+  "source": {
+    "channel": "The REAPER Blog",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jgUIOpybK8Y"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:23:22Z",
+  "wash_version": "1.0.0"
+}

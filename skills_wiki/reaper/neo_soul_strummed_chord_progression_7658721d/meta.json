@@ -1,0 +1,37 @@
+{
+  "applicability": "Perfect for foundational electric piano or pad tracks in Neo-Soul, Lo-Fi Hip Hop, and modern R&B. It provides a laid-back, humanized harmonic bed that intentionally sits slightly behind the beat.",
+  "category_path": [
+    "midi",
+    "chords",
+    "progression"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_strummed_chord_progression_7658721d",
+  "skill_name": "Neo-Soul Strummed Chord Progression",
+  "source": {
+    "channel": "Kamau Duane",
+    "duration_sec": 248,
+    "type": "youtube",
+    "video_id": "lG8turP6ZWU",
+    "video_title": "Neo Soul Chord Engine for Chordz and Cthulhu",
+    "video_url": "https://www.youtube.com/watch?v=lG8turP6ZWU",
+    "views": 34054
+  },
+  "tags": [
+    "neo-soul",
+    "chord-progression",
+    "lofi",
+    "strummed",
+    "jazz-harmony",
+    "humanized"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:02Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for portfolio showcases, destination highlights, or chronological milestones where high-quality photography is central. This technique creates a dynamic, app-like experience by using a moving window to reveal new content.",
+  "category_path": [
+    "layout",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_background_reveal_wheel_morph__00095aee",
+  "skill_name": "Segmented Wheel Reveal with Morph",
+  "source": {
+    "channel": "Dream Liu",
+    "duration_sec": 178,
+    "type": "youtube",
+    "video_id": "t5Kb5f_Fldg",
+    "video_title": "Wow Your Audience with These Stunning Rotating Wheel Effects in PowerPoint!",
+    "video_url": "https://www.youtube.com/watch?v=t5Kb5f_Fldg",
+    "views": 317402
+  },
+  "tags": [
+    "morph transition",
+    "reveal effect",
+    "circular layout",
+    "background fill",
+    "showcase"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:42:55Z",
+  "wash_version": "1.0.0"
+}

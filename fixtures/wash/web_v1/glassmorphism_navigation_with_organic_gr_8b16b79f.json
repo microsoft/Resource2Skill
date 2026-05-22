@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_navigation_with_organic_gr_8b16b79f",
+  "source": {
+    "channel": "WPTuts",
+    "duration_sec": 499,
+    "type": "youtube",
+    "video_id": "waxVyqQZ5iU",
+    "video_title": "Create Stunning Glassmorphism and Gradient Mesh Effects",
+    "video_url": "https://www.youtube.com/watch?v=waxVyqQZ5iU",
+    "views": 9348
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

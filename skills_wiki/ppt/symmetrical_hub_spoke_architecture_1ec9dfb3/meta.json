@@ -1,0 +1,35 @@
+{
+  "applicability": "Effectively visualizes systems with a central core and interconnected modules, such as API architectures, product ecosystems, or centralized data flows. The symmetrical layout inherently conveys stability, balance, and structural integrity.",
+  "category_path": [
+    "diagrams",
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "symmetrical_hub_spoke_architecture_1ec9dfb3",
+  "skill_name": "Symmetrical Hub & Spoke Diagram",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 140,
+    "type": "youtube",
+    "video_id": "NtghuMkrbJ8",
+    "video_title": "Systems Design PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=NtghuMkrbJ8",
+    "views": 65
+  },
+  "tags": [
+    "hub and spoke",
+    "architecture diagram",
+    "system integration",
+    "network diagram",
+    "symmetry"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:40Z",
+  "wash_version": "1.0.0"
+}

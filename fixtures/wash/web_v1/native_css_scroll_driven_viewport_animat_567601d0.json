@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_viewport_animat_567601d0",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 558,
+    "type": "youtube",
+    "video_id": "pFtxR-O78sY",
+    "video_title": "Crazy Scroll Animation Using CSS Only",
+    "video_url": "https://www.youtube.com/watch?v=pFtxR-O78sY",
+    "views": 272895
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

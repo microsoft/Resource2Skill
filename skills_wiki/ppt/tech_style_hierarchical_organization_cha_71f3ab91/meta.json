@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tech_style_hierarchical_organization_cha_71f3ab91",
+  "skill_name": "Tech-Style Hierarchical Organization Chart",
+  "source": {
+    "channel": "\u990a\u751f\u8b1b\u5802",
+    "duration_sec": 508,
+    "type": "youtube",
+    "video_id": "YYdY7BJV4iM",
+    "video_title": "PPT\u7ec4\u7ec7\u67b6\u6784\u56fe\uff0c\u7075\u6d3b\u8fd0\u7528SmartArt office\u529e\u516c\u6280\u5de7 ppt\u6559\u5b66 wps \u529e\u516c\u6280\u5de7 ppt",
+    "video_url": "https://www.youtube.com/watch?v=YYdY7BJV4iM",
+    "views": 411
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:38Z",
+  "wash_version": "1.0.0"
+}

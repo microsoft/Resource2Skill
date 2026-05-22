@@ -1,0 +1,35 @@
+{
+  "applicability": "Best for scenarios demanding a strong focal point and premium feel, such as introducing major themes, product names, or key data callouts with gravitas and impact.",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dramatic_drop_vaporize_reveal_0d2ba7c6",
+  "skill_name": "Dramatic Drop & Vaporize Reveal",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 135,
+    "type": "youtube",
+    "video_id": "jT8AjklnPlA",
+    "video_title": "PPT\u521b\u610f\u73a9\u6cd5\uff1a\u5236\u4f5c\u5927\u5382\u53d1\u5e03\u4f1a\u8f70\u7136\u4e0b\u843d\u9707\u64bc\u51fa\u573a\u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=jT8AjklnPlA",
+    "views": 398
+  },
+  "tags": [
+    "impactful",
+    "reveal",
+    "animation",
+    "text entrance",
+    "smoke effect",
+    "key data"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:45Z",
+  "wash_version": "1.0.0"
+}

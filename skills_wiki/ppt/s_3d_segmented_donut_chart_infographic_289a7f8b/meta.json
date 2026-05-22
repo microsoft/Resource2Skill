@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for cyclical processes, multi-stage plans, core-value representations, or any 3-6 part breakdown where all elements carry equal importance around a central theme.",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_segmented_donut_chart_infographic_289a7f8b",
+  "skill_name": "3D Segmented Donut Chart Infographic",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 238,
+    "type": "youtube",
+    "video_id": "sXKkhWbgGFs",
+    "video_title": "Impressive Custom Pie Graph | Animated presentation Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=sXKkhWbgGFs",
+    "views": 42056
+  },
+  "tags": [
+    "3D donut",
+    "segmented",
+    "infographic",
+    "cyclical process",
+    "data visualization",
+    "exploded chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:29Z",
+  "wash_version": "1.0.0"
+}

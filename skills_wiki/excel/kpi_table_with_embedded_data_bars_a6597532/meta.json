@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_table_with_embedded_data_bars_a6597532",
+  "skill_name": "KPI Table with Embedded Data Bars",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:21:10Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 129,
+          "description": "Dashboard canvas with title and colored background"
+        },
+        {
+          "seconds": 347,
+          "description": "KPI shapes with icons, ready for data"
+        },
+        {
+          "seconds": 748,
+          "description": "Top KPI cards complete, and agent KPIs table visible"
+        },
+        {
+          "seconds": 1199,
+          "description": "Agent KPIs table with data bars, first chart integrated"
+        },
+        {
+          "seconds": 1831,
+          "description": "Fully updated and interactive sales dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_dashboard_canvas_with_title_an.jpg",
+        "frame_01_kpi_shapes_with_icons_ready_fo.jpg",
+        "frame_02_top_kpi_cards_complete_and_age.jpg"
+      ],
+      "recapped_at": 1777407150.1035821
+    },
+    "primary_path": "frame_00_dashboard_canvas_with_title_an.jpg"
+  }
+}

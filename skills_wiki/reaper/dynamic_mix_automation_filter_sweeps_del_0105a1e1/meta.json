@@ -1,0 +1,37 @@
+{
+  "applicability": "This skill applies dynamic filter sweeps to build tension and delay throws to punctuate specific musical elements, enhancing tracks across electronic, pop, hip-hop, and cinematic genres. It brings life and dynamic contrast to static mixes.",
+  "category_path": [
+    "mixing",
+    "automation",
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_mix_automation_filter_sweeps_del_0105a1e1",
+  "skill_name": "Dynamic Mix Automation (Filter Sweeps & Delay Throws)",
+  "source": {
+    "channel": "Cubase",
+    "duration_sec": 577,
+    "type": "youtube",
+    "video_id": "vPUn-kn-bcA",
+    "video_title": "What is Automation and How to Use It | Music Production For Beginners",
+    "video_url": "https://www.youtube.com/watch?v=vPUn-kn-bcA",
+    "views": 32597
+  },
+  "tags": [
+    "automation",
+    "filter sweep",
+    "delay throw",
+    "tension build",
+    "dynamic mixing",
+    "effects"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:03Z",
+  "wash_version": "1.0.0"
+}

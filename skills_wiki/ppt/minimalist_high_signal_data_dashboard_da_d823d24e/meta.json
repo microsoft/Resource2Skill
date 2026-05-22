@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_high_signal_data_dashboard_da_d823d24e",
+  "skill_name": "Minimalist High-Signal Data Dashboard (Data-Ink Optimization)",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 382,
+    "type": "youtube",
+    "video_id": "MXfkmt-5dmc",
+    "video_title": "5 Dashboard Design Tips - COMMON MISTAKES to avoid!",
+    "video_url": "https://www.youtube.com/watch?v=MXfkmt-5dmc",
+    "views": 73482
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:50:31Z",
+  "wash_version": "1.0.0"
+}

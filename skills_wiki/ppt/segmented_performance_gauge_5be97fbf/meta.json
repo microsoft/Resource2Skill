@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for dashboards, KPI reports, or status slides to visualize a single metric against a performance scale. It transforms a simple percentage or value into an intuitive, speedometer-like graphic.",
+  "category_path": [
+    "charts",
+    "gauges"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_performance_gauge_5be97fbf",
+  "skill_name": "Segmented Performance Gauge",
+  "source": {
+    "channel": "E Micro Tech",
+    "duration_sec": 317,
+    "type": "youtube",
+    "video_id": "0KaTzSnFBm8",
+    "video_title": "Resource Capacity Planning Percentage Chart PPT template / Speedometer Graphic Design",
+    "video_url": "https://www.youtube.com/watch?v=0KaTzSnFBm8",
+    "views": 895
+  },
+  "tags": [
+    "gauge",
+    "kpi",
+    "dashboard",
+    "performance",
+    "metric",
+    "chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:35Z",
+  "wash_version": "1.0.0"
+}

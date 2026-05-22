@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for SaaS landing pages, subscription product sites, or any service offering requiring clear, interactive pricing tiers for user comparison and selection.",
+  "category_path": [
+    "pricing",
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_interactive_pricing_card_trio_52c5b2f5",
+  "skill_name": "Modern Interactive Pricing Card Trio",
+  "source": {
+    "channel": "Potential WebCode",
+    "duration_sec": 2294,
+    "type": "youtube",
+    "video_id": "DLgiNy-XcmU",
+    "video_title": "How to make Responsive Pricing Table Template Using HTML and CSS only | Price List",
+    "video_url": "https://www.youtube.com/watch?v=DLgiNy-XcmU",
+    "views": 11941
+  },
+  "tags": [
+    "pricing card",
+    "interactive",
+    "flexbox layout",
+    "hover effect",
+    "responsive",
+    "SaaS"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:43:41Z",
+  "wash_version": "1.0.0"
+}

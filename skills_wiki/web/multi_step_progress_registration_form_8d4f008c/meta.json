@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for breaking long data entry processes like user registration, SaaS onboarding flows, or multi-step checkouts into smaller, manageable chunks. The visual progress indicator improves user experience and increases completion rates.",
+  "category_path": [
+    "forms",
+    "wizards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_step_progress_registration_form_8d4f008c",
+  "skill_name": "Multi-Step Progress Registration Form",
+  "source": {
+    "channel": "Code Hunter Sharath",
+    "duration_sec": 2333,
+    "type": "youtube",
+    "video_id": "O3FfrubyyXw",
+    "video_title": "Build a Multi-Step Form with Progress Bar | HTML CSS JavaScript Project",
+    "video_url": "https://www.youtube.com/watch?v=O3FfrubyyXw",
+    "views": 1553
+  },
+  "tags": [
+    "form",
+    "wizard",
+    "progress bar",
+    "onboarding",
+    "registration"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:37Z",
+  "wash_version": "1.0.0"
+}

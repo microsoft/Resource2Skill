@@ -1,0 +1,29 @@
+{
+  "applicability": "Improves readability of large integer values by adding thousand separators. Automatically highlights negative numbers in red for quick identification in financial or data contexts.",
+  "category_path": [
+    "formatting",
+    "number_formats"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "thousand_sep_a814c34b",
+  "skill_name": "thousand_sep",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "number_format",
+    "formatting",
+    "thousand_separator",
+    "integer",
+    "red_negative"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:01:47Z",
+  "wash_version": "1.0.0"
+}

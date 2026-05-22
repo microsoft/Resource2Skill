@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_stylized_christmas_tree_f51eed41",
+  "skill_name": "Minimalist Stylized Christmas Tree",
+  "source": {
+    "channel": "RoBuilder",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=QTnBCUqyUX0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:42:01Z",
+  "wash_version": "1.0.0"
+}

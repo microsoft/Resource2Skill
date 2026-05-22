@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "proportional_shape_picture_fill_22042ef7",
+  "skill_name": "Proportional Shape Picture Fill",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 188,
+    "type": "youtube",
+    "video_id": "L2VFN5DUgNI",
+    "video_title": "Put Picture inside Shape in PowerPoint the right way",
+    "video_url": "https://www.youtube.com/watch?v=L2VFN5DUgNI",
+    "views": 312183
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:10:18Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_model_toggle_338f0b26",
+  "skill_name": "Dynamic Scenario Model Toggle",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:32:03Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Initial preview of the dynamic model with scenario selection"
+        },
+        {
+          "seconds": 14,
+          "description": "Full income statement with calculated revenues and margins"
+        },
+        {
+          "seconds": 142,
+          "description": "Dynamic income statement showing values for Scenario 1"
+        },
+        {
+          "seconds": 1425,
+          "description": "Dynamic income statement showing updated values for Scenario 2"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_preview_of_the_dynamic.jpg",
+        "frame_01_full_income_statement_with_cal.jpg",
+        "frame_02_dynamic_income_statement_showi.jpg"
+      ],
+      "recapped_at": 1777406637.515024
+    },
+    "primary_path": "frame_00_initial_preview_of_the_dynamic.jpg"
+  }
+}

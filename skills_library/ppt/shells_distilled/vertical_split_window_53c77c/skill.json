@@ -1,0 +1,90 @@
+{
+  "skill_id": "vertical_split_window_53c77c",
+  "skill_type": "shell",
+  "name": "Vertical Split Window",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "headline + vertically split central card"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "top_title",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "top_body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bottom_title",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bottom_body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/vertical_split_window_53c77c/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "3d_morphing_reveal_window_spatial_narrat_bdaa833a",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Interpreted the drawn 'window' shape as a central comparison or feature card split vertically into top and bottom content areas.",
+  "_distill_attempts": 1
+}

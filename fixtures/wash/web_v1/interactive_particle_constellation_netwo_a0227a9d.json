@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_particle_constellation_netwo_a0227a9d",
+  "source": {
+    "channel": "Franks laboratory",
+    "duration_sec": 1171,
+    "type": "youtube",
+    "video_id": "d620nV6bp0A",
+    "video_title": "Particles JS Effect with Pure Vanilla JavaScript | Animated Background Tutorial with Examples",
+    "video_url": "https://www.youtube.com/watch?v=d620nV6bp0A",
+    "views": 120179
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

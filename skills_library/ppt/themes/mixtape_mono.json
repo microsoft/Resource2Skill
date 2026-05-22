@@ -1,0 +1,121 @@
+{
+  "theme_id": "mixtape_mono",
+  "name": "Mixtape Mono",
+  "origin": "web_distilled",
+  "source_url": "https://developer.spotify.com/documentation/design",
+  "source_title": "Spotify Design Guidelines",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#191414",
+    "panel": "#121212",
+    "accent": "#1DB954",
+    "accent2": "#FFFFFF",
+    "text": "#FFFFFF",
+    "muted": "#B3B3B3",
+    "border": "#535353",
+    "success": "#1DB954",
+    "warning": "#1DB954"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Arial",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Arial",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Arial",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "cassette label rules with spare mono framing"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left",
+      "slide_in_right"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "restrained",
+    "editorial",
+    "technical",
+    "calm"
+  ],
+  "archetype_fit": [
+    "brand",
+    "data",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "editorial",
+    "trace",
+    "hairline"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "bounce",
+    "organic"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "A foundational pattern for modern web navigation, suitable for virtually any website or web application. It ensures a consistent and accessible user experience across all screen sizes, from desktop to mobile.",
+  "category_path": [
+    "web",
+    "navigation",
+    "header"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_navbar_with_hamburger_ac938208",
+  "skill_name": "Responsive Navbar with Hamburger Menu",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 815,
+    "type": "youtube",
+    "video_id": "At4B7A4GOPg",
+    "video_title": "Responsive Navbar Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=At4B7A4GOPg",
+    "views": 517765
+  },
+  "tags": [
+    "flexbox",
+    "responsive design",
+    "navigation",
+    "hamburger menu",
+    "header"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:16:47Z",
+  "wash_version": "1.0.0"
+}

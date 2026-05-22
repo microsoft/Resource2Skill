@@ -1,0 +1,29 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "left_text_right_image_split_969467",
+  "skill_name": "Left Text Right Image Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T4",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:11:55Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_glassmorphism_hero_with_dynamic__f4b9e561",
+  "skill_name": "Ambient Glassmorphism Hero with Dynamic Theme Toggle",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:29:06Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Fully styled landing page in light mode with initial content."
+        },
+        {
+          "seconds": 8,
+          "description": "Landing page with dark mode theme applied, showing color changes."
+        },
+        {
+          "seconds": 20,
+          "description": "Main content area with navigation tabs and three content cards displayed below the hero section."
+        },
+        {
+          "seconds": 2432,
+          "description": "Central background element rendered with a pink-purple linear gradient and blur effect."
+        },
+        {
+          "seconds": 3704,
+          "description": "Interactive light/dark mode toggle demonstrating the smooth transition between themes."
+        }
+      ],
+      "frames": [
+        "frame_00_fully_styled_landing_page_in_l.jpg",
+        "frame_01_landing_page_with_dark_mode_th.jpg",
+        "frame_02_main_content_area_with_navigat.jpg",
+        "frame_03_central_background_element_ren.jpg"
+      ],
+      "recapped_at": 1777408328.4893732
+    },
+    "primary_path": "frame_00_fully_styled_landing_page_in_l.jpg"
+  }
+}

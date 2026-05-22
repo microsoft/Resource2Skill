@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for rendering soft-touch surfaces common in consumer electronics, buttons, and casings. Also suitable for modern furniture designs requiring a subtle, non-reflective finish.",
+  "category_path": [
+    "material_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "plastic_matte_21611125",
+  "skill_name": "plastic_matte",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "plastic",
+    "matte",
+    "soft-touch",
+    "electronics",
+    "rough",
+    "material"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:51Z",
+  "wash_version": "1.0.0"
+}

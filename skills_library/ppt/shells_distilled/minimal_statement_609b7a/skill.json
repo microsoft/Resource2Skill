@@ -1,0 +1,55 @@
+{
+  "skill_id": "minimal_statement_609b7a",
+  "skill_type": "shell",
+  "name": "Minimal Statement",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote",
+      "section_divider"
+    ],
+    "content_shape": [
+      "single-statement"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "statement",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_statement_609b7a/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "billboard_typography_cinematic_contrast_f383c998",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A highly minimal layout featuring a single bold statement centered vertically on a solid accent background.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_interior_lighting_post_process_8ba2556b",
+  "skill_name": "Cinematic Interior Lighting & Post-Processing Rig",
+  "source": {
+    "channel": "Kailash Tutorials ",
+    "duration_sec": 695,
+    "type": "youtube",
+    "video_id": "VxDEtL0WyOQ",
+    "video_title": "How to Light an Interior Scene at Night in Blender (Easy Tutorial) in English Explanation",
+    "video_url": "https://www.youtube.com/watch?v=VxDEtL0WyOQ",
+    "views": 47
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:02:50Z",
+  "wash_version": "1.0.0"
+}

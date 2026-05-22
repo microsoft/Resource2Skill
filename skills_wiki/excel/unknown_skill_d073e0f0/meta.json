@@ -1,0 +1,35 @@
+{
+  "applicability": "Applies Excel application-level UI settings (like Office Theme) and adds background images to worksheets. These are visual styling features generally outside the scope of robust data automation.",
+  "category_path": [
+    "formatting",
+    "worksheet_appearance"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_d073e0f0",
+  "skill_name": "Worksheet Background and UI Settings",
+  "source": {
+    "channel": "Excel Tutorials by EasyClick Academy",
+    "duration_sec": 249,
+    "type": "youtube",
+    "video_id": "gAthkbDcZ2c",
+    "video_title": "How to Enable Dark Mode in Excel (The Ultimate Guide)",
+    "video_url": "https://www.youtube.com/watch?v=gAthkbDcZ2c",
+    "views": 123830
+  },
+  "tags": [
+    "ui_theme",
+    "background_image",
+    "worksheet_styling",
+    "application_settings"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:58:15Z",
+  "wash_version": "1.0.0"
+}

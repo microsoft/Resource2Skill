@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for corporate presentations involving process mapping, organizational structures, decision trees, user journey flows, and system architecture diagrams, ensuring robust and maintainable graphics.",
+  "category_path": [
+    "diagrams",
+    "flowcharts",
+    "process_mapping"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_connected_flowchart_elbow_rout_4fb2c494",
+  "skill_name": "Automated Connected Flowchart (Elbow-Routed Logic Diagram)",
+  "source": {
+    "channel": "\u7a0b\u66e6\u8cc7\u8a0a",
+    "duration_sec": 350,
+    "type": "youtube",
+    "video_id": "LOmiIEiKOzY",
+    "video_title": "\u88fd\u4f5cWord\u6d41\u7a0b\u5716\uff0c\u4e09\u500b\u4f60\u4e00\u5b9a\u9047\u5230\u904e\u7684\u554f\u984c\uff5c\u5ba2\u670d\u82b1\u8def\u7c73EP79 Office\u597d\u597d\u73a9-Word\u6559\u5b78",
+    "video_url": "https://www.youtube.com/watch?v=LOmiIEiKOzY",
+    "views": 27622
+  },
+  "tags": [
+    "flowchart",
+    "process diagram",
+    "automated connections",
+    "logic diagram",
+    "organizational chart",
+    "ppt"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:52:14Z",
+  "wash_version": "1.0.0"
+}

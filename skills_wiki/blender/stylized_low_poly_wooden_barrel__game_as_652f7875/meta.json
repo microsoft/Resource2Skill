@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_low_poly_wooden_barrel__game_as_652f7875",
+  "skill_name": "Stylized Low-Poly Wooden Barrel (Game Asset)",
+  "source": {
+    "channel": "Versatile Vertices",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=smluafHtCeY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:34:55Z",
+  "wash_version": "1.0.0"
+}

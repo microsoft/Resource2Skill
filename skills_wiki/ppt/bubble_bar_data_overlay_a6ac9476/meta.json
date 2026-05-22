@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bubble_bar_data_overlay_a6ac9476",
+  "skill_name": "Bubble Bar Data Overlay",
+  "source": {
+    "channel": "Rin\u7684Excel",
+    "duration_sec": 432,
+    "type": "youtube",
+    "video_id": "CgLnrw_0UJk",
+    "video_title": "Excel\u6536\u85cf\u7ea7\u5546\u52a1\u56fe\u8868\uff0c\u6761\u5f62\u6ce1\u6ce1\u7ec4\u5408\u5bf9\u6bd4\u56fe\uff01",
+    "video_url": "https://www.youtube.com/watch?v=CgLnrw_0UJk",
+    "views": 237
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:55:28Z",
+  "wash_version": "1.0.0"
+}

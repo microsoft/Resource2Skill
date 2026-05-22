@@ -1,0 +1,36 @@
+{
+  "applicability": "A staple sound design technique for driving chord progressions, rhythmic arpeggios, or syncopated leads in EDM, Future Bass, Synthwave, and Pop.",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modulated_synth_pluck_with_unison_f0cda6a0",
+  "skill_name": "Modulated Synth Pluck with Unison",
+  "source": {
+    "channel": "In The Mix",
+    "duration_sec": 882,
+    "type": "youtube",
+    "video_id": "NJLIS2MkFe4",
+    "video_title": "Sound Design and Synth Fundamentals",
+    "video_url": "https://www.youtube.com/watch?v=NJLIS2MkFe4",
+    "views": 1515386
+  },
+  "tags": [
+    "synth pluck",
+    "unison",
+    "LFO filter",
+    "sound design",
+    "EDM",
+    "reaper"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:59:43Z",
+  "wash_version": "1.0.0"
+}

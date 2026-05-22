@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_neon_glow_hero_with_glassmorph_afaef063",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 2365,
+    "type": "youtube",
+    "video_id": "V49fGLgM4WE",
+    "video_title": "Build a Responsive Developer Portfolio Website Using HTML & CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=V49fGLgM4WE",
+    "views": 68677
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

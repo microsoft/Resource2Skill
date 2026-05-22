@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_responsive_pricing_cards_28bd98e1",
+  "source": {
+    "channel": "Mr Coder",
+    "duration_sec": 1234,
+    "type": "youtube",
+    "video_id": "RLReK22LWTo",
+    "video_title": "Create Responsive Pricing Table Using HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=RLReK22LWTo",
+    "views": 1271
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

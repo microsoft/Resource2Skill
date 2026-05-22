@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_grid_based_kpi_dashboard_4fdf8801",
+  "skill_name": "\"Modern Grid-Based KPI Dashboard\"",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 96,
+    "type": "youtube",
+    "video_id": "lCU7tgeP-YI",
+    "video_title": "Business KPI Dashboard: Key to Effective Performance Tracking (+PPT Template)",
+    "video_url": "https://www.youtube.com/watch?v=lCU7tgeP-YI",
+    "views": 233
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:35Z",
+  "wash_version": "1.0.0"
+}

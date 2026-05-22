@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_sidebar_layout_3874aee0",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 785,
+    "type": "youtube",
+    "video_id": "2H7aOHKZ6PY",
+    "video_title": "Excel Slicers, EVERYTHING You Need to Know - includes workbook with step by step instructions",
+    "video_url": "https://www.youtube.com/watch?v=2H7aOHKZ6PY",
+    "views": 285825
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for 'How-to' guides, process explanations, educational content, or product explainers. It enables dynamic visual storytelling without requiring the creator to be on-camera, maintaining engaging visual retention.",
+  "category_path": [
+    "presentation_style",
+    "explainer_content"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "flat_whiteboard_doodle_explainer_style_43008277",
+  "skill_name": "Flat Whiteboard Doodle Explainer Style",
+  "source": {
+    "channel": "K\u68ee\u52a8\u753b",
+    "duration_sec": 324,
+    "type": "youtube",
+    "video_id": "8ES0GR0MR_o",
+    "video_title": "\u4e0d\u60f3\u9732\u8138\uff1f\u7528 PPT \u4e5f\u53ef\u4ee5\u505a\u51fa\u597d\u770b\u7684\u89c6\u9891\uff01",
+    "video_url": "https://www.youtube.com/watch?v=8ES0GR0MR_o",
+    "views": 0
+  },
+  "tags": [
+    "explainer",
+    "whiteboard",
+    "doodle",
+    "educational",
+    "storyboard",
+    "how-to"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:26:19Z",
+  "wash_version": "1.0.0"
+}

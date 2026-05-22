@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "melodic_call_and_response_with_timbral_v_3f3e1a25",
+  "skill_name": "Melodic Call and Response with Timbral Variation",
+  "source": {
+    "channel": "Freshly Squeezed Samples",
+    "duration_sec": 230,
+    "type": "youtube",
+    "video_id": "PXYuQ5inP3g",
+    "video_title": "Quick Tip: How to Use Call and Response to Create Better Melodies",
+    "video_url": "https://www.youtube.com/watch?v=PXYuQ5inP3g",
+    "views": 7980
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:42Z",
+  "wash_version": "1.0.0"
+}

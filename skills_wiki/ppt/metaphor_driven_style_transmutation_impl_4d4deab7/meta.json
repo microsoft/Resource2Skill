@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for tech product launches, SaaS architecture diagrams, data dashboards, and executive summaries where a clean, authoritative, \"Silicon Valley\" aesthetic is required.",
+  "category_path": [
+    "visual_design",
+    "ui_elements"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "metaphor_driven_style_transmutation_impl_4d4deab7",
+  "skill_name": "Premium Glassmorphism Keynote Style",
+  "source": {
+    "channel": "\u7075\u59d0\u8bf4AI  |  Ling Talk AI",
+    "duration_sec": 796,
+    "type": "youtube",
+    "video_id": "3pG6NqqQsCg",
+    "video_title": "\u8c37\u6b4cNotebookLM\u4e00\u952e\u751f\u62108\u79cd\u795e\u4ed9\u98ce\u683cPPT | \u201c\u75af\u72c2\u52a8\u7269\u57ce\u201d\u3001\u82f9\u679c\u98ce\u3001\u56fd\u98ce\u3001\u4e8c\u6b21\u5143\u968f\u5fc3\u6362 | \u9644\u63d0\u793a\u8bcd | 5\u6b65\u98ce\u683c\u89e3\u6784\u6cd5",
+    "video_url": "https://www.youtube.com/watch?v=3pG6NqqQsCg",
+    "views": 10097
+  },
+  "tags": [
+    "glassmorphism",
+    "apple keynote",
+    "tech style",
+    "minimalist",
+    "data visualization",
+    "premium"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:38:54Z",
+  "wash_version": "1.0.0"
+}

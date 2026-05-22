@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diagonal_matte_reveal_paper_cutout_effec_0b5a3035",
+  "skill_name": "Diagonal Matte Reveal (Paper Cutout Effect)",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 636,
+    "type": "youtube",
+    "video_id": "rVC2VOGP7Qw",
+    "video_title": "How to make a good PowerPoint slide - Easy Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=rVC2VOGP7Qw",
+    "views": 1046793
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:48Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,29 @@
+{
+  "applicability": "Interior architectural visualisation scene with Scandinavian furnishings, HDRI sun lighting, and Cycles render setup.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "mit",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_archviz_living_room",
+  "skill_name": "Archviz Living Room",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/blender-archviz-living"
+  },
+  "tags": [
+    "archviz",
+    "interior",
+    "scandinavian",
+    "cycles",
+    "hdri"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:08Z",
+  "wash_version": "1.0.0"
+}

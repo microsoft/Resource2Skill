@@ -1,0 +1,81 @@
+{
+  "skill_id": "centered_hero_cover_9acc45",
+  "skill_type": "shell",
+  "name": "Centered Hero Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover"
+    ],
+    "content_shape": [
+      "hero_image+logo+title+subtitle"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "logo",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_hero_cover_9acc45/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "the_single_message_kpi_knockout_hero_met_87a34a92",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A classic cover slide layout featuring a full-bleed background image, a central logo, and centered typography for high visual impact.",
+  "_distill_attempts": 1
+}

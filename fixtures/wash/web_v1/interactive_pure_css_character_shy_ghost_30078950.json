@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_pure_css_character_shy_ghost_30078950",
+  "source": {
+    "channel": "Coding Artist",
+    "duration_sec": 282,
+    "type": "youtube",
+    "video_id": "T2k7Hcx9ICI",
+    "video_title": "Speed Art Pure CSS | Boo",
+    "video_url": "https://www.youtube.com/watch?v=T2k7Hcx9ICI",
+    "views": 5485
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

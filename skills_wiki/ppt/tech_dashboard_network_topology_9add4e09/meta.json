@@ -1,0 +1,36 @@
+{
+  "applicability": "Effective for visualizing IT infrastructure, cloud services, and software architectures, this style mimics modern monitoring dashboards, lending credibility to technical presentations.",
+  "category_path": [
+    "architecture",
+    "network"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tech_dashboard_network_topology_9add4e09",
+  "skill_name": "Tech Dashboard Network Topology",
+  "source": {
+    "channel": "VirtualizationHowto",
+    "duration_sec": 874,
+    "type": "youtube",
+    "video_id": "F4SgNNWzbEA",
+    "video_title": "Stop Drawing Network Diagrams Manually Scanopy Does It for You",
+    "video_url": "https://www.youtube.com/watch?v=F4SgNNWzbEA",
+    "views": 53642
+  },
+  "tags": [
+    "network",
+    "topology",
+    "dashboard",
+    "dark mode",
+    "architecture",
+    "devops"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:44Z",
+  "wash_version": "1.0.0"
+}

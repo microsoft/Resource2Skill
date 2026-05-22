@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scenario_driven_financial_schedule_bf631599",
+  "skill_name": "Scenario-Driven Financial Schedule",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=64A6HJDEbKA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:41Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "Initial income statement layout with historical data and forecasted years"
+        },
+        {
+          "seconds": 77,
+          "description": "Income statement header and years with custom formatting"
+        },
+        {
+          "seconds": 393,
+          "description": "Historical income statement values entered with blue font for manual inputs"
+        },
+        {
+          "seconds": 749,
+          "description": "Forecasted revenue values calculated dynamically based on growth assumptions"
+        },
+        {
+          "seconds": 1146,
+          "description": "Complete income statement with all lines calculated and formatted"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_income_statement_layou.jpg",
+        "frame_01_income_statement_header_and_ye.jpg",
+        "frame_02_historical_income_statement_va.jpg",
+        "frame_03_forecasted_revenue_values_calc.jpg",
+        "frame_04_complete_income_statement_with.jpg"
+      ],
+      "recapped_at": 1777407376.4776196
+    },
+    "primary_path": "frame_00_initial_income_statement_layou.jpg"
+  }
+}

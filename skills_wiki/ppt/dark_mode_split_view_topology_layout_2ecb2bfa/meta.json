@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_split_view_topology_layout_2ecb2bfa",
+  "skill_name": "Dark Mode Split-View Topology Layout",
+  "source": {
+    "channel": "ByteByteGo",
+    "duration_sec": 204,
+    "type": "youtube",
+    "video_id": "jCd6XfWLZsg",
+    "video_title": "Top 6 Tools to Turn Code into Beautiful Diagrams",
+    "video_url": "https://www.youtube.com/watch?v=jCd6XfWLZsg",
+    "views": 940690
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:09:39Z",
+  "wash_version": "1.0.0"
+}

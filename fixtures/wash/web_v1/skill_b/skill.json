@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill_b",
+  "skill_name": "Bento Card Grid",
+  "applicability": "Render a 3x3 responsive bento grid of feature cards with icons.",
+  "tags": ["bento", "feature_grid", "cards"],
+  "source": {"type": "manual"},
+  "license": "permissive",
+  "tier": "T3",
+  "category_path": ["feature_grid"]
+}

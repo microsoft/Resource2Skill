@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_text_mask_zoom_aa695bb4",
+  "skill_name": "Cinematic Text Mask Zoom",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 94,
+    "type": "youtube",
+    "video_id": "5NrBq7ES7q8",
+    "video_title": "\u4f60\u4e00\u5b9a\u8981\u5b66\u4f1a\u7684\u7535\u5f71\u7ea7PPT\u5f00\u573a\u52a8\u753b\u6548\u679c\uff01",
+    "video_url": "https://www.youtube.com/watch?v=5NrBq7ES7q8",
+    "views": 4713
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:28:04Z",
+  "wash_version": "1.0.0"
+}

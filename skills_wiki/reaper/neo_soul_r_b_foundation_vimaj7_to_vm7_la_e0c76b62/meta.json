@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for intro sections, verse beds in vocal-driven R&B/Trapsoul, or as foundational sample layers for Boom-Bap and Lo-Fi hip-hop beats.",
+  "category_path": [
+    "composition",
+    "arrangements"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_r_b_foundation_vimaj7_to_vm7_la_e0c76b62",
+  "skill_name": "Neo-Soul / R&B Foundation (VImaj7 to vm7 Layered Loop)",
+  "source": {
+    "channel": "KXVI",
+    "duration_sec": 638,
+    "type": "youtube",
+    "video_id": "6y8UYQPQ7Cs",
+    "video_title": "Go To Chord Progressions For Making Soul Samples: Soul Theory Episode 1",
+    "video_url": "https://www.youtube.com/watch?v=6y8UYQPQ7Cs",
+    "views": 36379
+  },
+  "tags": [
+    "neo-soul",
+    "r&b",
+    "chord-progression",
+    "layered-loop",
+    "syncopated-bass",
+    "minor-7th"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:52Z",
+  "wash_version": "1.0.0"
+}

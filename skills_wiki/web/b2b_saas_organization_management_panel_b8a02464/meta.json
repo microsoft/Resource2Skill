@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "b2b_saas_organization_management_panel_b8a02464",
+  "skill_name": "B2B SaaS Organization Management Panel",
+  "source": {
+    "channel": "Sonny Sangha",
+    "duration_sec": 2595,
+    "type": "youtube",
+    "video_id": "Dl8ad3aSFoE",
+    "video_title": "How to Build a SaaS in 2026 | Masterclass (B2B, Multi Tenant, Next.js, Roles / Permissions, Billing)",
+    "video_url": "https://www.youtube.com/watch?v=Dl8ad3aSFoE",
+    "views": 86049
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:48Z",
+  "wash_version": "1.0.0"
+}

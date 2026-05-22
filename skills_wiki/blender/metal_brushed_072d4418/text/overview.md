@@ -1,0 +1,32 @@
+# metal_brushed
+
+## Description
+
+Brushed industrial metal — moderate roughness, full metallic, slight anisotropy via roughness map hint
+
+## Parameters
+
+```json
+{
+  "best_for": [
+    "machinery",
+    "panels",
+    "industrial props",
+    "sci-fi corridors"
+  ],
+  "principled": {
+    "Anisotropic": 0.4,
+    "Anisotropic Rotation": 0.0,
+    "Base Color": [
+      0.78,
+      0.78,
+      0.82,
+      1.0
+    ],
+    "Coat Weight": 0.0,
+    "Metallic": 1.0,
+    "Roughness": 0.32,
+    "Specular IOR Level": 0.5
+  }
+}
+```

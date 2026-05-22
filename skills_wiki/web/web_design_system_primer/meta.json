@@ -1,0 +1,13 @@
+{
+  "applicability": "Foundational design-system primer for any web page task. Provides dark/light color tokens, typography hierarchy, spacing scale, CSS technique helpers (flex/grid/glassmorphism/animations), composition patterns, and recommended skill combos. Auto-loaded for with_skills mode.",
+  "category_path": ["primer"],
+  "exec_ok": null,
+  "license": "internal",
+  "modalities_present": ["text"],
+  "schema_version": "1.0.0",
+  "skill_id": "web_design_system_primer",
+  "skill_name": "Web Design-System Primer (color tokens, typography, CSS techniques)",
+  "source": {"type": "internal", "note": "Migrated from agent_prompt for skill/non-skill ablation cleanliness"},
+  "tags": ["primer", "design_system", "css", "color_tokens", "typography", "techniques"],
+  "tier": "T1"
+}

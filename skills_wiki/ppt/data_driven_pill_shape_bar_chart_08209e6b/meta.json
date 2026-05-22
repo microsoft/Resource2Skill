@@ -1,0 +1,34 @@
+{
+  "applicability": "Use this to create a modern, infographic-style bar chart that highlights top-performing metrics. Ideal for survey results, KPI dashboards, or any data presentation needing to guide audience focus.",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_driven_pill_shape_bar_chart_08209e6b",
+  "skill_name": "Pill-Shaped Bar Chart with Highlight",
+  "source": {
+    "channel": "Spotlight Impact Data Design",
+    "duration_sec": 558,
+    "type": "youtube",
+    "video_id": "jIKUbRAzvzo",
+    "video_title": "How to Create a Bar Chart with Rounded Corners in PowerPoint! \ud83d\udd25 [PPT CHARTS!]",
+    "video_url": "https://www.youtube.com/watch?v=jIKUbRAzvzo",
+    "views": 13880
+  },
+  "tags": [
+    "bar chart",
+    "data visualization",
+    "infographic",
+    "kpi dashboard",
+    "modern chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:11:52Z",
+  "wash_version": "1.0.0"
+}

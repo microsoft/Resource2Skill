@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for drawing attention to specific elements like loading screen logos, high-priority CTAs, or live indicators. The continuous breathing effect establishes a visual focal point without being disruptive.",
+  "category_path": [
+    "animation",
+    "css_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "infinite_pulsating_element_animation_8b9878f7",
+  "skill_name": "Infinite Pulsating Element Animation",
+  "source": {
+    "channel": "codeyourcareer-CYC",
+    "duration_sec": 130,
+    "type": "youtube",
+    "video_id": "YPU5Yf598Ss",
+    "video_title": "\ud83c\udfac Exciting CSS Animation Tutorial by Michelle | CodeYourCareer \ud83d\ude80",
+    "video_url": "https://www.youtube.com/watch?v=YPU5Yf598Ss",
+    "views": 13
+  },
+  "tags": [
+    "css-animation",
+    "keyframes",
+    "pulse-effect",
+    "transform-scale",
+    "attention"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:00:38Z",
+  "wash_version": "1.0.0"
+}

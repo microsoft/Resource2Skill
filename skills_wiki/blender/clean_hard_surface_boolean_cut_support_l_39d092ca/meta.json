@@ -1,0 +1,38 @@
+{
+  "applicability": "Essential for hard-surface modeling in Blender, this technique enables clean, non-destructive boolean cutouts and detailing on curved surfaces without manual retopology, ideal for props, vehicles, or sci-fi assets.",
+  "category_path": [
+    "blender",
+    "modeling",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_hard_surface_boolean_cut_support_l_39d092ca",
+  "skill_name": "Clean Hard-Surface Boolean Cut (Support Loop Technique)",
+  "source": {
+    "channel": "Josh - Blender Bros",
+    "duration_sec": 581,
+    "type": "youtube",
+    "video_id": "lCA1AFEQ_z4",
+    "video_title": "Become a Boolean PRO in Blender",
+    "video_url": "https://www.youtube.com/watch?v=lCA1AFEQ_z4",
+    "views": 212978
+  },
+  "tags": [
+    "hard-surface",
+    "boolean",
+    "support loop",
+    "modeling",
+    "clean shading",
+    "non-destructive"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:46:47Z",
+  "wash_version": "1.0.0"
+}

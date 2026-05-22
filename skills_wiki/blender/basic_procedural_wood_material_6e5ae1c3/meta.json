@@ -1,0 +1,36 @@
+{
+  "applicability": "Procedural wood materials are ideal for efficiently texturing furniture, floors, and background props without relying on external image files or UV unwrapping. This technique serves as a foundation for generating structured, directional patterns from mathematical noise.",
+  "category_path": [
+    "materials",
+    "procedural"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "basic_procedural_wood_material_6e5ae1c3",
+  "skill_name": "Basic Procedural Wood Material",
+  "source": {
+    "channel": "NoPoly",
+    "duration_sec": 1519,
+    "type": "youtube",
+    "video_id": "nQaUsgf9ZUg",
+    "video_title": "Beginners Guide To Texturing In Blender | How To Procedural Texture ANYTHING!",
+    "video_url": "https://www.youtube.com/watch?v=nQaUsgf9ZUg",
+    "views": 2953
+  },
+  "tags": [
+    "procedural_material",
+    "wood",
+    "noise_texture",
+    "bump_mapping",
+    "shader_nodes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:01Z",
+  "wash_version": "1.0.0"
+}

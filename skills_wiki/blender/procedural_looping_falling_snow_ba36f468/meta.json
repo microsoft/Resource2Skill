@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_looping_falling_snow_ba36f468",
+  "skill_name": "Procedural Looping Falling Snow",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 1151,
+    "type": "youtube",
+    "video_id": "S1ECFKXWngU",
+    "video_title": "Animated Falling Snow \ud83c\udf28\ufe0f (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=S1ECFKXWngU",
+    "views": 20879
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:43Z",
+  "wash_version": "1.0.0"
+}

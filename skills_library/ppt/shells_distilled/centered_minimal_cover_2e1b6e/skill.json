@@ -1,0 +1,62 @@
+{
+  "skill_id": "centered_minimal_cover_2e1b6e",
+  "skill_type": "shell",
+  "name": "Centered Minimal Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover"
+    ],
+    "content_shape": [
+      "title+subtitle"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_minimal_cover_2e1b6e/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "strict_5_color_thematic_styling_6f675bf7",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A classic, minimal cover slide with a large centered headline and an optional subtitle.",
+  "_distill_attempts": 1
+}

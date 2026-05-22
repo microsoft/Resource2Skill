@@ -1,0 +1,63 @@
+{
+  "skill_id": "two_step_horizontal_cards_56cb4c",
+  "skill_type": "shell",
+  "name": "Two Step Horizontal Cards",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "2-horizontal-cards"
+    ],
+    "density": "low",
+    "mood": [
+      "corporate",
+      "bold",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "steps",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 2
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/two_step_horizontal_cards_56cb4c/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "12_point_3d_ribbon_agenda_grid_ca5d4bc8",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Extracted a 2-step horizontal card layout with overlapping circular step indicators and ribbon accents.",
+  "_distill_attempts": 1
+}

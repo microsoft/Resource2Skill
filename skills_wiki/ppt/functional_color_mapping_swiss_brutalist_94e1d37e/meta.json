@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for UI/UX presentations, SaaS product pitches, and data dashboards where a modern, structured, and high-contrast aesthetic is desired. This system transforms a static slide into what feels like a cutting-edge digital interface.",
+  "category_path": [
+    "design_system",
+    "color"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "functional_color_mapping_swiss_brutalist_94e1d37e",
+  "skill_name": "Swiss Brutalist Color & Grid System",
+  "source": {
+    "channel": "Satori Graphics",
+    "duration_sec": 551,
+    "type": "youtube",
+    "video_id": "SLHv_sEHc9c",
+    "video_title": "The NEW 2025 Color System That Makes Any Design 'Work'",
+    "video_url": "https://www.youtube.com/watch?v=SLHv_sEHc9c",
+    "views": 81096
+  },
+  "tags": [
+    "brutalist",
+    "swiss design",
+    "grid layout",
+    "functional color",
+    "ui/ux"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:28:29Z",
+  "wash_version": "1.0.0"
+}

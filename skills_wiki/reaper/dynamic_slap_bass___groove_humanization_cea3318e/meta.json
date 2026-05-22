@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_slap_bass___groove_humanization_cea3318e",
+  "skill_name": "Dynamic Slap Bass & Groove Humanization",
+  "source": {
+    "channel": "Synthet",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=FVoDtyZzO8s"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:09:02Z",
+  "wash_version": "1.0.0"
+}

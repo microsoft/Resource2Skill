@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for executive summaries, business intelligence reports, and project status updates. It excels when a few critical metrics need to be highlighted with clarity and visual impact.",
+  "category_path": [
+    "dashboard",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "floating_panel_kpi_dashboard_fdb8fdd0",
+  "skill_name": "Floating Panel KPI Dashboard",
+  "source": {
+    "channel": "MR Analytics",
+    "duration_sec": 1877,
+    "type": "youtube",
+    "video_id": "hIrKt9CxF68",
+    "video_title": "AWESOME PowerPoint DASHBOARD DESIGN | Step-by-Step TUTORIAL",
+    "video_url": "https://www.youtube.com/watch?v=hIrKt9CxF68",
+    "views": 1095
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "gauges",
+    "floating panel",
+    "executive report",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:26:24Z",
+  "wash_version": "1.0.0"
+}

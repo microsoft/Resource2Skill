@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stock_plugin_vocal_mixing_hierarchy_bus__57010766",
+  "skill_name": "Stock Plugin Vocal Mixing Hierarchy (Bus, Lead, & Background Routing)",
+  "source": {
+    "channel": "MakeTheMusic",
+    "duration_sec": 551,
+    "type": "youtube",
+    "video_id": "Za5ReP8N7yQ",
+    "video_title": "GET THE PERFECT REAPER VOCAL MIX | Step-By-Step Process",
+    "video_url": "https://www.youtube.com/watch?v=Za5ReP8N7yQ",
+    "views": 49414
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:58:03Z",
+  "wash_version": "1.0.0"
+}

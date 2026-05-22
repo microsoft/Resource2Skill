@@ -1,0 +1,81 @@
+{
+  "skill_id": "metric_doughnut_focus_7a68c5",
+  "skill_type": "shell",
+  "name": "Metric Doughnut Focus",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "section_divider"
+    ],
+    "content_shape": [
+      "title+doughnut-metric"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metric",
+      "kind": "text",
+      "required": true,
+      "style": "metric_xl",
+      "max_chars": 10,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "sidebar_text",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/metric_doughnut_focus_7a68c5/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "gradient_widesweep_doughnut_dashboards_a34e1e60",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a minimal, high-impact metric layout featuring a central doughnut chart, a large metric value, and a rotated sidebar accent.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_landing_page_interactions_keyfra_129a97f6",
+  "source": {
+    "channel": "chunkydotdev",
+    "duration_sec": 566,
+    "type": "youtube",
+    "video_id": "_OEUbgLTWH0",
+    "video_title": "Every CSS Animation property",
+    "video_url": "https://www.youtube.com/watch?v=_OEUbgLTWH0",
+    "views": 111199
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

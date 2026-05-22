@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly versatile, this style excels in professional and educational contexts, ideal for corporate, tech, or academic presentations seeking a polished, branded, and easily digestible format.",
+  "category_path": [
+    "slide_design",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_color_block_layout_c3f85bfa",
+  "skill_name": "Asymmetric Color Block Layout",
+  "source": {
+    "channel": "Avn",
+    "duration_sec": 135,
+    "type": "youtube",
+    "video_id": "11h_zAjj5yI",
+    "video_title": "Network Topology ppt",
+    "video_url": "https://www.youtube.com/watch?v=11h_zAjj5yI",
+    "views": 671
+  },
+  "tags": [
+    "asymmetric",
+    "color block",
+    "modern",
+    "professional",
+    "grid",
+    "high contrast"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:51:05Z",
+  "wash_version": "1.0.0"
+}

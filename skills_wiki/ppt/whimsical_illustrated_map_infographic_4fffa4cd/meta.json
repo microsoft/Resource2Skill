@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for food/restaurant guides, tourist maps, event layouts, and onboarding journeys, transforming dry location or step lists into engaging, explorable visual narratives.",
+  "category_path": [
+    "infographic",
+    "map_navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "whimsical_illustrated_map_infographic_4fffa4cd",
+  "skill_name": "Whimsical Illustrated Map Infographic",
+  "source": {
+    "channel": "Meiko\u5fae\u8ab2\u983b\u9053",
+    "duration_sec": 838,
+    "type": "youtube",
+    "video_id": "2003uzZaonQ",
+    "video_title": "AI22 | [Explosive] Gemini 3 & NotebookLM directly generate high-quality Chinese \"map-style infogr...",
+    "video_url": "https://www.youtube.com/watch?v=2003uzZaonQ",
+    "views": 192529
+  },
+  "tags": [
+    "whimsical",
+    "illustrated",
+    "map",
+    "infographic",
+    "storybook",
+    "journey"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:21Z",
+  "wash_version": "1.0.0"
+}

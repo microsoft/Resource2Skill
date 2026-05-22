@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_character_illustration_cc85ceed",
+  "skill_name": "Pure CSS Character Illustration",
+  "source": {
+    "channel": "Ayush Saxena",
+    "duration_sec": 637,
+    "type": "youtube",
+    "video_id": "cSASaiLc68Y",
+    "video_title": "FERB CHARACTER DESIGNING USING PURE CSS TUTORIAL || [link to code in description]",
+    "video_url": "https://www.youtube.com/watch?v=cSASaiLc68Y",
+    "views": 374
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:53Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this skill to create modern, high-level project roadmaps or status timelines. The neumorphic design is ideal for executive presentations where overall phase visualization is more important than daily granularity.",
+  "category_path": [
+    "charts",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_neumorphic_gantt_timeline_3883d06e",
+  "skill_name": "Modern Neumorphic Gantt Timeline",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 967,
+    "type": "youtube",
+    "video_id": "uDN5Vgki_y0",
+    "video_title": "Create effective Project Timelines Slide in PowerPoint | Gantt Chart | Free download | Project Mgmt.",
+    "video_url": "https://www.youtube.com/watch?v=uDN5Vgki_y0",
+    "views": 173530
+  },
+  "tags": [
+    "gantt chart",
+    "timeline",
+    "roadmap",
+    "neumorphic",
+    "project management",
+    "dashboard"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:38:59Z",
+  "wash_version": "1.0.0"
+}

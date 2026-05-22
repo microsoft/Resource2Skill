@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to map out operational processes, customer journeys, or system workflows across different departments or actors. It clearly visualizes responsibilities and hand-offs by organizing steps into distinct functional lanes.",
+  "category_path": [
+    "diagrams",
+    "flowchart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cross_functional_swimlane_flowchart_dc98555a",
+  "skill_name": "Cross-Functional Swimlane Flowchart",
+  "source": {
+    "channel": "David McLachlan",
+    "duration_sec": 431,
+    "type": "youtube",
+    "video_id": "t0Dvlht4JU4",
+    "video_title": "Making a Swimlane Flow Chart in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=t0Dvlht4JU4",
+    "views": 186394
+  },
+  "tags": [
+    "flowchart",
+    "swimlane",
+    "process_mapping",
+    "workflow",
+    "raci"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:08Z",
+  "wash_version": "1.0.0"
+}

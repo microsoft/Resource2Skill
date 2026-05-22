@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_spatial_swell_rhythmic_pumping_a6dbc4eb",
+  "skill_name": "Automated Spatial Swell & Rhythmic Pumping (Automation Envelopes)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 756,
+    "type": "youtube",
+    "video_id": "ckjl-rpzDPA",
+    "video_title": "Automate Anything - Quickly in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=ckjl-rpzDPA",
+    "views": 87699
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:58:36Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_dashboard_layout_a9497efe",
+  "skill_name": "Themed KPI Dashboard Layout",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Initial view of the dynamic KPI dashboard"
+        },
+        {
+          "seconds": 39,
+          "description": "KPI dashboard showing updated values and conditional formatting for different months"
+        },
+        {
+          "seconds": 410,
+          "description": "KPI dashboard demonstrating interactive month selection and real-time color changes"
+        },
+        {
+          "seconds": 510,
+          "description": "KPI dashboard with values and colors adjusted based on a different selected month"
+        },
+        {
+          "seconds": 1024,
+          "description": "KPI dashboard displaying values for a new month, showcasing dynamic updates"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_view_of_the_dynamic_kp.jpg",
+        "frame_01_kpi_dashboard_showing_updated_.jpg",
+        "frame_02_kpi_dashboard_demonstrating_in.jpg",
+        "frame_03_kpi_dashboard_with_values_and_.jpg"
+      ],
+      "recapped_at": 1777407733.8660786
+    },
+    "primary_path": "frame_00_initial_view_of_the_dynamic_kp.jpg"
+  }
+}

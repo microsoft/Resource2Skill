@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "digital_gain_staging_headroom_trim_unity_1fba74e2",
+  "skill_name": "Digital Gain Staging (Headroom Trim & Unity Faders)",
+  "source": {
+    "channel": "Audio University",
+    "duration_sec": 552,
+    "type": "youtube",
+    "video_id": "TCBHysRV4vs",
+    "video_title": "Gain Staging Secrets Every Great Audio Engineer Understands!",
+    "video_url": "https://www.youtube.com/watch?v=TCBHysRV4vs",
+    "views": 789103
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:55:23Z",
+  "wash_version": "1.0.0"
+}

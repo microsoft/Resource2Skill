@@ -1,0 +1,81 @@
+{
+  "skill_id": "text_and_chart_split_6a7639",
+  "skill_type": "shell",
+  "name": "Text and Chart Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "comparison_split"
+    ],
+    "content_shape": [
+      "header+text-left+chart-right"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 600,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart",
+      "kind": "chart",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/text_and_chart_split_6a7639/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "grid_driven_composition_toolkit_golden_r_758ba0e6",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.6499999999999999
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A classic split layout with a prominent centered header, left-aligned explanatory text, and a right-aligned data visualization area.",
+  "_distill_attempts": 3
+}

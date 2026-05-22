@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for structured presentations with 4-7 distinct sections, such as corporate profiles, project status reports, multi-part proposals, or training and educational modules.",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_tabbed_navigation_671f0cfd",
+  "skill_name": "Morphing Tabbed Navigation",
+  "source": {
+    "channel": "xiangxiao zhang",
+    "duration_sec": 545,
+    "type": "youtube",
+    "video_id": "jRWhezKCldw",
+    "video_title": "\u60f3\u8981PPT\u70ab\u9177\uff0c\u4e00\u5b9a\u8981\u770b\u8fd9\u4e2a\uff01|PPT\u8f6c\u573a\u6548\u679c|PPT\u52a8\u753b\u9ad8\u7ea7",
+    "video_url": "https://www.youtube.com/watch?v=jRWhezKCldw",
+    "views": 488
+  },
+  "tags": [
+    "tabbed navigation",
+    "morph transition",
+    "interactive",
+    "multi-section",
+    "structured",
+    "dynamic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:40:10Z",
+  "wash_version": "1.0.0"
+}

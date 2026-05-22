@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_liquid_wave_background_7bd4a56d",
+  "source": {
+    "channel": "Fd Web design",
+    "duration_sec": 170,
+    "type": "youtube",
+    "video_id": "hB9GhqXNIlA",
+    "video_title": "Amazing Wave Background only CSS | CSS Animation",
+    "video_url": "https://www.youtube.com/watch?v=hB9GhqXNIlA",
+    "views": 1500
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

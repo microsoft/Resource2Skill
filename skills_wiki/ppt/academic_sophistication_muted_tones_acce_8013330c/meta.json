@@ -1,0 +1,69 @@
+{
+  "applicability": "Apply this foundational color strategy to scientific figures, data visualizations, and academic presentations. It enhances readability and credibility by creating a clear visual hierarchy, moving beyond default software palettes.",
+  "category_path": [
+    "chart_design",
+    "color_theme"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "academic_sophistication_muted_tones_acce_8013330c",
+  "skill_name": "Muted & Accent Color Palette for Scientific Figures",
+  "source": {
+    "channel": "LabGirls",
+    "duration_sec": 425,
+    "type": "youtube",
+    "video_id": "knGT7DI841g",
+    "video_title": "PPT科研绘图的色彩搭配 | 用33篇CNS配图揭秘科研作图的配色本质 | PPT画一切的女子3",
+    "video_url": "https://www.youtube.com/watch?v=knGT7DI841g",
+    "views": 3633
+  },
+  "tags": [
+    "color palette",
+    "scientific figures",
+    "data visualization",
+    "academic",
+    "chart design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:52Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 36,
+          "description": "Examples of well-designed scientific figures for comparison"
+        },
+        {
+          "seconds": 243,
+          "description": "PPT slide with a comfortable muted blue background"
+        },
+        {
+          "seconds": 327,
+          "description": "Scientific figures using bright and dark two-color contrast"
+        },
+        {
+          "seconds": 438,
+          "description": "Scientific figures combining virtual illustrations with real images"
+        },
+        {
+          "seconds": 520,
+          "description": "Scientific figures effectively using gradient colors to convey data"
+        }
+      ],
+      "frames": [
+        "frame_00_examples_of_well_designed_scie.jpg",
+        "frame_01_ppt_slide_with_a_comfortable_m.jpg",
+        "frame_02_scientific_figures_using_brigh.jpg"
+      ],
+      "recapped_at": 1777405956.4886
+    },
+    "primary_path": "frame_00_examples_of_well_designed_scie.jpg"
+  }
+}

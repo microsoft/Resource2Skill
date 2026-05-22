@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for quickly generating realistic or stylized environment foundations, background mountains, and game levels. It provides infinite topological variations through parametric noise and random seeds.",
+  "category_path": [
+    "environment",
+    "terrain_generation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_landscape_generation_a_n_t_la_44e3fbc8",
+  "skill_name": "Procedural Landscape Generation (A.N.T.Landscape)",
+  "source": {
+    "channel": "Clonemace",
+    "duration_sec": 522,
+    "type": "youtube",
+    "video_id": "uedN9nRYZTI",
+    "video_title": "Making Landscapes in Blender is EASY",
+    "video_url": "https://www.youtube.com/watch?v=uedN9nRYZTI",
+    "views": 12268
+  },
+  "tags": [
+    "landscape",
+    "terrain",
+    "procedural",
+    "ant_landscape",
+    "environment",
+    "mesh_generation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:42Z",
+  "wash_version": "1.0.0"
+}

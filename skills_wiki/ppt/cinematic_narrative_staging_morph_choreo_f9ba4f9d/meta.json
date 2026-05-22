@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for explainer videos, narrative-driven presentations, process visualizations, and dynamic timeline reveals. It transforms abstract concepts into tangible, engaging visual journeys.",
+  "category_path": [
+    "animation",
+    "storytelling",
+    "motion_graphics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_narrative_staging_morph_choreo_f9ba4f9d",
+  "skill_name": "Cinematic Narrative Staging & Morph Choreography",
+  "source": {
+    "channel": "Technology for Teachers and Students",
+    "duration_sec": 1178,
+    "type": "youtube",
+    "video_id": "oq7XGl_kqrQ",
+    "video_title": "Using PowerPoint to Create Animated Videos",
+    "video_url": "https://www.youtube.com/watch?v=oq7XGl_kqrQ",
+    "views": 500158
+  },
+  "tags": [
+    "animation",
+    "storytelling",
+    "morph transitions",
+    "process visualization",
+    "explainer videos",
+    "motion graphics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:26:28Z",
+  "wash_version": "1.0.0"
+}

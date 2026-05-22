@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell is ideal for visually comparing and contrasting two concepts using a balance scale metaphor, complemented by an adjacent explanatory text block.",
+  "category_path": [
+    "comparison",
+    "visual_metaphor"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "balance_scale_comparison_5ca424",
+  "skill_name": "Balance Scale Comparison",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "balance scale",
+    "comparison",
+    "visual metaphor",
+    "duality",
+    "side panel"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:00:01Z",
+  "wash_version": "1.0.0"
+}

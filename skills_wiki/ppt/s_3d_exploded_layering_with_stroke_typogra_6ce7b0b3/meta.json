@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for creating cinematic product reveals, feature highlights, or impactful title slides, it transforms standard images into editorial-quality posters by conveying depth and visual intrigue.",
+  "category_path": [
+    "presentation_design",
+    "visual_effects",
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_exploded_layering_with_stroke_typogra_6ce7b0b3",
+  "skill_name": "3D Exploded Layering with Stroke Typography",
+  "source": {
+    "channel": "Rob | PowerPoint Tutorials",
+    "duration_sec": 136,
+    "type": "youtube",
+    "video_id": "3WNlcNv3HxQ",
+    "video_title": "How to Make a \u2728 Morph Burger Slide Transition in PowerPoint \u25b6",
+    "video_url": "https://www.youtube.com/watch?v=3WNlcNv3HxQ",
+    "views": 90655
+  },
+  "tags": [
+    "exploded view",
+    "3D depth",
+    "stroke text",
+    "morph transition",
+    "product reveal",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:48Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for real-time product visualization, architectural windows, and vehicle windshields. It overcomes Eevee's default flat transmission by simulating physical thickness and view-dependent transparency.",
+  "category_path": [
+    "materials",
+    "glass"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "eevee_raytraced_realistic_glass_94e7c11c",
+  "skill_name": "Eevee Raytraced Realistic Glass",
+  "source": {
+    "channel": "Faebe Tutorials",
+    "duration_sec": 115,
+    "type": "youtube",
+    "video_id": "V79ELoAcl1I",
+    "video_title": "Realistic EEVEE GLASS Material Blender 4.5 TUTORIAL!",
+    "video_url": "https://www.youtube.com/watch?v=V79ELoAcl1I",
+    "views": 34821
+  },
+  "tags": [
+    "eevee",
+    "glass",
+    "refraction",
+    "fresnel",
+    "real-time",
+    "material"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:36Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_hierarchical_organization_char_59c39214",
+  "skill_name": "Automated Hierarchical Organization Chart (SmartArt Emulation)",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 192,
+    "type": "youtube",
+    "video_id": "b4avZiVEvtM",
+    "video_title": "13.AMAZING TRICK - Create Instant ORG charts using PowerPoint | #powerpointtraining",
+    "video_url": "https://www.youtube.com/watch?v=b4avZiVEvtM",
+    "views": 373945
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:52:20Z",
+  "wash_version": "1.0.0"
+}

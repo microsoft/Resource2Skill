@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "modern_minimalist_dark_mode_card_87ca4d07",
+  "source": {
+    "channel": "Juxtopposed",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "6U9iC-c15AI",
+    "video_title": "Rise of the Dark Mode",
+    "video_url": "https://www.youtube.com/watch?v=6U9iC-c15AI",
+    "views": 424890
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

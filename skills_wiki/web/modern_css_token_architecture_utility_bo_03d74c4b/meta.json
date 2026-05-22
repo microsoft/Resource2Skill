@@ -1,0 +1,35 @@
+{
+  "applicability": "Establishes a foundational architecture for any scalable web project by translating a design system into a maintainable CSS structure. This approach uses design tokens (CSS variables) and utility classes for consistency.",
+  "category_path": [
+    "css",
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_css_token_architecture_utility_bo_03d74c4b",
+  "skill_name": "CSS Design Token & Utility Boilerplate",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 2978,
+    "type": "youtube",
+    "video_id": "h3bTwCqX4ns",
+    "video_title": "Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage",
+    "video_url": "https://www.youtube.com/watch?v=h3bTwCqX4ns",
+    "views": 540957
+  },
+  "tags": [
+    "css variables",
+    "design tokens",
+    "utility-first",
+    "css boilerplate",
+    "design system"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:21:34Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "This design pattern is ideal for biography/profile slides, product feature summaries, and milestone & achievement pages, effectively showcasing key information with visual impact.",
+  "category_path": [
+    "slide_design",
+    "visual_composition",
+    "infographic_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_infographic_hero_slide_d7c4d318",
+  "skill_name": "Dynamic Infographic Hero Slide",
+  "source": {
+    "channel": "\u7ecf\u672c\u6b63\u4e00",
+    "duration_sec": 248,
+    "type": "youtube",
+    "video_id": "aCwrkeWsLHQ",
+    "video_title": "5\u4e2a\u6613\u5b66\u6280\u5de7\uff0c\u6559\u4f60\u505a\u51fa\u6709\u8bbe\u8ba1\u611f\u7684PPT\uff01\u3010\u7ecf\u672c\u6b63\u4e00\u3011",
+    "video_url": "https://www.youtube.com/watch?v=aCwrkeWsLHQ",
+    "views": 3206
+  },
+  "tags": [
+    "hero image",
+    "infographic",
+    "layered design",
+    "frame-breaking",
+    "slide layout",
+    "dynamic visuals"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:18:29Z",
+  "wash_version": "1.0.0"
+}

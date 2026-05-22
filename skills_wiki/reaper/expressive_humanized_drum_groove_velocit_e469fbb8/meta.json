@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "expressive_humanized_drum_groove_velocit_e469fbb8",
+  "skill_name": "Expressive Humanized Drum Groove (Velocity & Timing Variance)",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "duration_sec": 1211,
+    "type": "youtube",
+    "video_id": "pTYMKf1lJKo",
+    "video_title": "10 Tips for Writing MIDI Drums in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=pTYMKf1lJKo",
+    "views": 153545
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:26Z",
+  "wash_version": "1.0.0"
+}

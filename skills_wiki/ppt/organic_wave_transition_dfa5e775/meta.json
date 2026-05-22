@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for chapter dividers, section headers, or title slides in modern presentations. The fluid organic waves reduce cognitive friction and provide a sleek visual break between major topics.",
+  "category_path": [
+    "slide_layouts",
+    "section_divider"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "organic_wave_transition_dfa5e775",
+  "skill_name": "Organic Wave Section Divider",
+  "source": {
+    "channel": "Prof. David Stuckler",
+    "duration_sec": 478,
+    "type": "youtube",
+    "video_id": "n0VSqz69k3Q",
+    "video_title": "How To Give The Perfect Presentation ( Academic Conferences & Keynotes)",
+    "video_url": "https://www.youtube.com/watch?v=n0VSqz69k3Q",
+    "views": 118480
+  },
+  "tags": [
+    "organic waves",
+    "chapter divider",
+    "section header",
+    "fluid design",
+    "transition slide",
+    "gradient"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:22:34Z",
+  "wash_version": "1.0.0"
+}

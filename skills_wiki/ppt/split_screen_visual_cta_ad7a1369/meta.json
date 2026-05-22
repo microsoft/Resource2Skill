@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_screen_visual_cta_ad7a1369",
+  "skill_name": "Split-Screen Visual CTA",
+  "source": {
+    "channel": "Warna Slides - Multi-Purpose PowerPoint Template",
+    "duration_sec": 278,
+    "type": "youtube",
+    "video_id": "A0slWxp2BL0",
+    "video_title": "Call To Action PowerPoint Templates",
+    "video_url": "https://www.youtube.com/watch?v=A0slWxp2BL0",
+    "views": 505
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:17Z",
+  "wash_version": "1.0.0"
+}

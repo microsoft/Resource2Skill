@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_side_scrolling_panorama_endles_4db17aa9",
+  "skill_name": "Cinematic Side-Scrolling Panorama (Endless Runner Aesthetic)",
+  "source": {
+    "channel": "\u6cbb\u5e73\u5c39",
+    "duration_sec": 83,
+    "type": "youtube",
+    "video_id": "hIIfm7onflo",
+    "video_title": "ppt\u96b1\u85cf\u52d5\u756b\u5bc6\u6280~\u6587\u5b57\u52d5\u756b\u9032\u968e\u904b\u7528",
+    "video_url": "https://www.youtube.com/watch?v=hIIfm7onflo",
+    "views": 447
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:26:57Z",
+  "wash_version": "1.0.0"
+}

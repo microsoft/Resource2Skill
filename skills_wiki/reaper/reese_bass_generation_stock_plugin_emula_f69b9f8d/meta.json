@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for Drum & Bass, Jungle, and Dubstep tracks that require thick, phasing low-end movement. Provides a way to achieve a classic rolling Reese bass groove using only stock tools when third-party synths are unavailable.",
+  "category_path": [
+    "sound_design",
+    "bass"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "reese_bass_generation_stock_plugin_emula_f69b9f8d",
+  "skill_name": "Reese Bass Generation (Stock Plugin Emulation)",
+  "source": {
+    "channel": "tcdnb",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "j2V1VLUyH28",
+    "video_title": "TC Serum Reese Presets for DnB",
+    "video_url": "https://www.youtube.com/watch?v=j2V1VLUyH28",
+    "views": 804
+  },
+  "tags": [
+    "reese_bass",
+    "sound_design",
+    "detune",
+    "dnb",
+    "stock_plugins",
+    "synth"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:54Z",
+  "wash_version": "1.0.0"
+}

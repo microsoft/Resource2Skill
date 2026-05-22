@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_geometric_tessellation_backgrou_93c02c02",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1528,
+    "type": "youtube",
+    "video_id": "mXrBC_mZfTw",
+    "video_title": "Create amazing patterns using CSS gradients",
+    "video_url": "https://www.youtube.com/watch?v=mXrBC_mZfTw",
+    "views": 54542
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,456 @@
+name: web
+display_name: "Web Frontend Design (HTML/CSS/JS)"
+execution_mode: sync_engine
+skill_selection: browse
+auto_load_skills:
+  - web_design_system_primer
+
+# Library backend selector. ``legacy`` reads from ``skills_library/web/``;
+# ``wiki`` reads from ``skills_wiki/web/`` via ``domains/web/wiki_adapter.py``.
+library_backend: wiki
+
+persona: "You are a web frontend design expert skilled in responsive layouts, CSS animations, modern UI patterns, and component-based architecture."
+
+categories:
+  hero_section:
+    - hero
+    - banner
+    - header
+    - landing
+    - above the fold
+    - jumbotron
+    - hero section
+    - splash screen
+    - 首屏
+    - 横幅
+    - 头部
+    - 英雄区域
+  navigation:
+    - navbar
+    - menu
+    - sidebar
+    - hamburger
+    - breadcrumb
+    - tab bar
+    - navigation
+    - nav
+    - 导航栏
+    - 菜单
+    - 侧边栏
+    - 面包屑
+  card_layout:
+    - card
+    - grid
+    - gallery
+    - portfolio
+    - mosaic
+    - masonry
+    - card layout
+    - 卡片
+    - 网格
+    - 画廊
+    - 作品集
+  animation:
+    - animation
+    - transition
+    - keyframe
+    - parallax
+    - scroll effect
+    - hover effect
+    - motion
+    - CSS animation
+    - 动画
+    - 过渡
+    - 滚动效果
+    - 悬停效果
+  typography:
+    - text effect
+    - font
+    - lettering
+    - typeface
+    - heading style
+    - gradient text
+    - typography
+    - 文字效果
+    - 字体
+    - 排版
+    - 渐变文字
+  form_ui:
+    - form
+    - input
+    - button
+    - checkbox
+    - toggle
+    - dropdown
+    - modal
+    - dialog
+    - 表单
+    - 按钮
+    - 输入框
+    - 弹窗
+  css_art:
+    - CSS art
+    - illustration
+    - shape
+    - drawing
+    - pure CSS
+    - SVG art
+    - CSS绘画
+    - 纯CSS
+    - SVG
+    - 图形
+  canvas_webgl:
+    - canvas
+    - WebGL
+    - three.js
+    - 2D context
+    - particle
+    - shader
+    - Canvas
+    - 粒子
+    - 着色器
+  responsive:
+    - responsive
+    - media query
+    - flexbox
+    - grid layout
+    - mobile first
+    - adaptive
+    - 响应式
+    - 媒体查询
+    - 弹性布局
+    - 移动优先
+  full_page:
+    - landing page
+    - portfolio
+    - one page
+    - website clone
+    - complete page
+    - 落地页
+    - 单页
+    - 网站克隆
+    - 完整页面
+
+query_pool:
+  - "CSS hero section tutorial"
+  - "responsive navbar CSS tutorial"
+  - "CSS card layout grid tutorial"
+  - "CSS animation tutorial 2024"
+  - "parallax scroll effect CSS"
+  - "CSS hover effects creative"
+  - "CSS text effects gradient"
+  - "CSS art tutorial pure CSS"
+  - "landing page from scratch HTML CSS"
+  - "responsive website tutorial HTML CSS JS"
+  - "CSS flexbox grid layout tutorial"
+  - "glassmorphism CSS tutorial"
+  - "neumorphism CSS tutorial"
+  - "CSS button animation tutorial"
+  - "dark theme landing page CSS"
+  - "portfolio website HTML CSS JS"
+  - "CSS modal popup tutorial"
+  - "hamburger menu CSS animation"
+  - "CSS particle animation canvas"
+  - "WebGL three.js tutorial beginner"
+  - "CSS gradient background animated"
+  - "responsive pricing table CSS"
+  - "CSS carousel slider tutorial"
+  - "CSS masonry grid layout"
+  - "SVG animation CSS tutorial"
+  - "multi section landing page responsive HTML CSS tutorial"
+  - "responsive pricing table cards CSS tutorial"
+  - "responsive form layout validation HTML CSS JS tutorial"
+  - "full screen scrolling website tutorial HTML CSS"
+  - "adaptive navbar hero cards layout tutorial CSS"
+  - "mobile first responsive website tutorial HTML CSS JS"
+  - "full page landing page HTML CSS JavaScript tutorial"
+  - "multi section website build HTML CSS tutorial"
+  - "fullscreen scrolling website tutorial HTML CSS JS"
+  - "responsive admin panel HTML CSS tutorial"
+  - "mobile first responsive design HTML CSS JS tutorial"
+  - "multi section landing page HTML CSS tutorial"
+  - "responsive pricing table comparison HTML CSS tutorial"
+  - "one page website scroll snap HTML CSS JS tutorial"
+  - "advanced responsive navbar hamburger menu tutorial"
+  - "portfolio website full page HTML CSS JS tutorial"
+  - "SaaS landing page full build responsive HTML CSS tutorial"
+  - "full landing page build HTML CSS JavaScript tutorial"
+  - "multi section website from scratch HTML CSS tutorial"
+  - "responsive pricing table and cards CSS tutorial"
+  - "responsive form layout validation UI CSS tutorial"
+  - "advanced responsive navbar mobile menu CSS JS tutorial"
+  - "full page SaaS website design HTML CSS tutorial"
+  - "responsive landing page HTML CSS JavaScript tutorial 2024"
+  - "full page website design HTML CSS JS tutorial"
+  - "multi section landing page tutorial HTML CSS JavaScript"
+  - "advanced media queries responsive website tutorial"
+  - "full page website design HTML CSS tutorial"
+  - "full screen scrolling website HTML CSS JavaScript tutorial"
+  - "responsive hero cards features pricing section tutorial"
+  - "complete SaaS landing page HTML CSS JS tutorial"
+  - "advanced responsive layout CSS clamp container queries tutorial"
+  - "one page website tutorial HTML CSS JavaScript"
+  - "mobile first responsive landing page HTML CSS JS tutorial"
+  - "multi section one page website tutorial HTML CSS JS"
+  - "full screen scrolling website tutorial CSS JS"
+  - "advanced responsive navbar and mega menu CSS tutorial"
+  - "portfolio full page website build HTML CSS tutorial"
+  - "responsive hero to grid layout transformation CSS tutorial"
+  - "single page product landing page HTML CSS JS tutorial"
+  - "mobile first responsive website HTML CSS JS tutorial"
+  - "multi section landing page from scratch HTML CSS JS tutorial"
+  - "responsive form layout HTML CSS tutorial"
+  - "full screen scrolling website HTML CSS tutorial"
+  - "advanced responsive navbar hamburger menu CSS JS tutorial"
+  - "mobile-first responsive website tutorial HTML CSS JS"
+  - "full page website build tutorial HTML CSS JS"
+  - "one page portfolio website tutorial responsive HTML CSS JS"
+  - "multi section landing page tutorial HTML CSS JS 2024"
+  - "CSS clamp responsive typography tutorial"
+  - "responsive SaaS landing page tutorial HTML CSS JS"
+  - "responsive landing page HTML CSS JavaScript full tutorial 2024"
+  - "mobile first responsive web design tutorial HTML CSS"
+  - "multi section landing page from scratch HTML CSS JavaScript"
+  - "responsive pricing table and hero section CSS tutorial"
+  - "full page scrolling website JavaScript CSS tutorial"
+  - "advanced responsive navbar hamburger menu CSS JavaScript tutorial"
+  # --- animation & motion ---
+  - "CSS scroll animation tutorial 2024"
+  - "GSAP animation tutorial web"
+  - "CSS keyframe animation examples"
+  - "scroll triggered animation CSS JS"
+  - "CSS loading animation creative"
+  - "CSS morphing shape animation"
+  - "CSS 3D transform animation tutorial"
+  - "text reveal animation CSS"
+  - "CSS page transition animation"
+  - "lottie web animation tutorial"
+  - "CSS hover card 3D flip effect"
+  - "smooth scroll animation JavaScript"
+  - "CSS counter animation number"
+  - "typing effect CSS JavaScript"
+  - "CSS wave animation tutorial"
+  - "intersection observer scroll animation"
+  # --- hero & landing variants ---
+  - "SaaS landing page design tutorial"
+  - "animated hero section CSS JavaScript"
+  - "creative portfolio website 2024"
+  - "dark mode website design tutorial"
+  - "gradient mesh background CSS"
+
+  # --- auto-added by evolve ---
+  - "CSS hero section with CTA and illustration tutorial HTML CSS JS"
+  - "responsive hero section mobile first HTML CSS tutorial"
+  - "pure CSS illustration tutorial beginner no SVG"
+  - "CSS art scene tutorial pure CSS shapes gradients"
+  - "Three.js landing page hero background tutorial"
+  - "interactive canvas image gallery JavaScript tutorial"
+  - "full page scrolling website HTML CSS JS tutorial"
+  - "responsive multi section landing page from scratch HTML CSS JS"
+  - "responsive dashboard layout tutorial CSS grid container queries"
+  - "scroll driven animations landing page tutorial CSS and JS"
+  # --- auto-added by evolve (round 2) ---
+  - "responsive web design tutorial HTML CSS JavaScript 2024"
+  - "full landing page build HTML CSS JS tutorial modern website"
+  - "hero section design HTML CSS tutorial 2024"
+  - "creative CSS form UI tutorial validation floating label"
+  - "pure CSS art tutorial beginner to advanced"
+  - "interactive canvas animation tutorial JavaScript creative coding"
+  - "three.js landing page background tutorial"
+  - "responsive dashboard layout HTML CSS grid tutorial"
+  - "multi section website build from scratch HTML CSS JS"
+  - "mobile first responsive components CSS tutorial"
+
+  # --- auto-added by evolve ---
+  - "responsive full page website HTML CSS JavaScript tutorial"
+  - "CSS hero section with CTA and image responsive tutorial"
+  - "full page landing page HTML CSS tutorial 2024"
+  - "responsive pricing table CSS tutorial"
+  - "responsive dashboard layout HTML CSS tutorial"
+  - "pure CSS art illustration tutorial beginner"
+  - "advanced CSS art shapes and gradients tutorial"
+  - "mobile first responsive design HTML CSS tutorial"
+  - "full screen section scroll snap CSS tutorial"
+  - "responsive multi section landing page HTML CSS JS tutorial"
+
+  # --- auto-added by evolve ---
+  - "responsive landing page HTML CSS JS tutorial 2024"
+  - "mobile first responsive website tutorial CSS grid flexbox"
+  - "full page website design HTML CSS JavaScript tutorial"
+  - "one page website with scroll snap HTML CSS tutorial"
+  - "hero section with illustration and CTA HTML CSS tutorial"
+  - "animated hero section responsive HTML CSS JS tutorial"
+  - "pure CSS art beginner tutorial shapes icons scene"
+  - "creative pure CSS illustration tutorial 2024"
+  - "full screen section transitions website tutorial CSS JS"
+
+  # --- auto-added by evolve ---
+  - "responsive dashboard layout HTML CSS JavaScript tutorial"
+  - "full page website HTML CSS JS tutorial 2024"
+  - "responsive landing page sections mobile first CSS tutorial"
+  - "multi section website build HTML CSS JavaScript YouTube"
+  - "pure CSS illustration tutorial beginner to advanced"
+  - "CSS art characters objects tutorial pure CSS"
+  - "hero section with interactive stats and CTA HTML CSS tutorial"
+  - "responsive hero section with image grid HTML CSS JS tutorial"
+
+  # --- auto-added by evolve ---
+  - "responsive web sections mobile first HTML CSS JavaScript tutorial"
+  - "full landing page build HTML CSS JS multiple sections tutorial"
+  - "responsive dashboard layout CSS grid tutorial"
+  - "pricing table testimonial FAQ landing page HTML CSS tutorial"
+  - "multi section SaaS website HTML CSS JavaScript tutorial"
+  - "responsive portfolio website with projects contact form HTML CSS JS tutorial"
+  - "sticky mobile navigation responsive website tutorial"
+  - "component based landing page sections HTML CSS tutorial"
+
+  # --- auto-added by evolve ---
+  - "responsive layout patterns HTML CSS tutorial 2024"
+  - "mobile first responsive website design HTML CSS JS"
+  - "full page website build HTML CSS JavaScript tutorial"
+  - "multi section landing page tutorial HTML CSS JS"
+  - "interactive art gallery HTML CSS JavaScript tutorial"
+  - "canvas particle gallery JavaScript portfolio tutorial"
+
+  # --- auto-added by evolve ---
+  - "mobile first responsive design CSS tutorial"
+  - "one page scrolling website tutorial HTML CSS JS"
+  - "responsive form design HTML CSS tutorial"
+  - "advanced canvas portfolio website tutorial"
+  - "creative CSS art animation tutorial"
+  - "interactive full screen hero section tutorial"
+  - "responsive card grid with container queries tutorial"
+
+  # --- auto-added by evolve ---
+  - "complete landing page build responsive HTML CSS JS"
+  - "responsive dashboard layout CSS tutorial"
+  - "mobile first responsive design tutorial HTML CSS"
+  - "multi section website tutorial HTML CSS JavaScript"
+  - "responsive pricing page HTML CSS tutorial"
+  - "responsive portfolio website with sections HTML CSS JS"
+  - "CSS art advanced pure CSS illustration tutorial"
+  - "interactive WebGL landing page tutorial three.js"
+  - "responsive component patterns CSS container queries tutorial"
+
+  # --- auto-added by evolve ---
+  - "responsive layout patterns HTML CSS JavaScript tutorial"
+  - "mobile first responsive design full website tutorial"
+  - "responsive dashboard UI HTML CSS tutorial"
+  - "full page website build HTML CSS JS tutorial"
+  - "single page app landing page HTML CSS JavaScript tutorial"
+  - "multi section responsive website from scratch HTML CSS JS"
+  - "full screen scrolling website CSS JavaScript tutorial"
+  - "responsive pricing page and features section HTML CSS tutorial"
+  - "complete SaaS website build HTML CSS JS tutorial"
+  - "portfolio full page responsive website tutorial 2024"
+
+rerank_prompt: |
+  You are a web frontend design expert. Select the best {n} skills from the candidates for the given task.
+
+  ## Task
+  {query}
+
+  ## Candidates
+  {candidates}
+
+  ## Requirements
+  - Skills should complement each other, covering different aspects (layout, styling, interaction, animation)
+  - Avoid overlapping functionality
+  - Output ONLY a JSON array:
+  [{{"skill_id": "...", "skill_name": "...", "reason": "one-line rationale"}}]
+
+metadata_keyword_rules:
+  scope:
+    full_page:
+      - full page
+      - complete page
+      - entire page
+      - whole page
+      - landing page
+      - website
+    section:
+      - section
+      - component
+      - block
+      - area
+      - region
+    element:
+      - button
+      - card
+      - input
+      - icon
+      - single element
+      - widget
+  complexity:
+    advanced:
+      - WebGL
+      - three.js
+      - canvas
+      - shader
+      - particle system
+      - complex animation
+    intermediate:
+      - keyframe
+      - parallax
+      - scroll trigger
+      - intersection observer
+      - CSS grid
+      - flexbox
+    basic:
+      - simple
+      - basic
+      - beginner
+      - straightforward
+      - minimal
+
+# MCP server. The skills directory is resolved at server start from the
+# per-domain library_backend flag (see core.get_library_dir).
+mcp:
+  command: "python"
+  args:
+    - "domains/web/mcp_server/server.py"
+  spawn_wait: 3
+
+agent_prompt_file: "agent_prompt.md"
+agent_hooks_module: "agent_hooks"
+agent_initial_prompt: |
+  Step 1: Create a new project with create-project.
+  Step 2: If generate_web_schema / init_web_from_schema are available, call
+    search_skills once, inspect 2 matching skills with get_skill_info and
+    get_skill_visual for 2-3 task-relevant references, then generate_web_schema
+    and init_web_from_schema. A normal with-skills landing page should produce
+    at least 5 grounded sections; inspect the exact section skill ids returned
+    by init_web_from_schema before saving if you had not inspected them earlier.
+  Step 3: Render and inspect the composed page. If it is weak, call
+    add_component_from_skill for at most 2 missing sections. Do not call
+    reflect_and_swap in normal experiment runs; save_project applies final
+    deterministic polish.
+  Step 4: Use add_component_from_skill for missing sections if schema assembly
+    failed. Do not use universal apply_skill for Web unless add_component_from_skill
+    is unavailable. Use write_file only as a grounded repair/fallback: pass
+    from_skill_ids, target_node, and adaptation_notes.
+  Step 5: If skill/schema tools are unavailable, use the primitive write_file
+    fallback described in agent_prompt.md.
+  Step 6: Save with save-project and say TASK_COMPLETE.
+
+failure_patterns:
+  - "(?i)error"
+  - "(?i)failed"
+  - "(?i)traceback"
+  - "(?i)exception"
+  - "(?i)timeout"
+max_repeated_failures: 4
+
+dry_run_placeholders:
+  create-project: "Created project workspace at /tmp/web_project_a1b2c3 with index.html, style.css, script.js"
+  write-file: "Written 245 bytes to style.css"
+  read-file: "<!DOCTYPE html>\n<html>..."
+  add-component-from-skill: "Added component from skill 'gradient_hero_section' (3 files written)"
+  render-page: "Rendered page to PNG (base64): data:image/png;base64,iVBOR... (32768 chars)"
+  inspect-dom: "DOM: 24 elements, 0 console errors\n  body > header.hero (1200x600)\n  body > section.features (1200x800)"
+  list-skills: "Skill library: 50 skills in 10 categories\n  hero_section: 8 skills\n  animation: 7 skills"
+  get-skill-info: "Skill: Gradient Hero Section\n  ID: gradient_hero_section_a1b2c3d4\n  Category: hero_section\n  Tags: gradient, hero, dark theme"
+  get-skill-code: "def create_component(output_dir, title_text='Hero', accent_color='#00bfff', ...):\n    ..."
+  save-project: "Saved project to demo/web/my_project/ (3 files)"
+
+tools_fallback_file: "tools_fallback.json"

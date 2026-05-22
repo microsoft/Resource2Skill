@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for landing pages, corporate homepages, or portfolios, providing a strong visual first impression. Suitable for any web section requiring prominent text over an engaging background image.",
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hero_section_with_parallax_image_and_gra_86942ee8",
+  "skill_name": "Hero Section with Parallax Image and Gradient Overlay",
+  "source": {
+    "channel": "Late night coder",
+    "duration_sec": 943,
+    "type": "youtube",
+    "video_id": "wcMjYGzeLT8",
+    "video_title": "Build a Responsive Hero Section From Scratch | HTML & CSS (Step by Step)",
+    "video_url": "https://www.youtube.com/watch?v=wcMjYGzeLT8",
+    "views": 37
+  },
+  "tags": [
+    "hero section",
+    "parallax effect",
+    "css gradient",
+    "landing page",
+    "image overlay"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:54Z",
+  "wash_version": "1.0.0"
+}

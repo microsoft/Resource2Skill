@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_svg_line_drawing_dynamic_dash_o_d4f38276",
+  "source": {
+    "channel": "Speed Code Projects",
+    "duration_sec": 860,
+    "type": "youtube",
+    "video_id": "FvTx7vTMUFk",
+    "video_title": "SVG Art Animation | HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=FvTx7vTMUFk",
+    "views": 971
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

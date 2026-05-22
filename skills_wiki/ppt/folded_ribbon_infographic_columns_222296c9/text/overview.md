@@ -1,0 +1,221 @@
+# Folded Ribbon Infographic Columns
+
+## Analysis
+
+### 1. High-level Design Pattern Extraction
+
+> **Skill Name**: Folded Ribbon Infographic Columns
+
+* **Core Visual Mechanism**: The design relies on clean, vertical white rectangles (cards) elevated by a soft drop shadow against a light gray background. The defining aesthetic is a vibrant, color-coded "folded ribbon" that wraps around the left edge of each card. This 3D illusion is achieved by pairing a rectangular banner overlapping the card edge with a darker, triangular shape tucked underneath to simulate depth and a physical fold.
+
+* **Why Use This Skill (Rationale)**: This style effectively breaks the rigid grid of standard PowerPoint shapes. The overlapping ribbon creates visual tension and a focal point that naturally draws the eye to the sequential numbering. The clean, card-based layout isolates distinct pieces of information, reducing cognitive load while maintaining a unified theme.
+
+* **Overall Applicability**: Ideal for 4-step processes, core value propositions, pricing tiers, or feature breakdowns. It works best when you have parallel items that require equal attention but distinct categorization.
+
+* **Value Addition**: Transforms a standard bulleted list or basic SmartArt into a custom, modern, agency-quality graphic. The 3D ribbon effect adds tactile realism, while the consistent card styling provides a professional, organized structure.
+
+
+### 2. Visual Breakdown
+
+* **Step A: Core Visual Elements**
+  - **Background**: Light gray off-white, e.g., `(240, 240, 240)`.
+  - **Cards**: Pure white `(255, 255, 255)` with a 3pt light gray border `(220, 220, 220)`.
+  - **Shadow**: Outer drop shadow, zero offset, high blur, 20-30% opacity to create an "elevated paper" look.
+  - **Ribbon Accent**: Four distinct bright colors (e.g., Yellow `(255, 192, 0)`, Blue `(0, 112, 192)`, Green `(0, 176, 80)`, Purple `(112, 48, 160)`).
+  - **Fold Mechanism**: A right triangle matching the exact width of the banner's overhang, colored 30% darker than the primary accent color.
+  - **Typography**: Bold, oversized white numbers on the banners. Center-aligned, bold dark gray headings on the cards, followed by smaller, lighter gray body text.
+
+* **Step B: Compositional Style**
+  - The canvas uses a horizontal 4-column layout with equal spacing.
+  - The ribbon banner overhangs exactly 0.2 to 0.25 inches to the left of the card.
+  - The content inside the card is perfectly center-aligned to create a structured, symmetrical reading flow.
+
+* **Step C: Dynamic Effects & Transitions**
+  - The tutorial demonstrates an entrance animation: "Fly In" from the bottom, sequenced to appear one by one (Card 1, Card 2, etc.), which creates a cascading reveal.
+
+
+### 3. Reproduction Code
+
+#### 3a. Implementation Method Selection
+
+| Aspect of the effect | Method | Why this method |
+|---|---|---|
+| Card & Banner Shapes | `python-pptx` native | Standard rectangles and lines are perfectly suited for the main geometric elements. |
+| The Ribbon "Fold" | `FreeformBuilder` | Drawing a custom polygon ensures the right triangle perfectly connects the banner to the card edge, regardless of scaling. |
+| Soft Drop Shadow | `lxml` XML injection | `python-pptx` lacks a Pythonic API for soft shadows. Injecting `<a:effectLst>` directly into the shape's XML applies a native, perfectly rendered, editable shadow. |
+| Color Darkening | Python RGB Math | Dynamically calculates the "shadow" of the folded ribbon based on the base accent color. |
+
+> **Feasibility Assessment**: 100%. The combination of native shapes, freeform polygons for the fold, and XML injection for the shadow completely and perfectly reproduces the visual effect shown in the tutorial. The output is 100% editable in PowerPoint.
+
+#### 3b. Complete Reproduction Code
+
+```python
+import os
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.enum.shapes import MSO_SHAPE
+from pptx.enum.text import PP_ALIGN
+from pptx.dml.color import RGBColor
+from lxml import etree
+
+def apply_soft_shadow(shape):
+    """
+    Injects OpenXML to apply a soft outer drop shadow to a shape.
+    """
+    spPr = shape.element.spPr
+    effectLst = etree.SubElement(spPr, '{http://schemas.openxmlformats.org/drawingml/2006/main}effectLst')
+    # blurRad is in EMUs (1 inch = 914400 EMUs). 150000 is a nice soft blur.
+    # dist is the distance of the shadow.
+    outerShdw = etree.SubElement(effectLst, '{http://schemas.openxmlformats.org/drawingml/2006/main}outerShdw',
+                                 blurRad="150000", dist="30000", dir="5400000", algn="ctr", rotWithShape="0")
+    srgbClr = etree.SubElement(outerShdw, '{http://schemas.openxmlformats.org/drawingml/2006/main}srgbClr', val="000000")
+    # alpha val is a percentage out of 100000. 15000 = 15% opacity.
+    etree.SubElement(srgbClr, '{http://schemas.openxmlformats.org/drawingml/2006/main}alpha', val="15000")
+
+def darken_color(rgb, factor=0.7):
+    """Returns a darker version of the given RGB tuple."""
+    return tuple(max(0, int(c * factor)) for c in rgb)
+
+def create_slide(
+    output_pptx_path: str,
+    title_text: str = "4 Rectangular Options",
+    body_text: str = "",
+    bg_palette: str = "none", 
+    **kwargs,
+) -> str:
+    """
+    Create a PPTX file reproducing the Folded Ribbon Infographic Columns visual effect.
+    """
+    prs = Presentation()
+    prs.slide_width = Inches(13.333)
+    prs.slide_height = Inches(7.5)
+    slide = prs.slides.add_slide(prs.slide_layouts[6]) # Blank slide
+
+    # Set Background Color (Light Gray)
+    background = slide.background
+    fill = background.fill
+    fill.solid()
+    fill.fore_color.rgb = RGBColor(245, 245, 245)
+
+    # Configuration for the 4 columns
+    colors = [
+        (255, 192, 0),   # Yellow
+        (0, 112, 192),   # Blue
+        (0, 176, 80),    # Green
+        (112, 48, 160)   # Purple
+    ]
+    
+    titles = ["RESEARCH", "EXPERIENCE", "PLANNING", "EXECUTION"]
+    icons = ["💡", "💼", "📄", "🎯"] # Unicode placeholders for icons
+    
+    # Dimensions & Positioning
+    num_cards = 4
+    card_w = Inches(2.2)
+    card_h = Inches(4.5)
+    margin_x = Inches(1.5)
+    y_offset = Inches(1.5)
+    
+    # Calculate gap to distribute evenly
+    total_cards_width = num_cards * card_w
+    available_width = prs.slide_width - (2 * margin_x)
+    gap = (available_width - total_cards_width) / (num_cards - 1)
+    
+    banner_overhang = Inches(0.2)
+    banner_w = Inches(1.0)
+    banner_h = Inches(0.5)
+
+    for i in range(num_cards):
+        card_x = margin_x + (i * (card_w + gap))
+        
+        # 1. Base Card (White Rectangle with Shadow)
+        card = slide.shapes.add_shape(
+            MSO_SHAPE.RECTANGLE, card_x, y_offset, card_w, card_h
+        )
+        card.fill.solid()
+        card.fill.fore_color.rgb = RGBColor(255, 255, 255)
+        card.line.color.rgb = RGBColor(220, 220, 220)
+        card.line.width = Pt(2)
+        apply_soft_shadow(card)
+
+        # 2. Folded Ribbon Triangle (Drawn before banner to sit behind it, but overlaps card)
+        # Vertices: 
+        # A: (card_x - overhang, bottom of banner)
+        # B: (card_x, bottom of banner)
+        # C: (card_x, bottom of banner + overhang down the card edge)
+        banner_y = y_offset + Inches(0.4)
+        banner_bottom = banner_y + banner_h
+        
+        builder = slide.shapes.build_freeform()
+        builder.add_line_segments([
+            (card_x - banner_overhang, banner_bottom),
+            (card_x, banner_bottom),
+            (card_x, banner_bottom + banner_overhang),
+            (card_x - banner_overhang, banner_bottom) # close
+        ], close=True)
+        triangle = builder.convert_to_shape()
+        
+        dark_rgb = darken_color(colors[i], factor=0.65)
+        triangle.fill.solid()
+        triangle.fill.fore_color.rgb = RGBColor(*dark_rgb)
+        triangle.line.fill.background() # No line
+
+        # 3. Main Ribbon Banner
+        banner = slide.shapes.add_shape(
+            MSO_SHAPE.RECTANGLE, card_x - banner_overhang, banner_y, banner_w, banner_h
+        )
+        banner.fill.solid()
+        banner.fill.fore_color.rgb = RGBColor(*colors[i])
+        banner.line.fill.background()
+
+        # Add Number to Banner
+        txBox_num = slide.shapes.add_textbox(card_x - banner_overhang, banner_y, banner_w, banner_h)
+        tf_num = txBox_num.text_frame
+        tf_num.vertical_anchor = MSO_SHAPE.RECTANGLE
+        p_num = tf_num.paragraphs[0]
+        p_num.text = f"0{i+1}"
+        p_num.alignment = PP_ALIGN.CENTER
+        p_num.font.bold = True
+        p_num.font.size = Pt(20)
+        p_num.font.color.rgb = RGBColor(255, 255, 255)
+
+        # 4. Card Content - Title
+        txBox_title = slide.shapes.add_textbox(card_x, banner_bottom + Inches(0.2), card_w, Inches(0.4))
+        tf_title = txBox_title.text_frame
+        p_title = tf_title.paragraphs[0]
+        p_title.text = titles[i]
+        p_title.alignment = PP_ALIGN.CENTER
+        p_title.font.bold = True
+        p_title.font.size = Pt(14)
+        p_title.font.color.rgb = RGBColor(50, 50, 50)
+
+        # 5. Separator Line
+        line_w = Inches(1.5)
+        line_x = card_x + (card_w - line_w) / 2
+        line_y = banner_bottom + Inches(0.7)
+        sep_line = slide.shapes.add_shape(
+            MSO_SHAPE.LINE, line_x, line_y, line_w, 0
+        )
+        sep_line.line.color.rgb = RGBColor(200, 200, 200)
+        sep_line.line.width = Pt(1.5)
+
+        # 6. Body Text
+        txBox_body = slide.shapes.add_textbox(card_x + Inches(0.1), line_y + Inches(0.1), card_w - Inches(0.2), Inches(1.5))
+        tf_body = txBox_body.text_frame
+        tf_body.word_wrap = True
+        p_body = tf_body.paragraphs[0]
+        p_body.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor congue massa."
+        p_body.alignment = PP_ALIGN.CENTER
+        p_body.font.size = Pt(10)
+        p_body.font.color.rgb = RGBColor(100, 100, 100)
+
+        # 7. Bottom Icon Placeholder
+        txBox_icon = slide.shapes.add_textbox(card_x, y_offset + card_h - Inches(0.8), card_w, Inches(0.6))
+        tf_icon = txBox_icon.text_frame
+        p_icon = tf_icon.paragraphs[0]
+        p_icon.text = icons[i]
+        p_icon.alignment = PP_ALIGN.CENTER
+        p_icon.font.size = Pt(32)
+
+    prs.save(output_pptx_path)
+    return output_pptx_path
+```

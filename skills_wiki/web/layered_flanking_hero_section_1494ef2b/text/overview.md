@@ -1,0 +1,279 @@
+### 1. High-level Design Pattern Extraction
+
+> **Skill Name**: Layered Flanking Hero Section
+
+* **Core Visual Mechanism**: This design pattern utilizes a multi-layered CSS background anchored to the bottom-center of the viewport. A central subject (usually a cutout portrait or product shot) serves as the visual focal point, while two distinct typography containers sit symmetrically on the left and right (flanking). This creates an immediate sense of 3D depth, as the text feels positioned "around" the background subject without complex DOM nesting.
+* **Why Use This Skill (Rationale)**: Flanking a central, bottom-anchored image with typography draws the user’s eye naturally towards the center of the screen, creating a highly personal or product-focused introduction. It breaks the monotony of traditional left-aligned hero sections, balancing a loud call-to-action on one side with softer supplementary context (like testimonials or quotes) on the other.
+* **Overall Applicability**: Ideal for personal portfolios, speaker landing pages, product showcases, and biography websites where the individual or the core item needs to take center stage without obscuring the primary text.
+* **Value Addition**: It turns a static 2D page into a dynamic composition. By leveraging multiple background layers (a repeating base pattern + a foreground subject), it creates a parallax-ready environment that feels premium and deliberately composed.
+* **Browser Compatibility**: Fully supported in all modern browsers. Relies on standard CSS Flexbox and multiple `background-image` declarations.
+
+### 2. Visual & Technical Breakdown
+
+* **Step A: Core Visual Elements**
+  - **Background Layering**: The CSS `background-image` property accepts comma-separated values. The first value renders on top. We place a transparent portrait SVG on top (`bottom center`) and a subtle dot pattern on the bottom (`center repeat`).
+  - **Color Logic**: Utilizes a deep slate background (e.g., `#1A253A`) paired with a vibrant, high-contrast accent color (like magenta or cyan) for buttons and border accents.
+  - **Typography**: The left side carries the primary weight with a massive, uppercase `H1` (up to `96px`). The right side acts as a counterbalance, featuring smaller italicized pull-quotes with thick left-borders matching the accent color.
+
+* **Step B: Layout & Compositional Style**
+  - **Flexbox Spacing**: The main container uses `display: flex; justify-content: center; align-items: center;` combined with a wide `gap` (e.g., `20%`). This elegantly pushes the two text blocks out to the sides, leaving a dedicated negative space in the center for the background subject to shine through.
+  - **Asymmetric Balance**: The left column is structurally solid (Heading + Paragraph + Button), while the right column is staggered. The second quote utilizes a `margin-left` offset to break the grid and add organic flow to the right side of the screen.
+
+* **Step C: Interactive Behavior & Animations**
+  - **Entrance Stagger**: To emphasize the depth, the left and right text containers animate inwards from the outer edges upon page load, settling into their final positions.
+  - **Hover States**: The CTA button uses a subtle brightness filter and a Y-axis translation (`transform: translateY(-2px)`) to provide tactile feedback without disrupting the layout.
+
+### 3. Reproduction Code
+
+#### 3a. Implementation Method Selection
+
+| Aspect of the effect | Method | Why this method |
+|---|---|---|
+| **Multi-layered Background** | CSS `background-image` | Natively supports stacking a cutout image on top of a repeating pattern using a single DOM element. |
+| **Flanking Text Layout** | CSS Flexbox + `gap` | Flexbox with a percentage-based gap perfectly partitions the screen into left text, center void (for the portrait), and right text. |
+| **Pull-Quote Styling** | CSS `border-left` & `:nth-child` | Creates the structural pull-quote lines and allows targeted offsetting of specific quotes without extra classes. |
+| **Entrance Animation** | JS `setTimeout` + CSS Transitions | Provides a clean, staggered slide-in effect for the typography, enhancing the premium feel upon load. |
+
+#### 3b. Complete Reproduction Code
+
+```python
+def create_component(
+    output_dir: str,
+    title_text: str = "Welcome to my website",
+    body_text: str = "",
+    color_scheme: str = "dark",
+    accent_color: str = "#C13584",
+    width_px: int = 1200,
+    height_px: int = 800,
+    **kwargs,
+) -> dict:
+    """
+    Create a web component reproducing the Layered Flanking Hero Section effect.
+    """
+    import os
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Theme logic
+    if color_scheme == "dark":
+        bg_color = "#1A253A"
+        text_color = "#FFFFFF"
+        pattern_opacity = "0.05"
+        portrait_color = "%23ffffff"
+    else:
+        bg_color = "#F0F4F8"
+        text_color = "#1A253A"
+        pattern_opacity = "0.08"
+        portrait_color = "%23000000"
+
+    body_text = body_text or "Building digital experiences with modern web technologies. I craft responsive layouts, intuitive interactions, and clean code."
+
+    # Data URI SVGs to make the component fully self-contained
+    # 1. An abstract gradient silhouette anchored to the bottom
+    portrait_svg = f"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 800'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='0%' y2='100%'><stop offset='0%' stop-color='{portrait_color}' stop-opacity='0.25'/><stop offset='100%' stop-color='{portrait_color}' stop-opacity='0.0'/></linearGradient></defs><path d='M250,200 C190,200 150,260 150,340 C150,420 190,480 250,480 C310,480 350,420 350,340 C350,260 310,200 250,200 Z M60,800 C60,650 120,550 210,510 C230,500 270,500 290,510 C380,550 440,650 440,800 Z' fill='url(%23grad)'/></svg>"
+    
+    # 2. A subtle geometric dot pattern
+    pattern_svg = f"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><rect width='24' height='24' fill='none'/><circle cx='3' cy='3' r='1.5' fill='{portrait_color}' opacity='{pattern_opacity}'/></svg>"
+
+    css = f"""/* Layered Flanking Hero Section */
+*, *::before, *::after {{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
+
+:root {{
+    --bg: {bg_color};
+    --text: {text_color};
+    --accent: {accent_color};
+    --width: {width_px}px;
+    --height: {height_px}px;
+}}
+
+body {{
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}}
+
+.hero-container {{
+    width: var(--width);
+    max-width: 100vw;
+    height: var(--height);
+    max-height: 100vh;
+    background-color: var(--bg);
+    /* Multiple backgrounds: portrait on top of pattern */
+    background-image: 
+        url("{portrait_svg}"),
+        url("{pattern_svg}");
+    background-position: bottom center, center;
+    background-size: auto 90%, 24px 24px;
+    background-repeat: no-repeat, repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%; /* Creates the central void for the portrait */
+    padding: 0 5%;
+    position: relative;
+    overflow: hidden;
+    color: var(--text);
+}}
+
+/* Left Side: Heavy Introduction */
+.main-intro {{
+    flex: 1;
+    max-width: 420px;
+    z-index: 10;
+    opacity: 0; /* Handled by JS */
+}}
+
+.main-intro h1 {{
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    line-height: 1.1;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}}
+
+.main-intro p {{
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    opacity: 0.85;
+}}
+
+.btn-cta {{
+    display: inline-block;
+    background-color: var(--accent);
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}}
+
+.btn-cta:hover {{
+    filter: brightness(1.15);
+    transform: translateY(-3px);
+}}
+
+/* Right Side: Staggered Quotes */
+.main-quotes {{
+    flex: 1;
+    max-width: 380px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}}
+
+.quote {{
+    border-left: 4px solid var(--accent);
+    padding-left: 1.5rem;
+    opacity: 0; /* Handled by JS */
+}}
+
+/* Break the grid with an offset on the second quote */
+.quote:nth-child(even) {{
+    margin-left: 4rem;
+}}
+
+.quote p {{
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+    opacity: 0.85;
+}}
+
+.quote small {{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}}
+"""
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layered Flanking Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="hero-container">
+        
+        <div class="main-intro">
+            <h1>{title_text.replace('\\n', '<br>')}</h1>
+            <p>{body_text}</p>
+            <a href="#" class="btn-cta">My Work</a>
+        </div>
+
+        <div class="main-quotes">
+            <div class="quote">
+                <p>"The more that you read, the more things you will know. The more that you learn, the more places you'll go."</p>
+                <small>— Dr. Seuss</small>
+            </div>
+            <div class="quote">
+                <p>"An investment in knowledge pays the best interest."</p>
+                <small>— Benjamin Franklin</small>
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>"""
+
+    js = """document.addEventListener('DOMContentLoaded', () => {
+    const intro = document.querySelector('.main-intro');
+    const quotes = document.querySelectorAll('.quote');
+
+    // Trigger staggered slide-in animations
+    setTimeout(() => {
+        intro.style.transition = 'opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1)';
+        intro.style.opacity = '1';
+        intro.style.transform = 'translateX(0)';
+    }, 100);
+
+    // Initial state set here to avoid flash before JS runs
+    intro.style.transform = 'translateX(-40px)';
+
+    quotes.forEach((quote, index) => {
+        quote.style.transform = 'translateX(40px)';
+        
+        setTimeout(() => {
+            quote.style.transition = `opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) ${200 + (index * 200)}ms, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) ${200 + (index * 200)}ms`;
+            quote.style.opacity = '1';
+            quote.style.transform = 'translateX(0)';
+        }, 100);
+    });
+});
+"""
+
+    files = []
+    for fname, content in [("index.html", html), ("style.css", css), ("script.js", js)]:
+        path = os.path.join(output_dir, fname)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        files.append(path)
+
+    return {
+        "html": html,
+        "css": css,
+        "js": js,
+        "files": files,
+    }
+```

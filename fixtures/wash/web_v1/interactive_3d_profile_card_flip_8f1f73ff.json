@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_profile_card_flip_8f1f73ff",
+  "source": {
+    "channel": "WebMrj Creations",
+    "duration_sec": 581,
+    "type": "youtube",
+    "video_id": "zlRAkxkcKcc",
+    "video_title": "3D Flip Card Effect On Hover Using Only HTML CSS | Flip Card Design HTML CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=zlRAkxkcKcc",
+    "views": 548
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

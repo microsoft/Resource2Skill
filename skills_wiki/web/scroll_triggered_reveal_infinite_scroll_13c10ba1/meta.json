@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for content-heavy applications like news feeds, social media timelines, or image galleries, transforming static data into an engaging, bite-sized experience.",
+  "category_path": [
+    "scroll_behavior",
+    "dynamic_content"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_triggered_reveal_infinite_scroll_13c10ba1",
+  "skill_name": "Scroll-Triggered Reveal & Infinite Scroll",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 932,
+    "type": "youtube",
+    "video_id": "2IbRtjez6ag",
+    "video_title": "Learn Intersection Observer In 15 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=2IbRtjez6ag",
+    "views": 381680
+  },
+  "tags": [
+    "scroll",
+    "reveal",
+    "infinite scroll",
+    "lazy load",
+    "IntersectionObserver",
+    "performance"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:49:48Z",
+  "wash_version": "1.0.0"
+}

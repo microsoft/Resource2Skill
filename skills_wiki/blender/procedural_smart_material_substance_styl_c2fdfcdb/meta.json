@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_smart_material_substance_styl_c2fdfcdb",
+  "skill_name": "Procedural \"Smart Material\" (Substance-Style Edge Wear & Dirt)",
+  "source": {
+    "channel": "Kaizen",
+    "duration_sec": 683,
+    "type": "youtube",
+    "video_id": "-x-b2U-MSgc",
+    "video_title": "How to Create Professional Materials",
+    "video_url": "https://www.youtube.com/watch?v=-x-b2U-MSgc",
+    "views": 1249207
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:05Z",
+  "wash_version": "1.0.0"
+}

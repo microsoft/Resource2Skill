@@ -1,0 +1,36 @@
+{
+  "applicability": "This layout is ideal for executive summaries, performance reviews, and any presentation slide requiring a comprehensive, data-driven overview of a business area.",
+  "category_path": [
+    "business_intelligence",
+    "dashboards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "business_intelligence_dashboard_mockup_de8c145f",
+  "skill_name": "Business Intelligence Dashboard Mockup",
+  "source": {
+    "channel": "PAPAYA \u96fb\u8166\u6559\u5ba4",
+    "duration_sec": 891,
+    "type": "youtube",
+    "video_id": "9RcQUhlIb_Y",
+    "video_title": "15 \u5206\u9418\u4e0a\u624b Power BI\uff01\u6211\u4e00\u65e6\u8a8d\u771f\u8d77\u4f86\u9023\u6211\u81ea\u5df1\u90fd\u6703\u5bb3\u6015 ~",
+    "video_url": "https://www.youtube.com/watch?v=9RcQUhlIb_Y",
+    "views": 1481658
+  },
+  "tags": [
+    "business intelligence",
+    "dashboard",
+    "kpi",
+    "data visualization",
+    "grid layout",
+    "performance report"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:55:45Z",
+  "wash_version": "1.0.0"
+}

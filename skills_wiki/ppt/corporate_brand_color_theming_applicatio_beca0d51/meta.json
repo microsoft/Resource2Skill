@@ -1,0 +1,36 @@
+{
+  "applicability": "Transforms generic presentations into professionally branded assets by applying a consistent color theme. Ideal for corporate decks, sales reports, and pitch decks where brand identity is critical.",
+  "category_path": [
+    "style",
+    "branding"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_brand_color_theming_applicatio_beca0d51",
+  "skill_name": "Branded Color Palette Application",
+  "source": {
+    "channel": "WiseUp Communications",
+    "duration_sec": 575,
+    "type": "youtube",
+    "video_id": "P9nxPVamW50",
+    "video_title": "Design PPT Like a Pro | Perfect Color Schemes for Presentations",
+    "video_url": "https://www.youtube.com/watch?v=P9nxPVamW50",
+    "views": 10963
+  },
+  "tags": [
+    "branding",
+    "color theme",
+    "corporate slides",
+    "data visualization",
+    "palette"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:17Z",
+  "wash_version": "1.0.0"
+}

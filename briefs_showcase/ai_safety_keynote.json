@@ -1,0 +1,27 @@
+{
+  "variant_id": "ai_safety_keynote",
+  "out_dirname": "ai_safety_keynote",
+  "title": "Steering frontier agents without flattening them",
+  "audience": "applied AI alignment researchers at a technical symposium",
+  "tone_words": ["editorial", "research", "calm"],
+  "archetype_preference": "research",
+  "mood_preference": ["editorial", "research", "restrained"],
+  "mode_preference": "dark",
+  "n_slides": 11,
+  "role_prefer": ["hero_quote", "section_divider", "bullet_card_list", "timeline_horizontal", "comparison_split"],
+  "role_avoid": ["feature_grid"],
+  "dense_quota": 2,
+  "core_points": [
+    "Framing: alignment stacks too often optimize for legibility at the cost of capability",
+    "Measurement regime we use: capability ceiling (unsteered) and steering delta (behavior with constraints)",
+    "Taxonomy of steering: rule-based, reward-based, representation-engineering, activation-steering",
+    "Empirically: hard rules lose >40% capability ceiling; soft rewards lose ~11%",
+    "Our contribution: residual-stream probes + targeted activation edits preserve 95%+ ceiling",
+    "Case study: multi-step research agent, 37% delta on open-ended tasks post-steering",
+    "Negative result: same method degrades 8% on adversarial prompt benchmark; we explain why",
+    "Connection to governance: measurement must report both axes, not just refusal rate",
+    "Open problem: there is still no clean evaluation for value-preservation under steering",
+    "Practical recipe for practitioners building production agents: a 4-step checklist",
+    "Call to the room: publish steering deltas alongside refusal rates"
+  ]
+}

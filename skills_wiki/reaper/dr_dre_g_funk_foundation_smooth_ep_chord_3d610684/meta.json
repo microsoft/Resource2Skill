@@ -1,0 +1,30 @@
+{
+  "applicability": "Creates the quintessential 90s West Coast G-Funk sound. Ideal for hip-hop, neo-soul, or trap tracks needing a nostalgic, laid-back, and bouncy harmonic foundation.",
+  "category_path": [
+    "harmony",
+    "bassline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dr_dre_g_funk_foundation_smooth_ep_chord_3d610684",
+  "skill_name": "G-Funk Foundation: Chords & Bassline",
+  "source": {
+    "type": "youtube",
+    "video_title": "Dr. Dre production tutorial"
+  },
+  "tags": [
+    "g-funk",
+    "hip-hop",
+    "bassline",
+    "chords",
+    "neo-soul"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:41Z",
+  "wash_version": "1.0.0"
+}

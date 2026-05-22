@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this skill to establish an interlocking, danceable rhythmic foundation typical of French house and nu-disco. It creates a complete groove pocket by defining distinct rhythmic roles for drums, bass, and harmony.",
+  "category_path": [
+    "arrangement",
+    "grooves"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "nu_disco_french_touch_groove_daft_punk_s_fd6d9a32",
+  "skill_name": "Nu-Disco French Touch Groove",
+  "source": {
+    "channel": "Talha Vocoding",
+    "duration_sec": 119,
+    "type": "youtube",
+    "video_id": "TleGFlZioew",
+    "video_title": "How To Daft Punk (Random Access Memories)",
+    "video_url": "https://www.youtube.com/watch?v=TleGFlZioew",
+    "views": 1666
+  },
+  "tags": [
+    "nu-disco",
+    "french-house",
+    "groove",
+    "four-on-the-floor",
+    "syncopation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:56Z",
+  "wash_version": "1.0.0"
+}

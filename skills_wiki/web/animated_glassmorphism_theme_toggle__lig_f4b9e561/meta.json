@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_glassmorphism_theme_toggle__lig_f4b9e561",
+  "skill_name": "Animated Glassmorphism Theme Toggle (Light/Dark Mode)",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:44Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Initial web page in light mode"
+        },
+        {
+          "seconds": 8,
+          "description": "Initial web page in dark mode"
+        },
+        {
+          "seconds": 58,
+          "description": "Starting to build the header section (empty page)"
+        },
+        {
+          "seconds": 322,
+          "description": "Header section with three colored circles"
+        },
+        {
+          "seconds": 528,
+          "description": "Header section with two links (Hashnode and YouTube)"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_web_page_in_light_mode.jpg",
+        "frame_01_initial_web_page_in_dark_mode.jpg",
+        "frame_02_starting_to_build_the_header_s.jpg",
+        "frame_03_header_section_with_three_colo.jpg",
+        "frame_04_header_section_with_two_links_.jpg"
+      ],
+      "recapped_at": 1777408452.3443646
+    },
+    "primary_path": "frame_00_initial_web_page_in_light_mode.jpg"
+  }
+}

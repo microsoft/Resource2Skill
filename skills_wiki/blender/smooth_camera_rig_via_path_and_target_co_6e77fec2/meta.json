@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this setup for cinematic reveals, continuous tracking shots, and product turntables. It decouples translation and rotation to provide broadcast-quality motion smoothing and stable framing.",
+  "category_path": [
+    "animation",
+    "camera"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_camera_rig_via_path_and_target_co_6e77fec2",
+  "skill_name": "Smooth Camera Rig via Path and Target Constraints",
+  "source": {
+    "channel": "CG Boost",
+    "duration_sec": 1390,
+    "type": "youtube",
+    "video_id": "COwENnPwWJ8",
+    "video_title": "Animate Cameras like a Pro (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=COwENnPwWJ8",
+    "views": 358930
+  },
+  "tags": [
+    "camera rig",
+    "follow path",
+    "track to",
+    "cinematic",
+    "constraints"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:32Z",
+  "wash_version": "1.0.0"
+}

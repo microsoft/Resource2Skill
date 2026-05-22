@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for presenting step-by-step processes, product features, or key takeaways in a visually structured format. This design pattern uses strong visual anchors to enhance readability and guide audience attention sequentially.",
+  "category_path": [
+    "lists",
+    "process"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "numbered_feature_spotlight_dc347442",
+  "skill_name": "Numbered Feature Spotlight",
+  "source": {
+    "channel": "Vantage Circle",
+    "duration_sec": 137,
+    "type": "youtube",
+    "video_id": "h4qJjW7lIsk",
+    "video_title": "How to make your employees feel important | Employee Spotlight Tips",
+    "video_url": "https://www.youtube.com/watch?v=h4qJjW7lIsk",
+    "views": 335
+  },
+  "tags": [
+    "numbered list",
+    "process steps",
+    "feature callout",
+    "agenda",
+    "structured list"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:57Z",
+  "wash_version": "1.0.0"
+}

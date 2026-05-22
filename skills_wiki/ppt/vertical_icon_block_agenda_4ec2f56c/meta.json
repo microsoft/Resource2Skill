@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_icon_block_agenda_4ec2f56c",
+  "skill_name": "Vertical Icon-Block Agenda",
+  "source": {
+    "channel": "Learn with Elen \ud83d\udcd6\ud83d\udcda",
+    "duration_sec": 388,
+    "type": "youtube",
+    "video_id": "_Wgq8cOXzVI",
+    "video_title": "Building a Separator Slide in your PPT Slides",
+    "video_url": "https://www.youtube.com/watch?v=_Wgq8cOXzVI",
+    "views": 991
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:10Z",
+  "wash_version": "1.0.0"
+}

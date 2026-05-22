@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cell_formatted_kpi_card_527a083d",
+  "skill_name": "Cell-Formatted KPI Card",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Start turning your boring numbers in Excel with colorful KPIs"
+        },
+        {
+          "seconds": 1,
+          "description": "Your boss will think that you're a genius"
+        },
+        {
+          "seconds": 6,
+          "description": "My name is Mihir Kamdar, and I'm your tutor at Office Tech Skill"
+        },
+        {
+          "seconds": 12,
+          "description": "You can download the file from the description below"
+        },
+        {
+          "seconds": 47,
+          "description": "Rectangle shape with revenue number"
+        }
+      ],
+      "frames": [
+        "frame_00_start_turning_your_boring_numb.jpg",
+        "frame_01_your_boss_will_think_that_you_.jpg",
+        "frame_02_my_name_is_mihir_kamdar_and_i_.jpg",
+        "frame_03_you_can_download_the_file_from.jpg",
+        "frame_04_rectangle_shape_with_revenue_n.jpg"
+      ],
+      "recapped_at": 1777406202.2248816
+    },
+    "primary_path": "frame_00_start_turning_your_boring_numb.jpg"
+  }
+}

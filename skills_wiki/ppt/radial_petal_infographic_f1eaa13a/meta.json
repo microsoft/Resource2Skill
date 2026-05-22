@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for visualizing 8 distinct, related concepts around a central theme without implying hierarchy or sequence. The circular flow emphasizes equal weight and interconnectedness.",
+  "category_path": [
+    "infographic",
+    "radial_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "radial_petal_infographic_f1eaa13a",
+  "skill_name": "Radial Petal Infographic",
+  "source": {
+    "channel": "Infographics School",
+    "duration_sec": 607,
+    "type": "youtube",
+    "video_id": "99hqKJJ3GM8",
+    "video_title": "Create Simplicity PowerPoint Infographic Design | PowerPoint Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=99hqKJJ3GM8",
+    "views": 829
+  },
+  "tags": [
+    "radial",
+    "petal",
+    "infographic",
+    "8 concepts",
+    "interconnected",
+    "non-sequential"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:21Z",
+  "wash_version": "1.0.0"
+}

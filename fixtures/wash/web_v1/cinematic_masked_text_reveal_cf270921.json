@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_masked_text_reveal_cf270921",
+  "source": {
+    "channel": "DarkCode",
+    "duration_sec": 269,
+    "type": "youtube",
+    "video_id": "Syg_9iB1vco",
+    "video_title": "Simple Text Animation Just By Using HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=Syg_9iB1vco",
+    "views": 788473
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

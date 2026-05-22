@@ -1,0 +1,35 @@
+{
+  "applicability": "Provides the rhythmic and low-end backbone for trap, drill, modern R&B, and lo-fi hip-hop. Ideal for starting a new beat or creating a foundational verse or drop section.",
+  "category_path": [
+    "midi",
+    "trap_groove"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trap_drum_foundation_808_bass_groove_5a37bb2f",
+  "skill_name": "Syncopated Trap Drum & 808 Groove",
+  "source": {
+    "channel": "Beats By Canna",
+    "duration_sec": 2220,
+    "type": "youtube",
+    "video_id": "n3tshu2BfOk",
+    "video_title": "Making a Trap/Hip Hop beat in Reaper",
+    "video_url": "https://www.youtube.com/watch?v=n3tshu2BfOk",
+    "views": 51375
+  },
+  "tags": [
+    "trap",
+    "hip-hop",
+    "808 bass",
+    "drum groove",
+    "syncopation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:47:29Z",
+  "wash_version": "1.0.0"
+}

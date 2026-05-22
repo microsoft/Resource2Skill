@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "time_interval_binning_analysis_b0b7f455",
+  "source": {
+    "channel": "\u5c0f\u79cb\u8001\u5e08\u7684Excel",
+    "duration_sec": 531,
+    "type": "youtube",
+    "video_id": "Nd_SWueMLdQ",
+    "video_title": "Excel\u5927\u6570\u636e\u5206\u6790\uff0cxx\u5e97\u94faDashboard\u6570\u636e\u5206\u6790\u770b\u677f\uff08\u9500\u552e\u5206\u6790\uff09",
+    "video_url": "https://www.youtube.com/watch?v=Nd_SWueMLdQ",
+    "views": 1077
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

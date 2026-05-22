@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for high-end product landing pages, D2C sites, or SaaS hero sections. Creates an immersive, scroll-driven narrative that enhances brand value and user engagement.",
+  "category_path": [
+    "web_design",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_parallax_hero_animation_with_scro_3fd07c14",
+  "skill_name": "Smooth Parallax Hero Animation with Scroll Reveal",
+  "source": {
+    "channel": "Edge Dot Design",
+    "duration_sec": 322,
+    "type": "youtube",
+    "video_id": "vXjJZH_l6o8",
+    "video_title": "Parallax Scrolling Animation in Figma - Full Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=vXjJZH_l6o8",
+    "views": 145777
+  },
+  "tags": [
+    "parallax",
+    "scroll",
+    "animation",
+    "hero",
+    "product",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:09:06Z",
+  "wash_version": "1.0.0"
+}

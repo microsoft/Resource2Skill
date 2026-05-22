@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_retopology_base_setup_shrinkwr_6905fbe9",
+  "skill_name": "Automated Retopology Base Setup (Shrinkwrap Cylinder)",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 126,
+    "type": "youtube",
+    "video_id": "RwbG-HAd6Qc",
+    "video_title": "Blender Made Retopology 10x Easier & Forgot to Mention it!",
+    "video_url": "https://www.youtube.com/watch?v=RwbG-HAd6Qc",
+    "views": 156177
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:59Z",
+  "wash_version": "1.0.0"
+}

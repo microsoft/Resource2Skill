@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "edm_arrangement_scaffold_with_sidechain__eb244b0b",
+  "skill_name": "EDM Arrangement Scaffold with Sidechain Pumping & Filter Sweeps",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Lhfmcw9nQHg"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:54:02Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_canvas_particle_image_5e98e80b",
+  "skill_name": "Interactive Canvas Particle Image",
+  "source": {
+    "channel": "Conner Ardman",
+    "duration_sec": 689,
+    "type": "youtube",
+    "video_id": "W78MY7_q_6A",
+    "video_title": "Recreating The Hover Effect That Shocked Frontend Devs",
+    "video_url": "https://www.youtube.com/watch?v=W78MY7_q_6A",
+    "views": 10296
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:37Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "applicability": "Ideal for creating visually striking section dividers, cover slides, or a single bold statement slide. It features a large, central circle that draws attention to key messages.",
+  "category_path": [
+    "slide_layouts",
+    "dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "central_circle_a706ac",
+  "skill_name": "Central Circle",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section divider",
+    "cover slide",
+    "minimalist",
+    "bold graphic",
+    "single statement"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:04:27Z",
+  "wash_version": "1.0.0"
+}

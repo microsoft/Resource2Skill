@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_triggered_contextual_fab_floating_139433f9",
+  "source": {
+    "channel": "keyframers",
+    "duration_sec": 308,
+    "type": "youtube",
+    "video_id": "d7nJKuhBEoY",
+    "video_title": "Using Intersection Observer for Scroll Triggered Animations | @keyframers 3.15.1",
+    "video_url": "https://www.youtube.com/watch?v=d7nJKuhBEoY",
+    "views": 2314
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

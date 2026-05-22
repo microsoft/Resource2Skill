@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "bento_box_vcard_dashboard_0682fc96",
+  "source": {
+    "channel": "Coding Play",
+    "duration_sec": 68,
+    "type": "youtube",
+    "video_id": "75lvh1NmyeA",
+    "video_title": "How to design vCard personal portfolio website using HTML CSS JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=75lvh1NmyeA",
+    "views": 334721
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "hero_section_with_parallax_image_and_gra_86942ee8",
+  "source": {
+    "channel": "Late night coder",
+    "duration_sec": 943,
+    "type": "youtube",
+    "video_id": "wcMjYGzeLT8",
+    "video_title": "Build a Responsive Hero Section From Scratch | HTML & CSS (Step by Step)",
+    "video_url": "https://www.youtube.com/watch?v=wcMjYGzeLT8",
+    "views": 37
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

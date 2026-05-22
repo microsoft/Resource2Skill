@@ -1,0 +1,27 @@
+{
+  "variant_id": "nonprofit_annual",
+  "out_dirname": "nonprofit_annual",
+  "title": "Tidewater Literacy Coalition — 2025 annual impact",
+  "audience": "donors, board members, community partners at annual gala",
+  "tone_words": ["warm", "editorial", "restrained"],
+  "archetype_preference": "narrative",
+  "mood_preference": ["warm", "editorial", "calm"],
+  "mode_preference": "light",
+  "n_slides": 11,
+  "role_prefer": ["cover", "hero_quote", "metric_dashboard", "bullet_card_list", "timeline_horizontal", "closing_cta"],
+  "role_avoid": ["feature_grid"],
+  "dense_quota": 2,
+  "core_points": [
+    "Who we are: 14 volunteer-run reading rooms serving coastal families since 2011",
+    "Last year's reach: 9,412 kids tutored, 1,303 adult learners served, 48 school partnerships",
+    "Reading-level gain for 3rd-grade cohort: +1.4 grades over one school year of tutoring",
+    "Story we'll center: Mariela, who became a tutor herself after aging out of the program",
+    "Financial summary: $2.41M raised, 87 cents of every dollar goes directly to programs",
+    "Biggest program investment this year: bilingual early-reader workshop in three coastal counties",
+    "Volunteer hours logged: 51,800 — equivalent to 26 full-time staff we otherwise could not afford",
+    "New partnership: Pacific Public Library system for weekend tutoring space, no cost to us",
+    "Where your dollars went: 62% direct tutoring, 19% training, 13% books, 6% overhead",
+    "Next year's focus: reach 12,000 kids, launch family literacy nights, open rural satellite center",
+    "Ask: sustaining donors — monthly $40 keeps one tutoring slot open for a whole school year"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "theme_id": "discord_partypop",
+  "name": "Discord Party Pop",
+  "origin": "web_distilled",
+  "source_url": "https://discord.com/branding",
+  "source_title": "Discord Branding",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#FFFFFF",
+    "panel": "#FEE75C",
+    "accent": "#5865F2",
+    "accent2": "#EB459E",
+    "text": "#23272A",
+    "muted": "#4F5660",
+    "border": "#5865F2",
+    "success": "#57F287",
+    "warning": "#FEE75C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Arial",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Arial",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "soft color splash backdrop for energetic reveals"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "bold",
+    "preferred_entrance": [
+      "zoom_in",
+      "fade",
+      "slide_in_right"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "bold",
+    "playful",
+    "technical"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "glow",
+    "confetti",
+    "pulse",
+    "trace"
+  ],
+  "avoided_motion_tags": [
+    "audit",
+    "editorial",
+    "sepia",
+    "measured"
+  ]
+}

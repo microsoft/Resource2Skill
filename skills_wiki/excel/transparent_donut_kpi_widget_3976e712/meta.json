@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "transparent_donut_kpi_widget_3976e712",
+  "skill_name": "Transparent Donut KPI Widget",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:44:03Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 1,
+          "description": "Fully designed and interactive Excel dashboard preview"
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard layout structured with titles and content sections"
+        },
+        {
+          "seconds": 838,
+          "description": "All individual charts and visual elements created and formatted"
+        },
+        {
+          "seconds": 1494,
+          "description": "Completed interactive sales dashboard with all integrated visuals"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_designed_and_interactive.jpg",
+        "frame_01_dashboard_layout_structured_wi.jpg",
+        "frame_02_all_individual_charts_and_visu.jpg"
+      ],
+      "recapped_at": 1777407866.019636
+    },
+    "primary_path": "frame_00_fully_designed_and_interactive.jpg"
+  }
+}

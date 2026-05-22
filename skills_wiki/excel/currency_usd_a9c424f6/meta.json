@@ -1,0 +1,30 @@
+{
+  "applicability": "Formats numeric values as US Dollars with thousand separators and two decimal places. Negative numbers are prominently displayed in red and enclosed in parentheses, making it highly effective for financial and accounting spreadsheets.",
+  "category_path": [
+    "formatting",
+    "number_formats",
+    "currency"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "currency_usd_a9c424f6",
+  "skill_name": "USD Currency Format",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "currency",
+    "usd",
+    "number formatting",
+    "accounting",
+    "finance"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:00:46Z",
+  "wash_version": "1.0.0"
+}

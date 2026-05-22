@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "metal_phrygian_chorus__1_6_4_5_power_cho_121ae08a",
+  "skill_name": "Metal Phrygian Chorus (1-6-4-5 Power Chords & Double Bass)",
+  "source": {
+    "channel": "OSIRIS GUITAR",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=YZqfGUFbN5Y"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:56:09Z",
+  "wash_version": "1.0.0"
+}

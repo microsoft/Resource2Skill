@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "flat_split_screen_infographic_comparison_5080640b",
+  "skill_name": "Flat Split-Screen Infographic Comparison",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 226,
+    "type": "youtube",
+    "video_id": "1_LWIF4Ijdo",
+    "video_title": "How to Create a Professional PowerPoint Presentation Slide Template",
+    "video_url": "https://www.youtube.com/watch?v=1_LWIF4Ijdo",
+    "views": 120840
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:26:03Z",
+  "wash_version": "1.0.0"
+}

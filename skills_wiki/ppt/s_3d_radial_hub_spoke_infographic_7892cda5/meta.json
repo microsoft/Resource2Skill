@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_radial_hub_spoke_infographic_7892cda5",
+  "skill_name": "3D Radial Hub & Spoke Infographic",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "H-7W9eSqtv8",
+    "video_title": "2.PowerPoint Animation Step-By-Step Tutorial | 8 Step Infographic Design | @Infographicsproject",
+    "video_url": "https://www.youtube.com/watch?v=H-7W9eSqtv8",
+    "views": 110074
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:47:19Z",
+  "wash_version": "1.0.0"
+}

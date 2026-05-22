@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_architectural_shell_daylight__7f8d4ef5",
+  "skill_name": "Procedural Architectural Shell & Daylight System",
+  "source": {
+    "channel": "Bro 3D",
+    "duration_sec": 2984,
+    "type": "youtube",
+    "video_id": "z981Hhqv2Hk",
+    "video_title": "Blender Interior Beginner to Pro - Complete Crash course",
+    "video_url": "https://www.youtube.com/watch?v=z981Hhqv2Hk",
+    "views": 95616
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:16:01Z",
+  "wash_version": "1.0.0"
+}

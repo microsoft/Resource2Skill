@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_particle_landing_page_42f1ee43",
+  "skill_name": "Interactive 3D Particle Landing Page",
+  "source": {
+    "channel": "Come For Code",
+    "duration_sec": 146,
+    "type": "youtube",
+    "video_id": "BqIV3jBy1n8",
+    "video_title": "Build a Stunning 3D Animated Website with Three.js & AOS | Full Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=BqIV3jBy1n8",
+    "views": 41
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:13Z",
+  "wash_version": "1.0.0"
+}

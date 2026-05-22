@@ -1,0 +1,130 @@
+{
+  "theme_id": "noir_cut_gold",
+  "name": "Noir Cut Gold",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd-f2cc8f-c9ada7-81b29a-e07a5f",
+  "source_title": "Coolors palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#0D1B2A",
+    "panel": "#1B263B",
+    "accent": "#F2CC8F",
+    "accent2": "#C9ADA7",
+    "text": "#E0E1DD",
+    "muted": "#778DA9",
+    "border": "#415A77",
+    "success": "#81B29A",
+    "warning": "#E07A5F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Georgia",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "Fine divider lines over deep dusk fields"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_right",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "editorial",
+    "cinematic",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "editorial",
+    "cinematic",
+    "hairline",
+    "measured",
+    "bloom"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "bounce",
+    "glitch",
+    "neon"
+  ]
+}

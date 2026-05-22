@@ -1,0 +1,74 @@
+{
+  "skill_id": "geometric_hero_cover_8dd6fc",
+  "skill_type": "shell",
+  "name": "Geometric Hero Cover",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "hero-image+geometric-overlay"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "corporate",
+      "cool",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/geometric_hero_cover_8dd6fc/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "geometric_glass_shard_reveal_08e33e3c",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Extracted a bold, geometric cover layout by combining standard shapes (Rectangle, Right Triangle, Isosceles Triangle) to recreate the complex diagonal overlays seen in the image, providing a dark container for light text over a full-bleed background image.",
+  "_distill_attempts": 1
+}

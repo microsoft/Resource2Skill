@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_sequential_flip_loader_42a900fb",
+  "skill_name": "3D Sequential Flip Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:51Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 17,
+          "description": "blue square animating shape and rotation"
+        },
+        {
+          "seconds": 50,
+          "description": "blue square animating through multiple shape and rotation steps"
+        },
+        {
+          "seconds": 215,
+          "description": "blue square animating with rotation, shape change, and scale"
+        },
+        {
+          "seconds": 541,
+          "description": "blue square animating to a circle and holding its final state"
+        },
+        {
+          "seconds": 715,
+          "description": "3D rotating loading animation"
+        }
+      ],
+      "frames": [
+        "frame_00_blue_square_animating_shape_an.jpg",
+        "frame_01_blue_square_animating_through_.jpg",
+        "frame_02_blue_square_animating_with_rot.jpg"
+      ],
+      "recapped_at": 1777408080.2650452
+    },
+    "primary_path": "frame_00_blue_square_animating_shape_an.jpg"
+  }
+}

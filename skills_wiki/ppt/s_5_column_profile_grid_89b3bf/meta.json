@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for introducing a team or comparing five distinct entities, showcasing square images and detailed descriptions in a columnar layout.",
+  "category_path": [
+    "layout",
+    "profile_grid"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_5_column_profile_grid_89b3bf",
+  "skill_name": "5-Column Profile Grid",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "team profile",
+    "comparison grid",
+    "5-column layout",
+    "entity showcase",
+    "image descriptions",
+    "feature grid"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:12Z",
+  "wash_version": "1.0.0"
+}

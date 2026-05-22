@@ -1,0 +1,89 @@
+{
+  "skill_id": "comparison_split_charts_00d636",
+  "skill_type": "shell",
+  "name": "Comparison Split Charts",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "title+subtitle+2-charts"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "left_chart",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "right_chart",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "footer",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/comparison_split_charts_00d636/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "consulting_style_high_data_to_ink_chart__8824e483",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A side-by-side comparison layout ideal for contrasting two data visualizations or concepts, featuring a strong header, subtitle, and a full-width divider.",
+  "_distill_attempts": 1
+}

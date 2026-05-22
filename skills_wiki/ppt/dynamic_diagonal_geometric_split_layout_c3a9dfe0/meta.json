@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_diagonal_geometric_split_layout_c3a9dfe0",
+  "skill_name": "Dynamic Diagonal Geometric Split Layout",
+  "source": {
+    "channel": "Engineer Haroon Mentor",
+    "duration_sec": 272,
+    "type": "youtube",
+    "video_id": "k6-8hHVFCVE",
+    "video_title": "Diagonal Template Design for PowerPoint || Simple Graphic Designing in PowerPoint #08 || Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=k6-8hHVFCVE",
+    "views": 85
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:20Z",
+  "wash_version": "1.0.0"
+}

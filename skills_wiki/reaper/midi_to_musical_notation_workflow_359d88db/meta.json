@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "midi_to_musical_notation_workflow_359d88db",
+  "skill_name": "MIDI to Musical Notation Workflow",
+  "source": {
+    "channel": "8-Bit Drummer",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1hUJqcfcKIs"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:23:04Z",
+  "wash_version": "1.0.0"
+}

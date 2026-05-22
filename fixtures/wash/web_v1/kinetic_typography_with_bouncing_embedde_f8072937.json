@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_typography_with_bouncing_embedde_f8072937",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 1196,
+    "type": "youtube",
+    "video_id": "NOvcy64apD4",
+    "video_title": "Easy animations for your website (LottieFiles Crash Course)",
+    "video_url": "https://www.youtube.com/watch?v=NOvcy64apD4",
+    "views": 29925
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

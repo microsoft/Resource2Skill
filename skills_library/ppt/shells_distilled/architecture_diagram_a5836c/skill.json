@@ -1,0 +1,106 @@
+{
+  "skill_id": "architecture_diagram_a5836c",
+  "skill_type": "shell",
+  "name": "Architecture Diagram",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid"
+    ],
+    "content_shape": [
+      "architecture-diagram-3-layers"
+    ],
+    "density": "high",
+    "mood": [
+      "corporate",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "footer",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "left_title",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "left_items",
+      "kind": "bullet_list",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "right_title",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "right_items",
+      "kind": "bullet_list",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "center_layers",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/architecture_diagram_a5836c/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "monochromatic_hierarchical_architecture__2128c545",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Abstracts the complex IT architecture diagram into a reusable 3-layer center stack with optional left and right sidebars.",
+  "_distill_attempts": 1
+}

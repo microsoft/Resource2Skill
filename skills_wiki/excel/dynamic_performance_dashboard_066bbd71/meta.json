@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_performance_dashboard_066bbd71",
+  "skill_name": "Dynamic Performance Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:02:56Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "fully interactive dashboard example"
+        },
+        {
+          "seconds": 810,
+          "description": "dashboard with first pivot chart placed"
+        },
+        {
+          "seconds": 1443,
+          "description": "dashboard with all charts and slicers positioned"
+        },
+        {
+          "seconds": 1741,
+          "description": "polished dashboard with hidden gridlines and headings"
+        },
+        {
+          "seconds": 1814,
+          "description": "dashboard with custom theme applied"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_interactive_dashboard_ex.jpg",
+        "frame_01_dashboard_with_first_pivot_cha.jpg"
+      ],
+      "recapped_at": 1777406588.050723
+    },
+    "primary_path": "frame_00_fully_interactive_dashboard_ex.jpg"
+  }
+}

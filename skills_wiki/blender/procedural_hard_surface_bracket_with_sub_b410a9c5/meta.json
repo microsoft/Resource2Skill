@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "motion_graphics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_hard_surface_bracket_with_sub_b410a9c5",
+  "skill_name": "Procedural Hard-Surface Bracket with SubD Topology",
+  "source": {
+    "channel": "MouryaWorks",
+    "duration_sec": 497,
+    "type": "youtube",
+    "video_id": "d2Z0ED8fTUA",
+    "video_title": "HardSurface Modeling Exercise in Blender",
+    "video_url": "https://www.youtube.com/watch?v=d2Z0ED8fTUA",
+    "views": 529
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:52Z",
+  "wash_version": "1.0.0"
+}

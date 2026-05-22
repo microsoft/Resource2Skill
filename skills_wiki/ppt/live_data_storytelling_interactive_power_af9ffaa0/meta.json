@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for data-heavy presentations to executives or stakeholders where real-time exploration is required. This allows for answering ad-hoc questions by interacting with live data directly within your slides.",
+  "category_path": [
+    "dashboard",
+    "live_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "live_data_storytelling_interactive_power_af9ffaa0",
+  "skill_name": "Embed Interactive Power BI Dashboard",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 617,
+    "type": "youtube",
+    "video_id": "murtekAkJDs",
+    "video_title": "FINALLY! Properly Present Your Power BI Dashboard in PowerPoint (keep the interactivity)",
+    "video_url": "https://www.youtube.com/watch?v=murtekAkJDs",
+    "views": 437034
+  },
+  "tags": [
+    "power bi",
+    "live data",
+    "interactive chart",
+    "dashboard",
+    "data storytelling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:47:46Z",
+  "wash_version": "1.0.0"
+}

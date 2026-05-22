@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for project management, resource allocation, and campaign tracking. Creates a robust timeline visualization directly within worksheet cells, avoiding the complexity of native chart objects or external add-ins.",
+  "category_path": [
+    "project_management",
+    "scheduling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_in_cell_gantt_chart_6f9abc4e",
+  "skill_name": "Dynamic In-Cell Gantt Chart",
+  "source": {
+    "channel": "David McLachlan",
+    "duration_sec": 959,
+    "type": "youtube",
+    "video_id": "tuQpGzL_14g",
+    "video_title": "How to Make the BEST Gantt Chart in Excel (looks like Microsoft Project!)",
+    "video_url": "https://www.youtube.com/watch?v=tuQpGzL_14g",
+    "views": 2279028
+  },
+  "tags": [
+    "project management",
+    "gantt chart",
+    "timeline",
+    "conditional formatting",
+    "scheduling"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:54:59Z",
+  "wash_version": "1.0.0"
+}

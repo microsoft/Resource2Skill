@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-end corporate profiles, executive plans, or creative agency portfolios seeking an understated premium aesthetic. It balances corporate severity with modern flair using desaturated backgrounds and warm geometric accents.",
+  "category_path": [
+    "visual_design",
+    "slide_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_corporate_arc_monochromatic_c_d2016ecd",
+  "skill_name": "Minimalist Corporate Arc & Monochromatic Contrast",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 299,
+    "type": "youtube",
+    "video_id": "59Xuji3ePVQ",
+    "video_title": "Powerpoint design\u5546\u52a1PPT\u6a21\u677f\u8bbe\u8ba1\u5c55\u793a",
+    "video_url": "https://www.youtube.com/watch?v=59Xuji3ePVQ",
+    "views": 3386
+  },
+  "tags": [
+    "monochromatic contrast",
+    "geometric shapes",
+    "corporate minimalism",
+    "premium aesthetic",
+    "desaturated imagery",
+    "arc layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:50:16Z",
+  "wash_version": "1.0.0"
+}

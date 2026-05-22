@@ -1,0 +1,35 @@
+{
+  "applicability": "Builds an engaging, non-linear experience for showcasing content. Ideal for interactive team introductions, product feature spotlights, or portfolio presentations where users can freely explore different items.",
+  "category_path": [
+    "interactive_element",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_morphing_team_showcase_a5d0d44c",
+  "skill_name": "Interactive Morph Showcase",
+  "source": {
+    "channel": "\u55ac\u6cbb\u884c\u4e0d\u884c GeorgeGoodorNot",
+    "duration_sec": 385,
+    "type": "youtube",
+    "video_id": "iDFfwlAGSSI",
+    "video_title": "\u5b8c\u6574\u7248 | \u4eba\u4e8b\u90e8 \u6703\u505a\u55ce\ud83d\udc69\u200d\ud83d\udcbc\u7528PPT\u505a\u5718\u968a\u4ecb\u7d39 \u60f3\u5b78\u55ce?",
+    "video_url": "https://www.youtube.com/watch?v=iDFfwlAGSSI",
+    "views": 1868
+  },
+  "tags": [
+    "morph",
+    "interactive",
+    "hyperlinks",
+    "animation",
+    "showcase"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:37:05Z",
+  "wash_version": "1.0.0"
+}

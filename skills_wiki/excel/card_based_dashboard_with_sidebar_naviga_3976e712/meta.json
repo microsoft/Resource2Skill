@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "card_based_dashboard_with_sidebar_naviga_3976e712",
+  "skill_name": "Card-Based Dashboard with Sidebar Navigation",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:08:16Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Fully designed and interactive Excel dashboard shown in the intro"
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard layout structured with named sections for all future visuals"
+        },
+        {
+          "seconds": 840,
+          "description": "All individual charts and visual components created and formatted, ready for dashboard placement"
+        },
+        {
+          "seconds": 1500,
+          "description": "Final interactive Excel dashboard with all visuals and KPIs integrated and formatted"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_designed_and_interactive.jpg",
+        "frame_01_dashboard_layout_structured_wi.jpg",
+        "frame_02_all_individual_charts_and_visu.jpg"
+      ],
+      "recapped_at": 1777406119.356117
+    },
+    "primary_path": "frame_00_fully_designed_and_interactive.jpg"
+  }
+}

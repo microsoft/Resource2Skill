@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for listicles, step-by-step guides, or agenda slides to provide clear wayfinding and a sleek, magazine-like editorial aesthetic. It replaces traditional bullet points with a bold, structural layout.",
+  "category_path": [
+    "slide_layout",
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_oversized_watermark_typography_4c916f30",
+  "skill_name": "Editorial Oversized Watermark Typography",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 87,
+    "type": "youtube",
+    "video_id": "tHduvCq1VIM",
+    "video_title": "5 Best PowerPoint Fonts For Presentations You Need To Check Out",
+    "video_url": "https://www.youtube.com/watch?v=tHduvCq1VIM",
+    "views": 5258
+  },
+  "tags": [
+    "editorial",
+    "typography",
+    "watermark",
+    "wayfinding",
+    "listicle",
+    "layered"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:22:58Z",
+  "wash_version": "1.0.0"
+}

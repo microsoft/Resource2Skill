@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cosmic_horizon_with_wavy_canvas_reflecti_085bf899",
+  "skill_name": "Cosmic Horizon with Wavy Canvas Reflections",
+  "source": {
+    "channel": "AA-VFX",
+    "duration_sec": 1800,
+    "type": "youtube",
+    "video_id": "iof5OSZay9w",
+    "video_title": "Golden Ocean Horizon ~Shooting Stars Night Sky~ 30Min. HD Wallpaper Free Animation Background",
+    "video_url": "https://www.youtube.com/watch?v=iof5OSZay9w",
+    "views": 37016
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:18:03Z",
+  "wash_version": "1.0.0"
+}

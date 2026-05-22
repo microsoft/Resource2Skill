@@ -1,0 +1,124 @@
+import openpyxl
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.drawing.geometry import Rectangle, Shape as DrawingShape, GEOM_SHAPE_TYPES
+from openpyxl.drawing.fill import ColorChoice, SolidFill
+from openpyxl.drawing.drawing import Drawing
+from openpyxl.drawing.text import Paragraph, CharacterProperties, RichText, TextBody, Font as TextFont
+from openpyxl.utils import get_column_letter
+from openpyxl.utils.units import EMU_per_PIXEL, pixels_to_EMU
+
+class ThemePalette:
+    """A placeholder for theme color definitions."""
+    def __init__(self, theme_name="corporate_blue"):
+        if theme_name == "corporate_blue":
+            self.header_bg = "1F4E79"  # Dark Blue
+            self.text_light = "FFFFFF"  # White
+            self.text_dark = "000000"  # Black
+            self.border_color = "000000" # Black
+            self.accent_1 = "4472C4" # Blue
+            self.accent_2 = "2F5597" # Darker Blue, similar to video
+        else: # Default or other themes
+            self.header_bg = "4F81BD"
+            self.text_light = "FFFFFF"
+            self.text_dark = "000000"
+            self.border_color = "000000"
+            self.accent_1 = "5B9BD5"
+            self.accent_2 = "336699"
+
+def _create_text_body(text, font_size, font_color, bold=False, wrap_text=True, align='center', valign='middle'):
+    """Helper to create a TextBody for a shape."""
+    cp = CharacterProperties(latin=TextFont(typeface='Calibri', sz=font_size * 100),
+                             b=bold,
+                             solidFill=ColorChoice(srgbClr=font_color))
+    p = Paragraph(pPr=Paragraph.pPr(algn=align),
+                  defRPr=cp,
+                  r=[Paragraph.r(t=text)])
+    
+    body_pr = TextBody.bodyPr(anchor=valign, vert='horz', wrap=wrap_text, lIns=0, tIns=0, rIns=0, bIns=0)
+    lst_style = TextBody.lstStyle()
+
+    return TextBody(body_pr=body_pr, lst_style=lst_style, p=[p])
+
+def render(ws, anchor: str, *, theme: str = "corporate_blue", 
+           region_name: str = "Asia", 
+           revenue_label: str = "Revenue", 
+           revenue_value_display: str = "$369,989", # Static for openpyxl; manual Excel linking required
+           market_share_value_display: str = "5%", # Static for openpyxl; manual Excel linking required
+           **kwargs) -> None:
+    """
+    Renders a KPI block with region, revenue, and market share using styled shapes.
+    Note: Openpyxl does not directly support linking shape text to cell formulas
+    or grouping shapes into a single movable unit as shown in the tutorial.
+    The values rendered will be static strings. Manual linking (via Excel's formula bar
+    when a shape is selected) and grouping (right-click -> Group) in Excel are
+    required to achieve the full dynamic and unified behavior.
+
+    Args:
+        ws: The worksheet to render on.
+        anchor: The top-left cell where the KPI block will be roughly positioned.
+                (Note: Shapes are placed absolutely on the drawing layer within openpyxl;
+                this anchor serves as a conceptual guide for manual adjustment).
+        theme: The name of the theme to use for colors.
+        region_name: The name of the region for the KPI.
+        revenue_label: The label for the primary metric (e.g., "Revenue").
+        revenue_value_display: The display string for the primary metric's value.
+        market_share_value_display: The display string for the secondary metric's value.
+    """
+    
+    palette = ThemePalette(theme)
+
+    # Define dimensions and positions for the shapes (in pixels, then convert to EMUs)
+    kpi_width_px = 250
+    kpi_height_px = 120
+    oval_size_px = 60
+    padding_px = 10 # Padding for inner elements / relative positioning
+
+    # Approximate starting position for the KPI block (absolute on drawing layer)
+    # These values can be adjusted based on desired placement
+    start_x_emu = pixels_to_EMU(300) 
+    start_y_emu = pixels_to_EMU(100) 
+
+    # --- Create Main KPI Rectangle (Rounded Corners) ---
+    rect_shape = DrawingShape(
+        shapetype=GEOM_SHAPE_TYPES['roundRect'],
+        fill=SolidFill(srgbClr=palette.accent_2),
+        text=_create_text_body(
+            f"{region_name}\n\n{revenue_label}\n{revenue_value_display}",
+            font_size=14, font_color=palette.text_light, bold=True,
+            wrap_text=True, align='center', valign='middle'
+        ),
+        sz=Rectangle(pixels_to_EMU(kpi_width_px), pixels_to_EMU(kpi_height_px)),
+        off=Rectangle(start_x_emu, start_y_emu)
+    )
+    rect_shape.spPr.ln = None # Remove outline
+
+    # --- Create Market Share Oval ---
+    # Position the oval relative to the rectangle (bottom right corner)
+    oval_offset_x = start_x_emu + pixels_to_EMU(kpi_width_px - oval_size_px - padding_px)
+    oval_offset_y = start_y_emu + pixels_to_EMU(kpi_height_px - oval_size_px - padding_px)
+
+    oval_shape = DrawingShape(
+        shapetype=GEOM_SHAPE_TYPES['ellipse'],
+        fill=SolidFill(srgbClr=palette.text_light),
+        text=_create_text_body(
+            market_share_value_display,
+            font_size=14, font_color=palette.text_dark, bold=True
+        ),
+        sz=Rectangle(pixels_to_EMU(oval_size_px), pixels_to_EMU(oval_size_px)),
+        off=Rectangle(oval_offset_x, oval_offset_y)
+    )
+    # Add black outline
+    oval_shape.spPr.ln.solidFill = ColorChoice(srgbClr=palette.border_color)
+
+    # --- Add shapes to a Drawing object and then to the Worksheet ---
+    drawing = Drawing()
+    # openpyxl uses add_chart for DrawingShape objects to add them to the drawing canvas
+    drawing.add_chart(rect_shape) 
+    drawing.add_chart(oval_shape)
+
+    # This anchors the entire drawing canvas to the specified cell.
+    # Shapes within the drawing are still positioned using their absolute 'off' coordinates.
+    drawing.anchor = anchor
+
+    ws.add_drawing(drawing)
+

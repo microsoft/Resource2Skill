@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for title, section divider, or concept introduction slides, creating a strong visual focal point and a professional aesthetic.",
+  "category_path": [
+    "title_blocks"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_title_block_280e08bc",
+  "skill_name": "Layered Title Block",
+  "source": {
+    "channel": "Go Cloud Architects",
+    "duration_sec": 561,
+    "type": "youtube",
+    "video_id": "lbhnyUMpJuw",
+    "video_title": "Cloud Architecture Process | Enterprise Architecture Process (How To Design A Cloud Architecture)",
+    "video_url": "https://www.youtube.com/watch?v=lbhnyUMpJuw",
+    "views": 11458
+  },
+  "tags": [
+    "layered",
+    "title",
+    "depth",
+    "hierarchy",
+    "professional",
+    "focal_point"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:05Z",
+  "wash_version": "1.0.0"
+}

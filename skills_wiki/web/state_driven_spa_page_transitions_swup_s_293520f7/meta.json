@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "state_driven_spa_page_transitions_swup_s_293520f7",
+  "skill_name": "State-Driven SPA Page Transitions (Swup-style)",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 723,
+    "type": "youtube",
+    "video_id": "eVwH3VL1EsA",
+    "video_title": "Build Amazing Page Transitions In Only 12 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=eVwH3VL1EsA",
+    "views": 280303
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:55Z",
+  "wash_version": "1.0.0"
+}

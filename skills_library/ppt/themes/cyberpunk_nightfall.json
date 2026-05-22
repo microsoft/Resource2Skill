@@ -1,0 +1,120 @@
+{
+  "theme_id": "cyberpunk_nightfall",
+  "name": "Cyberpunk Nightfall",
+  "palette": {
+    "bg": "#050014",
+    "panel": "#0D0825",
+    "accent": "#00F0A0",
+    "accent2": "#FF2EFF",
+    "text": "#E9F1FF",
+    "muted": "#5F4E82",
+    "border": "#1A0D38",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Consolas",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Consolas",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "neon_grid",
+    "description": "Fine neon grid in magenta/green; HUD-style readouts"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "dynamic",
+    "preferred_entrance": [
+      "zoom",
+      "wipe"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "fade-only"
+    ]
+  },
+  "mood": [
+    "technical",
+    "cinematic",
+    "bold",
+    "punchy"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "glitch",
+    "chromatic",
+    "marquee",
+    "pixel",
+    "dot-matrix",
+    "neon",
+    "slot-machine"
+  ],
+  "avoided_motion_tags": [
+    "ink-bleed",
+    "polaroid",
+    "balloon",
+    "confetti",
+    "thesis",
+    "page-turn"
+  ]
+}

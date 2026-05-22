@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for Agenda slides, Section Headers, or Hero pages in modern corporate presentations. It introduces dynamic visual tension by splitting the canvas diagonally, transforming standard lists into engaging editorial layouts.",
+  "category_path": [
+    "slide_layouts",
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diagonal_slant_split_dynamic_agenda_layo_b463f311",
+  "skill_name": "Diagonal Slant Split Agenda Layout",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 170,
+    "type": "youtube",
+    "video_id": "8iOa00nKHec",
+    "video_title": "Best Agenda Template 6 | Animated PowerPoint Slide Design Tutorial for Busy Professionals",
+    "video_url": "https://www.youtube.com/watch?v=8iOa00nKHec",
+    "views": 5509
+  },
+  "tags": [
+    "diagonal split",
+    "agenda layout",
+    "asymmetrical",
+    "hero slide",
+    "editorial style"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:12Z",
+  "wash_version": "1.0.0"
+}

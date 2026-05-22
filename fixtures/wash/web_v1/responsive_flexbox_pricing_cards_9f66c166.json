@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_pricing_cards_9f66c166",
+  "source": {
+    "channel": "OnlineITtuts Tutorials",
+    "duration_sec": 919,
+    "type": "youtube",
+    "video_id": "KURAwK5nhaE",
+    "video_title": "Create a Responsive Pricing Table in HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=KURAwK5nhaE",
+    "views": 595
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

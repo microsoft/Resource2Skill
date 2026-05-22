@@ -1,0 +1,34 @@
+{
+  "applicability": "A highly minimal layout featuring a single bold statement centered vertically on a solid accent background. Ideal for impactful quotes, section dividers, or powerful one-liner messages.",
+  "category_path": [
+    "slide_layouts",
+    "statements"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_statement_609b7a",
+  "skill_name": "Minimal Statement",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "minimal",
+    "bold statement",
+    "quote",
+    "section divider",
+    "single message",
+    "accent background"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:39Z",
+  "wash_version": "1.0.0"
+}

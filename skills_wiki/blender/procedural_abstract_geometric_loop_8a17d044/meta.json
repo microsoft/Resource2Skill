@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_abstract_geometric_loop_8a17d044",
+  "skill_name": "Procedural Abstract Geometric Loop",
+  "source": {
+    "channel": "Erik Hillinger 3D",
+    "duration_sec": 238,
+    "type": "youtube",
+    "video_id": "8tBM524XQPM",
+    "video_title": "Create an abstract loop with geometry nodes! | Blender tutorial",
+    "video_url": "https://www.youtube.com/watch?v=8tBM524XQPM",
+    "views": 795
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:11Z",
+  "wash_version": "1.0.0"
+}

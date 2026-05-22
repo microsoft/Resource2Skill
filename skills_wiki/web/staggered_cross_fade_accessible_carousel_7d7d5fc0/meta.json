@@ -1,0 +1,36 @@
+{
+  "applicability": "Implements a visually seamless, 'dip-free' cross-fade image transition ideal for hero sections, portfolios, or product showcases. Its use of staggered CSS transitions and built-in accessibility make it a robust, production-ready component.",
+  "category_path": [
+    "media",
+    "carousel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "staggered_cross_fade_accessible_carousel_7d7d5fc0",
+  "skill_name": "Accessible Staggered Cross-Fade Carousel",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 850,
+    "type": "youtube",
+    "video_id": "9HcxHDS2w1s",
+    "video_title": "How To Create An Animated Image Carousel With CSS/JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=9HcxHDS2w1s",
+    "views": 306030
+  },
+  "tags": [
+    "carousel",
+    "cross-fade",
+    "css transition",
+    "accessibility",
+    "javascript"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:09:10Z",
+  "wash_version": "1.0.0"
+}

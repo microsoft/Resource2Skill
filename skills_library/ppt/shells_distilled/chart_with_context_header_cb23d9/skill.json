@@ -1,0 +1,89 @@
+{
+  "skill_id": "chart_with_context_header_cb23d9",
+  "skill_type": "shell",
+  "name": "Chart with Context Header",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "header+chart+footer"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "context",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "footer",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/chart_with_context_header_cb23d9/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "consulting_style_high_data_to_ink_chart__8824e483",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Provides a structured header with subtitle and context metadata above a large dedicated chart area, typical for financial or data-heavy presentations.",
+  "_distill_attempts": 1
+}

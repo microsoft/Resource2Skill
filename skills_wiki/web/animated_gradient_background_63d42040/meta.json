@@ -1,0 +1,69 @@
+{
+  "applicability": "Ideal for landing page hero sections, standby screens, or login portals to add fluid, dynamic movement without heavy performance overhead. It transforms flat layouts into breathing interfaces while maintaining excellent foreground contrast.",
+  "category_path": [
+    "visual_effects",
+    "backgrounds",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_background_63d42040",
+  "skill_name": "Animated Gradient Background",
+  "source": {
+    "channel": "Web Tutorials",
+    "duration_sec": 612,
+    "type": "youtube",
+    "video_id": "qM3tkLhk-kk",
+    "video_title": "Animated Gradient Background | Only CSS and HTML5 | Web Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=qM3tkLhk-kk",
+    "views": 332
+  },
+  "tags": [
+    "css-animation",
+    "gradient-background",
+    "keyframes",
+    "hero-section",
+    "visual-effects"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:08Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 8,
+          "description": "Animated gradient background demo"
+        },
+        {
+          "seconds": 211,
+          "description": "Unstyled text on white background"
+        },
+        {
+          "seconds": 724,
+          "description": "Initial gradient background with black text and border"
+        },
+        {
+          "seconds": 754,
+          "description": "Gradient background with white text and border"
+        },
+        {
+          "seconds": 941,
+          "description": "Final animated gradient background with white text"
+        }
+      ],
+      "frames": [
+        "frame_00_animated_gradient_background_d.jpg",
+        "frame_01_unstyled_text_on_white_backgro.jpg"
+      ],
+      "recapped_at": 1777408461.2269118
+    },
+    "primary_path": "frame_00_animated_gradient_background_d.jpg"
+  }
+}

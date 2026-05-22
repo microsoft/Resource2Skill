@@ -1,0 +1,45 @@
+{
+  "name": "neon_corridor",
+  "description": "Cyberpunk corridor lighting — magenta + cyan rim accents + low-key ambient + practical strip lights",
+  "world_strength": 0.05,
+  "world_color": [0.02, 0.02, 0.04, 1.0],
+  "lights": [
+    {
+      "name": "MagentaRim",
+      "type": "AREA",
+      "location": [-3.0, 1.5, 2.5],
+      "rotation_euler_deg": [85, 0, -55],
+      "energy": 350,
+      "color": [0.95, 0.18, 0.62, 1.0],
+      "size": 1.5
+    },
+    {
+      "name": "CyanRim",
+      "type": "AREA",
+      "location": [3.0, 1.5, 2.5],
+      "rotation_euler_deg": [85, 0, 55],
+      "energy": 350,
+      "color": [0.18, 0.85, 0.95, 1.0],
+      "size": 1.5
+    },
+    {
+      "name": "OverheadCool",
+      "type": "AREA",
+      "location": [0, 0, 4.5],
+      "rotation_euler_deg": [180, 0, 0],
+      "energy": 90,
+      "color": [0.65, 0.78, 1.0, 1.0],
+      "size": 2.0
+    },
+    {
+      "name": "PracticalStrip",
+      "type": "AREA",
+      "location": [0, 6, 2.5],
+      "rotation_euler_deg": [-90, 0, 0],
+      "energy": 250,
+      "color": [0.98, 0.65, 0.12, 1.0],
+      "size": 1.0
+    }
+  ],
+  "best_for": ["cyberpunk", "sci-fi corridors", "futuristic interiors", "neon scenes"]
+}

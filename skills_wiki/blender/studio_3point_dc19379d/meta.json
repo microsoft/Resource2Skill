@@ -1,0 +1,28 @@
+{
+  "applicability": "Ideal for isolating subjects like products, portraits, or close-up renders. Provides a balanced, soft, and neutral white 3-point illumination for clear definition.",
+  "category_path": [
+    "lighting_rigs"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "studio_3point_dc19379d",
+  "skill_name": "3-Point Studio Lighting",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "3-point lighting",
+    "product studio",
+    "portrait lighting",
+    "soft light",
+    "neutral white"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:16Z",
+  "wash_version": "1.0.0"
+}

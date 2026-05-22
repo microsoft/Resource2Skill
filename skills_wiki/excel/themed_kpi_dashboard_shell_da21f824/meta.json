@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-level summary reports, executive dashboards, or visually driven KPI sheets. Use when you want to abstract away standard Excel grid mechanics and present polished charts and metrics in a web-like UI.",
+  "category_path": [
+    "reporting",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_dashboard_shell_da21f824",
+  "skill_name": "Themed KPI Dashboard Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 1161,
+    "type": "youtube",
+    "video_id": "MTlQvyNQ3PM",
+    "video_title": "\ud83d\udcca How to Build Excel Interactive Dashboards",
+    "video_url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM",
+    "views": 3656693
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "charts",
+    "layout",
+    "presentation"
+  ],
+  "tier": "T5",
+  "wash_run_at": "2026-04-27T08:53:58Z",
+  "wash_version": "1.0.0"
+}

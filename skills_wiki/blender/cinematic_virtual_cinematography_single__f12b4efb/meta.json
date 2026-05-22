@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_virtual_cinematography_single__f12b4efb",
+  "skill_name": "Cinematic Virtual Cinematography: Single-Source Rim Lighting",
+  "source": {
+    "channel": "Polyfjord",
+    "duration_sec": 896,
+    "type": "youtube",
+    "video_id": "si7UAgvBd4Y",
+    "video_title": "Tutorial: Cinematic Lighting in Blender",
+    "video_url": "https://www.youtube.com/watch?v=si7UAgvBd4Y",
+    "views": 223951
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:50Z",
+  "wash_version": "1.0.0"
+}

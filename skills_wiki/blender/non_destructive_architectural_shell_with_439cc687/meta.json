@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "non_destructive_architectural_shell_with_439cc687",
+  "skill_name": "Non-Destructive Architectural Shell with Collection Booleans",
+  "source": {
+    "channel": "Blender Breakdown",
+    "duration_sec": 532,
+    "type": "youtube",
+    "video_id": "Orzzgxwiefk",
+    "video_title": "Mastering REALISTIC Interiors the RIGHT way in Blender",
+    "video_url": "https://www.youtube.com/watch?v=Orzzgxwiefk",
+    "views": 990
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:50Z",
+  "wash_version": "1.0.0"
+}

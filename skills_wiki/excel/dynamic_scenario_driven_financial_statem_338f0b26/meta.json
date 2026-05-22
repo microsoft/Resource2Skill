@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_driven_financial_statem_338f0b26",
+  "skill_name": "Dynamic Scenario-Driven Financial Statement",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:27Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Dynamic Excel model displaying various scenarios"
+        },
+        {
+          "seconds": 28,
+          "description": "Initial blank Excel template for the income statement"
+        },
+        {
+          "seconds": 234,
+          "description": "Revenue line item populated and forecasted for five years"
+        },
+        {
+          "seconds": 1025,
+          "description": "Completed income statement with all profit margins and tax calculations"
+        },
+        {
+          "seconds": 1418,
+          "description": "Dynamic model updating all figures based on scenario selection"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_excel_model_displaying.jpg",
+        "frame_01_initial_blank_excel_template_f.jpg",
+        "frame_02_revenue_line_item_populated_an.jpg"
+      ],
+      "recapped_at": 1777406589.6905115
+    },
+    "primary_path": "frame_00_dynamic_excel_model_displaying.jpg"
+  }
+}

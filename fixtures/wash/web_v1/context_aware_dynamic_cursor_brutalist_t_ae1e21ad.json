@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "context_aware_dynamic_cursor_brutalist_t_ae1e21ad",
+  "source": {
+    "channel": "Leander Angst",
+    "duration_sec": 902,
+    "type": "youtube",
+    "video_id": "m3HjNOJ4aLU",
+    "video_title": "5 UX/UI Portfolios You SHOULD Copy",
+    "video_url": "https://www.youtube.com/watch?v=m3HjNOJ4aLU",
+    "views": 282372
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

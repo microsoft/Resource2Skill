@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_class_based_dark_mode_themed_her_449c085c",
+  "source": {
+    "channel": "Echoes of Ping",
+    "duration_sec": 2551,
+    "type": "youtube",
+    "video_id": "NY9ojDOjOcw",
+    "video_title": "HTML CSS Hero Section with Tailwind CSS in MINUTES",
+    "video_url": "https://www.youtube.com/watch?v=NY9ojDOjOcw",
+    "views": 217
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

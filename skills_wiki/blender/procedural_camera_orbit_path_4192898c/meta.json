@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_camera_orbit_path_4192898c",
+  "skill_name": "Procedural Camera Orbit Path",
+  "source": {
+    "channel": "Athar Teaches WordPress",
+    "duration_sec": 80,
+    "type": "youtube",
+    "video_id": "oR52jcMdQBQ",
+    "video_title": "How to Animate a Camera in Blender | Smooth Camera Movements & Tracking",
+    "video_url": "https://www.youtube.com/watch?v=oR52jcMdQBQ",
+    "views": 9045
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:23Z",
+  "wash_version": "1.0.0"
+}

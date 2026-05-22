@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_css_grid_mosaic_gallery_e5efa6f3",
+  "source": {
+    "channel": "CodeWithOmid",
+    "duration_sec": 316,
+    "type": "youtube",
+    "video_id": "XBTWx2r34oQ",
+    "video_title": "Responsive Css Gallery Using Grid - Day 25",
+    "video_url": "https://www.youtube.com/watch?v=XBTWx2r34oQ",
+    "views": 31
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

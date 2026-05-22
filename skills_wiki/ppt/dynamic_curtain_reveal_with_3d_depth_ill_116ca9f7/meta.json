@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for high-impact slides such as titles, section dividers, or key concept introductions. It dramatically enhances focus and visual engagement, transforming static information into an immersive experience.",
+  "category_path": [
+    "slide_design",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_curtain_reveal_with_3d_depth_ill_116ca9f7",
+  "skill_name": "Dynamic Curtain Reveal with 3D Depth Illusion",
+  "source": {
+    "channel": "luck TV Liu",
+    "duration_sec": 231,
+    "type": "youtube",
+    "video_id": "75WDEDHfqqQ",
+    "video_title": "PPT\u5236\u4f5c\u521b\u610f\u52a8\u6001\u6548\u679c\u53ca\u56fe\u6587\u7acb\u4f53\u5f62\u5f0f\u65b9\u6cd5\u5206\u4eab\uff0c\u8c22\u8c22\u5927\u5bb6\u652f\u6301\uff01",
+    "video_url": "https://www.youtube.com/watch?v=75WDEDHfqqQ",
+    "views": 50
+  },
+  "tags": [
+    "cinematic",
+    "depth illusion",
+    "dynamic reveal",
+    "slide transition",
+    "visual hierarchy",
+    "high-impact"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:17:55Z",
+  "wash_version": "1.0.0"
+}

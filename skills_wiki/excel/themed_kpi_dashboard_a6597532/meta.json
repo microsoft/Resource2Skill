@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_dashboard_a6597532",
+  "skill_name": "Themed KPI Dashboard",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:46:06Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Completed interactive dashboard preview"
+        },
+        {
+          "seconds": 347,
+          "description": "Dashboard header with KPI placeholders and icons"
+        },
+        {
+          "seconds": 748,
+          "description": "Dashboard with KPIs and sales agent table"
+        },
+        {
+          "seconds": 1209,
+          "description": "Dashboard with KPIs, sales agent table, and two charts"
+        },
+        {
+          "seconds": 1549,
+          "description": "Final dashboard with all charts and tables assembled"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_dashboar.jpg",
+        "frame_01_dashboard_header_with_kpi_plac.jpg",
+        "frame_02_dashboard_with_kpis_and_sales_.jpg"
+      ],
+      "recapped_at": 1777407725.734733
+    },
+    "primary_path": "frame_00_completed_interactive_dashboar.jpg"
+  }
+}

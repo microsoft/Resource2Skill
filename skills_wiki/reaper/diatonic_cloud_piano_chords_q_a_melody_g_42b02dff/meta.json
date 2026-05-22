@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates a harmonically correct, atmospheric piano progression with automated voice leading and a 'Question & Answer' melodic phrase. Ideal for laying down instant, loopable foundations for Lo-Fi, EDM, Pop, or Ambient tracks.",
+  "category_path": [
+    "midi",
+    "harmony_and_melody"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diatonic_cloud_piano_chords_q_a_melody_g_42b02dff",
+  "skill_name": "Diatonic Cloud Piano Chords & Q/A Melody Generator",
+  "source": {
+    "channel": "Arcade",
+    "duration_sec": 733,
+    "type": "youtube",
+    "video_id": "P_GLkYNBhBY",
+    "video_title": "Give me 12 minutes, and you'll be a pro at making chords & melodies",
+    "video_url": "https://www.youtube.com/watch?v=P_GLkYNBhBY",
+    "views": 446621
+  },
+  "tags": [
+    "chords",
+    "melody",
+    "diatonic",
+    "voice-leading",
+    "ambient",
+    "generator"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:10Z",
+  "wash_version": "1.0.0"
+}

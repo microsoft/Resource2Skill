@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_hexagonal_hub_and_spoke_portfolio_3ed46c30",
+  "skill_name": "Modern Hexagonal Hub-and-Spoke Portfolio",
+  "source": {
+    "channel": "SlideHub",
+    "duration_sec": 169,
+    "type": "youtube",
+    "video_id": "Iaf7dzsH3PQ",
+    "video_title": "Examples of before and after PowerPoint slides from no-more",
+    "video_url": "https://www.youtube.com/watch?v=Iaf7dzsH3PQ",
+    "views": 768
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:04Z",
+  "wash_version": "1.0.0"
+}

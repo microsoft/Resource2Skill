@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for impactful transition slides, portfolio covers, or defining central themes/keywords in presentations, transforming text into a graphic art piece.",
+  "category_path": [
+    "typography",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "typography_rasterization_selective_blur__9a666610",
+  "skill_name": "Typography Rasterization: Selective Blur & 3D Bisection",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 514,
+    "type": "youtube",
+    "video_id": "2NyFsLUCLXk",
+    "video_title": "Typography in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=2NyFsLUCLXk",
+    "views": 14939
+  },
+  "tags": [
+    "typography",
+    "rasterization",
+    "selective blur",
+    "3d text",
+    "isometric",
+    "visual effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:01Z",
+  "wash_version": "1.0.0"
+}

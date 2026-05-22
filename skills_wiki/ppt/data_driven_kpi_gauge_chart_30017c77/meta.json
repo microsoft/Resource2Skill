@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for executive dashboards, project management, and performance reviews, this skill allows audiences to quickly assess key performance indicators against a scale. It provides an immediate, at-a-glance status check of progress or attainment.",
+  "category_path": [
+    "chart",
+    "gauge_chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_driven_kpi_gauge_chart_30017c77",
+  "skill_name": "Data-Driven KPI Gauge Chart",
+  "source": {
+    "channel": "Creative Presentation Ideas by infoDiagram",
+    "duration_sec": 97,
+    "type": "youtube",
+    "video_id": "rxDcKPX4Grs",
+    "video_title": "Learn How to Create KPI Status with Gauge in Powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=rxDcKPX4Grs",
+    "views": 1217
+  },
+  "tags": [
+    "kpi",
+    "dashboard",
+    "gauge",
+    "performance",
+    "data-driven",
+    "chart"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:11:47Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,38 @@
+{
+  "applicability": "Applicable for lightweight dashboards, admin panels, or portfolio sites requiring an SPA experience without the overhead of heavy frameworks, enabling flicker-free, seamless content transitions.",
+  "category_path": [
+    "web",
+    "frontend",
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vanilla_js_single_page_application_spa_r_26adc180",
+  "skill_name": "Vanilla JS Single Page Application (SPA) Router",
+  "source": {
+    "channel": "dcode",
+    "duration_sec": 2260,
+    "type": "youtube",
+    "video_id": "6BozpmSjk-Y",
+    "video_title": "Build a Single Page Application with JavaScript (No Frameworks)",
+    "video_url": "https://www.youtube.com/watch?v=6BozpmSjk-Y",
+    "views": 638897
+  },
+  "tags": [
+    "vanillajs",
+    "spa",
+    "router",
+    "history api",
+    "client-side",
+    "navigation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:18:38Z",
+  "wash_version": "1.0.0"
+}

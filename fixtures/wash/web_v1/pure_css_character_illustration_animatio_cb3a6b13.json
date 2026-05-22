@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_character_illustration_animatio_cb3a6b13",
+  "source": {
+    "channel": "Coding Infinite",
+    "duration_sec": 944,
+    "type": "youtube",
+    "video_id": "X_0uGgMcoLc",
+    "video_title": "Pure css art.",
+    "video_url": "https://www.youtube.com/watch?v=X_0uGgMcoLc",
+    "views": 1113
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_triggered_reveal_infinite_scroll_13c10ba1",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 932,
+    "type": "youtube",
+    "video_id": "2IbRtjez6ag",
+    "video_title": "Learn Intersection Observer In 15 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=2IbRtjez6ag",
+    "views": 381680
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

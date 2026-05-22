@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_isometric_staged_foundation_e9811cde",
+  "skill_name": "3D Isometric Staged Foundation",
+  "source": {
+    "channel": "The Visual Makery",
+    "duration_sec": 368,
+    "type": "youtube",
+    "video_id": "X0foQQFDVEc",
+    "video_title": "3D Floor Auto-Assembly Animation - PowerPoint Tricks",
+    "video_url": "https://www.youtube.com/watch?v=X0foQQFDVEc",
+    "views": 952
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:26Z",
+  "wash_version": "1.0.0"
+}

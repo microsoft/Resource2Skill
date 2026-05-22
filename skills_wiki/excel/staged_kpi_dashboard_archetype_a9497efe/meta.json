@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "staged_kpi_dashboard_archetype_a9497efe",
+  "skill_name": "Staged KPI Dashboard Archetype",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:11:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "KPI Dashboard for May-20 showing various metrics and conditional formatting"
+        },
+        {
+          "seconds": 35,
+          "description": "KPI Dashboard for Aug-20, highlighting DSO, DPO, and Non-Current AR"
+        },
+        {
+          "seconds": 341,
+          "description": "Detailed view of the KPI Dashboard with large fonts for numbers and color coding"
+        },
+        {
+          "seconds": 408,
+          "description": "KPI Dashboard reflecting data for May-20 with updated numbers and conditional colors"
+        },
+        {
+          "seconds": 1027,
+          "description": "Final KPI Dashboard view for Feb-20, displaying sales and cost KPIs with targets and prior month comparisons"
+        }
+      ],
+      "frames": [
+        "frame_00_kpi_dashboard_for_may_20_showi.jpg",
+        "frame_01_kpi_dashboard_for_aug_20_highl.jpg",
+        "frame_02_detailed_view_of_the_kpi_dashb.jpg",
+        "frame_03_kpi_dashboard_reflecting_data_.jpg"
+      ],
+      "recapped_at": 1777407466.8118627
+    },
+    "primary_path": "frame_00_kpi_dashboard_for_may_20_showi.jpg"
+  }
+}

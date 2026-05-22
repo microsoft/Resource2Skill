@@ -1,0 +1,26 @@
+{
+  "variant_id": "kids_space_lesson",
+  "out_dirname": "kids_space_lesson",
+  "title": "Why rockets don't just fly up — they fall sideways!",
+  "audience": "4th-grade space class, 30-minute lesson",
+  "tone_words": ["playful", "warm", "curious"],
+  "archetype_preference": "narrative",
+  "mood_preference": ["playful", "warm", "bold"],
+  "mode_preference": "light",
+  "n_slides": 10,
+  "role_prefer": ["cover", "hero_giant_metric", "feature_grid", "bullet_card_list", "comparison_split", "closing_cta"],
+  "role_avoid": ["hero_quote", "section_divider"],
+  "dense_quota": 1,
+  "core_points": [
+    "Kids already know: drop a ball, it falls. Throw a ball, it falls AND goes sideways.",
+    "The secret of orbit: rockets throw themselves sideways so fast that they keep missing the ground",
+    "The ISS is literally falling toward Earth right now — but it's moving sideways at 28,000 km/h",
+    "Fun numbers: ISS goes around Earth every 90 minutes, you'd fit 8 Earths across the orbit radius",
+    "Why we can't just 'go up' to space — air runs out, rockets get heavy, sideways is the trick",
+    "Different rockets have different jobs: big ones for cargo, small ones for astronauts, reusable ones come back",
+    "Draw-along moment: sketch your own orbit — the faster you throw, the farther around you go",
+    "What YOU could send to space: name tags, student experiments, even seeds that grow in orbit",
+    "Homework idea: toss a tennis ball harder and harder across the playground, watch the arc grow",
+    "Big idea to remember: gravity isn't the enemy of space travel, sideways speed is the secret"
+  ]
+}

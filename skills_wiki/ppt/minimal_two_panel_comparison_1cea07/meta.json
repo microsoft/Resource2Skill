@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is designed for presenting a direct comparison or dichotomy between two distinct concepts or options. It utilizes two large, distinctly colored panels placed side-by-side for clear visual separation.",
+  "category_path": [
+    "data_presentation",
+    "comparison"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_two_panel_comparison_1cea07",
+  "skill_name": "Minimal Two-Panel Comparison",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "comparison",
+    "dichotomy",
+    "minimalist",
+    "two_panel",
+    "side_by_side",
+    "bold"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:58Z",
+  "wash_version": "1.0.0"
+}

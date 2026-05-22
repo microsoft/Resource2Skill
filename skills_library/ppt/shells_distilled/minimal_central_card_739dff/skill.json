@@ -1,0 +1,63 @@
+{
+  "skill_id": "minimal_central_card_739dff",
+  "skill_type": "shell",
+  "name": "Minimal Central Card",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "quote"
+    ],
+    "content_shape": [
+      "central-card"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "clean"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_central_card_739dff/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neumorphic_dual_shadow_card_soft_ui_embo_e8daa7ea",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The image displays a single, centered rounded rectangle. This translates perfectly into a minimal central card layout, ideal for section dividers, key takeaways, or quotes.",
+  "_distill_attempts": 1
+}

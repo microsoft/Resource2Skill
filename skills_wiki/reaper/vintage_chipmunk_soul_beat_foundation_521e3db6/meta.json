@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates the complete rhythmic and harmonic foundation for classic hip-hop, neo-soul, or boom-bap tracks. Ideal for building a verse or hook in the style of early Kanye West production.",
+  "category_path": [
+    "beatmaking",
+    "hip_hop",
+    "soul"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vintage_chipmunk_soul_beat_foundation_521e3db6",
+  "skill_name": "Chipmunk Soul Beat Foundation",
+  "source": {
+    "channel": "Dilly",
+    "duration_sec": 361,
+    "type": "youtube",
+    "video_id": "_NphqICDbG4",
+    "video_title": "How To Flip Soul Samples Like Kanye",
+    "video_url": "https://www.youtube.com/watch?v=_NphqICDbG4",
+    "views": 66365
+  },
+  "tags": [
+    "hip-hop",
+    "boom-bap",
+    "soul",
+    "sample-chop",
+    "kanye"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:48:31Z",
+  "wash_version": "1.0.0"
+}

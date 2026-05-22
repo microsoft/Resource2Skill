@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_r_b_extended_chord_engine_4a7d7f26",
+  "skill_name": "Neo-Soul / R&B Extended Chord Engine",
+  "source": {
+    "channel": "Kamau Duane",
+    "duration_sec": 447,
+    "type": "youtube",
+    "video_id": "bDA5rAJuOwg",
+    "video_title": "Jazz Chord Engine For Chordz or Cthulhu",
+    "video_url": "https://www.youtube.com/watch?v=bDA5rAJuOwg",
+    "views": 24736
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:10Z",
+  "wash_version": "1.0.0"
+}

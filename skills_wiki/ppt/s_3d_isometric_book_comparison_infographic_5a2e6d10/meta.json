@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_isometric_book_comparison_infographic_5a2e6d10",
+  "skill_name": "3D Isometric Book Comparison Infographic",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 541,
+    "type": "youtube",
+    "video_id": "Gcvi4mewrgs",
+    "video_title": "Animated Educational Comparison Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=Gcvi4mewrgs",
+    "views": 10026
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:46:16Z",
+  "wash_version": "1.0.0"
+}

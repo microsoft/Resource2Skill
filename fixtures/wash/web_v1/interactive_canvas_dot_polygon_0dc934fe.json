@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_canvas_dot_polygon_0dc934fe",
+  "source": {
+    "channel": "Interactive Developer",
+    "duration_sec": 687,
+    "type": "youtube",
+    "video_id": "urDcoyIc6VQ",
+    "video_title": "Creative Coding Tutorial : Rotating polygons in HTML5 canvas with JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=urDcoyIc6VQ",
+    "views": 21480
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_css_micro_interaction_button_eb3066f2",
+  "source": {
+    "channel": "Tyler Potts",
+    "duration_sec": 1211,
+    "type": "youtube",
+    "video_id": "RlkiUib1o_I",
+    "video_title": "Awesome CSS Button Animations - Easy Beginner Friendly Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=RlkiUib1o_I",
+    "views": 11374
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_conic_glow_border_f16daee8",
+  "skill_name": "Animated Conic Glow Border",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 357,
+    "type": "youtube",
+    "video_id": "ezP4kbOvs_E",
+    "video_title": "Learn CSS Border Animations in 6 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=ezP4kbOvs_E",
+    "views": 536887
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:16Z",
+  "wash_version": "1.0.0"
+}

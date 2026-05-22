@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "svg_path_line_drawing_reveal_4a9493c1",
+  "source": {
+    "channel": "TK",
+    "duration_sec": 510,
+    "type": "youtube",
+    "video_id": "dLmxNzRiHKk",
+    "video_title": "SVG animation: animate an SVG icon with CSS",
+    "video_url": "https://www.youtube.com/watch?v=dLmxNzRiHKk",
+    "views": 450
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

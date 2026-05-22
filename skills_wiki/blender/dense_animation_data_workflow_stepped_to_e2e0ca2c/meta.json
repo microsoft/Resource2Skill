@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dense_animation_data_workflow_stepped_to_e2e0ca2c",
+  "skill_name": "Dense Animation Data Workflow (Stepped to Spline)",
+  "source": {
+    "channel": "Harvey Newman",
+    "duration_sec": 1224,
+    "type": "youtube",
+    "video_id": "TIBzcsOt2FU",
+    "video_title": "Animation Power Tips - When to go from BLOCKING to SPLINE (S02 E04)",
+    "video_url": "https://www.youtube.com/watch?v=TIBzcsOt2FU",
+    "views": 19910
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:29Z",
+  "wash_version": "1.0.0"
+}

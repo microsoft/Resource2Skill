@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_offset_diamond_overlay_49aa0e3a",
+  "skill_name": "Geometric Offset Diamond Overlay",
+  "source": {
+    "channel": "powerpoint templates",
+    "duration_sec": 81,
+    "type": "youtube",
+    "video_id": "AM7L8RyG2j0",
+    "video_title": "Concise magazine Business plan PowerPoint template download",
+    "video_url": "https://www.youtube.com/watch?v=AM7L8RyG2j0",
+    "views": 147
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:30:28Z",
+  "wash_version": "1.0.0"
+}

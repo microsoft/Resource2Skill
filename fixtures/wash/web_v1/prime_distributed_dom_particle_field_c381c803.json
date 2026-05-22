@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "prime_distributed_dom_particle_field_c381c803",
+  "source": {
+    "channel": "Ecem Gokdogan",
+    "duration_sec": 247,
+    "type": "youtube",
+    "video_id": "pfCZ0tU9anM",
+    "video_title": "Particle Background Animation | Vanilla Javascript & CSS",
+    "video_url": "https://www.youtube.com/watch?v=pfCZ0tU9anM",
+    "views": 1113
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

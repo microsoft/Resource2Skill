@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vintage_botanical_collage_dimensional_pa_bfcbf85e",
+  "skill_name": "Vintage Botanical Collage & Dimensional Papercraft Aesthetic",
+  "source": {
+    "channel": "HSN",
+    "duration_sec": 342,
+    "type": "youtube",
+    "video_id": "RCmXYhlnDbI",
+    "video_title": "Anna Griffin Quotes and Flower Embellishments",
+    "video_url": "https://www.youtube.com/watch?v=RCmXYhlnDbI",
+    "views": 307
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:35Z",
+  "wash_version": "1.0.0"
+}

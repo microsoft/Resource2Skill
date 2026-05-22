@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gritty_electro_syncopated_bassline_0f443726",
+  "skill_name": "Gritty Electro Syncopated Bassline",
+  "source": {
+    "channel": "DiasparMusic",
+    "duration_sec": 225,
+    "type": "youtube",
+    "video_id": "d8OL6kJPaig",
+    "video_title": "SYNTHWAVE RETROWAVE WITH REAPER!",
+    "video_url": "https://www.youtube.com/watch?v=d8OL6kJPaig",
+    "views": 5330
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:16:34Z",
+  "wash_version": "1.0.0"
+}

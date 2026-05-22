@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_split_background_kpi_dashboard_a6597532",
+  "skill_name": "Themed Split-Background KPI Dashboard",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:33Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 139,
+          "description": "Dashboard canvas with title and subtitle"
+        },
+        {
+          "seconds": 747,
+          "description": "KPI placeholders with icons and values"
+        },
+        {
+          "seconds": 1010,
+          "description": "Sales agent KPIs table with conditional formatting"
+        },
+        {
+          "seconds": 1547,
+          "description": "All charts added and formatted on the dashboard"
+        },
+        {
+          "seconds": 1829,
+          "description": "Fully updated and interactive sales dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_dashboard_canvas_with_title_an.jpg",
+        "frame_01_kpi_placeholders_with_icons_an.jpg",
+        "frame_02_sales_agent_kpis_table_with_co.jpg"
+      ],
+      "recapped_at": 1777407793.9600716
+    },
+    "primary_path": "frame_00_dashboard_canvas_with_title_an.jpg"
+  }
+}

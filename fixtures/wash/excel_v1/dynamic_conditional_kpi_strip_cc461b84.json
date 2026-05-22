@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_conditional_kpi_strip_cc461b84",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 2128,
+    "type": "youtube",
+    "video_id": "_PlBRWc0RlI",
+    "video_title": "Easy Build Budget vs Actual Dashboard + FREE File Download",
+    "video_url": "https://www.youtube.com/watch?v=_PlBRWc0RlI",
+    "views": 1032863
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

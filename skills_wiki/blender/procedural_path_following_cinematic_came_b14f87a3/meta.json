@@ -1,0 +1,37 @@
+{
+  "applicability": "Creates smooth, broadcast-quality sweeping shots by decoupling camera translation from rotation. Ideal for architectural walkthroughs, product turntable animations, and cinematic establishing shots.",
+  "category_path": [
+    "animation",
+    "camera"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_path_following_cinematic_came_b14f87a3",
+  "skill_name": "Procedural Path-Following Cinematic Camera Rig",
+  "source": {
+    "channel": "MK Graphics",
+    "duration_sec": 1049,
+    "type": "youtube",
+    "video_id": "r9i6g-pToVM",
+    "video_title": "Blender 3.3 Camera Controls And Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=r9i6g-pToVM",
+    "views": 253265
+  },
+  "tags": [
+    "camera_rig",
+    "path_following",
+    "constraints",
+    "depth_of_field",
+    "cinematic",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:14Z",
+  "wash_version": "1.0.0"
+}

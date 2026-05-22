@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_text_logo_orbital_camera_rig_062bcdef",
+  "skill_name": "3D Text Logo & Orbital Camera Rig",
+  "source": {
+    "channel": "djtutorials",
+    "duration_sec": 2989,
+    "type": "youtube",
+    "video_id": "RmEIz5tiCvA",
+    "video_title": "Blender Text Logo and Camera Animation | DJ Helps",
+    "video_url": "https://www.youtube.com/watch?v=RmEIz5tiCvA",
+    "views": 820
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:58:03Z",
+  "wash_version": "1.0.0"
+}

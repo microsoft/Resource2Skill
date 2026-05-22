@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this skill to create a 3D stacked diagram from 2D shapes, perfect for visualizing layered architectures, tech stacks, or multi-stage processes. The isometric perspective makes hierarchical relationships clear and visually engaging.",
+  "category_path": [
+    "diagram",
+    "layered_architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_isometric_stacked_layers_infographic_ebb76a56",
+  "skill_name": "Isometric Stacked Layers Infographic",
+  "source": {
+    "channel": "Infographics School",
+    "duration_sec": 326,
+    "type": "youtube",
+    "video_id": "kM36yvFTIlk",
+    "video_title": "How to Create 3D Block Layers Infographic in Microsoft PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=kM36yvFTIlk",
+    "views": 25285
+  },
+  "tags": [
+    "isometric",
+    "3d stack",
+    "layered diagram",
+    "architecture",
+    "infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:44Z",
+  "wash_version": "1.0.0"
+}

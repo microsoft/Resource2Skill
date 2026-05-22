@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_reveal_panel_964e54af",
+  "skill_name": "Glassmorphism Reveal Panel",
+  "source": {
+    "channel": "The ppt Guy",
+    "duration_sec": 197,
+    "type": "youtube",
+    "video_id": "kZYqDtqppx4",
+    "video_title": "PowerPoint Glassmorphic Effect in Less than 3 mins",
+    "video_url": "https://www.youtube.com/watch?v=kZYqDtqppx4",
+    "views": 54244
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:11Z",
+  "wash_version": "1.0.0"
+}

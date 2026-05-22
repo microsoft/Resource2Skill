@@ -1,0 +1,405 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "list_skills",
+      "description": "List or search skills in the Blender 3D skill library.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Filter by category."
+          },
+          "query": {
+            "type": "string",
+            "description": "Search by name."
+          },
+          "verified_only": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_info",
+      "description": "Get detailed information about a Blender skill.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID."
+          }
+        },
+        "required": [
+          "skill_id"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_code",
+      "description": "Get full bpy code from a skill.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID."
+          }
+        },
+        "required": [
+          "skill_id"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "execute_blender_code",
+      "description": "Execute arbitrary Python code in the Blender environment (bpy).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "Python/bpy code to execute."
+          },
+          "from_skill_ids": {
+            "type": "string",
+            "description": "JSON/comma list of inspected wiki skill ids adapted by this code."
+          },
+          "target_node": {
+            "type": "string",
+            "description": "Object/material/lighting/composition role, or JSON/comma list for multiple grounded roles."
+          },
+          "adaptation_notes": {
+            "type": "string",
+            "description": "Short note describing the concrete mechanisms borrowed from the skills."
+          }
+        },
+        "required": [
+          "code"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_scene_info",
+      "description": "Get current Blender scene information (objects, render engine, etc.).",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_viewport_screenshot",
+      "description": "Render a quick viewport preview of the current scene.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "default": 512
+          },
+          "height": {
+            "type": "integer",
+            "default": 512
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_object_from_skill",
+      "description": "Execute a skill's code directly in Blender to add an object to the scene.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID."
+          },
+          "object_name": {
+            "type": "string",
+            "description": "Override object name."
+          },
+          "location": {
+            "type": "string",
+            "description": "Location as 'x,y,z'.",
+            "default": "0,0,0"
+          },
+          "scale": {
+            "type": "number",
+            "description": "Scale factor.",
+            "default": 1.0
+          }
+        },
+        "required": [
+          "skill_id"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_scene_polish_pack",
+      "description": "Apply deterministic scene-polish assets, materials, lighting, and camera adjustments before final render.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scene_type": {
+            "type": "string",
+            "default": "auto",
+            "description": "auto, cyberpunk_corridor, or generic"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "render_scene",
+      "description": "Render the current scene to a PNG file in demo/blender/.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "output_name": {
+            "type": "string",
+            "default": "render"
+          },
+          "width": {
+            "type": "integer",
+            "default": 1920
+          },
+          "height": {
+            "type": "integer",
+            "default": 1080
+          },
+          "samples": {
+            "type": "integer",
+            "default": 64
+          },
+          "engine": {
+            "type": "string",
+            "default": "EEVEE",
+            "description": "EEVEE or CYCLES"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "save_scene",
+      "description": "Save the .blend file to demo/blender/.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "output_name": {
+            "type": "string",
+            "default": "my_scene"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_material_presets",
+      "description": "List PBR material preset names (metal_brushed, glass_frosted, water_ocean, foliage_green, fabric_velvet, ceramic_glossy, plastic_matte, concrete_raw, neon_emissive). Use these instead of writing raw Principled BSDF setups.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_material_preset",
+      "description": "Return the JSON for a material preset (Principled BSDF inputs).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_material_preset",
+      "description": "Create a material from the preset and assign it to an existing object by name.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "preset_name": {
+            "type": "string"
+          },
+          "object_name": {
+            "type": "string"
+          },
+          "material_name": {
+            "type": "string",
+            "description": "Optional override; defaults to <preset_name>_mat"
+          }
+        },
+        "required": [
+          "preset_name",
+          "object_name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_lighting_rigs",
+      "description": "List lighting rig names (studio_3point, golden_hour, neon_corridor, overcast_overhead, dramatic_rim). Each rig is a curated set of lights + world settings for a specific mood.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_lighting_rig",
+      "description": "Return the JSON for a lighting rig.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_lighting_rig",
+      "description": "Replace existing lights with a named lighting rig and configure world/background tone so exposure does not stack across attempts.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "rig_name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "rig_name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_scene_shells",
+      "description": "List complete scene shells (cyberpunk_corridor, forest_landscape, product_hero_shot, interior_living_room, sci_fi_exterior). A shell builds geometry + materials + lighting + camera in one call. Always check shells before building from primitives.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "build_scene_from_shell",
+      "description": "Build a complete themed scene from a shell. Resets the current scene, then runs the shell's build(**kwargs).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "shell_id": {
+            "type": "string"
+          },
+          "kwargs_json": {
+            "type": "string",
+            "description": "JSON dict of kwargs, e.g. {\"neon_color\":\"cyan\"}"
+          }
+        },
+        "required": [
+          "shell_id"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "search_skills",
+      "description": "Search wiki skills by task keywords, optionally filtered by tier or category_path.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string"},
+          "tier": {"type": "string", "description": "T1|T2|T3|T4|T5"},
+          "category_path": {"type": "string"},
+          "k": {"type": "integer"}
+        },
+        "required": ["query"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_visual",
+      "description": "Return the visual reference path for a wiki skill and attach it to the model when available.",
+      "parameters": {
+        "type": "object",
+        "properties": {"skill_id": {"type": "string"}},
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_skill",
+      "description": "Apply a wiki T3/T4/T5 Blender skill through the domain capability matrix.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {"type": "string"},
+          "target_id": {"type": "string", "description": "usually Scene"},
+          "kwargs_json": {"type": "string", "description": "JSON-encoded kwargs"}
+        },
+        "required": ["skill_id", "target_id"]
+      }
+    }
+  }
+]

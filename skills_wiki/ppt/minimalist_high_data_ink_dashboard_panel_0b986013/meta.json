@@ -1,0 +1,37 @@
+{
+  "applicability": "Highly effective for executive summaries, SaaS product analytics, and financial reporting where clear, unambiguous data communication is prioritized. It's ideal for presentations valuing direct data engagement over decorative flair.",
+  "category_path": [
+    "dashboard_design",
+    "minimalist_style",
+    "data_visualization"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_high_data_ink_dashboard_panel_0b986013",
+  "skill_name": "Minimalist \"High Data-Ink\" Dashboard Panel",
+  "source": {
+    "channel": "Adam Finer - Learn BI",
+    "duration_sec": 1031,
+    "type": "youtube",
+    "video_id": "5pCdw-PV0Js",
+    "video_title": "\ud83d\udea8 YOU'RE VISUALIZING YOUR DATA WRONG. And Here's Why...",
+    "video_url": "https://www.youtube.com/watch?v=5pCdw-PV0Js",
+    "views": 385945
+  },
+  "tags": [
+    "data-ink",
+    "minimalist",
+    "dashboard",
+    "executive",
+    "analytics",
+    "tufte"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:50:21Z",
+  "wash_version": "1.0.0"
+}

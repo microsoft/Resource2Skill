@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is used for creating impactful cover or section divider slides. It's designed for presentations requiring a strong visual statement with a dominant full-bleed image and a prominent headline.",
+  "category_path": [
+    "presentation",
+    "covers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_bleed_hero_cover_3442bd",
+  "skill_name": "Full Bleed Hero Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "hero image",
+    "cover slide",
+    "section divider",
+    "bold presentation",
+    "headline",
+    "full bleed"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:08:38Z",
+  "wash_version": "1.0.0"
+}

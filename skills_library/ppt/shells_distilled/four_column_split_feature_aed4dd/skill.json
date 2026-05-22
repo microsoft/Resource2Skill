@@ -1,0 +1,81 @@
+{
+  "skill_id": "four_column_split_feature_aed4dd",
+  "skill_type": "shell",
+  "name": "Four Column Split Feature",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "comparison_split"
+    ],
+    "content_shape": [
+      "1-text-col + 1-image-col + 2-feature-cols"
+    ],
+    "density": "medium",
+    "mood": [
+      "editorial",
+      "bold",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "intro_body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "features",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 2
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/four_column_split_feature_aed4dd/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "asymmetric_tri_panel_pillar_layout_edito_4edf740a",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.6499999999999999
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "A 4-column editorial layout contrasting a text introduction, a full-bleed image column, and two distinct feature columns with alternating backgrounds.",
+  "_distill_attempts": 3
+}

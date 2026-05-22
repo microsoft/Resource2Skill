@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a performant, ambient background for modern web interfaces. Ideal for hero sections, landing pages, or login screens to add a fluid, premium feel without distracting from content.",
+  "category_path": [
+    "css",
+    "animation",
+    "background_effect"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_liquid_wave_background_7bd4a56d",
+  "skill_name": "CSS Liquid Wave Background",
+  "source": {
+    "channel": "Fd Web design",
+    "duration_sec": 170,
+    "type": "youtube",
+    "video_id": "hB9GhqXNIlA",
+    "video_title": "Amazing Wave Background only CSS | CSS Animation",
+    "video_url": "https://www.youtube.com/watch?v=hB9GhqXNIlA",
+    "views": 1500
+  },
+  "tags": [
+    "css",
+    "animation",
+    "background-effect",
+    "liquid-wave"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:00Z",
+  "wash_version": "1.0.0"
+}

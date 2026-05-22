@@ -1,0 +1,35 @@
+{
+  "applicability": "Essential for modern SaaS landing pages, portfolios, and web applications. It provides a foundational architecture for implementing user-selectable themes, improving accessibility and user experience in different lighting conditions.",
+  "category_path": [
+    "page_structure",
+    "theming"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_theme_toggle_landing_page_d8a92671",
+  "skill_name": "Landing Page with Dark/Light Theme Toggle",
+  "source": {
+    "channel": "Coding Master",
+    "duration_sec": 1136,
+    "type": "youtube",
+    "video_id": "Wtz2IfY9Sik",
+    "video_title": "Landing Page Design With Dark Theme Using HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=Wtz2IfY9Sik",
+    "views": 631
+  },
+  "tags": [
+    "dark mode",
+    "theme toggle",
+    "css variables",
+    "user experience",
+    "landing page"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:58:30Z",
+  "wash_version": "1.0.0"
+}

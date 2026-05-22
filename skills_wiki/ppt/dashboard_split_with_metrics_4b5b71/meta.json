@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for comprehensive data overviews, this slide showcases a primary chart, a secondary chart, and four key metrics for detailed performance analysis.",
+  "category_path": [
+    "data_visualization",
+    "metrics",
+    "dashboards"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_split_with_metrics_4b5b71",
+  "skill_name": "Dashboard Split with Metrics",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "dashboard",
+    "metrics",
+    "charts",
+    "kpi",
+    "data_analysis",
+    "layout"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:06:48Z",
+  "wash_version": "1.0.0"
+}

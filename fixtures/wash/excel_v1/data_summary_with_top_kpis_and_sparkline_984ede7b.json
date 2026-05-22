@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "data_summary_with_top_kpis_and_sparkline_984ede7b",
+  "source": {
+    "channel": "Aki Stepinska",
+    "duration_sec": 3090,
+    "type": "youtube",
+    "video_id": "1BROwwH1mAw",
+    "video_title": "Custom Excel Dashboard Tutorial: Charts, Themes & KPIs (Beginner to Pro)",
+    "video_url": "https://www.youtube.com/watch?v=1BROwwH1mAw",
+    "views": 678
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

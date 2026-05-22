@@ -1,0 +1,32 @@
+{
+  "applicability": "Essential for classic House, French Touch, Disco-House, or adding infectious bounce to any rigid 4/4 EDM subgenre. It transforms robotic drum loops into humanized, breathing grooves with a natural pumping sensation.",
+  "category_path": [
+    "drums",
+    "groove",
+    "house"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "daft_punk_french_house_909_micro_swung_g_563a3610",
+  "skill_name": "Daft Punk: French House 909 Micro-Swung Groove & Pump",
+  "source": {
+    "type": "youtube",
+    "video_title": "Daft Punk production tutorial"
+  },
+  "tags": [
+    "french house",
+    "909",
+    "micro timing",
+    "groove",
+    "pump",
+    "reaper drums"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:18Z",
+  "wash_version": "1.0.0"
+}

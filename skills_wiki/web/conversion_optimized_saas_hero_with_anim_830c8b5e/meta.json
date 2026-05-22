@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "conversion_optimized_saas_hero_with_anim_830c8b5e",
+  "skill_name": "Conversion-Optimized SaaS Hero with Animated Demo & Social Proof",
+  "source": {
+    "channel": "Payton Clark Smith",
+    "duration_sec": 594,
+    "type": "youtube",
+    "video_id": "QYmNMHl156E",
+    "video_title": "9 AMAZING SaaS Websites You Can Copy",
+    "video_url": "https://www.youtube.com/watch?v=QYmNMHl156E",
+    "views": 56775
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:57:24Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "Provides a complete production template for creating beats in the style of early 2000s 'chipmunk soul' hip-hop. Essential for boom-bap, lo-fi, and other sample-based genres.",
+  "category_path": [
+    "genre",
+    "hip_hop",
+    "sampling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "chipmunk_soul_boom_bap_foundation_proces_3518511f",
+  "skill_name": "Chipmunk Soul & Boom-Bap Production Template",
+  "source": {
+    "type": "youtube",
+    "video_title": "How To Flip Soul Samples Like Kanye",
+    "video_url": "https://www.youtube.com/watch?v=_NphqICDbG4"
+  },
+  "tags": [
+    "hip-hop",
+    "sampling",
+    "boom-bap",
+    "chipmunk soul",
+    "lo-fi"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:06:16Z",
+  "wash_version": "1.0.0"
+}

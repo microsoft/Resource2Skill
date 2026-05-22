@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this chart style to draw immediate attention to a key data point in a series. It is highly effective for competitive analysis, performance reviews, or any presentation needing a clear takeaway.",
+  "category_path": [
+    "charts",
+    "bar_charts",
+    "emphasis"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "highlight_accent_bar_chart_0c4742a9",
+  "skill_name": "Accent Bar Chart",
+  "source": {
+    "channel": "\u79cb\u53f6\u8bfe\u5802",
+    "duration_sec": 400,
+    "type": "youtube",
+    "video_id": "vH0A-ysNbvw",
+    "video_title": "PPT \u6559\u5b66 - \u9879\u76ee\u62a5\u544a\uff0c\u56fe\u8868\u5e94\u8be5\u8fd9\u6837\u505a\uff08\u4e0b\uff09\uff01",
+    "video_url": "https://www.youtube.com/watch?v=vH0A-ysNbvw",
+    "views": 478
+  },
+  "tags": [
+    "bar chart",
+    "data visualization",
+    "emphasis",
+    "accent color",
+    "storytelling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:36:13Z",
+  "wash_version": "1.0.0"
+}

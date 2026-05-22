@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_morphing_css_matrix_gallery_cube_to_r_999ec5f9",
+  "source": {
+    "channel": "padraig loughran",
+    "duration_sec": 330,
+    "type": "youtube",
+    "video_id": "XwVmwPCr54k",
+    "video_title": "CSS web animation (The Morphing Cube)",
+    "video_url": "https://www.youtube.com/watch?v=XwVmwPCr54k",
+    "views": 327
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for high-impact hero sections, landing page headlines, or storytelling experiences. It adds a cinematic, sci-fi scanning laser effect to draw immediate attention to key text.",
+  "category_path": [
+    "animation",
+    "text_effect"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scanner_bar_text_reveal_2555d24c",
+  "skill_name": "Scanner Bar Text Reveal",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 576,
+    "type": "youtube",
+    "video_id": "obrnWwsc1Y8",
+    "video_title": "Animated Text Reveal Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=obrnWwsc1Y8",
+    "views": 7901
+  },
+  "tags": [
+    "text-reveal",
+    "animation",
+    "background-clip",
+    "sci-fi-effect",
+    "css-keyframes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:45Z",
+  "wash_version": "1.0.0"
+}

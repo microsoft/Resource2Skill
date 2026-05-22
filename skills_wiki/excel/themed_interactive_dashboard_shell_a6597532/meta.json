@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_interactive_dashboard_shell_a6597532",
+  "skill_name": "Themed Interactive Dashboard Shell",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:00:20Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Finished interactive sales dashboard"
+        },
+        {
+          "seconds": 347,
+          "description": "Top KPI placeholders with icons, values, and labels"
+        },
+        {
+          "seconds": 1015,
+          "description": "Sales agent KPIs table with conditional formatting and sorting"
+        },
+        {
+          "seconds": 1549,
+          "description": "All charts and elements placed on the dashboard"
+        },
+        {
+          "seconds": 1820,
+          "description": "Fully updated and interactive sales dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_finished_interactive_sales_das.jpg",
+        "frame_01_top_kpi_placeholders_with_icon.jpg",
+        "frame_02_sales_agent_kpis_table_with_co.jpg"
+      ],
+      "recapped_at": 1777407712.5364928
+    },
+    "primary_path": "frame_00_finished_interactive_sales_das.jpg"
+  }
+}

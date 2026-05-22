@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "thematic_icon_proportion_chart_2e40fe90",
+  "skill_name": "Thematic Icon Proportion Chart (\u5716\u50cf\u5316\u4f54\u6bd4\u5716)",
+  "source": {
+    "channel": "\u7c21\u5831\u85dd\u8853\u70d8\u7119\u574a SlideArt",
+    "duration_sec": 311,
+    "type": "youtube",
+    "video_id": "08Q0iU_4syU",
+    "video_title": "\u5f62\u8c61\u5316\u4f54\u6bd4\u6578\u64da\uff01\u5982\u4f55\u7528 PPT \u88fd\u4f5c\u5716\u50cf\u4f54\u6bd4\u5716\uff5c3 \u5206\u9418\u5b78\u7c21\u5831 #004 #PPT\u5716\u8868 #\u5716\u8868\u5448\u73fe",
+    "video_url": "https://www.youtube.com/watch?v=08Q0iU_4syU",
+    "views": 13699
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:17Z",
+  "wash_version": "1.0.0"
+}

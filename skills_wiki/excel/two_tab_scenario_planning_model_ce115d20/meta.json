@@ -1,0 +1,54 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_tab_scenario_planning_model_ce115d20",
+  "skill_name": "Two-Tab Scenario Planning Model",
+  "source": {
+    "channel": "Ali H. Salem",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=iEh53QLluNw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:37Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 248,
+          "description": "Generated 'Assumptions' tab of the financial model."
+        },
+        {
+          "seconds": 260,
+          "description": "Generated 'Model' tab with 24-month forecast."
+        },
+        {
+          "seconds": 367,
+          "description": "Enhanced 'Model' tab with marketing spend and contribution margin."
+        },
+        {
+          "seconds": 383,
+          "description": "Updated chart showing monthly revenue and contribution margin."
+        }
+      ],
+      "frames": [
+        "frame_00_generated_assumptions_tab_of_t.jpg",
+        "frame_01_generated_model_tab_with_24_mo.jpg",
+        "frame_02_enhanced_model_tab_with_market.jpg",
+        "frame_03_updated_chart_showing_monthly_.jpg"
+      ],
+      "recapped_at": 1777407923.8803582
+    },
+    "primary_path": "frame_00_generated_assumptions_tab_of_t.jpg"
+  }
+}

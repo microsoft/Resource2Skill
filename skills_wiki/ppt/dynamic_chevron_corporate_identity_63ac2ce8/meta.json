@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for Title Slides, Chapter Headers, Vision/Mission Statements, and Strategic Goal reveals. It balances human elements (photos) with data-driven geometry in corporate reporting.",
+  "category_path": [
+    "slide_design",
+    "corporate_branding"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_chevron_corporate_identity_63ac2ce8",
+  "skill_name": "Dynamic Chevron Corporate Identity",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 295,
+    "type": "youtube",
+    "video_id": "vHUDyCjpw7I",
+    "video_title": "Customer Service Review PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=vHUDyCjpw7I",
+    "views": 1638
+  },
+  "tags": [
+    "chevron",
+    "corporate",
+    "identity",
+    "momentum",
+    "geometric",
+    "slide_design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:17:24Z",
+  "wash_version": "1.0.0"
+}

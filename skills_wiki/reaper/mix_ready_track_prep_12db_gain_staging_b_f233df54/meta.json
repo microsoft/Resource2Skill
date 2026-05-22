@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mix_ready_track_prep_12db_gain_staging_b_f233df54",
+  "skill_name": "Mix-Ready Track Prep (-12dB Gain Staging & Bracketing)",
+  "source": {
+    "channel": "Gordian Knot Project",
+    "duration_sec": 912,
+    "type": "youtube",
+    "video_id": "OsBVtAbMX3A",
+    "video_title": "Level Balancing, High/Low Passing, and Cross-Over Frequency Removal - My Mixing Process - Step 01",
+    "video_url": "https://www.youtube.com/watch?v=OsBVtAbMX3A",
+    "views": 49
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:51:59Z",
+  "wash_version": "1.0.0"
+}

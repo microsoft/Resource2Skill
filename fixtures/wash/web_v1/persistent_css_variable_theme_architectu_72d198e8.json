@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "persistent_css_variable_theme_architectu_72d198e8",
+  "source": {
+    "channel": "How to Become a Developer",
+    "duration_sec": 3566,
+    "type": "youtube",
+    "video_id": "rKqHbLuKaO8",
+    "video_title": "How To Make Website DARK MODE | Dark Theme Website Design Using HTML, CSS & JS",
+    "video_url": "https://www.youtube.com/watch?v=rKqHbLuKaO8",
+    "views": 14672
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

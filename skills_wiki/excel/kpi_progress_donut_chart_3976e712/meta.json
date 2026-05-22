@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kpi_progress_donut_chart_3976e712",
+  "skill_name": "KPI Progress Donut Chart",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:41:58Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 250,
+          "description": "First shape for dashboard title formatted with white fill and shadow"
+        },
+        {
+          "seconds": 415,
+          "description": "Dashboard layout structured with named shapes for charts and KPIs"
+        },
+        {
+          "seconds": 841,
+          "description": "All individual charts (radar, map, line, donut) created and partially formatted on the inputs tab"
+        },
+        {
+          "seconds": 1506,
+          "description": "Final interactive sales dashboard in Excel with all visuals and formatting"
+        }
+      ],
+      "frames": [
+        "frame_00_first_shape_for_dashboard_titl.jpg",
+        "frame_01_dashboard_layout_structured_wi.jpg",
+        "frame_02_all_individual_charts_radar_ma.jpg"
+      ],
+      "recapped_at": 1777407111.4633427
+    },
+    "primary_path": "frame_00_first_shape_for_dashboard_titl.jpg"
+  }
+}

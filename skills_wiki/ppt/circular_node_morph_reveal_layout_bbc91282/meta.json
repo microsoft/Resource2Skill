@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_node_morph_reveal_layout_bbc91282",
+  "skill_name": "Circular Node Morph Reveal Layout",
+  "source": {
+    "channel": "PPT\u53d8\u5f62\u8bb0",
+    "duration_sec": 184,
+    "type": "youtube",
+    "video_id": "HOGPqzcl_-Q",
+    "video_title": "PowerPoint\u52a8\u753b\u5236\u4f5c\u6280\u5de7\u2014\u2014\u7f29\u53d8\u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=HOGPqzcl_-Q",
+    "views": 165
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:28:58Z",
+  "wash_version": "1.0.0"
+}

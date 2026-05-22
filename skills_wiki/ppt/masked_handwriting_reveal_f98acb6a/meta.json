@@ -1,0 +1,36 @@
+{
+  "applicability": "Excellent for title slides, key term introductions, or short, impactful text needing a personal touch. Ideal for presentations with scrapbook, blueprint, or artisanal themes.",
+  "category_path": [
+    "animation",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "masked_handwriting_reveal_f98acb6a",
+  "skill_name": "Masked Handwriting Reveal",
+  "source": {
+    "channel": "ALAM PowerPoint",
+    "duration_sec": 166,
+    "type": "youtube",
+    "video_id": "_oWon6sgVZk",
+    "video_title": "How to Create Smooth Handwriting Animation in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=_oWon6sgVZk",
+    "views": 7538
+  },
+  "tags": [
+    "text effect",
+    "masking",
+    "reveal animation",
+    "handwriting",
+    "script",
+    "title slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:38:32Z",
+  "wash_version": "1.0.0"
+}

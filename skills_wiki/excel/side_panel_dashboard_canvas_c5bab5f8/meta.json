@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "side_panel_dashboard_canvas_c5bab5f8",
+  "skill_name": "Side-Panel Dashboard Canvas",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:26Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 107,
+          "description": "Fully interactive dashboard preview"
+        },
+        {
+          "seconds": 855,
+          "description": "Dashboard side panel with KPIs and emojis taking shape"
+        },
+        {
+          "seconds": 1406,
+          "description": "Purchase patterns heat map pasted onto the dashboard"
+        },
+        {
+          "seconds": 2146,
+          "description": "All charts placed on the dashboard before final polishing"
+        },
+        {
+          "seconds": 2752,
+          "description": "Final polished interactive dashboard with custom color scheme"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_interactive_dashboard_pr.jpg",
+        "frame_01_dashboard_side_panel_with_kpis.jpg",
+        "frame_02_purchase_patterns_heat_map_pas.jpg"
+      ],
+      "recapped_at": 1777407414.8553572
+    },
+    "primary_path": "frame_00_fully_interactive_dashboard_pr.jpg"
+  }
+}

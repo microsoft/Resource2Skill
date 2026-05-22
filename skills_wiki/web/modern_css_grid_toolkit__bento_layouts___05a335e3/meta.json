@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_css_grid_toolkit__bento_layouts___05a335e3",
+  "skill_name": "Modern CSS Grid Toolkit: Bento Layouts & Auto-Wrapping Galleries",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=JYfiaSKeYhE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:45:31Z",
+  "wash_version": "1.0.0"
+}

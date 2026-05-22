@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_calligraphic_epilogue_19de10e6",
+  "skill_name": "Cinematic Calligraphic Epilogue (\u7535\u5f71\u7ea7\u4e66\u6cd5\u9519\u843d\u7ed3\u8bed)",
+  "source": {
+    "channel": "\u4e0d\u8d30\u6cd5\u95e8PPT",
+    "duration_sec": 66,
+    "type": "youtube",
+    "video_id": "i7i55m0Gy_8",
+    "video_title": "00\u540e\u540c\u4e8b\u7adf\u4e00\u5206\u949f\u505a\u51faPPT\u7535\u5f71\u7ed3\u5c3e #PPT #PPT\u6559\u5b66 #\u4e00\u5206\u949f\u5e72\u8d27\u6559\u5b66 #0\u57fa\u7840\u5b66\u7535\u8111 #PPT\u6a21\u677f \u6296\u97f3\u521b\u4f5c\u5c0f\u52a9\u624b",
+    "video_url": "https://www.youtube.com/watch?v=i7i55m0Gy_8",
+    "views": 6
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:56:34Z",
+  "wash_version": "1.0.0"
+}

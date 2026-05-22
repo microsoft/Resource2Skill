@@ -1,0 +1,230 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "create-project",
+      "description": "Create a new web project workspace with starter HTML/CSS/JS files.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Project name (default: 'my_project').",
+            "default": "my_project"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "write-file",
+      "description": "Write or overwrite a file in the project workspace.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "description": "Project ID from create-project."
+          },
+          "filename": {
+            "type": "string",
+            "description": "Filename (e.g., 'style.css', 'components/hero.html')."
+          },
+          "content": {
+            "type": "string",
+            "description": "File content to write."
+          },
+          "from_skill_ids": {
+            "type": "string",
+            "description": "JSON/comma list of inspected wiki skill ids adapted by this write."
+          },
+          "target_node": {
+            "type": "string",
+            "description": "Section/role target, or JSON/comma list for multiple targets."
+          },
+          "adaptation_notes": {
+            "type": "string",
+            "description": "Short note describing the concrete mechanisms borrowed from the skills."
+          }
+        },
+        "required": ["project_id", "filename", "content"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read-file",
+      "description": "Read a file's content from the project workspace.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "description": "Project ID."
+          },
+          "filename": {
+            "type": "string",
+            "description": "Filename to read."
+          }
+        },
+        "required": ["project_id", "filename"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add-component-from-skill",
+      "description": "Add a web component to the project by executing a skill from the library.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "description": "Project ID."
+          },
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID from list-skills."
+          },
+          "content_brief": {
+            "type": "string",
+            "description": "Text content for the component (title on first line, body on rest)."
+          },
+          "style_hints": {
+            "type": "string",
+            "description": "Style preferences (e.g., 'dark theme, accent #00bfff')."
+          }
+        },
+        "required": ["project_id", "skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "render-page",
+      "description": "Render the project's index.html to a PNG screenshot via headless Chromium.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "description": "Project ID."
+          },
+          "width": {
+            "type": "integer",
+            "description": "Viewport width in pixels (default: 1280).",
+            "default": 1280
+          },
+          "height": {
+            "type": "integer",
+            "description": "Viewport height in pixels (default: 800).",
+            "default": 800
+          }
+        },
+        "required": ["project_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "inspect-dom",
+      "description": "Inspect the DOM structure and check for console errors.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "description": "Project ID."
+          }
+        },
+        "required": ["project_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list-skills",
+      "description": "List or search skills in the web component library.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Filter by category (e.g., 'hero_section', 'animation'). Leave empty for summary."
+          },
+          "query": {
+            "type": "string",
+            "description": "Search query to filter skills by name."
+          },
+          "verified_only": {
+            "type": "boolean",
+            "description": "Only show verified skills (default: true).",
+            "default": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-skill-info",
+      "description": "Get detailed information about a specific skill.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "The skill ID to look up."
+          }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get-skill-code",
+      "description": "Get full Python code from a skill for reference or direct use.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": {
+            "type": "string",
+            "description": "The skill ID to look up."
+          }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "save-project",
+      "description": "Save the project to demo/web/ for permanent storage.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "description": "Project ID."
+          },
+          "output_name": {
+            "type": "string",
+            "description": "Output directory name under demo/web/."
+          }
+        },
+        "required": ["project_id"]
+      }
+    }
+  }
+]

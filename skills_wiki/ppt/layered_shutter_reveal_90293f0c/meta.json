@@ -1,0 +1,36 @@
+{
+  "applicability": "Effective for creating cinematic openings for title slides, section dividers, product launches, or hero/keynote slides to build anticipation and dramatic reveals.",
+  "category_path": [
+    "animation",
+    "reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_shutter_reveal_90293f0c",
+  "skill_name": "Layered Shutter Reveal",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "LFed-y0n7nI",
+    "video_title": "\u53ea\u9700\u4e00\u5f20\u56fe\u7247\uff0c\u5236\u4f5cPPT\u9707\u64bc\u5f00\u573a\u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=LFed-y0n7nI",
+    "views": 1418
+  },
+  "tags": [
+    "reveal",
+    "shutter",
+    "animation",
+    "cinematic",
+    "dynamic",
+    "transition"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:38:27Z",
+  "wash_version": "1.0.0"
+}

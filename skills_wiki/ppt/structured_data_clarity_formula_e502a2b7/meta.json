@@ -1,0 +1,36 @@
+{
+  "applicability": "This foundational skill applies to any professional presentation involving structured data like financial reports, product comparisons, or project timelines, enhancing data readability and impact.",
+  "category_path": [
+    "data_presentation",
+    "tables"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "structured_data_clarity_formula_e502a2b7",
+  "skill_name": "Structured Data Clarity Formula",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 317,
+    "type": "youtube",
+    "video_id": "raacws19R60",
+    "video_title": "\u8fd9\u79cd\u770b\u4e0d\u6e05\u7684PPT\u8868\u683c\u522b\u7528\u4e86\uff01\u5b66\u4f1a\u8fd9\u4e00\u62db\uff0c\u9875\u9762\u76f4\u63a5\u5c01\u795e\uff01\u3010\u65c1\u95e8\u5de6\u9053\u3011",
+    "video_url": "https://www.youtube.com/watch?v=raacws19R60",
+    "views": 5887
+  },
+  "tags": [
+    "tables",
+    "data visualization",
+    "readability",
+    "minimalist design",
+    "professional reports",
+    "clarity"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:17:32Z",
+  "wash_version": "1.0.0"
+}

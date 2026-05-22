@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_character_sculpting_blockout_43730211",
+  "skill_name": "Procedural Character Sculpting Blockout",
+  "source": {
+    "channel": "Bran Sculpts",
+    "duration_sec": 2148,
+    "type": "youtube",
+    "video_id": "J2_uiUEcY7w",
+    "video_title": "Blocking Out - Blender Character Sculpt Tutorial part 1",
+    "video_url": "https://www.youtube.com/watch?v=J2_uiUEcY7w",
+    "views": 1048701
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:57Z",
+  "wash_version": "1.0.0"
+}

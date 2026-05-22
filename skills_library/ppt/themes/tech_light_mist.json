@@ -1,0 +1,120 @@
+{
+  "theme_id": "tech_light_mist",
+  "name": "Tech Light Mist",
+  "palette": {
+    "bg": "#F5F8FB",
+    "panel": "#E7EDF4",
+    "accent": "#0B7CB8",
+    "accent2": "#C73E6B",
+    "text": "#0F1B28",
+    "muted": "#5F6D7E",
+    "border": "#C7D1DD",
+    "success": "#20A48B",
+    "warning": "#E58A3E"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "grid_bg",
+    "description": "Faint technical grid"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "dynamic",
+    "preferred_entrance": [
+      "wipe",
+      "in_left",
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": []
+  },
+  "mood": [
+    "technical",
+    "bold"
+  ],
+  "archetype_fit": [
+    "product",
+    "data",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "marquee",
+    "pixel",
+    "dot-matrix",
+    "glitch",
+    "chromatic",
+    "iris",
+    "spotlight"
+  ],
+  "avoided_motion_tags": [
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "balloon",
+    "confetti",
+    "margin-note"
+  ]
+}

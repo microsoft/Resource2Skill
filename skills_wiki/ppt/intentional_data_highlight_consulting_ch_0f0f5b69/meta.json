@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "intentional_data_highlight_consulting_ch_0f0f5b69",
+  "skill_name": "Intentional Data Highlight (Consulting Chart Refactoring)",
+  "source": {
+    "channel": "Analyst Academy",
+    "duration_sec": 838,
+    "type": "youtube",
+    "video_id": "Pbp5RGzzodM",
+    "video_title": "How to Fix a Bad PowerPoint Slide",
+    "video_url": "https://www.youtube.com/watch?v=Pbp5RGzzodM",
+    "views": 166854
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:40:37Z",
+  "wash_version": "1.0.0"
+}

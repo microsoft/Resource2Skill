@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_image_masking_composition_d9c0a332",
+  "skill_name": "Geometric Image Masking & Composition",
+  "source": {
+    "channel": "SlideLizard",
+    "duration_sec": 158,
+    "type": "youtube",
+    "video_id": "Z7_oprHntPQ",
+    "video_title": "Mask / crop Images to Custom Shape - PowerPoint Tutorial (2026)",
+    "video_url": "https://www.youtube.com/watch?v=Z7_oprHntPQ",
+    "views": 76183
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:25Z",
+  "wash_version": "1.0.0"
+}

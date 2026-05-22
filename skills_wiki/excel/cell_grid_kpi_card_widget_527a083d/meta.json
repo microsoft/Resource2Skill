@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cell_grid_kpi_card_widget_527a083d",
+  "skill_name": "Cell-Grid KPI Card Widget",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:35Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "start turning your boring numbers in Excel with colorful KPIs"
+        },
+        {
+          "seconds": 1,
+          "description": "text with excel logo"
+        },
+        {
+          "seconds": 104,
+          "description": "complete KPI with rounded rectangle for region, revenue and percentage in circle"
+        },
+        {
+          "seconds": 210,
+          "description": "KPI via SmartArt"
+        },
+        {
+          "seconds": 315,
+          "description": "grouped KPI with 'Revenue' text and total revenue"
+        }
+      ],
+      "frames": [
+        "frame_00_start_turning_your_boring_numb.jpg",
+        "frame_01_text_with_excel_logo.jpg",
+        "frame_02_complete_kpi_with_rounded_rect.jpg",
+        "frame_03_kpi_via_smartart.jpg"
+      ],
+      "recapped_at": 1777406216.5008209
+    },
+    "primary_path": "frame_00_start_turning_your_boring_numb.jpg"
+  }
+}

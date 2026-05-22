@@ -1,0 +1,37 @@
+{
+  "applicability": "Applies a high-contrast, two-color mapping to photographs to create a bold, modern aesthetic. Ideal for presentation hero slides, title covers, or section dividers to unify disparate stock images and ensure text legibility.",
+  "category_path": [
+    "design_elements",
+    "image_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vibrant_duotone_photo_treatment_80c1cd6e",
+  "skill_name": "Vibrant Duotone Photo Treatment",
+  "source": {
+    "channel": "Envato Tuts+",
+    "duration_sec": 239,
+    "type": "youtube",
+    "video_id": "9CSXeHf7SFU",
+    "video_title": "Create a Duotone Photoshop Effect FAST!",
+    "video_url": "https://www.youtube.com/watch?v=9CSXeHf7SFU",
+    "views": 41827
+  },
+  "tags": [
+    "duotone",
+    "image effect",
+    "photo treatment",
+    "background",
+    "branding",
+    "contrast"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:25Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perspective_device_mockup_smart_object_s_ec51f92b",
+  "skill_name": "Perspective Device Mockup (Smart Object Simulation)",
+  "source": {
+    "channel": "\u694a\u6bd4\u6bd4",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "Fe1BcPghUXU",
+    "video_title": "\u3010\u5b78 Photoshop\u3011\u5e73\u9762\u8a2d\u8a08 \u5716\u6a23\u7cfb\u5217\uff08\u4e8c\uff09\u9650\u5b9a\u7bc4\u570d\u3002\u7f6e\u5165\u5716\u7247 \ud83d\udc4d",
+    "video_url": "https://www.youtube.com/watch?v=Fe1BcPghUXU",
+    "views": 1223
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:17Z",
+  "wash_version": "1.0.0"
+}

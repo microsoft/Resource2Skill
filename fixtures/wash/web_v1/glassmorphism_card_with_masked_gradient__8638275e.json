@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_card_with_masked_gradient__8638275e",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1146,
+    "type": "youtube",
+    "video_id": "dsZ7RN9ItR4",
+    "video_title": "Create this trendy blurry glass effect with CSS",
+    "video_url": "https://www.youtube.com/watch?v=dsZ7RN9ItR4",
+    "views": 66339
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

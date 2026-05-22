@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for page loaders, form submission indicators, or data fetching states, this animated component provides an engaging micro-interaction for modern, tech-focused web applications.",
+  "category_path": [
+    "animation",
+    "ui_loader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_neon_sequential_flip_loader_882b4c01",
+  "skill_name": "3D Neon Sequential Flip Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 521,
+    "type": "youtube",
+    "video_id": "z2LQYsZhsFw",
+    "video_title": "Learn CSS Animations in 9 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=z2LQYsZhsFw",
+    "views": 240299
+  },
+  "tags": [
+    "3D",
+    "animation",
+    "loader",
+    "neon",
+    "flip",
+    "CSS"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:06Z",
+  "wash_version": "1.0.0"
+}

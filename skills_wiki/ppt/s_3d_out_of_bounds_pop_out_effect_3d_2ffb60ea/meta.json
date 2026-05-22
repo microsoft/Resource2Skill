@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_out_of_bounds_pop_out_effect_3d_2ffb60ea",
+  "skill_name": "3D Out-of-Bounds Pop-out Effect (3D \u7acb\u4f53\u51fa\u753b\u6548\u679c)",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "q8-K25ixrZg",
+    "video_title": "PPT\u521b\u610f\u8bbe\u8ba1\uff1aPPT\u600e\u4e48\u8ba9\u56fe\u7247\u4e3b\u4f53\u7ad9\u8d77\u6765\uff1f",
+    "video_url": "https://www.youtube.com/watch?v=q8-K25ixrZg",
+    "views": 429
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:44Z",
+  "wash_version": "1.0.0"
+}

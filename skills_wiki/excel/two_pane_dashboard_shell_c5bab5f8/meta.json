@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_pane_dashboard_shell_c5bab5f8",
+  "skill_name": "Two-Pane Dashboard Shell",
+  "source": {
+    "channel": "Chandoo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5qkg8gzY6E"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 105,
+          "description": "Initial reveal of the fully interactive Excel dashboard"
+        },
+        {
+          "seconds": 824,
+          "description": "Dashboard's left-side panel with formatted KPIs and icons"
+        },
+        {
+          "seconds": 1046,
+          "description": "Trend graph (line chart) for last 13 weeks with quantity and amount"
+        },
+        {
+          "seconds": 1449,
+          "description": "Purchase patterns heat map with conditional formatting"
+        },
+        {
+          "seconds": 2822,
+          "description": "Final complete Excel dashboard with all interactive charts and styling"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_reveal_of_the_fully_in.jpg",
+        "frame_01_dashboard_s_left_side_panel_wi.jpg",
+        "frame_02_trend_graph_line_chart_for_las.jpg",
+        "frame_03_purchase_patterns_heat_map_wit.jpg"
+      ],
+      "recapped_at": 1777407926.4574199
+    },
+    "primary_path": "frame_00_initial_reveal_of_the_fully_in.jpg"
+  }
+}

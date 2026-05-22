@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for agenda-to-section transitions, drilling down into specific product features from a lineup, or transitioning from a dashboard summary into detailed metrics for a single KPI.",
+  "category_path": [
+    "animation",
+    "transition"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_morph_drill_down_f6559b7c",
+  "skill_name": "Cinematic Morph Drill-Down",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 2505,
+    "type": "youtube",
+    "video_id": "3uJd-_JpG1w",
+    "video_title": "PowerPoint Animation Tutorial - Learn How To Animate",
+    "video_url": "https://www.youtube.com/watch?v=3uJd-_JpG1w",
+    "views": 1727513
+  },
+  "tags": [
+    "morph transition",
+    "drill down",
+    "app-like",
+    "interactive",
+    "spatial context",
+    "state change"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:26:19Z",
+  "wash_version": "1.0.0"
+}

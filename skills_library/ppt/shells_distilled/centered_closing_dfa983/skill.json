@@ -1,0 +1,53 @@
+{
+  "skill_id": "centered_closing_dfa983",
+  "skill_type": "shell",
+  "name": "Centered Closing",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "closing",
+      "section_divider"
+    ],
+    "content_shape": [
+      "centered-text"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_closing_dfa983/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "animated_paper_fold_reveal_transition_769baf7e",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A highly minimal layout focusing entirely on a single, large, centered message, typical for closing or transition slides.",
+  "_distill_attempts": 1
+}

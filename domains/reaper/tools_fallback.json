@@ -1,0 +1,221 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "list_skills",
+      "description": "List or search skills in the REAPER music production skill library.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string", "description": "Filter by category (drums, melody, chords, bass, sound_design, effects, arrangement, mixing)." },
+          "query": { "type": "string", "description": "Search by name." },
+          "verified_only": { "type": "boolean", "default": false }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_info",
+      "description": "Get detailed information about a REAPER skill.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": { "type": "string", "description": "Skill ID." }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_skill_code",
+      "description": "Get full Python/ReaScript code from a skill.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": { "type": "string", "description": "Skill ID." }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "execute_reaper_code",
+      "description": "Execute arbitrary Python/ReaScript code in the REAPER environment.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string", "description": "Python/ReaScript code to execute." },
+          "from_skill_ids": { "type": "string", "description": "JSON/comma list of inspected wiki skill ids adapted by this code." },
+          "target_node": { "type": "string", "description": "Musical role target, or JSON/comma list for multiple grounded roles." },
+          "adaptation_notes": { "type": "string", "description": "Short note describing the concrete mechanisms borrowed from the skills." }
+        },
+        "required": ["code"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_project_info",
+      "description": "Get current REAPER project information (tempo, tracks, items, FX).",
+      "parameters": { "type": "object", "properties": {} }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_track",
+      "description": "Create a new track in the REAPER project.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "description": "Track name." },
+          "index": { "type": "integer", "description": "Track index (default: append)." }
+        },
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_midi_item",
+      "description": "Create a MIDI item on a track.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "track_index": { "type": "integer", "description": "Track index (0-based)." },
+          "position": { "type": "number", "description": "Start position in seconds.", "default": 0.0 },
+          "length": { "type": "number", "description": "Item length in seconds.", "default": 8.0 }
+        },
+        "required": ["track_index"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_midi_notes",
+      "description": "Add MIDI notes to an existing MIDI item.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "track_index": { "type": "integer", "description": "Track index." },
+          "item_index": { "type": "integer", "description": "Item index on track (default: 0).", "default": 0 },
+          "notes": {
+            "type": "array",
+            "description": "Array of note objects with pitch, start_time, duration, velocity.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "pitch": { "type": "integer", "description": "MIDI pitch (0-127)." },
+                "start_time": { "type": "number", "description": "Start time in beats from item start." },
+                "duration": { "type": "number", "description": "Duration in beats." },
+                "velocity": { "type": "integer", "description": "Velocity (0-127)." }
+              },
+              "required": ["pitch", "start_time", "duration", "velocity"]
+            }
+          }
+        },
+        "required": ["track_index", "notes"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_tempo",
+      "description": "Set the project tempo in BPM.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "bpm": { "type": "number", "description": "Tempo in BPM." }
+        },
+        "required": ["bpm"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_fx",
+      "description": "Add an FX plugin to a track.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "track_index": { "type": "integer", "description": "Track index." },
+          "fx_name": { "type": "string", "description": "FX plugin name (e.g., 'ReaSynth', 'ReaEQ', 'ReaComp')." }
+        },
+        "required": ["track_index", "fx_name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "arrange_project_sections",
+      "description": "Extend skill loops across a full track and create intro/main/breakdown/final arrangement dynamics.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "total_bars": { "type": "integer", "default": 24, "description": "Target track length in bars." },
+          "pattern_bars": { "type": "integer", "default": 8, "description": "Source loop length to repeat." },
+          "style": { "type": "string", "default": "auto", "description": "Arrangement style label." }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "apply_skill",
+      "description": "Execute a skill's create_pattern() code to add a musical element to the project.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "skill_id": { "type": "string", "description": "Skill ID from list_skills." },
+          "track_name": { "type": "string", "description": "Override the default track name." },
+          "bpm": { "type": "integer", "description": "Override tempo." },
+          "key": { "type": "string", "description": "Musical key (e.g., 'C', 'A', 'F#')." },
+          "scale": { "type": "string", "description": "Scale type (e.g., 'minor', 'dorian', 'pentatonic_minor')." },
+          "bars": { "type": "integer", "description": "Number of bars to generate.", "default": 4 }
+        },
+        "required": ["skill_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "render_project",
+      "description": "Render the current REAPER project to a WAV file in demo/reaper/.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "output_name": { "type": "string", "default": "render", "description": "Filename without extension." },
+          "sample_rate": { "type": "integer", "default": 44100 },
+          "format": { "type": "string", "default": "wav", "description": "Output format: wav or mp3." }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "save_project",
+      "description": "Save the REAPER project file (.rpp) to demo/reaper/.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "output_name": { "type": "string", "default": "my_track", "description": "Filename without extension." }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "metro_style_dark_trap_foundation_fb0b0fc9",
+  "skill_name": "Metro-Style Dark Trap Foundation",
+  "source": {
+    "type": "youtube",
+    "video_title": "Metro Boomin production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:04:27Z",
+  "wash_version": "1.0.0"
+}

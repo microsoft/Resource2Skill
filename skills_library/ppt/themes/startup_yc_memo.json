@@ -1,0 +1,127 @@
+{
+  "theme_id": "startup_yc_memo",
+  "name": "Startup YC Memo",
+  "palette": {
+    "bg": "#FCFAF7",
+    "panel": "#F3EDE4",
+    "accent": "#FF6B1F",
+    "accent2": "#1E2A3A",
+    "text": "#1A1F29",
+    "muted": "#6D7280",
+    "border": "#E0D9CB",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Georgia",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Georgia",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Georgia",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Segoe UI",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "memo_rule",
+    "description": "Memo-style rules, serif body paragraphs, YC orange accent"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "editorial",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "spin"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "bold",
+    "restrained",
+    "warm"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "typewriter",
+    "margin-note",
+    "column-rule",
+    "kicker-tick",
+    "ink-bleed",
+    "thesis",
+    "cta-arrow"
+  ],
+  "avoided_motion_tags": [
+    "neon",
+    "glitch",
+    "slot-machine",
+    "confetti"
+  ]
+}

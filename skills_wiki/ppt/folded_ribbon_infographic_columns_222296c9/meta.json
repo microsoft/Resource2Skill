@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "folded_ribbon_infographic_columns_222296c9",
+  "skill_name": "Folded Ribbon Infographic Columns",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 429,
+    "type": "youtube",
+    "video_id": "4PEZBtXTaLg",
+    "video_title": "Create 4 Steps Rectangular Infographic Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=4PEZBtXTaLg",
+    "views": 381967
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:26:46Z",
+  "wash_version": "1.0.0"
+}

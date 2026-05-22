@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tech_industrial_registration_grid_title_f1b1942b",
+  "skill_name": "Tech-Industrial Registration Grid Title",
+  "source": {
+    "channel": "TK Kader",
+    "duration_sec": 657,
+    "type": "youtube",
+    "video_id": "_EYxKl2QN_I",
+    "video_title": "Quarterly Business Review Best Practices: 3 Ways to Transform Your QBR From Boring to Brilliant",
+    "video_url": "https://www.youtube.com/watch?v=_EYxKl2QN_I",
+    "views": 57161
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:20Z",
+  "wash_version": "1.0.0"
+}

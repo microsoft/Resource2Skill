@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_cyberpunk_holographic_callout_5ebf58af",
+  "skill_name": "Neon Cyberpunk Holographic Callout",
+  "source": {
+    "channel": "The Prezenter",
+    "duration_sec": 61,
+    "type": "youtube",
+    "video_id": "L5AG55XVXQo",
+    "video_title": "Before and After PowerPoint Design",
+    "video_url": "https://www.youtube.com/watch?v=L5AG55XVXQo",
+    "views": 1118
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:20Z",
+  "wash_version": "1.0.0"
+}

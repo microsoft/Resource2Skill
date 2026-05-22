@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this as the foundation for building high-performance 3D engines, interactive shader art, or complex data visualizations. It bypasses the DOM layout engine to leverage the GPU for maximum graphical efficiency.",
+  "category_path": [
+    "canvas",
+    "webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_webgl2_primitive_rendering_the_gr_8b6006b4",
+  "skill_name": "Native WebGL2 Primitive Rendering",
+  "source": {
+    "channel": "Indigo Code",
+    "duration_sec": 2273,
+    "type": "youtube",
+    "video_id": "y2UsQB3WSvo",
+    "video_title": "[01] WebGL Tutorial - Hello, Triangle!",
+    "video_url": "https://www.youtube.com/watch?v=y2UsQB3WSvo",
+    "views": 51222
+  },
+  "tags": [
+    "webgl2",
+    "glsl",
+    "shaders",
+    "gpu-rendering",
+    "canvas"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:02Z",
+  "wash_version": "1.0.0"
+}

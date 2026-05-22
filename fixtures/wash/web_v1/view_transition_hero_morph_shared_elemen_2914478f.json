@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "view_transition_hero_morph_shared_elemen_2914478f",
+  "source": {
+    "channel": "Beyond Fireship",
+    "duration_sec": 301,
+    "type": "youtube",
+    "video_id": "lsXqparnx24",
+    "video_title": "Mind-blowing page animations are easy now... View Transitions API first look",
+    "video_url": "https://www.youtube.com/watch?v=lsXqparnx24",
+    "views": 275491
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

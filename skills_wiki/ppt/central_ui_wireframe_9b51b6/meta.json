@@ -1,0 +1,34 @@
+{
+  "applicability": "This wireframe showcases a clean, central neumorphic UI element, ideal for presenting featured media, product mockups, or simplified metric dashboards. It includes a large content placeholder, a progress slider, and optional text labels.",
+  "category_path": [
+    "ui",
+    "wireframes"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "central_ui_wireframe_9b51b6",
+  "skill_name": "Central UI Wireframe",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "neumorphic",
+    "UI mockup",
+    "media player",
+    "dashboard",
+    "minimal",
+    "wireframe"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:04:31Z",
+  "wash_version": "1.0.0"
+}

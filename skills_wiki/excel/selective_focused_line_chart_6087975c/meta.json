@@ -1,0 +1,32 @@
+{
+  "applicability": "Best used when a data table contains multiple related time-series metrics (e.g., pessimistic, optimistic, and expected scenarios), but the visual narrative requires comparing just two key lines (e.g., expected demand vs. actual capacity).",
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "selective_focused_line_chart_6087975c",
+  "skill_name": "Selective Focused Line Chart",
+  "source": {
+    "channel": "Calon Heindel ",
+    "duration_sec": 302,
+    "type": "youtube",
+    "video_id": "Tbrk8jChVZo",
+    "video_title": "How To Make Your Excel Charts More Professional",
+    "video_url": "https://www.youtube.com/watch?v=Tbrk8jChVZo",
+    "views": 780
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:05Z",
+  "wash_version": "1.0.0"
+}

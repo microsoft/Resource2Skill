@@ -1,0 +1,18 @@
+{
+  "skill_id": "two_dimensional_xlookup_0ff30111",
+  "skill_name": "Two-Dimensional XLOOKUP",
+  "domain": "excel",
+  "category": "formula",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=nWP-iQ_3-Ec",
+    "video_id": "nWP-iQ_3-Ec",
+    "video_title": "XLOOKUP VS INDEX-XMATCH BY EXCEL IN A MINUTE",
+    "channel": "Excel in a Minute",
+    "duration_sec": 219,
+    "views": 16941
+  },
+  "extracted_at": "2026-04-25T03:15:44.930242",
+  "analysis": "### 1. High-level Skill Pattern Extraction\n\n> **Skill Name**: Two-Dimensional XLOOKUP\n\n* **Tier**: snippet\n* **Core Mechanism**: Nests an `XLOOKUP` inside another `XLOOKUP`'s `return_array` argument to perform a matrix lookup. The inner lookup finds the matching column and returns that entire column as an array; the outer lookup then searches vertically to find the intersection point.\n* **Applicability**: Highly effective for retrieving data from a two-way table or grid where you need to match both a row condition (e.g., Country, Product) and a column condition (e.g., Year, Month). \n\n### 2. Structural Breakdown\n\n- **Data Layout**: A continuous matrix of data surrounded by a 1D array of row headers on the left and a 1D array of column headers on the top.\n- **Formula Logic**: `=XLOOKUP({row_lookup_value}, {row_lookup_array}, XLOOKUP({col_lookup_value}, {col_lookup_array}, {data_matrix}))`\n- **Visual Design**: N/A (Formula logic only)\n- **Charts/Tables**: N/A\n- **Theme Hooks**: N/A\n\n### 3. Reproduction Code\n\n```json\n{\n  \"name\": \"two_dimensional_xlookup\",\n  \"description\": \"Performs a two-way matrix lookup by nesting XLOOKUPs. The inner XLOOKUP evaluates the column criteria and passes the resulting vertical array to the outer XLOOKUP to evaluate the row criteria.\",\n  \"formula\": \"=XLOOKUP({row_lookup_value}, {row_lookup_array}, XLOOKUP({column_lookup_value}, {column_lookup_array}, {data_matrix}))\"\n}\n```",
+  "frames": []
+}

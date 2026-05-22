@@ -1,0 +1,128 @@
+{
+  "theme_id": "material_soft_lilac",
+  "name": "Material Soft Lilac",
+  "origin": "web_distilled",
+  "source_url": "https://www.figma.com/community/file/1035203688168086460/Material-3-Design-Kit",
+  "source_title": "Google Material 3 Design Kit",
+  "source_kind": "figma_community",
+  "palette": {
+    "bg": "#FFFBFE",
+    "panel": "#F7F2FA",
+    "accent": "#6750A4",
+    "accent2": "#625B71",
+    "text": "#1C1B1F",
+    "muted": "#49454F",
+    "border": "#CAC4D0",
+    "success": "#146C2E",
+    "warning": "#B3261E"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Arial",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Arial",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Arial",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "soft dividers with token-system spacing rhythm"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "technical",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_right"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "research",
+    "technical",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "product",
+    "research",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "hairline",
+    "trace",
+    "editorial"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "glitch",
+    "bounce",
+    "neon"
+  ]
+}

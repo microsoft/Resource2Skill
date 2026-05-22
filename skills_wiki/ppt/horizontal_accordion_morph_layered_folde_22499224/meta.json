@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this component to create a dynamic agenda, interactive chapter navigation, or to showcase sequential process steps. It is most effective for presenting 3-5 distinct, equally important topics.",
+  "category_path": [
+    "animation",
+    "navigation_structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "horizontal_accordion_morph_layered_folde_22499224",
+  "skill_name": "Morphing Folder Tab Accordion",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 294,
+    "type": "youtube",
+    "video_id": "5yxqRxI9Cpo",
+    "video_title": "Animated PowerPoint Slide Tutorial 2023",
+    "video_url": "https://www.youtube.com/watch?v=5yxqRxI9Cpo",
+    "views": 1162762
+  },
+  "tags": [
+    "morph",
+    "accordion",
+    "navigation",
+    "agenda",
+    "interactive",
+    "tabs"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:34:07Z",
+  "wash_version": "1.0.0"
+}

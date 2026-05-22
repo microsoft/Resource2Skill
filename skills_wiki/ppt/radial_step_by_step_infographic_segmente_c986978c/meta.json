@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "radial_step_by_step_infographic_segmente_c986978c",
+  "skill_name": "Radial Step-by-Step Infographic (Segmented Arrow Ring)",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 546,
+    "type": "youtube",
+    "video_id": "RmDcM8Hw8L8",
+    "video_title": "15.PowerPoint Line Infographic | 8 Steps | Graphic Design | Free PowerPoint Templates",
+    "video_url": "https://www.youtube.com/watch?v=RmDcM8Hw8L8",
+    "views": 50801
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:11:32Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_neon_dashboard_layout_7223bd9a",
+  "skill_name": "Dark Mode Neon Dashboard Layout",
+  "source": {
+    "channel": "nullQueries",
+    "duration_sec": 257,
+    "type": "youtube",
+    "video_id": "0Smgm2UTUSo",
+    "video_title": "Using Design Techniques for Clear and Appealing Data Visualization",
+    "video_url": "https://www.youtube.com/watch?v=0Smgm2UTUSo",
+    "views": 87985
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:09:14Z",
+  "wash_version": "1.0.0"
+}

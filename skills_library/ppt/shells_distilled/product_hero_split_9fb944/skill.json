@@ -1,0 +1,80 @@
+{
+  "skill_id": "product_hero_split_9fb944",
+  "skill_type": "shell",
+  "name": "Product Hero Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover"
+    ],
+    "content_shape": [
+      "left-text-cta-right-image"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "cta_text",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/product_hero_split_9fb944/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "corporate_brand_color_theming_applicatio_beca0d51",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the classic landing-page hero layout into a presentation slide, featuring a strong left-aligned value proposition, an optional call-to-action button, and a prominent right-aligned product visual.",
+  "_distill_attempts": 1
+}

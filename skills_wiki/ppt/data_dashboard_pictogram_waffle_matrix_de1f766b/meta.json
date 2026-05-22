@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_dashboard_pictogram_waffle_matrix_de1f766b",
+  "skill_name": "Data Dashboard Pictogram Waffle Matrix",
+  "source": {
+    "channel": "storytellingwithcharts",
+    "duration_sec": 113,
+    "type": "youtube",
+    "video_id": "FnPpD5zH4Sw",
+    "video_title": "Create Stunning Waffle-Pictogram Charts in PowerPoint\u2026 in SECONDS!",
+    "video_url": "https://www.youtube.com/watch?v=FnPpD5zH4Sw",
+    "views": 42
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:10:59Z",
+  "wash_version": "1.0.0"
+}

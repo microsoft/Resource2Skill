@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for illustrating cyclic processes, component breakdowns, or core values without implying a top-down hierarchy. Transforms standard lists into an engaging, color-coded visual anchor centered around a core concept.",
+  "category_path": [
+    "infographics",
+    "radial"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "radial_segmented_infographic_wheel_c09cf8ee",
+  "skill_name": "Radial Segmented Infographic Wheel",
+  "source": {
+    "channel": "Powerpoint Show",
+    "duration_sec": 292,
+    "type": "youtube",
+    "video_id": "YxpijuDM7BU",
+    "video_title": "How to Create 7 Steps Circular Infographic in PowerPoint Quickly",
+    "video_url": "https://www.youtube.com/watch?v=YxpijuDM7BU",
+    "views": 153391
+  },
+  "tags": [
+    "radial diagram",
+    "infographic wheel",
+    "doughnut chart",
+    "process cycle",
+    "components"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:04Z",
+  "wash_version": "1.0.0"
+}

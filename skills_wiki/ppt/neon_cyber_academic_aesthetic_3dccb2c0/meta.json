@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_cyber_academic_aesthetic_3dccb2c0",
+  "skill_name": "Neon Cyber-Academic Aesthetic",
+  "source": {
+    "channel": "Andy Stapleton",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "1bB4BHFWWHE",
+    "video_title": "20X Your PowerPoint Presentation Skills with AI (EASY)",
+    "video_url": "https://www.youtube.com/watch?v=1bB4BHFWWHE",
+    "views": 86977
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:33Z",
+  "wash_version": "1.0.0"
+}

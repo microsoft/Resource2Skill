@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for hero sections, 404 error pages, or interactive tech and web3 landing pages. It provides a dynamic, high-tech cyberpunk aesthetic without the need for heavy image or video payloads.",
+  "category_path": [
+    "graphics",
+    "canvas_2d"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_wave_particle_matrix_f8cf3d1c",
+  "skill_name": "Neon Wave Particle Matrix",
+  "source": {
+    "channel": "Coding Master",
+    "duration_sec": 558,
+    "type": "youtube",
+    "video_id": "hweLFqVADbc",
+    "video_title": "Mesmerizing Glowing Particle Waves Animation | HTML CSS JavaScript Canvas",
+    "video_url": "https://www.youtube.com/watch?v=hweLFqVADbc",
+    "views": 18
+  },
+  "tags": [
+    "canvas",
+    "particle-system",
+    "sine-wave",
+    "neon-glow",
+    "generative-art",
+    "background"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:12Z",
+  "wash_version": "1.0.0"
+}

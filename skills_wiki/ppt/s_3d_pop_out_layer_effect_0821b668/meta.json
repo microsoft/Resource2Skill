@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_pop_out_layer_effect_0821b668",
+  "skill_name": "3D Pop-Out Layer Effect",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 92,
+    "type": "youtube",
+    "video_id": "QeY2xA8lvz4",
+    "video_title": "\u5982\u4f55\u8ba9\u4f60\u7684PPT\u56fe\u7247\u7acb\u4f53\u8d77\u6765\uff1fPPT\u7acb\u4f53\u56fe\u7247\u8bbe\u8ba1\u6548\u679c\u5236\u4f5c\u6559\u7a0b\u6765\u4e86\uff01",
+    "video_url": "https://www.youtube.com/watch?v=QeY2xA8lvz4",
+    "views": 907
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:16Z",
+  "wash_version": "1.0.0"
+}

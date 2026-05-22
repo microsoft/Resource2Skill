@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_animated_gradient_background_56fc117c",
+  "skill_name": "Continuous Animated Gradient Background",
+  "source": {
+    "channel": "Tahmid Ahmed",
+    "duration_sec": 205,
+    "type": "youtube",
+    "video_id": "LqRfQVcn3FY",
+    "video_title": "Animated Gradient Background with Pure CSS | HTML & CSS Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=LqRfQVcn3FY",
+    "views": 118741
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:56:19Z",
+  "wash_version": "1.0.0"
+}

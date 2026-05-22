@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_cinematic_night_environment_a_9bc2e27d",
+  "skill_name": "Procedural Cinematic Night Environment (Atmospheric Volumetrics & Starlight)",
+  "source": {
+    "channel": "Extra 3d",
+    "duration_sec": 123,
+    "type": "youtube",
+    "video_id": "orYvJTrROhw",
+    "video_title": "Realistic Night Time Lighting In Blender",
+    "video_url": "https://www.youtube.com/watch?v=orYvJTrROhw",
+    "views": 28723
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:47Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "edm_tension___release_arrangement__sidec_eb244b0b",
+  "skill_name": "EDM Tension & Release Arrangement (Sidechain Pumping & Filter Sweeps)",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Lhfmcw9nQHg"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:16Z",
+  "wash_version": "1.0.0"
+}

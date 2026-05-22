@@ -1,0 +1,36 @@
+{
+  "applicability": "Applies a clean, high-contrast aesthetic ideal for strategic, technical, or analytical presentations. Use this for system architectures, frameworks, and consulting deliverables to convey precision and rigor.",
+  "category_path": [
+    "style",
+    "corporate",
+    "minimalist"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_consulting_blueprint_wirefram_24ef7a4e",
+  "skill_name": "Minimalist Consulting Blueprint Style",
+  "source": {
+    "channel": "\u638c\u8235\u8005AI\u5b9e\u9a8c\u5ba4",
+    "duration_sec": 320,
+    "type": "youtube",
+    "video_id": "_CkMounIZGs",
+    "video_title": "NotebookLM \u751f\u6210 PPT \u5b8c\u6574\u6307\u5357\uff0c\u624b\u628a\u624b\u6559\u4f60\u4ece0\u5230\u5bfc\u51fa\uff01",
+    "video_url": "https://www.youtube.com/watch?v=_CkMounIZGs",
+    "views": 13846
+  },
+  "tags": [
+    "consulting",
+    "blueprint",
+    "wireframe",
+    "minimalist",
+    "strategic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:49:54Z",
+  "wash_version": "1.0.0"
+}

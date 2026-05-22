@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "saas_bento_box_feature_grid_74ac1057",
+  "source": {
+    "channel": "Payton Clark Smith",
+    "duration_sec": 316,
+    "type": "youtube",
+    "video_id": "hPtyEDZtPHA",
+    "video_title": "9 Keys to a Perfect SaaS Website",
+    "video_url": "https://www.youtube.com/watch?v=hPtyEDZtPHA",
+    "views": 8506
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

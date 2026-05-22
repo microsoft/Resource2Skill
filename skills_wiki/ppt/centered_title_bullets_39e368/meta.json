@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell is suitable for slides requiring a prominent, centered headline followed by a concise list of bullet points. It's ideal for conveying simple, impactful messages or key takeaways.",
+  "category_path": [
+    "content_layout",
+    "bullet_points"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_title_bullets_39e368",
+  "skill_name": "Centered Title & Bullets",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "centered title",
+    "bullet list",
+    "minimalist",
+    "low density",
+    "key takeaways"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:04:06Z",
+  "wash_version": "1.0.0"
+}

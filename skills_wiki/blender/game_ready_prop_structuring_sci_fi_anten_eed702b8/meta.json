@@ -1,0 +1,36 @@
+{
+  "applicability": "The standard workflow for creating scatter props, background elements, or modular architecture for game engines. Ensures assets can be instanced and placed correctly without manual fix-ups after export.",
+  "category_path": [
+    "asset_creation",
+    "game_export"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "game_ready_prop_structuring_sci_fi_anten_eed702b8",
+  "skill_name": "Game-Ready Asset Structuring",
+  "source": {
+    "channel": "Nico Linde",
+    "duration_sec": 161,
+    "type": "youtube",
+    "video_id": "MRITf-kzepc",
+    "video_title": "The Quick and Easy Blender to Unreal Workflow",
+    "video_url": "https://www.youtube.com/watch?v=MRITf-kzepc",
+    "views": 175765
+  },
+  "tags": [
+    "game asset",
+    "fbx export",
+    "pivot point",
+    "asset pipeline",
+    "unreal engine"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:07Z",
+  "wash_version": "1.0.0"
+}

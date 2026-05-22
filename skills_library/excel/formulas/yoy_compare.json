@@ -1,0 +1,7 @@
+{
+  "name": "yoy_compare",
+  "description": "Year-over-year change formula vs prior-year reference",
+  "pattern": "={curr_year}-{prior_year}",
+  "example": "=B12-B24",
+  "result_format": "thousand_sep"
+}

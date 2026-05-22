@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_2_5d_modular_cubes_gradient_gl_a75816da",
+  "skill_name": "Isometric 2.5D Modular Cubes (Gradient & Glassmorphism)",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 472,
+    "type": "youtube",
+    "video_id": "K7HdUy-cLCk",
+    "video_title": "\u53c8\u4e11\u53c8\u4e71\uff1fPPT\u67b6\u6784\u56fe\u8fd8\u6709\u6551\u5417\uff1f\u5927\u795e\u90fd\u8fd9\u6837\u505a...\u3010\u65c1\u95e8\u5de6\u9053\u3011",
+    "video_url": "https://www.youtube.com/watch?v=K7HdUy-cLCk",
+    "views": 722
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:44:32Z",
+  "wash_version": "1.0.0"
+}

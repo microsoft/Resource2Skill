@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_sequential_rotating_loader_42a900fb",
+  "skill_name": "3D Sequential Rotating Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:32:50Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 48,
+          "description": "Basic square animation with rotation and border-radius change"
+        },
+        {
+          "seconds": 259,
+          "description": "Multi-step animation: element grows, then rotates into a circle"
+        },
+        {
+          "seconds": 515,
+          "description": "Looping animation alternating forward and reverse directions"
+        },
+        {
+          "seconds": 651,
+          "description": "Interactive animation controlled by play and pause buttons"
+        },
+        {
+          "seconds": 826,
+          "description": "Final 3D loading animation with multi-axis rotation and glow"
+        }
+      ],
+      "frames": [
+        "frame_00_basic_square_animation_with_ro.jpg",
+        "frame_01_multi_step_animation_element_g.jpg",
+        "frame_02_looping_animation_alternating_.jpg"
+      ],
+      "recapped_at": 1777408101.6815376
+    },
+    "primary_path": "frame_00_basic_square_animation_with_ro.jpg"
+  }
+}

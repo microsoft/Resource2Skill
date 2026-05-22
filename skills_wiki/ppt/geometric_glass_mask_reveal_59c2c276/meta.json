@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_glass_mask_reveal_59c2c276",
+  "skill_name": "Geometric Glass-Mask Reveal",
+  "source": {
+    "channel": "Knowledge for Future",
+    "duration_sec": 331,
+    "type": "youtube",
+    "video_id": "m-LHud-BbCU",
+    "video_title": "How to Make a Creative Thank You Slide in Microsoft PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=m-LHud-BbCU",
+    "views": 128107
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:02Z",
+  "wash_version": "1.0.0"
+}

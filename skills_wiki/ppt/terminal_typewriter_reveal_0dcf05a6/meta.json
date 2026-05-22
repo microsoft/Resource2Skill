@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for technical presentations, software launches, and developer keynotes. It controls information pacing and builds anticipation by simulating live typing within a stylized terminal window.",
+  "category_path": [
+    "animation",
+    "text_reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "terminal_typewriter_reveal_0dcf05a6",
+  "skill_name": "Terminal Typewriter Reveal",
+  "source": {
+    "channel": "pfltuts",
+    "duration_sec": 80,
+    "type": "youtube",
+    "video_id": "FKjztouJQRE",
+    "video_title": "Power Point Text Type-Writer Animation Effect",
+    "video_url": "https://www.youtube.com/watch?v=FKjztouJQRE",
+    "views": 5352
+  },
+  "tags": [
+    "typewriter effect",
+    "terminal",
+    "text animation",
+    "tech presentation",
+    "code editor"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:13Z",
+  "wash_version": "1.0.0"
+}

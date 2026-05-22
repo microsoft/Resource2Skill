@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_sci_fi_surface_panel_98b1d60c",
+  "skill_name": "Procedural Sci-Fi Surface Panel",
+  "source": {
+    "channel": "Aaron Van de Weijenberg",
+    "duration_sec": 220,
+    "type": "youtube",
+    "video_id": "k2vTtHj0MME",
+    "video_title": "Easy hard surface sci-fi panels in Blender",
+    "video_url": "https://www.youtube.com/watch?v=k2vTtHj0MME",
+    "views": 31146
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:40Z",
+  "wash_version": "1.0.0"
+}

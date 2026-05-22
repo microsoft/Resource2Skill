@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consulting_grade_dot_dash_action_slide_t_b22301f0",
+  "skill_name": "Consulting-Grade \"Dot-Dash\" Action Slide (The SCR Framework)",
+  "source": {
+    "channel": "Dan Galletta",
+    "duration_sec": 650,
+    "type": "youtube",
+    "video_id": "CY1Y367KEko",
+    "video_title": "Storytelling in PowerPoint: Learn McKinsey\u2019s 3-Step Framework",
+    "video_url": "https://www.youtube.com/watch?v=CY1Y367KEko",
+    "views": 1009160
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:02:02Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,656 @@
+{
+  "domain": "excel",
+  "schema": "tier_v1",
+  "description": "Layered Excel skill library: tokens (themes/format_presets/chart_templates/formulas) → components → sheet shells → workbook archetypes. Modeled on PPT v14 design-system architecture.",
+  "tiers": {
+    "token": [
+      "themes",
+      "format_presets",
+      "chart_templates",
+      "formulas",
+      "cell_techniques"
+    ],
+    "component": [
+      "components"
+    ],
+    "sheet_shell": [
+      "sheet_shells_seed",
+      "sheet_shells_distilled"
+    ],
+    "archetype": [
+      "workbook_archetypes"
+    ]
+  },
+  "total": 63,
+  "skills": [
+    {
+      "skill_id": "header_band",
+      "skill_name": "Header Band",
+      "tier": "component",
+      "category": "layout",
+      "theme": null,
+      "applicability": "Page-style title bar with column headers. Use at the top of any data sheet to set visual hierarchy.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "kpi_strip",
+      "skill_name": "KPI Card Strip",
+      "tier": "component",
+      "category": "dashboard",
+      "theme": null,
+      "applicability": "Horizontal row of KPI cards (label / big value / delta). Use for executive dashboard summaries.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "summary_row",
+      "skill_name": "Summary Row (SUM/AVG/MIN/MAX)",
+      "tier": "component",
+      "category": "formula",
+      "theme": null,
+      "applicability": "Append a bold totals row beneath any tabular data range. Default op SUM, formats themed.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "compare_chart",
+      "skill_name": "Themed Comparison Chart",
+      "tier": "component",
+      "category": "chart",
+      "theme": null,
+      "applicability": "Drop a themed bar/line/area/pie chart anchored at a cell, driven by chart_templates JSON.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "kpi_dashboard",
+      "skill_name": "Single-sheet KPI Dashboard",
+      "tier": "sheet_shell",
+      "category": "dashboard",
+      "theme": null,
+      "applicability": "Title band + KPI strip + comparison chart + zebra-striped detail table on one sheet.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "sales_report_quarterly",
+      "skill_name": "Quarterly Sales Sheet",
+      "tier": "sheet_shell",
+      "category": "sales",
+      "theme": null,
+      "applicability": "3-month sales sheet with revenue/target/variance/% columns, chart, Excel table, themed totals.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "pnl_statement",
+      "skill_name": "Profit & Loss Statement",
+      "tier": "sheet_shell",
+      "category": "finance",
+      "theme": null,
+      "applicability": "P&L line items with kind tags (revenue/cogs/opex/tax) → automatic % of revenue + net total.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "quarterly_report",
+      "skill_name": "Quarterly Sales Workbook",
+      "tier": "archetype",
+      "category": "report",
+      "theme": null,
+      "applicability": "Full FY workbook: cover + Q1/Q2/Q3/Q4 sheets + summary dashboard. Per-quarter data is optional.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "financial_model",
+      "skill_name": "3-Sheet Financial Model",
+      "tier": "archetype",
+      "category": "finance",
+      "theme": null,
+      "applicability": "Assumptions / Calculations / Output workbook. Drivers (growth %, margin, opex) flow into formulas.",
+      "detail_path": null
+    },
+    {
+      "skill_id": "corporate_blue",
+      "skill_name": "Corporate Blue Theme",
+      "tier": "token",
+      "category": "themes",
+      "applicability": "Classic corporate navy/white theme. Best for finance, sales, executive reports.",
+      "detail_path": "themes/corporate_blue.json"
+    },
+    {
+      "skill_id": "dark_finance",
+      "skill_name": "Dark Finance Theme",
+      "tier": "token",
+      "category": "themes",
+      "applicability": "Bloomberg-style dark theme with amber accents. Best for trading/financial dashboards.",
+      "detail_path": "themes/dark_finance.json"
+    },
+    {
+      "skill_id": "clean_minimal",
+      "skill_name": "Clean Minimal Theme",
+      "tier": "token",
+      "category": "themes",
+      "applicability": "Black-on-white minimalist theme. Best for executive summaries, design-conscious reports.",
+      "detail_path": "themes/clean_minimal.json"
+    },
+    {
+      "skill_id": "warm_report",
+      "skill_name": "Warm Report Theme",
+      "tier": "token",
+      "category": "themes",
+      "applicability": "Warm earth tones. Best for HR, marketing, narrative reports.",
+      "detail_path": "themes/warm_report.json"
+    },
+    {
+      "skill_id": "kpi_traffic",
+      "skill_name": "KPI Traffic-Light Theme",
+      "tier": "token",
+      "category": "themes",
+      "applicability": "Neutral gray with strong red/amber/green status colors. Ops/SLA dashboards.",
+      "detail_path": "themes/kpi_traffic.json"
+    },
+    {
+      "skill_id": "ocean_calm",
+      "skill_name": "Ocean Calm Theme",
+      "tier": "token",
+      "category": "themes",
+      "applicability": "Soft teal/slate. B2C product reports, customer-facing dashboards.",
+      "detail_path": "themes/ocean_calm.json"
+    },
+    {
+      "skill_id": "growth_pct",
+      "skill_name": "Growth %",
+      "tier": "token",
+      "category": "formulas",
+      "applicability": "Period-over-period percentage growth formula.",
+      "detail_path": "formulas/growth_pct.json"
+    },
+    {
+      "skill_id": "running_total",
+      "skill_name": "Running Total",
+      "tier": "token",
+      "category": "formulas",
+      "applicability": "Cumulative sum with anchored start cell.",
+      "detail_path": "formulas/running_total.json"
+    },
+    {
+      "skill_id": "yoy_compare",
+      "skill_name": "YoY Compare",
+      "tier": "token",
+      "category": "formulas",
+      "applicability": "Year-over-year change formula.",
+      "detail_path": "formulas/yoy_compare.json"
+    },
+    {
+      "skill_id": "sumifs_dynamic",
+      "skill_name": "Dynamic SUMIFS",
+      "tier": "token",
+      "category": "formulas",
+      "applicability": "Multi-criteria SUMIFS template.",
+      "detail_path": "formulas/sumifs_dynamic.json"
+    },
+    {
+      "skill_id": "index_match",
+      "skill_name": "INDEX/MATCH Lookup",
+      "tier": "token",
+      "category": "formulas",
+      "applicability": "Two-way INDEX/MATCH lookup, more robust than VLOOKUP.",
+      "detail_path": "formulas/index_match.json"
+    },
+    {
+      "skill_id": "variance_vs_target",
+      "skill_name": "Variance vs Target",
+      "tier": "token",
+      "category": "formulas",
+      "applicability": "Actual minus target — KPI variance base.",
+      "detail_path": "formulas/variance_vs_target.json"
+    },
+    {
+      "skill_id": "bar_compare",
+      "skill_name": "Bar Compare Template",
+      "tier": "token",
+      "category": "chart_templates",
+      "applicability": "Clustered column chart for actual vs target comparisons.",
+      "detail_path": "chart_templates/bar_compare.json"
+    },
+    {
+      "skill_id": "relative_named_range_dynamic_sum_83d1fe0e",
+      "skill_name": "Relative Named Range Dynamic Sum",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=9XQNpdP9FvI",
+      "source_title": "Highly Useful Excel Tricks that NO ONE Knows | Advanced Excel Tips and Tricks",
+      "channel": "Goodly",
+      "detail_path": "formula/relative_named_range_dynamic_sum_83d1fe0e/skill.json",
+      "tier": "snippet",
+      "applicability": "Ideal for financial models, expense ledgers, or summary tables where users frequently insert new rows at the very bottom of the data set (right above the total row). Normally, inserting a row outside the boundaries of a standard `SUM(C4:C9)"
+    },
+    {
+      "skill_id": "nested_filter_2d_aggregation_0323a3b1",
+      "skill_name": "Nested Filter 2D Aggregation",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=zOG-Dl9W83U",
+      "source_title": "5 Advanced Excel Formulas You Probably Didn't Know!",
+      "channel": "Kenji Explains",
+      "detail_path": "formula/nested_filter_2d_aggregation_0323a3b1/skill.json",
+      "tier": "snippet",
+      "applicability": "Best used for cross-tabular datasets (e.g., matrices with months on columns and product categories on rows) where you need to aggregate values based on both a row label (which may appear multiple times) and a column header. This technique c"
+    },
+    {
+      "skill_id": "trimrange_dynamic_array_suffix_d54dcd9b",
+      "skill_name": "TrimRange Dynamic Array Suffix",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=5h4wRTbmsSw",
+      "source_title": "You're ONE DOT Away from Cleaner Excel Reports | Before vs. After TRIMRANGE",
+      "channel": "Leila Gharani",
+      "detail_path": "formula/trimrange_dynamic_array_suffix_d54dcd9b/skill.json",
+      "tier": "snippet",
+      "applicability": "Perfect for aggregating data from multiple sheets where ranges have empty padding rows at the bottom, or when generating unique lists from oversized ranges that aren't fully populated. It effectively replaces the need for Excel Tables or ve"
+    },
+    {
+      "skill_id": "spilled_array_reference_operator_8bcf6755",
+      "skill_name": "Spilled Array Reference Operator",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=WBuS4b2rujg",
+      "source_title": "10 Excel Formula Symbols You Wish You Knew Years Ago",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "formula/spilled_array_reference_operator_8bcf6755/skill.json",
+      "tier": "snippet",
+      "applicability": "Essential for aggregating, summarizing, or chaining dynamic arrays (e.g., `=COUNTA(F7#)`) and for defining dynamic named ranges used in chart series or data validation dropdowns where the data length is variable."
+    },
+    {
+      "skill_id": "interactive_task_tracker_with_status_for_6551e4cb",
+      "skill_name": "Interactive Task Tracker with Status Formatting",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=lCD03kIm_Uk",
+      "source_title": "This FREE Excel Template Replaces Expensive Task-Management Apps",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "formatting/interactive_task_tracker_with_status_for_6551e4cb/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Perfect for project management, student assignments, or operational to-do lists where users need immediate visual triage for urgency (overdue) and state (started/unstarted), while automatically muting resolved items."
+    },
+    {
+      "skill_id": "dynamic_formula_driven_gantt_chart_0aa54718",
+      "skill_name": "Dynamic Formula-Driven Gantt Chart",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=vTbW8aNnWwY",
+      "source_title": "The Excel Gantt Chart That Replaces Your Project Management Tool",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "formatting/dynamic_formula_driven_gantt_chart_0aa54718/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Perfect for project management trackers where start dates and task durations change frequently. Because it relies purely on formulas and conditional formatting, it avoids fragile static drawings, third-party add-ins, or complex VBA macros."
+    },
+    {
+      "skill_id": "dynamic_in_cell_gantt_chart_6f9abc4e",
+      "skill_name": "Dynamic In-Cell Gantt Chart",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=tuQpGzL_14g",
+      "source_title": "How to Make the BEST Gantt Chart in Excel (looks like Microsoft Project!)",
+      "channel": "David McLachlan",
+      "detail_path": "formatting/dynamic_in_cell_gantt_chart_6f9abc4e/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Essential for project management templates, resource allocation trackers, and marketing schedules. Best applied when you want a robust timeline visualization without relying on complex Excel charts or external add-ins."
+    },
+    {
+      "skill_id": "interactive_two_way_lookup_c3b513a9",
+      "skill_name": "Interactive Two-Way Lookup",
+      "category": "validation",
+      "source_video": "https://www.youtube.com/watch?v=-4yCXpv-drg",
+      "source_title": "4 Mins. to MASTER Excel INDEX & MATCH formulas!",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "validation/interactive_two_way_lookup_c3b513a9/skill.json",
+      "tier": "component",
+      "applicability": "Best for dashboards, pricing matrices, and schedule tables where a specific value must be retrieved from a 2D cross-tab based on two user-selected parameters."
+    },
+    {
+      "skill_id": "task_management_dashboard_archetype_356a6d1c",
+      "skill_name": "Task Management Dashboard Archetype",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=AUe_Q6SWsqo",
+      "source_title": "Make a Dynamic Task Management Tracker in Excel!",
+      "channel": "Kenji Explains",
+      "detail_path": "formatting/task_management_dashboard_archetype_356a6d1c/skill.json",
+      "tier": "archetype",
+      "applicability": "Perfect for project tracking, CRM pipelines, or any list-driven tracker where you want a \"frozen\" executive summary of dynamic KPIs at the top, and a live, sortable data table below it."
+    },
+    {
+      "skill_id": "two_dimensional_xlookup_0ff30111",
+      "skill_name": "Two-Dimensional XLOOKUP",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=nWP-iQ_3-Ec",
+      "source_title": "XLOOKUP VS INDEX-XMATCH BY EXCEL IN A MINUTE",
+      "channel": "Excel in a Minute",
+      "detail_path": "formula/two_dimensional_xlookup_0ff30111/skill.json",
+      "tier": "snippet",
+      "applicability": "Highly effective for retrieving data from a two-way table or grid where you need to match both a row condition (e.g., Country, Product) and a column condition (e.g., Year, Month)."
+    },
+    {
+      "skill_id": "tiered_lookup_with_xlookup_01ce3f6f",
+      "skill_name": "Tiered Lookup With XLOOKUP",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=xnLvEhXWSas",
+      "source_title": "How an Excel Pro Uses XLOOKUP (R.I.P. VLOOKUP & INDEX MATCH)",
+      "channel": "Leila Gharani",
+      "detail_path": "formula/tiered_lookup_with_xlookup_01ce3f6f/skill.json",
+      "tier": "component",
+      "applicability": "Perfect for financial models, HR compensation tools, or sales commission trackers where numerical values must be slotted into dynamic reference tiers that may not be sequentially ordered."
+    },
+    {
+      "skill_id": "dynamic_record_viewer_a4d46290",
+      "skill_name": "Dynamic Record Viewer",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=dlBuWllegRg",
+      "source_title": "XLOOKUP in Excel | Step-by-Step Tutorial for Beginners (better than VLOOKUP)",
+      "channel": "Chandoo",
+      "detail_path": "formula/dynamic_record_viewer_a4d46290/skill.json",
+      "tier": "component",
+      "applicability": "Ideal for employee directories, product catalogs, invoice inspection, or adding a standalone interactive \"search\" pane to summary dashboards."
+    },
+    {
+      "skill_id": "selective_focused_line_chart_6087975c",
+      "skill_name": "Selective Focused Line Chart",
+      "category": "chart",
+      "source_video": "https://www.youtube.com/watch?v=Tbrk8jChVZo",
+      "source_title": "How To Make Your Excel Charts More Professional",
+      "channel": "Calon Heindel ",
+      "detail_path": "chart/selective_focused_line_chart_6087975c/skill.json",
+      "tier": "component",
+      "applicability": "Best used when a data table contains multiple related time-series metrics (e.g., pessimistic, optimistic, and expected scenarios), but the visual narrative requires comparing just two key lines (e.g., expected demand vs. actual capacity)."
+    },
+    {
+      "skill_id": "conditional_formatting_gantt_chart_108816ce",
+      "skill_name": "Conditional Formatting Gantt Chart",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=5qtSioTE2wY",
+      "source_title": "Interactive Excel Project Management Dashboard - FREE Download",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "formatting/conditional_formatting_gantt_chart_108816ce/skill.json",
+      "tier": "component",
+      "applicability": "Ideal for project schedules, resource planning, and timeline dashboards where you want a lightweight, interactive visual representation of time without relying on complex Excel Chart objects."
+    },
+    {
+      "skill_id": "themed_line_chart_component_5f8df87b",
+      "skill_name": "Themed Line Chart Component",
+      "category": "chart",
+      "source_video": "https://www.youtube.com/watch?v=_VgHWCcGLlw",
+      "source_title": "Pivot Chart Formatting Copy Trick in Excel - Excel Quickie 79",
+      "channel": "TeachExcel",
+      "detail_path": "chart/themed_line_chart_component_5f8df87b/skill.json",
+      "tier": "component",
+      "applicability": "Best used for time-series data or trending metrics across multiple categories (like the store sales over time in the video) where consistent visual branding is required across multiple reports without relying on manual chart templates."
+    },
+    {
+      "skill_id": "100_percent_stacked_distribution_dashboa_8f4ed752",
+      "skill_name": "100 Percent Stacked Distribution Dashboard",
+      "category": "pivot_table",
+      "source_video": "https://www.youtube.com/watch?v=J0qzcBNNWi4",
+      "source_title": "How to Add Slicers to a Pivot Table in Excel in Under 5 Minutes",
+      "channel": "Productivity Land",
+      "detail_path": "pivot_table/100_percent_stacked_distribution_dashboa_8f4ed752/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Best used when you need to automate a dashboard showing category composition over time (like sales distribution by country) where relative percentage is more important than absolute totals. Serves as a programmatic alternative to building m"
+    },
+    {
+      "skill_id": "unknown_skill_e94b981d",
+      "skill_name": "Unknown Skill",
+      "category": "pivot_table",
+      "source_video": "https://www.youtube.com/watch?v=mrk5MNrgPiU",
+      "source_title": "Simplifying Pivot Tables with Timelines and Slicers - Data Visualization Made Easy",
+      "channel": "Sharon Smith",
+      "detail_path": "pivot_table/unknown_skill_e94b981d/skill.json"
+    },
+    {
+      "skill_id": "combo_column_line_chart_c4a305a9",
+      "skill_name": "Combo Column-Line Chart",
+      "category": "chart",
+      "source_video": "https://www.youtube.com/watch?v=5TkRnGdC1NM",
+      "source_title": "Excel Dashboard Course #21 - Creating a Pivot table Dashboard with Slicers in Excel (in 15 minutes)",
+      "channel": "TrumpExcel",
+      "detail_path": "chart/combo_column_line_chart_c4a305a9/skill.json",
+      "tier": "component",
+      "applicability": "Best for comparing two related metrics with vastly different scales (e.g., total sales revenue vs. count of transactions) across the same categories."
+    },
+    {
+      "skill_id": "dashboard_sidebar_layout_3874aee0",
+      "skill_name": "Dashboard Sidebar Layout",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=2H7aOHKZ6PY",
+      "source_title": "Excel Slicers, EVERYTHING You Need to Know - includes workbook with step by step instructions",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "dashboard/dashboard_sidebar_layout_3874aee0/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Use when generating a reporting template that end-users will interact with. Since `openpyxl` cannot natively create Excel Slicers, this layout provides the necessary structural scaffold for users to drop in their own Slicers cleanly."
+    },
+    {
+      "skill_id": "agile_kanban_task_tracker_73807267",
+      "skill_name": "Agile Kanban Task Tracker",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=SMFmzstfJ4k",
+      "source_title": "Excel教學 | Excel制作的敏捷看板，可视化管理工作任务",
+      "channel": "千万别学Excel",
+      "detail_path": "formatting/agile_kanban_task_tracker_73807267/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Best for project management dashboards, sprint trackers, or any scenario where items are manually moved through a pipeline of stages and continuous aggregation (hours, points, costs) per stage is required."
+    },
+    {
+      "skill_id": "dashboard_shell_with_linked_chart_c1511c1e",
+      "skill_name": "Dashboard Shell with Linked Chart",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=ZZ-UGMztoqo",
+      "source_title": "How to use Excel Slicers like a PRO: Basics + 5 Advanced Tricks",
+      "channel": "Chandoo",
+      "detail_path": "dashboard/dashboard_shell_with_linked_chart_c1511c1e/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Use as a foundational layout for sales reports or KPI dashboards. Because `openpyxl` cannot generate native interactive Slicer objects from scratch, this pattern constructs the exact visual and structural shell required so the user can imme"
+    },
+    {
+      "skill_id": "process_flow_kanban_dashboard_b103bf88",
+      "skill_name": "Process Flow Kanban Dashboard",
+      "category": "validation",
+      "source_video": "https://www.youtube.com/watch?v=4zcey-6A0a0",
+      "source_title": "Excel制作动态生产仪表看板",
+      "channel": "Rin的Excel",
+      "detail_path": "validation/process_flow_kanban_dashboard_b103bf88/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Manufacturing dashboards, pipeline/inventory monitoring, or any system where visualizing the physical/spatial relationship of metrics (like capacity or fill levels) is as important as the numbers themselves."
+    },
+    {
+      "skill_id": "time_interval_binning_analysis_b0b7f455",
+      "skill_name": "Time Interval Binning Analysis",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=Nd_SWueMLdQ",
+      "source_title": "Excel大数据分析，xx店铺Dashboard数据分析看板（销售分析）",
+      "channel": "小秋老师的Excel",
+      "detail_path": "formula/time_interval_binning_analysis_b0b7f455/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Highly applicable for analyzing high-frequency data such as retail POS transactions, server logs, or customer support tickets to identify peak operational hours and daily volume patterns."
+    },
+    {
+      "skill_id": "dynamic_excel_table_data_source_a73c62af",
+      "skill_name": "Dynamic Excel Table Data Source",
+      "category": "table",
+      "source_video": "https://www.youtube.com/watch?v=kJR-EVk9LNM",
+      "source_title": "Excel大数据，店铺数据BI深度分析看板（销售+时刻+产品+会员）",
+      "channel": "小秋老师的Excel",
+      "detail_path": "table/dynamic_excel_table_data_source_a73c62af/skill.json",
+      "tier": "component",
+      "applicability": "Use whenever inserting raw tabular data that will serve as the source for Pivot Tables, dynamic charts, or automated reporting. It is the best practice for future-proofing data pipelines in Excel."
+    },
+    {
+      "skill_id": "themed_dashboard_grid_shell_e7fb4b4d",
+      "skill_name": "Themed Dashboard Grid Shell",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=4pWYgIYaOfc",
+      "source_title": "告别静态图表，Excel动态交互式数据大屏重磅来袭！",
+      "channel": "Excel咨询顾问",
+      "detail_path": "dashboard/themed_dashboard_grid_shell_e7fb4b4d/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Use when building executive summaries or interactive dashboards where data visualizations need to be organized into distinct visual containers with a polished, modern aesthetic (like Dark Mode or distinct brand colors)."
+    },
+    {
+      "skill_id": "unknown_skill_d073e0f0",
+      "skill_name": "Unknown Skill",
+      "category": "other",
+      "source_video": "https://www.youtube.com/watch?v=gAthkbDcZ2c",
+      "source_title": "How to Enable Dark Mode in Excel (The Ultimate Guide)",
+      "channel": "Excel Tutorials by EasyClick Academy",
+      "detail_path": "other/unknown_skill_d073e0f0/skill.json"
+    },
+    {
+      "skill_id": "app_like_dashboard_shell_93f2d30f",
+      "skill_name": "App-Like Dashboard Shell",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=qdfVQc7AsVM",
+      "source_title": "Secret Excel Dashboard Buttons REVEALED 🔥 (🔁 Refresh | 💻 Full Screen | 🌓 Dark Mode)",
+      "channel": "Vedakarna",
+      "detail_path": "dashboard/app_like_dashboard_shell_93f2d30f/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Best for executive dashboards or interactive tools where you want to prevent users from interacting with raw cells and instead guide them through a clean, software-application-like interface."
+    },
+    {
+      "skill_id": "dashboard_canvas_shell_74c0e7aa",
+      "skill_name": "Dashboard Canvas Shell",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=Lrr-INjPEts",
+      "source_title": "Make Your Reports Pop with Custom Excel Dashboard Backgrounds",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "dashboard/dashboard_canvas_shell_74c0e7aa/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Use as the foundational layout for any polished, client-facing dashboard. Charts should be layered on top with their Shape Fill and Outline set to \"None\" so they blend seamlessly into the \"cards\"."
+    },
+    {
+      "skill_id": "dark_mode_toggle_sheet_909a8ba0",
+      "skill_name": "Dark Mode Toggle Sheet",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=G5i0CSxNXHo",
+      "source_title": "Dark Mode for Excel | 3 minute Step by Step How to",
+      "channel": "Project Management Mastery",
+      "detail_path": "formatting/dark_mode_toggle_sheet_909a8ba0/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Best used in dashboards, large data tables, or reporting tools where users may prefer a low-glare dark theme for extended reading or aesthetic preference."
+    },
+    {
+      "skill_id": "dynamic_budget_vs_actuals_architecture_065425bb",
+      "skill_name": "Dynamic Budget vs. Actuals Architecture",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=9uFKAwIa3V0",
+      "source_title": "Build a Dynamic Budget vs Actuals Dashboard on Excel (Variance Analysis)",
+      "channel": "Kenji Explains",
+      "detail_path": "formula/dynamic_budget_vs_actuals_architecture_065425bb/skill.json",
+      "tier": "archetype",
+      "applicability": "Ideal for FP&A models, department expense tracking, and operational dashboards where budgeted targets are planned in a grid, but actuals are logged as ongoing transactional line items."
+    },
+    {
+      "skill_id": "robust_budget_vs_actuals_table_71b9e76b",
+      "skill_name": "Robust Budget vs Actuals Table",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=Y8_1jMn0UXc",
+      "source_title": "Budget vs Actuals: The #1 Financial Report You NEED to Master",
+      "channel": "Josh Aharonoff (Your CFO Guy)",
+      "detail_path": "formatting/robust_budget_vs_actuals_table_71b9e76b/skill.json",
+      "tier": "component",
+      "applicability": "Essential for P&L reporting, departmental variance tracking, and monthly financial roll-forwards where empty or negative budget figures might otherwise break standard division formulas."
+    },
+    {
+      "skill_id": "budget_vs_actuals_doughnut_dashboard_9d97d3db",
+      "skill_name": "Budget Vs Actuals Doughnut Dashboard",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=JWO5r6DK7FE",
+      "source_title": "Build a Dynamic Excel Budget vs Actual Dashboard with Power Query – Full Tutorial (Free Template)",
+      "channel": "Josh Aharonoff (Your CFO Guy)",
+      "detail_path": "dashboard/budget_vs_actuals_doughnut_dashboard_9d97d3db/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Best for performance dashboards, financial reporting, and budget variance sheets where visual indicators need to automatically flip states based on target thresholds."
+    },
+    {
+      "skill_id": "unknown_skill_4d140d62",
+      "skill_name": "Unknown Skill",
+      "category": "table",
+      "source_video": "https://www.youtube.com/watch?v=atjz34a7KT8",
+      "source_title": "How-to Create Excel Slicers for Your Dynamic Dashboard",
+      "channel": "Excel Dashboard Templates",
+      "detail_path": "table/unknown_skill_4d140d62/skill.json"
+    },
+    {
+      "skill_id": "data_summary_with_top_kpis_and_sparkline_984ede7b",
+      "skill_name": "Data Summary with Top KPIs and Sparklines",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=1BROwwH1mAw",
+      "source_title": "Custom Excel Dashboard Tutorial: Charts, Themes & KPIs (Beginner to Pro)",
+      "channel": "Aki Stepinska",
+      "detail_path": "dashboard/data_summary_with_top_kpis_and_sparkline_984ede7b/skill.json",
+      "tier": "sheet_shell",
+      "applicability": "Excellent for \"raw data\" tabs that need to be readable and presentable, acting as a mini-dashboard or high-level summary before feeding into more complex visual layers."
+    },
+    {
+      "skill_id": "dynamic_array_calculated_fields_groupby_392ad669",
+      "skill_name": "Dynamic Array Calculated Fields (GROUPBY)",
+      "category": "formula",
+      "source_video": "https://www.youtube.com/watch?v=sMPCDBBg3BQ",
+      "source_title": "Budget vs Actual with GROUPBY & PIVOTBY - SUPERCHARGE your reporting!",
+      "channel": "Excel Off The Grid",
+      "detail_path": "formula/dynamic_array_calculated_fields_groupby_392ad669/skill.json",
+      "tier": "snippet",
+      "applicability": "Essential for creating modern, single-formula summary reports comparing metrics (Budget vs. Actual, YoY, Forecast vs. Actual) where you need calculated variance columns attached to grouped data, overcoming the limitation that `GROUPBY` does"
+    },
+    {
+      "skill_id": "dynamic_conditional_kpi_strip_cc461b84",
+      "skill_name": "Dynamic Conditional KPI Strip",
+      "category": "formatting",
+      "source_video": "https://www.youtube.com/watch?v=_PlBRWc0RlI",
+      "source_title": "Easy Build Budget vs Actual Dashboard + FREE File Download",
+      "channel": "MyOnlineTrainingHub",
+      "detail_path": "formatting/dynamic_conditional_kpi_strip_cc461b84/skill.json",
+      "tier": "component",
+      "applicability": "Highly effective for financial or performance dashboards where executive summaries need to be highly visible and immediately parseable without relying on clunky overlay shapes or external images."
+    },
+    {
+      "skill_id": "themed_kpi_dashboard_shell_da21f824",
+      "skill_name": "Themed KPI Dashboard Shell",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=MTlQvyNQ3PM",
+      "source_title": "📊 How to Build Excel Interactive Dashboards",
+      "channel": "Kevin Stratvert",
+      "detail_path": "dashboard/themed_kpi_dashboard_shell_da21f824/skill.json",
+      "tier": "archetype",
+      "applicability": "Ideal for high-level summary reports, executive dashboards, or visually driven KPI sheets. Use when you want to abstract away standard Excel grid mechanics and present polished charts and metrics in a web-like UI."
+    },
+    {
+      "skill_id": "dynamic_overlap_fill_chart_e773ba64",
+      "skill_name": "Dynamic Overlap Fill Chart",
+      "category": "chart",
+      "source_video": "https://www.youtube.com/watch?v=RVvzJtxEOgE",
+      "source_title": "How to Create a Infographic in Excel (pictogram with icons)",
+      "channel": "Leila Gharani",
+      "detail_path": "chart/dynamic_overlap_fill_chart_e773ba64/skill.json",
+      "tier": "component",
+      "applicability": "Ideal for demographic splits (Male/Female), high-level progress tracking, or KPIs where a stylized infographic (like a thermometer or shape-fill) is preferred over standard bars."
+    },
+    {
+      "skill_id": "unknown_skill_65d368f9",
+      "skill_name": "Unknown Skill",
+      "category": "other",
+      "source_video": "https://www.youtube.com/watch?v=-tva3eTr5q8",
+      "source_title": "Turn  Excel Data Into Amazing Infographics In 1 CLICK",
+      "channel": "Excel For Freelancers",
+      "detail_path": "other/unknown_skill_65d368f9/skill.json"
+    },
+    {
+      "skill_id": "3d_container_chart_cylinder_f47100f3",
+      "skill_name": "3D Container Chart (Cylinder)",
+      "category": "chart",
+      "source_video": "https://www.youtube.com/watch?v=o81URVWGVG4",
+      "source_title": "Quick 3D Container Chart in Excel",
+      "channel": "PK: An Excel Expert",
+      "detail_path": "chart/3d_container_chart_cylinder_f47100f3/skill.json",
+      "tier": "component",
+      "applicability": "Best used for highly visual dashboards or infographics showing fill rates, service levels, or completion percentages across a small number of categories (e.g., 3-5 quarters or regions). Excellent for executive summary visuals."
+    },
+    {
+      "skill_id": "score_meter_chart_ab9f517c",
+      "skill_name": "Score Meter Chart",
+      "category": "dashboard",
+      "source_video": "https://www.youtube.com/watch?v=bgO0XoJsaxQ",
+      "source_title": "Build a Score Meter Chart in Excel - Infographic Chart Tutorial",
+      "channel": "Excel Bootcamp",
+      "detail_path": "dashboard/score_meter_chart_ab9f517c/skill.json",
+      "tier": "component",
+      "applicability": "Perfect for executive dashboards or KPI reporting where a single metric needs to be contextualized against quality bands (e.g., poor, average, good)."
+    }
+  ],
+  "updated_at": "2026-04-25T03:26:50.191158"
+}

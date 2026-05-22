@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "focal_spotlight_title_887242d0",
+  "skill_name": "Focal Spotlight Title",
+  "source": {
+    "channel": "\u6bcf\u5468\u7535\u8111\u6559\u5ba4\u3010office\u5b66\u4e60\u00b7\u7535\u8111\u8bed\u8a00\u00b7\u5de5\u7a0b\u8f6f\u4ef6\u3011",
+    "duration_sec": 1713,
+    "type": "youtube",
+    "video_id": "LpsojhMIYpo",
+    "video_title": "\u3010PPT\u5165\u95e8\u6559\u7a0b\u3011\u7b2c18\u8bfe\uff1a\u638c\u63e1\u6392\u7248\u56db\u539f\u5219\uff0c\u8d70\u4e0aPPT\u9ad8\u624b\u4e4b\u8def\u3002",
+    "video_url": "https://www.youtube.com/watch?v=LpsojhMIYpo",
+    "views": 145
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:26:30Z",
+  "wash_version": "1.0.0"
+}

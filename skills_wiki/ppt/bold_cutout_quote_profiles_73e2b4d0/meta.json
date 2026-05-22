@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bold_cutout_quote_profiles_73e2b4d0",
+  "skill_name": "Bold Cutout Quote Profiles",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 424,
+    "type": "youtube",
+    "video_id": "tHFC0q6AmFM",
+    "video_title": "Make AWESOME Quotes in PowerPoint \ud83d\udd25 Easy Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=tHFC0q6AmFM",
+    "views": 57072
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:45Z",
+  "wash_version": "1.0.0"
+}

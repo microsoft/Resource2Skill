@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_midi_generator_routing__player_t_b7d2b2f8",
+  "skill_name": "Modular MIDI Generator Routing (Player to Synth)",
+  "source": {
+    "channel": "Krinstar",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=RuzpiVPB5L8"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:34:02Z",
+  "wash_version": "1.0.0"
+}

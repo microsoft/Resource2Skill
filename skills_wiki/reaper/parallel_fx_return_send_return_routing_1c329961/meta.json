@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parallel_fx_return_send_return_routing_1c329961",
+  "skill_name": "Parallel FX Return (Send/Return Routing)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 566,
+    "type": "youtube",
+    "video_id": "ymOpmgjhqFY",
+    "video_title": "Quickly Creating FX Sends & Returns in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=ymOpmgjhqFY",
+    "views": 18051
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:52:30Z",
+  "wash_version": "1.0.0"
+}

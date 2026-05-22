@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for feature grids, galleries, or product catalogs where content is structured in repeating blocks, creating a rewarding scroll experience. It enriches pages with dynamic visual feedback tied directly to user interaction.",
+  "category_path": [
+    "card_layout",
+    "scroll_animations"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_viewport_reveal_cards_3e749df3",
+  "skill_name": "Scroll-Driven Viewport Reveal Cards",
+  "source": {
+    "channel": "Syntax",
+    "duration_sec": 1292,
+    "type": "youtube",
+    "video_id": "JhTMIBLCaNw",
+    "video_title": "CSS: Scroll Driven Animations",
+    "video_url": "https://www.youtube.com/watch?v=JhTMIBLCaNw",
+    "views": 7490
+  },
+  "tags": [
+    "scroll-driven",
+    "css-animations",
+    "viewport-effects",
+    "performance",
+    "progressive-reveal",
+    "cards"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:49:27Z",
+  "wash_version": "1.0.0"
+}

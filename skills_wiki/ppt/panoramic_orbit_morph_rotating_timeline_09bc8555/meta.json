@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "panoramic_orbit_morph_rotating_timeline_09bc8555",
+  "skill_name": "Panoramic Orbit Morph (Rotating Timeline)",
+  "source": {
+    "channel": "Dream Liu",
+    "duration_sec": 209,
+    "type": "youtube",
+    "video_id": "YI0pHFcf8IQ",
+    "video_title": "A Stunning Rotating Timeline Effects in PowerPoint!",
+    "video_url": "https://www.youtube.com/watch?v=YI0pHFcf8IQ",
+    "views": 277145
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:41:44Z",
+  "wash_version": "1.0.0"
+}

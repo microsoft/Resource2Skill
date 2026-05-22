@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for prominently displaying a vertical stack of key metrics or numerical data, perfect for dashboards, KPI summaries, or impactful single-slide insights.",
+  "category_path": [
+    "data_presentation",
+    "metrics"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_metric_stack_c5720e",
+  "skill_name": "Vertical Metric Stack",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "metrics",
+    "KPIs",
+    "dashboard",
+    "vertical stack",
+    "numbers",
+    "impactful"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:43Z",
+  "wash_version": "1.0.0"
+}

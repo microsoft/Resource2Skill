@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "three_tier_kpi_dashboard_architecture_a9497efe",
+  "skill_name": "Three-Tier KPI Dashboard Architecture",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:55:09Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Initial glimpse of the completed KPI dashboard."
+        },
+        {
+          "seconds": 34,
+          "description": "Full view of the interactive KPI dashboard with highlighted metrics."
+        },
+        {
+          "seconds": 338,
+          "description": "Detailed view of the dashboard highlighting large font numbers and color coding."
+        },
+        {
+          "seconds": 507,
+          "description": "KPI dashboard displaying dynamic conditional formatting with changing colors based on selected month."
+        },
+        {
+          "seconds": 1228,
+          "description": "Final comprehensive view of the interactive KPI dashboard, summarizing the visual output."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_glimpse_of_the_complet.jpg",
+        "frame_01_full_view_of_the_interactive_k.jpg",
+        "frame_02_detailed_view_of_the_dashboard.jpg",
+        "frame_03_kpi_dashboard_displaying_dynam.jpg"
+      ],
+      "recapped_at": 1777407839.0787709
+    },
+    "primary_path": "frame_00_initial_glimpse_of_the_complet.jpg"
+  }
+}

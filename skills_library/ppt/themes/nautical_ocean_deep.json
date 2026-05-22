@@ -1,0 +1,125 @@
+{
+  "theme_id": "nautical_ocean_deep",
+  "name": "Nautical Ocean Deep",
+  "palette": {
+    "bg": "#051626",
+    "panel": "#0B2033",
+    "accent": "#4DC9E6",
+    "accent2": "#F2B552",
+    "text": "#E4EEF2",
+    "muted": "#647A89",
+    "border": "#112E44",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Calibri",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Calibri",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Calibri",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wave_motif",
+    "description": "Wave lines as dividers; nautical compass hints"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce"
+    ]
+  },
+  "mood": [
+    "cinematic",
+    "calm",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "brand",
+    "narrative",
+    "research"
+  ],
+  "preferred_motion_tags": [
+    "iris",
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "mist",
+    "margin-note",
+    "map-pin"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "neon",
+    "chromatic"
+  ]
+}

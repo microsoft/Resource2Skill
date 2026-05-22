@@ -1,0 +1,10 @@
+{
+  "_comment": "Smoke fixture for the Quarterly P&L Build skill (fixtures/wash/excel_v1/skill_a). Invokes render() with a writable temp path; wash QA verifies the entrypoint executes without raising.",
+  "kwargs": {
+    "workbook_path": "/data/tmp/_smoke_skill_a.xlsx"
+  },
+  "expected_artifacts": [
+    "/data/tmp/_smoke_skill_a.xlsx"
+  ],
+  "timeout_sec": 10
+}

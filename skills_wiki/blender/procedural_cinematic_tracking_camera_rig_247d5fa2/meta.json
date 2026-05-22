@@ -1,0 +1,37 @@
+{
+  "applicability": "Creates silky-smooth, sweeping cinematic motions without manual rotation keyframing. Essential for character showcases, architectural fly-throughs, and product visualizations.",
+  "category_path": [
+    "animation",
+    "camera_rigging"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_cinematic_tracking_camera_rig_247d5fa2",
+  "skill_name": "Procedural Cinematic Tracking Camera Rig",
+  "source": {
+    "channel": "RenderRides",
+    "duration_sec": 411,
+    "type": "youtube",
+    "video_id": "se_65uZgON4",
+    "video_title": "AutoCam: Free Blender Addon to Instantly Animate Cameras",
+    "video_url": "https://www.youtube.com/watch?v=se_65uZgON4",
+    "views": 189105
+  },
+  "tags": [
+    "camera_rig",
+    "cinematography",
+    "constraints",
+    "bezier_path",
+    "depth_of_field",
+    "tracking"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:55Z",
+  "wash_version": "1.0.0"
+}

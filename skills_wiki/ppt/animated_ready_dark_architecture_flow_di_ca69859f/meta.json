@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_ready_dark_architecture_flow_di_ca69859f",
+  "skill_name": "Animated-Ready Dark Architecture Flow Diagram",
+  "source": {
+    "channel": "ranjit abraham",
+    "duration_sec": 464,
+    "type": "youtube",
+    "video_id": "IUGjTYK2Gwg",
+    "video_title": "Creating animated GIF of Terraform, AWS, Chef using powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=IUGjTYK2Gwg",
+    "views": 4972
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:25:06Z",
+  "wash_version": "1.0.0"
+}

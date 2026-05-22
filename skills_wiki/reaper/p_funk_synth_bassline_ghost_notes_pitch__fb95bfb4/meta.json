@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "p_funk_synth_bassline_ghost_notes_pitch__fb95bfb4",
+  "skill_name": "P-Funk Synth Bassline (Ghost Notes & Pitch Drops)",
+  "source": {
+    "channel": "Deyquan Bowens",
+    "duration_sec": 253,
+    "type": "youtube",
+    "video_id": "ttsm9xZ0rq4",
+    "video_title": "How To Play Funky Key Bass Lines and Fills | Kirk Franklin Stomp",
+    "video_url": "https://www.youtube.com/watch?v=ttsm9xZ0rq4",
+    "views": 67057
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:26Z",
+  "wash_version": "1.0.0"
+}

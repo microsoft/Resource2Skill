@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "synthesized_808_glide_bassline_eeef2fcf",
+  "skill_name": "Synthesized 808 Glide Bassline",
+  "source": {
+    "channel": "The REAPER Blog",
+    "duration_sec": 509,
+    "type": "youtube",
+    "video_id": "63CJPR5y_to",
+    "video_title": "How to make an 808 style Bassline In REAPER",
+    "video_url": "https://www.youtube.com/watch?v=63CJPR5y_to",
+    "views": 16853
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:13Z",
+  "wash_version": "1.0.0"
+}

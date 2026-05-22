@@ -1,0 +1,38 @@
+{
+  "applicability": "Creates a generative, stippled aesthetic for complex entities using mathematically constrained particles. Ideal for high-impact hero sections, creative coding showcases, or immersive loading screens.",
+  "category_path": [
+    "graphics",
+    "canvas_2d",
+    "particle_system"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_particle_entity_animation_132f18af",
+  "skill_name": "Procedural Particle Entity Animation",
+  "source": {
+    "channel": "Coding theory ",
+    "duration_sec": 305,
+    "type": "youtube",
+    "video_id": "17BqFdqYkmA",
+    "video_title": "Flying Bird Animation Using 35,000 Circles in HTML, CSS & JavaScript | Creative Canvas Art Project",
+    "video_url": "https://www.youtube.com/watch?v=17BqFdqYkmA",
+    "views": 5
+  },
+  "tags": [
+    "canvas",
+    "particles",
+    "animation",
+    "generative-art",
+    "procedural",
+    "math"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:52Z",
+  "wash_version": "1.0.0"
+}

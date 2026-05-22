@@ -1,0 +1,38 @@
+{
+  "applicability": "This skill is essential for creating dark ambient intros, cinematic film scoring beds, underground/cave biome soundtracks for video games, and transitions in post-metal or electronic music.",
+  "category_path": [
+    "effects",
+    "cinematic",
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_ambient_drone_generator_the_fl_ed11dc6f",
+  "skill_name": "Cinematic Ambient Drone Generator (The \"Florianz\" Chain)",
+  "source": {
+    "channel": "Matthew Florianz / Ambient.Environment.Soundscapes",
+    "duration_sec": 3030,
+    "type": "youtube",
+    "video_id": "HPDGp6b829s",
+    "video_title": "Ambient Step by Step Tutorial - Techniques and Processing: Creating Ambient Environment Soundscapes",
+    "video_url": "https://www.youtube.com/watch?v=HPDGp6b829s",
+    "views": 18757
+  },
+  "tags": [
+    "cinematic",
+    "ambient",
+    "drone",
+    "effect_chain",
+    "soundscape",
+    "texture_design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:49:27Z",
+  "wash_version": "1.0.0"
+}

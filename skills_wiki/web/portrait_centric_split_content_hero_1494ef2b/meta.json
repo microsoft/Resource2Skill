@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "portrait_centric_split_content_hero_1494ef2b",
+  "skill_name": "Portrait-Centric Split-Content Hero",
+  "source": {
+    "channel": "Dani Krossing",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=XDGig-nJUg8"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:53:11Z",
+  "wash_version": "1.0.0"
+}

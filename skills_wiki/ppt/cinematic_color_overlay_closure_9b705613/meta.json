@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_color_overlay_closure_9b705613",
+  "skill_name": "Cinematic Color-Overlay Closure",
+  "source": {
+    "channel": "\u5b59\u8d85",
+    "duration_sec": 69,
+    "type": "youtube",
+    "video_id": "iLz2uHAPoKw",
+    "video_title": "\u3010PPT\u8fdb\u9636\u6559\u7a0b\u3011A04 \u7ed3\u5c3e\u9875\u7684\u7f8e\u5316\u65b9\u6cd5",
+    "video_url": "https://www.youtube.com/watch?v=iLz2uHAPoKw",
+    "views": 144
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:56:50Z",
+  "wash_version": "1.0.0"
+}

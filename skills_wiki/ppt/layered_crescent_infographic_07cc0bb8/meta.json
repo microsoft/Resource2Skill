@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_crescent_infographic_07cc0bb8",
+  "skill_name": "Layered Crescent Infographic",
+  "source": {
+    "channel": "Infographics Design",
+    "duration_sec": 583,
+    "type": "youtube",
+    "video_id": "LaldtqM7ZK0",
+    "video_title": "PowerPoint infographic slide design tutorial | ppt presentation ideas 2021",
+    "video_url": "https://www.youtube.com/watch?v=LaldtqM7ZK0",
+    "views": 5414
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:47:13Z",
+  "wash_version": "1.0.0"
+}

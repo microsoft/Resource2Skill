@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glowing_concentric_data_nodes_d5937e44",
+  "skill_name": "Glowing Concentric Data Nodes",
+  "source": {
+    "channel": "ViaAnimation_PowerPoint",
+    "duration_sec": 209,
+    "type": "youtube",
+    "video_id": "_pkd9a1h5W8",
+    "video_title": "Presentation Tip - Spinning circle | 3 minutes Powerpoint Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=_pkd9a1h5W8",
+    "views": 967
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:52:59Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_fashion_split_screen_data_look_73db610b",
+  "skill_name": "Editorial Fashion Split-Screen & Data Lookbook",
+  "source": {
+    "channel": "AI Eight Nine",
+    "duration_sec": 329,
+    "type": "youtube",
+    "video_id": "zRO9eJcC-iI",
+    "video_title": "NotebookLM + Gemini \u4e00\u952e\u751f\u6210\u7cbe\u7f8e\u53ef\u7f16\u8f91PPT\uff0c\u8ba9AI\u4e3a\u4f60\u514d\u8d39\u6253\u5de5\uff01",
+    "video_url": "https://www.youtube.com/watch?v=zRO9eJcC-iI",
+    "views": 312
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:21:20Z",
+  "wash_version": "1.0.0"
+}

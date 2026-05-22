@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "edm_sidechain_pumping_generator_ghost_tr_07066d84",
+  "skill_name": "EDM Sidechain Pumping Generator (Ghost Trigger & Volume Shaper)",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "duration_sec": 468,
+    "type": "youtube",
+    "video_id": "Lhfmcw9nQHg",
+    "video_title": "Music Production Tutorial in REAPER | Arrangement",
+    "video_url": "https://www.youtube.com/watch?v=Lhfmcw9nQHg",
+    "views": 1210
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:39Z",
+  "wash_version": "1.0.0"
+}

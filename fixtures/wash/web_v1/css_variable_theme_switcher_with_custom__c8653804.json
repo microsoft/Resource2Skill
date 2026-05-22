@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_variable_theme_switcher_with_custom__c8653804",
+  "source": {
+    "channel": "WEB CIFAR",
+    "duration_sec": 1340,
+    "type": "youtube",
+    "video_id": "D1yg4T37qYo",
+    "video_title": "How To Create Dark Theme Switcher For Website Using  CSS and JS",
+    "video_url": "https://www.youtube.com/watch?v=D1yg4T37qYo",
+    "views": 6428
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

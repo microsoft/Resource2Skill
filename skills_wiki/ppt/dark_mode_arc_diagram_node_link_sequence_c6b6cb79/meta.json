@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_arc_diagram_node_link_sequence_c6b6cb79",
+  "skill_name": "Dark Mode Arc Diagram (Node-Link Sequence)",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 592,
+    "type": "youtube",
+    "video_id": "1TuUC0JGyM0",
+    "video_title": "How to make a flowchart in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=1TuUC0JGyM0",
+    "views": 5367
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:29:27Z",
+  "wash_version": "1.0.0"
+}

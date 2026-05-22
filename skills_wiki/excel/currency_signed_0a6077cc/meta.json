@@ -1,0 +1,30 @@
+{
+  "applicability": "Formats monetary values to explicitly display positive and negative signs. It is highly useful for financial dashboards where cash flow direction or variance must be highlighted without decimal clutter.",
+  "category_path": [
+    "formatting",
+    "number_formats",
+    "currency"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "currency_signed_0a6077cc",
+  "skill_name": "currency_signed",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "currency",
+    "number_format",
+    "signed",
+    "financial",
+    "no_decimal"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:00:37Z",
+  "wash_version": "1.0.0"
+}

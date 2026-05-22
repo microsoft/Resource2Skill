@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cross_functional_swimlane_flowchart_cfce5e6f",
+  "skill_name": "Cross-Functional Swimlane Flowchart",
+  "source": {
+    "channel": "PAPAYA \u96fb\u8166\u6559\u5ba4",
+    "duration_sec": 806,
+    "type": "youtube",
+    "video_id": "CU0ZhMoXz7k",
+    "video_title": "\u53ea\u6703\u7528 Office \u756b\u6d41\u7a0b\u5716\uff1f\u8a31\u591a\u4eba\u8a66\u7528\u904e\u9019\u500b\u5f8c\u76f4\u547c\u56de\u4e0d\u53bb\u4e86 \ud83d\udc4d | Draw.io \u6559\u5b78",
+    "video_url": "https://www.youtube.com/watch?v=CU0ZhMoXz7k",
+    "views": 449660
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:07:58Z",
+  "wash_version": "1.0.0"
+}

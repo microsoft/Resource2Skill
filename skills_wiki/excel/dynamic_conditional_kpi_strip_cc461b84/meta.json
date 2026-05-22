@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for dashboards needing high-visibility, at-a-glance performance indicators. This cell-based visual avoids clunky shapes for a cleaner, native look and feel.",
+  "category_path": [
+    "dashboards",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_conditional_kpi_strip_cc461b84",
+  "skill_name": "Dynamic Conditional KPI Strip",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 2128,
+    "type": "youtube",
+    "video_id": "_PlBRWc0RlI",
+    "video_title": "Easy Build Budget vs Actual Dashboard + FREE File Download",
+    "video_url": "https://www.youtube.com/watch?v=_PlBRWc0RlI",
+    "views": 1032863
+  },
+  "tags": [
+    "kpi",
+    "dashboard",
+    "variance analysis",
+    "conditional formatting",
+    "unicode symbols"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:54:32Z",
+  "wash_version": "1.0.0"
+}

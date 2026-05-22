@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_fluid_dark_mode_toggle_f4b9e561",
+  "skill_name": "Animated Fluid Dark Mode Toggle",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:32:13Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Light mode initial state of the webpage"
+        },
+        {
+          "seconds": 8,
+          "description": "Dark mode initial state of the webpage"
+        },
+        {
+          "seconds": 528,
+          "description": "The webpage is rendered without any CSS styling, displaying only raw HTML content."
+        },
+        {
+          "seconds": 1528,
+          "description": "The webpage is rendered without any CSS styling, displaying only raw HTML content."
+        },
+        {
+          "seconds": 2307,
+          "description": "The webpage with some initial CSS styling applied."
+        }
+      ],
+      "frames": [
+        "frame_00_light_mode_initial_state_of_th.jpg",
+        "frame_01_dark_mode_initial_state_of_the.jpg",
+        "frame_02_the_webpage_is_rendered_withou.jpg",
+        "frame_03_the_webpage_is_rendered_withou.jpg",
+        "frame_04_the_webpage_with_some_initial_.jpg"
+      ],
+      "recapped_at": 1777408443.7901275
+    },
+    "primary_path": "frame_00_light_mode_initial_state_of_th.jpg"
+  }
+}

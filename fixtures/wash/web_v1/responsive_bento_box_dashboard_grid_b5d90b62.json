@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_box_dashboard_grid_b5d90b62",
+  "source": {
+    "channel": "Optimistic Web",
+    "duration_sec": 409,
+    "type": "youtube",
+    "video_id": "QlZkfmofzHU",
+    "video_title": "CSS Grid - Create a RESPONSIVE DASHBOARD Layout in minutes",
+    "video_url": "https://www.youtube.com/watch?v=QlZkfmofzHU",
+    "views": 14501
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

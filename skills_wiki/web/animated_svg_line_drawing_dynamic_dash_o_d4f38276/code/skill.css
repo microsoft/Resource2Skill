@@ -1,0 +1,7 @@
+    @media (prefers-reduced-motion: reduce) {
+        .animated-svg * {
+            animation: none !important;
+            stroke-dasharray: none !important;
+            stroke-dashoffset: 0 !important;
+        }
+    }

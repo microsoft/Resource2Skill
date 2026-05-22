@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "realistic_day_night_interior_lighting_ri_553de9c2",
+  "skill_name": "Realistic Day & Night Interior Lighting Rig",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 492,
+    "type": "youtube",
+    "video_id": "cPDdjTh0EYM",
+    "video_title": "Easy Interior Lighting in Blender (Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=cPDdjTh0EYM",
+    "views": 166160
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:41:56Z",
+  "wash_version": "1.0.0"
+}

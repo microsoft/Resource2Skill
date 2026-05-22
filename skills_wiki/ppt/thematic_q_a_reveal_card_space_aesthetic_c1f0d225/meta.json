@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for educational modules, corporate training, or trivia. It transforms standard Q&A into an interactive, gamified visual experience perfect for knowledge checks or reinforcing key takeaways.",
+  "category_path": [
+    "interactive_content",
+    "knowledge_check"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "thematic_q_a_reveal_card_space_aesthetic_c1f0d225",
+  "skill_name": "Thematic Q&A Reveal Card (Space Aesthetic)",
+  "source": {
+    "channel": "LearnFree",
+    "duration_sec": 323,
+    "type": "youtube",
+    "video_id": "kw_udjD2xwo",
+    "video_title": "PowerPoint: Animating Text and Objects",
+    "video_url": "https://www.youtube.com/watch?v=kw_udjD2xwo",
+    "views": 2275147
+  },
+  "tags": [
+    "q&a",
+    "reveal",
+    "space",
+    "aesthetic",
+    "interactive",
+    "quiz"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:38Z",
+  "wash_version": "1.0.0"
+}

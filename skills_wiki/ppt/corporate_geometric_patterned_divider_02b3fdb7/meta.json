@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for high-stakes corporate settings like consulting proposals, strategic plans, and financial reports. Use this for section headers, title slides, or executive summary dividers to add professional polish and visual structure.",
+  "category_path": [
+    "slide_layout",
+    "divider"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_geometric_patterned_divider_02b3fdb7",
+  "skill_name": "Corporate Geometric Divider",
+  "source": {
+    "channel": "SlideSalad",
+    "duration_sec": 221,
+    "type": "youtube",
+    "video_id": "_5i9Zq3oeg0",
+    "video_title": "Best Consulting Proposal PowerPoint PPT Templates - SlideSalad",
+    "video_url": "https://www.youtube.com/watch?v=_5i9Zq3oeg0",
+    "views": 8137
+  },
+  "tags": [
+    "divider",
+    "section header",
+    "corporate",
+    "geometric",
+    "title slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:05:53Z",
+  "wash_version": "1.0.0"
+}

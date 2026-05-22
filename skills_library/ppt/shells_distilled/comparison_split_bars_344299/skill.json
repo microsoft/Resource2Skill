@@ -1,0 +1,98 @@
+{
+  "skill_id": "comparison_split_bars_344299",
+  "skill_type": "shell",
+  "name": "Comparison Split Bars",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "title+split-bars"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "cool"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_a_name",
+      "kind": "text",
+      "required": true,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_a_desc",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_b_name",
+      "kind": "text",
+      "required": true,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_b_desc",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metrics",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/comparison_split_bars_344299/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "symmetrical_divergent_comparison_dashboa_414e8892",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "A central-axis comparison layout using horizontal bars extending outwards to contrast two products across multiple metrics.",
+  "_distill_attempts": 2
+}

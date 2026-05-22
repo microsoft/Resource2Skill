@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this layout for title slides, product introductions, or portfolio showcases where a single concept or image needs to be presented with maximum visual impact and minimal distraction.",
+  "category_path": [
+    "layout",
+    "hero_object"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hero_object_showcase_layout_755bd3b7",
+  "skill_name": "Hero Object Showcase Layout",
+  "source": {
+    "channel": "Tutorials with Jordan",
+    "duration_sec": 101,
+    "type": "youtube",
+    "video_id": "dleyzj3RvlM",
+    "video_title": "How to Add Animation in Powerpoint (2026)",
+    "video_url": "https://www.youtube.com/watch?v=dleyzj3RvlM",
+    "views": 97425
+  },
+  "tags": [
+    "minimalist layout",
+    "visual showcase",
+    "title slide",
+    "high impact"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:09Z",
+  "wash_version": "1.0.0"
+}

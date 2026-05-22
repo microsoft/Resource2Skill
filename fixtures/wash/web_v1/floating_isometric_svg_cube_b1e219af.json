@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "floating_isometric_svg_cube_b1e219af",
+  "source": {
+    "channel": "SoftCode",
+    "duration_sec": 289,
+    "type": "youtube",
+    "video_id": "l5YKdeeeWLw",
+    "video_title": "CSS3 Isometric Cube | 3D Isometric Design Html & CSS | Part-2",
+    "video_url": "https://www.youtube.com/watch?v=l5YKdeeeWLw",
+    "views": 139
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

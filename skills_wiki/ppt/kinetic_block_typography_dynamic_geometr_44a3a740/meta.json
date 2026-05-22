@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_block_typography_dynamic_geometr_44a3a740",
+  "skill_name": "Kinetic Block Typography & Dynamic Geometric Overlay",
+  "source": {
+    "channel": "PowerPoint Spice",
+    "duration_sec": 898,
+    "type": "youtube",
+    "video_id": "kI39o2K3KD4",
+    "video_title": "How to Make Kinetic Typography Effects - Advanced Powerpoint Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=kI39o2K3KD4",
+    "views": 595144
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:16:59Z",
+  "wash_version": "1.0.0"
+}

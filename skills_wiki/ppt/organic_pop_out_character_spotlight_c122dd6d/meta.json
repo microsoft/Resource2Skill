@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "organic_pop_out_character_spotlight_c122dd6d",
+  "skill_name": "Organic Pop-out Character Spotlight",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 115,
+    "type": "youtube",
+    "video_id": "lLug5WSJwUQ",
+    "video_title": "\u5feb\u901f\u6253\u9020\u72ec\u7279\u4eba\u7269\u4ecb\u7ecd\u9875\u9762\uff0c\u4e09\u5206\u949f\u641e\u5b9a\uff01",
+    "video_url": "https://www.youtube.com/watch?v=lLug5WSJwUQ",
+    "views": 264
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:07Z",
+  "wash_version": "1.0.0"
+}

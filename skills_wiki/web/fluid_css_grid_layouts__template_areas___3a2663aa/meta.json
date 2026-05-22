@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_css_grid_layouts__template_areas___3a2663aa",
+  "skill_name": "Fluid CSS Grid Layouts (Template Areas & Auto-Fit)",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=EiNiSFIPIQE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:43:10Z",
+  "wash_version": "1.0.0"
+}

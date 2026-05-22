@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for detailing creature skin, organic props, and realistic environmental surfaces. Translates 2D luminosity into 3D geometric depth to create intricate micro-structures without manual modeling.",
+  "category_path": [
+    "materials",
+    "displacement"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_alpha_displacement_height_map_e23a63ac",
+  "skill_name": "Procedural Alpha Displacement",
+  "source": {
+    "channel": "in2vert",
+    "duration_sec": 170,
+    "type": "youtube",
+    "video_id": "zxbwNfRU4QA",
+    "video_title": "Blender Sculpting - Alpha Textures for free Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=zxbwNfRU4QA",
+    "views": 103485
+  },
+  "tags": [
+    "displacement",
+    "height_map",
+    "procedural",
+    "micro-details",
+    "subdivision"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:15:09Z",
+  "wash_version": "1.0.0"
+}

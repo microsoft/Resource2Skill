@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_frosted_glass_panel_reveal_c0c417df",
+  "skill_name": "Glassmorphism (Frosted Glass Panel Reveal)",
+  "source": {
+    "channel": "Dream Liu",
+    "duration_sec": 410,
+    "type": "youtube",
+    "video_id": "CkZIWgsUL2w",
+    "video_title": "3-Minute Tutorial: Create A Stack of Credit Cards in PowerPoint via Stunning Glass Effect",
+    "video_url": "https://www.youtube.com/watch?v=CkZIWgsUL2w",
+    "views": 18842
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:33:20Z",
+  "wash_version": "1.0.0"
+}

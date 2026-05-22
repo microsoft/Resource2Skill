@@ -1,0 +1,29 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_chevron_cover_afbd78",
+  "skill_name": "Geometric Chevron Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T4",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:08:52Z",
+  "wash_version": "1.0.0"
+}

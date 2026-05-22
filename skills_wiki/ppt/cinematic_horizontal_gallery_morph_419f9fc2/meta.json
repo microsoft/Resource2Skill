@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_horizontal_gallery_morph_419f9fc2",
+  "skill_name": "Cinematic Horizontal Gallery Morph",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 192,
+    "type": "youtube",
+    "video_id": "Z-I6EZ9K8Os",
+    "video_title": "PPT\u521b\u610f\u8bbe\u8ba1\uff1aPPT\u591a\u56fe\u5e73\u6ed1\u5c55\u793a\u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=Z-I6EZ9K8Os",
+    "views": 1612
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:25:48Z",
+  "wash_version": "1.0.0"
+}

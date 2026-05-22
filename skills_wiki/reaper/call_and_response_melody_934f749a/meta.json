@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "call_and_response_melody_934f749a",
+  "skill_name": "Call and Response Melody",
+  "source": {
+    "channel": "Mixed In Key & Captain Plugins SOFTWARE",
+    "duration_sec": 250,
+    "type": "youtube",
+    "video_id": "7c0uYRj1NEM",
+    "video_title": "Call and Response: The best type of Melody that everyone can remember | Odesi Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=7c0uYRj1NEM",
+    "views": 78076
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:10:37Z",
+  "wash_version": "1.0.0"
+}

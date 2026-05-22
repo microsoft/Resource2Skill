@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_scalable_illustration_camera_ic_01d27966",
+  "source": {
+    "channel": "Bytes of Art",
+    "duration_sec": 187,
+    "type": "youtube",
+    "video_id": "I2PXNpOndqU",
+    "video_title": "Pure CSS - Camera Icon | Bytes Of Art",
+    "video_url": "https://www.youtube.com/watch?v=I2PXNpOndqU",
+    "views": 87
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

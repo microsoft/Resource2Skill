@@ -1,0 +1,31 @@
+{
+  "applicability": "Applies a space-saving date format showing only the abbreviated month and two-digit year. Ideal for financial modeling, dashboards, and charts where exact days are unnecessary.",
+  "category_path": [
+    "formatting",
+    "number_formats",
+    "date"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "date_compact_a345e05a",
+  "skill_name": "date_compact",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "date",
+    "formatting",
+    "compact",
+    "month-year",
+    "mmm-yy",
+    "number-format"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:00:57Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,117 @@
+{
+  "theme_id": "synthwave_sunset",
+  "name": "Synthwave Sunset",
+  "palette": {
+    "bg": "#120A2E",
+    "panel": "#1D0F3E",
+    "accent": "#FF61E1",
+    "accent2": "#00E5FF",
+    "text": "#F5EAFA",
+    "muted": "#7860A0",
+    "border": "#2A1952",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "neon_horizon",
+    "description": "Horizon grid fading into magenta/cyan neon"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "bold",
+    "preferred_entrance": [
+      "zoom",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "fade-only"
+    ]
+  },
+  "mood": [
+    "cinematic",
+    "bold",
+    "punchy",
+    "technical"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "neon",
+    "chromatic",
+    "audio-wave",
+    "marquee",
+    "cta-arrow",
+    "slot-machine"
+  ],
+  "avoided_motion_tags": [
+    "thesis",
+    "page-turn",
+    "ink-bleed",
+    "margin-note",
+    "typewriter"
+  ]
+}

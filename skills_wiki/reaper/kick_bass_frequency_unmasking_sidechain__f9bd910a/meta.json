@@ -1,0 +1,36 @@
+{
+  "applicability": "This technique is essential for genres with prominent kick drums and continuous basslines, such as EDM, pop, and hip-hop. It ensures professional low-end separation and creates rhythmic forward momentum.",
+  "category_path": [
+    "mixing",
+    "dynamics",
+    "sidechain"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kick_bass_frequency_unmasking_sidechain__f9bd910a",
+  "skill_name": "Kick-Bass Frequency Unmasking (Sidechain Ducking)",
+  "source": {
+    "channel": "Simon Larkin",
+    "duration_sec": 877,
+    "type": "youtube",
+    "video_id": "gEm5ZAppsuE",
+    "video_title": "Reaper Tutorials- Making the kick and bass work together",
+    "video_url": "https://www.youtube.com/watch?v=gEm5ZAppsuE",
+    "views": 7889
+  },
+  "tags": [
+    "sidechain",
+    "compression",
+    "ducking",
+    "mixing",
+    "low-end"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:49Z",
+  "wash_version": "1.0.0"
+}

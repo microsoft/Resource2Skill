@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_alternating_milestones_450d590b",
+  "skill_name": "Interlocking Alternating Milestones",
+  "source": {
+    "channel": "TutsGO",
+    "duration_sec": 466,
+    "type": "youtube",
+    "video_id": "qCUhLxJM0tY",
+    "video_title": "Design an Infographic Timeline with PowerPoint - TutsGO",
+    "video_url": "https://www.youtube.com/watch?v=qCUhLxJM0tY",
+    "views": 52438
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:42:52Z",
+  "wash_version": "1.0.0"
+}

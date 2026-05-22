@@ -1,0 +1,36 @@
+{
+  "applicability": "Dramatically reveals a key number by animating it like a rolling odometer or slot machine. Use this for milestone announcements, financial results, or dashboard hero slides to make data feel more impactful.",
+  "category_path": [
+    "animation",
+    "data_reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "odometer_morph_reveal_b7b6b050",
+  "skill_name": "Odometer Morph Reveal",
+  "source": {
+    "channel": "Dream Liu",
+    "duration_sec": 142,
+    "type": "youtube",
+    "video_id": "a2pR7ZoSkMo",
+    "video_title": "Mastering Impressive Number Scrolling Animations in PowerPoint!",
+    "video_url": "https://www.youtube.com/watch?v=a2pR7ZoSkMo",
+    "views": 3846
+  },
+  "tags": [
+    "odometer",
+    "number scroll",
+    "data reveal",
+    "morph transition",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:41Z",
+  "wash_version": "1.0.0"
+}

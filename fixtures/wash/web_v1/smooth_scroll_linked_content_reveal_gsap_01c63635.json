@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_scroll_linked_content_reveal_gsap_01c63635",
+  "source": {
+    "channel": "DesignCourse",
+    "duration_sec": 1382,
+    "type": "youtube",
+    "video_id": "PrQeeUt49f4",
+    "video_title": "Mastering Scroll Animations with GSAP ScrollTrigger",
+    "video_url": "https://www.youtube.com/watch?v=PrQeeUt49f4",
+    "views": 186312
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

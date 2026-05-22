@@ -1,0 +1,63 @@
+{
+  "skill_id": "central_card_divider_ef8617",
+  "skill_type": "shell",
+  "name": "Central Card Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "central-card-with-top-band"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/central_card_divider_ef8617/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "3d_isometric_staged_foundation_e9811cde",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A minimal central card layout with a distinct top accent band, suitable for bold section dividers or covers.",
+  "_distill_attempts": 1
+}

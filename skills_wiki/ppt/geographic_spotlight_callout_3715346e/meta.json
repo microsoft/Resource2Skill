@@ -1,0 +1,35 @@
+{
+  "applicability": "This technique effectively links specific geographic points on a map to detailed information, such as team members, office locations, or key data points. It is ideal for corporate, project, or marketing presentations requiring a clear and modern way to display location-based information.",
+  "category_path": [
+    "infographic",
+    "map"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geographic_spotlight_callout_3715346e",
+  "skill_name": "Geographic Spotlight Callout",
+  "source": {
+    "channel": "Spotlight Impact Data Design",
+    "duration_sec": 378,
+    "type": "youtube",
+    "video_id": "_Sis0RDu_24",
+    "video_title": "How to Create a Spotlight Graphic in PowerPoint \ud83d\udd25 [PPT TIPS!]",
+    "video_url": "https://www.youtube.com/watch?v=_Sis0RDu_24",
+    "views": 5082
+  },
+  "tags": [
+    "map",
+    "callout",
+    "infographic",
+    "location",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:28:59Z",
+  "wash_version": "1.0.0"
+}

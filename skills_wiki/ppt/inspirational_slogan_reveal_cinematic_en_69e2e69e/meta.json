@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "inspirational_slogan_reveal_cinematic_en_69e2e69e",
+  "skill_name": "Inspirational Slogan Reveal (Cinematic End Page)",
+  "source": {
+    "channel": "\u4e16\u754c\u53f2\u56fe\u4e66\u9986",
+    "duration_sec": 858,
+    "type": "youtube",
+    "video_id": "Tl_rBfKHMes",
+    "video_title": "PPT\u8bad\u7ec3\u8bfe \u505a\u51fa\u773c\u524d\u4e00\u4eae\u7684\u4f01\u4e1a\u4ecb\u7ecd\u7ed3\u5c3e\u9875",
+    "video_url": "https://www.youtube.com/watch?v=Tl_rBfKHMes",
+    "views": 68
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:40:21Z",
+  "wash_version": "1.0.0"
+}

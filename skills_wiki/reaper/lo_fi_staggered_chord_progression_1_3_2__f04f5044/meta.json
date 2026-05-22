@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lo_fi_staggered_chord_progression_1_3_2__f04f5044",
+  "skill_name": "Lo-fi Staggered Chord Progression (1-3-2 / 1-2-3 Strum)",
+  "source": {
+    "channel": "nanee ",
+    "duration_sec": 69,
+    "type": "youtube",
+    "video_id": "m0VCEnB8mZc",
+    "video_title": "How to write basic Lofi chords in Reaper",
+    "video_url": "https://www.youtube.com/watch?v=m0VCEnB8mZc",
+    "views": 517
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:21:38Z",
+  "wash_version": "1.0.0"
+}

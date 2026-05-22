@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_spatial_masking_line_reveal_bb618084",
+  "skill_name": "Minimalist Spatial Masking & Line Reveal",
+  "source": {
+    "channel": "QuBJ",
+    "duration_sec": 278,
+    "type": "youtube",
+    "video_id": "5cJMdOxXmKA",
+    "video_title": "PowerPoint Animation | How To Reveal Text On Click #4",
+    "video_url": "https://www.youtube.com/watch?v=5cJMdOxXmKA",
+    "views": 2909
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:48:29Z",
+  "wash_version": "1.0.0"
+}

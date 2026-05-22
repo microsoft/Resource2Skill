@@ -1,0 +1,89 @@
+{
+  "skill_id": "center_image_metric_split_f04e3c",
+  "skill_type": "shell",
+  "name": "Center Image Metric Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "metric+image+headline"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "metric",
+      "kind": "text",
+      "required": true,
+      "style": "metric_xl",
+      "max_chars": 10,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "footnote",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "footer",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/center_image_metric_split_f04e3c/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "pictograph_matrix_100_icon_array_percent_822e79f7",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A bold metric layout with a central overlapping image, separating a large statistic from its descriptive headline.",
+  "_distill_attempts": 1
+}

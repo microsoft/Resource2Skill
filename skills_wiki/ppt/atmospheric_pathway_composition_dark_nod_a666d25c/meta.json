@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this skill to create a visually striking roadmap, process flow, or interactive agenda. It excels at guiding the audience through 3-5 interconnected concepts on a dark, atmospheric background.",
+  "category_path": [
+    "diagram",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "atmospheric_pathway_composition_dark_nod_a666d25c",
+  "skill_name": "Atmospheric Pathway Diagram",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 1458,
+    "type": "youtube",
+    "video_id": "eog6CwB5wUs",
+    "video_title": "PowerPoint Slide Zoom Tutorial \ud83d\udd25Free Template\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=eog6CwB5wUs",
+    "views": 6443039
+  },
+  "tags": [
+    "roadmap",
+    "process flow",
+    "agenda",
+    "dark theme",
+    "navigation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:51:41Z",
+  "wash_version": "1.0.0"
+}

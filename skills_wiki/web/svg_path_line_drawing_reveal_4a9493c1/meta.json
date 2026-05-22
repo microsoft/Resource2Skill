@@ -1,0 +1,35 @@
+{
+  "applicability": "Enhances user engagement by animating icons, logos, or diagrams to appear as if they are being drawn in real-time. Ideal for loading screens, feature highlights, and scroll-triggered storytelling.",
+  "category_path": [
+    "animation",
+    "svg"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "svg_path_line_drawing_reveal_4a9493c1",
+  "skill_name": "SVG Path Reveal Animation",
+  "source": {
+    "channel": "TK",
+    "duration_sec": 510,
+    "type": "youtube",
+    "video_id": "dLmxNzRiHKk",
+    "video_title": "SVG animation: animate an SVG icon with CSS",
+    "video_url": "https://www.youtube.com/watch?v=dLmxNzRiHKk",
+    "views": 450
+  },
+  "tags": [
+    "svg",
+    "animation",
+    "line drawing",
+    "css",
+    "micro-interaction"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:53:05Z",
+  "wash_version": "1.0.0"
+}

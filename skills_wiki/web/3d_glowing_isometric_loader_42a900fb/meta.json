@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_isometric_loader_42a900fb",
+  "skill_name": "3D Glowing Isometric Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:50:20Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 16,
+          "description": "Interactive blue square with 'Hi' text rotating and changing shape"
+        },
+        {
+          "seconds": 54,
+          "description": "Website with animated background featuring a flying plane"
+        },
+        {
+          "seconds": 206,
+          "description": "Blue square animating with rotation, scale, and border-radius changes"
+        },
+        {
+          "seconds": 527,
+          "description": "Blue square completing animation and holding its final circular state"
+        },
+        {
+          "seconds": 711,
+          "description": "Glowing blue square rotating on three axes as a loading animation"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_blue_square_with_h.jpg",
+        "frame_01_website_with_animated_backgrou.jpg",
+        "frame_02_blue_square_animating_with_rot.jpg"
+      ],
+      "recapped_at": 1777408018.734573
+    },
+    "primary_path": "frame_00_interactive_blue_square_with_h.jpg"
+  }
+}

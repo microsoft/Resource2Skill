@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_grid_masonry_with_progressive_499394c0",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1016,
+    "type": "youtube",
+    "video_id": "KrPz_wmBsAE",
+    "video_title": "Masonry layout with CSS only!",
+    "video_url": "https://www.youtube.com/watch?v=KrPz_wmBsAE",
+    "views": 75735
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

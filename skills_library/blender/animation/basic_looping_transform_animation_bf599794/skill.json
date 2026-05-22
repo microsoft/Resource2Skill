@@ -1,0 +1,39 @@
+{
+  "skill_id": "basic_looping_transform_animation_bf599794",
+  "skill_name": "Basic Looping Transform Animation",
+  "domain": "blender",
+  "category": "animation",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=5WOrfMz2Sqs",
+    "video_id": "5WOrfMz2Sqs",
+    "video_title": "Beginners Guide to Animation in blender 4 : Part 1 - Keyframes",
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 858,
+    "views": 50904
+  },
+  "extracted_at": "2026-04-13T08:14:55.570933",
+  "analysis": "### 1. High-level Design Pattern Extraction\n\n> **Skill Name**: Basic Looping Transform Animation\n\n* **Core Visual Mechanism**: Time-based interpolation of an object's transform properties (Location, Rotation, Scale) using Keyframes. The signature of this specific technique is the creation of a seamless \"loop\" by ensuring the first and last keyframes of a sequence hold the exact same transform values, with an offset state in the middle.\n* **Why Use This Skill (Rationale)**: Animation brings static 3D scenes to life. Even a rudimentary back-and-forth slide or a subtle hover creates visual interest, guides the viewer's eye, and establishes a sense of scale and physics. Understanding keyframes is the absolute foundation for all motion graphics, VFX, and character animation in Blender.\n* **Overall Applicability**: Perfect for background elements (like moving vehicles or machinery), floating sci-fi props, UI motion graphics, or simple environmental storytelling (e.g., a swinging pendulum or sliding door).\n* **Value Addition**: Transforms a completely static prop into a dynamic element, demonstrating the passage of time and adding vitality to the scene without needing complex physics simulations.\n\n### 2. Technical Breakdown\n\n* **Step A: Geometry & Topology**\n  - Uses a standard primitive (Cube) as a placeholder for the animated subject.\n  - The geometry itself is not modified; the animation occurs at the Object level, manipulating the object's origin point in world/local space.\n* **Step B: Materials & Shading**\n  - A standard Principled BSDF shader is applied to make the object visible and reactive to scene lighting.\n  - Base Color is set via parameters (e.g., a striking orange `(0.8, 0.2, 0.1)` to make the motion easily readable against default grey backgrounds).\n* **Step C: Lighting & Rendering Context**\n  - Standard timeline settings: 24 Frames Per Second (FPS).\n  - Works seamlessly in both EEVEE (real-time preview during playback) and Cycles.\n* **Step D: Animation & Dynamics**\n  - **Start Frame (Frame 1)**: Keyframe is inserted on the `location` data path (State A).\n  - **Mid Frame (Frame 25)**: The object is moved linearly along an axis (e.g., +5 units on the X-axis) and a second keyframe is inserted (State B).\n  - **End Frame (Frame 49)**: The object is moved back to its original position and a final keyframe is inserted (State A again).\n  - Because Frame 1 and Frame 49 are identical, playing frames 1 through 48 results in a perfectly seamless loop.\n\n### 3. Reproduction Code\n\n#### 3a. Implementation Method Selection\n\n| Aspect of the effect | Method | Why this method |\n|---|---|---|\n| Base Object | `bpy.ops.mesh.primitive_cube_add` | Provides a simple, visible shape to demonstrate motion without distractions. |\n| Motion Data | `obj.keyframe_insert()` | The core API method for recording property states at specific points in time. |\n| Looping Logic | Identical Start/End values | Programmatically setting the start and end frame to the same location ensures a mathematically perfect loop. |\n\n> **Feasibility Assessment**: 100% — The core concept of the tutorial (keyframing a cube to slide back and forth in a loop) is perfectly reproduced using Blender's Python API.\n\n#### 3b. Complete Reproduction Code\n\n```python\ndef create_object(\n    scene_name: str = \"Scene\",\n    object_name: str = \"AnimatedSlider\",\n    location: tuple = (0, 0, 1),\n    scale: float = 1.0,\n    material_color: tuple = (0.8, 0.2, 0.1),\n    **kwargs,\n) -> str:\n    \"\"\"\n    Create Basic Looping Transform Animation in the active Blender scene.\n\n    Args:\n        scene_name: Name of the target scene (usually \"Scene\").\n        object_name: Name for the created object.\n        location: (x, y, z) world-space starting position.\n        scale: Uniform scale factor (1.0 = default size).\n        material_color: (R, G, B) base color in 0-1 range.\n        **kwargs: Additional overrides (loop_duration, move_axis, move_distance).\n\n    Returns:\n        Status string.\n    \"\"\"\n    import bpy\n    from mathutils import Vector\n\n    scene = bpy.data.scenes.get(scene_name) or bpy.data.scenes[0]\n\n    # === Step 1: Create Base Geometry ===\n    bpy.ops.mesh.primitive_cube_add(size=2.0)\n    obj = bpy.context.active_object\n    obj.name = object_name\n    \n    # === Step 2: Build Material ===\n    mat = bpy.data.materials.new(name=f\"{object_name}_Mat\")\n    mat.use_nodes = True\n    bsdf = mat.node_tree.nodes.get(\"Principled BSDF\")\n    if bsdf:\n        bsdf.inputs[\"Base Color\"].default_value = (*material_color, 1.0)\n        bsdf.inputs[\"Roughness\"].default_value = 0.4\n    \n    if obj.data.materials:\n        obj.data.materials[0] = mat\n    else:\n        obj.data.materials.append(mat)\n\n    # === Step 3: Position & Scale ===\n    obj.location = Vector(location)\n    obj.scale = (scale, scale, scale)\n\n    # === Step 4: Animation / Keyframes ===\n    # Retrieve optional animation parameters from kwargs or use defaults\n    loop_duration = kwargs.get(\"loop_duration\", 48)  # 48 frames = 2 seconds at 24fps\n    move_axis = kwargs.get(\"move_axis\", 0)           # 0 for X, 1 for Y, 2 for Z\n    move_distance = kwargs.get(\"move_distance\", 5.0)\n\n    start_frame = 1\n    mid_frame = start_frame + (loop_duration // 2)\n    end_frame = start_frame + loop_duration\n\n    # 1. Start Keyframe (Initial Position)\n    obj.keyframe_insert(data_path=\"location\", frame=start_frame)\n\n    # 2. Mid Keyframe (Offset Position)\n    obj.location[move_axis] += move_distance\n    obj.keyframe_insert(data_path=\"location\", frame=mid_frame)\n\n    # 3. End Keyframe (Back to Initial Position to create a seamless loop)\n    obj.location[move_axis] -= move_distance\n    obj.keyframe_insert(data_path=\"location\", frame=end_frame)\n    \n    # Ensure the scene timeline is at least long enough to show the full loop\n    if scene.frame_end < end_frame:\n        scene.frame_end = end_frame\n        \n    # Link object to the correct scene collection if not already\n    if obj.name not in scene.collection.objects:\n        scene.collection.objects.link(obj)\n\n    return f\"Created '{object_name}' at {location} with a {loop_duration}-frame looping animation on axis {move_axis}.\"\n```",
+  "frames": [
+    {
+      "path": "frame_00_stage_20pct.jpg",
+      "seconds": 171,
+      "description": "stage_20pct"
+    },
+    {
+      "path": "frame_01_stage_40pct.jpg",
+      "seconds": 343,
+      "description": "stage_40pct"
+    },
+    {
+      "path": "frame_02_stage_60pct.jpg",
+      "seconds": 514,
+      "description": "stage_60pct"
+    },
+    {
+      "path": "frame_03_stage_80pct.jpg",
+      "seconds": 686,
+      "description": "stage_80pct"
+    }
+  ]
+}

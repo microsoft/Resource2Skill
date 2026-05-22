@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_background_styling_customizatio_1fcd0219",
+  "skill_name": "Advanced Background Styling & Customization",
+  "source": {
+    "channel": "Yashpal Tech",
+    "duration_sec": 1013,
+    "type": "youtube",
+    "video_id": "xt5D-tcMOEI",
+    "video_title": "Customize Group in Design Tab | Slide Size | Format Background | MS PowerPoint  |",
+    "video_url": "https://www.youtube.com/watch?v=xt5D-tcMOEI",
+    "views": 673
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:02Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_architectural_grid_presentati_debaaad1",
+  "skill_name": "Minimalist Architectural Grid Presentation",
+  "source": {
+    "channel": "Surviving Architecture",
+    "duration_sec": 603,
+    "type": "youtube",
+    "video_id": "Rx6lF79zCdo",
+    "video_title": "The Ultimate Guide to Architecture Presentation Boards *Life Changing*",
+    "video_url": "https://www.youtube.com/watch?v=Rx6lF79zCdo",
+    "views": 387198
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:49:15Z",
+  "wash_version": "1.0.0"
+}

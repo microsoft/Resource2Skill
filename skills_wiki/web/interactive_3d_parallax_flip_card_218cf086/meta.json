@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_parallax_flip_card_218cf086",
+  "skill_name": "Interactive 3D Parallax Flip Card",
+  "source": {
+    "channel": "ProgBytes",
+    "duration_sec": 1314,
+    "type": "youtube",
+    "video_id": "Y9LGaoz5IEY",
+    "video_title": "CSS 3D transform in 20 minutes!",
+    "video_url": "https://www.youtube.com/watch?v=Y9LGaoz5IEY",
+    "views": 1919
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:00:46Z",
+  "wash_version": "1.0.0"
+}

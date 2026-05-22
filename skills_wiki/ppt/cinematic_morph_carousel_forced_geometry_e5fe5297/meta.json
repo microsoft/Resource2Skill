@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_morph_carousel_forced_geometry_e5fe5297",
+  "skill_name": "Cinematic Morph Carousel & Forced Geometry Metamorphosis",
+  "source": {
+    "channel": "Gemo Edits",
+    "duration_sec": 743,
+    "type": "youtube",
+    "video_id": "eJ9-odqMJPQ",
+    "video_title": "How to Create Stunning Presentations with Morph Transition in PowerPoint | Step-by-Step Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=eJ9-odqMJPQ",
+    "views": 1419751
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:26:04Z",
+  "wash_version": "1.0.0"
+}

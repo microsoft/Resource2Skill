@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_record_viewer_a4d46290",
+  "source": {
+    "channel": "Chandoo",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "dlBuWllegRg",
+    "video_title": "XLOOKUP in Excel | Step-by-Step Tutorial for Beginners (better than VLOOKUP)",
+    "video_url": "https://www.youtube.com/watch?v=dlBuWllegRg",
+    "views": 92457
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_spine_comparative_bar_layout_36a583cf",
+  "skill_name": "Split-Spine Comparative Bar Layout",
+  "source": {
+    "channel": "Digitley",
+    "duration_sec": 295,
+    "type": "youtube",
+    "video_id": "7cmu-1MHKGQ",
+    "video_title": "Pros and Cons or Data Comparison Slide Design 1 | Animated PowerPoint Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=7cmu-1MHKGQ",
+    "views": 31156
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:16:16Z",
+  "wash_version": "1.0.0"
+}

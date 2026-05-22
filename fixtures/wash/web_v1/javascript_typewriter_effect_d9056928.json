@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "javascript_typewriter_effect_d9056928",
+  "source": {
+    "channel": "dcode",
+    "duration_sec": 486,
+    "type": "youtube",
+    "video_id": "MiTJnYHX3iA",
+    "video_title": "How to Easily Create a Text Typewriter Effect with JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=MiTJnYHX3iA",
+    "views": 19663
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

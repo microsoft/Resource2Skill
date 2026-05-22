@@ -1,0 +1,33 @@
+{
+  "applicability": "This diagram is ideal for visualizing a central concept surrounded by several interconnected ideas, steps, or features. It effectively highlights relationships and progression around a core theme.",
+  "category_path": [
+    "diagrams",
+    "circular_layouts"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "circular_concept_diagram_949348",
+  "skill_name": "Circular Concept Diagram",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "circular diagram",
+    "core concept",
+    "feature list",
+    "process flow",
+    "infographic"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:05:20Z",
+  "wash_version": "1.0.0"
+}

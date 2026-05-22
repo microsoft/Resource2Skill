@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "css_sprite_sheet_animation_with_steps_dd8241e3",
+  "source": {
+    "channel": "MinimalTech",
+    "duration_sec": 213,
+    "type": "youtube",
+    "video_id": "XRO3oGuxKls",
+    "video_title": "Character Moving Animation Tutorial Using CSS & HTML",
+    "video_url": "https://www.youtube.com/watch?v=XRO3oGuxKls",
+    "views": 872
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

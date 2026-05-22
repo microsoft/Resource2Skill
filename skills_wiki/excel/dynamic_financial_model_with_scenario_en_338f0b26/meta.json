@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_financial_model_with_scenario_en_338f0b26",
+  "skill_name": "Dynamic Financial Model with Scenario Engine",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "dynamic income statement in Excel preview"
+        },
+        {
+          "seconds": 10,
+          "description": "income statement with revenue forecasted"
+        },
+        {
+          "seconds": 1027,
+          "description": "completed income statement with all profit margins"
+        },
+        {
+          "seconds": 1502,
+          "description": "dynamic income statement with scenario selector dropdown"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_income_statement_in_ex.jpg",
+        "frame_01_income_statement_with_revenue_.jpg"
+      ],
+      "recapped_at": 1777406529.7800522
+    },
+    "primary_path": "frame_00_dynamic_income_statement_in_ex.jpg"
+  }
+}

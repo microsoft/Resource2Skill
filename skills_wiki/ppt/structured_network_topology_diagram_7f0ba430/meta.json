@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for visualizing complex system components and their interconnections, such as IT network topologies, software architecture, or business process flows. The structured approach with a legend makes technical information easily digestible.",
+  "category_path": [
+    "diagrams",
+    "network_topology"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "structured_network_topology_diagram_7f0ba430",
+  "skill_name": "Structured Network Topology Diagram",
+  "source": {
+    "channel": "EdX Lithan",
+    "duration_sec": 268,
+    "type": "youtube",
+    "video_id": "16WSYHcLVGE",
+    "video_title": "Interpreting a Network Diagram",
+    "video_url": "https://www.youtube.com/watch?v=16WSYHcLVGE",
+    "views": 92829
+  },
+  "tags": [
+    "network diagram",
+    "system architecture",
+    "topology",
+    "flowchart",
+    "legend"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:29:25Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_sequential_text_reveal_uv_isl_9039a74b",
+  "skill_name": "Procedural Sequential Text Reveal (UV Island Masking)",
+  "source": {
+    "channel": "Ducky 3D",
+    "duration_sec": 1185,
+    "type": "youtube",
+    "video_id": "dzq4byOD4Ug",
+    "video_title": "Easy Cinematic Text Animation in Blender (Blender tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=dzq4byOD4Ug",
+    "views": 416525
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:24Z",
+  "wash_version": "1.0.0"
+}

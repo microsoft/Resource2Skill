@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_agency_showcase_scroll_drive_7b5aec74",
+  "source": {
+    "channel": "Olivier Larose",
+    "duration_sec": 598,
+    "type": "youtube",
+    "video_id": "9eHEOAn2FOA",
+    "video_title": "My Top 5 Techniques for Web Animation",
+    "video_url": "https://www.youtube.com/watch?v=9eHEOAn2FOA",
+    "views": 237930
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,38 @@
+{
+  "applicability": "Leverages Blender's Rigid Body simulation to create dynamic, physically accurate destruction, ideal for action sequences, demolition, and VFX. It transforms static objects into interactive, breakable elements.",
+  "category_path": [
+    "blender",
+    "physics_simulation",
+    "rigid_body"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rigid_body_destruction_cell_fracture_kin_82eb3fdc",
+  "skill_name": "Rigid Body Destruction (Cell Fracture & Kinematic Smash)",
+  "source": {
+    "channel": "BlenderVitals",
+    "duration_sec": 60,
+    "type": "youtube",
+    "video_id": "rtoHQnQATck",
+    "video_title": "Destroy Any Object in Blender in 1 Minute!",
+    "video_url": "https://www.youtube.com/watch?v=rtoHQnQATck",
+    "views": 236432
+  },
+  "tags": [
+    "rigid_body",
+    "destruction",
+    "cell_fracture",
+    "physics",
+    "vfx",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:42:34Z",
+  "wash_version": "1.0.0"
+}

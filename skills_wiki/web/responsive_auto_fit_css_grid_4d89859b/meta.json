@@ -1,0 +1,34 @@
+{
+  "applicability": "The gold standard for creating fluid, multi-column layouts for dynamic content like product catalogs, image galleries, or blog post grids. It allows items to automatically reflow and resize without media queries.",
+  "category_path": [
+    "layout",
+    "responsive_grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_auto_fit_css_grid_4d89859b",
+  "skill_name": "Responsive Auto-Fit CSS Grid",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "duration_sec": 815,
+    "type": "youtube",
+    "video_id": "EiNiSFIPIQE",
+    "video_title": "Learn CSS Grid - A 13 Minute Deep Dive",
+    "video_url": "https://www.youtube.com/watch?v=EiNiSFIPIQE",
+    "views": 895440
+  },
+  "tags": [
+    "css grid",
+    "responsive layout",
+    "fluid design",
+    "auto-fit"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:46:54Z",
+  "wash_version": "1.0.0"
+}

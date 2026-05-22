@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for architectural visualization, interior design mockups, and game environments. Automates the creation of a parameterized 3D room shell with precise non-destructive cutouts for doors and windows.",
+  "category_path": [
+    "modeling",
+    "architectural"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_3d_floor_plan_generation_f2326689",
+  "skill_name": "Procedural 3D Floor Plan Generation",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 1536,
+    "type": "youtube",
+    "video_id": "Q4rbqUbhYXY",
+    "video_title": "How to Make 3d Floor Plan in Blender",
+    "video_url": "https://www.youtube.com/watch?v=Q4rbqUbhYXY",
+    "views": 492312
+  },
+  "tags": [
+    "archviz",
+    "boolean-operations",
+    "floor-plan",
+    "procedural-modeling",
+    "bmesh"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:14:03Z",
+  "wash_version": "1.0.0"
+}

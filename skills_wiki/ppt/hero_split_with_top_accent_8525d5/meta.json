@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell provides a dynamic two-column layout ideal for cover slides or section dividers, emphasizing a bold headline and a prominent hero image with a distinctive top accent.",
+  "category_path": [
+    "layout",
+    "split_layout"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hero_split_with_top_accent_8525d5",
+  "skill_name": "Hero Split with Top Accent",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "split layout",
+    "hero image",
+    "bold accent",
+    "cover slide",
+    "section divider",
+    "editorial"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:10:18Z",
+  "wash_version": "1.0.0"
+}

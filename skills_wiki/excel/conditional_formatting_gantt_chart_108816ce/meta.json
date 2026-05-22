@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for project schedules, resource planning, and timeline dashboards. It creates a lightweight, interactive visual representation of time directly in the cell grid without requiring complex chart objects.",
+  "category_path": [
+    "formatting",
+    "conditional_formatting"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "conditional_formatting_gantt_chart_108816ce",
+  "skill_name": "Conditional Formatting Gantt Chart",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 2404,
+    "type": "youtube",
+    "video_id": "5qtSioTE2wY",
+    "video_title": "Interactive Excel Project Management Dashboard - FREE Download",
+    "video_url": "https://www.youtube.com/watch?v=5qtSioTE2wY",
+    "views": 2370580
+  },
+  "tags": [
+    "gantt chart",
+    "conditional formatting",
+    "project management",
+    "timeline",
+    "dashboard"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:54:15Z",
+  "wash_version": "1.0.0"
+}

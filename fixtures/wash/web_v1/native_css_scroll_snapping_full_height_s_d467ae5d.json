@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_snapping_full_height_s_d467ae5d",
+  "source": {
+    "channel": "GTCoding",
+    "duration_sec": 564,
+    "type": "youtube",
+    "video_id": "HAMrs3UyO9k",
+    "video_title": "How To Add Scroll Snapping To Your Website Using Pure CSS",
+    "video_url": "https://www.youtube.com/watch?v=HAMrs3UyO9k",
+    "views": 1756
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

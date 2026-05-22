@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "arrangement"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "synthwave_pop_arrangement_structure_6777ac38",
+  "skill_name": "Synthwave Pop Arrangement Structure",
+  "source": {
+    "channel": "Orpheus Audio Academy",
+    "duration_sec": 712,
+    "type": "youtube",
+    "video_id": "gK_jgUtBOos",
+    "video_title": "Synthwave Song Structure And The 8 Bar Rule (Keep People Listening)",
+    "video_url": "https://www.youtube.com/watch?v=gK_jgUtBOos",
+    "views": 42177
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:33Z",
+  "wash_version": "1.0.0"
+}

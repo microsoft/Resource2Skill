@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_j_dilla_lazy_groove_harmonic_pr_de4fcf37",
+  "skill_name": "Neo-Soul / J-Dilla Lazy Groove & Harmonic Progression",
+  "source": {
+    "channel": "Wonderlust Beats 2",
+    "duration_sec": 684,
+    "type": "youtube",
+    "video_id": "pvYszw3983w",
+    "video_title": "HOW TO NEO SOUL",
+    "video_url": "https://www.youtube.com/watch?v=pvYszw3983w",
+    "views": 100711
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:25Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_diagonal_split_transparent_mas_886303d7",
+  "skill_name": "Geometric Diagonal Split & Transparent Masking",
+  "source": {
+    "channel": "Powerpoint Show",
+    "duration_sec": 120,
+    "type": "youtube",
+    "video_id": "PD6Z1VATekQ",
+    "video_title": "How to Make a PowerPoint Cover Page Design in 2 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=PD6Z1VATekQ",
+    "views": 33642
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:29:45Z",
+  "wash_version": "1.0.0"
+}

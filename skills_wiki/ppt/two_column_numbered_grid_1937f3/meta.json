@@ -1,0 +1,34 @@
+{
+  "applicability": "Applicable for presenting a list of up to 10 items or steps in a clear, two-column layout, ideal for processes, features, or objectives on a single slide.",
+  "category_path": [
+    "content",
+    "numbered_list"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_column_numbered_grid_1937f3",
+  "skill_name": "Two-Column Numbered Grid",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "numbered list",
+    "two-column",
+    "items",
+    "steps",
+    "process",
+    "features"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:18:55Z",
+  "wash_version": "1.0.0"
+}

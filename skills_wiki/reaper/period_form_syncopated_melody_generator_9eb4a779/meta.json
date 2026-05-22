@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "period_form_syncopated_melody_generator_9eb4a779",
+  "skill_name": "Period Form Syncopated Melody Generator",
+  "source": {
+    "channel": "Emil Ludvigsen",
+    "duration_sec": 176,
+    "type": "youtube",
+    "video_id": "32_YePbe-BE",
+    "video_title": "How To Make Better Melodies",
+    "video_url": "https://www.youtube.com/watch?v=32_YePbe-BE",
+    "views": 181108
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:59Z",
+  "wash_version": "1.0.0"
+}

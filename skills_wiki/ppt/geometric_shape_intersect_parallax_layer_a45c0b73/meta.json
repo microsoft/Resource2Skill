@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_shape_intersect_parallax_layer_a45c0b73",
+  "skill_name": "Geometric Shape Intersect & Parallax Layering",
+  "source": {
+    "channel": "Sele Training",
+    "duration_sec": 2002,
+    "type": "youtube",
+    "video_id": "0GW4vT7d3nc",
+    "video_title": "30 Ultimate PowerPoint Tips and Tricks for 2020",
+    "video_url": "https://www.youtube.com/watch?v=0GW4vT7d3nc",
+    "views": 1255955
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:16Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_grid_masonry_with_progressive_499394c0",
+  "skill_name": "Native CSS Grid Masonry with Progressive Fallback",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1016,
+    "type": "youtube",
+    "video_id": "KrPz_wmBsAE",
+    "video_title": "Masonry layout with CSS only!",
+    "video_url": "https://www.youtube.com/watch?v=KrPz_wmBsAE",
+    "views": 75735
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:50Z",
+  "wash_version": "1.0.0"
+}

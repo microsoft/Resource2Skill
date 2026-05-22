@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sequential_object_visibility_state_seque_7187b77e",
+  "skill_name": "Sequential Object Visibility & State Sequencing",
+  "source": {
+    "channel": "QuBJ",
+    "duration_sec": 697,
+    "type": "youtube",
+    "video_id": "gvdF70ijwkk",
+    "video_title": "\ud83d\udd25 PowerPoint Animations | Appear and Disappear On Click",
+    "video_url": "https://www.youtube.com/watch?v=gvdF70ijwkk",
+    "views": 174904
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:54:52Z",
+  "wash_version": "1.0.0"
+}

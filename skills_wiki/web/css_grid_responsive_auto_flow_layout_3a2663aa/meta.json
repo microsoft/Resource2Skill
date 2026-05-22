@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "css_grid_responsive_auto_flow_layout_3a2663aa",
+  "skill_name": "CSS Grid Responsive Auto-Flow Layout",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=EiNiSFIPIQE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:23:51Z",
+  "wash_version": "1.0.0"
+}

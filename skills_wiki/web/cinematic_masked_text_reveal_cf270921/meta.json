@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for hero sections on landing pages, cinematic portfolio intros, or minimalist designs. It creates a highly engaging, story-telling feel for typographical entrances.",
+  "category_path": [
+    "animation",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_masked_text_reveal_cf270921",
+  "skill_name": "Cinematic Masked Text Reveal",
+  "source": {
+    "channel": "DarkCode",
+    "duration_sec": 269,
+    "type": "youtube",
+    "video_id": "Syg_9iB1vco",
+    "video_title": "Simple Text Animation Just By Using HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=Syg_9iB1vco",
+    "views": 788473
+  },
+  "tags": [
+    "text-animation",
+    "css-masking",
+    "typography",
+    "hero-section",
+    "keyframes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:23Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,127 @@
+{
+  "theme_id": "keynote_whitecare",
+  "name": "Keynote Whitecare",
+  "origin": "web_distilled",
+  "source_url": "https://www.apple.com/keynote/",
+  "source_title": "Apple Keynote",
+  "source_kind": "keynote_template",
+  "palette": {
+    "bg": "#FFFFFF",
+    "panel": "#F5F7FA",
+    "accent": "#007AFF",
+    "accent2": "#34C759",
+    "text": "#1D1D1F",
+    "muted": "#515154",
+    "border": "#D2D2D7",
+    "success": "#34C759",
+    "warning": "#FF9F0A"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Arial",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Arial",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "dotted_grid",
+    "description": "soft presentation grid with polished white spacing"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "calm",
+    "preferred_entrance": [
+      "fade",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "calm",
+    "editorial",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "research",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "bloom",
+    "hairline"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "confetti",
+    "bounce",
+    "ink"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "skill_id": "architecture_evolution_3a5c85",
+  "skill_type": "shell",
+  "name": "Architecture Evolution",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "timeline_horizontal",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "3-stage structural evolution diagram"
+    ],
+    "density": "medium",
+    "mood": [
+      "technical",
+      "corporate",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "steps",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/architecture_evolution_3a5c85/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neon_dark_mode_system_architecture_6831983a",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Abstracts the monolith-to-microservices diagram into a generic 3-stage structural evolution timeline, using nested shapes to represent increasing modularity.",
+  "_distill_attempts": 1
+}

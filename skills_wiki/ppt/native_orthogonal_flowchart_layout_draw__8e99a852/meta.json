@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_orthogonal_flowchart_layout_draw__8e99a852",
+  "skill_name": "Native Orthogonal Flowchart Layout (Draw.io Aesthetic)",
+  "source": {
+    "channel": "Day Day Up - \u5929\u5929\u5411\u4e0a",
+    "duration_sec": 138,
+    "type": "youtube",
+    "video_id": "zulmdRsfmkM",
+    "video_title": "\u4e00\u6b3e\u975e\u5e38\u597d\u7528\u7684\u6d41\u7a0b\u56fe\u7ed8\u5236\u5de5\u5177 - \u5f3a\u5927\u5f00\u6e90\u514d\u8d39\u4e13\u4e1a\u7ed8\u56fe - DRAW.IO",
+    "video_url": "https://www.youtube.com/watch?v=zulmdRsfmkM",
+    "views": 590
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:59:30Z",
+  "wash_version": "1.0.0"
+}

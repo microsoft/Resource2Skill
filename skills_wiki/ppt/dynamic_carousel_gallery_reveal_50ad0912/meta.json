@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for showcasing multiple entities like team members, product features, or portfolio items in an engaging, interactive horizontal sequence, enhancing clarity and user focus.",
+  "category_path": [
+    "animation",
+    "carousel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_carousel_gallery_reveal_50ad0912",
+  "skill_name": "Dynamic Carousel Gallery Reveal",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 848,
+    "type": "youtube",
+    "video_id": "HDg2OlFf0sw",
+    "video_title": "115.PowerPoint Corporate Team Introduction Animation Template|Morph Transition|Picture Place Holders",
+    "video_url": "https://www.youtube.com/watch?v=HDg2OlFf0sw",
+    "views": 53501
+  },
+  "tags": [
+    "carousel",
+    "gallery",
+    "morph",
+    "interactive",
+    "dynamic",
+    "reveal"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:54Z",
+  "wash_version": "1.0.0"
+}

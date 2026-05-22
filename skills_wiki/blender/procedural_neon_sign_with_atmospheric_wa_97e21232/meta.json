@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for adding vibrant focal points to cyberpunk, retro-wave, or urban night scenes. It uses actual 3D tubular geometry and high-contrast rough surfaces to ground the emitted light realistically.",
+  "category_path": [
+    "materials",
+    "emission"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_neon_sign_with_atmospheric_wa_97e21232",
+  "skill_name": "Procedural Neon Sign with Atmospheric Wall",
+  "source": {
+    "channel": "blender basics",
+    "duration_sec": 60,
+    "type": "youtube",
+    "video_id": "6wuOsRkYhYU",
+    "video_title": "how to make a neon text in blender in 1 minute",
+    "video_url": "https://www.youtube.com/watch?v=6wuOsRkYhYU",
+    "views": 12537
+  },
+  "tags": [
+    "neon",
+    "emission",
+    "procedural_text",
+    "brick_wall",
+    "atmospheric_lighting",
+    "cyberpunk"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:24:19Z",
+  "wash_version": "1.0.0"
+}

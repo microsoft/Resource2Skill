@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "archviz_daylight_rig_procedural_dappled__c9865b64",
+  "skill_name": "ArchViz Daylight Rig & Procedural Dappled Shadows",
+  "source": {
+    "channel": "AlternaVision Studio",
+    "duration_sec": 778,
+    "type": "youtube",
+    "video_id": "zZkbWa_ePGI",
+    "video_title": "Easy Realistic Architecture And Environments In Blender - Beginner tutorial",
+    "video_url": "https://www.youtube.com/watch?v=zZkbWa_ePGI",
+    "views": 72791
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:27Z",
+  "wash_version": "1.0.0"
+}

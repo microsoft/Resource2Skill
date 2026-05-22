@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is exceptionally well-suited for strategic business presentations, effectively communicating objectives, market segmentation, project milestones, or sales goals through a compelling visual metaphor.",
+  "category_path": [
+    "infographic",
+    "goals"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_3d_target_infographic_69bbf02c",
+  "skill_name": "Isometric 3D Target Infographic",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 570,
+    "type": "youtube",
+    "video_id": "oJGBt_TNdd4",
+    "video_title": "Target Slide in PowerPoint Tutorial No 965",
+    "video_url": "https://www.youtube.com/watch?v=oJGBt_TNdd4",
+    "views": 28096
+  },
+  "tags": [
+    "target",
+    "goals",
+    "objectives",
+    "3d infographic",
+    "business strategy",
+    "isometric"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:44:49Z",
+  "wash_version": "1.0.0"
+}

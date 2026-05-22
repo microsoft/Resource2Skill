@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for structuring data-heavy presentations like business reviews, financial reports, or sales updates. The card-based layout organizes complex information into clean, digestible modules for clarity.",
+  "category_path": [
+    "dashboard",
+    "kpi_report"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_corporate_dashboard_flat_data_ca_33978f89",
+  "skill_name": "Corporate Dashboard with Data Cards",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 75,
+    "type": "youtube",
+    "video_id": "HBKz9glN1OE",
+    "video_title": "Business Review Meeting Presentation | Annual (Yearly) Business Review presentation template",
+    "video_url": "https://www.youtube.com/watch?v=HBKz9glN1OE",
+    "views": 34962
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "data visualization",
+    "corporate",
+    "reporting",
+    "cards"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:55:46Z",
+  "wash_version": "1.0.0"
+}

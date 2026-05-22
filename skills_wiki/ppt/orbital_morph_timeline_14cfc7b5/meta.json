@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for presentations on corporate milestones, technology development, global roadmaps, or product evolution, establishing a high-tech, visionary, and global brand identity.",
+  "category_path": [
+    "animation",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "orbital_morph_timeline_14cfc7b5",
+  "skill_name": "Orbital Morph Timeline",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 167,
+    "type": "youtube",
+    "video_id": "p9pQFFFatPU",
+    "video_title": "PPT\u521b\u610f\u8bbe\u8ba1\uff1a\u5236\u4f5c\u5e73\u6ed1\u52a8\u6001\u5927\u6c14\u79d1\u6280\u98cePPT\u65f6\u95f4\u8f74",
+    "video_url": "https://www.youtube.com/watch?v=p9pQFFFatPU",
+    "views": 523
+  },
+  "tags": [
+    "timeline",
+    "morph transition",
+    "space theme",
+    "corporate history",
+    "global roadmap",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:41:19Z",
+  "wash_version": "1.0.0"
+}

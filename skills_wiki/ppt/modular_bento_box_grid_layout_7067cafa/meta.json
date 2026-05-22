@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modular_bento_box_grid_layout_7067cafa",
+  "skill_name": "Modular Bento Box Grid Layout",
+  "source": {
+    "channel": "Design Path",
+    "duration_sec": 544,
+    "type": "youtube",
+    "video_id": "PCXtFRpGxCE",
+    "video_title": "How to Design and Build Bento Grids",
+    "video_url": "https://www.youtube.com/watch?v=PCXtFRpGxCE",
+    "views": 27747
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:54:07Z",
+  "wash_version": "1.0.0"
+}

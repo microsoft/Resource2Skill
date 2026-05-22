@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "data_driven_comparative_case_study_4aeabae0",
+  "skill_name": "Data-Driven Comparative Case Study",
+  "source": {
+    "channel": "Emily Mao",
+    "duration_sec": 69,
+    "type": "youtube",
+    "video_id": "TCvz80hQKH8",
+    "video_title": "\u7559\u5b66\u751f\u5fc5\u5907\uff01UQ\u65c5\u6e38\u4e13\u4e1a\u9ad8\u5206Visitor Experience\u6f14\u8bb2\u901f\u6210\u653b\u7565",
+    "video_url": "https://www.youtube.com/watch?v=TCvz80hQKH8",
+    "views": 1
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:11:31Z",
+  "wash_version": "1.0.0"
+}

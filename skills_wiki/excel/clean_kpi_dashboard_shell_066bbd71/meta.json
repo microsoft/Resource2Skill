@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_kpi_dashboard_shell_066bbd71",
+  "skill_name": "Clean KPI Dashboard Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:09:53Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial glimpse of interactive dashboard with charts and filters"
+        },
+        {
+          "seconds": 815,
+          "description": "dashboard with the first chart (Profit by Market & Cookie Type) placed"
+        },
+        {
+          "seconds": 1136,
+          "description": "dashboard with all three charts (Profit by Market, Units Sold, Profit by Month) laid out"
+        },
+        {
+          "seconds": 1424,
+          "description": "dashboard fully assembled with charts, date timeline, and product/country slicers"
+        },
+        {
+          "seconds": 1714,
+          "description": "final interactive dashboard after data refresh, with gridlines and headings removed"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_glimpse_of_interactive.jpg",
+        "frame_01_dashboard_with_the_first_chart.jpg",
+        "frame_02_dashboard_with_all_three_chart.jpg"
+      ],
+      "recapped_at": 1777406279.8409863
+    },
+    "primary_path": "frame_00_initial_glimpse_of_interactive.jpg"
+  }
+}

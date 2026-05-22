@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_svg_line_drawing_dynamic_dash_o_d4f38276",
+  "skill_name": "Animated SVG Line Drawing (Dynamic Dash-Offset)",
+  "source": {
+    "channel": "Speed Code Projects",
+    "duration_sec": 860,
+    "type": "youtube",
+    "video_id": "FvTx7vTMUFk",
+    "video_title": "SVG Art Animation | HTML & CSS",
+    "video_url": "https://www.youtube.com/watch?v=FvTx7vTMUFk",
+    "views": 971
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:50:46Z",
+  "wash_version": "1.0.0"
+}

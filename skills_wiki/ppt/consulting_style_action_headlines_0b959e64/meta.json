@@ -1,0 +1,36 @@
+{
+  "applicability": "This is a fundamental skill for virtually any professional, data-driven presentation, critical for strategy, executive reporting, and financial reviews. It helps frame the audience's interpretation of data and ensures the intended message is received without ambiguity.",
+  "category_path": [
+    "slide_titles",
+    "consulting_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consulting_style_action_headlines_0b959e64",
+  "skill_name": "Consulting-Style Action Headlines",
+  "source": {
+    "channel": "Dan Galletta",
+    "duration_sec": 747,
+    "type": "youtube",
+    "video_id": "2EgczbPJB14",
+    "video_title": "The 3 Rules For Writing Perfect Slide Action Titles (Like McKinsey)",
+    "video_url": "https://www.youtube.com/watch?v=2EgczbPJB14",
+    "views": 49321
+  },
+  "tags": [
+    "executive communication",
+    "action titles",
+    "slide headlines",
+    "consulting style",
+    "clarity",
+    "persuasion"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:02:36Z",
+  "wash_version": "1.0.0"
+}

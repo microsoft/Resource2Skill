@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fm_style_wobble_bass_with_ducked_reverb_e708a109",
+  "skill_name": "FM-Style Wobble Bass with Ducked Reverb",
+  "source": {
+    "channel": "Official AHEE",
+    "duration_sec": 569,
+    "type": "youtube",
+    "video_id": "FCY2mF6sxNk",
+    "video_title": "How To Make Perfect WUB Bass (Sound Design)",
+    "video_url": "https://www.youtube.com/watch?v=FCY2mF6sxNk",
+    "views": 143069
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:59:13Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates an authentic, flowing Bossa Nova groove for piano or electric piano. This pattern is ideal for jazz, Latin, lo-fi, and lounge tracks where a light, sophisticated rhythmic bed is needed.",
+  "category_path": [
+    "keys",
+    "comping"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "authentic_bossa_nova_piano_comping_decou_294cbca7",
+  "skill_name": "Authentic Bossa Nova Piano Comping",
+  "source": {
+    "channel": "Peter Martin",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "fp5DFnDYt98",
+    "video_title": "The Real Way to Play Bossa Nova - Peter Martin | 2 Minute Jazz",
+    "video_url": "https://www.youtube.com/watch?v=fp5DFnDYt98",
+    "views": 185948
+  },
+  "tags": [
+    "bossa nova",
+    "piano",
+    "comping",
+    "jazz",
+    "latin",
+    "rhythm"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:13Z",
+  "wash_version": "1.0.0"
+}

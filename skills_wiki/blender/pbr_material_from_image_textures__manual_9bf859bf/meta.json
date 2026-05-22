@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pbr_material_from_image_textures__manual_9bf859bf",
+  "skill_name": "PBR Material from Image Textures (Manual Setup)",
+  "source": {
+    "channel": "Brandon 3D",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jBT6MD7IzHU"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:42:02Z",
+  "wash_version": "1.0.0"
+}

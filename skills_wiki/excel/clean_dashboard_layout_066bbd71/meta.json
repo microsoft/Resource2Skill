@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_dashboard_layout_066bbd71",
+  "skill_name": "Clean Dashboard Layout",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:41:57Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "final interactive dashboard preview"
+        },
+        {
+          "seconds": 815,
+          "description": "first chart added to dashboard"
+        },
+        {
+          "seconds": 1141,
+          "description": "all three charts positioned on dashboard"
+        },
+        {
+          "seconds": 1531,
+          "description": "interactive dashboard with all slicers connected"
+        },
+        {
+          "seconds": 1815,
+          "description": "polished dashboard with different themes"
+        }
+      ],
+      "frames": [
+        "frame_00_final_interactive_dashboard_pr.jpg",
+        "frame_01_first_chart_added_to_dashboard.jpg",
+        "frame_02_all_three_charts_positioned_on.jpg"
+      ],
+      "recapped_at": 1777406252.8731859
+    },
+    "primary_path": "frame_00_final_interactive_dashboard_pr.jpg"
+  }
+}

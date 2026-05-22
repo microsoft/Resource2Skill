@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "photek_style_jungle_drum_break_b205fed1",
+  "skill_name": "Photek-Style Jungle Drum Break",
+  "source": {
+    "channel": "The 80/20 Drummer",
+    "duration_sec": 921,
+    "type": "youtube",
+    "video_id": "XNeW40Quu5w",
+    "video_title": "The Ultimate Guide to Jungle Beats on The Drums",
+    "video_url": "https://www.youtube.com/watch?v=XNeW40Quu5w",
+    "views": 66001
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:39Z",
+  "wash_version": "1.0.0"
+}

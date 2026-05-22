@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "orbiting_glow_comets_css_border_tapering_b707c10e",
+  "skill_name": "Orbiting Glow Comets (CSS Border Tapering Loader)",
+  "source": {
+    "channel": "ProgrammingTube",
+    "duration_sec": 226,
+    "type": "youtube",
+    "video_id": "4guj-kSuOJY",
+    "video_title": "Creative CSS Loading Animation Effects | CSS Animation Tutorial for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=4guj-kSuOJY",
+    "views": 185
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:12Z",
+  "wash_version": "1.0.0"
+}

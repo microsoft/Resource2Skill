@@ -1,0 +1,36 @@
+{
+  "applicability": "Universally necessary for creating dynamic, evolving textures, particularly in ambient intros, cinematic transitions, and evolving synth pads.",
+  "category_path": [
+    "sound_design",
+    "automation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_automation_movement_volume_swell_4f80e63c",
+  "skill_name": "Dynamic Automation Movement (Volume Swell & Pan Sweep)",
+  "source": {
+    "channel": "Adam Steel",
+    "duration_sec": 738,
+    "type": "youtube",
+    "video_id": "HrwZrh5pZSw",
+    "video_title": "Reaper 101 Part 9:- Automation",
+    "video_url": "https://www.youtube.com/watch?v=HrwZrh5pZSw",
+    "views": 11564
+  },
+  "tags": [
+    "automation",
+    "volume_swell",
+    "pan_sweep",
+    "spatial_fx",
+    "evolving_textures",
+    "dynamic_movement"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:58:52Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_groove_voice_led_chord_progress_3b438274",
+  "skill_name": "Neo-Soul Groove & Voice-Led Chord Progression",
+  "source": {
+    "channel": "Guitar With",
+    "duration_sec": 900,
+    "type": "youtube",
+    "video_id": "-d2W4lp1zWc",
+    "video_title": "How To Create Neo Soul Backing Tracks!",
+    "video_url": "https://www.youtube.com/watch?v=-d2W4lp1zWc",
+    "views": 422
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:04Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "digital_hud_dashboard_layout_5e533c1c",
+  "skill_name": "Digital HUD Dashboard Layout",
+  "source": {
+    "channel": "Lean Excel Solutions",
+    "duration_sec": 982,
+    "type": "youtube",
+    "video_id": "CGgXHsD19Ek",
+    "video_title": "Sales Dashboard in Power BI | Power BI Dashboard",
+    "video_url": "https://www.youtube.com/watch?v=CGgXHsD19Ek",
+    "views": 1277563
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:15:18Z",
+  "wash_version": "1.0.0"
+}

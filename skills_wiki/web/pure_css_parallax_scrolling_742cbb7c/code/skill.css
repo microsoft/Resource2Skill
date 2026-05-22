@@ -1,0 +1,5 @@
+    @media (hover: none) and (pointer: coarse) {
+        .parallax-bg {
+            background-attachment: scroll;
+        }
+    }

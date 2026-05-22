@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "card_based_dashboard_shell_3976e712",
+  "skill_name": "Card-Based Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:07:41Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Completed interactive Excel dashboard with all visual elements displayed"
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard structure with all shapes in place and titles for each section"
+        },
+        {
+          "seconds": 840,
+          "description": "All charts and visuals (radar, map, line, donut charts) created on the input tab"
+        },
+        {
+          "seconds": 1453,
+          "description": "Final interactive Excel dashboard with all charts and KPIs integrated and styled"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_excel_da.jpg",
+        "frame_01_dashboard_structure_with_all_s.jpg",
+        "frame_02_all_charts_and_visuals_radar_m.jpg"
+      ],
+      "recapped_at": 1777406100.0842648
+    },
+    "primary_path": "frame_00_completed_interactive_excel_da.jpg"
+  }
+}

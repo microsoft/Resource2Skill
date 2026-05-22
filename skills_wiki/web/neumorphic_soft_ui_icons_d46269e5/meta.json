@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_soft_ui_icons_d46269e5",
+  "skill_name": "Neumorphic Soft UI Icons",
+  "source": {
+    "channel": "Clueless Expert",
+    "duration_sec": 166,
+    "type": "youtube",
+    "video_id": "LHWG6XXzN94",
+    "video_title": "Neumorphism Icons in CSS",
+    "video_url": "https://www.youtube.com/watch?v=LHWG6XXzN94",
+    "views": 1003
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:22:25Z",
+  "wash_version": "1.0.0"
+}

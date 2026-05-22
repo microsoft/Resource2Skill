@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for recurring project check-ins, steering committee meetings, and portfolio reviews. Acts as an executive summary slide to quickly convey overall project health and key risks.",
+  "category_path": [
+    "dashboard",
+    "project_management"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "one_page_executive_project_status_dashbo_268345ed",
+  "skill_name": "One-Page Executive Project Status Dashboard",
+  "source": {
+    "channel": "Adriana Girdler",
+    "duration_sec": 755,
+    "type": "youtube",
+    "video_id": "8C1PBSs_cMI",
+    "video_title": "Project Management Status Reports [WHAT TO INCLUDE]",
+    "video_url": "https://www.youtube.com/watch?v=8C1PBSs_cMI",
+    "views": 144620
+  },
+  "tags": [
+    "project management",
+    "executive reporting",
+    "dashboard",
+    "status update",
+    "rag status"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:02:42Z",
+  "wash_version": "1.0.0"
+}

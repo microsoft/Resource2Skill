@@ -1,0 +1,27 @@
+{
+  "variant_id": "kids_volcano",
+  "out_dirname": "kids_volcano_lesson",
+  "title": "Volcanoes! How mountains breathe fire",
+  "audience": "8-year-old kids learning earth science in a classroom",
+  "tone_words": ["playful", "warm", "friendly", "curious"],
+  "archetype_preference": "narrative",
+  "mood_preference": ["playful", "warm", "punchy"],
+  "mode_preference": "light",
+  "n_slides": 9,
+  "role_prefer": ["cover", "hero_giant_metric", "feature_grid",
+                   "timeline_horizontal", "bullet_card_list",
+                   "comparison_split", "closing_cta"],
+  "role_avoid": ["hero_quote", "metric_dashboard"],
+  "dense_quota": 1,
+  "core_points": [
+    "big hook: a volcano is a mountain that shoots hot rock into the sky",
+    "four parts of a volcano: magma chamber, pipe, crater, lava — label each with a fun icon",
+    "how magma becomes lava: short 3-step timeline kids can follow",
+    "world's tallest volcano vs world's biggest volcano side by side",
+    "famous eruption stats: Krakatoa, Mt. St. Helens, Kilauea — 3 big scary numbers",
+    "how scientists predict eruptions: seismometers, GPS, gas sensors",
+    "what to do if you live near one: kid-friendly safety checklist of 6 items",
+    "fun takeaway: volcanoes also make the air we breathe and the ground we walk on",
+    "closing: pick which volcano you'd want to see and draw it"
+  ]
+}

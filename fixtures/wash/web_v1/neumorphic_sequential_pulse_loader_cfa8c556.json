@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_sequential_pulse_loader_cfa8c556",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 320,
+    "type": "youtube",
+    "video_id": "nHY5zlTccvM",
+    "video_title": "CSS Neumorphism Animation Effects | How to Make CSS Website Animation",
+    "video_url": "https://www.youtube.com/watch?v=nHY5zlTccvM",
+    "views": 22143
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "gsap_staggered_scroll_reveals_38aa0ad5",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 2994,
+    "type": "youtube",
+    "video_id": "fgPf1zgz_Uo",
+    "video_title": "Advanced Animations in Webflow: GSAP Crash Course",
+    "video_url": "https://www.youtube.com/watch?v=fgPf1zgz_Uo",
+    "views": 18631
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

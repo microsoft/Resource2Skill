@@ -1,0 +1,502 @@
+name: ppt
+display_name: "PowerPoint Presentation Design"
+
+# Hybrid wiki/legacy mode: discovery via skills_wiki, execution via legacy MCP.
+# Runtime asset reads stay on the legacy library while the wiki adapter
+# provides the universal discovery contract. See domains/ppt/wiki_adapter.py.
+library_backend: wiki
+
+persona: "你是 PPT 设计专家，擅长排版、配色、动画效果和视觉叙事。"
+
+categories:
+  typography:
+    - typography
+    - typeface
+    - font style
+    - font pairing
+    - text effect
+    - text masking
+    - text animation
+    - text layout
+    - lettering
+    - word art
+    - 字体
+    - 排版
+    - 文字效果
+    - 文字动画
+  animation:
+    - morph transition
+    - entrance animation
+    - exit animation
+    - motion path
+    - animation
+    - morph
+    - transition effect
+    - animated
+    - 动画
+    - 过渡
+    - 动效
+  image_mask:
+    - image masking
+    - clipping mask
+    - shape reveal
+    - photo mask
+    - mask
+    - masking
+    - clip path
+    - image overlay
+    - blend mode
+    - 蒙版
+    - 遮罩
+    - 图片裁剪
+  layout:
+    - split screen
+    - diagonal layout
+    - asymmetric layout
+    - grid layout
+    - layout
+    - composition
+    - negative space
+    - whitespace
+    - column grid
+    - 分屏
+    - 网格
+    - 布局
+    - 构图
+    - 对角线
+  color_style:
+    - color palette
+    - color scheme
+    - gradient overlay
+    - theme color
+    - color harmony
+    - color grading
+    - palette
+    - gradient
+    - 配色
+    - 渐变
+    - 主题色
+    - 色彩
+  chart_data:
+    - data visualization
+    - bar chart
+    - pie chart
+    - donut chart
+    - chart
+    - graph
+    - kpi
+    - metric
+    - 数据可视化
+    - 图表
+    - 数据
+  portrait:
+    - team page
+    - headshot
+    - speaker slide
+    - people showcase
+    - portrait
+    - person
+    - team member
+    - 人物
+    - 团队
+    - 头像
+  product:
+    - product mockup
+    - device mockup
+    - product showcase
+    - product
+    - mockup
+    - gadget
+    - 产品
+    - 物品
+    - 设备模型
+  infographic:
+    - process flow
+    - timeline diagram
+    - step diagram
+    - icon layout
+    - infographic
+    - flowchart
+    - workflow
+    - 信息图
+    - 流程图
+    - 时间线
+  cover_divider:
+    - title slide
+    - section divider
+    - cover slide
+    - opening slide
+    - cover
+    - divider
+    - hero slide
+    - 封面
+    - 分隔页
+  closing:
+    - closing slide
+    - thank you slide
+    - call to action
+    - CTA slide
+    - ending slide
+    - final slide
+    - closing
+    - thank you
+    - CTA
+    - 结束页
+    - 感谢页
+    - 谢谢
+  architecture:
+    - system architecture
+    - architecture diagram
+    - network topology
+    - technical diagram
+    - system design
+    - infrastructure diagram
+    - architecture
+    - topology
+    - 架构图
+    - 系统架构
+    - 技术架构
+    - 网络拓扑
+  comparison:
+    - comparison slide
+    - before and after
+    - versus slide
+    - pros and cons
+    - comparison
+    - before after
+    - "vs "
+    - versus
+    - 对比
+    - 比较
+    - 优劣
+  quote:
+    - quote slide
+    - testimonial slide
+    - customer quote
+    - blockquote
+    - quote
+    - testimonial
+    - citation
+    - 引用
+    - 证言
+    - 名言
+  agenda:
+    - agenda slide
+    - table of contents
+    - agenda page
+    - TOC slide
+    - agenda
+    - table of contents
+    - 目录页
+    - 议程
+    - 目录
+
+query_pool:
+  # --- Animation variety (v5 expansion) ---
+  - "PowerPoint 3D rotation entrance animation"
+  - "PowerPoint spin logo entrance reveal"
+  - "PowerPoint motion path curve line animation"
+  - "PowerPoint emphasis pulse glow accent animation"
+  - "PowerPoint bounce entrance staggered cards"
+  - "PowerPoint text split reveal character by character"
+  - "PowerPoint scroll reveal parallax depth"
+  - "PowerPoint counter morph number animation"
+  - "PowerPoint staggered grid reveal bento"
+  # --- Premium visual styles (v5) ---
+  - "PowerPoint Apple keynote style presentation"
+  - "PowerPoint award winning pitch deck design"
+  - "PowerPoint venture capital pitch deck YC"
+  - "PowerPoint editorial magazine layout premium"
+  - "PowerPoint bento grid dashboard aesthetic"
+  - "PowerPoint glass morphism modern tech"
+  - "PowerPoint isometric 3D illustration slide"
+  - "PowerPoint neo brutalism bold typography"
+  - "PowerPoint conference keynote stage design"
+  - "PPT 产品发布会设计风格"
+  - "PPT 路演融资 pitch deck"
+  # English — design techniques
+  - "PowerPoint slide design tutorial"
+  - "PPT design skills tips"
+  - "PowerPoint layout tricks advanced"
+  - "PowerPoint typography design"
+  - "PowerPoint animation tutorial creative"
+  - "PowerPoint infographic design"
+  - "PowerPoint image masking technique"
+  - "PowerPoint color scheme design tips"
+  - "PowerPoint cover slide design professional"
+  - "PowerPoint data visualization chart design"
+  - "PowerPoint Morph transition creative"
+  - "PowerPoint portrait slide team page design"
+  - "PowerPoint product showcase slide"
+  - "PowerPoint timeline diagram design"
+  - "PowerPoint section divider slide design"
+  # English — specific styles
+  - "PowerPoint glassmorphism effect"
+  - "PowerPoint diagonal layout design"
+  - "PowerPoint split screen slide"
+  - "PowerPoint gradient overlay design"
+  - "PowerPoint magazine editorial slide layout"
+  # Targeted gap-filling
+  - "powerpoint closing slide design"
+  - "thank you slide ppt tutorial"
+  - "call to action slide powerpoint"
+  - "ending slide design ppt professional"
+  - "product showcase slide ppt"
+  - "device mockup powerpoint tutorial"
+  - "product launch slide design ppt"
+  - "system architecture diagram ppt"
+  - "flowchart powerpoint tutorial professional"
+  - "network topology diagram powerpoint"
+  - "technical architecture slide design"
+  - "team introduction slide powerpoint"
+  - "profile card powerpoint design"
+  - "team page slide design ppt"
+  - "employee spotlight slide powerpoint"
+  - "chart design powerpoint professional"
+  - "KPI dashboard ppt tutorial"
+  - "data visualization slide design"
+  - "excel chart to powerpoint beautiful"
+  - "comparison slide ppt tutorial"
+  - "before after powerpoint design"
+  - "versus slide design ppt"
+  - "pros and cons slide powerpoint"
+  - "quote slide powerpoint design"
+  - "testimonial slide design ppt"
+  - "customer review slide powerpoint"
+  - "agenda slide ppt tutorial"
+  - "table of contents powerpoint design"
+  - "agenda page slide professional"
+  # Chinese
+  - "PPT设计技巧教程"
+  - "PPT排版布局教程"
+  - "PPT高级动画效果"
+  - "PPT封面设计教程"
+  - "PPT配色方案技巧"
+  - "PPT图片蒙版效果"
+  - "PPT信息图表设计"
+  - "PPT人物介绍页面设计"
+  - "PPT产品展示页设计"
+  - "PPT结束页设计教程"
+  - "PPT感谢页Thank You设计"
+  - "PPT产品展示mockup教程"
+  - "PPT架构图流程图设计"
+  - "PPT对比页Before After设计"
+  - "PPT引用页名言设计"
+  - "PPT议程目录页设计"
+  - "PPT团队介绍人物卡片"
+  - "PPT数据图表KPI仪表盘"
+  # Animation & Visual Effects — targeted collection
+  - "PowerPoint entrance animation stagger sequence tutorial"
+  - "PowerPoint fly in animation multiple objects tutorial"
+  - "PowerPoint zoom animation emphasis effect"
+  - "PowerPoint wipe animation reveal technique"
+  - "PowerPoint kinetic typography animation"
+  - "PowerPoint animated infographic design"
+  - "PowerPoint animated chart bar pie donut"
+  - "PowerPoint animated timeline step by step"
+  - "PowerPoint wave shape freeform curve design"
+  - "PowerPoint organic shape blob freeform"
+  - "PowerPoint neumorphism soft UI slide design"
+  - "PowerPoint animated number counter reveal"
+  - "PowerPoint staggered card animation professional"
+  - "PowerPoint animated dashboard KPI metrics"
+  # Entrance animation gap-fillers — current lib has 0 verified entrance XML samples
+  - "PowerPoint fly in entrance animation tutorial code"
+  - "PowerPoint appear animation custom timing xml"
+  - "PowerPoint zoom entrance effect staggered reveal"
+  - "PowerPoint bounce entrance animation cards"
+  - "PowerPoint slide in from left right animation tutorial"
+  - "PowerPoint fade up animation soft entrance"
+  - "PowerPoint text reveal animation typewriter"
+  - "PowerPoint number count up animation tutorial"
+  - "PowerPoint spin rotate entrance effect"
+  # Commercial visual diversity — break the "title + 3 cards" monotony
+  - "PowerPoint bento grid layout modern tutorial"
+  - "PowerPoint asymmetric magazine editorial slide"
+  - "PowerPoint isometric diagram illustration design"
+  - "PowerPoint 3D icon illustration slide design"
+  - "PowerPoint neo-brutalism bold typography slide"
+  - "PowerPoint big type editorial cover design"
+  - "PowerPoint duotone color overlay technique"
+  - "PowerPoint noise texture grain overlay effect"
+  - "PowerPoint layered depth parallax slide design"
+  - "PowerPoint photo collage cutout slide design"
+  - "PowerPoint abstract shape composition modern"
+  - "PowerPoint geometric pattern background design"
+  - "PowerPoint concentric circles radial pattern slide"
+  - "PowerPoint grid broken asymmetric layout"
+  - "PowerPoint data storytelling visualization narrative"
+  - "PowerPoint apple keynote minimalist slide design"
+  - "PowerPoint stripe pitch deck style design"
+  - "PowerPoint linear notion style slide tutorial"
+  - "PowerPoint editorial magazine spread double page"
+  - "PowerPoint hero cover full bleed image typography"
+  - "PowerPoint product feature spotlight card design"
+  - "PowerPoint awwwards style creative slide"
+
+rerank_prompt: |
+  你是 PPT 设计专家。根据任务需求，从候选技能中选择最合适的 {n} 个组合。
+
+  ## 任务
+  {query}
+
+  ## 候选技能
+  {candidates}
+
+  ## 要求
+  - 选择的技能应互补，覆盖不同方面（布局、配色、动画等）
+  - 避免功能重叠的技能
+  - 只输出 JSON 数组，不要其他文字:
+  [{{"skill_id": "...", "skill_name": "...", "reason": "一句话理由"}}]
+
+# PPT-specific metadata keyword rules
+metadata_keyword_rules:
+  scope:
+    deck:
+      - entire deck
+      - whole presentation
+      - all slides
+      - throughout the presentation
+      - global
+      - deck-wide
+      - every slide
+      - consistent across
+    section:
+      - multiple slides
+      - series of slides
+      - across slides
+      - throughout the section
+      - slide sequence
+      - several slides
+      - section
+    pair:
+      - two slides
+      - slide pair
+      - between slides
+      - consecutive slides
+      - morph transition
+      - morph between
+      - slide-to-slide
+      - two-slide
+    single:
+      - single slide
+      - one slide
+      - standalone
+  layer:
+    transition:
+      - morph transition
+      - slide transition
+      - transition effect
+      - morph between
+      - morph animation
+      - fade transition
+      - push transition
+      - wipe transition
+    visual:
+      - layout
+      - color scheme
+      - typography
+      - background design
+      - gradient overlay
+      - mask overlay
+      - pattern design
+      - infographic
+      - chart design
+      - diagram layout
+      - image composition
+    both:
+      - morph with layout
+      - animated layout
+  transition_type:
+    morph:
+      - morph transition
+      - morph effect
+      - morph animation
+      - powerpoint morph
+      - pptx morph
+      - morph between
+      - morph slide
+      - morphing
+    fade:
+      - fade transition
+      - fade effect
+      - fade in
+      - fade out
+      - cross-fade
+    push:
+      - push transition
+      - push effect
+      - slide push
+    wipe:
+      - wipe transition
+      - wipe effect
+      - curtain wipe
+    none:
+      - no transition
+      - static
+
+mcp:
+  command: "python"
+  args:
+    - "domains/ppt/mcp_server/server.py"
+    - "--skills-dir"
+    - "skills_library/ppt"
+  env:
+    AZURE_OPENAI_API_KEY: "${AZURE_OPENAI_API_KEY:-}"
+    OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+  spawn_wait: 2
+
+# Agent configuration
+agent_prompt_file: "agent_prompt_v2.md"
+agent_hooks_module: "agent_hooks"
+# Legacy v1 agent_initial_prompt has been retired. The live deck-build path
+# is Theme × Shell × Archetype (see agent_prompt_v2.md). The agent uses
+# add_slide_from_shell + select_shell + pick_archetype. Explicit brief slide
+# counts win; otherwise the archetype dictates the length.
+agent_initial_prompt: |
+  Use the v2 Theme × Shell × Archetype pipeline documented in
+  agent_prompt_v2.md. The scaffold (pick_archetype, pick_theme,
+  select_shell, add_slide_from_shell) is shared by both arms. If the wiki
+  skill-discovery tools (list_skills/search_skills/get_skill_text/
+  get_skill_code/get_skill_visual) are present, perform discovery first:
+  call list_skills and/or search_skills, then inspect exactly two long-tail
+  visual/animation/layout reference skills with get_skill_text,
+  get_skill_code, and get_skill_visual. These wiki skills are design
+  references only; the v2 shell/archetype system is the scaffold and must
+  not be claimed as a long-tail skill. If those tools are not present,
+  skip discovery and go straight to the scaffold. Either way, create the
+  presentation, call pick_archetype(task_description, prs_id=<your id>) and
+  include any explicit requested slide count in task_description so
+  save_presentation can lint against that target; otherwise use the
+  archetype's suggested count. Use add_slide_from_shell for every slide.
+  When wiki tools are present, pass the inspected skill IDs via
+  design_reference_skill_ids on add_slide_from_shell so deck-plan.json and
+  slide notes contain an audit trace. Additionally, in with_skills runs,
+  call `add_slide_from_skill(prs_id, skill_id=<wiki_skill_id>, content_brief=...)`
+  for 2-3 hero/visual slides — this actually executes the wiki skill's
+  python-pptx code from skills_wiki/ppt. Do NOT call the legacy add_slide,
+  replace_slide, or get_technique_snippet tools.
+
+# Stuck-loop detection
+failure_patterns:
+  - "(?i)error"
+  - "(?i)failed"
+  - "(?i)traceback"
+  - "(?i)exception"
+max_repeated_failures: 3
+
+# Dry-run placeholders
+dry_run_placeholders:
+  create-presentation: "Created presentation prs_a1b2c3d4 (16:9, 13.33x7.50 inches)"
+  add-slide: "Added slide 1 (12 shapes)"
+  add-slide-from-skill: "Added slide 1 from skill 'skill_abc12345' (18 shapes)"
+  replace-slide: "Replaced slide 1 (15 shapes)"
+  delete-slide: "Deleted slide 1. Presentation now has 5 slides."
+  save-presentation: "Saved 6-slide presentation to /tmp/output.pptx"
+  get-slide-info: "Slide 1: 12 shapes\n  Shape types: {'FREEFORM (17)': 5, 'AUTO_SHAPE (1)': 4, 'PICTURE (13)': 2, 'TEXT_BOX (17)': 1}\n  Text: Company Name; Innovation Drives Growth\n  Dimensions: 13.33 x 7.50 inches"
+  render-slide: "Rendered slide 1 to PNG (base64): data:image/png;base64,iVBOR... (24576 chars)"
+  list-skills: "Skill library: 1164 skills in 16 categories\n  cover_divider: 120 skills\n  typography: 95 skills"
+  get-skill-info: "Skill: Gradient Card Layout\n  ID: gradient_card_layout_a1b2c3d4\n  Category: layout\n  Tags: card_grid, gradient_bg, split_layout"
+
+# Dry-run tool schema file
+tools_fallback_file: "tools_fallback.json"

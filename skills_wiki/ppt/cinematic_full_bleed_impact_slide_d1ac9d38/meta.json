@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for impactful presentation title slides, section headers, core message reveals, or concluding statements. It transforms standard slides into a visually engaging, poster-like experience.",
+  "category_path": [
+    "slide_design",
+    "impact_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_full_bleed_impact_slide_d1ac9d38",
+  "skill_name": "Cinematic Full-Bleed Impact Slide",
+  "source": {
+    "channel": "Divyatrix",
+    "duration_sec": 361,
+    "type": "youtube",
+    "video_id": "Svr7fQ1Wyl0",
+    "video_title": "April 7, 2026",
+    "video_url": "https://www.youtube.com/watch?v=Svr7fQ1Wyl0",
+    "views": 0
+  },
+  "tags": [
+    "full-bleed",
+    "impact slide",
+    "cinematic",
+    "visual storytelling",
+    "high-contrast typography",
+    "section header"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:57:29Z",
+  "wash_version": "1.0.0"
+}

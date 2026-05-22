@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_dashboard_shell_a6597532",
+  "skill_name": "Themed Dashboard Shell",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:52:37Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Final dashboard preview"
+        },
+        {
+          "seconds": 347,
+          "description": "KPI placeholders with icons"
+        },
+        {
+          "seconds": 748,
+          "description": "Top KPI section with data"
+        },
+        {
+          "seconds": 1018,
+          "description": "Sales agent performance table with data bars"
+        },
+        {
+          "seconds": 1549,
+          "description": "Dashboard with all charts and shadows"
+        }
+      ],
+      "frames": [
+        "frame_00_final_dashboard_preview.jpg",
+        "frame_01_kpi_placeholders_with_icons.jpg",
+        "frame_02_top_kpi_section_with_data.jpg",
+        "frame_03_sales_agent_performance_table_.jpg"
+      ],
+      "recapped_at": 1777407666.0135732
+    },
+    "primary_path": "frame_00_final_dashboard_preview.jpg"
+  }
+}

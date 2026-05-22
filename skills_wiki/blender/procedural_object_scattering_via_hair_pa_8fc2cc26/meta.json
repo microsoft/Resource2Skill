@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for environment design, this technique is used to procedurally generate forests, grass, or scattered debris. It allows massive perceived detail with minimal memory overhead by instancing a few base models.",
+  "category_path": [
+    "environment",
+    "scattering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_object_scattering_via_hair_pa_8fc2cc26",
+  "skill_name": "Procedural Object Scattering via Hair Particles",
+  "source": {
+    "channel": "Twan_Olig",
+    "duration_sec": 922,
+    "type": "youtube",
+    "video_id": "z7bTpEPyb1E",
+    "video_title": "Blender Particle System Basics: Emission & Hair settings",
+    "video_url": "https://www.youtube.com/watch?v=z7bTpEPyb1E",
+    "views": 23174
+  },
+  "tags": [
+    "scattering",
+    "instancing",
+    "particle_system",
+    "procedural",
+    "environment"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:51Z",
+  "wash_version": "1.0.0"
+}

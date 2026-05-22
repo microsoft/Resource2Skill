@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for showcasing large software screenshots, product images, or visual examples in tutorials, guides, or presentations where a single dominant image with minimal text is required.",
+  "category_path": [
+    "visual_content",
+    "tutorial"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tutorial_screenshot_bbae82",
+  "skill_name": "Tutorial Screenshot",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "screenshot",
+    "tutorial",
+    "image",
+    "technical",
+    "visual",
+    "product_demo"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:18:30Z",
+  "wash_version": "1.0.0"
+}

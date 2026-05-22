@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diegetic_perspective_mockups_3d_environm_fbcad66e",
+  "skill_name": "Diegetic Perspective Mockups (3D & Environment Integration)",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 1019,
+    "type": "youtube",
+    "video_id": "qJ2-DVSwZLY",
+    "video_title": "4 TIPS to use IMAGES in PowerPoint **Mockups**",
+    "video_url": "https://www.youtube.com/watch?v=qJ2-DVSwZLY",
+    "views": 30112
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:15:02Z",
+  "wash_version": "1.0.0"
+}

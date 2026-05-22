@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "math_driven_css_only_morphing_hamburger__0cd6d0f1",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 1445,
+    "type": "youtube",
+    "video_id": "dAIVbLrAb_U",
+    "video_title": "How To Build An Animated Hamburger Menu With Only CSS",
+    "video_url": "https://www.youtube.com/watch?v=dAIVbLrAb_U",
+    "views": 138723
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

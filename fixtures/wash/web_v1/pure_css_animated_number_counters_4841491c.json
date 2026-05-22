@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_animated_number_counters_4841491c",
+  "source": {
+    "channel": "Theo Soti",
+    "duration_sec": 447,
+    "type": "youtube",
+    "video_id": "--O0dMBx0b0",
+    "video_title": "EASY Animated Counting Number CSS-Only Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=--O0dMBx0b0",
+    "views": 694
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

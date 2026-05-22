@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for architectural visualization and stylized environments requiring repeating linear elements like siding or paneling. It allows non-destructive updates to wall boundaries and roof pitches.",
+  "category_path": [
+    "modeling",
+    "modifiers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_architectural_siding_via_prox_2ff4e470",
+  "skill_name": "Procedural Architectural Siding via Proxy-Volume Booleans",
+  "source": {
+    "channel": "The CG Essentials",
+    "duration_sec": 652,
+    "type": "youtube",
+    "video_id": "Et4lulUZrEI",
+    "video_title": "Modeling SIDING in Blender with Modifiers! (Architectural Modeling Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=Et4lulUZrEI",
+    "views": 11895
+  },
+  "tags": [
+    "procedural-modeling",
+    "boolean-modifier",
+    "array-modifier",
+    "architecture",
+    "non-destructive"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:25Z",
+  "wash_version": "1.0.0"
+}

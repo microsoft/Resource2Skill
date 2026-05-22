@@ -1,0 +1,37 @@
+{
+  "applicability": "Forms the essential rhythmic and low-frequency backbone for modern trap, drill, and hip-hop tracks. Use this to instantly establish a characteristic groove with syncopated hi-hat rolls and a deep 808 bass.",
+  "category_path": [
+    "genre_patterns",
+    "trap"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_trap_foundation_rolling_hats_808__9348b162",
+  "skill_name": "Trap Foundation: Rolling Hats & 808",
+  "source": {
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "duration_sec": 2577,
+    "type": "youtube",
+    "video_id": "cdUFQX_Kf9s",
+    "video_title": "The ULTIMATE GUIDE to REAPER BEAT MAKING \ud83c\udfb9 | Cockos Reaper Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=cdUFQX_Kf9s",
+    "views": 188703
+  },
+  "tags": [
+    "trap",
+    "hip-hop",
+    "808",
+    "hi-hat rolls",
+    "drums",
+    "sidechain"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:23:21Z",
+  "wash_version": "1.0.0"
+}

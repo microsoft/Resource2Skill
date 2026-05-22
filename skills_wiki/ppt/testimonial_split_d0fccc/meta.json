@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell provides a split horizontal layout ideal for featuring a testimonial. It prominently displays a hero image with an overlaid title, complemented by a lower panel for the quote and author details.",
+  "category_path": [
+    "content",
+    "testimonials"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "testimonial_split_d0fccc",
+  "skill_name": "Testimonial Split",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "testimonial",
+    "quote",
+    "split layout",
+    "hero image",
+    "author",
+    "editorial"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:17:44Z",
+  "wash_version": "1.0.0"
+}

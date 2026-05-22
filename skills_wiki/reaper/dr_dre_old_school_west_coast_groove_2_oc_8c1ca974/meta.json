@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dr_dre_old_school_west_coast_groove_2_oc_8c1ca974",
+  "skill_name": "Dr. Dre: Old School West Coast Groove & 2-Octave Layering",
+  "source": {
+    "type": "youtube",
+    "video_title": "Dr. Dre production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:02:56Z",
+  "wash_version": "1.0.0"
+}

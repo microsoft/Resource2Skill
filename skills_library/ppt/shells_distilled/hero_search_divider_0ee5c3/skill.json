@@ -1,0 +1,64 @@
+{
+  "skill_id": "hero_search_divider_0ee5c3",
+  "skill_type": "shell",
+  "name": "Hero Search Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "title+search_bar"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "search_query",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/hero_search_divider_0ee5c3/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "realistic_typewriter_rhythm_morph_frame__44d189cb",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A minimalist, centered layout featuring a prominent headline and a stylized search bar, ideal for transition slides, posing a core question, or introducing a tutorial step.",
+  "_distill_attempts": 1
+}

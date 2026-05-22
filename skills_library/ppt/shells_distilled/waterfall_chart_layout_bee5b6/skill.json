@@ -1,0 +1,63 @@
+{
+  "skill_id": "waterfall_chart_layout_bee5b6",
+  "skill_type": "shell",
+  "name": "Waterfall Chart Layout",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "title+chart"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart_data",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/waterfall_chart_layout_bee5b6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "consulting_style_high_data_to_ink_chart__8824e483",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A clean, full-slide layout designed to showcase a single complex chart (like a waterfall chart) with a prominent headline.",
+  "_distill_attempts": 1
+}

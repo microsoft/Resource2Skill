@@ -1,0 +1,35 @@
+{
+  "applicability": "Use to visually represent decision trees, protocols, or complex processes. The thematic background image adds relevant context and enhances audience engagement without distracting from the core information.",
+  "category_path": [
+    "diagram",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "process_branching_flowchart_with_context_ef7a73db",
+  "skill_name": "Thematic Process Flowchart",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 453,
+    "type": "youtube",
+    "video_id": "amg804jMVB8",
+    "video_title": "PowerPoint Tutorial | How To Make a Flowchart in #PowerPoint | Best Flowchart Tutorial For Beginners",
+    "video_url": "https://www.youtube.com/watch?v=amg804jMVB8",
+    "views": 592
+  },
+  "tags": [
+    "flowchart",
+    "process",
+    "decision tree",
+    "visual guide",
+    "infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:35Z",
+  "wash_version": "1.0.0"
+}

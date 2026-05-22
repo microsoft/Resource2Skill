@@ -1,0 +1,63 @@
+{
+  "skill_id": "central_ui_wireframe_9b51b6",
+  "skill_type": "shell",
+  "name": "Central UI Wireframe",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "central-ui-mockup"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "technical",
+      "cool"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "action_label",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/central_ui_wireframe_9b51b6/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dark_neumorphism_soft_ui_interface_f0feaa9c",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the central neumorphic media player UI into a reusable wireframe graphic with an optional action label.",
+  "_distill_attempts": 1
+}

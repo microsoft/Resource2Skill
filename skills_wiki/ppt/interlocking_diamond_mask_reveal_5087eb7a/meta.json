@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for high-impact title slides, section dividers, or portfolio covers. This technique uses a full-slide mask with cutouts to frame content and add depth, turning a busy background into a structured design element.",
+  "category_path": [
+    "image_effect",
+    "mask_reveal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_diamond_mask_reveal_5087eb7a",
+  "skill_name": "Interlocking Diamond Mask Reveal",
+  "source": {
+    "channel": "Powerpoint Show",
+    "duration_sec": 367,
+    "type": "youtube",
+    "video_id": "u_ovHbi1fn4",
+    "video_title": "How To Make a Creative Thank You Slide Quickly In PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=u_ovHbi1fn4",
+    "views": 153764
+  },
+  "tags": [
+    "mask",
+    "reveal",
+    "grid",
+    "geometric",
+    "title slide",
+    "pattern"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:47:59Z",
+  "wash_version": "1.0.0"
+}

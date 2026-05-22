@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_syncopated_bassline__root_fifth_8b111aa2",
+  "skill_name": "Neo-Soul Syncopated Bassline (Root-Fifth-Octave)",
+  "source": {
+    "channel": "Yaahn Hunter Jr.",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=GezIe567DzU"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:05:28Z",
+  "wash_version": "1.0.0"
+}

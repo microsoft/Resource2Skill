@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_glow_hero_with_seamless_dark_mod_f4b9e561",
+  "skill_name": "Ambient Glow Hero with Seamless Dark Mode",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:40:42Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "homepage with light mode on"
+        },
+        {
+          "seconds": 9,
+          "description": "homepage with dark mode on"
+        },
+        {
+          "seconds": 527,
+          "description": "homepage with navbar and light mode"
+        },
+        {
+          "seconds": 820,
+          "description": "youtube social media link added"
+        },
+        {
+          "seconds": 1027,
+          "description": "subscribe and user menu added"
+        }
+      ],
+      "frames": [
+        "frame_00_homepage_with_light_mode_on.jpg",
+        "frame_01_homepage_with_dark_mode_on.jpg",
+        "frame_02_homepage_with_navbar_and_light.jpg",
+        "frame_03_youtube_social_media_link_adde.jpg",
+        "frame_04_subscribe_and_user_menu_added.jpg"
+      ],
+      "recapped_at": 1777408382.0099225
+    },
+    "primary_path": "frame_00_homepage_with_light_mode_on.jpg"
+  }
+}

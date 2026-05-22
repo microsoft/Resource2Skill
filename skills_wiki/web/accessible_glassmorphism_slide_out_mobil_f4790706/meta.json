@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "accessible_glassmorphism_slide_out_mobil_f4790706",
+  "skill_name": "Accessible Glassmorphism Slide-Out Mobile Navigation",
+  "source": {
+    "channel": "Kevin Powell",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=HbBMp6yUXO0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:57:32Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "mobile navigation menu sliding in"
+        },
+        {
+          "seconds": 8,
+          "description": "desktop navigation bar visible"
+        },
+        {
+          "seconds": 130,
+          "description": "web page with unstyled navigation items"
+        },
+        {
+          "seconds": 405,
+          "description": "header with logo and horizontally spaced navigation links"
+        },
+        {
+          "seconds": 1250,
+          "description": "mobile navigation panel with translucent blur effect"
+        }
+      ],
+      "frames": [
+        "frame_00_mobile_navigation_menu_sliding.jpg",
+        "frame_01_desktop_navigation_bar_visible.jpg",
+        "frame_02_web_page_with_unstyled_navigat.jpg",
+        "frame_03_header_with_logo_and_horizonta.jpg",
+        "frame_04_mobile_navigation_panel_with_t.jpg"
+      ],
+      "recapped_at": 1777408285.14704
+    },
+    "primary_path": "frame_00_mobile_navigation_menu_sliding.jpg"
+  }
+}

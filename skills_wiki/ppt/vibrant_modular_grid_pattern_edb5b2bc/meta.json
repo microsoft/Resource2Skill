@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vibrant_modular_grid_pattern_edb5b2bc",
+  "skill_name": "Vibrant Modular Grid Pattern",
+  "source": {
+    "channel": "Satori Graphics",
+    "duration_sec": 501,
+    "type": "youtube",
+    "video_id": "gUzkRue28VI",
+    "video_title": "Learn EVERY Graphic Design Grid In 8 Minutes!",
+    "video_url": "https://www.youtube.com/watch?v=gUzkRue28VI",
+    "views": 197736
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:35Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pre_post_fx_gain_staging_bracket_8c0f7988",
+  "skill_name": "Pre/Post FX Gain Staging Bracket",
+  "source": {
+    "channel": "In The Mix",
+    "duration_sec": 391,
+    "type": "youtube",
+    "video_id": "pinNLBnBRe8",
+    "video_title": "Gain Staging - The 3 Rules You Need To Know - In The Mix",
+    "video_url": "https://www.youtube.com/watch?v=pinNLBnBRe8",
+    "views": 339234
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:44Z",
+  "wash_version": "1.0.0"
+}

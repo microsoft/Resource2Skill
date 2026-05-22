@@ -1,0 +1,36 @@
+{
+  "applicability": "A foundational design skill applicable to nearly any presentation scenario, including title slides, corporate reports, marketing materials, and data-heavy infographics. It enhances visual interest, sophistication, and clarity across various content types.",
+  "category_path": [
+    "design_principles",
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "typographic_hierarchy_contrast_e24c2b8b",
+  "skill_name": "Typographic Hierarchy & Contrast",
+  "source": {
+    "channel": "Satori Graphics",
+    "duration_sec": 288,
+    "type": "youtube",
+    "video_id": "kew6UGCaPQs",
+    "video_title": "Stop Wasting Hours Font Pairing - Use These Instead!",
+    "video_url": "https://www.youtube.com/watch?v=kew6UGCaPQs",
+    "views": 114464
+  },
+  "tags": [
+    "visual hierarchy",
+    "typography",
+    "typeface pairing",
+    "design contrast",
+    "readability",
+    "information flow"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:23:52Z",
+  "wash_version": "1.0.0"
+}

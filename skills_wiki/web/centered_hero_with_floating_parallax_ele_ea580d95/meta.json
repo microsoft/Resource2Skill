@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for modern landing pages (SaaS, startups, portfolios) that need to convey a dynamic, high-tech feel. It grabs user attention by adding interactive depth and visual interest around the primary call-to-action.",
+  "category_path": [
+    "layout",
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_hero_with_floating_parallax_ele_ea580d95",
+  "skill_name": "Floating Parallax Hero Section",
+  "source": {
+    "channel": "Payton Clark Smith",
+    "duration_sec": 705,
+    "type": "youtube",
+    "video_id": "kJb6BZwqCGM",
+    "video_title": "18 Hero Section Designs You Can Steal",
+    "video_url": "https://www.youtube.com/watch?v=kJb6BZwqCGM",
+    "views": 759937
+  },
+  "tags": [
+    "hero section",
+    "parallax",
+    "css animation",
+    "interactive",
+    "ui/ux"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:55:02Z",
+  "wash_version": "1.0.0"
+}

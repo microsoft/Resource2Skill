@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_gallery_with_windowed_reveal_9c237f1e",
+  "skill_name": "Morphing Gallery with Windowed Reveal",
+  "source": {
+    "channel": "PowerPoint Wizard",
+    "duration_sec": 507,
+    "type": "youtube",
+    "video_id": "0p9idcFye0g",
+    "video_title": "PowerPoint Tutorial | Presentation Design | Pictures | To be Expert of PowerPoint in 7 Mins!",
+    "video_url": "https://www.youtube.com/watch?v=0p9idcFye0g",
+    "views": 943048
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:39:38Z",
+  "wash_version": "1.0.0"
+}

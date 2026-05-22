@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for client testimonials, inspirational quotes, vision/mission statements, or as a visual 'breather' between data sections, instantly conveying the slide's purpose.",
+  "category_path": [
+    "quote",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_typographic_quote_anchor_b3075d58",
+  "skill_name": "Minimalist Typographic Quote Anchor",
+  "source": {
+    "channel": "Learn with Freddie",
+    "duration_sec": 145,
+    "type": "youtube",
+    "video_id": "wWEhwmU5xEs",
+    "video_title": "How To Design a Quote Slide in Powerpoint [2025 Full Guide] \u2728\ud83e\udd29",
+    "video_url": "https://www.youtube.com/watch?v=wWEhwmU5xEs",
+    "views": 35
+  },
+  "tags": [
+    "minimalist",
+    "typography",
+    "quote",
+    "editorial",
+    "anchor",
+    "testimonial"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:58:26Z",
+  "wash_version": "1.0.0"
+}

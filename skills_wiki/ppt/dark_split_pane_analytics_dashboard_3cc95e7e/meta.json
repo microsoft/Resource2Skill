@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is ideal for corporate performance dashboards, QBRs, SaaS product showcases, and tech-startup pitch decks, where a modern, data-rich presentation is needed.",
+  "category_path": [
+    "dashboard",
+    "analytics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_split_pane_analytics_dashboard_3cc95e7e",
+  "skill_name": "Dark Split-Pane Analytics Dashboard",
+  "source": {
+    "channel": "Creative Venus",
+    "duration_sec": 1840,
+    "type": "youtube",
+    "video_id": "JnsD4w4TDxk",
+    "video_title": "How To Design Beautiful Profile, Business Portfolio, CV Slide in Microsoft Office365 PowerPoint PPT",
+    "video_url": "https://www.youtube.com/watch?v=JnsD4w4TDxk",
+    "views": 9597
+  },
+  "tags": [
+    "dark UI",
+    "split pane",
+    "dashboard",
+    "analytics",
+    "glassmorphism",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:10:12Z",
+  "wash_version": "1.0.0"
+}

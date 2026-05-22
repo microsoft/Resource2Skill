@@ -1,0 +1,29 @@
+{
+  "applicability": "Applies a predefined clustered column chart style optimized for comparing actual and target metrics side-by-side. Useful for financial reports, performance tracking, and standardized dashboard visualizations.",
+  "category_path": [
+    "data_visualization",
+    "chart_templates"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bar_compare_70db9f1b",
+  "skill_name": "Bar Compare Chart Template",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "bar chart",
+    "clustered column",
+    "actual vs target",
+    "chart template",
+    "data visualization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:36Z",
+  "wash_version": "1.0.0"
+}

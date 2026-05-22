@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating scannable directories such as job boards, product listings, or article indexes. This pattern prioritizes quick parsing of information through a clean, hierarchical layout.",
+  "category_path": [
+    "list",
+    "directory"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_job_board_card_list_bcd1ed1f",
+  "skill_name": "Minimalist Directory Card List",
+  "source": {
+    "channel": "Dylan Cole",
+    "duration_sec": 415,
+    "type": "youtube",
+    "video_id": "TG6XSFeOT3g",
+    "video_title": "How I'd Learn Web Development (If I Could Start Over)",
+    "video_url": "https://www.youtube.com/watch?v=TG6XSFeOT3g",
+    "views": 1104413
+  },
+  "tags": [
+    "card list",
+    "directory",
+    "job board",
+    "minimalist UI",
+    "flexbox"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:42:41Z",
+  "wash_version": "1.0.0"
+}

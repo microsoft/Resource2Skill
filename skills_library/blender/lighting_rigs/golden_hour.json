@@ -1,0 +1,27 @@
+{
+  "name": "golden_hour",
+  "description": "Warm low sun + cool sky bounce, long shadows. Use for outdoor landscapes, exteriors.",
+  "world_strength": 0.7,
+  "world_color": [0.98, 0.78, 0.55, 1.0],
+  "lights": [
+    {
+      "name": "Sun",
+      "type": "SUN",
+      "location": [10, -8, 6],
+      "rotation_euler_deg": [70, 0, 30],
+      "energy": 5.5,
+      "color": [1.0, 0.78, 0.42, 1.0],
+      "angle_deg": 1.5
+    },
+    {
+      "name": "SkyFill",
+      "type": "AREA",
+      "location": [0, 0, 12],
+      "rotation_euler_deg": [180, 0, 0],
+      "energy": 80,
+      "color": [0.55, 0.7, 1.0, 1.0],
+      "size": 20
+    }
+  ],
+  "best_for": ["outdoor landscapes", "exteriors", "sunset shots", "warm scenes"]
+}

@@ -1,0 +1,583 @@
+{
+  "stock_plugin_vocal_mixing_hierarchy_bus__57010766": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Strong initial transient but sparse sustained harmonic content and minimal rhythmic variation; reads more like a short percussive hit than a rich, layerable musical phrase.",
+    "exec_ok": true
+  },
+  "in_the_face_pop_rock_vocal_mixing_chain_822f82d6": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "generative_ambient_phase_looping_eno_sty_176bb02a": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 3,
+    "notes": "Clear harmonic bands and a few strong onset clusters suggest a usable layered phrase, but the long sparse sections and limited rhythmic variation make it feel only moderately rich and mix-ready.",
+    "exec_ok": true
+  },
+  "fundamental_instrument_mix_eq_kick_snare_923f81ae": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich, repetitive harmonic bands with clear transient pulses make it mix-friendly, though the pattern is fairly loop-like and only moderately varied rhythmically.",
+    "exec_ok": true
+  },
+  "ambient_triad_displacement_voice_leading_a664d27a": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clear harmonic bands and balanced tone make it layer-friendly, but the structure is repetitive with only a few strong onset events and limited rhythmic variation.",
+    "exec_ok": true
+  },
+  "cinematic_ambient_drone_generator_the_fl_ed11dc6f": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Stable, harmonically rich sustained texture that looks mix-friendly for layering, but it shows minimal rhythmic variation beyond a few early transients.",
+    "exec_ok": true
+  },
+  "sidechain_pumping_pad_4_on_the_floor_duc_c7ce28d5": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, repeatable broadband hits with clear transient spacing and decent spectral balance; musically usable and easy to layer, though somewhat repetitive.",
+    "exec_ok": true
+  },
+  "sidechain_pumping_compression_automated__f675ee1f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, punchy repeated spectral pattern with clear transient rhythm and solid mix-layering potential, though somewhat loop-like and uniform.",
+    "exec_ok": true
+  },
+  "classic_sidechain_compression_the_pumpin_a64147cb": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clear harmonic bands and strong, regular transient peaks suggest a balanced, usable pattern for layering, though the rhythm is more consistent than highly varied.",
+    "exec_ok": true
+  },
+  "half_time_trap_drum_808_foundation_db3b6c76": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich broadband harmonic content with clear, steady rhythmic onsets and good mix potential, though the pattern is somewhat repetitive and less dynamically evolving.",
+    "exec_ok": true
+  },
+  "modern_trap_foundation_rolling_hats_808__9348b162": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich harmonic bands and clear rhythmic spikes suggest a well-balanced, mix-friendly pattern with solid variation, though it becomes sparse and fades out near the end.",
+    "exec_ok": true
+  },
+  "expressive_humanized_drum_groove_velocit_e469fbb8": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Some low-mid spectral content and early rhythmic activity are present, but the sample is short, sparse, and mostly silent after 0.6s, limiting balance, layering potential, and rhythmic development.",
+    "exec_ok": true
+  },
+  "dark_trap_drill_foundation_piano_chords__a7be666f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich harmonic bands and a clear, punchy rhythmic pulse make this visually strong and mix-friendly, though the pattern is fairly repetitive and fades out abruptly.",
+    "exec_ok": true
+  },
+  "layered_16th_note_drum_groove_multi_out__310e521c": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "dynamic_midi_drum_sequencing_velocity_ar_52243dd9": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "parallel_rock_bass_mixing_chain_growl_su_30b7273d": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "kick_locked_modern_rock_metal_bassline_w_277adc77": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Strong, clear transient pattern with decent harmonic richness and mix-friendly spacing, though the overall motif is fairly repetitive.",
+    "exec_ok": true
+  },
+  "groovy_slap_style_bassline_427bb40e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich midrange harmonic bands and consistent transient spikes suggest a musically solid, layerable pattern with clear rhythmic structure, though the spectrum is somewhat dense and repetitive.",
+    "exec_ok": true
+  },
+  "parallel_reverb_send_auxiliary_bus_a79f90f5": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich harmonic bursts with clear, consistent rhythmic onsets; musically solid and layer-friendly, though somewhat repetitive in variation.",
+    "exec_ok": true
+  },
+  "parallel_fx_return_send_return_routing_1c329961": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "multi_layer_reverb_depth_early_mid_late__10c86202": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clear harmonic stacks and punchy repeated onsets suggest a solid, mix-friendly pattern, though the rhythm is fairly looped and only moderately varied.",
+    "exec_ok": true
+  },
+  "sidechain_ducking_setup_reacomp_60df9992": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clear repeating percussive pattern with strong transients, balanced mid-high energy, and enough rhythmic definition to layer well, though harmonic richness appears limited.",
+    "exec_ok": true
+  },
+  "algorithmic_midi_generator_reanspiration_eef32339": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "5_zone_professional_vocal_eq_chain_44f88943": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "programmatic_diatonic_chord_progression__9526dc2b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich harmonic bands and very clear, consistent rhythmic onsets make it mix-friendly, though the pattern is fairly repetitive rather than highly inventive.",
+    "exec_ok": true
+  },
+  "producer_chord_voicings_diatonic_progres_4820fcb9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich harmonic bands and clear repeated onset structure suggest a solid, mix-friendly pattern with moderate rhythmic variation and good overall balance.",
+    "exec_ok": true
+  },
+  "lush_emotional_chord_generator_thick_bas_fd8b334c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clear harmonic stacks and balanced low-mid energy with defined repeated onsets; mix-friendly and structured, though somewhat repetitive with a silent tail.",
+    "exec_ok": true
+  },
+  "pop_hip_hop_8_bar_beat_construction_3423107c": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, fairly balanced harmonic content with clear repeated rhythmic onsets; mix-friendly and musical, though somewhat loop-like and ending abruptly.",
+    "exec_ok": true
+  },
+  "half_time_trap_groove_808_portamento_gli_a5340696": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich broadband harmonic content with consistent pulse and clear transient peaks; mix-friendly and rhythmically defined, though somewhat repetitive.",
+    "exec_ok": true
+  },
+  "professional_vocal_mixing_chain_routing__707d2cf3": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "multi_source_shared_sidechain_ducking_da99f239": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "stock_plugin_mastering_chain_low_end_mon_583c560b": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "in_the_box_serial_mastering_chain_fbd00e70": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "progressive_house_foundation_4_to_the_fl_1b6326c6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, steady harmonic energy with clear repeated rhythmic onsets; mix-friendly and well-structured, though somewhat uniform rather than highly evolving.",
+    "exec_ok": true
+  },
+  "stock_plugin_mastering_chain_f525a9dd": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "pro_stock_mastering_chain_with_mid_side__76c3ad7b": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "lush_diatonic_7th_chord_progression_imaj_10bcbb54": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "fat_legato_glide_lead_multi_oscillator_l_ff2717ba": {
+    "visual_quality": 3,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Clear harmonic bands and a strong initial transient are visible, but the sound decays quickly with limited rhythmic development, making it only moderately rich and not very layer-friendly on its own.",
+    "exec_ok": true
+  },
+  "sound_design_variation_generator_paramet_1bb0c1bf": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 1,
+    "notes": "Single bright harmonic stab with a clean decay, but sparse frequency coverage and only one major onset make it limited for balance, layering, and rhythmic interest.",
+    "exec_ok": true
+  },
+  "automated_double_tracking_guitar_bus_set_108a5c77": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "modulated_synth_pluck_with_unison_f0cda6a0": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich harmonic bands and a balanced spectrum with clear, repeating onset peaks suggest a musically solid, mix-friendly pattern with engaging rhythmic definition.",
+    "exec_ok": true
+  },
+  "ps1_era_stretched_sci_fi_impact_2de822b9": {
+    "visual_quality": 2,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Sustained low-mid spectral content with limited harmonic detail and almost flat onset activity; usable as a background drone/pad but not rhythmically engaging.",
+    "exec_ok": true
+  },
+  "ambient_electric_guitar_wash_clarity_eq__ec9e1276": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "singer_songwriter_live_recording_setup_h_fce70a58": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "stereo_double_tracked_heavy_guitars_fold_06b2d295": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, consistent harmonic energy with clear periodic onsets and good mixability, though the pattern is somewhat repetitive and drops off abruptly near the end.",
+    "exec_ok": true
+  },
+  "foundational_synthesizer_midi_setup_reas_890a4fe9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, repetitive harmonic bands with strong, regular transients; mix-friendly and rhythmically clear, though somewhat loop-like rather than highly varied.",
+    "exec_ok": true
+  },
+  "edm_four_on_the_floor_drop_sidechain_pum_2be9609d": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, balanced repeated broadband hits with clear harmonic decay and strong, well-defined rhythmic onsets; versatile for layering though somewhat repetitive.",
+    "exec_ok": true
+  },
+  "dubstep_riddim_call_and_response_drop_ha_2a6fa5e9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich low-mid energy with consistent harmonic bands and clearly defined rhythmic peaks, making it mix-friendly and moderately engaging.",
+    "exec_ok": true
+  },
+  "exponential_edm_tension_buildup_pre_drop_4bf2528e": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "edm_sidechain_pumping_generator_ghost_tr_07066d84": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Clear, well-defined repeating transient pattern with usable mix space, but harmonic richness and rhythmic variation appear fairly limited.",
+    "exec_ok": true
+  },
+  "quick_start_songwriting_template_starter_c871eaaf": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Balanced broadband energy with consistent harmonic texture and clear repeating onsets; mix-friendly and solid rhythmically, though somewhat repetitive.",
+    "exec_ok": true
+  },
+  "electric_guitar_double_tracking_amp_sim__c5df7e6e": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "dynamic_ducking_delay_sidechain_fx_bus_9cf0c7cf": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich harmonic stacks and clear transient clusters suggest a usable, well-balanced tonal element with defined rhythm, though the pattern is somewhat repetitive.",
+    "exec_ok": true
+  },
+  "macro_song_arranger_region_based_structu_7634dc21": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "the_rule_of_3_phrase_variation_724acdfc": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Balanced harmonic bands and consistent low-mid energy with clear, repeating rhythmic onsets make it mix-friendly and moderately engaging, though somewhat loop-like.",
+    "exec_ok": true
+  },
+  "subtractive_song_arrangement_framework_8d186c83": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Balanced but fairly repetitive spectrum with solid low-end and clear, consistent rhythmic onsets that should layer well in a mix.",
+    "exec_ok": true
+  },
+  "song_arrangement_structure_markers_regio_6622db53": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "neo_jazz_groove_the_lick_9ef2bb20": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Balanced harmonic bands with clear repeated rhythmic peaks and useful mid/high frequency structure, though the pattern is fairly loop-like and fades out near the end.",
+    "exec_ok": true
+  },
+  "jazz_piano_syncopated_comping_swing_phra_aef223e4": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "trap_half_time_groove_diatonic_harmony_g_b13bc246": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich broadband energy with clear repeated transients and varied onset peaks, suggesting a balanced, mix-friendly loop with solid rhythmic definition.",
+    "exec_ok": true
+  },
+  "90s_pop_ballad_voice_led_progression_i_v_fc189024": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clear harmonic bands and a usable tonal structure with strong section-like hits, but the rhythm is sparse and repetitive rather than dynamically intricate.",
+    "exec_ok": true
+  },
+  "lo_fi_hip_hop_drum_groove_boom_bap_04896106": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, evenly distributed harmonic content with strong, regular onset peaks; mix-friendly and rhythmically clear, though somewhat repetitive.",
+    "exec_ok": true
+  },
+  "lo_fi_hip_hop_boom_bap_foundation_8a9e07a1": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "lo_fi_drunken_drum_groove_texture_cb88cb84": {
+    "visual_quality": 2,
+    "composability": 2,
+    "creativity": 2,
+    "notes": "Brief noisy burst with limited harmonic definition and rhythmic activity, followed by long silence, making it weakly balanced and hard to layer musically.",
+    "exec_ok": true
+  },
+  "drunken_lo_fi_glitch_drum_groove_tape_bu_5ce3104e": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "lo_fi_staggered_chord_progression_1_3_2__f04f5044": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich, stable harmonic bands and clear sectional repetition suggest solid musical balance and mix-friendly layering, though rhythmic variation is fairly simple and loop-like.",
+    "exec_ok": true
+  },
+  "rapid_arrangement_template_builder_stem__3bcb24f9": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "two_loop_rule_macro_arrangement_generato_ccfb9d79": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich harmonic stacks and clear transient spacing suggest a solid, mix-friendly pattern, though the repetition and sparse variation keep rhythmic creativity moderate.",
+    "exec_ok": true
+  },
+  "pop_song_form_blueprint_visual_arrangeme_b6669983": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich harmonic bands and strong, consistent onsets suggest a solid, mix-friendly loop, though the rhythm is fairly repetitive rather than highly varied.",
+    "exec_ok": true
+  },
+  "humanized_midi_chord_progression_18d8858a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Clear harmonic bands and balanced low-mid energy make it mix-friendly, but the rhythm/onset pattern is sparse with limited dynamic variation.",
+    "exec_ok": true
+  },
+  "scale_locked_automatic_pitch_correction__5facf5a8": {
+    "visual_quality": 3,
+    "composability": 3,
+    "creativity": 1,
+    "notes": "Clear harmonic stack and clean decay, but it is mostly a single sustained event with very limited rhythmic variation.",
+    "exec_ok": true
+  },
+  "4_part_indie_funk_groove_builder_29595ed6": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, repeatable harmonic bands with clear transient pulses and dynamic rhythmic structure; mix-friendly though somewhat loop-like and repetitive.",
+    "exec_ok": true
+  },
+  "modern_rock_metal_kick_bass_rhythm_lock_bdd072d5": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "subtractive_electro_pluck_filter_envelop_8aba0359": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich mid/low harmonic content with clear repeating phrases and strong onset peaks, making it mix-friendly and rhythmically defined though slightly repetitive in timbral range.",
+    "exec_ok": true
+  },
+  "multi_track_melodic_synth_rock_groove_al_9a3cd2c1": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "vector_style_timbral_morphing_pad_53138558": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich harmonic bands and a clean, loopable structure with clear section onsets, though the rhythm looks fairly simple and repetitive.",
+    "exec_ok": true
+  },
+  "procedural_volume_ducking_pseudo_sidecha_4718265b": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 2,
+    "notes": "Rich sustained harmonic bands and balanced low-mid energy suggest a usable pad/drone layer, but the onset profile is mostly flat with limited rhythmic variation.",
+    "exec_ok": true
+  },
+  "automated_spatial_swell_rhythmic_pumping_a6dbc4eb": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "chipmunk_soul_vintage_boom_bap_formula_18bca51b": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Strong, clear percussive rhythm with mix-friendly spacing and solid broadband energy, though harmonic richness appears moderate and the pattern is somewhat repetitive.",
+    "exec_ok": true
+  },
+  "chipmunk_soul_boom_bap_foundation_proces_3518511f": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich low-mid energy with consistent harmonic bands and clearly defined rhythmic spikes, making it solid for layering though slightly repetitive and rolled off at the end.",
+    "exec_ok": true
+  },
+  "daft_punk_french_house_octave_jumping_ba_0480767a": {
+    "visual_quality": 3,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clear, punchy repetitive rhythmic pattern with strong onset definition and usable mix space, but limited harmonic richness and only moderate timbral variation.",
+    "exec_ok": true
+  },
+  "daft_punk_french_house_909_micro_swung_g_563a3610": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Strong, regular broadband transients with clear rhythmic definition and mix-friendly spacing, though the harmonic texture looks more functional than highly distinctive.",
+    "exec_ok": true
+  },
+  "j_dilla_mpc_style_micro_chop_sequencing__cc807814": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "j_dilla_neo_soul_boom_bap_sample_flip_gr_f792026e": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich low-mid harmonic content and clearly defined, mix-friendly rhythmic onsets, though the pattern is somewhat repetitive rather than highly novel.",
+    "exec_ok": true
+  },
+  "dr_dre_old_school_west_coast_groove_2_oc_8c1ca974": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "dr_dre_g_funk_foundation_smooth_ep_chord_3d610684": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "frank_ocean_nostalgic_r_b_borrowed_chord_a25088fd": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "frank_ocean_style_psychedelic_lo_fi_r_b__55a2ad7a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich broadband content with clear repeating transients and solid rhythmic definition; mix-friendly and moderately inventive, though somewhat loop-like.",
+    "exec_ok": true
+  },
+  "kanye_style_distorted_groove_offset_loop_096358ee": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich low-mid energy with clear repeating rhythmic transients and usable mix space, though the pattern is somewhat repetitive and drops to silence at the end.",
+    "exec_ok": true
+  },
+  "kanye_west_stadium_hip_hop_anthem_gradua_3f8a7f31": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich low-mid energy and visible harmonic bands with clear rhythmic spikes make this usable and fairly engaging, though the spectrum is somewhat repetitive and top-end detail is modest.",
+    "exec_ok": true
+  },
+  "metro_boomin_dark_trap_architecture_2d87e7b9": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "metro_style_dark_trap_foundation_fb0b0fc9": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich, harmonically layered and rhythmically clear with strong transient definition, though fairly repetitive and somewhat limited in dynamic evolution.",
+    "exec_ok": true
+  },
+  "pharrell_neptunes_pharrell_style_inverte_2212073a": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Clear harmonic stacks and punchy, well-defined onsets suggest a musically solid, mix-friendly rhythmic motif with moderate variety.",
+    "exec_ok": true
+  },
+  "pharrell_neptunes_neptunes_stabby_groove_bf8b9317": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich broadband harmonic/transient content with clear, punchy rhythmic onsets and strong loopability, though somewhat repetitive and densely filled across the spectrum.",
+    "exec_ok": true
+  },
+  "tame_impala_psych_pop_melodic_fuzz_bass_136346c8": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 4,
+    "notes": "Rich low-mid energy, clear repeating rhythmic accents, and a mix-friendly pattern with moderate variation though somewhat loop-like in structure.",
+    "exec_ok": true
+  },
+  "tame_impala_psychedelic_fuzz_groove_detu_307f0094": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  },
+  "tyler_the_creator_jazzy_lo_fi_indie_pop__6e68fb92": {
+    "visual_quality": 4,
+    "composability": 4,
+    "creativity": 3,
+    "notes": "Rich low-mid harmonic content and very clear, punchy rhythmic onsets make it mix-friendly, though the pattern is fairly repetitive and ends abruptly.",
+    "exec_ok": true
+  },
+  "tyler_the_creator_neo_soul_vintage_synth_c1934e11": {
+    "exec_ok": false,
+    "error": "audio_exec_failed"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_isometric_exploded_view_254deee3",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 562,
+    "type": "youtube",
+    "video_id": "tk3ivPgOwpc",
+    "video_title": "Multilayer Parallax Scroll Animation with HTML and GSAP",
+    "video_url": "https://www.youtube.com/watch?v=tk3ivPgOwpc",
+    "views": 94794
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

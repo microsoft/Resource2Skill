@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creating a dynamic, playful focal point in hero sections, loading screens, or promotional banners. This technique transforms static headings into engaging motion graphics using lightweight code.",
+  "category_path": [
+    "animation",
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_typography_with_bouncing_embedde_f8072937",
+  "skill_name": "Kinetic Typography with Bouncing Shapes",
+  "source": {
+    "channel": "Flux Academy",
+    "duration_sec": 1196,
+    "type": "youtube",
+    "video_id": "NOvcy64apD4",
+    "video_title": "Easy animations for your website (LottieFiles Crash Course)",
+    "video_url": "https://www.youtube.com/watch?v=NOvcy64apD4",
+    "views": 29925
+  },
+  "tags": [
+    "kinetic typography",
+    "css animation",
+    "text effect",
+    "bouncing animation",
+    "javascript"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:13Z",
+  "wash_version": "1.0.0"
+}

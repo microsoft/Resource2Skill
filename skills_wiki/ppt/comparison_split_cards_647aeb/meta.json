@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for presenting side-by-side comparisons of two concepts, designs, or states (e.g., 'before/after', 'A/B testing'). The layout emphasizes one panel with an accent color for clear distinction.",
+  "category_path": [
+    "comparison",
+    "split_layout"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "comparison_split_cards_647aeb",
+  "skill_name": "Comparison Split Cards",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "comparison",
+    "side-by-side",
+    "before-after",
+    "two-column",
+    "highlighted-panel",
+    "A/B-test"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:05:34Z",
+  "wash_version": "1.0.0"
+}

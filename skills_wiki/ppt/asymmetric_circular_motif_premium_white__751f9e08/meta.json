@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_circular_motif_premium_white__751f9e08",
+  "skill_name": "Asymmetric Circular Motif & Premium White Space",
+  "source": {
+    "channel": "Amber Graphics",
+    "duration_sec": 158,
+    "type": "youtube",
+    "video_id": "n369Tnf_nFM",
+    "video_title": "Fashion Shop PowerPoint Presentation Template",
+    "video_url": "https://www.youtube.com/watch?v=n369Tnf_nFM",
+    "views": 1471
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:50:46Z",
+  "wash_version": "1.0.0"
+}

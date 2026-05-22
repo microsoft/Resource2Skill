@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_dashboard_archetype_066bbd71",
+  "skill_name": "Clean Dashboard Archetype",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:35Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "completed interactive dashboard preview"
+        },
+        {
+          "seconds": 820,
+          "description": "first pivot chart added to the dashboard"
+        },
+        {
+          "seconds": 1143,
+          "description": "all three pivot charts arranged on the dashboard"
+        },
+        {
+          "seconds": 1443,
+          "description": "slicers and timeline added for interactivity"
+        },
+        {
+          "seconds": 1759,
+          "description": "polished dashboard with gridlines and headings removed"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_interactive_dashboar.jpg",
+        "frame_01_first_pivot_chart_added_to_the.jpg",
+        "frame_02_all_three_pivot_charts_arrange.jpg"
+      ],
+      "recapped_at": 1777406242.9511054
+    },
+    "primary_path": "frame_00_completed_interactive_dashboar.jpg"
+  }
+}

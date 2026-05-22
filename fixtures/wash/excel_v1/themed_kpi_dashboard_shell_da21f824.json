@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_dashboard_shell_da21f824",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 1161,
+    "type": "youtube",
+    "video_id": "MTlQvyNQ3PM",
+    "video_title": "\ud83d\udcca How to Build Excel Interactive Dashboards",
+    "video_url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM",
+    "views": 3656693
+  },
+  "tier": "T5",
+  "wash_version": "1.0.0"
+}

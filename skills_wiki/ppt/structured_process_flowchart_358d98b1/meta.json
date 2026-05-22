@@ -1,0 +1,36 @@
+{
+  "applicability": "A foundational skill for presentations explaining processes, workflows, or algorithms. Highly effective across business operations, software design, project management, and training scenarios.",
+  "category_path": [
+    "process",
+    "flowcharts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "structured_process_flowchart_358d98b1",
+  "skill_name": "Structured Process Flowchart",
+  "source": {
+    "channel": "\u6fb3\u9580IT\u9805\u76ee\u7d93\u7406Judi",
+    "duration_sec": 307,
+    "type": "youtube",
+    "video_id": "Vr2DXsgAkyk",
+    "video_title": "\u5982\u4f55\u88fd\u4f5c\u6d41\u7a0b\u5716\uff1f \u6d41\u7a0b\u5716\u5716\u5f62\u7684\u610f\u7fa9\uff0c\u4f7f\u7528draw.io\u7e6a\u88fd\u6d41\u7a0b\u5716\uff081/2\uff09",
+    "video_url": "https://www.youtube.com/watch?v=Vr2DXsgAkyk",
+    "views": 9651
+  },
+  "tags": [
+    "process flow",
+    "workflow",
+    "diagram",
+    "decision making",
+    "sequence",
+    "logic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:09Z",
+  "wash_version": "1.0.0"
+}

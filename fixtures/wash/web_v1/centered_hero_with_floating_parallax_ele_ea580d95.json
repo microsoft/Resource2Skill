@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "centered_hero_with_floating_parallax_ele_ea580d95",
+  "source": {
+    "channel": "Payton Clark Smith",
+    "duration_sec": 705,
+    "type": "youtube",
+    "video_id": "kJb6BZwqCGM",
+    "video_title": "18 Hero Section Designs You Can Steal",
+    "video_url": "https://www.youtube.com/watch?v=kJb6BZwqCGM",
+    "views": 759937
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

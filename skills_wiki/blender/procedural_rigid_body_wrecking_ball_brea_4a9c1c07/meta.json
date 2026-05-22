@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_rigid_body_wrecking_ball_brea_4a9c1c07",
+  "skill_name": "Procedural Rigid-Body Wrecking Ball & Breakable Wall",
+  "source": {
+    "channel": "MK Graphics",
+    "duration_sec": 508,
+    "type": "youtube",
+    "video_id": "eMStCR7-7qg",
+    "video_title": "Chain Animation in Blender 5.0 | Rigid Body Physics",
+    "video_url": "https://www.youtube.com/watch?v=eMStCR7-7qg",
+    "views": 2279
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:18Z",
+  "wash_version": "1.0.0"
+}

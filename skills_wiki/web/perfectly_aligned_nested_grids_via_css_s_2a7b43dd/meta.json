@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perfectly_aligned_nested_grids_via_css_s_2a7b43dd",
+  "skill_name": "Perfectly Aligned Nested Grids via CSS Subgrid",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 261,
+    "type": "youtube",
+    "video_id": "APxt2mKOsss",
+    "video_title": "Learn CSS Subgrid for Perfect Alignment",
+    "video_url": "https://www.youtube.com/watch?v=APxt2mKOsss",
+    "views": 51655
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:12Z",
+  "wash_version": "1.0.0"
+}

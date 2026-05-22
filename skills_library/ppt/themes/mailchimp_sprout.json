@@ -1,0 +1,128 @@
+{
+  "theme_id": "mailchimp_sprout",
+  "name": "Mailchimp Sprout",
+  "origin": "web_distilled",
+  "source_url": "https://mailchimp.com/brand-assets/",
+  "source_title": "Mailchimp Brand Assets",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#FFF9EA",
+    "panel": "#FFFFFF",
+    "accent": "#FFE01B",
+    "accent2": "#007C89",
+    "text": "#241C15",
+    "muted": "#4C463F",
+    "border": "#FFE01B",
+    "success": "#007C89",
+    "warning": "#F26D4F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Trebuchet MS",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Trebuchet MS",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Bahnschrift",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "warm paper wash behind chunky highlight blocks"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "warm",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "warm",
+    "playful",
+    "brand"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "bloom",
+    "wash",
+    "confetti",
+    "organic"
+  ],
+  "avoided_motion_tags": [
+    "grid",
+    "audit",
+    "technical"
+  ]
+}

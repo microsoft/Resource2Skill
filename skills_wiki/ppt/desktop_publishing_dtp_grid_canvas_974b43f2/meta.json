@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "desktop_publishing_dtp_grid_canvas_974b43f2",
+  "skill_name": "Desktop Publishing (DTP) Grid Canvas",
+  "source": {
+    "channel": "Training Magazine",
+    "duration_sec": 73,
+    "type": "youtube",
+    "video_id": "mom8aKxKbO0",
+    "video_title": "How to Use PowerPoint to Create the Layout for Books",
+    "video_url": "https://www.youtube.com/watch?v=mom8aKxKbO0",
+    "views": 2096
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:13:46Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "applicability": "Ideal for creating impactful section dividers, quotes, or statements where a central, minimal text block is the focus. It allows for a main headline, an optional subhead, and supporting body text.",
+  "category_path": [
+    "text_layouts",
+    "centered_text"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_centered_text_557663",
+  "skill_name": "Minimal Centered Text",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "centered text",
+    "minimal",
+    "section divider",
+    "quote",
+    "impactful statement"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:25Z",
+  "wash_version": "1.0.0"
+}

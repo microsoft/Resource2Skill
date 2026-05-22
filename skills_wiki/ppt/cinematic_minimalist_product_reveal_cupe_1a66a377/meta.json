@@ -1,0 +1,35 @@
+{
+  "applicability": "Use to create a high-impact, premium slide for product launches or feature reveals. This style is ideal for technology keynotes, evoking a sense of mystery and sophistication.",
+  "category_path": [
+    "layouts",
+    "product_showcase"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_minimalist_product_reveal_cupe_1a66a377",
+  "skill_name": "Cinematic Product Reveal Slide",
+  "source": {
+    "channel": "Kim Duyen",
+    "duration_sec": 64,
+    "type": "youtube",
+    "video_id": "9FF6KJeSUmg",
+    "video_title": "Apple Pitch Deck |free PowerPoint template|",
+    "video_url": "https://www.youtube.com/watch?v=9FF6KJeSUmg",
+    "views": 16846
+  },
+  "tags": [
+    "product reveal",
+    "keynote",
+    "minimalist",
+    "glow effect",
+    "cinematic"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:58:57Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Visualizes core concepts like architectures, cyclical processes, or product pillars with a modern, futuristic aesthetic. Its glass effect and glowing nodes are highly effective in dark-mode presentations.",
+  "category_path": [
+    "diagram",
+    "hub_and_spoke"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphic_nodes_infographic_f9757051",
+  "skill_name": "Glassmorphic Nodes Infographic",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 513,
+    "type": "youtube",
+    "video_id": "7TZtloPjqnY",
+    "video_title": "82.PowerPoint Tutorial Glassmorphism Security Template | #glassmorphism",
+    "video_url": "https://www.youtube.com/watch?v=7TZtloPjqnY",
+    "views": 4446
+  },
+  "tags": [
+    "glassmorphism",
+    "hub and spoke",
+    "dark mode",
+    "diagram",
+    "infographic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:46:41Z",
+  "wash_version": "1.0.0"
+}

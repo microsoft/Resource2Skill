@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "raw_webgl_rgb_triangle_rendering_a5c94b60",
+  "skill_name": "Raw WebGL RGB Triangle Rendering",
+  "source": {
+    "channel": "Indigo Code",
+    "duration_sec": 2685,
+    "type": "youtube",
+    "video_id": "kB0ZVUrI4Aw",
+    "video_title": "WebGL Tutorial 01 - Setup and Triangle",
+    "video_url": "https://www.youtube.com/watch?v=kB0ZVUrI4Aw",
+    "views": 350299
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:15Z",
+  "wash_version": "1.0.0"
+}

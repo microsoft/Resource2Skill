@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating a bold presentation cover or section divider, featuring a full-bleed hero image with a dramatic geometric overlay for text.",
+  "category_path": [
+    "presentation",
+    "cover_slide"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_hero_cover_8dd6fc",
+  "skill_name": "Geometric Hero Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "bold",
+    "geometric",
+    "cover",
+    "hero image",
+    "section divider",
+    "modern"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:09:08Z",
+  "wash_version": "1.0.0"
+}

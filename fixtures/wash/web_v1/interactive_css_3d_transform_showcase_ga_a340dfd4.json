@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_css_3d_transform_showcase_ga_a340dfd4",
+  "source": {
+    "channel": "CodeHelp - by Babbar",
+    "duration_sec": 926,
+    "type": "youtube",
+    "video_id": "DrWjRwC1kYw",
+    "video_title": "Mastering CSS 3D Transforms || Episode - 32",
+    "video_url": "https://www.youtube.com/watch?v=DrWjRwC1kYw",
+    "views": 92977
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

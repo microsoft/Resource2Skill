@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_cell_based_kpi_card_527a083d",
+  "skill_name": "Stylized Cell-Based KPI Card",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:00:18Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 48,
+          "description": "KPI showing 'Asia' and 'Revenue' amount using shapes"
+        },
+        {
+          "seconds": 131,
+          "description": "Complete KPI for 'Asia' with revenue and market share percentage"
+        },
+        {
+          "seconds": 210,
+          "description": "Reference image of the SmartArt KPI showing total revenue"
+        },
+        {
+          "seconds": 315,
+          "description": "SmartArt KPI built in Excel displaying 'Revenue' and total amount"
+        }
+      ],
+      "frames": [
+        "frame_00_kpi_showing_asia_and_revenue_a.jpg",
+        "frame_01_complete_kpi_for_asia_with_rev.jpg",
+        "frame_02_reference_image_of_the_smartar.jpg"
+      ],
+      "recapped_at": 1777407544.1889193
+    },
+    "primary_path": "frame_00_kpi_showing_asia_and_revenue_a.jpg"
+  }
+}

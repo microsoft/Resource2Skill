@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "algorithmic_dynamic_organization_chart_398b171b",
+  "skill_name": "Algorithmic Dynamic Organization Chart",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 887,
+    "type": "youtube",
+    "video_id": "WkBJPxmXzuo",
+    "video_title": "How to Make Org Charts in PowerPoint, Word, Teams, Excel & Visio",
+    "video_url": "https://www.youtube.com/watch?v=WkBJPxmXzuo",
+    "views": 407497
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:49:03Z",
+  "wash_version": "1.0.0"
+}

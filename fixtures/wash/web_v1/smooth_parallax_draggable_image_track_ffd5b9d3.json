@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_parallax_draggable_image_track_ffd5b9d3",
+  "source": {
+    "channel": "Hyperplexed",
+    "duration_sec": 419,
+    "type": "youtube",
+    "video_id": "PkADl0HubMY",
+    "video_title": "Award Winning Animation With Only 20 Lines Of CSS?",
+    "video_url": "https://www.youtube.com/watch?v=PkADl0HubMY",
+    "views": 2200267
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

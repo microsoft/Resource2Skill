@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_data_driven_clustered_column_char_2b0e907a",
+  "skill_name": "Native Data-Driven Clustered Column Chart",
+  "source": {
+    "channel": "ThinkOutsideTheSlide.com",
+    "duration_sec": 151,
+    "type": "youtube",
+    "video_id": "9lV10Hmn1-A",
+    "video_title": "Excel Chart Tip: Create a graph in PowerPoint using data from Excel",
+    "video_url": "https://www.youtube.com/watch?v=9lV10Hmn1-A",
+    "views": 253609
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:10Z",
+  "wash_version": "1.0.0"
+}

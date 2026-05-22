@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "precision_geometric_patterning_step_and__248fb666",
+  "skill_name": "Precision Geometric Patterning & Step-and-Repeat Arrays",
+  "source": {
+    "channel": "\u73de\u73c8",
+    "duration_sec": 1445,
+    "type": "youtube",
+    "video_id": "ckGWmHuj19s",
+    "video_title": "PPT\u6559\u7a0b02 | PPT\u9ad8\u624b\u4e4b\u8def\uff0c\u96f6\u57fa\u7840\u505a\u51fa\u9ad8\u903c\u683cPPT\uff0c\u514d\u8d39PPT\u8bbe\u8ba1\u5236\u4f5c\u6280\u5de7\u6559\u5b66\uff01",
+    "video_url": "https://www.youtube.com/watch?v=ckGWmHuj19s",
+    "views": 8
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:07:47Z",
+  "wash_version": "1.0.0"
+}

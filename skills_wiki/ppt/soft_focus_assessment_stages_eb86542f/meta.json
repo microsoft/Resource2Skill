@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "soft_focus_assessment_stages_eb86542f",
+  "skill_name": "Soft Focus Assessment Stages",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "ROTfK9OrKys",
+    "video_title": "Assessment Stages Powerpoint Ppt Template Bundles",
+    "video_url": "https://www.youtube.com/watch?v=ROTfK9OrKys",
+    "views": 37
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:37Z",
+  "wash_version": "1.0.0"
+}

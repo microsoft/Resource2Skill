@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for feature announcements, onboarding flows, and success messages where engaging motion is needed. It combines high-performance Lottie animations with a stark Neo-Brutalist aesthetic to draw immediate visual attention.",
+  "category_path": [
+    "ui_components",
+    "cards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_brutalist_lottie_feature_card_2a3d257d",
+  "skill_name": "Neo-Brutalist Lottie Feature Card",
+  "source": {
+    "channel": "Jesse Showalter",
+    "duration_sec": 826,
+    "type": "youtube",
+    "video_id": "4eNr5SIF_1g",
+    "video_title": "Adding Motion to Your Designs with LottieFiles",
+    "video_url": "https://www.youtube.com/watch?v=4eNr5SIF_1g",
+    "views": 46068
+  },
+  "tags": [
+    "lottie",
+    "neo-brutalism",
+    "feature-card",
+    "animation",
+    "ui-component"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:31Z",
+  "wash_version": "1.0.0"
+}

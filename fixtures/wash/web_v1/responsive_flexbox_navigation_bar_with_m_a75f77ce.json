@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_flexbox_navigation_bar_with_m_a75f77ce",
+  "source": {
+    "channel": "Dani Krossing",
+    "duration_sec": 516,
+    "type": "youtube",
+    "video_id": "Ovl3IxTwS18",
+    "video_title": "How to Create a Responsive Navigation Bar for Beginners | Responsive Menu | HTML & CSS Quick Tips",
+    "video_url": "https://www.youtube.com/watch?v=Ovl3IxTwS18",
+    "views": 34513
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

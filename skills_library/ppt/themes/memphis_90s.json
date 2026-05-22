@@ -1,0 +1,116 @@
+{
+  "theme_id": "memphis_90s",
+  "name": "Memphis 90s",
+  "palette": {
+    "bg": "#FCF6E4",
+    "panel": "#FCE6D5",
+    "accent": "#0A95C9",
+    "accent2": "#E7478F",
+    "text": "#1D1F22",
+    "muted": "#7A7973",
+    "border": "#ECDCCB",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Comic Sans MS",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Comic Sans MS",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Trebuchet MS",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Comic Sans MS",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "memphis_shapes",
+    "description": "Squiggles, triangles, and dots; Memphis group motifs"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "dynamic",
+    "preferred_entrance": [
+      "zoom",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": []
+  },
+  "mood": [
+    "playful",
+    "punchy",
+    "bold",
+    "warm"
+  ],
+  "archetype_fit": [
+    "brand",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "balloon",
+    "bubble",
+    "confetti",
+    "tag-pill",
+    "cta-arrow",
+    "map-pin"
+  ],
+  "avoided_motion_tags": [
+    "ink-bleed",
+    "thesis",
+    "margin-note",
+    "editorial",
+    "hairline",
+    "axis"
+  ]
+}

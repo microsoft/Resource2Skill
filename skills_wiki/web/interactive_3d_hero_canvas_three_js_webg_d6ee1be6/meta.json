@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for high-impact hero sections on SaaS, portfolio, or tech landing pages. It provides a lightweight, immersive interactive 3D background that responds to user input in real time.",
+  "category_path": [
+    "graphics",
+    "webgl",
+    "three_js"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_hero_canvas_three_js_webg_d6ee1be6",
+  "skill_name": "Interactive 3D Hero Canvas (Three.js WebGL)",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 127,
+    "type": "youtube",
+    "video_id": "f-9LEoYYvE4",
+    "video_title": "WebGL 3D Graphics Explained in 100 Seconds",
+    "video_url": "https://www.youtube.com/watch?v=f-9LEoYYvE4",
+    "views": 438875
+  },
+  "tags": [
+    "three-js",
+    "webgl",
+    "3d-graphics",
+    "hero-section",
+    "interactive-canvas"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:03Z",
+  "wash_version": "1.0.0"
+}

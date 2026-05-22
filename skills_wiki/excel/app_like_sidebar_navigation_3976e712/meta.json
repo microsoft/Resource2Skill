@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "app_like_sidebar_navigation_3976e712",
+  "skill_name": "App-Like Sidebar Navigation",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:46Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 354,
+          "description": "Overall dashboard structure with main titles and placeholder boxes"
+        },
+        {
+          "seconds": 838,
+          "description": "All individual charts and visuals (donut, radar, map, line charts) created on the input tab"
+        },
+        {
+          "seconds": 1259,
+          "description": "Dashboard populated with formatted map, line, and radar charts"
+        },
+        {
+          "seconds": 1500,
+          "description": "Final interactive Excel dashboard fully assembled and formatted"
+        }
+      ],
+      "frames": [
+        "frame_00_overall_dashboard_structure_wi.jpg",
+        "frame_01_all_individual_charts_and_visu.jpg"
+      ],
+      "recapped_at": 1777406102.6902938
+    },
+    "primary_path": "frame_00_overall_dashboard_structure_wi.jpg"
+  }
+}

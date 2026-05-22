@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_documentary_lower_third_40a7f86c",
+  "skill_name": "Cinematic Documentary Lower-Third",
+  "source": {
+    "channel": "\u6587\u660e\u4e4b\u65c5\u756a\u5916\u7bc7",
+    "duration_sec": 617,
+    "type": "youtube",
+    "video_id": "w4YzQFO-Q24",
+    "video_title": "\u544a\u8bc9\u4f60\u6f14\u8bb2\u7684\u6838\u5fc3\u662f\u4ec0\u4e48\uff1f|\u300a\u50cf\u4e18\u5409\u5c14\u4e00\u6837\u6f14\u8bb2\uff0c\u50cf\u6797\u80af\u4e00\u6837\u7ad9\u7acb\u300b",
+    "video_url": "https://www.youtube.com/watch?v=w4YzQFO-Q24",
+    "views": 336
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:57:06Z",
+  "wash_version": "1.0.0"
+}

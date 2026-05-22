@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_class_based_dark_mode_themed_her_449c085c",
+  "skill_name": "Dynamic Class-Based Dark Mode & Themed Hero Section",
+  "source": {
+    "channel": "Echoes of Ping",
+    "duration_sec": 2551,
+    "type": "youtube",
+    "video_id": "NY9ojDOjOcw",
+    "video_title": "HTML CSS Hero Section with Tailwind CSS in MINUTES",
+    "video_url": "https://www.youtube.com/watch?v=NY9ojDOjOcw",
+    "views": 217
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:29Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_dashboard_shell_a6597532",
+  "skill_name": "Grid-Based Dashboard Shell",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:30:11Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "completed sales dashboard overview"
+        },
+        {
+          "seconds": 748,
+          "description": "KPI cards with values and icons"
+        },
+        {
+          "seconds": 1018,
+          "description": "sales agent KPIs table with conditional formatting"
+        },
+        {
+          "seconds": 1637,
+          "description": "dashboard layout with all charts and tables"
+        },
+        {
+          "seconds": 1831,
+          "description": "fully updated and interactive dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_completed_sales_dashboard_over.jpg",
+        "frame_01_kpi_cards_with_values_and_icon.jpg",
+        "frame_02_sales_agent_kpis_table_with_co.jpg"
+      ],
+      "recapped_at": 1777406799.178439
+    },
+    "primary_path": "frame_00_completed_sales_dashboard_over.jpg"
+  }
+}

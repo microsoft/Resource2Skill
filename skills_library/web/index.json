@@ -1,0 +1,3228 @@
+{
+  "updated_at": "2026-04-22T09:21:06.443469",
+  "total": 358,
+  "skills": [
+    {
+      "skill_id": "beginner_webpage_scaffolding_foundationa_bbc197d4",
+      "skill_name": "Beginner Webpage Scaffolding & Foundational Styling",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=9z8FP8ear2Y",
+      "source_title": "HTML/CSS For Beginners ",
+      "channel": "Marighoul",
+      "detail_path": "form_ui/beginner_webpage_scaffolding_foundationa_bbc197d4/skill.json"
+    },
+    {
+      "skill_id": "retro_cozy_gaming_portfolio_layout_a1700c1e",
+      "skill_name": "Retro \"Cozy Gaming\" Portfolio Layout",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=7vp2Pc_0WLs",
+      "source_title": "Coding my portfolio website from scratch (aesthetic & easy html css tutorial)",
+      "channel": "Nashallery",
+      "detail_path": "typography/retro_cozy_gaming_portfolio_layout_a1700c1e/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_grid_layout_with_curved_secti_2eead84a",
+      "skill_name": "Asymmetric Grid Layout with Curved Section Dividers",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=K8BigvW7sZU",
+      "source_title": "Responsive Landing Page Tutorial - HTML/CSS",
+      "channel": "Web Dev Simplified",
+      "detail_path": "form_ui/asymmetric_grid_layout_with_curved_secti_2eead84a/skill.json"
+    },
+    {
+      "skill_id": "scalable_css_token_architecture_modern_r_56015e20",
+      "skill_name": "Scalable CSS Token Architecture & Modern Reset",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=h3bTwCqX4ns",
+      "source_title": "Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage",
+      "channel": "Kevin Powell",
+      "detail_path": "typography/scalable_css_token_architecture_modern_r_56015e20/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_frosted_card_ce20446e",
+      "skill_name": "Glassmorphism Frosted Card",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=n77yqF5fdBE",
+      "source_title": "Create a glass effect in CSS (Glassmorphism)",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/glassmorphism_frosted_card_ce20446e/skill.json"
+    },
+    {
+      "skill_id": "semantic_portfolio_showcase_with_grid_ga_517ad989",
+      "skill_name": "Semantic Portfolio Showcase with Grid Gallery & CSS Accordion",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=ZPMtug9qExk",
+      "source_title": "Build a Personal Website with HTML & CSS (Beginner Crash Course)",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/semantic_portfolio_showcase_with_grid_ga_517ad989/skill.json"
+    },
+    {
+      "skill_id": "advanced_glassmorphism_ui_18b47fc2",
+      "skill_name": "Advanced Glassmorphism UI",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=bnC-kuL_CYw",
+      "source_title": "3 Level Glassmorphism Design In CSS | CSS Tutorial",
+      "channel": "Lun Dev",
+      "detail_path": "animation/advanced_glassmorphism_ui_18b47fc2/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_pill_navigation_bar_8e14579e",
+      "skill_name": "Glassmorphism Pill Navigation Bar",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=MsioY73mvBI",
+      "source_title": "Create a Glass Morphism Navbar🔮 | Step-by-Step UI Design Tutorial (HTML/CSS) | mzcode01 #coding #css",
+      "channel": "MzCode",
+      "detail_path": "navigation/glassmorphism_pill_navigation_bar_8e14579e/skill.json"
+    },
+    {
+      "skill_id": "liquid_glassmorphism_svg_displacement_fi_593eefe6",
+      "skill_name": "Liquid Glassmorphism (SVG Displacement Filter)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Cv8zFvM8fEk",
+      "source_title": "I Built Apple’s Liquid Glass but ONLY with CSS...",
+      "channel": "Better Stack",
+      "detail_path": "card_layout/liquid_glassmorphism_svg_displacement_fi_593eefe6/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_card_with_masked_gradient__8638275e",
+      "skill_name": "Glassmorphism Card with Masked Gradient Border",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=dsZ7RN9ItR4",
+      "source_title": "Create this trendy blurry glass effect with CSS",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/glassmorphism_card_with_masked_gradient__8638275e/skill.json"
+    },
+    {
+      "skill_id": "pure_css_target_modal_popup_28899600",
+      "skill_name": "Pure CSS :target Modal Popup",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=czNhJc79LZM",
+      "source_title": "CSS ONLY Modals Tutorial - CSS Popups",
+      "channel": "Tyler Potts",
+      "detail_path": "form_ui/pure_css_target_modal_popup_28899600/skill.json"
+    },
+    {
+      "skill_id": "native_html_dialog_modal_59809d11",
+      "skill_name": "Native HTML Dialog Modal",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=TAB_v6yBXIE",
+      "source_title": "dialog = the easiest way to make a popup modal",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/native_html_dialog_modal_59809d11/skill.json"
+    },
+    {
+      "skill_id": "elegant_fade_in_modal_dialog_f158e679",
+      "skill_name": "Elegant Fade-In Modal Dialog",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=XH5OW46yO8I",
+      "source_title": "Create a Modal (Popup) with HTML/CSS and JavaScript",
+      "channel": "Florin Pop",
+      "detail_path": "form_ui/elegant_fade_in_modal_dialog_f158e679/skill.json"
+    },
+    {
+      "skill_id": "modular_responsive_overlay_modal_system_e8396a18",
+      "skill_name": "Modular Responsive Overlay Modal System",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=3m5xMCvkLco",
+      "source_title": "The BEST Way to Build a Popup Modal! [HTML,CSS,JS]",
+      "channel": "Marc Hinton",
+      "detail_path": "form_ui/modular_responsive_overlay_modal_system_e8396a18/skill.json"
+    },
+    {
+      "skill_id": "smooth_fade_in_centered_modal_6a5f0afe",
+      "skill_name": "Smooth Fade-In Centered Modal",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=r_PL0K2fGkY",
+      "source_title": "Build a Popup with JavaScript | 1-Minute Tutorial",
+      "channel": "Florin Pop",
+      "detail_path": "form_ui/smooth_fade_in_centered_modal_6a5f0afe/skill.json"
+    },
+    {
+      "skill_id": "responsive_auto_fit_bento_grid_with_nati_ab4f9fb7",
+      "skill_name": "Responsive Auto-Fit Bento Grid with Native Stacking",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=JYfiaSKeYhE",
+      "source_title": "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/responsive_auto_fit_bento_grid_with_nati_ab4f9fb7/skill.json"
+    },
+    {
+      "skill_id": "responsive_bento_box_grid_dashboard_d156d86f",
+      "skill_name": "Responsive Bento Box Grid Dashboard",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=EiNiSFIPIQE",
+      "source_title": "Learn CSS Grid - A 13 Minute Deep Dive",
+      "channel": "Slaying The Dragon",
+      "detail_path": "card_layout/responsive_bento_box_grid_dashboard_d156d86f/skill.json"
+    },
+    {
+      "skill_id": "responsive_auto_fit_css_grid_no_media_qu_9b97a188",
+      "skill_name": "Responsive Auto-Fit CSS Grid (No Media Queries)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=3T0gjtXRNC0",
+      "source_title": "Create Responsive CSS Grid Layouts with GRID WRAPPING",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/responsive_auto_fit_css_grid_no_media_qu_9b97a188/skill.json"
+    },
+    {
+      "skill_id": "perfectly_aligned_nested_grids_via_css_s_2a7b43dd",
+      "skill_name": "Perfectly Aligned Nested Grids via CSS Subgrid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=APxt2mKOsss",
+      "source_title": "Learn CSS Subgrid for Perfect Alignment",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/perfectly_aligned_nested_grids_via_css_s_2a7b43dd/skill.json"
+    },
+    {
+      "skill_id": "perfect_responsive_grid_auto_fill_auto_f_340031dd",
+      "skill_name": "Perfect Responsive Grid (Auto-fill/Auto-fit + Minmax)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=bj0Z_GncIwY",
+      "source_title": "Breakpoint-Free CSS Grid Layouts",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/perfect_responsive_grid_auto_fill_auto_f_340031dd/skill.json"
+    },
+    {
+      "skill_id": "pure_css_monospace_typewriter_effect_61a3719f",
+      "skill_name": "Pure CSS Monospace Typewriter Effect",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=Sm1CYfuIKM8",
+      "source_title": "Typewriter Effect CSS | [EXPLAINED]",
+      "channel": "Redhouane Aouadi",
+      "detail_path": "animation/pure_css_monospace_typewriter_effect_61a3719f/skill.json"
+    },
+    {
+      "skill_id": "dynamic_pure_css_typewriter_effect_12449511",
+      "skill_name": "Dynamic Pure-CSS Typewriter Effect",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=yefgBA1CecI",
+      "source_title": "Typewriter Animation in CSS",
+      "channel": "Clueless Expert",
+      "detail_path": "animation/dynamic_pure_css_typewriter_effect_12449511/skill.json"
+    },
+    {
+      "skill_id": "javascript_typewriter_effect_d9056928",
+      "skill_name": "JavaScript Typewriter Effect",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=MiTJnYHX3iA",
+      "source_title": "How to Easily Create a Text Typewriter Effect with JavaScript",
+      "channel": "dcode",
+      "detail_path": "animation/javascript_typewriter_effect_d9056928/skill.json"
+    },
+    {
+      "skill_id": "auto_typing_hero_text_6062442b",
+      "skill_name": "Auto-Typing Hero Text",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=IbGSsy17Ass",
+      "source_title": "How to Make An Auto Typing Text Effect Using Html Css & Javascript",
+      "channel": "Html Camp",
+      "detail_path": "animation/auto_typing_hero_text_6062442b/skill.json"
+    },
+    {
+      "skill_id": "dynamic_auto_typing_text_cycler_8710004d",
+      "skill_name": "Dynamic Auto-Typing Text Cycler",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=XlKqssfQJrU",
+      "source_title": "Build a Dynamic Auto Typing Effect with HTML CSS and JavaScript",
+      "channel": "Code With Sahand",
+      "detail_path": "animation/dynamic_auto_typing_text_cycler_8710004d/skill.json"
+    },
+    {
+      "skill_id": "interactive_flexbox_layout_engine_03974064",
+      "skill_name": "Interactive Flexbox Layout Engine",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=phWxA89Dy94",
+      "source_title": "Learn Flexbox CSS in 8 minutes",
+      "channel": "Slaying The Dragon",
+      "detail_path": "form_ui/interactive_flexbox_layout_engine_03974064/skill.json"
+    },
+    {
+      "skill_id": "robust_3_card_comparison_layout_flexbox__678c2db4",
+      "skill_name": "Robust 3-Card Comparison Layout (Flexbox vs. Grid)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=aEj6k-gi9-s",
+      "source_title": "CSS Flexbox vs Grid - Are you using them right?",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/robust_3_card_comparison_layout_flexbox__678c2db4/skill.json"
+    },
+    {
+      "skill_id": "responsive_flexbox_card_showcase_970ebe0c",
+      "skill_name": "Responsive Flexbox Card Showcase",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=wsTv9y931o8",
+      "source_title": "Learn CSS Flexbox in 20 Minutes (Course)",
+      "channel": "Coding2GO",
+      "detail_path": "form_ui/responsive_flexbox_card_showcase_970ebe0c/skill.json"
+    },
+    {
+      "skill_id": "intentional_1d_vs_2d_layouts_grid_auto_f_3ba2fa06",
+      "skill_name": "Intentional 1D vs 2D Layouts (Grid Auto-Flow vs Flex Wrap)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=vO-1eseQ-kc",
+      "source_title": "Stop the Flexbox for 1D, Grid for 2D layout nonsense",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/intentional_1d_vs_2d_layouts_grid_auto_f_3ba2fa06/skill.json"
+    },
+    {
+      "skill_id": "pure_css_translucent_3d_cube_8052009c",
+      "skill_name": "Pure CSS Translucent 3D Cube",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=niwUUtgn4-o",
+      "source_title": "Master CSS transforms and perspective - Explained Visually",
+      "channel": "CraftingON",
+      "detail_path": "animation/pure_css_translucent_3d_cube_8052009c/skill.json"
+    },
+    {
+      "skill_id": "interactive_flexbox_layout_playground_56cbe6d8",
+      "skill_name": "Interactive Flexbox Layout Playground",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=GteJWhCikCk",
+      "source_title": "Learn CSS flexbox in 10 minutes! 💪",
+      "channel": "Bro Code",
+      "detail_path": "typography/interactive_flexbox_layout_playground_56cbe6d8/skill.json"
+    },
+    {
+      "skill_id": "interactive_css_3d_transform_showcase_ga_a340dfd4",
+      "skill_name": "Interactive CSS 3D Transform Showcase Gallery",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=DrWjRwC1kYw",
+      "source_title": "Mastering CSS 3D Transforms || Episode - 32",
+      "channel": "CodeHelp - by Babbar",
+      "detail_path": "card_layout/interactive_css_3d_transform_showcase_ga_a340dfd4/skill.json"
+    },
+    {
+      "skill_id": "3d_interactive_hover_card_css_3d_transfo_8cb382bb",
+      "skill_name": "3D Interactive Hover Card (CSS 3D Transforms)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=x5AxFRpZ4Zg",
+      "source_title": "36.css 3d transform | css 3d transform in english | css 3d transform tutorial | css 3d transform",
+      "channel": "TechsPossible",
+      "detail_path": "form_ui/3d_interactive_hover_card_css_3d_transfo_8cb382bb/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_css_transform_explorer_9472065d",
+      "skill_name": "Interactive 3D CSS Transform Explorer",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=tLNMbiJqWR0",
+      "source_title": "3d transform in css | rotateX | rotateY | rotateZ | 3d in css | transform | Yuvraj Academy | part #7",
+      "channel": "Yuvraj Academy",
+      "detail_path": "form_ui/interactive_3d_css_transform_explorer_9472065d/skill.json"
+    },
+    {
+      "skill_id": "masterful_css_gradients_animated_conic_t_cca3a05e",
+      "skill_name": "Masterful CSS Gradients (Animated, Conic, Text, and Borders)",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=cWgb42tUYPA",
+      "source_title": "Modern CSS Gradients Tutorial — From Basics to Advanced Design Effects",
+      "channel": "CSSnippets",
+      "detail_path": "typography/masterful_css_gradients_animated_conic_t_cca3a05e/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_parallax_flip_card_218cf086",
+      "skill_name": "Interactive 3D Parallax Flip Card",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=Y9LGaoz5IEY",
+      "source_title": "CSS 3D transform in 20 minutes!",
+      "channel": "ProgBytes",
+      "detail_path": "form_ui/interactive_3d_parallax_flip_card_218cf086/skill.json"
+    },
+    {
+      "skill_id": "animated_glowing_gradient_blob_e2151ecf",
+      "skill_name": "Animated Glowing Gradient Blob",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=DuQwzF6NPp8",
+      "source_title": "Animated Gradient Background with Pure CSS",
+      "channel": "Hemant Dutta",
+      "detail_path": "animation/animated_glowing_gradient_blob_e2151ecf/skill.json"
+    },
+    {
+      "skill_id": "animated_fluid_radial_background_ef2d2343",
+      "skill_name": "Animated Fluid Radial Background",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=5KFd9OzmX78",
+      "source_title": "Code an animated gradient background with CSS",
+      "channel": "Leanne R",
+      "detail_path": "animation/animated_fluid_radial_background_ef2d2343/skill.json"
+    },
+    {
+      "skill_id": "continuous_animated_gradient_background_56fc117c",
+      "skill_name": "Continuous Animated Gradient Background",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=LqRfQVcn3FY",
+      "source_title": "Animated Gradient Background with Pure CSS | HTML & CSS Tutorials",
+      "channel": "Tahmid Ahmed",
+      "detail_path": "animation/continuous_animated_gradient_background_56fc117c/skill.json"
+    },
+    {
+      "skill_id": "animated_gradient_background_63d42040",
+      "skill_name": "Animated Gradient Background",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=qM3tkLhk-kk",
+      "source_title": "Animated Gradient Background | Only CSS and HTML5 | Web Tutorials",
+      "channel": "Web Tutorials",
+      "detail_path": "animation/animated_gradient_background_63d42040/skill.json"
+    },
+    {
+      "skill_id": "pure_css_animated_character_art_honey_be_97a2b828",
+      "skill_name": "Pure CSS Animated Character Art (Honey Bee)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=H0PlOdN4Vm0",
+      "source_title": "Honey Bee CSS Art |  Pure CSS Tricks",
+      "channel": "Divinector",
+      "detail_path": "animation/pure_css_animated_character_art_honey_be_97a2b828/skill.json"
+    },
+    {
+      "skill_id": "pure_css_character_art_mascot_0b80dc95",
+      "skill_name": "Pure CSS Character Art Mascot",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=vDEJ7j5jb2U",
+      "source_title": "Drawing a Mushroom Buddy with Pure CSS — Sunday CSS #16",
+      "channel": "Julia Miocene",
+      "detail_path": "animation/pure_css_character_art_mascot_0b80dc95/skill.json"
+    },
+    {
+      "skill_id": "faux_3d_isometric_hardware_ui_8f9317fb",
+      "skill_name": "Faux-3D Isometric Hardware UI",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=sI9p5EswxdQ",
+      "source_title": "These 20 Art Pieces Are Done PURELY In CSS",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/faux_3d_isometric_hardware_ui_8f9317fb/skill.json"
+    },
+    {
+      "skill_id": "pure_css_character_illustration_animatio_cb3a6b13",
+      "skill_name": "Pure CSS Character Illustration & Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=X_0uGgMcoLc",
+      "source_title": "Pure css art.",
+      "channel": "Coding Infinite",
+      "detail_path": "animation/pure_css_character_illustration_animatio_cb3a6b13/skill.json"
+    },
+    {
+      "skill_id": "pure_css_animated_character_art_cat_face_ec71fe50",
+      "skill_name": "Pure CSS Animated Character Art (Cat Face)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=OVaTmTG24y0",
+      "source_title": "Cat Face CSS Art | Pure CSS Tricks",
+      "channel": "Divinector",
+      "detail_path": "form_ui/pure_css_animated_character_art_cat_face_ec71fe50/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_card_overlay_6369cf59",
+      "skill_name": "Glassmorphism Card Overlay",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=n77yqF5fdBE",
+      "source_title": "Create a glass effect in CSS (Glassmorphism)",
+      "channel": "Coding2GO",
+      "detail_path": "animation/glassmorphism_card_overlay_6369cf59/skill.json"
+    },
+    {
+      "skill_id": "advanced_glassmorphism_with_lighting_tex_a3a49103",
+      "skill_name": "Advanced Glassmorphism with Lighting & Textures",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=bnC-kuL_CYw",
+      "source_title": "3 Level Glassmorphism Design In CSS | CSS Tutorial",
+      "channel": "Lun Dev",
+      "detail_path": "form_ui/advanced_glassmorphism_with_lighting_tex_a3a49103/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_navigation_bar_b44dcf2a",
+      "skill_name": "Glassmorphism Navigation Bar",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=MsioY73mvBI",
+      "source_title": "Create a Glass Morphism Navbar🔮 | Step-by-Step UI Design Tutorial (HTML/CSS) | mzcode01 #coding #css",
+      "channel": "MzCode",
+      "detail_path": "navigation/glassmorphism_navigation_bar_b44dcf2a/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_masked_gradient_border_car_cebe9470",
+      "skill_name": "Glassmorphism Masked Gradient Border Card",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=dsZ7RN9ItR4",
+      "source_title": "Create this trendy blurry glass effect with CSS",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/glassmorphism_masked_gradient_border_car_cebe9470/skill.json"
+    },
+    {
+      "skill_id": "liquid_glass_displacement_effect_cc292275",
+      "skill_name": "Liquid Glass Displacement Effect",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Cv8zFvM8fEk",
+      "source_title": "I Built Apple’s Liquid Glass but ONLY with CSS...",
+      "channel": "Better Stack",
+      "detail_path": "card_layout/liquid_glass_displacement_effect_cc292275/skill.json"
+    },
+    {
+      "skill_id": "css_only_target_popup_a52afb9b",
+      "skill_name": "CSS-Only Target Popup",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=czNhJc79LZM",
+      "source_title": "CSS ONLY Modals Tutorial - CSS Popups",
+      "channel": "Tyler Potts",
+      "detail_path": "form_ui/css_only_target_popup_a52afb9b/skill.json"
+    },
+    {
+      "skill_id": "native_html_dialog_modal_with_styled_bac_818b9d38",
+      "skill_name": "Native HTML Dialog Modal with Styled Backdrop",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=TAB_v6yBXIE",
+      "source_title": "dialog = the easiest way to make a popup modal",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/native_html_dialog_modal_with_styled_bac_818b9d38/skill.json"
+    },
+    {
+      "skill_id": "smooth_fade_in_css_modal_overlay_9f3c21c8",
+      "skill_name": "Smooth Fade-in CSS Modal Overlay",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=XH5OW46yO8I",
+      "source_title": "Create a Modal (Popup) with HTML/CSS and JavaScript",
+      "channel": "Florin Pop",
+      "detail_path": "form_ui/smooth_fade_in_css_modal_overlay_9f3c21c8/skill.json"
+    },
+    {
+      "skill_id": "attribute_driven_multi_modal_system_1bff0f95",
+      "skill_name": "Attribute-Driven Multi-Modal System",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=3m5xMCvkLco",
+      "source_title": "The BEST Way to Build a Popup Modal! [HTML,CSS,JS]",
+      "channel": "Marc Hinton",
+      "detail_path": "form_ui/attribute_driven_multi_modal_system_1bff0f95/skill.json"
+    },
+    {
+      "skill_id": "flex_centered_fade_in_modal_dialog_e5079fc5",
+      "skill_name": "Flex-Centered Fade-In Modal Dialog",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=r_PL0K2fGkY",
+      "source_title": "Build a Popup with JavaScript | 1-Minute Tutorial",
+      "channel": "Florin Pop",
+      "detail_path": "form_ui/flex_centered_fade_in_modal_dialog_e5079fc5/skill.json"
+    },
+    {
+      "skill_id": "css_variable_theme_switcher_with_custom__c8653804",
+      "skill_name": "CSS Variable Theme Switcher with Custom Checkbox Toggle",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=D1yg4T37qYo",
+      "source_title": "How To Create Dark Theme Switcher For Website Using  CSS and JS",
+      "channel": "WEB CIFAR",
+      "detail_path": "form_ui/css_variable_theme_switcher_with_custom__c8653804/skill.json"
+    },
+    {
+      "skill_id": "persistent_dark_mode_toggle_with_css_ico_6d9f1d84",
+      "skill_name": "Persistent Dark Mode Toggle with CSS Icon Swapping",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=_gKEUYarehE",
+      "source_title": "Create a Dark Mode Switch with HTML, CSS, JavaScript",
+      "channel": "Coding2GO",
+      "detail_path": "form_ui/persistent_dark_mode_toggle_with_css_ico_6d9f1d84/skill.json"
+    },
+    {
+      "skill_id": "dynamic_theme_toggle_landing_page_d8a92671",
+      "skill_name": "Dynamic Theme Toggle Landing Page",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=Wtz2IfY9Sik",
+      "source_title": "Landing Page Design With Dark Theme Using HTML & CSS",
+      "channel": "Coding Master",
+      "detail_path": "form_ui/dynamic_theme_toggle_landing_page_d8a92671/skill.json"
+    },
+    {
+      "skill_id": "developer_centric_dark_mode_hero_feature_203cdbf9",
+      "skill_name": "Developer-Centric Dark Mode Hero & Feature Grid",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=P1op8bTF8ss",
+      "source_title": "Dark theme landing page using Tailwind CSS",
+      "channel": "Tailwind collections",
+      "detail_path": "typography/developer_centric_dark_mode_hero_feature_203cdbf9/skill.json"
+    },
+    {
+      "skill_id": "themeable_portfolio_hero_with_morphing_b_e409644d",
+      "skill_name": "Themeable Portfolio Hero with Morphing Blob",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=KNR___XhbBA",
+      "source_title": "How To Make Website With Dark Theme Using HTML, CSS & JavaScript",
+      "channel": "Coding Master",
+      "detail_path": "form_ui/themeable_portfolio_hero_with_morphing_b_e409644d/skill.json"
+    },
+    {
+      "skill_id": "pure_css_animated_number_counters_4841491c",
+      "skill_name": "Pure CSS Animated Number Counters",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=--O0dMBx0b0",
+      "source_title": "EASY Animated Counting Number CSS-Only Tutorial",
+      "channel": "Theo Soti",
+      "detail_path": "animation/pure_css_animated_number_counters_4841491c/skill.json"
+    },
+    {
+      "skill_id": "animated_number_counter_cards_1cb7cc44",
+      "skill_name": "Animated Number Counter Cards",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=FaMW-CtExrs",
+      "source_title": "Responsive Number Counting Animation | HTML, CSS & Javascript",
+      "channel": "Coding Artist",
+      "detail_path": "card_layout/animated_number_counter_cards_1cb7cc44/skill.json"
+    },
+    {
+      "skill_id": "scroll_activated_statistics_grid_9afa9d08",
+      "skill_name": "Scroll-Activated Statistics Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Sv54eYCfDZc",
+      "source_title": "Scroll Activated Number Counter w Javascript | Quick Tutorial",
+      "channel": "QCT",
+      "detail_path": "card_layout/scroll_activated_statistics_grid_9afa9d08/skill.json"
+    },
+    {
+      "skill_id": "pure_css_odometer_mechanical_counter_8c85005b",
+      "skill_name": "Pure CSS Odometer / Mechanical Counter",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=rhZgquCAcGc",
+      "source_title": "Pure CSS Number Counter | CSS Countdown animation | No JavaScript",
+      "channel": "Divinector",
+      "detail_path": "animation/pure_css_odometer_mechanical_counter_8c85005b/skill.json"
+    },
+    {
+      "skill_id": "3d_mechanical_flip_clock_ede6fccf",
+      "skill_name": "3D Mechanical Flip Clock",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=e696h2j9Qiw",
+      "source_title": "Pure CSS Number Counter - CSS Number Countdown Animation Effects No Javascript - Coming Soon",
+      "channel": "Online Tutorials",
+      "detail_path": "animation/3d_mechanical_flip_clock_ede6fccf/skill.json"
+    },
+    {
+      "skill_id": "interactive_lottie_animation_integration_90f66d29",
+      "skill_name": "Interactive Lottie Animation Integration",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=L08gUpqwLSE",
+      "source_title": "1# Integrate Lottie on the Web | Introduction to Lottie Animations for Developers",
+      "channel": "LottieFiles",
+      "detail_path": "animation/interactive_lottie_animation_integration_90f66d29/skill.json"
+    },
+    {
+      "skill_id": "kinetic_typography_with_bouncing_embedde_f8072937",
+      "skill_name": "Kinetic Typography with Bouncing Embedded Shapes",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=NOvcy64apD4",
+      "source_title": "Easy animations for your website (LottieFiles Crash Course)",
+      "channel": "Flux Academy",
+      "detail_path": "animation/kinetic_typography_with_bouncing_embedde_f8072937/skill.json"
+    },
+    {
+      "skill_id": "neo_brutalist_lottie_feature_card_2a3d257d",
+      "skill_name": "Neo-Brutalist Lottie Feature Card",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=4eNr5SIF_1g",
+      "source_title": "Adding Motion to Your Designs with LottieFiles",
+      "channel": "Jesse Showalter",
+      "detail_path": "animation/neo_brutalist_lottie_feature_card_2a3d257d/skill.json"
+    },
+    {
+      "skill_id": "neon_pulse_button_85d88ba3",
+      "skill_name": "Neon Pulse Button",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=6cDeo4fJT3E",
+      "source_title": "Animation in Figma tutorial: Create interactive animated buttons",
+      "channel": "LottieFiles",
+      "detail_path": "form_ui/neon_pulse_button_85d88ba3/skill.json"
+    },
+    {
+      "skill_id": "neon_orbital_ecosystem_c550978a",
+      "skill_name": "Neon Orbital Ecosystem",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=A_sjNPSA4kg",
+      "source_title": "What is Lottie?",
+      "channel": "LottieFiles",
+      "detail_path": "animation/neon_orbital_ecosystem_c550978a/skill.json"
+    },
+    {
+      "skill_id": "modern_css_scroll_driven_parallax_stack_cec310d3",
+      "skill_name": "Modern CSS Scroll-Driven Parallax Stack",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=Qj0Qx8HpNUo",
+      "source_title": "True parallax with CSS-only is now possible",
+      "channel": "Kevin Powell",
+      "detail_path": "animation/modern_css_scroll_driven_parallax_stack_cec310d3/skill.json"
+    },
+    {
+      "skill_id": "pure_css_parallax_scrolling_742cbb7c",
+      "skill_name": "Pure CSS Parallax Scrolling",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=HaHvFPmZ9ok",
+      "source_title": "How to Create a Simple Parallax Scrolling Effect using CSS | CSS parallax scroll",
+      "channel": "NeduZone",
+      "detail_path": "animation/pure_css_parallax_scrolling_742cbb7c/skill.json"
+    },
+    {
+      "skill_id": "multi_layered_parallax_hero_95a95c32",
+      "skill_name": "Multi-Layered Parallax Hero",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=TawH-AqHTXc",
+      "source_title": "Simple Parallax Scrolling Effect with CSS & Vanilla Javascript",
+      "channel": "Online Tutorials",
+      "detail_path": "animation/multi_layered_parallax_hero_95a95c32/skill.json"
+    },
+    {
+      "skill_id": "pure_css_3d_perspective_parallax_e800f3d3",
+      "skill_name": "Pure CSS 3D Perspective Parallax",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=Jt2yNZdOHxQ",
+      "source_title": "Easiest Pure CSS Parallax Effect Tutorial",
+      "channel": "Red Stapler",
+      "detail_path": "animation/pure_css_3d_perspective_parallax_e800f3d3/skill.json"
+    },
+    {
+      "skill_id": "cinematic_scroll_driven_parallax_engine_8496d406",
+      "skill_name": "Cinematic Scroll-Driven Parallax Engine",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=UgIwjLg4ONk",
+      "source_title": "The Parallax Effect // 5 Minute WebDev Project",
+      "channel": "Fireship",
+      "detail_path": "animation/cinematic_scroll_driven_parallax_engine_8496d406/skill.json"
+    },
+    {
+      "skill_id": "fluid_aurora_background_css_shape_morphi_769cbc5a",
+      "skill_name": "Fluid Aurora Background (CSS Shape Morphing)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=vkn7_04oZ0o",
+      "source_title": "Background Animation | Moving, Rotating & Morphing Shape | HTML CSS #blob",
+      "channel": "Ecem Gokdogan",
+      "detail_path": "animation/fluid_aurora_background_css_shape_morphi_769cbc5a/skill.json"
+    },
+    {
+      "skill_id": "modern_css_shape_masking_clip_path_galle_5ceef90b",
+      "skill_name": "Modern CSS Shape Masking (Clip-Path Gallery)",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=oWXm5n-Zi38",
+      "source_title": "Master CSS Clip-Path: Create Custom Shapes with One Line of Code!",
+      "channel": "CSSnippets",
+      "detail_path": "css_art/modern_css_shape_masking_clip_path_galle_5ceef90b/skill.json"
+    },
+    {
+      "skill_id": "3d_morphing_css_matrix_gallery_cube_to_r_999ec5f9",
+      "skill_name": "3D Morphing CSS Matrix Gallery (Cube-to-Ring)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=XwVmwPCr54k",
+      "source_title": "CSS web animation (The Morphing Cube)",
+      "channel": "padraig loughran",
+      "detail_path": "form_ui/3d_morphing_css_matrix_gallery_cube_to_r_999ec5f9/skill.json"
+    },
+    {
+      "skill_id": "elastic_svg_shape_morphing_a9aefded",
+      "skill_name": "Elastic SVG Shape Morphing",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=Uxa9sdaeyKM",
+      "source_title": "MorphSVGPlugin: Advanced control over SVG shape tweens and morphs",
+      "channel": "GSAP Learning",
+      "detail_path": "css_art/elastic_svg_shape_morphing_a9aefded/skill.json"
+    },
+    {
+      "skill_id": "responsive_auto_fit_css_grid_4d89859b",
+      "skill_name": "Responsive Auto-Fit CSS Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=EiNiSFIPIQE",
+      "source_title": "Learn CSS Grid - A 13 Minute Deep Dive",
+      "channel": "Slaying The Dragon",
+      "detail_path": "card_layout/responsive_auto_fit_css_grid_4d89859b/skill.json"
+    },
+    {
+      "skill_id": "responsive_asymmetric_bento_grid_b5070d72",
+      "skill_name": "Responsive Asymmetric Bento Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=JYfiaSKeYhE",
+      "source_title": "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/responsive_asymmetric_bento_grid_b5070d72/skill.json"
+    },
+    {
+      "skill_id": "auto_responsive_css_grid_media_query_fre_8feb2f10",
+      "skill_name": "Auto-Responsive CSS Grid (Media Query-Free Layout)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=3T0gjtXRNC0",
+      "source_title": "Create Responsive CSS Grid Layouts with GRID WRAPPING",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/auto_responsive_css_grid_media_query_fre_8feb2f10/skill.json"
+    },
+    {
+      "skill_id": "perfectly_aligned_subgrid_card_deck_b4997731",
+      "skill_name": "Perfectly Aligned Subgrid Card Deck",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=APxt2mKOsss",
+      "source_title": "Learn CSS Subgrid for Perfect Alignment",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/perfectly_aligned_subgrid_card_deck_b4997731/skill.json"
+    },
+    {
+      "skill_id": "modern_svg_animation_toolkit_3008d18b",
+      "skill_name": "Modern SVG Animation Toolkit",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=o7DyKBkQLnM",
+      "source_title": "Create Stunning SVG Animations with CSS [Beginner to Pro]",
+      "channel": "CSSnippets",
+      "detail_path": "animation/modern_svg_animation_toolkit_3008d18b/skill.json"
+    },
+    {
+      "skill_id": "auto_responsive_fluid_grid_gallery_dc4cc0a4",
+      "skill_name": "Auto-Responsive Fluid Grid Gallery",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=bj0Z_GncIwY",
+      "source_title": "Breakpoint-Free CSS Grid Layouts",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/auto_responsive_fluid_grid_gallery_dc4cc0a4/skill.json"
+    },
+    {
+      "skill_id": "scrollytelling_reveal_grid_scroll_driven_82291f4a",
+      "skill_name": "Scrollytelling Reveal Grid (Scroll-Driven Animations)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=d8J0vs-bEPE",
+      "source_title": "Create Scroll-Triggered Animations with CSS",
+      "channel": "Chrome for Developers",
+      "detail_path": "animation/scrollytelling_reveal_grid_scroll_driven_82291f4a/skill.json"
+    },
+    {
+      "skill_id": "performant_scroll_reveal_animations_inte_46b663aa",
+      "skill_name": "Performant Scroll-Reveal Animations (Intersection Observer)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=adqwnu3gs2k",
+      "source_title": "Create Amazing SCROLL Animations with Intersection Observer",
+      "channel": "Coding2GO",
+      "detail_path": "animation/performant_scroll_reveal_animations_inte_46b663aa/skill.json"
+    },
+    {
+      "skill_id": "scroll_pinned_morphing_product_showcase_9253450f",
+      "skill_name": "Scroll-Pinned Morphing Product Showcase",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=sND4EO6L4vA",
+      "source_title": "GSAP ScrollTrigger Masterclass: Product Parallax & Pinned Animations (2025)",
+      "channel": "PIXEL PERFECT",
+      "detail_path": "hero_section/scroll_pinned_morphing_product_showcase_9253450f/skill.json"
+    },
+    {
+      "skill_id": "vanilla_js_scroll_triggered_transitions_3b53fab7",
+      "skill_name": "Vanilla JS Scroll-Triggered Transitions",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=T33NN_pPeNI",
+      "source_title": "Subtle, yet Beautiful Scroll Animations",
+      "channel": "Beyond Fireship",
+      "detail_path": "animation/vanilla_js_scroll_triggered_transitions_3b53fab7/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_canvas_image_sequence_3d_t_63a541b6",
+      "skill_name": "Scroll-Driven Canvas Image Sequence & 3D Typography",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=DTTNSjyEtes",
+      "source_title": "ScrollTrigger Hijacked My Video Playback (Now It Plays on Scroll)",
+      "channel": "Codegrid",
+      "detail_path": "canvas_webgl/scroll_driven_canvas_image_sequence_3d_t_63a541b6/skill.json"
+    },
+    {
+      "skill_id": "bento_box_vcard_dashboard_0682fc96",
+      "skill_name": "Bento Box vCard Dashboard",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=75lvh1NmyeA",
+      "source_title": "How to design vCard personal portfolio website using HTML CSS JavaScript",
+      "channel": "Coding Play",
+      "detail_path": "card_layout/bento_box_vcard_dashboard_0682fc96/skill.json"
+    },
+    {
+      "skill_id": "neon_glassmorphism_profile_hero_4e6d8376",
+      "skill_name": "Neon Glassmorphism Profile Hero",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=uTPO6fKtBvM",
+      "source_title": "Build a Responsive Personal Portfolio Website Using HTML & CSS & JavaScript",
+      "channel": "How to Web Dev",
+      "detail_path": "navigation/neon_glassmorphism_profile_hero_4e6d8376/skill.json"
+    },
+    {
+      "skill_id": "minimalist_single_column_portfolio_stack_44dee240",
+      "skill_name": "Minimalist Single-Column Portfolio Stack",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=7vp2Pc_0WLs",
+      "source_title": "Coding my portfolio website from scratch (aesthetic & easy html css tutorial)",
+      "channel": "Nashallery",
+      "detail_path": "typography/minimalist_single_column_portfolio_stack_44dee240/skill.json"
+    },
+    {
+      "skill_id": "minimalist_neobrutalist_grid_with_hover__833ff682",
+      "skill_name": "Minimalist \"Neobrutalist\" Grid with Hover-Invert Cards & Gradient Accents",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=NWZQkwXtHJo",
+      "source_title": "Modern Responsive Portfolio Website with HTML & CSS & JavaScript",
+      "channel": "How to Web Dev",
+      "detail_path": "card_layout/minimalist_neobrutalist_grid_with_hover__833ff682/skill.json"
+    },
+    {
+      "skill_id": "dark_mode_neon_glow_hero_with_glassmorph_afaef063",
+      "skill_name": "Dark Mode Neon Glow Hero with Glassmorphism Header",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=V49fGLgM4WE",
+      "source_title": "Build a Responsive Developer Portfolio Website Using HTML & CSS & JavaScript",
+      "channel": "How to Web Dev",
+      "detail_path": "navigation/dark_mode_neon_glow_hero_with_glassmorph_afaef063/skill.json"
+    },
+    {
+      "skill_id": "fluid_responsive_card_grid_with_clamp_ty_c37960f6",
+      "skill_name": "Fluid Responsive Card Grid with Clamp Typography",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=vQDgoQKfdzM",
+      "source_title": "How to make your website responsive",
+      "channel": "Coder Coder",
+      "detail_path": "card_layout/fluid_responsive_card_grid_with_clamp_ty_c37960f6/skill.json"
+    },
+    {
+      "skill_id": "responsive_bento_dashboard_f5fe0522",
+      "skill_name": "Responsive Bento Dashboard",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=l04dDYW-QaI",
+      "source_title": "The Easy Way to Build Responsive Websites",
+      "channel": "Sajid",
+      "detail_path": "navigation/responsive_bento_dashboard_f5fe0522/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_hero_canvas_three_js_webg_d6ee1be6",
+      "skill_name": "Interactive 3D Hero Canvas (Three.js WebGL)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=f-9LEoYYvE4",
+      "source_title": "WebGL 3D Graphics Explained in 100 Seconds",
+      "channel": "Fireship",
+      "detail_path": "canvas_webgl/interactive_3d_hero_canvas_three_js_webg_d6ee1be6/skill.json"
+    },
+    {
+      "skill_id": "neon_pulse_hero_with_pure_css_typing_ani_4aa22042",
+      "skill_name": "Neon Pulse Hero with Pure CSS Typing Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=UqHILyzcULE",
+      "source_title": "Build a Responsive Personal Portfolio Website Using HTML & CSS & JavaScript",
+      "channel": "How to Web Dev",
+      "detail_path": "animation/neon_pulse_hero_with_pure_css_typing_ani_4aa22042/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_3d_canvas_parallax_5f732c0b",
+      "skill_name": "Scroll-Driven 3D Canvas Parallax",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=Q7AOvWpIVHU",
+      "source_title": "Build a Mindblowing 3D Portfolio Website // Three.js Beginner’s Tutorial",
+      "channel": "Fireship",
+      "detail_path": "canvas_webgl/scroll_driven_3d_canvas_parallax_5f732c0b/skill.json"
+    },
+    {
+      "skill_id": "native_webgl2_primitive_rendering_the_gr_8b6006b4",
+      "skill_name": "Native WebGL2 Primitive Rendering (The Graphics Pipeline)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=y2UsQB3WSvo",
+      "source_title": "[01] WebGL Tutorial - Hello, Triangle!",
+      "channel": "Indigo Code",
+      "detail_path": "canvas_webgl/native_webgl2_primitive_rendering_the_gr_8b6006b4/skill.json"
+    },
+    {
+      "skill_id": "raw_webgl_rgb_triangle_rendering_a5c94b60",
+      "skill_name": "Raw WebGL RGB Triangle Rendering",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=kB0ZVUrI4Aw",
+      "source_title": "WebGL Tutorial 01 - Setup and Triangle",
+      "channel": "Indigo Code",
+      "detail_path": "canvas_webgl/raw_webgl_rgb_triangle_rendering_a5c94b60/skill.json"
+    },
+    {
+      "skill_id": "optimized_dark_mode_ui_components_deebaa20",
+      "skill_name": "Optimized Dark Mode UI Components",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=JNhG2T6dGOY",
+      "source_title": "Dark Mode Website Design | 6 Tips For Better Dark UI Design",
+      "channel": "WPTuts",
+      "detail_path": "form_ui/optimized_dark_mode_ui_components_deebaa20/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_artifact_showcase_studio__531c43b9",
+      "skill_name": "Interactive 3D Artifact Showcase (Studio Lighting)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=aOQuuotM-Ww",
+      "source_title": "Add an Interactive 3D Model to Your Website // Three.js Tutorial for Beginners",
+      "channel": "Dan Greenheck",
+      "detail_path": "canvas_webgl/interactive_3d_artifact_showcase_studio__531c43b9/skill.json"
+    },
+    {
+      "skill_id": "robust_theme_switcher_with_native_ui_syn_a4d61602",
+      "skill_name": "Robust Theme Switcher with Native UI Syncing",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=zFFuV_vXNhY",
+      "source_title": "A simple mistake that can screw up your light/dark theme (and how to fix it)",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/robust_theme_switcher_with_native_ui_syn_a4d61602/skill.json"
+    },
+    {
+      "skill_id": "modern_minimalist_dark_mode_card_87ca4d07",
+      "skill_name": "Modern Minimalist Dark Mode Card",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=6U9iC-c15AI",
+      "source_title": "Rise of the Dark Mode",
+      "channel": "Juxtopposed",
+      "detail_path": "card_layout/modern_minimalist_dark_mode_card_87ca4d07/skill.json"
+    },
+    {
+      "skill_id": "persistent_css_variable_theme_architectu_72d198e8",
+      "skill_name": "Persistent CSS Variable Theme Architecture (Dark/Light Mode)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=rKqHbLuKaO8",
+      "source_title": "How To Make Website DARK MODE | Dark Theme Website Design Using HTML, CSS & JS",
+      "channel": "How to Become a Developer",
+      "detail_path": "form_ui/persistent_css_variable_theme_architectu_72d198e8/skill.json"
+    },
+    {
+      "skill_id": "3d_neon_sequential_flip_loader_882b4c01",
+      "skill_name": "3D Neon Sequential Flip Loader",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=z2LQYsZhsFw",
+      "source_title": "Learn CSS Animations in 9 Minutes",
+      "channel": "Coding2GO",
+      "detail_path": "form_ui/3d_neon_sequential_flip_loader_882b4c01/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_reveal_animations_view_tim_b7d25858",
+      "skill_name": "Scroll-Driven Reveal Animations (View Timeline)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=Bhj4miRkSOc",
+      "source_title": "Master CSS Animation Property in 11 Minutes [Full Tutorial] 🚀",
+      "channel": "CSSnippets",
+      "detail_path": "animation/scroll_driven_reveal_animations_view_tim_b7d25858/skill.json"
+    },
+    {
+      "skill_id": "dynamic_landing_page_interactions_keyfra_129a97f6",
+      "skill_name": "Dynamic Landing Page Interactions (Keyframe Reveals, Block Hovers, & Scroll Intersections)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=_OEUbgLTWH0",
+      "source_title": "Every CSS Animation property",
+      "channel": "chunkydotdev",
+      "detail_path": "form_ui/dynamic_landing_page_interactions_keyfra_129a97f6/skill.json"
+    },
+    {
+      "skill_id": "pure_css_analog_clock_animation_1451694a",
+      "skill_name": "Pure CSS Analog Clock Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=zUH4F4k6VuQ",
+      "source_title": "Clock animation || Animation in CSS ||HTML CSS - 2024",
+      "channel": "Hexabirds",
+      "detail_path": "animation/pure_css_analog_clock_animation_1451694a/skill.json"
+    },
+    {
+      "skill_id": "continuous_multi_stage_keyframe_sequence_4f4e6186",
+      "skill_name": "Continuous Multi-Stage Keyframe Sequence",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=oUZSrZx5cVI",
+      "source_title": "Web Development CSS ANIMATIONS Detail Explanation in Telugu ( Lesson - 24 )",
+      "channel": "Coding Bathulu",
+      "detail_path": "animation/continuous_multi_stage_keyframe_sequence_4f4e6186/skill.json"
+    },
+    {
+      "skill_id": "prime_distributed_dom_particle_field_c381c803",
+      "skill_name": "Prime-Distributed DOM Particle Field",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=pfCZ0tU9anM",
+      "source_title": "Particle Background Animation | Vanilla Javascript & CSS",
+      "channel": "Ecem Gokdogan",
+      "detail_path": "canvas_webgl/prime_distributed_dom_particle_field_c381c803/skill.json"
+    },
+    {
+      "skill_id": "interactive_particle_constellation_netwo_a0227a9d",
+      "skill_name": "Interactive Particle Constellation Network",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=d620nV6bp0A",
+      "source_title": "Particles JS Effect with Pure Vanilla JavaScript | Animated Background Tutorial with Examples",
+      "channel": "Franks laboratory",
+      "detail_path": "canvas_webgl/interactive_particle_constellation_netwo_a0227a9d/skill.json"
+    },
+    {
+      "skill_id": "ambient_canvas_particle_system_dff730bd",
+      "skill_name": "Ambient Canvas Particle System",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=hotMX-pqjkQ",
+      "source_title": "HTML Canvas & Vanilla JavaScript Animation Series 1 - Floating Particles Effect",
+      "channel": "Franks laboratory",
+      "detail_path": "canvas_webgl/ambient_canvas_particle_system_dff730bd/skill.json"
+    },
+    {
+      "skill_id": "animated_gradient_text_mask_102faa8a",
+      "skill_name": "Animated Gradient Text Mask",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=QHIrp24xf-0",
+      "source_title": "Create stunning GRADIENT TEXT ANIMATION using only CSS",
+      "channel": "Optimistic Web",
+      "detail_path": "animation/animated_gradient_text_mask_102faa8a/skill.json"
+    },
+    {
+      "skill_id": "interactive_canvas_particle_image_5e98e80b",
+      "skill_name": "Interactive Canvas Particle Image",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=W78MY7_q_6A",
+      "source_title": "Recreating The Hover Effect That Shocked Frontend Devs",
+      "channel": "Conner Ardman",
+      "detail_path": "canvas_webgl/interactive_canvas_particle_image_5e98e80b/skill.json"
+    },
+    {
+      "skill_id": "css_gradient_text_clipping_f68f6aed",
+      "skill_name": "CSS Gradient Text Clipping",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=-6Yb9kpSbDk",
+      "source_title": "How to create a Gradient Text instead of a solid color using CSS",
+      "channel": "Pratham Kumar",
+      "detail_path": "typography/css_gradient_text_clipping_f68f6aed/skill.json"
+    },
+    {
+      "skill_id": "3d_css_procedural_laser_cut_particle_phy_ff70be68",
+      "skill_name": "3D CSS Procedural Laser Cut & Particle Physics",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=9dEIg2xOphE",
+      "source_title": "CSS-only particle animations",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/3d_css_procedural_laser_cut_particle_phy_ff70be68/skill.json"
+    },
+    {
+      "skill_id": "interactive_spotlight_text_gradient_5ec450a5",
+      "skill_name": "Interactive Spotlight Text Gradient",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=DrpDGVqZAEo",
+      "source_title": "Moving Text Gradient Hover Effect | HTML, CSS & JS Tutorial",
+      "channel": "Codecka",
+      "detail_path": "typography/interactive_spotlight_text_gradient_5ec450a5/skill.json"
+    },
+    {
+      "skill_id": "pure_css_gradient_text_fill_1ff0bae7",
+      "skill_name": "Pure CSS Gradient Text Fill",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=HwI-fcCFDz4",
+      "source_title": "Set Gradient Colors for Text using CSS | With Code Example",
+      "channel": "Code Radiance",
+      "detail_path": "typography/pure_css_gradient_text_fill_1ff0bae7/skill.json"
+    },
+    {
+      "skill_id": "gradient_text_stroke_via_background_clip_8782ec72",
+      "skill_name": "Gradient Text Stroke via Background Clipping",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=mPZ64m9QpQY",
+      "source_title": "Create Gradient CSS Text Strokes",
+      "channel": "CSS Weekly",
+      "detail_path": "typography/gradient_text_stroke_via_background_clip_8782ec72/skill.json"
+    },
+    {
+      "skill_id": "fluid_css_hamburger_to_close_animation_8a30ce25",
+      "skill_name": "Fluid CSS Hamburger-to-Close Animation",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=dIyVTjJAkLw",
+      "source_title": "Animated Hamburger Menu Tutorial - CSS Effects",
+      "channel": "codeSTACKr",
+      "detail_path": "navigation/fluid_css_hamburger_to_close_animation_8a30ce25/skill.json"
+    },
+    {
+      "skill_id": "math_driven_css_only_morphing_hamburger__0cd6d0f1",
+      "skill_name": "Math-Driven CSS-Only Morphing Hamburger Menu",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=dAIVbLrAb_U",
+      "source_title": "How To Build An Animated Hamburger Menu With Only CSS",
+      "channel": "Web Dev Simplified",
+      "detail_path": "navigation/math_driven_css_only_morphing_hamburger__0cd6d0f1/skill.json"
+    },
+    {
+      "skill_id": "animated_morphing_hamburger_off_screen_s_e1f3be11",
+      "skill_name": "Animated Morphing Hamburger & Off-Screen Slide Menu",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=aNDqzlAKmZc",
+      "source_title": "Build a Hamburger Menu with HTML, CSS, and JavaScript | Treehouse Tips",
+      "channel": "Treehouse",
+      "detail_path": "navigation/animated_morphing_hamburger_off_screen_s_e1f3be11/skill.json"
+    },
+    {
+      "skill_id": "morphing_6_span_hamburger_icon_2aa2624d",
+      "skill_name": "Morphing 6-Span Hamburger Icon",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=Zp34OKr5x9g",
+      "source_title": "Create an Animated Hamburger Menu Icon using only HTML and CSS",
+      "channel": "Optimistic Web",
+      "detail_path": "navigation/morphing_6_span_hamburger_icon_2aa2624d/skill.json"
+    },
+    {
+      "skill_id": "single_path_morphing_hamburger_menu_082c88d5",
+      "skill_name": "Single-Path Morphing Hamburger Menu",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=R00QiudbD4Y",
+      "source_title": "Basic, Intermediate & Pro animated hamburger icons",
+      "channel": "Kevin Powell",
+      "detail_path": "navigation/single_path_morphing_hamburger_menu_082c88d5/skill.json"
+    },
+    {
+      "skill_id": "cinematic_svg_text_tracing_animation_832dfa9e",
+      "skill_name": "Cinematic SVG Text Tracing Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=lur8SDdUzPI",
+      "source_title": "Crazy Text Animation with CSS and SVG",
+      "channel": "Lun Dev",
+      "detail_path": "animation/cinematic_svg_text_tracing_animation_832dfa9e/skill.json"
+    },
+    {
+      "skill_id": "animated_duotone_svgs_staggered_keyframe_545b3d1f",
+      "skill_name": "Animated Duotone SVGs & Staggered Keyframe Sequences",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=UTHgr6NLeEw",
+      "source_title": "Make Awesome SVG Animations with CSS // 7 Useful Techniques",
+      "channel": "Fireship",
+      "detail_path": "animation/animated_duotone_svgs_staggered_keyframe_545b3d1f/skill.json"
+    },
+    {
+      "skill_id": "declarative_interactive_svg_geometry_fe5d6c70",
+      "skill_name": "Declarative Interactive SVG Geometry",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=emFMHH2Bfvo",
+      "source_title": "SVG Explained in 100 Seconds",
+      "channel": "Fireship",
+      "detail_path": "card_layout/declarative_interactive_svg_geometry_fe5d6c70/skill.json"
+    },
+    {
+      "skill_id": "inline_svg_sub_element_css_animation_3bc6e1e4",
+      "skill_name": "Inline SVG Sub-element CSS Animation",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=gWai7fYp9PY",
+      "source_title": "Learn To Build An SVG Animation With CSS",
+      "channel": "developedbyed",
+      "detail_path": "form_ui/inline_svg_sub_element_css_animation_3bc6e1e4/skill.json"
+    },
+    {
+      "skill_id": "state_driven_spa_page_transitions_swup_s_293520f7",
+      "skill_name": "State-Driven SPA Page Transitions (Swup-style)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=eVwH3VL1EsA",
+      "source_title": "Build Amazing Page Transitions In Only 12 Minutes",
+      "channel": "Web Dev Simplified",
+      "detail_path": "animation/state_driven_spa_page_transitions_swup_s_293520f7/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_driven_reveal_animatio_0e0876d3",
+      "skill_name": "Native CSS Scroll-Driven Reveal Animations",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=0TnO1GzKWPc",
+      "source_title": "Animate On Scroll With Just 3 LINES Of CSS (No Libraries Needed)",
+      "channel": "Snippets Code",
+      "detail_path": "animation/native_css_scroll_driven_reveal_animatio_0e0876d3/skill.json"
+    },
+    {
+      "skill_id": "dynamic_view_transitions_gallery_ebfca3a4",
+      "skill_name": "Dynamic View Transitions Gallery",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=nZtg-xzhy0g",
+      "source_title": "CSS View Transitions Will Change Web Design Forever",
+      "channel": "camelCase",
+      "detail_path": "animation/dynamic_view_transitions_gallery_ebfca3a4/skill.json"
+    },
+    {
+      "skill_id": "neumorphic_soft_ui_shape_extrusion_c4d0288b",
+      "skill_name": "Neumorphic (Soft UI) Shape Extrusion",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=B2MmwsgwTDo",
+      "source_title": "Quick Neumorphism Tool For Soft UI By Adam Giebl | CSS Neumorphism Generator",
+      "channel": "Online Tutorials",
+      "detail_path": "form_ui/neumorphic_soft_ui_shape_extrusion_c4d0288b/skill.json"
+    },
+    {
+      "skill_id": "multi_property_morphing_interface_card_912fe84b",
+      "skill_name": "Multi-Property Morphing Interface Card",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=xdap5e3-DwM",
+      "source_title": "Learn All CSS Transition Property for Smooth Animation",
+      "channel": "CSSnippets",
+      "detail_path": "animation/multi_property_morphing_interface_card_912fe84b/skill.json"
+    },
+    {
+      "skill_id": "neumorphic_soft_ui_button_78260760",
+      "skill_name": "Neumorphic Soft UI Button",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=QP5Wd7VBc_o",
+      "source_title": "Create Modern Neumorphism Button with HTML & CSS",
+      "channel": "Barmajli",
+      "detail_path": "form_ui/neumorphic_soft_ui_button_78260760/skill.json"
+    },
+    {
+      "skill_id": "view_transition_hero_morph_shared_elemen_2914478f",
+      "skill_name": "View Transition Hero Morph (Shared Element Transition)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=lsXqparnx24",
+      "source_title": "Mind-blowing page animations are easy now... View Transitions API first look",
+      "channel": "Beyond Fireship",
+      "detail_path": "card_layout/view_transition_hero_morph_shared_elemen_2914478f/skill.json"
+    },
+    {
+      "skill_id": "neumorphic_soft_ui_interface_a02d8f92",
+      "skill_name": "Neumorphic (Soft UI) Interface",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=-mb00gOdpa4",
+      "source_title": "NEUMORPHISM - DON'T FOLLOW THIS TREND! | TemplateMonster",
+      "channel": "TemplateMonster",
+      "detail_path": "form_ui/neumorphic_soft_ui_interface_a02d8f92/skill.json"
+    },
+    {
+      "skill_id": "neumorphic_soft_ui_icons_d46269e5",
+      "skill_name": "Neumorphic Soft UI Icons",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=LHWG6XXzN94",
+      "source_title": "Neumorphism Icons in CSS",
+      "channel": "Clueless Expert",
+      "detail_path": "typography/neumorphic_soft_ui_icons_d46269e5/skill.json"
+    },
+    {
+      "skill_id": "neumorphic_sequential_pulse_loader_cfa8c556",
+      "skill_name": "Neumorphic Sequential Pulse Loader",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=nHY5zlTccvM",
+      "source_title": "CSS Neumorphism Animation Effects | How to Make CSS Website Animation",
+      "channel": "Online Tutorials",
+      "detail_path": "animation/neumorphic_sequential_pulse_loader_cfa8c556/skill.json"
+    },
+    {
+      "skill_id": "native_css_motion_fundamentals_transitio_1de837a6",
+      "skill_name": "Native CSS Motion Fundamentals (Transitions & Keyframes)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=HZHHBwzmJLk",
+      "source_title": "CSS Animation in 100 Seconds",
+      "channel": "Fireship",
+      "detail_path": "animation/native_css_motion_fundamentals_transitio_1de837a6/skill.json"
+    },
+    {
+      "skill_id": "multi_stage_orbital_keyframe_choreograph_11a3bc6d",
+      "skill_name": "Multi-Stage Orbital Keyframe Choreography",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=9gbFljxZXDE",
+      "source_title": "Master CSS Keyframes Animation in 9 Minutes [Full Tutorial] 🚀",
+      "channel": "CSSnippets",
+      "detail_path": "animation/multi_stage_orbital_keyframe_choreograph_11a3bc6d/skill.json"
+    },
+    {
+      "skill_id": "pure_css_keyframe_animation_toolkit_55db6c4b",
+      "skill_name": "Pure CSS Keyframe Animation Toolkit",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=u_GIT5MJAtc",
+      "source_title": "Learn CSS animations in 15 minutes! 🎬",
+      "channel": "Bro Code",
+      "detail_path": "animation/pure_css_keyframe_animation_toolkit_55db6c4b/skill.json"
+    },
+    {
+      "skill_id": "saas_bento_box_feature_grid_74ac1057",
+      "skill_name": "SaaS Bento Box Feature Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=hPtyEDZtPHA",
+      "source_title": "9 Keys to a Perfect SaaS Website",
+      "channel": "Payton Clark Smith",
+      "detail_path": "card_layout/saas_bento_box_feature_grid_74ac1057/skill.json"
+    },
+    {
+      "skill_id": "conversion_optimized_saas_hero_with_anim_830c8b5e",
+      "skill_name": "Conversion-Optimized SaaS Hero with Animated Demo & Social Proof",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=QYmNMHl156E",
+      "source_title": "9 AMAZING SaaS Websites You Can Copy",
+      "channel": "Payton Clark Smith",
+      "detail_path": "animation/conversion_optimized_saas_hero_with_anim_830c8b5e/skill.json"
+    },
+    {
+      "skill_id": "high_converting_saas_landing_page_archit_2cba9926",
+      "skill_name": "High-Converting SaaS Landing Page Architecture",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=cJ10BYWNPns",
+      "source_title": "7 CRUCIAL Things Every SaaS Landing Page Should Have (with examples)",
+      "channel": "Rob Walling",
+      "detail_path": "typography/high_converting_saas_landing_page_archit_2cba9926/skill.json"
+    },
+    {
+      "skill_id": "modern_saas_gradient_hero_section_e90cb45d",
+      "skill_name": "Modern SaaS Gradient Hero Section",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=5f4V6Y6WKyE",
+      "source_title": "Figma Tutorial: Clean B2B SaaS Landing Page Design + Free Resources | White Mode Professional UI",
+      "channel": "Salman Designs ",
+      "detail_path": "navigation/modern_saas_gradient_hero_section_e90cb45d/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_snap_carousel_ee63d565",
+      "skill_name": "Native CSS Scroll-Snap Carousel",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=gmI5nvzv170",
+      "source_title": "CSS ONLY Carousel? Learn ::scroll-button() in 9 Minutes",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/native_css_scroll_snap_carousel_ee63d565/skill.json"
+    },
+    {
+      "skill_id": "glassmorphic_before_after_comparison_her_e6cd3d26",
+      "skill_name": "Glassmorphic Before/After Comparison Hero",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=64PEJqIuZA8",
+      "source_title": "I Vibecoded a SaaS Landing Page with Google Gemini Free AI Tools — No Product, Just Validation",
+      "channel": "Andy Lo",
+      "detail_path": "card_layout/glassmorphic_before_after_comparison_her_e6cd3d26/skill.json"
+    },
+    {
+      "skill_id": "infinite_css_marquee_carousel_e78e9c83",
+      "skill_name": "Infinite CSS Marquee Carousel",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=KD1Yo8a_Qis",
+      "source_title": "Build Infinite Carousel Animations in 4 Minutes",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/infinite_css_marquee_carousel_e78e9c83/skill.json"
+    },
+    {
+      "skill_id": "css_only_scroll_snapping_carousel_1934cf70",
+      "skill_name": "CSS-Only Scroll Snapping Carousel",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=McPdzhLRzCg",
+      "source_title": "HTML and CSS Project Tutorial: Pure CSS Image Slider",
+      "channel": "Skillthrive",
+      "detail_path": "navigation/css_only_scroll_snapping_carousel_1934cf70/skill.json"
+    },
+    {
+      "skill_id": "native_feel_css_scroll_snap_carousel_0b7eb1a8",
+      "skill_name": "Native-Feel CSS Scroll-Snap Carousel",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=g03Yldh9Nkw",
+      "source_title": "Learning how CSS-only carousels are going to work",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/native_feel_css_scroll_snap_carousel_0b7eb1a8/skill.json"
+    },
+    {
+      "skill_id": "fading_focussed_hero_carousel_380071be",
+      "skill_name": "Fading Focussed Hero Carousel",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=ku_97a6Bgkg",
+      "source_title": "Carousel Slider Bootstrap 5 | Slider Carousel Tutorial",
+      "channel": "Adrian Twarog",
+      "detail_path": "form_ui/fading_focussed_hero_carousel_380071be/skill.json"
+    },
+    {
+      "skill_id": "viewport_aware_revealer_infinite_scroll_6634e6b4",
+      "skill_name": "Viewport-Aware Revealer & Infinite Scroll",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Jo8ABAJtMM0",
+      "source_title": "Learn Intersection Observer in 10 Minutes",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/viewport_aware_revealer_infinite_scroll_6634e6b4/skill.json"
+    },
+    {
+      "skill_id": "scroll_triggered_reveal_intersection_obs_8de9ab53",
+      "skill_name": "Scroll-Triggered Reveal (Intersection Observer)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=ANkvtCaYjWA",
+      "source_title": "Intersection Observer - Scroll Animation - Quick Tutorial!",
+      "channel": "Frontend Strats",
+      "detail_path": "animation/scroll_triggered_reveal_intersection_obs_8de9ab53/skill.json"
+    },
+    {
+      "skill_id": "scroll_triggered_reveal_infinite_scroll_13c10ba1",
+      "skill_name": "Scroll-Triggered Reveal & Infinite Scroll",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=2IbRtjez6ag",
+      "source_title": "Learn Intersection Observer In 15 Minutes",
+      "channel": "Web Dev Simplified",
+      "detail_path": "card_layout/scroll_triggered_reveal_infinite_scroll_13c10ba1/skill.json"
+    },
+    {
+      "skill_id": "scroll_triggered_contextual_fab_floating_139433f9",
+      "skill_name": "Scroll-Triggered Contextual FAB (Floating Action Button) Morph",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=d7nJKuhBEoY",
+      "source_title": "Using Intersection Observer for Scroll Triggered Animations | @keyframers 3.15.1",
+      "channel": "keyframers",
+      "detail_path": "form_ui/scroll_triggered_contextual_fab_floating_139433f9/skill.json"
+    },
+    {
+      "skill_id": "orbital_staggered_comet_loader_a0e531c6",
+      "skill_name": "Orbital Staggered Comet Loader",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=apdk8YwsVpo",
+      "source_title": "Creative Loading Animation using Html  Css",
+      "channel": "The WebShala",
+      "detail_path": "animation/orbital_staggered_comet_loader_a0e531c6/skill.json"
+    },
+    {
+      "skill_id": "neon_pulse_circular_loader_e82a4784",
+      "skill_name": "Neon Pulse Circular Loader",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=ttWXapXj4cg",
+      "source_title": "Creative CSS Loading Animations Effects | CSS Animation Tutorial for Beginners",
+      "channel": "Online Tutorials",
+      "detail_path": "animation/neon_pulse_circular_loader_e82a4784/skill.json"
+    },
+    {
+      "skill_id": "minimalist_css_preloader_suite_32be91bc",
+      "skill_name": "Minimalist CSS Preloader Suite",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=9Bl8szMyfhU",
+      "source_title": "20 Creative HTML CSS Loading Animation Preloaders Must See",
+      "channel": "wpshopmart",
+      "detail_path": "animation/minimalist_css_preloader_suite_32be91bc/skill.json"
+    },
+    {
+      "skill_id": "orbiting_glow_comets_css_border_tapering_b707c10e",
+      "skill_name": "Orbiting Glow Comets (CSS Border Tapering Loader)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=4guj-kSuOJY",
+      "source_title": "Creative CSS Loading Animation Effects | CSS Animation Tutorial for Beginners",
+      "channel": "ProgrammingTube",
+      "detail_path": "animation/orbiting_glow_comets_css_border_tapering_b707c10e/skill.json"
+    },
+    {
+      "skill_id": "circular_neon_spinner_4e66c0ae",
+      "skill_name": "Circular Neon Spinner",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=rmcQDI9NzmU",
+      "source_title": "css loading animation | creative web designer | CSS and HTML",
+      "channel": "Creative web designer",
+      "detail_path": "animation/circular_neon_spinner_4e66c0ae/skill.json"
+    },
+    {
+      "skill_id": "animated_water_wave_text_clip_path_morph_916b9d05",
+      "skill_name": "Animated Water Wave Text (Clip-Path Morphing)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=Tf6qm5JMUXQ",
+      "source_title": "Pure CSS3 Water Wave Text Animation Effects Using CSS Clip-path",
+      "channel": "Online Tutorials",
+      "detail_path": "animation/animated_water_wave_text_clip_path_morph_916b9d05/skill.json"
+    },
+    {
+      "skill_id": "pure_css_liquid_wave_background_7bd4a56d",
+      "skill_name": "Pure CSS Liquid Wave Background",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=hB9GhqXNIlA",
+      "source_title": "Amazing Wave Background only CSS | CSS Animation",
+      "channel": "Fd Web design",
+      "detail_path": "animation/pure_css_liquid_wave_background_7bd4a56d/skill.json"
+    },
+    {
+      "skill_id": "infinite_layered_wave_banner_9fb3566e",
+      "skill_name": "Infinite Layered Wave Banner",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=MMNEEdGa5eE",
+      "source_title": "CSS Water Wave Background Animation Effects | Wavy Background",
+      "channel": "Online Tutorials",
+      "detail_path": "animation/infinite_layered_wave_banner_9fb3566e/skill.json"
+    },
+    {
+      "skill_id": "unknown_skill_a0c9e620",
+      "skill_name": "Unknown Skill",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=boqvpJrVTzI",
+      "source_title": "Animated Waves Effect on Button Hover Using HTML CSS",
+      "channel": "Snippets Code",
+      "detail_path": "form_ui/unknown_skill_a0c9e620/skill.json"
+    },
+    {
+      "skill_id": "continuous_css_gradient_wave_background_ad49ab76",
+      "skill_name": "Continuous CSS Gradient Wave Background",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=MgGIAVejYho",
+      "source_title": "Creating Ocean Waves with HTML & CSS: A Step-by-Step Animation Tutorial",
+      "channel": "Coding with Edson",
+      "detail_path": "animation/continuous_css_gradient_wave_background_ad49ab76/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_text_reveal_6099f2bf",
+      "skill_name": "Scroll-Driven Text Reveal",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=d10GaL6F-lA",
+      "source_title": "Can I copy this text reveal scroll effect with CSS-only?",
+      "channel": "Kevin Powell",
+      "detail_path": "animation/scroll_driven_text_reveal_6099f2bf/skill.json"
+    },
+    {
+      "skill_id": "cascading_staggered_text_reveal_4ed9440a",
+      "skill_name": "Cascading Staggered Text Reveal",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=va1RrFr-gms",
+      "source_title": "Create an Awesome Text Reveal Animation with GSAP",
+      "channel": "DesignCourse",
+      "detail_path": "typography/cascading_staggered_text_reveal_4ed9440a/skill.json"
+    },
+    {
+      "skill_id": "cinematic_block_reveal_text_animation_79eb8cdb",
+      "skill_name": "Cinematic Block Reveal Text Animation",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=0H9aKFkBcS4",
+      "source_title": "Next.js + GSAP = The Block Reveal Text Animation That Stole the Spotlight",
+      "channel": "Codegrid",
+      "detail_path": "form_ui/cinematic_block_reveal_text_animation_79eb8cdb/skill.json"
+    },
+    {
+      "skill_id": "scanner_bar_text_reveal_2555d24c",
+      "skill_name": "Scanner Bar Text Reveal",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=obrnWwsc1Y8",
+      "source_title": "Animated Text Reveal Tutorial",
+      "channel": "Web Dev Simplified",
+      "detail_path": "animation/scanner_bar_text_reveal_2555d24c/skill.json"
+    },
+    {
+      "skill_id": "responsive_flexbox_navbar_with_hamburger_ac938208",
+      "skill_name": "Responsive Flexbox Navbar with Hamburger Toggle",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=At4B7A4GOPg",
+      "source_title": "Responsive Navbar Tutorial",
+      "channel": "Web Dev Simplified",
+      "detail_path": "navigation/responsive_flexbox_navbar_with_hamburger_ac938208/skill.json"
+    },
+    {
+      "skill_id": "responsive_glassmorphism_sidebar_navigat_f1289c6e",
+      "skill_name": "Responsive Glassmorphism Sidebar Navigation",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=U8smiWQ8Seg",
+      "source_title": "How to create a Responsive Navigation Bar (for beginners)",
+      "channel": "Coding2GO",
+      "detail_path": "navigation/responsive_glassmorphism_sidebar_navigat_f1289c6e/skill.json"
+    },
+    {
+      "skill_id": "flexbox_navbar_layout_patterns_4b1f720f",
+      "skill_name": "Flexbox Navbar Layout Patterns",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=HmaQwuKUYTc",
+      "source_title": "Navbar CSS Tutorial: 5 Ways to Create a Navigation Bar with Flexbox",
+      "channel": "CSSnippets",
+      "detail_path": "navigation/flexbox_navbar_layout_patterns_4b1f720f/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_responsive_side_drawer_nav_e719ff9a",
+      "skill_name": "Glassmorphism Responsive Side-Drawer Navbar",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=HbBMp6yUXO0",
+      "source_title": "Responsive navbar tutorial using HTML CSS & JS",
+      "channel": "Kevin Powell",
+      "detail_path": "navigation/glassmorphism_responsive_side_drawer_nav_e719ff9a/skill.json"
+    },
+    {
+      "skill_id": "expandable_vertical_to_horizontal_respon_ff2c5163",
+      "skill_name": "Expandable Vertical-to-Horizontal Responsive Sidebar",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=biOMz4puGt8",
+      "source_title": "Animated Responsive Navbar with CSS - Plus Other Useful Tricks",
+      "channel": "Fireship",
+      "detail_path": "navigation/expandable_vertical_to_horizontal_respon_ff2c5163/skill.json"
+    },
+    {
+      "skill_id": "modern_interactive_pricing_card_trio_52c5b2f5",
+      "skill_name": "Modern Interactive Pricing Card Trio",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=DLgiNy-XcmU",
+      "source_title": "How to make Responsive Pricing Table Template Using HTML and CSS only | Price List",
+      "channel": "Potential WebCode",
+      "detail_path": "card_layout/modern_interactive_pricing_card_trio_52c5b2f5/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_responsive_pricing_cards_28bd98e1",
+      "skill_name": "Glassmorphism Responsive Pricing Cards",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=RLReK22LWTo",
+      "source_title": "Create Responsive Pricing Table Using HTML & CSS",
+      "channel": "Mr Coder",
+      "detail_path": "card_layout/glassmorphism_responsive_pricing_cards_28bd98e1/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_split_panel_pricing_table_349972e2",
+      "skill_name": "Asymmetric Split-Panel Pricing Table",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Erd6pwB-Mz4",
+      "source_title": "Create a Responsive Pricing table with HTML and CSS",
+      "channel": "Marius is Coding",
+      "detail_path": "card_layout/asymmetric_split_panel_pricing_table_349972e2/skill.json"
+    },
+    {
+      "skill_id": "saas_highlighted_tier_pricing_table_4ae7aa4f",
+      "skill_name": "SaaS Highlighted Tier Pricing Table",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=HL8g113jN5g",
+      "source_title": "How To Create a Responsive Pricing Table Using HTML and CSS",
+      "channel": "Going-To Internet",
+      "detail_path": "form_ui/saas_highlighted_tier_pricing_table_4ae7aa4f/skill.json"
+    },
+    {
+      "skill_id": "native_css_grid_masonry_with_progressive_499394c0",
+      "skill_name": "Native CSS Grid Masonry with Progressive Fallback",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=KrPz_wmBsAE",
+      "source_title": "Masonry layout with CSS only!",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/native_css_grid_masonry_with_progressive_499394c0/skill.json"
+    },
+    {
+      "skill_id": "accent_banded_pricing_cards_1fac5938",
+      "skill_name": "Accent-Banded Pricing Cards",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=WhBp2MplJQA",
+      "source_title": "How To Make A Responsive Pricing Table Desig Using HTML And CSS | Attractive Pricing Table Design",
+      "channel": "Study Web Today",
+      "detail_path": "card_layout/accent_banded_pricing_cards_1fac5938/skill.json"
+    },
+    {
+      "skill_id": "grid_lanes_masonry_gallery_layout_56453df7",
+      "skill_name": "Grid Lanes (Masonry) Gallery Layout",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=yikbSQ6tvlE",
+      "source_title": "display: masonry is offiially DEAD",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/grid_lanes_masonry_gallery_layout_56453df7/skill.json"
+    },
+    {
+      "skill_id": "pure_css_masonry_grid_layout_8c9e46e0",
+      "skill_name": "Pure CSS Masonry Grid Layout",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=-isQPqqnIBo",
+      "source_title": "CSS Tips & Tricks: Creating a Masonry Grid Layout with Pure CSS, No JavaScript Required",
+      "channel": "Web Tech Talk ",
+      "detail_path": "card_layout/pure_css_masonry_grid_layout_8c9e46e0/skill.json"
+    },
+    {
+      "skill_id": "responsive_bento_grid_layout_e344a628",
+      "skill_name": "Responsive Bento Grid Layout",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=v0o1kV-qfVI",
+      "source_title": "Learn GRID-AREA to Build Amazing BENTO GRIDS | CSS Tutorial",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/responsive_bento_grid_layout_e344a628/skill.json"
+    },
+    {
+      "skill_id": "pure_css_responsive_masonry_grid_4e30f722",
+      "skill_name": "Pure CSS Responsive Masonry Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=PwdtxggqPbA",
+      "source_title": "Pure CSS Masonry Grid Design | Quick Tutorial",
+      "channel": "QCT",
+      "detail_path": "card_layout/pure_css_responsive_masonry_grid_4e30f722/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_driven_viewport_animat_1aca29ce",
+      "skill_name": "Native CSS Scroll-Driven Viewport Animations",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=16PncZlSNds",
+      "source_title": "Scroll Animation using only CSS | No JavaScript",
+      "channel": "CSSnippets",
+      "detail_path": "animation/native_css_scroll_driven_viewport_animat_1aca29ce/skill.json"
+    },
+    {
+      "skill_id": "creative_css_link_hover_gallery_7590bccb",
+      "skill_name": "Creative CSS Link Hover Gallery",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=56tlmKy4qVc",
+      "source_title": "Exploring Creative CSS Hover Effects for Inline Links",
+      "channel": "Envato Tuts+",
+      "detail_path": "card_layout/creative_css_link_hover_gallery_7590bccb/skill.json"
+    },
+    {
+      "skill_id": "interactive_agency_showcase_scroll_drive_7b5aec74",
+      "skill_name": "Interactive Agency Showcase (Scroll-Driven Kinematics & Typography Reveal)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=9eHEOAn2FOA",
+      "source_title": "My Top 5 Techniques for Web Animation",
+      "channel": "Olivier Larose",
+      "detail_path": "animation/interactive_agency_showcase_scroll_drive_7b5aec74/skill.json"
+    },
+    {
+      "skill_id": "pseudo_element_gradient_border_b09e6b66",
+      "skill_name": "Pseudo-Element Gradient Border",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=dIUOWdwwZBw",
+      "source_title": "Learn CSS ::before and ::after in 4 Minutes",
+      "channel": "Coding2GO",
+      "detail_path": "form_ui/pseudo_element_gradient_border_b09e6b66/skill.json"
+    },
+    {
+      "skill_id": "animated_gradient_glow_button_780cfe77",
+      "skill_name": "Animated Gradient Glow Button",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=b_8fHNIHFk4",
+      "source_title": "CSS Glowing Button - How to Design Glowing Button with Hover Effects [Pure CSS]",
+      "channel": "Coding Play",
+      "detail_path": "form_ui/animated_gradient_glow_button_780cfe77/skill.json"
+    },
+    {
+      "skill_id": "sliding_text_push_button_09478fa0",
+      "skill_name": "Sliding Text Push Button",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=LqUGiTrhTlI",
+      "source_title": "Creative Button Hover Effects - Pure CSS Tutorial",
+      "channel": "Online Tutorials",
+      "detail_path": "form_ui/sliding_text_push_button_09478fa0/skill.json"
+    },
+    {
+      "skill_id": "sliced_typography_hover_effect_68a7d75a",
+      "skill_name": "Sliced Typography Hover Effect",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=vOlZg1LRFp0",
+      "source_title": "Split Text on Hover - Creative Link Effects on Hover - Css Hover Effects  - Pure CSS Tutorials",
+      "channel": "Online Tutorials",
+      "detail_path": "navigation/sliced_typography_hover_effect_68a7d75a/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_flip_card_d468bbb6",
+      "skill_name": "Interactive 3D Flip Card",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=E8-3HodfPT4",
+      "source_title": "3D Flip Card Effect On Hover Using Only HTML & CSS",
+      "channel": "Виталий Менчуковский",
+      "detail_path": "form_ui/interactive_3d_flip_card_d468bbb6/skill.json"
+    },
+    {
+      "skill_id": "3d_profile_flip_card_on_hover_39743149",
+      "skill_name": "3D Profile Flip Card on Hover",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=bigf5YYH-nk",
+      "source_title": "3D Flip Card Effect On Hover - HTML and CSS only",
+      "channel": "Next Coding",
+      "detail_path": "form_ui/3d_profile_flip_card_on_hover_39743149/skill.json"
+    },
+    {
+      "skill_id": "3d_flip_card_hover_effect_19d42bee",
+      "skill_name": "3D Flip Card Hover Effect",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=QON4dFDzsiE",
+      "source_title": "HTML and CSS Flip Card Effect Tutorial | Interactive Card Animation | Coding Ninja",
+      "channel": "Coding Ninja",
+      "detail_path": "card_layout/3d_flip_card_hover_effect_19d42bee/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_profile_card_flip_8f1f73ff",
+      "skill_name": "Interactive 3D Profile Card Flip",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=zlRAkxkcKcc",
+      "source_title": "3D Flip Card Effect On Hover Using Only HTML CSS | Flip Card Design HTML CSS Tutorial",
+      "channel": "WebMrj Creations",
+      "detail_path": "card_layout/interactive_3d_profile_card_flip_8f1f73ff/skill.json"
+    },
+    {
+      "skill_id": "3d_rolling_cube_reveal_card_3a45e98d",
+      "skill_name": "3D Rolling Cube Reveal Card",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Uq14OW1HZt0",
+      "source_title": "HTML and CSS Card Hover Effects | 3D Flip",
+      "channel": "FRONTEND BEAST",
+      "detail_path": "card_layout/3d_rolling_cube_reveal_card_3a45e98d/skill.json"
+    },
+    {
+      "skill_id": "gsap_staggered_scroll_reveals_38aa0ad5",
+      "skill_name": "GSAP Staggered Scroll Reveals",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=fgPf1zgz_Uo",
+      "source_title": "Advanced Animations in Webflow: GSAP Crash Course",
+      "channel": "Flux Academy",
+      "detail_path": "card_layout/gsap_staggered_scroll_reveals_38aa0ad5/skill.json"
+    },
+    {
+      "skill_id": "orchestrated_gsap_entry_timeline_03f4c983",
+      "skill_name": "Orchestrated GSAP Entry Timeline",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=m6PDUIF24v4",
+      "source_title": "Learn GSAP In 23 Minutes",
+      "channel": "Web Dev Simplified",
+      "detail_path": "navigation/orchestrated_gsap_entry_timeline_03f4c983/skill.json"
+    },
+    {
+      "skill_id": "modular_gsap_timeline_choreography_f48f4b1f",
+      "skill_name": "Modular GSAP Timeline Choreography",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=6r-mUIPO4e0",
+      "source_title": "GSAP Timeline Mastery: Create Professional Animations with Nesting",
+      "channel": "PIXEL PERFECT",
+      "detail_path": "animation/modular_gsap_timeline_choreography_f48f4b1f/skill.json"
+    },
+    {
+      "skill_id": "gsap_style_interactive_showcase_dynamic__17369f20",
+      "skill_name": "GSAP-Style Interactive Showcase & Dynamic Cursor",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=ybLh_8AqUno",
+      "source_title": "Advanced GSAP Animations in Elementor WITHOUT Code!",
+      "channel": "Matt Tutorials",
+      "detail_path": "card_layout/gsap_style_interactive_showcase_dynamic__17369f20/skill.json"
+    },
+    {
+      "skill_id": "pseudo_element_button_hover_animations_981b4250",
+      "skill_name": "Pseudo-Element Button Hover Animations",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=cH0TC9gWiAg",
+      "source_title": "Advanced Button Hover Animations - CSS Only",
+      "channel": "Web Dev Simplified",
+      "detail_path": "form_ui/pseudo_element_button_hover_animations_981b4250/skill.json"
+    },
+    {
+      "skill_id": "animated_conic_glow_border_f16daee8",
+      "skill_name": "Animated Conic Glow Border",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=ezP4kbOvs_E",
+      "source_title": "Learn CSS Border Animations in 6 Minutes",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/animated_conic_glow_border_f16daee8/skill.json"
+    },
+    {
+      "skill_id": "retro_personal_webpage_foundation_092654d0",
+      "skill_name": "Retro Personal Webpage Foundation",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=9z8FP8ear2Y",
+      "source_title": "HTML/CSS For Beginners ",
+      "channel": "Marighoul",
+      "detail_path": "typography/retro_personal_webpage_foundation_092654d0/skill.json"
+    },
+    {
+      "skill_id": "interactive_css_micro_interaction_button_eb3066f2",
+      "skill_name": "Interactive CSS Micro-Interaction Buttons",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=RlkiUib1o_I",
+      "source_title": "Awesome CSS Button Animations - Easy Beginner Friendly Tutorial",
+      "channel": "Tyler Potts",
+      "detail_path": "form_ui/interactive_css_micro_interaction_button_eb3066f2/skill.json"
+    },
+    {
+      "skill_id": "modern_css_token_architecture_utility_bo_03d74c4b",
+      "skill_name": "Modern CSS Token Architecture & Utility Boilerplate",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=h3bTwCqX4ns",
+      "source_title": "Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage",
+      "channel": "Kevin Powell",
+      "detail_path": "typography/modern_css_token_architecture_utility_bo_03d74c4b/skill.json"
+    },
+    {
+      "skill_id": "seamless_svg_wave_section_divider_f47dd876",
+      "skill_name": "Seamless SVG Wave Section Divider",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=K8BigvW7sZU",
+      "source_title": "Responsive Landing Page Tutorial - HTML/CSS",
+      "channel": "Web Dev Simplified",
+      "detail_path": "form_ui/seamless_svg_wave_section_divider_f47dd876/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_bento_grid_gallery_native_htm_59836e72",
+      "skill_name": "Asymmetric Bento Grid Gallery & Native HTML5 Accordion",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=ZPMtug9qExk",
+      "source_title": "Build a Personal Website with HTML & CSS (Beginner Crash Course)",
+      "channel": "Coding2GO",
+      "detail_path": "card_layout/asymmetric_bento_grid_gallery_native_htm_59836e72/skill.json"
+    },
+    {
+      "skill_id": "split_flexbox_hero_with_layered_backgrou_8265ab6f",
+      "skill_name": "Split Flexbox Hero with Layered Background Portrait",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=XDGig-nJUg8",
+      "source_title": "16 | MAKING A HERO SECTION WITH HTML | 2023 | Learn HTML and CSS Full Course for Beginners",
+      "channel": "Dani Krossing",
+      "detail_path": "css_art/split_flexbox_hero_with_layered_backgrou_8265ab6f/skill.json"
+    },
+    {
+      "skill_id": "high_conversion_cinematic_hero_section_cdffb351",
+      "skill_name": "High-Conversion Cinematic Hero Section",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=LJbkLdtEW00",
+      "source_title": "Design The Perfect Hero Section (With Example)",
+      "channel": "Flux Academy",
+      "detail_path": "form_ui/high_conversion_cinematic_hero_section_cdffb351/skill.json"
+    },
+    {
+      "skill_id": "full_screen_immersive_flexbox_hero_9f841079",
+      "skill_name": "Full-Screen Immersive Flexbox Hero",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=b-zYrMTl0zI",
+      "source_title": "Designing a Hero Section with HTML, CSS | Hero Section Website",
+      "channel": "Learn Web",
+      "detail_path": "hero_section/full_screen_immersive_flexbox_hero_9f841079/skill.json"
+    },
+    {
+      "skill_id": "neo_brutalist_editorial_hero_card_aba67f8b",
+      "skill_name": "Neo-Brutalist Editorial Hero Card",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=sFY1_tEXcOs",
+      "source_title": "How to design a creative portfolio | resources, personal branding, tips & tricks",
+      "channel": "edgykatrina",
+      "detail_path": "animation/neo_brutalist_editorial_hero_card_aba67f8b/skill.json"
+    },
+    {
+      "skill_id": "futuristic_tubelight_hero_glow_339575dc",
+      "skill_name": "Futuristic Tubelight Hero Glow",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=WcGrPv5IDz0",
+      "source_title": "How We Design Website Hero Sections in Figma – Tubelight Effect Tutorial",
+      "channel": "Amariq Studio",
+      "detail_path": "hero_section/futuristic_tubelight_hero_glow_339575dc/skill.json"
+    },
+    {
+      "skill_id": "dynamic_floating_product_hero_carousel_66cdcad1",
+      "skill_name": "Dynamic Floating Product Hero Carousel",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=6vPxz52i4k0",
+      "source_title": "How to Create Simple Hero Section | HTML CSS and Javascript",
+      "channel": "Devly Code",
+      "detail_path": "form_ui/dynamic_floating_product_hero_carousel_66cdcad1/skill.json"
+    },
+    {
+      "skill_id": "minimalist_index_with_hover_reveal_media_b1812d29",
+      "skill_name": "Minimalist Index with Hover-Reveal Media",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=7168SXKS0_c",
+      "source_title": "7 Portfolio Websites designers NEED to see",
+      "channel": "Andres The Designer",
+      "detail_path": "form_ui/minimalist_index_with_hover_reveal_media_b1812d29/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_bento_grid_portfolio_b5141c66",
+      "skill_name": "Asymmetric Bento Grid Portfolio",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=gHrS5X4nKbU",
+      "source_title": "Reacting to 21 Design Portfolios in 22 Minutes",
+      "channel": "Flux Academy",
+      "detail_path": "card_layout/asymmetric_bento_grid_portfolio_b5141c66/skill.json"
+    },
+    {
+      "skill_id": "dynamic_perspective_portfolio_mockup_d3ecf61e",
+      "skill_name": "Dynamic Perspective Portfolio Mockup",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=0VGc7jrD9zo",
+      "source_title": "GOOD Vs BAD Design Portfolios (With Examples)",
+      "channel": "Flux Academy",
+      "detail_path": "form_ui/dynamic_perspective_portfolio_mockup_d3ecf61e/skill.json"
+    },
+    {
+      "skill_id": "context_aware_dynamic_cursor_brutalist_t_ae1e21ad",
+      "skill_name": "Context-Aware Dynamic Cursor & Brutalist Typography Hero",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=m3HjNOJ4aLU",
+      "source_title": "5 UX/UI Portfolios You SHOULD Copy",
+      "channel": "Leander Angst",
+      "detail_path": "card_layout/context_aware_dynamic_cursor_brutalist_t_ae1e21ad/skill.json"
+    },
+    {
+      "skill_id": "webgl_fluid_noise_mesh_gradient_c964cf64",
+      "skill_name": "WebGL Fluid Noise Mesh Gradient",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=ceJ82RaW9mM",
+      "source_title": "5 Ways to Make Gradients on the Web",
+      "channel": "Olivier Larose",
+      "detail_path": "canvas_webgl/webgl_fluid_noise_mesh_gradient_c964cf64/skill.json"
+    },
+    {
+      "skill_id": "pure_css_geometric_tessellation_backgrou_93c02c02",
+      "skill_name": "Pure CSS Geometric Tessellation Backgrounds",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=mXrBC_mZfTw",
+      "source_title": "Create amazing patterns using CSS gradients",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/pure_css_geometric_tessellation_backgrou_93c02c02/skill.json"
+    },
+    {
+      "skill_id": "glassmorphism_navigation_with_organic_gr_8b16b79f",
+      "skill_name": "Glassmorphism Navigation with Organic Gradient Mesh",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=waxVyqQZ5iU",
+      "source_title": "Create Stunning Glassmorphism and Gradient Mesh Effects",
+      "channel": "WPTuts",
+      "detail_path": "card_layout/glassmorphism_navigation_with_organic_gr_8b16b79f/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_viewport_reveal_cards_3e749df3",
+      "skill_name": "Scroll-Driven Viewport Reveal Cards",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=JhTMIBLCaNw",
+      "source_title": "CSS: Scroll Driven Animations",
+      "channel": "Syntax",
+      "detail_path": "card_layout/scroll_driven_viewport_reveal_cards_3e749df3/skill.json"
+    },
+    {
+      "skill_id": "css_only_scroll_driven_fade_in_up_reveal_822ca7a7",
+      "skill_name": "CSS-Only Scroll-Driven Fade-In-Up Reveal",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=srwOTsD_dYo",
+      "source_title": "Scroll-based Animations for WordPress (A lightweight, CSS-only solution! No Plugins or JavaScript!)",
+      "channel": "The Admin Bar",
+      "detail_path": "animation/css_only_scroll_driven_fade_in_up_reveal_822ca7a7/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_driven_animations_e5f1fc72",
+      "skill_name": "Native CSS Scroll-Driven Animations",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=aETL8DfADqw",
+      "source_title": "Mind-blowing CSS Scroll Animations | Quick Tutorial",
+      "channel": "QCT",
+      "detail_path": "animation/native_css_scroll_driven_animations_e5f1fc72/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_driven_viewport_animat_567601d0",
+      "skill_name": "Native CSS Scroll-Driven Viewport Animations",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=pFtxR-O78sY",
+      "source_title": "Crazy Scroll Animation Using CSS Only",
+      "channel": "Lun Dev",
+      "detail_path": "animation/native_css_scroll_driven_viewport_animat_567601d0/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_aperture_zoom_parallax_rev_b9d9919b",
+      "skill_name": "Scroll-Driven Aperture Zoom & Parallax Reveal",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=0Ezdaeg7veg",
+      "source_title": "This Hero Scroll Animation Feels Like Looking Through a Window",
+      "channel": "Codegrid",
+      "detail_path": "hero_section/scroll_driven_aperture_zoom_parallax_rev_b9d9919b/skill.json"
+    },
+    {
+      "skill_id": "smooth_parallax_draggable_image_track_ffd5b9d3",
+      "skill_name": "Smooth Parallax Draggable Image Track",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=PkADl0HubMY",
+      "source_title": "Award Winning Animation With Only 20 Lines Of CSS?",
+      "channel": "Hyperplexed",
+      "detail_path": "animation/smooth_parallax_draggable_image_track_ffd5b9d3/skill.json"
+    },
+    {
+      "skill_id": "liquid_scroll_morphogenesis_webgl_maskin_5aa92bfb",
+      "skill_name": "Liquid Scroll Morphogenesis (WebGL Masking)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=s6s3rOoEluI",
+      "source_title": "I Made a Scroll Animation That Slowly Destroys the Hero Section (On Purpose)",
+      "channel": "Codegrid",
+      "detail_path": "canvas_webgl/liquid_scroll_morphogenesis_webgl_maskin_5aa92bfb/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_split_image_3d_card_flip_e209fdfe",
+      "skill_name": "Scroll-Driven Split Image 3D Card Flip",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=_F1t2Ux-znk",
+      "source_title": "This Scroll Animation Turns One Image Into Three Perfectly Flipping Cards (ScrollTrigger)",
+      "channel": "Codegrid",
+      "detail_path": "card_layout/scroll_driven_split_image_3d_card_flip_e209fdfe/skill.json"
+    },
+    {
+      "skill_id": "intrinsic_responsive_layout_system_ec19e4bd",
+      "skill_name": "Intrinsic Responsive Layout System",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=x4u1yp3Msao",
+      "source_title": "A practical guide to responsive web design",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/intrinsic_responsive_layout_system_ec19e4bd/skill.json"
+    },
+    {
+      "skill_id": "responsive_flexbox_navigation_bar_with_m_a75f77ce",
+      "skill_name": "Responsive Flexbox Navigation Bar with Mobile Drawer",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=Ovl3IxTwS18",
+      "source_title": "How to Create a Responsive Navigation Bar for Beginners | Responsive Menu | HTML & CSS Quick Tips",
+      "channel": "Dani Krossing",
+      "detail_path": "navigation/responsive_flexbox_navigation_bar_with_m_a75f77ce/skill.json"
+    },
+    {
+      "skill_id": "responsive_css_grid_mosaic_gallery_f2f64c3d",
+      "skill_name": "Responsive CSS Grid Mosaic Gallery",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=8KMgLzUCmV4",
+      "source_title": "Create a Responsive Masonry Grid with CSS Grid + UI/UX Design",
+      "channel": "DesignCourse",
+      "detail_path": "card_layout/responsive_css_grid_mosaic_gallery_f2f64c3d/skill.json"
+    },
+    {
+      "skill_id": "svg_path_line_drawing_reveal_4a9493c1",
+      "skill_name": "SVG Path Line Drawing Reveal",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=dLmxNzRiHKk",
+      "source_title": "SVG animation: animate an SVG icon with CSS",
+      "channel": "TK",
+      "detail_path": "css_art/svg_path_line_drawing_reveal_4a9493c1/skill.json"
+    },
+    {
+      "skill_id": "comprehensive_modern_responsive_foundati_6078f9a4",
+      "skill_name": "Comprehensive Modern Responsive Foundations",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=2IV08sP9m3U",
+      "source_title": "5 CSS Tips & Tricks for better Responsive Web Design",
+      "channel": "Coding2GO",
+      "detail_path": "navigation/comprehensive_modern_responsive_foundati_6078f9a4/skill.json"
+    },
+    {
+      "skill_id": "high_converting_minimalist_portfolio_gri_2cdf9326",
+      "skill_name": "High-Converting Minimalist Portfolio Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=DZ2bB8tL4O0",
+      "source_title": "🔸 The ONLY Graphic Design Portfolio Video You Need To Watch!",
+      "channel": "Satori Graphics",
+      "detail_path": "card_layout/high_converting_minimalist_portfolio_gri_2cdf9326/skill.json"
+    },
+    {
+      "skill_id": "responsive_flexbox_pricing_cards_9f66c166",
+      "skill_name": "Responsive Flexbox Pricing Cards",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=KURAwK5nhaE",
+      "source_title": "Create a Responsive Pricing Table in HTML and CSS",
+      "channel": "OnlineITtuts Tutorials",
+      "detail_path": "card_layout/responsive_flexbox_pricing_cards_9f66c166/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_layered_flip_card_2f776053",
+      "skill_name": "Interactive 3D Layered Flip Card",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=FeJEEE3zc4U",
+      "source_title": "Create a 3D flipping animation with HTML and CSS",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/interactive_3d_layered_flip_card_2f776053/skill.json"
+    },
+    {
+      "skill_id": "cinematic_masked_text_reveal_cf270921",
+      "skill_name": "Cinematic Masked Text Reveal",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=Syg_9iB1vco",
+      "source_title": "Simple Text Animation Just By Using HTML & CSS",
+      "channel": "DarkCode",
+      "detail_path": "animation/cinematic_masked_text_reveal_cf270921/skill.json"
+    },
+    {
+      "skill_id": "modern_dark_mode_with_ambient_glows_inte_35516e45",
+      "skill_name": "Modern Dark Mode with Ambient Glows & Interactive Spotlight",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=aPif_jedIR8",
+      "source_title": "8 DARK MODE Websites to Copy NOW",
+      "channel": "Payton Clark Smith",
+      "detail_path": "card_layout/modern_dark_mode_with_ambient_glows_inte_35516e45/skill.json"
+    },
+    {
+      "skill_id": "pure_css_infinite_typing_effect_with_mas_14026c85",
+      "skill_name": "Pure CSS Infinite Typing Effect with Mask Block",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=R3UGK1RhY6I",
+      "source_title": "Typing Text Animation Using Only HTML & CSS",
+      "channel": "DarkCode",
+      "detail_path": "animation/pure_css_infinite_typing_effect_with_mas_14026c85/skill.json"
+    },
+    {
+      "skill_id": "dynamic_button_ripple_effect_850e2394",
+      "skill_name": "Dynamic Button Ripple Effect",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=ueyRcYEmsrI",
+      "source_title": "Button Ripple Effect on Click Using CSS3 & Vanilla Javascript",
+      "channel": "Online Tutorials",
+      "detail_path": "form_ui/dynamic_button_ripple_effect_850e2394/skill.json"
+    },
+    {
+      "skill_id": "interactive_saas_hero_with_embedded_prod_5e249e48",
+      "skill_name": "Interactive SaaS Hero with Embedded Product Demo",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=aWyGTP-EQ2c",
+      "source_title": "Watch Me Build a $1M SaaS Landing Page in 10 Minutes",
+      "channel": "Supademo",
+      "detail_path": "form_ui/interactive_saas_hero_with_embedded_prod_5e249e48/skill.json"
+    },
+    {
+      "skill_id": "ai_driven_prompt_hero_section_68589e19",
+      "skill_name": "AI-Driven Prompt Hero Section",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=aLZCG8XMM_s",
+      "source_title": "Best Hero Layout Inspiration of 2026",
+      "channel": "Codex Community",
+      "detail_path": "form_ui/ai_driven_prompt_hero_section_68589e19/skill.json"
+    },
+    {
+      "skill_id": "semantic_css_grid_dashboard_layout_73632f38",
+      "skill_name": "Semantic CSS Grid Dashboard Layout",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=eHaZlFcGl6k",
+      "source_title": "Learn CSS Grid Layouts the Easy Way",
+      "channel": "Learndev",
+      "detail_path": "card_layout/semantic_css_grid_dashboard_layout_73632f38/skill.json"
+    },
+    {
+      "skill_id": "continuous_3d_looping_flip_card_06818024",
+      "skill_name": "Continuous 3D Looping Flip Card",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=YvkmhJjm4pw",
+      "source_title": "3D Flip Card Hover Effect Under 5 Minutes [HTML/CSS/JS]",
+      "channel": "Hemant Dutta",
+      "detail_path": "card_layout/continuous_3d_looping_flip_card_06818024/skill.json"
+    },
+    {
+      "skill_id": "dual_method_parallax_scrolling_js_fracti_545dd559",
+      "skill_name": "Dual-Method Parallax Scrolling (JS Fractional & CSS Fixed)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=llv5kW4sz0U",
+      "source_title": "Parallax Tutorial - Scrolling Effect using CSS and Javascript",
+      "channel": "freeCodeCamp.org",
+      "detail_path": "animation/dual_method_parallax_scrolling_js_fracti_545dd559/skill.json"
+    },
+    {
+      "skill_id": "minimalist_high_contrast_landing_page_70f070e0",
+      "skill_name": "Minimalist High-Contrast Landing Page",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=v9bn2zswx0k",
+      "source_title": "Simple Responsive HTML CSS Landing Page Dark Mode",
+      "channel": "Code Here",
+      "detail_path": "navigation/minimalist_high_contrast_landing_page_70f070e0/skill.json"
+    },
+    {
+      "skill_id": "intersection_observer_scroll_reveal_5576952f",
+      "skill_name": "Intersection Observer Scroll Reveal",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=nDPsLFPzVEA",
+      "source_title": "Effortlessly Create Scroll Animations with the Intersection Observer API",
+      "channel": "Train To Code",
+      "detail_path": "animation/intersection_observer_scroll_reveal_5576952f/skill.json"
+    },
+    {
+      "skill_id": "dynamic_class_based_dark_mode_themed_her_449c085c",
+      "skill_name": "Dynamic Class-Based Dark Mode & Themed Hero Section",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=NY9ojDOjOcw",
+      "source_title": "HTML CSS Hero Section with Tailwind CSS in MINUTES",
+      "channel": "Echoes of Ping",
+      "detail_path": "form_ui/dynamic_class_based_dark_mode_themed_her_449c085c/skill.json"
+    },
+    {
+      "skill_id": "gsap_scroll_scrubbed_pinned_animation_a8eaf3f1",
+      "skill_name": "GSAP Scroll-Scrubbed Pinned Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=I4WLvJLaMFE",
+      "source_title": "The Ultimate Guide to Scroll Animation (GSAP ScrollTrigger Techniques)",
+      "channel": "PIXEL PERFECT",
+      "detail_path": "animation/gsap_scroll_scrubbed_pinned_animation_a8eaf3f1/skill.json"
+    },
+    {
+      "skill_id": "css_gradient_text_reveal_e6c9d129",
+      "skill_name": "CSS Gradient Text Reveal",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=eOPYyOaAbJU",
+      "source_title": "How to add Gradient Color to Text in CSS",
+      "channel": "WebSprint",
+      "detail_path": "typography/css_gradient_text_reveal_e6c9d129/skill.json"
+    },
+    {
+      "skill_id": "pure_css_parallax_scroll_revealing_cards_97633c2e",
+      "skill_name": "Pure CSS Parallax & Scroll-Revealing Cards",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=k_5QFRwfRuQ",
+      "source_title": "Mastering CSS Scroll-driven Animations #10 - (Project) Parallax Cards",
+      "channel": "Taha Shashtari",
+      "detail_path": "card_layout/pure_css_parallax_scroll_revealing_cards_97633c2e/skill.json"
+    },
+    {
+      "skill_id": "morphing_bounce_css_page_loader_6af1625e",
+      "skill_name": "Morphing Bounce CSS Page Loader",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=poaGij1gvqk",
+      "source_title": "Modern CSS Only Page Loading Animation (Web Design Tutorial)",
+      "channel": "dcode",
+      "detail_path": "animation/morphing_bounce_css_page_loader_6af1625e/skill.json"
+    },
+    {
+      "skill_id": "css_radial_dot_loading_spinner_6249a8b7",
+      "skill_name": "CSS Radial Dot Loading Spinner",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=DijlvL2E80s",
+      "source_title": "How to make a Loader in HTML & CSS | Website Loading Animation",
+      "channel": "CodingLab",
+      "detail_path": "animation/css_radial_dot_loading_spinner_6249a8b7/skill.json"
+    },
+    {
+      "skill_id": "generative_network_particle_trails_18545355",
+      "skill_name": "Generative Network Particle Trails",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=58O--2hAg3U",
+      "source_title": "HTML CSS  Particle  Animation |Canvas  Animation |Using CSS & JAVASCRIPT| Tech Incept",
+      "channel": "Tech Incept",
+      "detail_path": "canvas_webgl/generative_network_particle_trails_18545355/skill.json"
+    },
+    {
+      "skill_id": "neon_wave_particle_matrix_f8cf3d1c",
+      "skill_name": "Neon Wave Particle Matrix",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=hweLFqVADbc",
+      "source_title": "Mesmerizing Glowing Particle Waves Animation | HTML CSS JavaScript Canvas",
+      "channel": "Coding Master",
+      "detail_path": "canvas_webgl/neon_wave_particle_matrix_f8cf3d1c/skill.json"
+    },
+    {
+      "skill_id": "interactive_canvas_particle_swarm_9e6b99b9",
+      "skill_name": "Interactive Canvas Particle Swarm",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=Q6ORDkV2lTo",
+      "source_title": "Interactive Moving Particles | Animation On Canvas| Html | Css | Javascript",
+      "channel": "TechCodeCB",
+      "detail_path": "canvas_webgl/interactive_canvas_particle_swarm_9e6b99b9/skill.json"
+    },
+    {
+      "skill_id": "responsive_app_shell_dashboard_with_css__2bed2567",
+      "skill_name": "Responsive App Shell Dashboard with CSS Grid",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=lCYY2t6BRSI",
+      "source_title": "React CSS Grid Responsive Dashboard Tutorial | Build Adaptive Layouts for Any Screen Size",
+      "channel": "GoPlusPlus",
+      "detail_path": "navigation/responsive_app_shell_dashboard_with_css__2bed2567/skill.json"
+    },
+    {
+      "skill_id": "dynamic_dashboard_grid_layout_scaffoldin_354383af",
+      "skill_name": "Dynamic Dashboard Grid & Layout Scaffolding",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=KCBA93TJXKM",
+      "source_title": "Designing Grid Layouts for Dashboards and SaaS Products: The Ultimate Guide!",
+      "channel": "Gloria Leonard ",
+      "detail_path": "card_layout/dynamic_dashboard_grid_layout_scaffoldin_354383af/skill.json"
+    },
+    {
+      "skill_id": "responsive_holy_grail_application_layout_900b3328",
+      "skill_name": "Responsive Holy Grail Application Layout (CSS Grid)",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=S9OiWe5iBYo",
+      "source_title": "How to create RESPONSIVE Layouts with CSS GRID",
+      "channel": "Coding2GO",
+      "detail_path": "navigation/responsive_holy_grail_application_layout_900b3328/skill.json"
+    },
+    {
+      "skill_id": "css_sprite_sheet_animation_with_steps_dd8241e3",
+      "skill_name": "CSS Sprite Sheet Animation with steps()",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=XRO3oGuxKls",
+      "source_title": "Character Moving Animation Tutorial Using CSS & HTML",
+      "channel": "MinimalTech",
+      "detail_path": "animation/css_sprite_sheet_animation_with_steps_dd8241e3/skill.json"
+    },
+    {
+      "skill_id": "pure_css_scalable_illustration_camera_ic_01d27966",
+      "skill_name": "Pure CSS Scalable Illustration (Camera Icon)",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=I2PXNpOndqU",
+      "source_title": "Pure CSS - Camera Icon | Bytes Of Art",
+      "channel": "Bytes of Art",
+      "detail_path": "css_art/pure_css_scalable_illustration_camera_ic_01d27966/skill.json"
+    },
+    {
+      "skill_id": "responsive_asymmetric_bento_layout_18131296",
+      "skill_name": "Responsive Asymmetric Bento Layout",
+      "category": "responsive",
+      "source_video": "https://www.youtube.com/watch?v=lyvbZJ12DmE",
+      "source_title": "Create Responsive Flexbox Layout in 8 Minutes",
+      "channel": "How to Web Dev",
+      "detail_path": "responsive/responsive_asymmetric_bento_layout_18131296/skill.json"
+    },
+    {
+      "skill_id": "mobile_first_app_shell_with_sticky_foote_c58385cc",
+      "skill_name": "Mobile-First App Shell with Sticky Footer & Flex/Grid Architecture",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=1_ljUv6cvVE",
+      "source_title": "HTML & CSS Mobile UI Layout | CVS Clone",
+      "channel": "Traversy Media",
+      "detail_path": "card_layout/mobile_first_app_shell_with_sticky_foote_c58385cc/skill.json"
+    },
+    {
+      "skill_id": "pure_css_isometric_3d_cube_d2be8feb",
+      "skill_name": "Pure CSS Isometric 3D Cube",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=CiPCauTLK9Y",
+      "source_title": "CSS3 Isometric Cube | 3D Isometric Design Html & CSS",
+      "channel": "SoftCode",
+      "detail_path": "form_ui/pure_css_isometric_3d_cube_d2be8feb/skill.json"
+    },
+    {
+      "skill_id": "hollow_isometric_glow_cubes_c1f4cc0c",
+      "skill_name": "Hollow Isometric Glow Cubes",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=W0AnnpHBXcI",
+      "source_title": "Make Isometric 3D Cube using Pure CSS",
+      "channel": "HTML Tamizhan",
+      "detail_path": "form_ui/hollow_isometric_glow_cubes_c1f4cc0c/skill.json"
+    },
+    {
+      "skill_id": "css_3d_isometric_escher_pattern_137d1cd8",
+      "skill_name": "CSS 3D Isometric Escher Pattern",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=cNqgatGqvC8",
+      "source_title": "How to create 3D patterns with CSS transform",
+      "channel": "Hunor Márton Borbély",
+      "detail_path": "form_ui/css_3d_isometric_escher_pattern_137d1cd8/skill.json"
+    },
+    {
+      "skill_id": "full_screen_cinematic_video_hero_1c3af82a",
+      "skill_name": "Full-Screen Cinematic Video Hero",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=-unASUgYtVI",
+      "source_title": "How to Create a Website With Video Background | Html and Css",
+      "channel": "Html Camp",
+      "detail_path": "hero_section/full_screen_cinematic_video_hero_1c3af82a/skill.json"
+    },
+    {
+      "skill_id": "centered_text_overlay_on_image_2a343f62",
+      "skill_name": "Centered Text Overlay on Image",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=9EXmaYmwSng",
+      "source_title": "Webflow: How to Overlay Text on an Image (Hero Section Tutorial)",
+      "channel": "Just Ask Jake",
+      "detail_path": "typography/centered_text_overlay_on_image_2a343f62/skill.json"
+    },
+    {
+      "skill_id": "zero_element_video_overlay_hero_d0927458",
+      "skill_name": "Zero-Element Video Overlay Hero",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=RIDA6elhmBU",
+      "source_title": "How to create a background video | HTML & CSS tutorial",
+      "channel": "Kevin Powell",
+      "detail_path": "hero_section/zero_element_video_overlay_hero_d0927458/skill.json"
+    },
+    {
+      "skill_id": "responsive_split_screen_flex_layout_94ee284d",
+      "skill_name": "Responsive Split-Screen Flex Layout",
+      "category": "responsive",
+      "source_video": "https://www.youtube.com/watch?v=bh3UAetYkUI",
+      "source_title": "Split screen into two sections responsive  in HTML/CSS (5 Mins)",
+      "channel": "Mr Digital",
+      "detail_path": "responsive/responsive_split_screen_flex_layout_94ee284d/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_split_screen_hero_with_animat_c0696edc",
+      "skill_name": "Asymmetric Split-Screen Hero with Animated Marquee",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=BfrR2Gc67WA",
+      "source_title": "Building a Modern Split Screen Hero Section with HTML and CSS in 30 minutes| Web DevelopmentTutorial",
+      "channel": "Express Code",
+      "detail_path": "hero_section/asymmetric_split_screen_hero_with_animat_c0696edc/skill.json"
+    },
+    {
+      "skill_id": "css_grid_bleed_layout_split_hero_416d7ec6",
+      "skill_name": "CSS Grid Bleed Layout (Split Hero)",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=uy0dX-dQvpA",
+      "source_title": "How to Create a Split Hero Layout With a Magic Wand Called \"Content Grid\"",
+      "channel": "Kevin Geary",
+      "detail_path": "hero_section/css_grid_bleed_layout_split_hero_416d7ec6/skill.json"
+    },
+    {
+      "skill_id": "interactive_gooey_fluid_gradient_backgro_7fd5e6f7",
+      "skill_name": "Interactive Gooey Fluid Gradient Background",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=Ml-B-W91gtw",
+      "source_title": "CSS Morphing Gradients Animated Background",
+      "channel": "WeCoded",
+      "detail_path": "form_ui/interactive_gooey_fluid_gradient_backgro_7fd5e6f7/skill.json"
+    },
+    {
+      "skill_id": "animated_gradient_overlay_hero_a50dce34",
+      "skill_name": "Animated Gradient Overlay Hero",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=qxLf-BcsmhU",
+      "source_title": "Gradient Overlay with Background Image | CSS Gradient Animation",
+      "channel": "SoftCode",
+      "detail_path": "hero_section/animated_gradient_overlay_hero_a50dce34/skill.json"
+    },
+    {
+      "skill_id": "animated_text_clipping_mask_34728e76",
+      "skill_name": "Animated Text Clipping Mask",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=_TPUkTB5_HM",
+      "source_title": "Animated Background text clipping effect with Elementor and Css - Avro",
+      "channel": "Avro",
+      "detail_path": "animation/animated_text_clipping_mask_34728e76/skill.json"
+    },
+    {
+      "skill_id": "staggered_slice_page_transition_c48e2a38",
+      "skill_name": "Staggered Slice Page Transition",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=aMucZErEdZg",
+      "source_title": "Creating Sick Page Transitions with Barba.js & GSAP",
+      "channel": "DesignCourse",
+      "detail_path": "animation/staggered_slice_page_transition_c48e2a38/skill.json"
+    },
+    {
+      "skill_id": "cinematic_shutter_page_transition_15f2fe2e",
+      "skill_name": "Cinematic Shutter Page Transition",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=YxJhV0OHREU",
+      "source_title": "The GSAP Page Transition Every Web Designer Needs to Know",
+      "channel": "PIXEL PERFECT",
+      "detail_path": "animation/cinematic_shutter_page_transition_15f2fe2e/skill.json"
+    },
+    {
+      "skill_id": "staggered_curtain_page_transition_06812cc1",
+      "skill_name": "Staggered Curtain Page Transition",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=pLK9aeTakuA",
+      "source_title": "The Only Page Transition Hack You Need for HTML Pages",
+      "channel": "Codegrid",
+      "detail_path": "animation/staggered_curtain_page_transition_06812cc1/skill.json"
+    },
+    {
+      "skill_id": "floating_isometric_svg_cube_b1e219af",
+      "skill_name": "Floating Isometric SVG Cube",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=l5YKdeeeWLw",
+      "source_title": "CSS3 Isometric Cube | 3D Isometric Design Html & CSS | Part-2",
+      "channel": "SoftCode",
+      "detail_path": "css_art/floating_isometric_svg_cube_b1e219af/skill.json"
+    },
+    {
+      "skill_id": "layered_pinning_stacking_cards_on_scroll_369f8042",
+      "skill_name": "Layered Pinning (Stacking Cards) on Scroll",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=X7IBa7vZjmo",
+      "source_title": "Introducing ScrollTrigger for GSAP",
+      "channel": "GSAP Learning",
+      "detail_path": "typography/layered_pinning_stacking_cards_on_scroll_369f8042/skill.json"
+    },
+    {
+      "skill_id": "isometric_device_network_animation_1b9cfa93",
+      "skill_name": "Isometric Device Network Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=HeBZqzShVRQ",
+      "source_title": "Isometric Network SVG Animation | HTML & CSS | From Design To Code",
+      "channel": "Speed Code Projects",
+      "detail_path": "animation/isometric_device_network_animation_1b9cfa93/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_video_scrubber_scrollytell_d0dc17ac",
+      "skill_name": "Scroll-Driven Video Scrubber (Scrollytelling)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=s7n9vRFvmM0",
+      "source_title": "PLAY VIDEO ON SCROLL - GSAP Scrolltrigger Elementor (No plugin)",
+      "channel": "Nicolai Palmkvist",
+      "detail_path": "animation/scroll_driven_video_scrubber_scrollytell_d0dc17ac/skill.json"
+    },
+    {
+      "skill_id": "smooth_scroll_linked_content_reveal_gsap_01c63635",
+      "skill_name": "Smooth Scroll-Linked Content Reveal (GSAP + Lenis)",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=PrQeeUt49f4",
+      "source_title": "Mastering Scroll Animations with GSAP ScrollTrigger",
+      "channel": "DesignCourse",
+      "detail_path": "animation/smooth_scroll_linked_content_reveal_gsap_01c63635/skill.json"
+    },
+    {
+      "skill_id": "interactive_recursive_fractal_tree_b6b95b9d",
+      "skill_name": "Interactive Recursive Fractal Tree",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=Jw04YklJD-0",
+      "source_title": "Interactive Recursive Tree Growth Animation | HTML Canvas + JavaScript",
+      "channel": " Code with Scriptify Studio",
+      "detail_path": "canvas_webgl/interactive_recursive_fractal_tree_b6b95b9d/skill.json"
+    },
+    {
+      "skill_id": "procedural_kinematic_skeleton_ddcf84df",
+      "skill_name": "Procedural Kinematic Skeleton",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=21pzLw68RBU",
+      "source_title": "Interactive Reptile Cursor Animation 🦎 | HTML Canvas JavaScript Project | @codeandcelebrationhub",
+      "channel": "Harsh Vardhan Singh ",
+      "detail_path": "canvas_webgl/procedural_kinematic_skeleton_ddcf84df/skill.json"
+    },
+    {
+      "skill_id": "interactive_canvas_dot_polygon_0dc934fe",
+      "skill_name": "Interactive Canvas Dot Polygon",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=urDcoyIc6VQ",
+      "source_title": "Creative Coding Tutorial : Rotating polygons in HTML5 canvas with JavaScript",
+      "channel": "Interactive Developer",
+      "detail_path": "canvas_webgl/interactive_canvas_dot_polygon_0dc934fe/skill.json"
+    },
+    {
+      "skill_id": "interactive_dashboard_data_list_with_opt_b9372d9e",
+      "skill_name": "Interactive Dashboard Data List with Optimistic UI",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=B7k5rOgmOGY",
+      "source_title": "EVERYTHING you need to know to build a Dashboard UI in 8 minutes (beginner friendly)",
+      "channel": "Kole Jain",
+      "detail_path": "form_ui/interactive_dashboard_data_list_with_opt_b9372d9e/skill.json"
+    },
+    {
+      "skill_id": "interactive_spatial_3d_canvas_65e517d3",
+      "skill_name": "Interactive Spatial 3D Canvas",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=jjG7AcmGUAo",
+      "source_title": "JavaScript Canvas Drawing with Mouse: 3D Axis Interaction Tutorial",
+      "channel": "The Debug Zone",
+      "detail_path": "canvas_webgl/interactive_spatial_3d_canvas_65e517d3/skill.json"
+    },
+    {
+      "skill_id": "procedural_particle_entity_animation_132f18af",
+      "skill_name": "Procedural Particle Entity Animation",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=17BqFdqYkmA",
+      "source_title": "Flying Bird Animation Using 35,000 Circles in HTML, CSS & JavaScript | Creative Canvas Art Project",
+      "channel": "Coding theory ",
+      "detail_path": "canvas_webgl/procedural_particle_entity_animation_132f18af/skill.json"
+    },
+    {
+      "skill_id": "responsive_bento_dashboard_layout_2020e633",
+      "skill_name": "Responsive Bento Dashboard Layout",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=PXiMfLiqcpg",
+      "source_title": "Responsive Project Dashboard // Speedrun // HTML & CSS Tutorial",
+      "channel": "crayon code",
+      "detail_path": "card_layout/responsive_bento_dashboard_layout_2020e633/skill.json"
+    },
+    {
+      "skill_id": "nested_css_grid_dashboard_shell_fc4ffdb8",
+      "skill_name": "Nested CSS Grid Dashboard Shell",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=NnniXasJIpY",
+      "source_title": "Responsive Dashboard Layouts with CSS Grid",
+      "channel": "ByteGrad",
+      "detail_path": "card_layout/nested_css_grid_dashboard_shell_fc4ffdb8/skill.json"
+    },
+    {
+      "skill_id": "saas_multi_tenant_team_switcher_294accac",
+      "skill_name": "SaaS Multi-Tenant Team Switcher",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=bFLGwVyIotA",
+      "source_title": "Multi-Tenant SaaS Architecture in 3 Simple Steps",
+      "channel": "Jan Marshal",
+      "detail_path": "form_ui/saas_multi_tenant_team_switcher_294accac/skill.json"
+    },
+    {
+      "skill_id": "three_pane_point_of_sale_pos_dashboard_b8e0801f",
+      "skill_name": "Three-Pane Point-of-Sale (POS) Dashboard",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=Y-AfwhAWif8",
+      "source_title": "How to Create a Multi platform POS System Using DeepSeek AI | HTML, CSS, JS |  website",
+      "channel": "SuccessPursuitZone",
+      "detail_path": "form_ui/three_pane_point_of_sale_pos_dashboard_b8e0801f/skill.json"
+    },
+    {
+      "skill_id": "b2b_saas_organization_management_panel_b8a02464",
+      "skill_name": "B2B SaaS Organization Management Panel",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=Dl8ad3aSFoE",
+      "source_title": "How to Build a SaaS in 2026 | Masterclass (B2B, Multi Tenant, Next.js, Roles / Permissions, Billing)",
+      "channel": "Sonny Sangha",
+      "detail_path": "form_ui/b2b_saas_organization_management_panel_b8a02464/skill.json"
+    },
+    {
+      "skill_id": "multi_step_progress_registration_form_8d4f008c",
+      "skill_name": "Multi-Step Progress Registration Form",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=O3FfrubyyXw",
+      "source_title": "Build a Multi-Step Form with Progress Bar | HTML CSS JavaScript Project",
+      "channel": "Code Hunter Sharath",
+      "detail_path": "form_ui/multi_step_progress_registration_form_8d4f008c/skill.json"
+    },
+    {
+      "skill_id": "vanilla_interactive_dom_component_fundam_5322f9c8",
+      "skill_name": "Vanilla Interactive DOM Component (Fundamentals)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=_GTMOmRrqkU",
+      "source_title": "HTML, CSS, and Javascript in 30 minutes",
+      "channel": "devdojo",
+      "detail_path": "form_ui/vanilla_interactive_dom_component_fundam_5322f9c8/skill.json"
+    },
+    {
+      "skill_id": "vanilla_js_single_page_application_spa_r_26adc180",
+      "skill_name": "Vanilla JS Single Page Application (SPA) Router",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=6BozpmSjk-Y",
+      "source_title": "Build a Single Page Application with JavaScript (No Frameworks)",
+      "channel": "dcode",
+      "detail_path": "navigation/vanilla_js_single_page_application_spa_r_26adc180/skill.json"
+    },
+    {
+      "skill_id": "scroll_spy_navigation_bar_1fe08223",
+      "skill_name": "Scroll-Spy Navigation Bar",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=UoE1hqfpXX0",
+      "source_title": "How to Create an Active Nav Link on Scroll using HTML CSS and Javascript | Active Menu Class",
+      "channel": "Codehal",
+      "detail_path": "navigation/scroll_spy_navigation_bar_1fe08223/skill.json"
+    },
+    {
+      "skill_id": "minimalist_job_board_card_list_bcd1ed1f",
+      "skill_name": "Minimalist Job Board Card & List",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=TG6XSFeOT3g",
+      "source_title": "How I'd Learn Web Development (If I Could Start Over)",
+      "channel": "Dylan Cole",
+      "detail_path": "card_layout/minimalist_job_board_card_list_bcd1ed1f/skill.json"
+    },
+    {
+      "skill_id": "semantic_flexbox_architecture_with_exter_3fa1b398",
+      "skill_name": "Semantic Flexbox Architecture with External Stylesheets",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=iXSSHlOe47s",
+      "source_title": "HTML CSS TUTORIAL FOR BEGINNERS - multiple pages",
+      "channel": "LearnCode.academy",
+      "detail_path": "navigation/semantic_flexbox_architecture_with_exter_3fa1b398/skill.json"
+    },
+    {
+      "skill_id": "dynamic_active_navigation_indicator_vani_5fa6a03b",
+      "skill_name": "Dynamic Active Navigation Indicator (Vanilla JS)",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=JkuiKeNS2mg",
+      "source_title": "Active Nav Link Indicator with Vanilla Javascript",
+      "channel": "Coding in Public",
+      "detail_path": "navigation/dynamic_active_navigation_indicator_vani_5fa6a03b/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_snapping_full_height_s_d467ae5d",
+      "skill_name": "Native CSS Scroll Snapping (Full-Height Sections)",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=HAMrs3UyO9k",
+      "source_title": "How To Add Scroll Snapping To Your Website Using Pure CSS",
+      "channel": "GTCoding",
+      "detail_path": "typography/native_css_scroll_snapping_full_height_s_d467ae5d/skill.json"
+    },
+    {
+      "skill_id": "2_5d_parallax_depth_slicing_via_webgl_d0845e75",
+      "skill_name": "2.5D Parallax Depth Slicing via WebGL",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=Ehjo47nUutI",
+      "source_title": "Using ThreeJS (Javascript) To Play with Parallax and Perspective of 2D Images",
+      "channel": "An Object Is A",
+      "detail_path": "canvas_webgl/2_5d_parallax_depth_slicing_via_webgl_d0845e75/skill.json"
+    },
+    {
+      "skill_id": "3d_interactive_product_hero_with_particl_c7b1b24d",
+      "skill_name": "3D Interactive Product Hero with Particle Environment",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=YFJBNU8xkXA",
+      "source_title": "3D Portfolio Landing Page with Three.js | Free Template + Customization Guide",
+      "channel": "Pixel and Code",
+      "detail_path": "canvas_webgl/3d_interactive_product_hero_with_particl_c7b1b24d/skill.json"
+    },
+    {
+      "skill_id": "pure_css_responsive_masonry_gallery_34a6b73c",
+      "skill_name": "Pure CSS Responsive Masonry Gallery",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=NFmszPCnsVs",
+      "source_title": "Pure CSS Responsive Masonry Gallery Layout || Masonry Image Card Gallery Using Media Queries",
+      "channel": "Mr. Web Designer",
+      "detail_path": "card_layout/pure_css_responsive_masonry_gallery_34a6b73c/skill.json"
+    },
+    {
+      "skill_id": "interactive_3d_particle_landing_page_42f1ee43",
+      "skill_name": "Interactive 3D Particle Landing Page",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=BqIV3jBy1n8",
+      "source_title": "Build a Stunning 3D Animated Website with Three.js & AOS | Full Tutorial",
+      "channel": "Come For Code",
+      "detail_path": "canvas_webgl/interactive_3d_particle_landing_page_42f1ee43/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_css_grid_mosaic_gallery_e5efa6f3",
+      "skill_name": "Asymmetric CSS Grid Mosaic Gallery",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=XBTWx2r34oQ",
+      "source_title": "Responsive Css Gallery Using Grid - Day 25",
+      "channel": "CodeWithOmid",
+      "detail_path": "card_layout/asymmetric_css_grid_mosaic_gallery_e5efa6f3/skill.json"
+    },
+    {
+      "skill_id": "interactive_webgl_fluid_gradient_f6b2525b",
+      "skill_name": "Interactive WebGL Fluid Gradient",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=wdyJr-UeiZs",
+      "source_title": "The Interactive Fluid Gradient You’ll Keep Reusing on Every Website",
+      "channel": "Codegrid",
+      "detail_path": "canvas_webgl/interactive_webgl_fluid_gradient_f6b2525b/skill.json"
+    },
+    {
+      "skill_id": "responsive_gradient_hero_section_with_du_df4cfda9",
+      "skill_name": "Responsive Gradient Hero Section with Dual CTAs",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=vO39-DIDKcs",
+      "source_title": "How to Create a Responsive Hero Section with Call-to-Action (CTA) Using Tailwind CSS #tailwindcss",
+      "channel": "Coding Tutorial Series",
+      "detail_path": "form_ui/responsive_gradient_hero_section_with_du_df4cfda9/skill.json"
+    },
+    {
+      "skill_id": "fluid_responsive_layout_system_css_units_dc2308dc",
+      "skill_name": "Fluid Responsive Layout System (CSS Units Mastery)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=ydfVTgsUynk",
+      "source_title": "Make ANY Design Responsive - Elementor CSS Units Guide",
+      "channel": "WPDev",
+      "detail_path": "card_layout/fluid_responsive_layout_system_css_units_dc2308dc/skill.json"
+    },
+    {
+      "skill_id": "animated_svg_line_drawing_dynamic_dash_o_d4f38276",
+      "skill_name": "Animated SVG Line Drawing (Dynamic Dash-Offset)",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=FvTx7vTMUFk",
+      "source_title": "SVG Art Animation | HTML & CSS",
+      "channel": "Speed Code Projects",
+      "detail_path": "css_art/animated_svg_line_drawing_dynamic_dash_o_d4f38276/skill.json"
+    },
+    {
+      "skill_id": "hero_section_with_parallax_image_and_gra_86942ee8",
+      "skill_name": "Hero Section with Parallax Image and Gradient Overlay",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=wcMjYGzeLT8",
+      "source_title": "Build a Responsive Hero Section From Scratch | HTML & CSS (Step by Step)",
+      "channel": "Late night coder",
+      "detail_path": "hero_section/hero_section_with_parallax_image_and_gra_86942ee8/skill.json"
+    },
+    {
+      "skill_id": "pure_css_mascot_illustration_interactive_d888a1f5",
+      "skill_name": "Pure CSS Mascot Illustration (Interactive Penguin)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=KDKWMp_UaGA",
+      "source_title": "Animated CSS Bird | Cute Penguin Animation Using Only HTML & CSS | CSS Character Design",
+      "channel": "CSS IDEA",
+      "detail_path": "canvas_webgl/pure_css_mascot_illustration_interactive_d888a1f5/skill.json"
+    },
+    {
+      "skill_id": "centered_hero_with_floating_orbital_elem_75398515",
+      "skill_name": "Centered Hero with Floating Orbital Elements",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=kJb6BZwqCGM",
+      "source_title": "18 Hero Section Designs You Can Steal",
+      "channel": "Payton Clark Smith",
+      "detail_path": "animation/centered_hero_with_floating_orbital_elem_75398515/skill.json"
+    },
+    {
+      "skill_id": "interactive_parallax_depth_hero_b45bba83",
+      "skill_name": "Interactive Parallax Depth Hero",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=Xlv7MqWpQzw",
+      "source_title": "Create Mesmerizing Interactive Shadow Art with HTML, CSS & JavaScript | Web Animation Tutorial",
+      "channel": "The Animation Coder",
+      "detail_path": "canvas_webgl/interactive_parallax_depth_hero_b45bba83/skill.json"
+    },
+    {
+      "skill_id": "neon_dynamic_glow_navigation_5cf8e3c2",
+      "skill_name": "Neon Dynamic Glow Navigation",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=_IP899RrPu8",
+      "source_title": "Creative CSS & Javascript Animation & Hover Effects | @OnlineTutorialsYT September 2021",
+      "channel": "Online Tutorials",
+      "detail_path": "navigation/neon_dynamic_glow_navigation_5cf8e3c2/skill.json"
+    },
+    {
+      "skill_id": "infinite_pulsating_element_animation_8b9878f7",
+      "skill_name": "Infinite Pulsating Element Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=YPU5Yf598Ss",
+      "source_title": "🎬 Exciting CSS Animation Tutorial by Michelle | CodeYourCareer 🚀",
+      "channel": "codeyourcareer-CYC",
+      "detail_path": "animation/infinite_pulsating_element_animation_8b9878f7/skill.json"
+    },
+    {
+      "skill_id": "pure_css_geometric_character_art_with_in_3ede7e2e",
+      "skill_name": "Pure CSS Geometric Character Art (with Interactive Eye Tracking)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=GJ5kroCJ41c",
+      "source_title": "CSS ART: SpongeBob with CSS only as a beginner || HTML5 CSS3",
+      "channel": "Charles Kasasira",
+      "detail_path": "form_ui/pure_css_geometric_character_art_with_in_3ede7e2e/skill.json"
+    },
+    {
+      "skill_id": "full_screen_scroll_snapping_layout_cda21f30",
+      "skill_name": "Full-Screen Scroll Snapping Layout",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=KAG5wNPdoTw",
+      "source_title": "How To Make Full Screen Scrolling Website Using HTML And CSS",
+      "channel": "GreatStack",
+      "detail_path": "css_art/full_screen_scroll_snapping_layout_cda21f30/skill.json"
+    },
+    {
+      "skill_id": "pure_css_volumetric_character_illustrati_ca683cf5",
+      "skill_name": "Pure CSS Volumetric Character Illustration",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=uXBoQ4WRD9A",
+      "source_title": "CSS Art Crash Course - By Example!",
+      "channel": "DesignCourse",
+      "detail_path": "animation/pure_css_volumetric_character_illustrati_ca683cf5/skill.json"
+    },
+    {
+      "skill_id": "scroll_triggered_clip_path_reveal_image__ae95eb20",
+      "skill_name": "Scroll-Triggered Clip-Path Reveal & Image Zoom",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=-8zEjDOFKSY",
+      "source_title": "How To Make Full Screen Scrolling Website With Animation Effect Using HTML And CSS",
+      "channel": "M - SoftTech",
+      "detail_path": "animation/scroll_triggered_clip_path_reveal_image__ae95eb20/skill.json"
+    },
+    {
+      "skill_id": "pure_css_character_illustration_cc85ceed",
+      "skill_name": "Pure CSS Character Illustration",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=cSASaiLc68Y",
+      "source_title": "FERB CHARACTER DESIGNING USING PURE CSS TUTORIAL || [link to code in description]",
+      "channel": "Ayush Saxena",
+      "detail_path": "css_art/pure_css_character_illustration_cc85ceed/skill.json"
+    },
+    {
+      "skill_id": "perfect_fit_css_scroll_snapping_be8b10f1",
+      "skill_name": "Perfect-Fit CSS Scroll Snapping",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=ytl6TrroGis",
+      "source_title": "Learn CSS Scroll Snap In 6 Minutes",
+      "channel": "Web Dev Simplified",
+      "detail_path": "navigation/perfect_fit_css_scroll_snapping_be8b10f1/skill.json"
+    },
+    {
+      "skill_id": "pure_css_geometric_art_illustration_a8d22525",
+      "skill_name": "Pure CSS Geometric Art Illustration",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=srBJtwB6x1Q",
+      "source_title": "Tortoise CSS Art | CSS Art Tutorial",
+      "channel": "Coding Artist",
+      "detail_path": "css_art/pure_css_geometric_art_illustration_a8d22525/skill.json"
+    },
+    {
+      "skill_id": "native_css_scroll_snapping_full_section__5b21319c",
+      "skill_name": "Native CSS Scroll Snapping (Full-Section Presentation)",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=MsmvhpBXosM",
+      "source_title": "CSS Scroll Snap",
+      "channel": "FollowAndrew",
+      "detail_path": "typography/native_css_scroll_snapping_full_section__5b21319c/skill.json"
+    },
+    {
+      "skill_id": "interactive_pure_css_character_shy_ghost_30078950",
+      "skill_name": "Interactive Pure CSS Character (Shy Ghost)",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=T2k7Hcx9ICI",
+      "source_title": "Speed Art Pure CSS | Boo",
+      "channel": "Coding Artist",
+      "detail_path": "form_ui/interactive_pure_css_character_shy_ghost_30078950/skill.json"
+    },
+    {
+      "skill_id": "continuous_day_night_cycle_animation_a661ce76",
+      "skill_name": "Continuous Day/Night Cycle Animation",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=ZCE0n0WfTa0",
+      "source_title": "Coding Challenge- Day/Night Animation",
+      "channel": "kavooce",
+      "detail_path": "animation/continuous_day_night_cycle_animation_a661ce76/skill.json"
+    },
+    {
+      "skill_id": "astrophotography_time_lapse_rotating_sta_c6ec699e",
+      "skill_name": "Astrophotography Time-Lapse (Rotating Starfield with Meteors & Silhouettes)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=Bbp1-p2FoXU",
+      "source_title": "7PM to 7AM Night Sky Stars Timelapse",
+      "channel": "Drew Cotten",
+      "detail_path": "canvas_webgl/astrophotography_time_lapse_rotating_sta_c6ec699e/skill.json"
+    },
+    {
+      "skill_id": "scroll_driven_isometric_exploded_view_254deee3",
+      "skill_name": "Scroll-Driven Isometric Exploded View",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=tk3ivPgOwpc",
+      "source_title": "Multilayer Parallax Scroll Animation with HTML and GSAP",
+      "channel": "Lun Dev",
+      "detail_path": "css_art/scroll_driven_isometric_exploded_view_254deee3/skill.json"
+    },
+    {
+      "skill_id": "cosmic_horizon_with_wavy_canvas_reflecti_085bf899",
+      "skill_name": "Cosmic Horizon with Wavy Canvas Reflections",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=iof5OSZay9w",
+      "source_title": "Golden Ocean Horizon ~Shooting Stars Night Sky~ 30Min. HD Wallpaper Free Animation Background",
+      "channel": "AA-VFX",
+      "detail_path": "canvas_webgl/cosmic_horizon_with_wavy_canvas_reflecti_085bf899/skill.json"
+    },
+    {
+      "skill_id": "scroll_scrubbed_cinematic_background_vid_37d77ae5",
+      "skill_name": "Scroll-Scrubbed Cinematic Background Video",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=mciULR6y4ts",
+      "source_title": "Play Video on Scroll Using HTML, CSS & JavaScript | GSAP ScrollTrigger Tutorial",
+      "channel": "Design Synth",
+      "detail_path": "hero_section/scroll_scrubbed_cinematic_background_vid_37d77ae5/skill.json"
+    },
+    {
+      "skill_id": "foundational_css_architecture_modular_gr_e8b36cb4",
+      "skill_name": "Foundational CSS Architecture (Modular Grid & Principle-Driven Styling)",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=JnTPd9G6hoY",
+      "source_title": "The 6 most important CSS concepts for beginners",
+      "channel": "Kevin Powell",
+      "detail_path": "card_layout/foundational_css_architecture_modular_gr_e8b36cb4/skill.json"
+    },
+    {
+      "skill_id": "non_rectangular_layouts_section_dividers_f1db8941",
+      "skill_name": "Non-Rectangular Layouts & Section Dividers",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=QY7Rj8aZcZk",
+      "source_title": "How to make shapes with CSS",
+      "channel": "Kevin Powell",
+      "detail_path": "form_ui/non_rectangular_layouts_section_dividers_f1db8941/skill.json"
+    },
+    {
+      "skill_id": "single_div_css_illustration_box_shadow_s_13ee0652",
+      "skill_name": "Single-Div CSS Illustration (Box-Shadow Shape Stacking)",
+      "category": "css_art",
+      "source_video": "https://www.youtube.com/watch?v=FTNKESZ3-es",
+      "source_title": "Making CSS Illustration With a Single Div | CSS Illustration | CSS Speed Art",
+      "channel": "Coding Artist",
+      "detail_path": "css_art/single_div_css_illustration_box_shadow_s_13ee0652/skill.json"
+    },
+    {
+      "skill_id": "staggered_cross_fade_accessible_carousel_7d7d5fc0",
+      "skill_name": "Staggered Cross-Fade Accessible Carousel",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=9HcxHDS2w1s",
+      "source_title": "How To Create An Animated Image Carousel With CSS/JavaScript",
+      "channel": "Web Dev Simplified",
+      "detail_path": "form_ui/staggered_cross_fade_accessible_carousel_7d7d5fc0/skill.json"
+    },
+    {
+      "skill_id": "animated_css_text_gradient_3744194e",
+      "skill_name": "Animated CSS Text Gradient",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=p4Gk2NUk5RU",
+      "source_title": "How to Create Text Gradients in CSS",
+      "channel": "Adi Purdila",
+      "detail_path": "animation/animated_css_text_gradient_3744194e/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_split_screen_hero_with_typewr_3515b95a",
+      "skill_name": "Asymmetric Split-Screen Hero with Typewriter Effect",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=oQsIsOGs-Q8",
+      "source_title": "Creating a One Page Portfolio Landing Page using HTML,CSS and JavaScript",
+      "channel": "PinoyFreeCoder",
+      "detail_path": "typography/asymmetric_split_screen_hero_with_typewr_3515b95a/skill.json"
+    },
+    {
+      "skill_id": "neon_vertical_timeline_system_98db3f8c",
+      "skill_name": "Neon Vertical Timeline System",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=oqPbciDKi44",
+      "source_title": "Build a Complete Responsive Personal Portfolio Website using HTML CSS Javascript#tutorial#html5#css3",
+      "channel": "Amna Code",
+      "detail_path": "card_layout/neon_vertical_timeline_system_98db3f8c/skill.json"
+    },
+    {
+      "skill_id": "responsive_split_hero_with_pulse_cta_nat_d4b13860",
+      "skill_name": "Responsive Split Hero with Pulse CTA & Native Dialog Modal",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=aWG54eltQHc",
+      "source_title": "Portfolio Landing Page With Video Modal | HTML, CSS, JavaScript | Quick Tutorial",
+      "channel": "QCT",
+      "detail_path": "form_ui/responsive_split_hero_with_pulse_cta_nat_d4b13860/skill.json"
+    },
+    {
+      "skill_id": "scroll_triggered_glassmorphism_parallax_58154f53",
+      "skill_name": "Scroll-Triggered Glassmorphism Parallax",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=Dea2WttPMDs",
+      "source_title": "Modern Scroll Animation Landing Page From Scratch | HTML, CSS, JS",
+      "channel": "QCT",
+      "detail_path": "card_layout/scroll_triggered_glassmorphism_parallax_58154f53/skill.json"
+    },
+    {
+      "skill_id": "smooth_parallax_hero_animation_with_scro_3fd07c14",
+      "skill_name": "Smooth Parallax Hero Animation with Scroll Reveal",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=vXjJZH_l6o8",
+      "source_title": "Parallax Scrolling Animation in Figma - Full Tutorial",
+      "channel": "Edge Dot Design",
+      "detail_path": "form_ui/smooth_parallax_hero_animation_with_scro_3fd07c14/skill.json"
+    },
+    {
+      "skill_id": "responsive_art_direction_resolution_swit_cecc4118",
+      "skill_name": "Responsive Art Direction & Resolution Switching (<picture>)",
+      "category": "typography",
+      "source_video": "https://www.youtube.com/watch?v=xbVnaKV5I-c",
+      "source_title": "How to Create Responsive Images Using the Picture Element",
+      "channel": "Tuts+ Web Design",
+      "detail_path": "typography/responsive_art_direction_resolution_swit_cecc4118/skill.json"
+    },
+    {
+      "skill_id": "native_responsive_image_optimization_art_e64da18f",
+      "skill_name": "Native Responsive Image Optimization & Art Direction",
+      "category": "responsive",
+      "source_video": "https://www.youtube.com/watch?v=o6O9rsxhMJE",
+      "source_title": "How To Make Responsive Images With Srcset In HTML? - Simple HTML Studio",
+      "channel": "Simple HTML Studio",
+      "detail_path": "responsive/native_responsive_image_optimization_art_e64da18f/skill.json"
+    },
+    {
+      "skill_id": "responsive_art_directed_image_architectu_870621db",
+      "skill_name": "Responsive Art-Directed Image Architecture",
+      "category": "hero_section",
+      "source_video": "https://www.youtube.com/watch?v=96GcXfFp8dc",
+      "source_title": "HTML Responsive Images: srcset, sizes & the picture Element Explained!",
+      "channel": "CodeLucky",
+      "detail_path": "hero_section/responsive_art_directed_image_architectu_870621db/skill.json"
+    },
+    {
+      "skill_id": "generative_canvas_mandala_symmetrical_pa_bb960a90",
+      "skill_name": "Generative Canvas Mandala (Symmetrical Particle Burst)",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=jDsDhpqfCiw",
+      "source_title": "Advanced Web Animation with Canvas [ JavaScript CSS HTML ]",
+      "channel": "Web Animation [Javascript, SVG,CSS, Canvas, GSAP] ",
+      "detail_path": "canvas_webgl/generative_canvas_mandala_symmetrical_pa_bb960a90/skill.json"
+    },
+    {
+      "skill_id": "real_time_image_filter_dashboard_cba413a7",
+      "skill_name": "Real-time Image Filter Dashboard",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=im2rh_uiXAw",
+      "source_title": "Javascript Canvas API Example to Build WebGL Advanced Image Editor With 2D & 3D Filters in Browser",
+      "channel": "Coding Shiksha",
+      "detail_path": "form_ui/real_time_image_filter_dashboard_cba413a7/skill.json"
+    },
+    {
+      "skill_id": "interactive_polygon_mesh_background_93ed1daa",
+      "skill_name": "Interactive Polygon Mesh Background",
+      "category": "canvas_webgl",
+      "source_video": "https://www.youtube.com/watch?v=mwYQ8Twmm4U",
+      "source_title": "POLYGON PARTICLE JS (2020) | JAVASCRIPT ANIMATION",
+      "channel": "Tomojit Tutorials",
+      "detail_path": "canvas_webgl/interactive_polygon_mesh_background_93ed1daa/skill.json"
+    },
+    {
+      "skill_id": "centered_hero_with_floating_parallax_ele_ea580d95",
+      "skill_name": "Centered Hero with Floating Parallax Elements",
+      "category": "animation",
+      "source_video": "https://www.youtube.com/watch?v=kJb6BZwqCGM",
+      "source_title": "18 Hero Section Designs You Can Steal",
+      "channel": "Payton Clark Smith",
+      "detail_path": "animation/centered_hero_with_floating_parallax_ele_ea580d95/skill.json"
+    },
+    {
+      "skill_id": "animated_sidebar_to_bottom_nav_with_grid_3a6c32f8",
+      "skill_name": "Animated Sidebar to Bottom-Nav with Grid Height Transitions",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=R7b3OlEyqug",
+      "source_title": "Build a Responsive Sidebar Menu with Animated Dropdowns | HTML CSS JavaScript Project",
+      "channel": "Coding2GO",
+      "detail_path": "navigation/animated_sidebar_to_bottom_nav_with_grid_3a6c32f8/skill.json"
+    },
+    {
+      "skill_id": "responsive_snap_scroll_component_archite_ca63dfc9",
+      "skill_name": "Responsive Snap-Scroll Component Architecture",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=OjEg0IBR_ak",
+      "source_title": "The Easiest Way to Build Websites",
+      "channel": "Sajid",
+      "detail_path": "form_ui/responsive_snap_scroll_component_archite_ca63dfc9/skill.json"
+    },
+    {
+      "skill_id": "cinematic_3d_coverflow_gallery_with_dyna_bfbf1cea",
+      "skill_name": "Cinematic 3D Coverflow Gallery with Dynamic Displacement",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=_VXvOAmT-H8",
+      "source_title": "Creating my Interactive 3D Portfolio: Building a 3D Gallery with Three.js | Portfolio Journey 5",
+      "channel": "rouven lue",
+      "detail_path": "card_layout/cinematic_3d_coverflow_gallery_with_dyna_bfbf1cea/skill.json"
+    },
+    {
+      "skill_id": "asymmetric_animated_gradient_footer_3b13797e",
+      "skill_name": "Asymmetric Animated Gradient Footer",
+      "category": "form_ui",
+      "source_video": "https://www.youtube.com/watch?v=FRRlFLfdvBE",
+      "source_title": "How To Make Animated Website Footer Design Using HTML And CSS Step by Step Tutorial",
+      "channel": "GreatStack",
+      "detail_path": "form_ui/asymmetric_animated_gradient_footer_3b13797e/skill.json"
+    },
+    {
+      "skill_id": "responsive_bento_box_dashboard_grid_b5d90b62",
+      "skill_name": "Responsive Bento-Box Dashboard Grid",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=QlZkfmofzHU",
+      "source_title": "CSS Grid - Create a RESPONSIVE DASHBOARD Layout in minutes",
+      "channel": "Optimistic Web",
+      "detail_path": "card_layout/responsive_bento_box_dashboard_grid_b5d90b62/skill.json"
+    },
+    {
+      "skill_id": "discord_style_morphing_sidebar_animated__e7b53ebf",
+      "skill_name": "Discord-Style Morphing Sidebar & Animated Tooltips",
+      "category": "navigation",
+      "source_video": "https://www.youtube.com/watch?v=pfaSUYaSgRo",
+      "source_title": "Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar",
+      "channel": "Fireship",
+      "detail_path": "navigation/discord_style_morphing_sidebar_animated__e7b53ebf/skill.json"
+    },
+    {
+      "skill_id": "full_height_dashboard_grid_layout_with_e_30d23000",
+      "skill_name": "Full-Height Dashboard Grid Layout with Expandable Sidebar",
+      "category": "card_layout",
+      "source_video": "https://www.youtube.com/watch?v=xR23ktLwvrg",
+      "source_title": "CSS Grid - Create a FULL-HEIGHT RESPONSIVE Layout in Minutes",
+      "channel": "Optimistic Web",
+      "detail_path": "card_layout/full_height_dashboard_grid_layout_with_e_30d23000/skill.json"
+    }
+  ]
+}

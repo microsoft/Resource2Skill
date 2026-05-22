@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating impactful section dividers or cover slides. It features a bold, minimalist design to introduce new topics with centered text.",
+  "category_path": [
+    "slide_layout",
+    "section_divider"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_ring_divider_cd858b",
+  "skill_name": "Centered Ring Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section divider",
+    "cover slide",
+    "minimalist",
+    "bold design",
+    "ring graphic",
+    "centered text"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:03:37Z",
+  "wash_version": "1.0.0"
+}

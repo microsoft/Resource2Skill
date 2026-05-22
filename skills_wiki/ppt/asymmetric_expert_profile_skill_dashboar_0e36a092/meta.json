@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_expert_profile_skill_dashboar_0e36a092",
+  "skill_name": "Asymmetric Expert Profile & Skill Dashboard",
+  "source": {
+    "channel": "Andrew Pach - PowerPoint Training",
+    "duration_sec": 353,
+    "type": "youtube",
+    "video_id": "V5km1yw8vCU",
+    "video_title": "Slide animation made simple - PowerPoint wipe animation \u2714",
+    "video_url": "https://www.youtube.com/watch?v=V5km1yw8vCU",
+    "views": 5246
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:02:49Z",
+  "wash_version": "1.0.0"
+}

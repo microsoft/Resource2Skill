@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for generating seamless, infinite background music loops for video games or electronic tracks. It uses a dominant V7 turnaround at the end of the loop to create harmonic tension that resolves perfectly upon restarting.",
+  "category_path": [
+    "composition",
+    "chords",
+    "loop"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_vgm_loop_generator_dominant_tur_a7d50fc8",
+  "skill_name": "Seamless VGM Loop Generator",
+  "source": {
+    "channel": "Composer Code (Matt Kenyon)",
+    "duration_sec": 1413,
+    "type": "youtube",
+    "video_id": "l61EBjVd9tw",
+    "video_title": "How to make VIDEO GAME MUSIC for free (beginners' guide)",
+    "video_url": "https://www.youtube.com/watch?v=l61EBjVd9tw",
+    "views": 378205
+  },
+  "tags": [
+    "vgm",
+    "loop",
+    "chords",
+    "melody",
+    "chiptune",
+    "midi-generation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:56Z",
+  "wash_version": "1.0.0"
+}

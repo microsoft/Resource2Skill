@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "task_management_dashboard_archetype_356a6d1c",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 1140,
+    "type": "youtube",
+    "video_id": "AUe_Q6SWsqo",
+    "video_title": "Make a Dynamic Task Management Tracker in Excel!",
+    "video_url": "https://www.youtube.com/watch?v=AUe_Q6SWsqo",
+    "views": 289402
+  },
+  "tier": "T5",
+  "wash_version": "1.0.0"
+}

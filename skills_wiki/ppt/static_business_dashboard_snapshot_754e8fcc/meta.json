@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_business_dashboard_snapshot_754e8fcc",
+  "skill_name": "Static Business Dashboard Snapshot",
+  "source": {
+    "channel": "Yuliana Epianingsih",
+    "duration_sec": 978,
+    "type": "youtube",
+    "video_id": "jkmhCyzpDuI",
+    "video_title": "PIVOT CHART: COOL! Dashboard Visualization Using Excel",
+    "video_url": "https://www.youtube.com/watch?v=jkmhCyzpDuI",
+    "views": 474807
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:16:54Z",
+  "wash_version": "1.0.0"
+}

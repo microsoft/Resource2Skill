@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_snap_carousel_ee63d565",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 552,
+    "type": "youtube",
+    "video_id": "gmI5nvzv170",
+    "video_title": "CSS ONLY Carousel? Learn ::scroll-button() in 9 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=gmI5nvzv170",
+    "views": 136585
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

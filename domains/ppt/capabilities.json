@@ -1,0 +1,16 @@
+{
+  "domain": "ppt",
+  "verbs": [
+    "apply_skill_via_legacy"
+  ],
+  "tier_to_verbs": {
+    "T1": [],
+    "T2": [],
+    "T3": ["apply_skill_via_legacy"],
+    "T4": ["apply_skill_via_legacy"],
+    "T5": ["apply_skill_via_legacy"]
+  },
+  "reference_only_supported": true,
+  "execution_mode": "hybrid",
+  "notes": "Discovery flows through the universal wiki contract. Execution delegates to the legacy PPT MCP execution layer (python-pptx engine + visual-QA hooks). T1/T2 are reference-only; T3/T4/T5 invoke apply_skill_via_legacy which writes the resolved skill code into a workspace and returns the path for the caller to execute."
+}

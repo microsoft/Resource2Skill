@@ -1,0 +1,33 @@
+{
+  "applicability": "Use this slide layout to highlight a single, important key performance indicator (KPI). It's ideal for executive dashboards, report summaries, or section dividers that need to make a strong numerical statement.",
+  "category_path": [
+    "dashboards",
+    "kpi"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "metric_doughnut_focus_7a68c5",
+  "skill_name": "Focused Metric Doughnut Slide",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "kpi",
+    "dashboard",
+    "doughnut chart",
+    "minimal",
+    "metric"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:12:56Z",
+  "wash_version": "1.0.0"
+}

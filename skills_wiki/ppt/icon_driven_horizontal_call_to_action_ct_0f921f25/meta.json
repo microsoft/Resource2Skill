@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for final presentation slides, such as 'Thank You' or 'Contact Us' pages, to provide clear, actionable contact details. Effective for sales pitches, webinars, and corporate portfolios.",
+  "category_path": [
+    "closing",
+    "contact_information"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "icon_driven_horizontal_call_to_action_ct_0f921f25",
+  "skill_name": "Icon-Based Contact Footer",
+  "source": {
+    "channel": "Interactive Media",
+    "duration_sec": 291,
+    "type": "youtube",
+    "video_id": "UHJ7P4_E-w0",
+    "video_title": "How to Design a Winning Presentation: Call to Action Slide",
+    "video_url": "https://www.youtube.com/watch?v=UHJ7P4_E-w0",
+    "views": 167
+  },
+  "tags": [
+    "footer",
+    "contact information",
+    "call to action",
+    "icons",
+    "closing slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:41:31Z",
+  "wash_version": "1.0.0"
+}

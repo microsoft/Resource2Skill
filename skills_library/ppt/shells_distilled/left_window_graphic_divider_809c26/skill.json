@@ -1,0 +1,61 @@
+{
+  "skill_id": "left_window_graphic_divider_809c26",
+  "skill_type": "shell",
+  "name": "Left Window Graphic Divider",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider"
+    ],
+    "content_shape": [
+      "graphic+text"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "body",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 300,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/left_window_graphic_divider_809c26/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "3d_morphing_reveal_window_spatial_narrat_bdaa833a",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted the prominent window-pane graphic from the tutorial screenshot as a central visual element, adding optional text slots to form a functional section divider layout.",
+  "_distill_attempts": 1
+}

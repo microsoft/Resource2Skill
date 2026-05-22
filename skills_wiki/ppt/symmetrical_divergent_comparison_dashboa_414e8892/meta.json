@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "symmetrical_divergent_comparison_dashboa_414e8892",
+  "skill_name": "Symmetrical Divergent Comparison Dashboard",
+  "source": {
+    "channel": "SlideUpLift",
+    "duration_sec": 726,
+    "type": "youtube",
+    "video_id": "cfccmFfD1Xg",
+    "video_title": "How to Create This AWESOME\u00a0Comparison Slide in PowerPoint #powerpointanimation",
+    "video_url": "https://www.youtube.com/watch?v=cfccmFfD1Xg",
+    "views": 7928
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:01Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_card_flip_layered_morph_t_6ff9563b",
+  "skill_name": "Interactive 3D Card Flip (Layered Morph Technique)",
+  "source": {
+    "channel": "PAPAYA \u96fb\u8166\u6559\u5ba4",
+    "duration_sec": 650,
+    "type": "youtube",
+    "video_id": "2msAiucGSAM",
+    "video_title": "\u5982\u4f55\u5728 PowerPoint \u88fd\u4f5c 3D \u6380\u724c\u52d5\u756b\uff1f #PPT\u6559\u5b7819 #\u8986\u84cb\u4e00\u5f35\u724c\u7d50\u675f\u9019\u56de\u5408",
+    "video_url": "https://www.youtube.com/watch?v=2msAiucGSAM",
+    "views": 123976
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:35:11Z",
+  "wash_version": "1.0.0"
+}

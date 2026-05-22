@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "syncopated_slap_bassline_groove_cea3318e",
+  "skill_name": "Syncopated Slap Bassline Groove",
+  "source": {
+    "channel": "Synthet",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=FVoDtyZzO8s"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:38:32Z",
+  "wash_version": "1.0.0"
+}

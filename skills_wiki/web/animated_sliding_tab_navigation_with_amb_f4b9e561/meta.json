@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_sliding_tab_navigation_with_amb_f4b9e561",
+  "skill_name": "Animated Sliding Tab Navigation with Ambient Theme Toggle",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:35:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 5,
+          "description": "Initial light mode application design"
+        },
+        {
+          "seconds": 12,
+          "description": "Initial dark mode application design"
+        },
+        {
+          "seconds": 20,
+          "description": "Tab navigation and content cards appear in light mode"
+        },
+        {
+          "seconds": 29,
+          "description": "Stylized title with gradient text and cards with shadows in light mode"
+        },
+        {
+          "seconds": 37,
+          "description": "Fully styled dark mode application with working toggle"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_light_mode_application.jpg",
+        "frame_01_initial_dark_mode_application_.jpg",
+        "frame_02_tab_navigation_and_content_car.jpg",
+        "frame_03_stylized_title_with_gradient_t.jpg",
+        "frame_04_fully_styled_dark_mode_applica.jpg"
+      ],
+      "recapped_at": 1777408587.6689444
+    },
+    "primary_path": "frame_00_initial_light_mode_application.jpg"
+  }
+}

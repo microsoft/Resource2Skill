@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_navigation_sidebar_dashboard_3976e712",
+  "skill_name": "Interactive Navigation Sidebar Dashboard",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "fully completed interactive Excel dashboard"
+        },
+        {
+          "seconds": 355,
+          "description": "dashboard structure with all section titles and placeholders"
+        },
+        {
+          "seconds": 837,
+          "description": "all individual charts and visual elements created on input tab"
+        },
+        {
+          "seconds": 1454,
+          "description": "fully assembled and customized Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_completed_interactive_ex.jpg",
+        "frame_01_dashboard_structure_with_all_s.jpg",
+        "frame_02_all_individual_charts_and_visu.jpg"
+      ],
+      "recapped_at": 1777407057.6680632
+    },
+    "primary_path": "frame_00_fully_completed_interactive_ex.jpg"
+  }
+}

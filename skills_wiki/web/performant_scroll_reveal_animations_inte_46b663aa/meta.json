@@ -1,0 +1,35 @@
+{
+  "applicability": "Perfect for long-scrolling pages like SaaS landing pages, portfolios, and timelines. It enhances user engagement by smoothly revealing content without the performance penalty of traditional scroll events.",
+  "category_path": [
+    "animation",
+    "scroll_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "performant_scroll_reveal_animations_inte_46b663aa",
+  "skill_name": "Intersection Observer Scroll-Reveal",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 254,
+    "type": "youtube",
+    "video_id": "adqwnu3gs2k",
+    "video_title": "Create Amazing SCROLL Animations with Intersection Observer",
+    "video_url": "https://www.youtube.com/watch?v=adqwnu3gs2k",
+    "views": 50503
+  },
+  "tags": [
+    "scroll-reveal",
+    "intersection-observer",
+    "performance",
+    "css-animation",
+    "viewport"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:08:33Z",
+  "wash_version": "1.0.0"
+}

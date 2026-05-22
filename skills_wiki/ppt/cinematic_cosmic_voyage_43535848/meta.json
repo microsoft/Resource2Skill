@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_cosmic_voyage_43535848",
+  "skill_name": "Cinematic Cosmic Voyage",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 274,
+    "type": "youtube",
+    "video_id": "6F-ZntUphTc",
+    "video_title": "PPT\u521b\u610f\u73a9\u6cd5\uff1aPPT\u5236\u4f5c\u661f\u9645\u7a7f\u8d8a\u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=6F-ZntUphTc",
+    "views": 181
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:25:28Z",
+  "wash_version": "1.0.0"
+}

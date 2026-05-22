@@ -1,0 +1,119 @@
+{
+  "theme_id": "blurple_afterdark",
+  "name": "Blurple After Dark",
+  "origin": "web_distilled",
+  "source_url": "https://discord.com/branding",
+  "source_title": "Discord Branding",
+  "source_kind": "brand_site",
+  "palette": {
+    "bg": "#23272A",
+    "panel": "#2C2F33",
+    "accent": "#5865F2",
+    "accent2": "#FEE75C",
+    "text": "#FFFFFF",
+    "muted": "#99AAB5",
+    "border": "#99AAB5",
+    "success": "#57F287",
+    "warning": "#FEE75C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "subtle broadcast grid under luminous indigo panels"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "cinematic",
+    "bold",
+    "technical"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "glow",
+    "cinematic",
+    "grid",
+    "pulse"
+  ],
+  "avoided_motion_tags": [
+    "ink",
+    "wash",
+    "confetti"
+  ]
+}

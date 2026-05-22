@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_ambient_glow_interactive_glassmorph_8421f2d4",
+  "skill_name": "Neon Ambient Glow & Interactive Glassmorphism Menu",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 1248,
+    "type": "youtube",
+    "video_id": "z2ReUW-nPos",
+    "video_title": "How to Make Your PowerPoint Slides INTERACTIVE! \ud83d\udd25 Step-by-Step",
+    "video_url": "https://www.youtube.com/watch?v=z2ReUW-nPos",
+    "views": 117802
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:40:31Z",
+  "wash_version": "1.0.0"
+}

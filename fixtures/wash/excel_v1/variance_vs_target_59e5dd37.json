@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "formulas"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "variance_vs_target_59e5dd37",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

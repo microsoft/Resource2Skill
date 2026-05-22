@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "conditional_data_bar_leaderboard_a6597532",
+  "skill_name": "Conditional Data Bar Leaderboard",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:30:30Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Preview of the completed sales dashboard"
+        },
+        {
+          "seconds": 749,
+          "description": "Header section with KPI cards completed"
+        },
+        {
+          "seconds": 1019,
+          "description": "Sales Agent KPIs table with conditional formatting"
+        },
+        {
+          "seconds": 1550,
+          "description": "All dashboard charts are integrated and styled"
+        },
+        {
+          "seconds": 1819,
+          "description": "Final interactive sales dashboard with refreshed data"
+        }
+      ],
+      "frames": [
+        "frame_00_preview_of_the_completed_sales.jpg",
+        "frame_01_header_section_with_kpi_cards_.jpg",
+        "frame_02_sales_agent_kpis_table_with_co.jpg"
+      ],
+      "recapped_at": 1777406377.0350816
+    },
+    "primary_path": "frame_00_preview_of_the_completed_sales.jpg"
+  }
+}

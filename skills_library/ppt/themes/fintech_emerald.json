@@ -1,0 +1,116 @@
+{
+  "theme_id": "fintech_emerald",
+  "name": "Fintech Emerald",
+  "palette": {
+    "bg": "#0A1A14",
+    "panel": "#102220",
+    "accent": "#2FC28F",
+    "accent2": "#F2C94C",
+    "text": "#E9F5EE",
+    "muted": "#6A7E75",
+    "border": "#1B2D29",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Consolas",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Segoe UI",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "chart_grid",
+    "description": "Subtle chart gridlines; emerald on near-black"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "restrained",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "spin"
+    ]
+  },
+  "mood": [
+    "boardroom",
+    "technical",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "data",
+    "boardroom",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "axis",
+    "bar-grow",
+    "slot-machine",
+    "hairline",
+    "row-cascade",
+    "audit-tick"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "confetti",
+    "balloon",
+    "glitch"
+  ]
+}

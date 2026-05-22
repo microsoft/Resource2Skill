@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for EDM, Future Bass, and House tracks to create rhythmic pumping effects. This approach directly writes volume envelopes for precise, sample-accurate ducking without plugin latency.",
+  "category_path": [
+    "mixing",
+    "automation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_volume_ducking_pseudo_sidecha_4718265b",
+  "skill_name": "Procedural Volume Ducking (Pseudo-Sidechain) via Automation",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 643,
+    "type": "youtube",
+    "video_id": "IBPIjLLnDhk",
+    "video_title": "The Automation Basics in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=IBPIjLLnDhk",
+    "views": 20837
+  },
+  "tags": [
+    "automation",
+    "ducking",
+    "sidechain",
+    "volume",
+    "edm"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:29:24Z",
+  "wash_version": "1.0.0"
+}

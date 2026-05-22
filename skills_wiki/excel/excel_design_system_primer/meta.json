@@ -1,0 +1,13 @@
+{
+  "applicability": "Foundational primer for Excel workbook tasks. Provides theme catalog (corporate_blue, dark_finance, clean_minimal, etc.), tier dispatch logic, kwargs_json examples, common pitfalls, and openpyxl API patterns. Auto-loaded for with_skills mode.",
+  "category_path": ["primer"],
+  "exec_ok": null,
+  "license": "internal",
+  "modalities_present": ["text"],
+  "schema_version": "1.0.0",
+  "skill_id": "excel_design_system_primer",
+  "skill_name": "Excel Design-System Primer (themes, tiers, openpyxl patterns)",
+  "source": {"type": "internal"},
+  "tags": ["primer", "excel", "themes", "openpyxl", "tiers"],
+  "tier": "T1"
+}

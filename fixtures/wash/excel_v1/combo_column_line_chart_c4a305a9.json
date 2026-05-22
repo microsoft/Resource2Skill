@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "combo_column_line_chart_c4a305a9",
+  "source": {
+    "channel": "TrumpExcel",
+    "duration_sec": 883,
+    "type": "youtube",
+    "video_id": "5TkRnGdC1NM",
+    "video_title": "Excel Dashboard Course #21 - Creating a Pivot table Dashboard with Slicers in Excel (in 15 minutes)",
+    "video_url": "https://www.youtube.com/watch?v=5TkRnGdC1NM",
+    "views": 620329
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

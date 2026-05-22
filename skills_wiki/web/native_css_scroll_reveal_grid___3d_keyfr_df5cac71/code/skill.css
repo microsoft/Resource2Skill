@@ -1,0 +1,5 @@
+    @media (prefers-reduced-motion: no-preference) {
+        @supports (animation-timeline: view()) {
+             .card { animation: scrollReveal linear both; ... }
+        }
+    }

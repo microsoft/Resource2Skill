@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for exterior architectural visualization and outdoor cinematic scenes. Decouples the procedural sky's ambient fill from the primary directional light for independent control over shadow softness and direct lighting.",
+  "category_path": [
+    "lighting",
+    "environment"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "atmospheric_environmental_lighting_decou_d90e8f86",
+  "skill_name": "Atmospheric Environmental Lighting (Decoupled Sky & Sun)",
+  "source": {
+    "channel": "D5 Official",
+    "duration_sec": 158,
+    "type": "youtube",
+    "video_id": "sUdlLDxL0AM",
+    "video_title": "How to render realistic environmental lighting for exterior scenes | Render Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=sUdlLDxL0AM",
+    "views": 96385
+  },
+  "tags": [
+    "sky_texture",
+    "sun_light",
+    "nishita",
+    "exterior_lighting",
+    "environment"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:31Z",
+  "wash_version": "1.0.0"
+}

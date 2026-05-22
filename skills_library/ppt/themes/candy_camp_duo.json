@@ -1,0 +1,120 @@
+{
+  "theme_id": "candy_camp_duo",
+  "name": "Candy Camp Duo",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/ff6b6b-ffd166-06d6a0-118ab2-073b4c",
+  "source_title": "Coolors palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#FFF9F2",
+    "panel": "#FFF1D9",
+    "accent": "#FF6B6B",
+    "accent2": "#118AB2",
+    "text": "#073B4C",
+    "muted": "#4C6570",
+    "border": "#FFD166",
+    "success": "#06D6A0",
+    "warning": "#FFD166"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Century Gothic",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Century Gothic",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "fine_grid",
+    "description": "clean camp-poster grid with bright sticker accents"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "bold",
+    "preferred_entrance": [
+      "slide_in_right",
+      "zoom_in",
+      "bounce"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "bold",
+    "playful",
+    "warm"
+  ],
+  "archetype_fit": [
+    "product",
+    "brand",
+    "data"
+  ],
+  "preferred_motion_tags": [
+    "bounce",
+    "confetti",
+    "grid",
+    "pulse"
+  ],
+  "avoided_motion_tags": [
+    "editorial",
+    "ink",
+    "restrained"
+  ]
+}

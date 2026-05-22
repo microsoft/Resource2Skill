@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "three_panel_dashboard_shell_784aee46",
+  "skill_name": "Three-Panel Dashboard Shell",
+  "source": {
+    "channel": "Teacher's Tech",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=9n-_vIAT-GY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:26Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 7,
+          "description": "Fully interactive dashboard preview"
+        },
+        {
+          "seconds": 404,
+          "description": "First chart (monthly revenue trend) with a state slicer"
+        },
+        {
+          "seconds": 714,
+          "description": "Second chart (units sold by product category) with year and month slicers"
+        },
+        {
+          "seconds": 1030,
+          "description": "Third chart (top 5 states by profit)"
+        },
+        {
+          "seconds": 2035,
+          "description": "Completed interactive dashboard with all charts and slicers, styled with a theme"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_interactive_dashboard_pr.jpg",
+        "frame_01_first_chart_monthly_revenue_tr.jpg",
+        "frame_02_second_chart_units_sold_by_pro.jpg",
+        "frame_03_third_chart_top_5_states_by_pr.jpg"
+      ],
+      "recapped_at": 1777407884.9367657
+    },
+    "primary_path": "frame_00_fully_interactive_dashboard_pr.jpg"
+  }
+}

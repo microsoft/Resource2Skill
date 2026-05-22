@@ -1,0 +1,7 @@
+{
+  "name": "sumifs_dynamic",
+  "description": "Multi-criteria SUMIFS with dynamic criteria range",
+  "pattern": "=SUMIFS({sum_range},{crit_range_1},{crit_1},{crit_range_2},{crit_2})",
+  "example": "=SUMIFS(D:D, A:A, \"Q1\", B:B, \"North\")",
+  "result_format": "thousand_sep"
+}

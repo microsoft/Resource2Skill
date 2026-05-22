@@ -1,0 +1,63 @@
+{
+  "skill_id": "staggered_magnifier_grid_cb03f3",
+  "skill_type": "shell",
+  "name": "Staggered Magnifier Grid",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "bullet_card_list"
+    ],
+    "content_shape": [
+      "staggered-3-column-icons"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "corporate",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "features",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/staggered_magnifier_grid_cb03f3/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "split_pane_b_w_hero_with_oversized_accen_3619ee33",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Uses a staggered 3-column layout with custom-drawn magnifying glass graphics to highlight key features or steps in a playful yet structured way.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_3d_coverflow_gallery_with_dyna_bfbf1cea",
+  "source": {
+    "channel": "rouven lue",
+    "duration_sec": 341,
+    "type": "youtube",
+    "video_id": "_VXvOAmT-H8",
+    "video_title": "Creating my Interactive 3D Portfolio: Building a 3D Gallery with Three.js | Portfolio Journey 5",
+    "video_url": "https://www.youtube.com/watch?v=_VXvOAmT-H8",
+    "views": 7146
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

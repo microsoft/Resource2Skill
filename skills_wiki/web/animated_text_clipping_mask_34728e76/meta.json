@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_text_clipping_mask_34728e76",
+  "skill_name": "Animated Text Clipping Mask",
+  "source": {
+    "channel": "Avro",
+    "duration_sec": 277,
+    "type": "youtube",
+    "video_id": "_TPUkTB5_HM",
+    "video_title": "Animated Background text clipping effect with Elementor and Css - Avro",
+    "video_url": "https://www.youtube.com/watch?v=_TPUkTB5_HM",
+    "views": 2882
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:38Z",
+  "wash_version": "1.0.0"
+}

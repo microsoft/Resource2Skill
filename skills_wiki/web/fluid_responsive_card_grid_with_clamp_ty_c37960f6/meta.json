@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for blog rolls, product listing pages, and portfolio galleries that require uniform cards to adapt seamlessly across device sizes. It eliminates abrupt media query breakpoints in favor of smooth, continuous scaling.",
+  "category_path": [
+    "layout",
+    "card_grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_responsive_card_grid_with_clamp_ty_c37960f6",
+  "skill_name": "Fluid Responsive Card Grid with Clamp Typography",
+  "source": {
+    "channel": "Coder Coder",
+    "duration_sec": 2353,
+    "type": "youtube",
+    "video_id": "vQDgoQKfdzM",
+    "video_title": "How to make your website responsive",
+    "video_url": "https://www.youtube.com/watch?v=vQDgoQKfdzM",
+    "views": 95979
+  },
+  "tags": [
+    "css_grid",
+    "clamp_typography",
+    "fluid_design",
+    "responsive_layout",
+    "card_grid"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:42Z",
+  "wash_version": "1.0.0"
+}

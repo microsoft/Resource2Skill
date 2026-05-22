@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_art_direction_resolution_swit_cecc4118",
+  "source": {
+    "channel": "Tuts+ Web Design",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "xbVnaKV5I-c",
+    "video_title": "How to Create Responsive Images Using the Picture Element",
+    "video_url": "https://www.youtube.com/watch?v=xbVnaKV5I-c",
+    "views": 8365
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_dashboard_layout_shell_066bbd71",
+  "skill_name": "Executive Dashboard Layout Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:44:03Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "interactive dashboard preview"
+        },
+        {
+          "seconds": 651,
+          "description": "first stacked column chart created"
+        },
+        {
+          "seconds": 1137,
+          "description": "all three charts laid out on the dashboard"
+        },
+        {
+          "seconds": 1526,
+          "description": "dashboard fully interactive with slicers"
+        },
+        {
+          "seconds": 1714,
+          "description": "polished dashboard view with gridlines and headings removed"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_dashboard_preview.jpg",
+        "frame_01_first_stacked_column_chart_cre.jpg",
+        "frame_02_all_three_charts_laid_out_on_t.jpg"
+      ],
+      "recapped_at": 1777406696.0956721
+    },
+    "primary_path": "frame_00_interactive_dashboard_preview.jpg"
+  }
+}

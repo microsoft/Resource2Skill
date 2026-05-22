@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://videoworldskills.local/schemas/skill_wiki/index.schema.json",
+  "title": "Skill Wiki domain index manifest",
+  "type": "object",
+  "required": ["schema_version", "wash_version", "domain", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "wash_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "domain": {"type": "string", "minLength": 1},
+    "built_at": {"type": "string"},
+    "entries": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/entry"}
+    }
+  },
+  "definitions": {
+    "entry": {
+      "type": "object",
+      "required": [
+        "skill_id",
+        "skill_name",
+        "tier",
+        "category_path",
+        "modalities_present",
+        "source",
+        "license",
+        "exec_ok",
+        "schema_version",
+        "wash_version"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "skill_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_]*[a-z0-9]$"},
+        "skill_name": {"type": "string", "minLength": 1},
+        "tier": {"type": "string", "enum": ["T1", "T2", "T3", "T4", "T5"]},
+        "tier_label": {"type": "string"},
+        "category_path": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_]*$"}
+        },
+        "modalities_present": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["source", "visual", "text", "code"]}
+        },
+        "applicability": {"type": "string"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "code": {
+          "type": ["object", "null"],
+          "properties": {
+            "path": {"type": "string"},
+            "callable": {"type": "string"},
+            "entrypoint": {"type": "string"}
+          }
+        },
+        "text": {
+          "type": ["object", "null"],
+          "properties": {
+            "overview_path": {"type": "string"},
+            "name": {"type": "string"},
+            "description": {"type": "string"},
+            "applicability": {"type": "string"}
+          }
+        },
+        "visual": {
+          "type": ["object", "null"],
+          "properties": {
+            "thumbnail": {"type": "string"},
+            "preview": {"type": "string"}
+          }
+        },
+        "source": {
+          "type": "object",
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["youtube", "github", "article", "docs", "manual", "distilled", "static_artifact"]
+            },
+            "url": {"type": ["string", "null"]},
+            "channel": {"type": ["string", "null"]},
+            "captured": {"type": ["string", "null"]}
+          }
+        },
+        "license": {
+          "type": ["string", "null"]
+        },
+        "exec_ok": {"type": ["boolean", "null"]},
+        "judge_score": {"type": ["number", "null"]},
+        "uses_count": {"type": ["integer", "null"], "minimum": 0},
+        "deps": {"type": "array", "items": {"type": "string"}},
+        "wash_errors": {"type": "array", "items": {"type": "string"}},
+        "schema_version": {"type": "string"},
+        "wash_version": {"type": "string"},
+        "wash_run_at": {"type": "string"},
+        "embedding_meta": {
+          "type": "object",
+          "properties": {
+            "embedding_model": {"type": "string"},
+            "model_version": {"type": "string"},
+            "dim": {"type": "integer", "minimum": 1}
+          }
+        },
+        "demo_verified": {"type": "boolean"},
+        "retrieval_verified": {"type": "boolean"}
+      }
+    }
+  }
+}

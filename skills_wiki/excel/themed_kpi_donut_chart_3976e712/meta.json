@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "themed_kpi_donut_chart_3976e712",
+  "skill_name": "Themed KPI Donut Chart",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:18:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 354,
+          "description": "Empty dashboard layout with section titles"
+        },
+        {
+          "seconds": 838,
+          "description": "All charts generated on the inputs sheet"
+        },
+        {
+          "seconds": 1421,
+          "description": "Dashboard with all charts placed and initially formatted"
+        },
+        {
+          "seconds": 1453,
+          "description": "Final interactive and fully designed Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_empty_dashboard_layout_with_se.jpg",
+        "frame_01_all_charts_generated_on_the_in.jpg"
+      ],
+      "recapped_at": 1777407767.4980624
+    },
+    "primary_path": "frame_00_empty_dashboard_layout_with_se.jpg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "narrative_driven_highlight_chart_data_st_31af71ac",
+  "skill_name": "Narrative-Driven Highlight Chart (Data Storytelling Format)",
+  "source": {
+    "channel": "Christine Jiang",
+    "duration_sec": 775,
+    "type": "youtube",
+    "video_id": "H79S8YDuYUU",
+    "video_title": "Data Storytelling 101 | Think Like a Data Analyst",
+    "video_url": "https://www.youtube.com/watch?v=H79S8YDuYUU",
+    "views": 56120
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:40Z",
+  "wash_version": "1.0.0"
+}

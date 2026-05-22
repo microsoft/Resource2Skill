@@ -1,0 +1,38 @@
+{
+  "applicability": "Ideal for high-end product landing pages, interactive documentaries, and premium brand portfolios. It's best suited for cinematic web experiences prioritizing visual spectacle over dense text.",
+  "category_path": [
+    "hero_section",
+    "video",
+    "interaction"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_scrubbed_cinematic_background_vid_37d77ae5",
+  "skill_name": "Scroll-Scrubbed Cinematic Background Video",
+  "source": {
+    "channel": "Design Synth",
+    "duration_sec": 574,
+    "type": "youtube",
+    "video_id": "mciULR6y4ts",
+    "video_title": "Play Video on Scroll Using HTML, CSS & JavaScript | GSAP ScrollTrigger Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=mciULR6y4ts",
+    "views": 3737
+  },
+  "tags": [
+    "video",
+    "scroll interaction",
+    "cinematic",
+    "background",
+    "immersive",
+    "storytelling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:11:47Z",
+  "wash_version": "1.0.0"
+}

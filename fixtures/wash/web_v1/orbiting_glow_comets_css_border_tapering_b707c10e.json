@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "orbiting_glow_comets_css_border_tapering_b707c10e",
+  "source": {
+    "channel": "ProgrammingTube",
+    "duration_sec": 226,
+    "type": "youtube",
+    "video_id": "4guj-kSuOJY",
+    "video_title": "Creative CSS Loading Animation Effects | CSS Animation Tutorial for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=4guj-kSuOJY",
+    "views": 185
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

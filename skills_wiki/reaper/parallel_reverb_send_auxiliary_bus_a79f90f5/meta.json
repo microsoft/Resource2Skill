@@ -1,0 +1,37 @@
+{
+  "applicability": "This is the industry-standard method for applying reverb to key mix elements like vocals, drums, and lead instruments. It creates a sense of space and depth while preserving the clarity and transient punch of the original source.",
+  "category_path": [
+    "mixing",
+    "routing",
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parallel_reverb_send_auxiliary_bus_a79f90f5",
+  "skill_name": "Create a Parallel Reverb Send",
+  "source": {
+    "channel": "ReaperHelp",
+    "duration_sec": 265,
+    "type": "youtube",
+    "video_id": "V2bk-DvasZM",
+    "video_title": "How to Create A Reverb Send in Reaper - Easy Beginner Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=V2bk-DvasZM",
+    "views": 2214
+  },
+  "tags": [
+    "reverb",
+    "parallel processing",
+    "aux send",
+    "mixing",
+    "spatial effects"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:52:46Z",
+  "wash_version": "1.0.0"
+}

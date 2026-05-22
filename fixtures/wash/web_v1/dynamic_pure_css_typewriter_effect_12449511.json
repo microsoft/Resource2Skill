@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_pure_css_typewriter_effect_12449511",
+  "source": {
+    "channel": "Clueless Expert",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "yefgBA1CecI",
+    "video_title": "Typewriter Animation in CSS",
+    "video_url": "https://www.youtube.com/watch?v=yefgBA1CecI",
+    "views": 183832
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

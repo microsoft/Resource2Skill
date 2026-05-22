@@ -1,0 +1,35 @@
+{
+  "applicability": "Transforms abstract percentages into intuitive, analog-style gauges. Ideal for high-level KPI dashboards and executive reports where quick visual assessment of performance against a target is crucial.",
+  "category_path": [
+    "dashboard",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_dashboard_gauge_panel_9ab8ceb0",
+  "skill_name": "KPI Gauge Panel",
+  "source": {
+    "channel": "PowerPointCourse",
+    "duration_sec": 421,
+    "type": "youtube",
+    "video_id": "_yryx-xAImE",
+    "video_title": "\u5982\u4f55\u7528PPT\u505a\u5100\u9336\u677f\u6578\u5b57\u52d5\u756b",
+    "video_url": "https://www.youtube.com/watch?v=_yryx-xAImE",
+    "views": 1801
+  },
+  "tags": [
+    "gauge",
+    "dashboard",
+    "kpi",
+    "performance_metrics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:30Z",
+  "wash_version": "1.0.0"
+}

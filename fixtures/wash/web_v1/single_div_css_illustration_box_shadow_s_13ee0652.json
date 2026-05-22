@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "single_div_css_illustration_box_shadow_s_13ee0652",
+  "source": {
+    "channel": "Coding Artist",
+    "duration_sec": 212,
+    "type": "youtube",
+    "video_id": "FTNKESZ3-es",
+    "video_title": "Making CSS Illustration With a Single Div | CSS Illustration | CSS Speed Art",
+    "video_url": "https://www.youtube.com/watch?v=FTNKESZ3-es",
+    "views": 2941
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

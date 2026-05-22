@@ -1,0 +1,54 @@
+{
+  "skill_id": "perspective_grid_divider_ab7005",
+  "skill_type": "shell",
+  "name": "Perspective Grid Divider",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "perspective-grid+label"
+    ],
+    "density": "low",
+    "mood": [
+      "technical",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/perspective_grid_divider_ab7005/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "retro_futuristic_flight_perspective_grid_62e4eb2c",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Extracts the perspective grid motif and floating label into a stylized, animated section divider.",
+  "_distill_attempts": 1
+}

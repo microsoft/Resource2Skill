@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "orchestrated_gsap_entry_timeline_03f4c983",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 1402,
+    "type": "youtube",
+    "video_id": "m6PDUIF24v4",
+    "video_title": "Learn GSAP In 23 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=m6PDUIF24v4",
+    "views": 238028
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

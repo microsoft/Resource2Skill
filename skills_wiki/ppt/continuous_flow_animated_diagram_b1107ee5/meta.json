@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for technical diagrams, schematics, and flowcharts where visualizing continuous movement (e.g., data, energy) is critical. It transforms static representations into dynamic, engaging simulations.",
+  "category_path": [
+    "animation",
+    "diagrams",
+    "flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_flow_animated_diagram_b1107ee5",
+  "skill_name": "Continuous Flow Animated Diagram",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 324,
+    "type": "youtube",
+    "video_id": "-VjEMvA2R6I",
+    "video_title": "Animate your Technical Diagrams in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=-VjEMvA2R6I",
+    "views": 111237
+  },
+  "tags": [
+    "animation",
+    "flow diagram",
+    "looping GIF",
+    "dynamic",
+    "schematic",
+    "visual communication"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:22Z",
+  "wash_version": "1.0.0"
+}

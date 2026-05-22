@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_2_5d_parallax_parallax_facade_the_lazy_b_2f268d9b",
+  "skill_name": "2.5D Parallax Parallax Facade (The \"Lazy\" Building Generator)",
+  "source": {
+    "channel": "IanHubert",
+    "duration_sec": 60,
+    "type": "youtube",
+    "video_id": "v_ikG-u_6r0",
+    "video_title": "Modeling Buildings in Blender- Lazy Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=v_ikG-u_6r0",
+    "views": 1127385
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:57:31Z",
+  "wash_version": "1.0.0"
+}

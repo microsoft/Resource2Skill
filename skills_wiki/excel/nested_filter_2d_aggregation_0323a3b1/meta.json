@@ -1,0 +1,36 @@
+{
+  "applicability": "Best used for cross-tabular datasets where you need to aggregate values based on both a row label and a column header. This technique cleanly overcomes the limitations of SUMIFS, which strictly requires 1D ranges.",
+  "category_path": [
+    "formula",
+    "aggregation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "nested_filter_2d_aggregation_0323a3b1",
+  "skill_name": "Nested Filter 2D Aggregation",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 701,
+    "type": "youtube",
+    "video_id": "zOG-Dl9W83U",
+    "video_title": "5 Advanced Excel Formulas You Probably Didn't Know!",
+    "video_url": "https://www.youtube.com/watch?v=zOG-Dl9W83U",
+    "views": 382124
+  },
+  "tags": [
+    "filter",
+    "2d-aggregation",
+    "dynamic-arrays",
+    "sum",
+    "cross-tabulation"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T08:56:48Z",
+  "wash_version": "1.0.0"
+}

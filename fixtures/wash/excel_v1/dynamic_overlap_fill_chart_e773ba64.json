@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "chart"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_overlap_fill_chart_e773ba64",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 724,
+    "type": "youtube",
+    "video_id": "RVvzJtxEOgE",
+    "video_title": "How to Create a Infographic in Excel (pictogram with icons)",
+    "video_url": "https://www.youtube.com/watch?v=RVvzJtxEOgE",
+    "views": 129602
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,62 @@
+{
+  "skill_id": "minimal_bullet_list_037056",
+  "skill_type": "shell",
+  "name": "Minimal Bullet List",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list"
+    ],
+    "content_shape": [
+      "title+vertical-bullets"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 6
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_bullet_list_037056/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "progressive_hierarchical_reveal_sequenti_d03419c7",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "The image shows a minimal presenter view with a single bullet point appearing. This translates to a clean, low-density vertical bullet list layout with an optional title.",
+  "_distill_attempts": 1
+}

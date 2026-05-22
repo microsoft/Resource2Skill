@@ -1,0 +1,71 @@
+{
+  "skill_id": "centered_quote_panel_2a2563",
+  "skill_type": "shell",
+  "name": "Centered Quote Panel",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote"
+    ],
+    "content_shape": [
+      "title+centered-panel"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "editorial",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "quote",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 250,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "author",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_quote_panel_2a2563/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "roll_down_canvas_projector_screen_reveal_d76458a0",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted the core layout of a prominent central quote block with an optional title, abstracting away the specific animation graphics to create a clean, reusable quote shell.",
+  "_distill_attempts": 1
+}

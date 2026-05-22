@@ -1,0 +1,67 @@
+{
+  "applicability": "",
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_converting_saas_landing_page_archit_2cba9926",
+  "skill_name": "High-Converting SaaS Landing Page Architecture",
+  "source": {
+    "channel": "Rob Walling",
+    "duration_sec": 1026,
+    "type": "youtube",
+    "video_id": "cJ10BYWNPns",
+    "video_title": "7 CRUCIAL Things Every SaaS Landing Page Should Have (with examples)",
+    "video_url": "https://www.youtube.com/watch?v=cJ10BYWNPns",
+    "views": 12793
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:20:05Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 30,
+          "description": "TinySeed's portfolio page showing various SaaS startup logos."
+        },
+        {
+          "seconds": 228,
+          "description": "CloudForecast.io's landing page highlighting its headline and subheadline structure."
+        },
+        {
+          "seconds": 398,
+          "description": "SwipeWell.app's landing page demonstrating a clear headline, subheadline, and call-to-action."
+        },
+        {
+          "seconds": 521,
+          "description": "UseSummit.com's landing page featuring an embedded Loom video showcasing the product."
+        },
+        {
+          "seconds": 854,
+          "description": "UseSummit.com's testimonial section displaying multiple customer reviews and company logos."
+        }
+      ],
+      "frames": [
+        "frame_00_tinyseed_s_portfolio_page_show.jpg",
+        "frame_01_cloudforecast_io_s_landing_pag.jpg",
+        "frame_02_swipewell_app_s_landing_page_d.jpg",
+        "frame_03_usesummit_com_s_landing_page_f.jpg",
+        "frame_04_usesummit_com_s_testimonial_se.jpg"
+      ],
+      "recapped_at": 1777409909.1246912
+    },
+    "primary_path": "frame_00_tinyseed_s_portfolio_page_show.jpg"
+  }
+}

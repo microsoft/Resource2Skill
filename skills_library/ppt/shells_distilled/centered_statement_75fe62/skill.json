@@ -1,0 +1,52 @@
+{
+  "skill_id": "centered_statement_75fe62",
+  "skill_type": "shell",
+  "name": "Centered Statement",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "quote"
+    ],
+    "content_shape": [
+      "single-centered-text"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "statement",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 150,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_statement_75fe62/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "terminal_typewriter_reveal_0dcf05a6",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A highly minimal layout focusing entirely on a single, centered statement or quote, maximizing whitespace for impact.",
+  "_distill_attempts": 1
+}

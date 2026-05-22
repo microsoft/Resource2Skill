@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for 3-step processes, feature highlights, or agendas, especially in tech, gaming, or modern corporate 'dark mode' presentations. It uses a high-contrast 'neon-on-dark' aesthetic with bold numbering to break monotony and grab attention.",
+  "category_path": [
+    "content_layout",
+    "process_infographic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "offset_diagonal_corner_process_cards_d1b5eb97",
+  "skill_name": "Offset Diagonal-Corner Process Cards",
+  "source": {
+    "channel": "F J",
+    "duration_sec": 653,
+    "type": "youtube",
+    "video_id": "uxhCnoU5MAk",
+    "video_title": "How to make animation round diagonal corner in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=uxhCnoU5MAk",
+    "views": 183
+  },
+  "tags": [
+    "diagonal cards",
+    "process flow",
+    "dark mode",
+    "neon",
+    "3d effect",
+    "sequential"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:37Z",
+  "wash_version": "1.0.0"
+}

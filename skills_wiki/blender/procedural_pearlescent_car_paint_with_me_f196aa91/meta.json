@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_pearlescent_car_paint_with_me_f196aa91",
+  "skill_name": "Procedural Pearlescent Car Paint with Metallic Flakes",
+  "source": {
+    "channel": "Jonas Noell",
+    "duration_sec": 1211,
+    "type": "youtube",
+    "video_id": "0Dc_ZVciD4Q",
+    "video_title": "Blender \u2013 Simple Trick for REALISTIC Metallic Flakes (Car Paint Shader)",
+    "video_url": "https://www.youtube.com/watch?v=0Dc_ZVciD4Q",
+    "views": 3205
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:53Z",
+  "wash_version": "1.0.0"
+}

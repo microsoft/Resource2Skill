@@ -1,0 +1,18 @@
+{
+  "name": "VivaCal",
+  "description": "Custom theme colors inspired by the video's dashboard for VivaCal fashion brand.",
+  "theme_colours": {
+    "dk1": "1F441F",  
+    "lt1": "E5F5E5",  
+    "dk2": "000000",  
+    "lt2": "FFFFFF",  
+    "accent1": "5CB85C", 
+    "accent2": "F0AD4E", 
+    "accent3": "2196F3", 
+    "accent4": "DC3545", 
+    "accent5": "6C757D", 
+    "accent6": "17A2B8", 
+    "hlink": "0000FF",   
+    "folhlink": "800080" 
+  }
+}

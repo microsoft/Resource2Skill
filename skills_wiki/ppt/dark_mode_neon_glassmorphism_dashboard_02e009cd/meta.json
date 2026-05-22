@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_neon_glassmorphism_dashboard_02e009cd",
+  "skill_name": "Dark Mode Neon Glassmorphism Dashboard",
+  "source": {
+    "channel": "uxpeak",
+    "duration_sec": 612,
+    "type": "youtube",
+    "video_id": "Xzh8xjimmp8",
+    "video_title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About \u2013 Part 3",
+    "video_url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
+    "views": 86628
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:09:31Z",
+  "wash_version": "1.0.0"
+}

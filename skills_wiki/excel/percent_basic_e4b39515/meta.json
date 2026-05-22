@@ -1,0 +1,29 @@
+{
+  "applicability": "Applied to numeric cells to display fractions and decimals as a percentage with exactly one decimal place. It is widely used in standard financial, academic, and statistical reporting to provide clear, moderate precision.",
+  "category_path": [
+    "formatting",
+    "number_formats"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "percent_basic_e4b39515",
+  "skill_name": "percent_basic",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "percentage",
+    "number formatting",
+    "decimal",
+    "cell format",
+    "precision"
+  ],
+  "tier": "T1",
+  "wash_run_at": "2026-04-27T09:01:26Z",
+  "wash_version": "1.0.0"
+}

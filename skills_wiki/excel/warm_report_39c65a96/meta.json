@@ -1,0 +1,25 @@
+{
+  "applicability": "",
+  "category_path": [
+    "themes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "warm_report_39c65a96",
+  "skill_name": "warm_report",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:51Z",
+  "wash_version": "1.0.0"
+}

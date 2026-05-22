@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "table"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_4d140d62",
+  "source": {
+    "channel": "Excel Dashboard Templates",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "atjz34a7KT8",
+    "video_title": "How-to Create Excel Slicers for Your Dynamic Dashboard",
+    "video_url": "https://www.youtube.com/watch?v=atjz34a7KT8",
+    "views": 4785
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

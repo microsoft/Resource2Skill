@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trap_808_kick_syncopation_with_sidechain_bad06e4e",
+  "skill_name": "Trap 808 & Kick Syncopation with Sidechain Routing",
+  "source": {
+    "channel": "Beats By Canna",
+    "duration_sec": 2104,
+    "type": "youtube",
+    "video_id": "wsY0M2VLW2Q",
+    "video_title": "LETS GO!!! Making a Trap/Hip Hop beat in Reaper",
+    "video_url": "https://www.youtube.com/watch?v=wsY0M2VLW2Q",
+    "views": 3904
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:52Z",
+  "wash_version": "1.0.0"
+}

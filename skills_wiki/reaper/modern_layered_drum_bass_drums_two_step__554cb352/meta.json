@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_layered_drum_bass_drums_two_step__554cb352",
+  "skill_name": "Modern Layered Drum & Bass Drums (Two-Step & Breakbeat Layering)",
+  "source": {
+    "channel": "Sleepy Vibes ",
+    "duration_sec": 265,
+    "type": "youtube",
+    "video_id": "Ahr9HuFPpdk",
+    "video_title": "How To Make DnB/Jungle Drums!",
+    "video_url": "https://www.youtube.com/watch?v=Ahr9HuFPpdk",
+    "views": 54391
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:40Z",
+  "wash_version": "1.0.0"
+}

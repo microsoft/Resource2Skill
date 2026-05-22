@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_holographic_loader_42a900fb",
+  "skill_name": "3D Glowing Holographic Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:19:40Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "showcase of animated website designs"
+        },
+        {
+          "seconds": 17,
+          "description": "animated blue square with text"
+        },
+        {
+          "seconds": 299,
+          "description": "blue square animating with grow and rotate steps"
+        },
+        {
+          "seconds": 653,
+          "description": "interactive animation with play and pause buttons"
+        },
+        {
+          "seconds": 828,
+          "description": "final loading animation with 3D rotation"
+        }
+      ],
+      "frames": [
+        "frame_00_showcase_of_animated_website_d.jpg",
+        "frame_01_animated_blue_square_with_text.jpg",
+        "frame_02_blue_square_animating_with_gro.jpg"
+      ],
+      "recapped_at": 1777407987.6757252
+    },
+    "primary_path": "frame_00_showcase_of_animated_website_d.jpg"
+  }
+}

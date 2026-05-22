@@ -1,0 +1,30 @@
+{
+  "applicability": "This material preset is suited for rendering realistic raw poured concrete surfaces, ideal for architectural walls, floors, brutalist designs, and industrial environments.",
+  "category_path": [
+    "material_presets",
+    "concrete"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "concrete_raw_0ec15c48",
+  "skill_name": "Raw Concrete",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "concrete",
+    "material",
+    "architecture",
+    "brutalist",
+    "industrial",
+    "rough"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:25Z",
+  "wash_version": "1.0.0"
+}

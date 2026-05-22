@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_video_scrubber_scrollytell_d0dc17ac",
+  "source": {
+    "channel": "Nicolai Palmkvist",
+    "duration_sec": 354,
+    "type": "youtube",
+    "video_id": "s7n9vRFvmM0",
+    "video_title": "PLAY VIDEO ON SCROLL - GSAP Scrolltrigger Elementor (No plugin)",
+    "video_url": "https://www.youtube.com/watch?v=s7n9vRFvmM0",
+    "views": 835191
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

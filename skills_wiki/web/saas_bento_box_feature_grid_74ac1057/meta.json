@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for SaaS landing pages (Benefit/Feature sections, Use Cases), product dashboards, and portfolio grids. It transforms passive reading into active exploration of product features.",
+  "category_path": [
+    "card_layout",
+    "grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "saas_bento_box_feature_grid_74ac1057",
+  "skill_name": "SaaS Bento Box Feature Grid",
+  "source": {
+    "channel": "Payton Clark Smith",
+    "duration_sec": 316,
+    "type": "youtube",
+    "video_id": "hPtyEDZtPHA",
+    "video_title": "9 Keys to a Perfect SaaS Website",
+    "video_url": "https://www.youtube.com/watch?v=hPtyEDZtPHA",
+    "views": 8506
+  },
+  "tags": [
+    "bento box",
+    "feature grid",
+    "saas ui",
+    "css grid",
+    "product showcase"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:48:50Z",
+  "wash_version": "1.0.0"
+}

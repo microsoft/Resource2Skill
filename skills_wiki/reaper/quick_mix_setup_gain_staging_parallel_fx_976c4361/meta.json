@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "quick_mix_setup_gain_staging_parallel_fx_976c4361",
+  "skill_name": "Quick Mix Setup: Gain Staging & Parallel FX Architecture",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 615,
+    "type": "youtube",
+    "video_id": "UUBN5UbJsU4",
+    "video_title": "Set Up to Mix Quickly in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=UUBN5UbJsU4",
+    "views": 37114
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:14Z",
+  "wash_version": "1.0.0"
+}

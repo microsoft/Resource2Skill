@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "non_rectangular_layouts_section_dividers_f1db8941",
+  "skill_name": "Non-Rectangular Layouts & Section Dividers",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1115,
+    "type": "youtube",
+    "video_id": "QY7Rj8aZcZk",
+    "video_title": "How to make shapes with CSS",
+    "video_url": "https://www.youtube.com/watch?v=QY7Rj8aZcZk",
+    "views": 360024
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:04:03Z",
+  "wash_version": "1.0.0"
+}

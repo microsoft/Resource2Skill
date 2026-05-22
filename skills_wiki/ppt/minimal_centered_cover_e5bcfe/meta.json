@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for creating clean, corporate cover or section divider slides. Features a centered headline and an optional subtitle, emphasizing whitespace for a modern, minimal aesthetic.",
+  "category_path": [
+    "slide_types",
+    "cover_and_divider"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_centered_cover_e5bcfe",
+  "skill_name": "Minimal Centered Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover",
+    "minimal",
+    "corporate",
+    "centered",
+    "section divider",
+    "title subtitle"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:20Z",
+  "wash_version": "1.0.0"
+}

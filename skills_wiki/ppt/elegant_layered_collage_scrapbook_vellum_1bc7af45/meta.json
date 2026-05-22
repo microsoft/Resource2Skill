@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "elegant_layered_collage_scrapbook_vellum_1bc7af45",
+  "skill_name": "Elegant Layered Collage (Scrapbook / Vellum Card Style)",
+  "source": {
+    "channel": "HSN",
+    "duration_sec": 380,
+    "type": "youtube",
+    "video_id": "CGAv3_Ode5o",
+    "video_title": "Anna Griffin Holiday Vellum Quote Stickers",
+    "video_url": "https://www.youtube.com/watch?v=CGAv3_Ode5o",
+    "views": 367
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:23:42Z",
+  "wash_version": "1.0.0"
+}

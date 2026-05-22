@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_shutter_page_transition_15f2fe2e",
+  "source": {
+    "channel": "PIXEL PERFECT",
+    "duration_sec": 456,
+    "type": "youtube",
+    "video_id": "YxJhV0OHREU",
+    "video_title": "The GSAP Page Transition Every Web Designer Needs to Know",
+    "video_url": "https://www.youtube.com/watch?v=YxJhV0OHREU",
+    "views": 3983
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

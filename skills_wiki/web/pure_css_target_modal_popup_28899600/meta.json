@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for lightweight modals, simple alert dialogs, image lightboxes, cookie consent banners, or informational overlays on static sites where including a JS framework is overkill.",
+  "category_path": [
+    "ui_components",
+    "modal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_target_modal_popup_28899600",
+  "skill_name": "Pure CSS :target Modal Popup",
+  "source": {
+    "channel": "Tyler Potts",
+    "duration_sec": 806,
+    "type": "youtube",
+    "video_id": "czNhJc79LZM",
+    "video_title": "CSS ONLY Modals Tutorial - CSS Popups",
+    "video_url": "https://www.youtube.com/watch?v=czNhJc79LZM",
+    "views": 5366
+  },
+  "tags": [
+    "css-only",
+    "modal",
+    "popup",
+    "overlay",
+    "no-js",
+    "target-pseudo-class"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:06:20Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for exterior architectural visualization, automotive rendering, and product shots. It provides independent control over the environment's lighting contribution without altering the visible background.",
+  "category_path": [
+    "lighting",
+    "environment"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_hdri_lighting_background_spli_fdfd5a3b",
+  "skill_name": "Procedural HDRI Lighting & Background Splitter",
+  "source": {
+    "channel": "P-Designz",
+    "duration_sec": 1061,
+    "type": "youtube",
+    "video_id": "7HeBUYWAUhs",
+    "video_title": "Master HDRI Lighting in Blender | Realistic Lighting Made Easy",
+    "video_url": "https://www.youtube.com/watch?v=7HeBUYWAUhs",
+    "views": 813
+  },
+  "tags": [
+    "hdri",
+    "world_shader",
+    "light_path",
+    "environment_lighting",
+    "shadows"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:12Z",
+  "wash_version": "1.0.0"
+}

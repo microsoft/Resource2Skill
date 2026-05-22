@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_odometer_mechanical_counter_8c85005b",
+  "source": {
+    "channel": "Divinector",
+    "duration_sec": 276,
+    "type": "youtube",
+    "video_id": "rhZgquCAcGc",
+    "video_title": "Pure CSS Number Counter | CSS Countdown animation | No JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=rhZgquCAcGc",
+    "views": 22717
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

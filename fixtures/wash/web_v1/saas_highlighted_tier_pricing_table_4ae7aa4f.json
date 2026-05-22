@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "saas_highlighted_tier_pricing_table_4ae7aa4f",
+  "source": {
+    "channel": "Going-To Internet",
+    "duration_sec": 1628,
+    "type": "youtube",
+    "video_id": "HL8g113jN5g",
+    "video_title": "How To Create a Responsive Pricing Table Using HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=HL8g113jN5g",
+    "views": 3836
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

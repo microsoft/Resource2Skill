@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_non_linear_transition_fades__slow_ffea2998",
+  "skill_name": "Smooth Non-Linear Transition Fades (Slow Start/End)",
+  "source": {
+    "channel": "The REAPER Blog",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=anCtqrunv2A"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:56Z",
+  "wash_version": "1.0.0"
+}

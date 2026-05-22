@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_mobile_slide_out_drawer_f4790706",
+  "skill_name": "Glassmorphism Mobile Slide-Out Drawer",
+  "source": {
+    "channel": "Kevin Powell",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=HbBMp6yUXO0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:29:07Z",
+  "wash_version": "1.0.0"
+}

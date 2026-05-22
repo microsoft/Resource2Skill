@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for title slides and key quotes needing a sophisticated, magazine-like feel over full-bleed images. It enhances visual hierarchy and defines spatial boundaries for text, suited for minimalist design aesthetics.",
+  "category_path": [
+    "text_framing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_right_angle_corner_brackets_11101119",
+  "skill_name": "Editorial Right-Angle Corner Brackets",
+  "source": {
+    "channel": "\u5c0f\u5496PPT\u66f9\u5b78\u658c",
+    "duration_sec": 96,
+    "type": "youtube",
+    "video_id": "IZb-ttXAj9g",
+    "video_title": "\u5feb\u6280\u5de7\uff1a\u8d85\u597d\u7528\u7684\u5782\u76f4\u8f49\u89d2\u62ec\u5f27\uff01\u3010\u5546\u696d\u7c21\u5831PPT\u6559\u5b78\u3011\u5f62\u72c0\u8a2d\u8a08\uff1a\u53f3\u5f4e\u7bad\u865f(PPT DESIGN)   #\u7c21\u5831 \uff03PPT \uff03\u8a2d\u8a08 #ppt",
+    "video_url": "https://www.youtube.com/watch?v=IZb-ttXAj9g",
+    "views": 924
+  },
+  "tags": [
+    "framing",
+    "minimalist",
+    "text overlay",
+    "magazine style",
+    "visual hierarchy",
+    "corner accents"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:23:03Z",
+  "wash_version": "1.0.0"
+}

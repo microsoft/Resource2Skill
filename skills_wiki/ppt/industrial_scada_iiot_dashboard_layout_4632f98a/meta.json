@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "industrial_scada_iiot_dashboard_layout_4632f98a",
+  "skill_name": "Industrial SCADA & IIoT Dashboard Layout",
+  "source": {
+    "channel": "bob chen",
+    "duration_sec": 211,
+    "type": "youtube",
+    "video_id": "e1vyWCNA9jg",
+    "video_title": "viewON KPI Dashboard 01",
+    "video_url": "https://www.youtube.com/watch?v=e1vyWCNA9jg",
+    "views": 166
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:58Z",
+  "wash_version": "1.0.0"
+}

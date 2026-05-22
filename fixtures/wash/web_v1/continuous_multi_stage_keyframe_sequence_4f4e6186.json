@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_multi_stage_keyframe_sequence_4f4e6186",
+  "source": {
+    "channel": "Coding Bathulu",
+    "duration_sec": 802,
+    "type": "youtube",
+    "video_id": "oUZSrZx5cVI",
+    "video_title": "Web Development CSS ANIMATIONS Detail Explanation in Telugu ( Lesson - 24 )",
+    "video_url": "https://www.youtube.com/watch?v=oUZSrZx5cVI",
+    "views": 5107
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

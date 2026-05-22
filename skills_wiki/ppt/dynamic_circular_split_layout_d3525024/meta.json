@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to create a visually engaging split-screen layout, ideal for introduction slides like agendas or team features that combine a strong image with structured text. This layout balances organic shapes with linear typography.",
+  "category_path": [
+    "layout",
+    "split_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_circular_split_layout_d3525024",
+  "skill_name": "Dynamic Circular Split Layout",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 330,
+    "type": "youtube",
+    "video_id": "YbcQ80A5aLA",
+    "video_title": "Product Launch Event Activities Powerpoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=YbcQ80A5aLA",
+    "views": 312
+  },
+  "tags": [
+    "split layout",
+    "circular design",
+    "image mask",
+    "asymmetrical",
+    "corporate"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:43:27Z",
+  "wash_version": "1.0.0"
+}

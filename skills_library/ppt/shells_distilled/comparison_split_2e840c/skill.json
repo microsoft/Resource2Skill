@@ -1,0 +1,104 @@
+{
+  "skill_id": "comparison_split_2e840c",
+  "skill_type": "shell",
+  "name": "Comparison Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "title+2-column-comparison"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "cool"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_a_name",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_a_desc",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_b_name",
+      "kind": "text",
+      "required": true,
+      "style": "subtitle",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "product_b_desc",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "features",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5,
+      "item_schema": {
+        "label": "the dimension being compared (≤25 chars, e.g. 'Latency', 'Supervision')",
+        "val_a": "product A's position on this dimension (≤40 chars)",
+        "val_b": "product B's position on this dimension (≤40 chars)"
+      }
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/comparison_split_2e840c/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "symmetrical_divergent_comparison_dashboa_414e8892",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.6499999999999999
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Uses a central spine and mirrored horizontal pill-shaped bars to create a clear, structured visual comparison between two products, strictly adhering to theme colors.",
+  "_distill_attempts": 3
+}

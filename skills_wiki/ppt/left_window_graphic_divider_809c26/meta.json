@@ -1,0 +1,34 @@
+{
+  "applicability": "This skill is ideal for clearly marking new sections or chapters in a presentation. It combines a distinctive window-pane graphic with optional headline and body text for effective topic introduction.",
+  "category_path": [
+    "layout",
+    "section"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "left_window_graphic_divider_809c26",
+  "skill_name": "Left Window Graphic Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section",
+    "divider",
+    "window",
+    "graphic",
+    "minimal",
+    "text"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:12:10Z",
+  "wash_version": "1.0.0"
+}

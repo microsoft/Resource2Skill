@@ -1,0 +1,35 @@
+{
+  "applicability": "Generates a complete, endlessly looping rhythm section for dance-oriented genres like nu-disco, funk, and French house. This is ideal for creating infectious verses or choruses that need to loop seamlessly without listener fatigue.",
+  "category_path": [
+    "composition",
+    "rhythm_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "daft_punk_disco_funk_groove_ram_style_a99bea01",
+  "skill_name": "RAM-Style Disco-Funk Groove",
+  "source": {
+    "channel": "Kavan Dignam",
+    "duration_sec": 505,
+    "type": "youtube",
+    "video_id": "AZkzR2qpTn0",
+    "video_title": "What Makes Daft Punk's Production So Iconic?",
+    "video_url": "https://www.youtube.com/watch?v=AZkzR2qpTn0",
+    "views": 7655
+  },
+  "tags": [
+    "disco",
+    "funk",
+    "french house",
+    "rhythm section",
+    "groove"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:50Z",
+  "wash_version": "1.0.0"
+}

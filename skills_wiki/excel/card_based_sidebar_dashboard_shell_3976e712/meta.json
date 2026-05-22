@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "card_based_sidebar_dashboard_shell_3976e712",
+  "skill_name": "Card-Based Sidebar Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:11Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 234,
+          "description": "basic dashboard structure with section titles"
+        },
+        {
+          "seconds": 382,
+          "description": "initial line, map, and radar charts created on inputs tab"
+        },
+        {
+          "seconds": 629,
+          "description": "map chart placed and styled on dashboard"
+        },
+        {
+          "seconds": 781,
+          "description": "line chart and radar chart integrated and styled"
+        },
+        {
+          "seconds": 893,
+          "description": "completed interactive Excel dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_basic_dashboard_structure_with.jpg",
+        "frame_01_initial_line_map_and_radar_cha.jpg",
+        "frame_02_map_chart_placed_and_styled_on.jpg",
+        "frame_03_line_chart_and_radar_chart_int.jpg",
+        "frame_04_completed_interactive_excel_da.jpg"
+      ],
+      "recapped_at": 1777406150.3304808
+    },
+    "primary_path": "frame_00_basic_dashboard_structure_with.jpg"
+  }
+}

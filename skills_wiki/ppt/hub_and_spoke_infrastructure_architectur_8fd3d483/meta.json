@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hub_and_spoke_infrastructure_architectur_8fd3d483",
+  "skill_name": "Hub-and-Spoke Infrastructure Architecture Visualization",
+  "source": {
+    "channel": "IntellectMatrix",
+    "duration_sec": 569,
+    "type": "youtube",
+    "video_id": "tgRyzbAbbks",
+    "video_title": "How to prepare a basic network diagram using Cisco icons & MS Power Point",
+    "video_url": "https://www.youtube.com/watch?v=tgRyzbAbbks",
+    "views": 56655
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:14Z",
+  "wash_version": "1.0.0"
+}

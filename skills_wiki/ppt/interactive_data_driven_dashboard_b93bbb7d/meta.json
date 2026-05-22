@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for project management reports, business intelligence summaries, and performance tracking. This modern, dark-themed layout consolidates complex data into a clear, single-view narrative for executive review.",
+  "category_path": [
+    "dashboard",
+    "kpi_report"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_data_driven_dashboard_b93bbb7d",
+  "skill_name": "Modern KPI Dashboard",
+  "source": {
+    "channel": "PAPAYA \u96fb\u8166\u6559\u5ba4",
+    "duration_sec": 1017,
+    "type": "youtube",
+    "video_id": "OkUAr1IcSSg",
+    "video_title": "\u5982\u4f55\u88fd\u4f5c\u4e00\u500b **\u8b93\u4f60\u770b\u8d77\u4f86\u6709\u9ede\u53b2\u5bb3** \u7684\u300c\u4e92\u52d5\u5f0f\u5c08\u6848\u7ba1\u7406\u5100\u8868\u677f\u300d| Excel \u6559\u5b78 45",
+    "video_url": "https://www.youtube.com/watch?v=OkUAr1IcSSg",
+    "views": 495409
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "project management",
+    "data visualization",
+    "dark theme"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:41:25Z",
+  "wash_version": "1.0.0"
+}

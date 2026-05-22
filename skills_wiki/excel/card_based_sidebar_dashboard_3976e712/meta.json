@@ -1,0 +1,55 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "card_based_sidebar_dashboard_3976e712",
+  "skill_name": "Card-Based Sidebar Dashboard",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:11Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 354,
+          "description": "Dashboard layout with section titles"
+        },
+        {
+          "seconds": 955,
+          "description": "South America map chart placed on dashboard"
+        },
+        {
+          "seconds": 1059,
+          "description": "Sales trend line chart placed and colored on dashboard"
+        },
+        {
+          "seconds": 1215,
+          "description": "Customer satisfaction radar chart placed and styled on dashboard"
+        },
+        {
+          "seconds": 1453,
+          "description": "Complete dashboard with all KPI cards and charts"
+        }
+      ],
+      "frames": [
+        "frame_00_dashboard_layout_with_section_.jpg"
+      ],
+      "recapped_at": 1777406185.3209321
+    },
+    "primary_path": "frame_00_dashboard_layout_with_section_.jpg"
+  }
+}

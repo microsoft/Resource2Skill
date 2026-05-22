@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_tri_panel_pillar_layout_edito_4edf740a",
+  "skill_name": "Asymmetric Tri-Panel Pillar Layout (Editorial Split-Screen)",
+  "source": {
+    "channel": "Andrew Pach - PowerPoint Training",
+    "duration_sec": 468,
+    "type": "youtube",
+    "video_id": "aq6Lft41_qc",
+    "video_title": "PowerPoint Slide Divided Into Four Sections - Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=aq6Lft41_qc",
+    "views": 102006
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:42:39Z",
+  "wash_version": "1.0.0"
+}

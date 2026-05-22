@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell is ideal for creating a simple, impactful closing slide with a prominent, centered headline, providing a strong conclusion to any presentation.",
+  "category_path": [
+    "presentation_flow",
+    "closing_slides"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bold_closing_7ab5e7",
+  "skill_name": "Bold Closing",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "closing slide",
+    "bold",
+    "minimalist",
+    "headline",
+    "accent background"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:00:28Z",
+  "wash_version": "1.0.0"
+}

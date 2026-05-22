@@ -1,0 +1,45 @@
+[
+  {
+    "skill_id": "static_hero_panel_gradient",
+    "name": "Hero Panel with Gradient",
+    "license": "mit",
+    "path": "_seed/hero_panel_gradient.html",
+    "format": "html",
+    "description": "# Hero Panel with Gradient\n\nFull-bleed hero section with a left-aligned headline, subhead, and CTA button on top of a 135-degree linear-gradient background. Uses CSS Grid to align headline column (60%) and decorative image column (40%) on screens ≥ 768px and stacks them on smaller viewports.\n\n## Markup\n- `<section class=\"hero\">` — outer container\n- `<div class=\"hero__content\">` — text column (h1, p, a.cta)\n- `<div class=\"hero__visual\">` — decorative column (svg / img)\n\n## Theming knobs\n- `--hero-gradient-from`, `--hero-gradient-to` (CSS custom properties)\n- `--cta-bg`, `--cta-fg` for the button colour pair\n- `--max-width` for the container\n\n## Suggested use\nUse as the first viewport on a marketing landing page. Pair with the bento card grid below for a complete above-fold layout.",
+    "applicability": "Marketing landing-page hero section with gradient background, headline column, and CTA button.",
+    "tags": ["hero", "gradient", "css_grid", "landing_page", "marketing"],
+    "source_url": "https://github.com/skill-wiki-static/web-hero-panel"
+  },
+  {
+    "skill_id": "static_bento_card_grid",
+    "name": "Bento Card Grid (3x3)",
+    "license": "cc-by-4.0",
+    "path": "_seed/bento_card_grid.html",
+    "format": "html",
+    "description": "# Bento Card Grid (3x3)\n\nNine-card responsive grid using CSS `grid-template-columns: repeat(3, 1fr)` on desktop and a single column on mobile. Each card has rounded corners, a subtle shadow, and a hover lift transform. Cards include an icon slot, headline, body copy, and an optional CTA link.\n\n## Markup\n- `<ul class=\"bento\">` — outer grid\n- `<li class=\"bento__card\">` — repeating card with `<svg class=\"bento__icon\">`, `<h3>`, `<p>`, `<a>`\n\n## Layout knobs\n- `--bento-gap` (default 1.25rem)\n- `--bento-radius` (default 1rem)\n- `--bento-shadow` (default `0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.08)`)\n\n## Suggested use\nUse below the hero panel to break up a long-scroll feature list into a glanceable grid.",
+    "applicability": "Feature-list grid section using a 3x3 bento layout with icons, headlines, body copy, and optional CTAs.",
+    "tags": ["bento", "card_grid", "feature_list", "css_grid", "landing_page"],
+    "source_url": "https://github.com/skill-wiki-static/web-bento-grid"
+  },
+  {
+    "skill_id": "static_pricing_table_three_tiers",
+    "name": "Three-Tier Pricing Table",
+    "license": "apache-2.0",
+    "path": "_seed/pricing_three_tiers.html",
+    "format": "html",
+    "description": "# Three-Tier Pricing Table\n\nClassic SaaS pricing comparison with three columns (Free / Pro / Enterprise). Highlights the middle column via a coloured border and a 'Most popular' badge ribbon. Each tier card lists 4-6 features with a check icon, then a CTA button at the bottom that aligns to a baseline regardless of feature-list length (achieved with `flex-direction: column` + `justify-content: space-between`).\n\n## Markup\n- `<div class=\"pricing\">` — wrapper\n- `<article class=\"pricing__tier\">` × 3 with `<h3>`, `<p class=\"pricing__price\">`, `<ul class=\"pricing__features\">`, `<a class=\"pricing__cta\">`\n\n## Theming knobs\n- `--tier-highlight-color` (Pro tier border + badge)\n- `--check-color`\n- `--cta-bg`, `--cta-fg`\n\n## Suggested use\nUse on the pricing page below the hero. Ensure the highlighted tier's CTA contrasts strongly with the others to direct conversion.",
+    "applicability": "SaaS pricing page with three tier cards, highlighted middle tier, feature lists, and aligned CTA buttons.",
+    "tags": ["pricing", "saas", "tiers", "cards", "landing_page"],
+    "source_url": "https://github.com/skill-wiki-static/web-pricing-table"
+  },
+  {
+    "skill_id": "static_proprietary_chart_blocked",
+    "name": "Proprietary Marketing Page",
+    "license": "proprietary",
+    "path": "_seed/proprietary_marketing.html",
+    "format": "html",
+    "description": "Vendor-specific marketing layout, redistribution forbidden.",
+    "tags": ["proprietary"],
+    "source_url": "https://example.com/internal/marketing"
+  }
+]

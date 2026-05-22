@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_dark_mode_toggle___glassmorphic__f4b9e561",
+  "skill_name": "Ambient Dark Mode Toggle & Glassmorphic Layout",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:06:24Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Light mode interface of the self-hosting website with a navigation bar at the top, a hero section in the middle, and a content section at the bottom, showcasing the design before any modifications."
+        },
+        {
+          "seconds": 9,
+          "description": "Dark mode interface of the self-hosting website with a vibrant green glow in the hero section, demonstrating the website's responsiveness to theme changes."
+        },
+        {
+          "seconds": 40,
+          "description": "Transition animation of the website, fading from light to dark mode with a color transition, signaling the start of the coding process."
+        },
+        {
+          "seconds": 58,
+          "description": "Blank white browser page, representing the initial state of the webpage before any HTML elements are added or styled."
+        },
+        {
+          "seconds": 322,
+          "description": "Browser page displaying the initial HTML structure, showing a small black star, an ellipsis, a YouTube link, and placeholder text in a single column, ready for styling."
+        }
+      ],
+      "frames": [
+        "frame_00_light_mode_interface_of_the_se.jpg",
+        "frame_01_dark_mode_interface_of_the_sel.jpg",
+        "frame_02_transition_animation_of_the_we.jpg",
+        "frame_03_blank_white_browser_page_repre.jpg",
+        "frame_04_browser_page_displaying_the_in.jpg"
+      ],
+      "recapped_at": 1777408282.9518979
+    },
+    "primary_path": "frame_00_light_mode_interface_of_the_se.jpg"
+  }
+}

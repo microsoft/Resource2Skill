@@ -1,0 +1,25 @@
+{
+  "applicability": "",
+  "category_path": [
+    "formulas"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "running_total_56b6a9f6",
+  "skill_name": "running_total",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [],
+  "tier": "T2",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:02:21Z",
+  "wash_version": "1.0.0"
+}

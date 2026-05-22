@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_3d_recap_scrolling_credits_3d_c38eaed9",
+  "skill_name": "Cinematic 3D Recap & Scrolling Credits (\u7535\u5f71\u56de\u987e\u5f0f3D\u81f4\u8c22\u9875)",
+  "source": {
+    "channel": "\u79cd\u5b50PPT",
+    "duration_sec": 114,
+    "type": "youtube",
+    "video_id": "AzZftTyy5ck",
+    "video_title": "PPT\u7ed3\u5c3e\u9664\u4e86\u611f\u8c22\uff0c\u8fd8\u53ef\u4ee5\u4f7f\u7528\u8fd9\u79cd\u201c\u7535\u5f71\u56de\u987e\u5f0f\u7ed3\u5c3e\u201d",
+    "video_url": "https://www.youtube.com/watch?v=AzZftTyy5ck",
+    "views": 2175
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:56:17Z",
+  "wash_version": "1.0.0"
+}

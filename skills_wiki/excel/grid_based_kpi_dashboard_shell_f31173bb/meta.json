@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_kpi_dashboard_shell_f31173bb",
+  "skill_name": "Grid-based KPI Dashboard Shell",
+  "source": {
+    "channel": "Vedakarna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=rxmxAXJa6xY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:35:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Fully completed sales and profit dashboard overview"
+        },
+        {
+          "seconds": 914,
+          "description": "Dashboard layout with all base shapes and title in place"
+        },
+        {
+          "seconds": 1850,
+          "description": "Dashboard populated with key metrics and most charts, including profit by year, sales by category, and customer count"
+        },
+        {
+          "seconds": 2540,
+          "description": "Dashboard fully interactive with all charts, data, and functional slicers applied"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_completed_sales_and_prof.jpg",
+        "frame_01_dashboard_layout_with_all_base.jpg"
+      ],
+      "recapped_at": 1777406901.762429
+    },
+    "primary_path": "frame_00_fully_completed_sales_and_prof.jpg"
+  }
+}

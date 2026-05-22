@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a striking, vintage 3D text effect using layered and offset text boxes. Ideal for title slides, section headers, or branding elements that require a bold, retro aesthetic.",
+  "category_path": [
+    "typography",
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "retro_parallax_typography_06e1dc54",
+  "skill_name": "Retro Parallax Typography",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 539,
+    "type": "youtube",
+    "video_id": "ZJB3trPn9_w",
+    "video_title": "How to Create Awesome Typography Designs in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=ZJB3trPn9_w",
+    "views": 66423
+  },
+  "tags": [
+    "typography",
+    "retro",
+    "3d text",
+    "parallax effect",
+    "vintage"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:53Z",
+  "wash_version": "1.0.0"
+}

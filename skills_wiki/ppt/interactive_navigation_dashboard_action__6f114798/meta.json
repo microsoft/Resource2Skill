@@ -1,0 +1,35 @@
+{
+  "applicability": "Transforms a static presentation into an interactive, app-like experience. Ideal for creating self-paced training modules, kiosk presentations, or executive dashboards where users can explore content non-linearly.",
+  "category_path": [
+    "presentation_structure",
+    "interactive_elements"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_navigation_dashboard_action__6f114798",
+  "skill_name": "Interactive Navigation Dashboard",
+  "source": {
+    "channel": "Technology for Teachers and Students",
+    "duration_sec": 408,
+    "type": "youtube",
+    "video_id": "7eeTOxlSxDc",
+    "video_title": "Creating and Using Action Buttons in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=7eeTOxlSxDc",
+    "views": 98957
+  },
+  "tags": [
+    "dashboard",
+    "navigation",
+    "interactive",
+    "hyperlink",
+    "kiosk"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:42:21Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_volumetric_character_illustrati_ca683cf5",
+  "skill_name": "Pure CSS Volumetric Character Illustration",
+  "source": {
+    "channel": "DesignCourse",
+    "duration_sec": 1548,
+    "type": "youtube",
+    "video_id": "uXBoQ4WRD9A",
+    "video_title": "CSS Art Crash Course - By Example!",
+    "video_url": "https://www.youtube.com/watch?v=uXBoQ4WRD9A",
+    "views": 36960
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:25Z",
+  "wash_version": "1.0.0"
+}

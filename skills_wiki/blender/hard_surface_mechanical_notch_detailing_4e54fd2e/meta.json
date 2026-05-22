@@ -1,0 +1,36 @@
+{
+  "applicability": "A fundamental technique for adding detail to hard-surface models like sci-fi props, mecha, and weapons. It breaks up simple geometric forms by creating realistic, manufactured-looking cutouts and panels.",
+  "category_path": [
+    "modeling",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hard_surface_mechanical_notch_detailing_4e54fd2e",
+  "skill_name": "Mechanical Notch Detailing",
+  "source": {
+    "channel": "Ryuu - Blender Bros",
+    "duration_sec": 491,
+    "type": "youtube",
+    "video_id": "387mOTpT4rU",
+    "video_title": "CLEAN GEO fast with HARD OPS in Blender!",
+    "video_url": "https://www.youtube.com/watch?v=387mOTpT4rU",
+    "views": 3854
+  },
+  "tags": [
+    "hard-surface",
+    "modeling",
+    "detailing",
+    "sci-fi",
+    "bevel"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:43Z",
+  "wash_version": "1.0.0"
+}

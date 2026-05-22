@@ -1,0 +1,89 @@
+{
+  "skill_id": "editorial_chart_with_highlighted_titles_36d471",
+  "skill_type": "shell",
+  "name": "Editorial Chart with Highlighted Titles",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "title+subtitle+chart"
+    ],
+    "density": "medium",
+    "mood": [
+      "editorial",
+      "corporate",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart_title",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "source",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/editorial_chart_with_highlighted_titles_36d471/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "editorial_data_highlighting_panel_7f1b3b9d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A chart-focused layout with prominent, panel-backed headline and subtitle for editorial emphasis.",
+  "_distill_attempts": 1
+}

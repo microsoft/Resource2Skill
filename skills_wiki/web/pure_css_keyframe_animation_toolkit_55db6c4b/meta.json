@@ -1,0 +1,36 @@
+{
+  "applicability": "Use this toolkit to implement performant, hardware-accelerated animations for UI micro-interactions like hovers, pulses, and loading states. It leverages CSS `@keyframes` for smooth animations without JavaScript overhead.",
+  "category_path": [
+    "web",
+    "css",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_keyframe_animation_toolkit_55db6c4b",
+  "skill_name": "Pure CSS Keyframe Animation Toolkit",
+  "source": {
+    "channel": "Bro Code",
+    "duration_sec": 919,
+    "type": "youtube",
+    "video_id": "u_GIT5MJAtc",
+    "video_title": "Learn CSS animations in 15 minutes! \ud83c\udfac",
+    "video_url": "https://www.youtube.com/watch?v=u_GIT5MJAtc",
+    "views": 123369
+  },
+  "tags": [
+    "css",
+    "animation",
+    "keyframes",
+    "micro-interactions",
+    "ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:10:42Z",
+  "wash_version": "1.0.0"
+}

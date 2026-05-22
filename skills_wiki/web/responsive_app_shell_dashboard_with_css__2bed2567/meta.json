@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating the foundational layout of web applications, SaaS platforms, and admin dashboards. It separates primary content from navigation, adapting seamlessly from desktop to mobile screens.",
+  "category_path": [
+    "layout",
+    "app_shell"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_app_shell_dashboard_with_css__2bed2567",
+  "skill_name": "Responsive App Shell with CSS Grid",
+  "source": {
+    "channel": "GoPlusPlus",
+    "duration_sec": 275,
+    "type": "youtube",
+    "video_id": "lCYY2t6BRSI",
+    "video_title": "React CSS Grid Responsive Dashboard Tutorial | Build Adaptive Layouts for Any Screen Size",
+    "video_url": "https://www.youtube.com/watch?v=lCYY2t6BRSI",
+    "views": 89
+  },
+  "tags": [
+    "css grid",
+    "responsive",
+    "dashboard",
+    "app shell",
+    "layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:16:17Z",
+  "wash_version": "1.0.0"
+}

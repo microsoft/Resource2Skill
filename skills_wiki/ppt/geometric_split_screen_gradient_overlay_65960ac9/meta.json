@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a visually dynamic layout by partially covering a background image with a tinted geometric shape. This technique is ideal for high-impact title, section break, or concluding slides.",
+  "category_path": [
+    "layout",
+    "image_treatment"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_split_screen_gradient_overlay_65960ac9",
+  "skill_name": "Geometric Split-Screen Image Overlay",
+  "source": {
+    "channel": "Pejuang Karyawan",
+    "duration_sec": 98,
+    "type": "youtube",
+    "video_id": "yJdfU2CcJ8s",
+    "video_title": "Before After powerpoint templates YOUTUBE, Animated PowerPoint Presentation Slide Template YOUTUBE",
+    "video_url": "https://www.youtube.com/watch?v=yJdfU2CcJ8s",
+    "views": 314
+  },
+  "tags": [
+    "split screen",
+    "image overlay",
+    "geometric",
+    "high contrast",
+    "title slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:31:32Z",
+  "wash_version": "1.0.0"
+}

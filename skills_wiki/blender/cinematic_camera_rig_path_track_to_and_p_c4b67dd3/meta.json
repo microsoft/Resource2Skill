@@ -1,0 +1,37 @@
+{
+  "applicability": "Creates a smooth, automated camera trajectory that perfectly tracks a subject while adding realistic procedural shake. Ideal for architectural fly-throughs, product showcases, and dynamic tracking shots without manual micro-keyframing.",
+  "category_path": [
+    "animation",
+    "cameras"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_camera_rig_path_track_to_and_p_c4b67dd3",
+  "skill_name": "Cinematic Camera Rig",
+  "source": {
+    "channel": "Florin Flammer",
+    "duration_sec": 291,
+    "type": "youtube",
+    "video_id": "pcBji0dSc8o",
+    "video_title": "Take Your Blender Camera Animation to the Next Level",
+    "video_url": "https://www.youtube.com/watch?v=pcBji0dSc8o",
+    "views": 236194
+  },
+  "tags": [
+    "camera-rig",
+    "procedural-shake",
+    "track-to-constraint",
+    "follow-path",
+    "f-curve-noise",
+    "cinematic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:01Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,62 @@
+{
+  "skill_id": "minimal_text_focus_7c4428",
+  "skill_type": "shell",
+  "name": "Minimal Text Focus",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "quote"
+    ],
+    "content_shape": [
+      "minimal-text-split"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "decorative_text",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "main_text",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 200,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/minimal_text_focus_7c4428/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dynamic_odometer_morph_b82ac55d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted from a minimal tutorial slide featuring a prominent central text block and a decorative vertical text column, suitable for a section divider or quote.",
+  "_distill_attempts": 1
+}

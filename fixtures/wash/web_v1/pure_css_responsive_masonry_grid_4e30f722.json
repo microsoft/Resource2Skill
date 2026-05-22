@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_responsive_masonry_grid_4e30f722",
+  "source": {
+    "channel": "QCT",
+    "duration_sec": 438,
+    "type": "youtube",
+    "video_id": "PwdtxggqPbA",
+    "video_title": "Pure CSS Masonry Grid Design | Quick Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=PwdtxggqPbA",
+    "views": 499
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for executive bios, team introductions, and speaker profiles. It creates a dynamic pop-out effect that elevates standard photo layouts into high-end, magazine-style designs.",
+  "category_path": [
+    "slide_layouts",
+    "profile_card",
+    "3d_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_out_of_bounds_profile_card_3d_32551940",
+  "skill_name": "3D Out-of-Bounds Profile Card",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 136,
+    "type": "youtube",
+    "video_id": "p_65PBwLgPY",
+    "video_title": "PPT\u521b\u610f\u73a9\u6cd5\uff1a\u5236\u4f5c\u521b\u610f\u4eba\u7269\u4ecb\u7ecd\u6392\u7248\u5e03\u5c40",
+    "video_url": "https://www.youtube.com/watch?v=p_65PBwLgPY",
+    "views": 1630
+  },
+  "tags": [
+    "profile_card",
+    "3d_effect",
+    "out_of_bounds",
+    "cutout_portrait",
+    "bio_slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:01:56Z",
+  "wash_version": "1.0.0"
+}

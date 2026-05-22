@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "loudness_optimized_source_processing_tra_06130a89",
+  "skill_name": "Loudness-Optimized Source Processing (Transient Control & High-Mid Saturation)",
+  "source": {
+    "channel": "Underdog Electronic Music School",
+    "duration_sec": 397,
+    "type": "youtube",
+    "video_id": "2P_Opp4a6iY",
+    "video_title": "Why your mixes sound thin and weak (probably)",
+    "video_url": "https://www.youtube.com/watch?v=2P_Opp4a6iY",
+    "views": 432177
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:21:59Z",
+  "wash_version": "1.0.0"
+}

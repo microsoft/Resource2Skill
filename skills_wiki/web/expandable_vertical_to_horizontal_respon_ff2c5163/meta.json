@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for dashboards, web apps, and modern sites needing persistent, deep navigation without cluttering content. Maximizes screen real estate with an expandable vertical bar that becomes a touch-friendly horizontal bar on mobile.",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "expandable_vertical_to_horizontal_respon_ff2c5163",
+  "skill_name": "Expandable Vertical-to-Horizontal Responsive Sidebar",
+  "source": {
+    "channel": "Fireship",
+    "duration_sec": 700,
+    "type": "youtube",
+    "video_id": "biOMz4puGt8",
+    "video_title": "Animated Responsive Navbar with CSS - Plus Other Useful Tricks",
+    "video_url": "https://www.youtube.com/watch?v=biOMz4puGt8",
+    "views": 1036565
+  },
+  "tags": [
+    "responsive",
+    "sidebar",
+    "navigation",
+    "flexbox",
+    "hover effects",
+    "dark theme"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:13:26Z",
+  "wash_version": "1.0.0"
+}

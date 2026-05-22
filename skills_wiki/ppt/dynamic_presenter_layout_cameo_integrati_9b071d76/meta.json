@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_presenter_layout_cameo_integrati_9b071d76",
+  "skill_name": "Dynamic Presenter Layout (Cameo Integration Mockup)",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 321,
+    "type": "youtube",
+    "video_id": "7uAbuWlU0Dg",
+    "video_title": "How to use PowerPoint Cameo",
+    "video_url": "https://www.youtube.com/watch?v=7uAbuWlU0Dg",
+    "views": 238426
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:19:38Z",
+  "wash_version": "1.0.0"
+}

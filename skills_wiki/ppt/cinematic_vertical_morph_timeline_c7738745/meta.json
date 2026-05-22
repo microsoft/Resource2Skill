@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for company history overviews, project roadmaps, historical event presentations, product evolution stories, and step-by-step process reveals.",
+  "category_path": [
+    "timeline",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_vertical_morph_timeline_c7738745",
+  "skill_name": "Cinematic Vertical Morph Timeline",
+  "source": {
+    "channel": "SI-Design",
+    "duration_sec": 80,
+    "type": "youtube",
+    "video_id": "IIPHWncjkPI",
+    "video_title": "ANIMATED TIMELINE IN POWERPOINT - PART 1",
+    "video_url": "https://www.youtube.com/watch?v=IIPHWncjkPI",
+    "views": 11448
+  },
+  "tags": [
+    "timeline",
+    "morph",
+    "vertical",
+    "dark mode",
+    "cinematic",
+    "history"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:28:21Z",
+  "wash_version": "1.0.0"
+}

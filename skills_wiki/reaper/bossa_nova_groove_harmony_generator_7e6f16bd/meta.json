@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bossa_nova_groove_harmony_generator_7e6f16bd",
+  "skill_name": "Bossa Nova Groove & Harmony Generator",
+  "source": {
+    "channel": "Frizk",
+    "duration_sec": 533,
+    "type": "youtube",
+    "video_id": "eBm1JEj8wpo",
+    "video_title": "How to make the silliest bossa nova song",
+    "video_url": "https://www.youtube.com/watch?v=eBm1JEj8wpo",
+    "views": 506865
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:09:36Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_concentric_arc_gauge_6e2d415c",
+  "skill_name": "Dynamic Concentric Arc Gauge",
+  "source": {
+    "channel": "PPT-Design Infographic Templates",
+    "duration_sec": 223,
+    "type": "youtube",
+    "video_id": "rR_RiFd91g8",
+    "video_title": "Turn Static Charts into Animated Graphs with PowerPoint! \ud83d\udcc8",
+    "video_url": "https://www.youtube.com/watch?v=rR_RiFd91g8",
+    "views": 124
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:17:47Z",
+  "wash_version": "1.0.0"
+}

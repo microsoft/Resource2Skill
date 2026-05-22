@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for survey results, performance metrics, and executive summaries that require quantitative proof alongside qualitative impact. It effectively guides the audience's eye from an emotional visual anchor to clear, uncluttered data insights.",
+  "category_path": [
+    "layouts",
+    "data_storytelling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_rule_of_thirds_data_storytell_e27747df",
+  "skill_name": "Minimalist Rule of Thirds Data Storytelling Layout",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 587,
+    "type": "youtube",
+    "video_id": "TQiln3CjtvM",
+    "video_title": "5 QUICK Ways to Improve Your PowerPoint Design",
+    "video_url": "https://www.youtube.com/watch?v=TQiln3CjtvM",
+    "views": 1952953
+  },
+  "tags": [
+    "rule_of_thirds",
+    "data_storytelling",
+    "minimalism",
+    "bar_chart",
+    "layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:11Z",
+  "wash_version": "1.0.0"
+}

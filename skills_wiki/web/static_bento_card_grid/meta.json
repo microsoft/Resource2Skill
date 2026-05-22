@@ -1,0 +1,29 @@
+{
+  "applicability": "Feature-list grid section using a 3x3 bento layout with icons, headlines, body copy, and optional CTAs.",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "cc-by-4.0",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_bento_card_grid",
+  "skill_name": "Bento Card Grid (3x3)",
+  "source": {
+    "channel": "static",
+    "type": "static_artifact",
+    "url": "https://github.com/skill-wiki-static/web-bento-grid"
+  },
+  "tags": [
+    "bento",
+    "card_grid",
+    "feature_list",
+    "css_grid",
+    "landing_page"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:02:07Z",
+  "wash_version": "1.0.0"
+}

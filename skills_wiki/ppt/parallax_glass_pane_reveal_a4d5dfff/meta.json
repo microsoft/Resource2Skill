@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for title slides, section dividers, or hero slides, this skill adds a dynamic, premium feel to presentations. It's particularly effective for showcasing quality and modern design in product launches or portfolios.",
+  "category_path": [
+    "animation",
+    "visual_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "parallax_glass_pane_reveal_a4d5dfff",
+  "skill_name": "Parallax Glass Pane Reveal",
+  "source": {
+    "channel": "\u65e9\u6668PPT",
+    "duration_sec": 490,
+    "type": "youtube",
+    "video_id": "qkpfXLSw1Ck",
+    "video_title": "10\u5206\u949f\u5b66\u4f1a\u8d85\u70ab\u9177\u7684\u9ad8\u7ea7\u611fPPT \u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=qkpfXLSw1Ck",
+    "views": 15613
+  },
+  "tags": [
+    "parallax",
+    "glass pane",
+    "depth",
+    "animation",
+    "reveal",
+    "layered"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:41:59Z",
+  "wash_version": "1.0.0"
+}

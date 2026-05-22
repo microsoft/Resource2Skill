@@ -1,0 +1,37 @@
+{
+  "applicability": "Apply this technique to high-impact title slides, hero sections, or metric callouts to convey speed, modernity, and energy. Ideal for tech, sports, or agency-style presentations that require a dynamic, premium aesthetic.",
+  "category_path": [
+    "text",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_6d5a669b",
+  "skill_name": "Dynamic Geometric Gradient Typography",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 507,
+    "type": "youtube",
+    "video_id": "arD3kWWFuBs",
+    "video_title": "Make Animated Text Typography in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=arD3kWWFuBs",
+    "views": 150997
+  },
+  "tags": [
+    "typography",
+    "gradient",
+    "geometric",
+    "masking",
+    "motion",
+    "title"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:29:45Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_interactive_product_hero_with_particl_c7b1b24d",
+  "source": {
+    "channel": "Pixel and Code",
+    "duration_sec": 388,
+    "type": "youtube",
+    "video_id": "YFJBNU8xkXA",
+    "video_title": "3D Portfolio Landing Page with Three.js | Free Template + Customization Guide",
+    "video_url": "https://www.youtube.com/watch?v=YFJBNU8xkXA",
+    "views": 22
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

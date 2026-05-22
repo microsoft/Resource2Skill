@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_kpi_slicer_dashboard_8f4a0158",
+  "skill_name": "Dynamic KPI Slicer Dashboard",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 759,
+    "type": "youtube",
+    "video_id": "Q3YY1Ue9j-k",
+    "video_title": "Smart Excel Pivot Table Trick - Choose Your KPI from Slicer (Excel Dashboard with DAX)",
+    "video_url": "https://www.youtube.com/watch?v=Q3YY1Ue9j-k",
+    "views": 471050
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:18:51Z",
+  "wash_version": "1.0.0"
+}

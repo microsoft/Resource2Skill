@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "full_screen_immersive_flexbox_hero_9f841079",
+  "source": {
+    "channel": "Learn Web",
+    "duration_sec": 184,
+    "type": "youtube",
+    "video_id": "b-zYrMTl0zI",
+    "video_title": "Designing a Hero Section with HTML, CSS | Hero Section Website",
+    "video_url": "https://www.youtube.com/watch?v=b-zYrMTl0zI",
+    "views": 7258
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

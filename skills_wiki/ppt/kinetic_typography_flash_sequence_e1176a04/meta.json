@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kinetic_typography_flash_sequence_e1176a04",
+  "skill_name": "Kinetic Typography Flash Sequence",
+  "source": {
+    "channel": "Pravind Thakur",
+    "duration_sec": 855,
+    "type": "youtube",
+    "video_id": "B-3cFhNnJpQ",
+    "video_title": "Kinetic Typography Tutorial In PowerPoint ( English )",
+    "video_url": "https://www.youtube.com/watch?v=B-3cFhNnJpQ",
+    "views": 1080
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:46:04Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_stage_orbital_keyframe_choreograph_11a3bc6d",
+  "skill_name": "Multi-Stage Orbital Keyframe Choreography",
+  "source": {
+    "channel": "CSSnippets",
+    "duration_sec": 536,
+    "type": "youtube",
+    "video_id": "9gbFljxZXDE",
+    "video_title": "Master CSS Keyframes Animation in 9 Minutes [Full Tutorial] \ud83d\ude80",
+    "video_url": "https://www.youtube.com/watch?v=9gbFljxZXDE",
+    "views": 11726
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:04:29Z",
+  "wash_version": "1.0.0"
+}

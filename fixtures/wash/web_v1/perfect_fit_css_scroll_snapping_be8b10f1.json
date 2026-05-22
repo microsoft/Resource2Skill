@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "perfect_fit_css_scroll_snapping_be8b10f1",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 399,
+    "type": "youtube",
+    "video_id": "ytl6TrroGis",
+    "video_title": "Learn CSS Scroll Snap In 6 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=ytl6TrroGis",
+    "views": 172271
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

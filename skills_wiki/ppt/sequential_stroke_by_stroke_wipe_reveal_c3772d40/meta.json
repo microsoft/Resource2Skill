@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sequential_stroke_by_stroke_wipe_reveal_c3772d40",
+  "skill_name": "Sequential Stroke-by-Stroke Wipe Reveal",
+  "source": {
+    "channel": "\u8c6c\u5f0f\u7e6a\u8a2d\u6559\u5b78\u983b\u9053",
+    "duration_sec": 1355,
+    "type": "youtube",
+    "video_id": "b-an_j4P13s",
+    "video_title": "\u9ad8\u968e\u7c21\u5831\u52d5\u756b\u6280\u5de7\u2500POWERPOINT\u5beb\u5b57\u52d5\u756b",
+    "video_url": "https://www.youtube.com/watch?v=b-an_j4P13s",
+    "views": 6817
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:52Z",
+  "wash_version": "1.0.0"
+}

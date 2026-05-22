@@ -1,0 +1,128 @@
+{
+  "theme_id": "pastel_wash_sage",
+  "name": "Pastel Wash Sage",
+  "palette": {
+    "bg": "#EEF0EA",
+    "panel": "#DDE3D5",
+    "accent": "#7F9A6E",
+    "accent2": "#C46B5B",
+    "text": "#2A3028",
+    "muted": "#6D7265",
+    "border": "#C7CBBF",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Verdana",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Verdana",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Verdana",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Verdana",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Verdana",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Verdana",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "soft_blob",
+    "description": "Muted pastel blobs as decoration"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "calm",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "glitch"
+    ]
+  },
+  "mood": [
+    "calm",
+    "warm",
+    "playful",
+    "editorial"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand",
+    "research"
+  ],
+  "preferred_motion_tags": [
+    "page-turn",
+    "balloon",
+    "ink-bleed",
+    "polaroid",
+    "confetti",
+    "thesis",
+    "margin-note"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "dot-matrix",
+    "marquee",
+    "chromatic"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for creating convincing virtual piano tracks in jazz, neo-soul, lofi hip-hop, and R&B. This skill establishes a classic jazz pocket by contrasting syncopated comping with swing melodies.",
+  "category_path": [
+    "composition",
+    "harmony"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "jazz_piano_syncopated_comping_swing_phra_aef223e4",
+  "skill_name": "Jazz Piano Syncopated Comping & Swing Phrasing (ii-V-I)",
+  "source": {
+    "channel": "Jazzmentl",
+    "duration_sec": 833,
+    "type": "youtube",
+    "video_id": "nAORXoGMcSI",
+    "video_title": "How to Transcribe Jazz Piano Solos Using Reaper & Finale",
+    "video_url": "https://www.youtube.com/watch?v=nAORXoGMcSI",
+    "views": 1369
+  },
+  "tags": [
+    "jazz piano",
+    "syncopation",
+    "swing",
+    "ii-v-i",
+    "comping"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:26Z",
+  "wash_version": "1.0.0"
+}

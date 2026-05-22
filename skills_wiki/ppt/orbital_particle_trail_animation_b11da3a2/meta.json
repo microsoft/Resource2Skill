@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "orbital_particle_trail_animation_b11da3a2",
+  "skill_name": "Orbital Particle Trail Animation",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 151,
+    "type": "youtube",
+    "video_id": "9LRZ3Q4M2LU",
+    "video_title": "\u70ab\u9177\u521b\u610f\uff01\u8ba9\u4f60\u7684PPT\u66f4\u5177\u9b45\u529b\u7684\u65cb\u8f6c\u62d6\u5c3e\u52a8\u753b\u6548\u679c",
+    "video_url": "https://www.youtube.com/watch?v=9LRZ3Q4M2LU",
+    "views": 604
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:41:23Z",
+  "wash_version": "1.0.0"
+}

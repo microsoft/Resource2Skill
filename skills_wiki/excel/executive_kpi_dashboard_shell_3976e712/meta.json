@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_kpi_dashboard_shell_3976e712",
+  "skill_name": "Executive KPI Dashboard Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:36Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "initial glimpse of the completed sales dashboard"
+        },
+        {
+          "seconds": 355,
+          "description": "dashboard layout with main section titles"
+        },
+        {
+          "seconds": 840,
+          "description": "all individual charts (line, map, radar, donut) generated on the inputs tab"
+        },
+        {
+          "seconds": 1454,
+          "description": "fully assembled and customized interactive sales dashboard in Excel"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_glimpse_of_the_complet.jpg",
+        "frame_01_dashboard_layout_with_main_sec.jpg",
+        "frame_02_all_individual_charts_line_map.jpg"
+      ],
+      "recapped_at": 1777406697.3806002
+    },
+    "primary_path": "frame_00_initial_glimpse_of_the_complet.jpg"
+  }
+}

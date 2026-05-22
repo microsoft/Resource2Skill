@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_soul_r_b_extended_chords_strumming_7051ba73",
+  "skill_name": "Neo-Soul / R&B Extended Chords & Strumming",
+  "source": {
+    "channel": "Busy Works Beats",
+    "duration_sec": 1128,
+    "type": "youtube",
+    "video_id": "5kPu82l1kAs",
+    "video_title": "How to Make Soulful R&B Chords \ud83d\udd25  R&B Music Theory Explained",
+    "video_url": "https://www.youtube.com/watch?v=5kPu82l1kAs",
+    "views": 74531
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:31Z",
+  "wash_version": "1.0.0"
+}

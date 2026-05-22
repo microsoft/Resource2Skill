@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for product comparisons, pricing tiers, portfolios, or team introductions, this skill transforms static information into a fluid narrative by dynamically adjusting visual hierarchy.",
+  "category_path": [
+    "animation",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_morphing_split_panels_4c670a6a",
+  "skill_name": "Dynamic Morphing Split-Panels",
+  "source": {
+    "channel": "Fix My Slides",
+    "duration_sec": 520,
+    "type": "youtube",
+    "video_id": "mnyUMD6C9V8",
+    "video_title": "Create Animated Product Comparison Slides in PowerPoint | Morph | iPhone 16 vs. S24 vs. Pixel 9",
+    "video_url": "https://www.youtube.com/watch?v=mnyUMD6C9V8",
+    "views": 856
+  },
+  "tags": [
+    "split-panel",
+    "morph-transition",
+    "dynamic-layout",
+    "visual-hierarchy",
+    "contextual-focus",
+    "comparison"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:03Z",
+  "wash_version": "1.0.0"
+}

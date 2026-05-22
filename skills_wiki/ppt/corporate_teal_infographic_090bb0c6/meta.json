@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_teal_infographic_090bb0c6",
+  "skill_name": "Corporate Teal Infographic",
+  "source": {
+    "channel": "Slide Marvels - Presentation Design Company",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "5sAvdF4rKA0",
+    "video_title": "PowerPoint Slide Transformations: Stunning Before & After Presentation Makeovers | Slide Marvels",
+    "video_url": "https://www.youtube.com/watch?v=5sAvdF4rKA0",
+    "views": 282
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:07:27Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "nested_filter_2d_aggregation_0323a3b1",
+  "source": {
+    "channel": "Kenji Explains",
+    "duration_sec": 701,
+    "type": "youtube",
+    "video_id": "zOG-Dl9W83U",
+    "video_title": "5 Advanced Excel Formulas You Probably Didn't Know!",
+    "video_url": "https://www.youtube.com/watch?v=zOG-Dl9W83U",
+    "views": 382124
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

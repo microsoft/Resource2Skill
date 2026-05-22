@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "infinite_layered_wave_banner_9fb3566e",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 175,
+    "type": "youtube",
+    "video_id": "MMNEEdGa5eE",
+    "video_title": "CSS Water Wave Background Animation Effects | Wavy Background",
+    "video_url": "https://www.youtube.com/watch?v=MMNEEdGa5eE",
+    "views": 202890
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

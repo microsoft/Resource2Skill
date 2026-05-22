@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for adding foundational weight and impact to cinematic scores, EDM drops, and trap 808s. It can also reinforce thin drum loops or recordings with a tuned low-end presence.",
+  "category_path": [
+    "sound_design",
+    "bass_synthesis"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tuned_cinematic_sub_boom_sub_generator_s_f3d5a864",
+  "skill_name": "Tuned Cinematic Sub Boom",
+  "source": {
+    "channel": "BenoniStudio",
+    "duration_sec": 683,
+    "type": "youtube",
+    "video_id": "2Mrcypv_w38",
+    "video_title": "denise SUB GENERATOR - GET BIG BOTTOM END",
+    "video_url": "https://www.youtube.com/watch?v=2Mrcypv_w38",
+    "views": 2398
+  },
+  "tags": [
+    "sub bass",
+    "sound design",
+    "cinematic impact",
+    "808",
+    "synth bass"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:01:24Z",
+  "wash_version": "1.0.0"
+}

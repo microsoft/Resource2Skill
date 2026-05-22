@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "product"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_multi_state_interactive_product_857096d1",
+  "skill_name": "Seamless Multi-State Interactive Product Showcase",
+  "source": {
+    "channel": "The Office Guys Tutorials",
+    "duration_sec": 690,
+    "type": "youtube",
+    "video_id": "FvK_WOI-wXA",
+    "video_title": "Product Variant Showcase Slideshow design in PowerPoint  |  The Office Guys Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=FvK_WOI-wXA",
+    "views": 856
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:35Z",
+  "wash_version": "1.0.0"
+}

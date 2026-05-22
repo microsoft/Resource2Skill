@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_chevron_cycle_diagram_7f5986b5",
+  "skill_name": "Interlocking Chevron Cycle Diagram",
+  "source": {
+    "channel": "Strong Slides",
+    "duration_sec": 324,
+    "type": "youtube",
+    "video_id": "5hoqgtlFNR0",
+    "video_title": "How to create a Circular Flow Diagram in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=5hoqgtlFNR0",
+    "views": 356457
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:43:07Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "skill_id": "themed_line_chart_component_5f8df87b",
+  "skill_name": "Themed Line Chart Component",
+  "domain": "excel",
+  "category": "chart",
+  "source": {
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=_VgHWCcGLlw",
+    "video_id": "_VgHWCcGLlw",
+    "video_title": "Pivot Chart Formatting Copy Trick in Excel - Excel Quickie 79",
+    "channel": "TeachExcel",
+    "duration_sec": 183,
+    "views": 23895
+  },
+  "extracted_at": "2026-04-25T03:17:36.146644",
+  "analysis": "### 1. High-level Skill Pattern Extraction\n\n> **Skill Name**: Themed Line Chart Component\n\n* **Tier**: component\n* **Core Mechanism**: Programmatically constructs a consistently formatted line chart with markers, mimicking the application of a saved Excel chart template (`.crtx`). It loops through series to enforce marker styles, sets legend placement, and sizes the chart automatically.\n* **Applicability**: Best used for time-series data or trending metrics across multiple categories (like the store sales over time in the video) where consistent visual branding is required across multiple reports without relying on manual chart templates.\n\n### 2. Structural Breakdown\n\n- **Data Layout**: Expects a standard tabular data layout where the first column contains categories (e.g., Dates) and subsequent columns contain series values, with headers in the first row.\n- **Formula Logic**: None required.\n- **Visual Design**: Enforces circular markers on line data points, standardizes line thickness, and locks the legend to the right side of the plot area.\n- **Charts/Tables**: Uses `LineChart` from `openpyxl.chart`.\n- **Theme Hooks**: Leverages Excel's built-in chart style preset (`13`) as a base, combined with explicit marker overrides.\n\n### 3. Reproduction Code\n\n```python\ndef render(ws, anchor: str, *, min_col: int = 1, min_row: int = 1, max_col: int = 5, max_row: int = 12, title: str = \"Store Sales\", theme: str = \"corporate_blue\", **kwargs) -> None:\n    from openpyxl.chart import LineChart, Reference\n    \n    chart = LineChart()\n    chart.title = title\n    # Preset style 13 provides a clean, modern base with muted gridlines\n    chart.style = 13  \n    \n    # Define data and categories based on standard table layout \n    # (Column 1: Categories, Columns 2-N: Series, Row 1: Headers)\n    data = Reference(ws, min_col=min_col + 1, min_row=min_row, max_col=max_col, max_row=max_row)\n    cats = Reference(ws, min_col=min_col, min_row=min_row + 1, max_row=max_row)\n    \n    chart.add_data(data, titles_from_data=True)\n    chart.set_categories(cats)\n    \n    # Apply markers to all series (replicating the custom template style shown in the video)\n    for series in chart.series:\n        series.marker.symbol = \"circle\"\n        series.marker.size = 5\n        # Set line width slightly thicker (value is in EMUs, 20000 = ~1.5pt)\n        if series.graphicalProperties:\n            if not series.graphicalProperties.line:\n                from openpyxl.drawing.line import LineProperties\n                series.graphicalProperties.line = LineProperties()\n            series.graphicalProperties.line.width = 20000 \n        \n    # Standardize legend placement to the right\n    chart.legend.position = \"r\"\n    \n    # Standardize sizing for dashboard embedding\n    chart.width = 22\n    chart.height = 8.5\n    \n    ws.add_chart(chart, anchor)\n```",
+  "frames": []
+}

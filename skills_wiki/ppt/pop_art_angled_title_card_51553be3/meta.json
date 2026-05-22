@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pop_art_angled_title_card_51553be3",
+  "skill_name": "Pop-Art Angled Title Card",
+  "source": {
+    "channel": "Lusha",
+    "duration_sec": 85,
+    "type": "youtube",
+    "video_id": "6hH08uPt504",
+    "video_title": "Employee Spotlight - VP Global CS, Leslie Myers",
+    "video_url": "https://www.youtube.com/watch?v=6hH08uPt504",
+    "views": 303
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:06:26Z",
+  "wash_version": "1.0.0"
+}

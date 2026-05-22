@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lush_r_b_neo_soul_foundation_7th_chords__9fb3638c",
+  "skill_name": "Lush R&B Neo-Soul Foundation (7th Chords & Humanized Hats)",
+  "source": {
+    "channel": "Learning Reaper",
+    "duration_sec": 1145,
+    "type": "youtube",
+    "video_id": "Z7OL8dvFQb0",
+    "video_title": "How to Make A R&B Beat In Reaper",
+    "video_url": "https://www.youtube.com/watch?v=Z7OL8dvFQb0",
+    "views": 5335
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:13Z",
+  "wash_version": "1.0.0"
+}

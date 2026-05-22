@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell is ideal for presenting a single, high-impact metric with strong visual emphasis. It's perfect for dashboards or summary slides where one key performance indicator needs to stand out.",
+  "category_path": [
+    "data_visualization",
+    "metrics"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_metric_card_32aab4",
+  "skill_name": "Centered Metric Card",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "metric",
+    "dashboard",
+    "single-stat",
+    "key performance indicator",
+    "data visualization"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:02:15Z",
+  "wash_version": "1.0.0"
+}

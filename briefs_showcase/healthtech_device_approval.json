@@ -1,0 +1,28 @@
+{
+  "variant_id": "healthtech_device_approval",
+  "out_dirname": "healthtech_device_approval",
+  "title": "Cardiograph-7: continuous ambulatory ECG ready for 510(k)",
+  "audience": "medical device board reviewing pre-submission package",
+  "tone_words": ["restrained", "boardroom", "clinical"],
+  "archetype_preference": "research",
+  "mood_preference": ["boardroom", "restrained", "calm"],
+  "mode_preference": "light",
+  "n_slides": 12,
+  "role_prefer": ["agenda", "metric_dashboard", "comparison_split", "timeline_horizontal", "bullet_card_list", "closing_cta"],
+  "role_avoid": ["hero_giant_metric"],
+  "dense_quota": 4,
+  "core_points": [
+    "Device class: ambulatory ECG patch with on-device AF detection, FDA Class II",
+    "Pre-submission meeting held Q4 2025; feedback: expand real-world perf sampling before 510(k)",
+    "Clinical bridge study: 1,847 patients, 87 sites, 14-day continuous monitoring",
+    "Sensitivity for AF ≥30 sec: 96.8% (vs predicate 94.1%); specificity 99.2%",
+    "Adverse events: 12 skin reactions, 0 serious device-related events",
+    "Usability testing summary: 58 of 60 participants completed attach-without-assist task",
+    "Manufacturing: 2 QMS suppliers qualified, capacity 40K units/mo by approval",
+    "Cybersecurity: post-market monitoring plan meets FDA 2023 guidance, PSIRT stood up",
+    "Labeling deltas vs predicate: 14-day wear, AF classification added to IFU",
+    "Reimbursement pathway: existing 93225 CPT code covers claimed indications",
+    "Pre-submission corrective actions: addressed all 7 items from FDA Q4 feedback",
+    "Ask: board approval to submit 510(k) by end of Q2"
+  ]
+}

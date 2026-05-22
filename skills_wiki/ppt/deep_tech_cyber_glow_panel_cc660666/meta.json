@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to create a futuristic, high-tech aesthetic for presentations on technology, AI, data science, or cybersecurity. It effectively frames and focuses content against a dark, complex background.",
+  "category_path": [
+    "layout",
+    "container_panel"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "deep_tech_cyber_glow_panel_cc660666",
+  "skill_name": "Deep Tech Cyber-Glow Panel",
+  "source": {
+    "channel": "\ud83c\udfa7 \u61b6\u7b46M.S. | \u966a\u4f60\u8d70\u904e AI \u5b78\u7fd2\u4e4b\u8def",
+    "duration_sec": 580,
+    "type": "youtube",
+    "video_id": "kjmmtNEj2b8",
+    "video_title": "2026 FlexClip AI Review: One-Click PDF to Video, Subtitles & Logo Magic!",
+    "video_url": "https://www.youtube.com/watch?v=kjmmtNEj2b8",
+    "views": 217
+  },
+  "tags": [
+    "dark mode",
+    "neon",
+    "tech",
+    "futuristic",
+    "cyberpunk",
+    "panel"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:13:12Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+# foliage_green
+
+## Description
+
+Subsurface-scattering green leaf material for vegetation, with slight transmission for backlit leaves
+
+## Parameters
+
+```json
+{
+  "best_for": [
+    "trees",
+    "plants",
+    "grass",
+    "forests"
+  ],
+  "principled": {
+    "Base Color": [
+      0.16,
+      0.34,
+      0.12,
+      1.0
+    ],
+    "Metallic": 0.0,
+    "Roughness": 0.62,
+    "Subsurface Radius": [
+      0.4,
+      0.8,
+      0.2
+    ],
+    "Subsurface Weight": 0.18,
+    "Transmission Weight": 0.12
+  }
+}
+```

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "particle_physics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_volumetric_explosion_mantaflo_8bdc923e",
+  "skill_name": "Procedural Volumetric Explosion (Mantaflow)",
+  "source": {
+    "channel": "Blender Made Easy",
+    "duration_sec": 1222,
+    "type": "youtube",
+    "video_id": "MxfctMsd0Ck",
+    "video_title": "Blender Tutorial - Creating a Simple Explosion Simulation",
+    "video_url": "https://www.youtube.com/watch?v=MxfctMsd0Ck",
+    "views": 213594
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:26Z",
+  "wash_version": "1.0.0"
+}

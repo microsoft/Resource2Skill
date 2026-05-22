@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is applicable for creating simple, uncluttered slides that serve as transitions, section dividers, or closing statements, optionally featuring a central text message.",
+  "category_path": [
+    "slide_layouts",
+    "utility"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "blank_canvas_f8a389",
+  "skill_name": "Blank Canvas",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "blank",
+    "minimal",
+    "transition",
+    "closing",
+    "divider",
+    "clean"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:00:23Z",
+  "wash_version": "1.0.0"
+}

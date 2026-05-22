@@ -1,0 +1,36 @@
+{
+  "applicability": "Effective for dashboard summaries, infographics, and reports when adding categorical icons or labels beneath chart columns to enhance clarity and visual connection.",
+  "category_path": [
+    "chart_design",
+    "annotations"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sub_zero_axis_annotation_f73b8d9a",
+  "skill_name": "Sub-Zero Axis Annotation",
+  "source": {
+    "channel": "\u5c0f\u5496PPT\u66f9\u5b78\u658c",
+    "duration_sec": 100,
+    "type": "youtube",
+    "video_id": "Zt_HmQFV4F4",
+    "video_title": "\u3010 \u5546\u696d\u7c21\u5831PPT\u6559\u5b78\u3011\u8cc7\u8a0a\u5716\u8868\uff1a\u67f1\u72c0\u5716\uff3f\u5ea7\u6a19\u8ef8\u9078\u9805(PPT Design)",
+    "video_url": "https://www.youtube.com/watch?v=Zt_HmQFV4F4",
+    "views": 895
+  },
+  "tags": [
+    "axis manipulation",
+    "chart annotation",
+    "infographic",
+    "column chart",
+    "data visualization",
+    "icons"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:15Z",
+  "wash_version": "1.0.0"
+}

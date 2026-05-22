@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_triggered_reveal_intersection_obs_8de9ab53",
+  "source": {
+    "channel": "Frontend Strats",
+    "duration_sec": 402,
+    "type": "youtube",
+    "video_id": "ANkvtCaYjWA",
+    "video_title": "Intersection Observer - Scroll Animation - Quick Tutorial!",
+    "video_url": "https://www.youtube.com/watch?v=ANkvtCaYjWA",
+    "views": 1191
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

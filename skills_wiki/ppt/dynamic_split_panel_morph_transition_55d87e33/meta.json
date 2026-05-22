@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_split_panel_morph_transition_55d87e33",
+  "skill_name": "Dynamic Split-Panel Morph Transition",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 1087,
+    "type": "youtube",
+    "video_id": "RJDpRUKwaNo",
+    "video_title": "5 Best Morph Transitions in PowerPoint 2025 \ud83d\udd25 - Easy Step-by-Step Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=RJDpRUKwaNo",
+    "views": 1893914
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:31:14Z",
+  "wash_version": "1.0.0"
+}

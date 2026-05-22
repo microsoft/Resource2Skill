@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_asymmetric_overlap_layout_4eaf3e14",
+  "skill_name": "Dynamic Asymmetric Overlap Layout",
+  "source": {
+    "channel": "Satori Graphics",
+    "duration_sec": 505,
+    "type": "youtube",
+    "video_id": "DKwSrMYt15g",
+    "video_title": "Master Layout Design In 8 Minutes! (IMPORTANT)",
+    "video_url": "https://www.youtube.com/watch?v=DKwSrMYt15g",
+    "views": 163315
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:54Z",
+  "wash_version": "1.0.0"
+}

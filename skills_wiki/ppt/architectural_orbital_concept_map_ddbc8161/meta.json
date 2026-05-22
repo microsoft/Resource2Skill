@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for thesis defenses, conceptual frameworks, strategic pillars, or presenting the overarching layout of a complex system/space. It works best when you have 1 core idea and 3-5 sub-ideas.",
+  "category_path": [
+    "information_visualization",
+    "conceptual_modeling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "architectural_orbital_concept_map_ddbc8161",
+  "skill_name": "Architectural Orbital Concept Map",
+  "source": {
+    "channel": "DamiLee",
+    "duration_sec": 1191,
+    "type": "youtube",
+    "video_id": "fijZPi26lKs",
+    "video_title": "Architecture Presentation Tips | 4 FUNDAMENTAL Principles",
+    "video_url": "https://www.youtube.com/watch?v=fijZPi26lKs",
+    "views": 137387
+  },
+  "tags": [
+    "radial map",
+    "concept visualization",
+    "strategic framework",
+    "geometric layout",
+    "thesis defense",
+    "information architecture"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:56Z",
+  "wash_version": "1.0.0"
+}

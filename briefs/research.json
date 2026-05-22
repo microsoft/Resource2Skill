@@ -1,0 +1,26 @@
+{
+  "variant_id": "research",
+  "out_dirname": "apple_style_research",
+  "title": "VideoWorldSkills: Agents that distill video tutorials into typed skills",
+  "audience": "academic research talk at an ML systems workshop",
+  "tone_words": ["calm", "editorial", "restrained", "research"],
+  "archetype_preference": "research",
+  "mood_preference": ["calm", "editorial", "restrained"],
+  "mode_preference": "dark",
+  "n_slides": 11,
+  "role_prefer": ["hero_quote", "timeline_horizontal", "agenda",
+                   "bullet_card_list", "section_divider"],
+  "role_avoid": ["feature_grid", "hero_giant_metric"],
+  "dense_quota": 2,
+  "core_points": [
+    "thesis: the library IS the runtime — skills compound",
+    "distillation pipeline: video -> typed shell (3-step process)",
+    "orchestration: LLM picks shell + theme + motion per slide",
+    "self-evolution harness: GPT scores its own output and improves",
+    "results: 142 distilled shells, all gated on exec/render/overlap/contrast",
+    "key quote from an engineer on what adopting this felt like",
+    "related work and positioning: prior video-skill and agent frameworks",
+    "limitations and open problems",
+    "future work: cross-domain skill transfer"
+  ]
+}

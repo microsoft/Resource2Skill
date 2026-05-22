@@ -1,0 +1,34 @@
+{
+  "applicability": "This slide layout is ideal for presenting a central concept with up to 8 related components or steps arranged in a circle. It effectively visualizes cyclical processes or features radiating from a core idea.",
+  "category_path": [
+    "diagram",
+    "cycle"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "left_circular_diagram_a9e486",
+  "skill_name": "Circular Process Diagram",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "circular",
+    "diagram",
+    "process",
+    "cycle",
+    "radial",
+    "infographic"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:11:03Z",
+  "wash_version": "1.0.0"
+}

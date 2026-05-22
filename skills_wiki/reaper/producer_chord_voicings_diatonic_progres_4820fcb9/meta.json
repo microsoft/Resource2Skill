@@ -1,0 +1,37 @@
+{
+  "applicability": "Generates professional diatonic chord progressions using wide 'producer' open voicings to prevent low-mid muddiness. Essential for establishing the harmonic foundation of EDM, Pop, and RnB tracks.",
+  "category_path": [
+    "composition",
+    "chords",
+    "progressions"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "producer_chord_voicings_diatonic_progres_4820fcb9",
+  "skill_name": "Producer Chord Voicings & Diatonic Progression Generator",
+  "source": {
+    "channel": "Alex Rome",
+    "duration_sec": 1495,
+    "type": "youtube",
+    "video_id": "vjIv4Gbmnj8",
+    "video_title": "The ULTIMATE Music Theory Crash Course (in under 25 minutes)",
+    "video_url": "https://www.youtube.com/watch?v=vjIv4Gbmnj8",
+    "views": 493312
+  },
+  "tags": [
+    "chord voicings",
+    "music theory",
+    "open chords",
+    "midi progression",
+    "edm chords"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:11Z",
+  "wash_version": "1.0.0"
+}

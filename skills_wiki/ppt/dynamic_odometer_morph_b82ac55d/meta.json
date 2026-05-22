@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for dynamically revealing key metrics like sales figures, financial results, or milestone achievements. It adds a cinematic and celebratory feel to data points in corporate presentations or events.",
+  "category_path": [
+    "data_visualization",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_odometer_morph_b82ac55d",
+  "skill_name": "Odometer Number Reveal",
+  "source": {
+    "channel": "\u79cb\u53f6\u8bfe\u5802",
+    "duration_sec": 396,
+    "type": "youtube",
+    "video_id": "r8zjCw96SGk",
+    "video_title": "PPT \u6559\u5b66 - \u8ba9\u4e1a\u7ee9\u6570\u636e\u66f4\u8000\u773c\uff01",
+    "video_url": "https://www.youtube.com/watch?v=r8zjCw96SGk",
+    "views": 207
+  },
+  "tags": [
+    "odometer",
+    "morph transition",
+    "data reveal",
+    "animated numbers"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:54:53Z",
+  "wash_version": "1.0.0"
+}

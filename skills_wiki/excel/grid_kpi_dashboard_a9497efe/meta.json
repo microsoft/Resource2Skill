@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_kpi_dashboard_a9497efe",
+  "skill_name": "Grid KPI Dashboard",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:00:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Interactive KPI dashboard showing current month, target, and prior month values with conditional formatting."
+        },
+        {
+          "seconds": 34,
+          "description": "Full view of the KPI dashboard showcasing different categories like Working Capital Efficiency, Sales KPIs, and Cost KPIs."
+        },
+        {
+          "seconds": 407,
+          "description": "Close-up demonstrating the dynamic month selection and how conditional formatting changes colors based on KPI values."
+        },
+        {
+          "seconds": 705,
+          "description": "Overview of the spreadsheet structure, highlighting the 'Dashboard', 'Staging', and 'Data' tabs."
+        },
+        {
+          "seconds": 1004,
+          "description": "Final presentation of the KPI dashboard, demonstrating how data is pulled and displayed for chosen months."
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_kpi_dashboard_show.jpg",
+        "frame_01_full_view_of_the_kpi_dashboard.jpg",
+        "frame_02_close_up_demonstrating_the_dyn.jpg",
+        "frame_03_overview_of_the_spreadsheet_st.jpg"
+      ],
+      "recapped_at": 1777406897.0206032
+    },
+    "primary_path": "frame_00_interactive_kpi_dashboard_show.jpg"
+  }
+}

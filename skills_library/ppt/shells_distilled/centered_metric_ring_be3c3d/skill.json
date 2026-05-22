@@ -1,0 +1,72 @@
+{
+  "skill_id": "centered_metric_ring_be3c3d",
+  "skill_type": "shell",
+  "name": "Centered Metric Ring",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "section_divider"
+    ],
+    "content_shape": [
+      "title+subtitle+metric-ring"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "corporate",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metric",
+      "kind": "text",
+      "required": true,
+      "style": "metric_xl",
+      "max_chars": 10,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_metric_ring_be3c3d/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "gradient_widesweep_doughnut_dashboards_a34e1e60",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A high-impact, low-density layout focusing on a single key metric surrounded by a decorative ring, ideal for section dividers or dashboard highlights.",
+  "_distill_attempts": 1
+}

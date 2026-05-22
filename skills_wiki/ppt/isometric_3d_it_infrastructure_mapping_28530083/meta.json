@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating clear, modern 3D diagrams for complex systems like network topologies, cloud architectures, or deployment maps. This technique effectively visualizes data flow across multiple distinct nodes in a clean, architectural style.",
+  "category_path": [
+    "diagrams",
+    "technical_diagrams"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_3d_it_infrastructure_mapping_28530083",
+  "skill_name": "Isometric 3D IT Infrastructure Mapping",
+  "source": {
+    "channel": "Impresstraining",
+    "duration_sec": 264,
+    "type": "youtube",
+    "video_id": "u0nHrHYz7oI",
+    "video_title": "PowerPoint Tutorial on Network Diagrams",
+    "video_url": "https://www.youtube.com/watch?v=u0nHrHYz7oI",
+    "views": 57528
+  },
+  "tags": [
+    "isometric",
+    "3d diagram",
+    "network topology",
+    "system architecture",
+    "ppt native"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:23Z",
+  "wash_version": "1.0.0"
+}

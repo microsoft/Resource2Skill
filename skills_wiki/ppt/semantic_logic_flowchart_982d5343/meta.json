@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for visualizing sequential processes, decision paths, or troubleshooting guides. It transforms complex logical flows into clear, digestible visual maps.",
+  "category_path": [
+    "process",
+    "logic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "semantic_logic_flowchart_982d5343",
+  "skill_name": "Semantic Logic Flowchart",
+  "source": {
+    "channel": "Office Master Tutorials",
+    "duration_sec": 247,
+    "type": "youtube",
+    "video_id": "UlAHtHlMCos",
+    "video_title": "How to Create Flowchart in Microsoft Word",
+    "video_url": "https://www.youtube.com/watch?v=UlAHtHlMCos",
+    "views": 967717
+  },
+  "tags": [
+    "flowchart",
+    "logic",
+    "workflow",
+    "decision tree",
+    "process",
+    "diagram"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:29:13Z",
+  "wash_version": "1.0.0"
+}

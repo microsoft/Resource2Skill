@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "foundational_synthesizer_midi_setup_reas_890a4fe9",
+  "skill_name": "Foundational Synthesizer MIDI Setup (ReaSynth + Spatial FX)",
+  "source": {
+    "channel": "Skills Factory",
+    "duration_sec": 808,
+    "type": "youtube",
+    "video_id": "_shjd4GBILo",
+    "video_title": "Reaper  - Tutorial for Beginners in 13 MINUTES!  [ COMPLETE ]",
+    "video_url": "https://www.youtube.com/watch?v=_shjd4GBILo",
+    "views": 813378
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:50:37Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_parallax_depth_hero_b45bba83",
+  "skill_name": "Interactive Parallax Depth Hero",
+  "source": {
+    "channel": "The Animation Coder",
+    "duration_sec": 1268,
+    "type": "youtube",
+    "video_id": "Xlv7MqWpQzw",
+    "video_title": "Create Mesmerizing Interactive Shadow Art with HTML, CSS & JavaScript | Web Animation Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=Xlv7MqWpQzw",
+    "views": 57
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:16Z",
+  "wash_version": "1.0.0"
+}

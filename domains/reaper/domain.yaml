@@ -1,0 +1,513 @@
+name: reaper
+display_name: REAPER Music Production & Audio Engineering
+# Hybrid mode: discovery via skills_wiki/reaper, execution via the
+# legacy pretty_midi+fluidsynth MCP layer. See domains/reaper/wiki_adapter.py.
+library_backend: wiki
+execution_mode: sync_engine
+skill_selection: browse
+auto_load_skills:
+  - music_theory_essentials_primer
+persona: You are a REAPER music production expert skilled in beat making, sound design,
+  mixing, mastering, MIDI composition, and audio engineering using ReaScript Python
+  API.
+categories:
+  drums:
+  - drum
+  - beat
+  - rhythm
+  - hi-hat
+  - kick
+  - snare
+  - percussion
+  - groove
+  - pattern
+  - 鼓
+  - 节拍
+  - 节奏
+  - 打击乐
+  melody:
+  - melody
+  - lead
+  - hook
+  - riff
+  - motif
+  - arpeggio
+  - sequence
+  - 旋律
+  - 主旋律
+  - 琶音
+  - 动机
+  chords:
+  - chord
+  - harmony
+  - pad
+  - progression
+  - voicing
+  - seventh
+  - suspended
+  - 和弦
+  - 和声
+  - 进行
+  bass:
+  - bass
+  - bassline
+  - sub bass
+  - '808'
+  - bass pattern
+  - groove
+  - 贝斯
+  - 低音
+  sound_design:
+  - sound design
+  - synth
+  - preset
+  - oscillator
+  - filter
+  - envelope
+  - LFO
+  - wavetable
+  - 音色设计
+  - 合成器
+  - 滤波器
+  effects:
+  - effect
+  - reverb
+  - delay
+  - distortion
+  - compression
+  - EQ
+  - sidechain
+  - automation
+  - 效果
+  - 混响
+  - 延迟
+  - 压缩
+  arrangement:
+  - arrangement
+  - structure
+  - intro
+  - verse
+  - chorus
+  - bridge
+  - drop
+  - buildup
+  - transition
+  - 编曲
+  - 结构
+  - 副歌
+  - 过渡
+  mixing:
+  - mixing
+  - volume
+  - panning
+  - stereo
+  - width
+  - master
+  - gain staging
+  - bus
+  - 混音
+  - 声像
+  - 母带
+query_pool:
+  - "REAPER bass line tutorial beginner MIDI"
+  - "REAPER intro verse chorus arrangement workflow"
+  - "REAPER melody writing tutorial MIDI piano roll"
+  - "REAPER arrangement automation transitions tutorial"
+  - REAPER beat making tutorial beginner
+  - REAPER MIDI drum pattern tutorial
+  - REAPER chord progression tutorial
+  - REAPER bass line production
+  - REAPER sound design synth tutorial
+  - REAPER mixing tutorial beginner
+  - REAPER mastering tutorial
+  - REAPER lo-fi hip hop beat
+  - REAPER trap beat tutorial
+  - REAPER EDM production tutorial
+  - REAPER piano melody composition
+  - REAPER guitar recording tutorial
+  - REAPER automation tutorial
+  - REAPER sidechain compression tutorial
+  - REAPER EQ mixing vocal tutorial
+  - REAPER reverb delay effects
+  - REAPER arrangement song structure
+  - REAPER synthwave tutorial
+  - REAPER ambient music production
+  - REAPER ReaScript Python tutorial
+  - REAPER melody writing MIDI tutorial
+  - REAPER lead melody composition tutorial
+  - REAPER piano melody hip hop tutorial
+  - REAPER arpeggio melody tutorial
+  - REAPER 808 bass tutorial hip hop
+  - REAPER bass line programming tutorial
+  - REAPER sub bass design tutorial
+  - REAPER bass guitar MIDI programming
+  - REAPER song arrangement tutorial structure
+  - REAPER beat arrangement intro verse chorus
+  - REAPER song structure pop arrangement
+  - REAPER buildup drop arrangement EDM
+  - REAPER gospel chords piano tutorial
+  - REAPER soul chord progression tutorial
+  - REAPER jazz chord voicings MIDI tutorial
+  - REAPER neo soul chords tutorial
+  - REAPER synth sound design from scratch
+  - REAPER pad sound design ambient tutorial
+  - REAPER lead synth sound design tutorial
+  - REAPER Kanye West style beat tutorial
+  - REAPER soul sample beat tutorial
+  - REAPER lofi hip hop beat tutorial
+  - REAPER R&B beat making tutorial
+  - REAPER boom bap beat from scratch
+  - REAPER synthwave retrowave tutorial
+  - REAPER house beat tutorial from scratch
+  - REAPER bassline tutorial hip hop
+  - REAPER arrangement tutorial song structure
+  - REAPER intro verse chorus arrangement tutorial
+  - REAPER melody writing tutorial
+  - REAPER counter melody tutorial
+  - REAPER subtractive synthesis tutorial
+  - REAPER pad sound design tutorial
+  - REAPER drum bus mixing tutorial
+  - REAPER stereo imaging mixing tutorial
+  - REAPER bass line tutorial hip hop
+  - REAPER 808 bass programming tutorial
+  - REAPER song arrangement tutorial beat making
+  - REAPER verse chorus arrangement tutorial
+  - REAPER melody writing tutorial beginner
+  - REAPER beat transition and riser tutorial
+  - REAPER mix bus workflow tutorial
+  - REAPER sample chop bassline tutorial
+  - REAPER automation arrangement build up tutorial
+  - REAPER arrangement tutorial beat switch up
+  - REAPER song arrangement tutorial hip hop
+  - REAPER hook melody tutorial trap
+  - REAPER bass and drums groove tutorial
+  - REAPER arrangement automation tutorial
+  - REAPER cinematic bass sound design tutorial
+  - music theory chord progression explained tutorial
+  - voice leading rules music theory tutorial
+  - counterpoint music theory tutorial beginner
+  - tension and release music composition tutorial
+  - music modes explained dorian mixolydian tutorial
+  - circle of fifths music production tutorial
+  - jazz harmony reharmonization tutorial
+  - song arrangement energy curve tutorial
+  - how to arrange a beat intro verse chorus tutorial
+  - beat arrangement dynamics tension release tutorial
+  - music production buildup and drop technique tutorial
+  - how professional producers arrange beats tutorial
+  - how to mix beats professionally tutorial
+  - frequency spectrum mixing tutorial kick bass separation
+  - music production EQ fundamentals tutorial
+  - compression basics music production tutorial
+  - stereo imaging panning music production tutorial
+  - gain staging music production tutorial
+  - mastering chain tutorial music production
+  - what makes a good beat music production tutorial
+  - how to make beats sound professional not amateur
+  - common beat making mistakes to avoid tutorial
+  - music production tips professional sound tutorial
+  - how to evaluate and critique your own beats tutorial
+  - history of hip hop production techniques tutorial
+  - evolution of trap music production tutorial
+  - jazz piano voicings for beat makers tutorial
+  - classical music theory for producers tutorial
+  - funk groove theory music production tutorial
+  - blues scale and progression music production
+  - R&B chord progression secrets tutorial
+  - electronic music synthesis fundamentals tutorial
+  - Daft Punk discovery era production tutorial
+  - Daft Punk random access memories production tutorial
+  - Radiohead electronic production techniques tutorial
+  - Kraftwerk electronic music tutorial
+  - MF DOOM beat making style tutorial
+  - Madlib beat making tutorial production
+  - Flying Lotus production techniques tutorial
+  - Nujabes lofi jazz hip hop production tutorial
+  - Timbaland production techniques tutorial
+  - Rick Rubin production philosophy tutorial
+  - 90s boom bap golden age hip hop beat tutorial
+  - 2000s crunk southern hip hop beat tutorial
+  - 70s funk disco groove beat making tutorial
+  - 80s new wave synth pop production tutorial
+  - 60s motown soul production techniques tutorial
+  - jazz fusion beat making tutorial
+  - bossa nova rhythm pattern music production
+  - reggae dub production techniques tutorial
+  - afrobeat rhythm pattern tutorial music production
+  - UK garage 2-step beat tutorial
+  - drum and bass jungle beat tutorial production
+  - ambient Brian Eno generative music tutorial
+  - post-punk dark wave production tutorial
+  - city pop Japanese 80s production tutorial
+  - Latin jazz rhythm patterns music production
+  - "REAPER intro verse chorus bridge arrangement tutorial"
+  - "REAPER melody writing tutorial beginner MIDI"
+  - "REAPER counter melody tutorial piano roll"
+  - "REAPER mixing drums bass vocal balance tutorial"
+  - "REAPER gain staging and routing mixing tutorial"
+  - "REAPER bassline tutorial 808 MIDI programming"
+  - "REAPER sub bass sound design tutorial synth"
+  - "REAPER bass groove tutorial funk MIDI"
+  - "REAPER song arrangement tutorial markers transitions automation"
+  - "REAPER build up and drop arrangement tutorial EDM"
+  - "REAPER melody creation tutorial call and response MIDI"
+  - "REAPER mixing tutorial gain staging EQ compression vocal beat"
+  - "REAPER bus processing tutorial drum bass mix"
+  - "REAPER automation tutorial risers fills transitions"
+  - "REAPER bass line writing tutorial for chord progressions"
+  - "REAPER song arrangement tutorial beginner verse chorus bridge"
+  - "REAPER transition effects arrangement tutorial risers fills"
+  - "REAPER melody writing tutorial beginner MIDI piano roll"
+  - "REAPER counter melody tutorial REAPER"
+  - "REAPER mixing workflow tutorial EQ compression beginner"
+  - "REAPER vocal and instrumental bus routing tutorial"
+  - "REAPER bassline tutorial beginner MIDI"
+  - "REAPER bass and kick groove tutorial"
+  - "REAPER song arrangement tutorial beginner sections"
+  - "REAPER build up transition riser automation tutorial"
+  - "REAPER verse to chorus transition tutorial"
+  - "REAPER melody writing tutorial beginner catchy hooks"
+  - "REAPER counter melody tutorial MIDI"
+  - "REAPER bass melody relationship tutorial"
+  - "REAPER bassline writing for chord progressions"
+  - "REAPER song arrangement workflow beginner full track"
+  - "REAPER melody writing tutorial beginner piano roll"
+  - "REAPER vocal and instrumental bus mixing tutorial"
+  - "REAPER transitions risers fills automation arrangement tutorial"
+  - "REAPER bassline tutorial beginner MIDI stock plugins"
+  - "REAPER 808 bass tutorial MIDI routing sidechain"
+  - "REAPER sub bass sound design tutorial ReaSynth"
+  - "REAPER song arrangement tutorial beginner sections transitions"
+  - "REAPER intro build drop arrangement tutorial EDM"
+  - "REAPER verse chorus bridge arrangement tutorial songwriting"
+  - "REAPER melody tutorial beginner MIDI piano roll hooks"
+  - "REAPER counter melody tutorial MIDI composition"
+  - "REAPER bass and drums groove writing tutorial"
+  - "REAPER arrangement automation risers fills transitions tutorial"
+  - "REAPER bass line tutorial beginner MIDI synth bass"
+  - "REAPER 808 bass programming tutorial sidechain"
+  - "REAPER bass guitar recording tutorial DI amp sim"
+  - "REAPER song arrangement tutorial intro verse chorus bridge"
+  - "REAPER arrangement transitions tutorial risers fills automation"
+  - "REAPER melody writing tutorial beginner hooks piano roll"
+  - "REAPER call and response melody tutorial REAPER"
+  - "REAPER bass groove writing tutorial"
+  - "REAPER build up drop transition arrangement tutorial"
+  - "REAPER piano roll melody creation tutorial"
+  - "REAPER mixing workflow tutorial stock plugins"
+  - "REAPER bass line tutorial beginner MIDI stock plugins"
+  - "REAPER bass and kick sidechain tutorial stock plugins"
+  - "REAPER song arrangement tutorial beginner full track"
+  - "REAPER melodic hook writing tutorial MIDI"
+  - "REAPER mixing tutorial stock plugins only"
+  - "REAPER gain staging and balance tutorial beginner"
+  - "REAPER transition effects arrangement risers impacts tutorial"
+  - "REAPER bassline tutorial MIDI beginner stock plugins"
+  - "REAPER bass and kick sidechain workflow"
+  - "REAPER song arrangement tutorial full track structure"
+  - "REAPER build up drop transition tutorial automation"
+  - "REAPER melody counter melody tutorial MIDI"
+  - "REAPER catchy lead melody writing tutorial"
+  - "REAPER bassline from chord progression tutorial"
+  - "REAPER arrangement markers regions workflow tutorial"
+  # --- auto-added by evolve ---
+  - "REAPER bass line tutorial beginner"
+  - "REAPER song arrangement tutorial beginner"
+  - "REAPER verse chorus arrangement workflow"
+  - "REAPER melody writing tutorial MIDI"
+  - "REAPER mixing drums and bass tutorial"
+  - "REAPER transitions and risers arrangement tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER bass synth sound design tutorial"
+  - "REAPER transition effects arrangement tutorial"
+  - "REAPER build up and drop arrangement tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER bass and kick mixing tutorial"
+  - "REAPER verse chorus bridge arrangement tutorial"
+  - "REAPER call and response melody tutorial"
+  - "REAPER mixing workflow tutorial full song"
+  - "REAPER audio routing troubleshooting tutorial"
+  - "REAPER render selected tracks tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER sub bass sound design tutorial"
+  - "REAPER arrange a beat into full song tutorial"
+  - "REAPER melodic hook composition tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER MIDI melody composition tutorial"
+  - "REAPER mixing workflow tutorial beginner"
+  - "REAPER vocal EQ and compression tutorial"
+  - "REAPER bus routing and submix tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER bass synthesis tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER bass sound design tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER vocal arrangement tutorial"
+  - "REAPER mix bus processing tutorial"
+  - "REAPER stock plugins effects rack tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER bass MIDI programming tutorial"
+  - "REAPER piano melody MIDI tutorial"
+  - "REAPER render audio troubleshooting tutorial"
+  - "REAPER bus routing and gain staging tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER mixing workflow stock plugins"
+  - "REAPER vocal mixing stock plugins tutorial"
+  - "REAPER drum and bass groove tutorial"
+  - "REAPER bass and kick sidechain tutorial"
+
+  # --- auto-added by evolve ---
+  - "REAPER bassline tutorial beginner"
+
+  # --- auto-added by evolve ---
+  - "REAPER bass tutorial beginner"
+  - "REAPER pop arrangement workflow tutorial"
+
+rerank_prompt: 'You are a music production expert. Select the best {n} skills from
+  the candidates for the given task.
+
+
+  ## Task
+
+  {query}
+
+
+  ## Candidates
+
+  {candidates}
+
+
+  ## Requirements
+
+  - Skills should complement each other (drums + bass + melody + effects)
+
+  - Avoid overlapping functionality (don''t pick two drum patterns unless genre-varied)
+
+  - Prefer skills that compose well in a mix (frequency range separation)
+
+  - Output ONLY a JSON array:
+
+  [{{"skill_id": "...", "skill_name": "...", "reason": "one-line rationale"}}]
+
+  '
+metadata_keyword_rules:
+  scope:
+    project:
+    - full track
+    - complete beat
+    - song
+    - arrangement
+    track:
+    - single track
+    - one track
+    - instrument
+    - stem
+    clip:
+    - MIDI item
+    - pattern
+    - loop
+    - clip
+  complexity:
+    advanced:
+    - sidechain
+    - automation
+    - mastering chain
+    - multiband
+    - frequency spectrum
+    intermediate:
+    - chord progression
+    - drum variation
+    - effects chain
+    - EQ
+    - compression
+    basic:
+    - simple beat
+    - basic pattern
+    - single note
+    - beginner
+    - four on the floor
+mcp:
+  command: python
+  args:
+  - domains/reaper/mcp_server/server.py
+  - --skills-dir
+  - skills_library/reaper
+  env:
+    AZURE_OPENAI_API_KEY: ${AZURE_OPENAI_API_KEY}
+  spawn_wait: 3
+agent_prompt_file: agent_prompt.md
+agent_hooks_module: agent_hooks
+agent_initial_prompt: 'Step 1: Load the primer first with get_skill_text(skill_id="music_theory_essentials_primer").
+
+  Step 2: Search task-fit skills with search_skills. The query must include the
+  brief genre, BPM/tempo, and key/scale when present, plus likely roles such as
+  drums, bass, harmony, melody, and arrangement.
+
+  Step 3: Inspect candidate skills before use. For at least the final skills you
+  intend to apply, call get_skill_info, get_skill_text, get_skill_code, and get_skill_visual
+  so selection uses text/code/visual multimodal evidence.
+
+  Step 4: Write a 3-line plan: BPM, key/scale, sections. Do not call get_project_info
+  before primer/search/inspection.
+
+  Step 5: Use apply_skill at least 4 times when direct matches
+  exist, for distinct roles (for example rhythm, bass, harmony, melody, arrangement,
+  or mix/FX). Pass kwargs_json matching the brief, including bpm, key, scale,
+  and full bars.
+
+  Step 6: If apply_skill returns detail.mode="code_ready", immediately execute
+  detail.run_snippet with execute_reaper_code and include from_skill_ids,
+  target_node, and adaptation_notes. If it returns recipe_only, translate
+  the recipe into create_track and add_midi_notes calls.
+
+  Step 7: Maintain the density floor: call arrange_project_sections(total_bars=<brief bars>, pattern_bars=8, style=<genre>) after the role skills. It extends short snippets and creates intro/main/breakdown/final energy changes. Aim for at least 5 tracks and add appropriate FX.
+
+  Step 8: Render with render_project by iteration 25 (use style= for genre-appropriate
+  FX), then review with review_audio and read the scores and fixes.
+
+  Step 9: If review flags sparse low end, weak transients, unbalanced spectrum,
+  or flat arrangement, apply fixes (especially arrange_project_sections plus
+  drum fills / lead accents), then re-render and re-review.
+
+  Step 10: When acceptable or 2 revisions are done, save_project and say TASK_COMPLETE.
+
+  '
+failure_patterns:
+- (?i)error
+- (?i)failed
+- (?i)traceback
+- (?i)exception
+- (?i)reascript
+max_repeated_failures: 4
+dry_run_placeholders:
+  get_project_info: "Project: Untitled\n  Tempo: 120.0 BPM\n  Time Sig: 4/4\n  Tracks\
+    \ (2):\n  - Track 1 [MIDI] 0 items\n  - Track 2 [AUDIO] 0 items"
+  execute_reaper_code: Code executed successfully (no output)
+  create_midi_item: 'Created MIDI item on Track 1: position=0.0, length=4.0 bars'
+  add_midi_notes: 'Added 16 MIDI notes to item on Track 1 (pitches: C3-G4, velocities:
+    80-120)'
+  set_tempo: Tempo set to 85.0 BPM
+  create_track: Created track 'Piano' at index 3
+  add_fx: 'Added VST: ReaSynth to Track 1'
+  render_project: Rendered to demo/reaper/my_track.wav (3.2 MB, 44100 Hz, 16 bars)
+  save_project: Saved project to demo/reaper/my_track.rpp (45 KB)
+  apply_skill: 'Applied skill ''Boom Bap Drum Pattern'': created Track ''Drums'' with
+    1 MIDI item (32 notes)
+
+    SKILL_CREATED: Drums'
+  list_skills: "Skill library: 30 skills in 8 categories (12 verified)\n  drums: 6\
+    \ skills (4 verified)\n  chords: 5 skills (3 verified)"
+  get_skill_info: "Skill: Boom Bap Drum Pattern\n  ID: boom_bap_drums_a1b2c3d4\n \
+    \ Category: drums\n  Tags: hip-hop, boom bap, kick, snare, hi-hat"
+  get_skill_code: "def create_pattern(project_name='MyProject', track_name='Drums',\
+    \ bpm=90, ...):\n    ..."
+tools_fallback_file: tools_fallback.json

@@ -1,0 +1,83 @@
+{
+  "best_for": [
+    "product hero shots",
+    "portraits",
+    "close-up renders",
+    "isolated objects"
+  ],
+  "lights": [
+    {
+      "color": [
+        1.0,
+        0.96,
+        0.92,
+        1.0
+      ],
+      "energy": 800,
+      "location": [
+        4.0,
+        -3.5,
+        4.0
+      ],
+      "name": "Key",
+      "rotation_euler_deg": [
+        55,
+        0,
+        50
+      ],
+      "size": 3.5,
+      "type": "AREA"
+    },
+    {
+      "color": [
+        0.85,
+        0.92,
+        1.0,
+        1.0
+      ],
+      "energy": 200,
+      "location": [
+        -3.5,
+        -2.0,
+        2.5
+      ],
+      "name": "Fill",
+      "rotation_euler_deg": [
+        40,
+        0,
+        -45
+      ],
+      "size": 4.5,
+      "type": "AREA"
+    },
+    {
+      "color": [
+        1.0,
+        0.85,
+        0.7,
+        1.0
+      ],
+      "energy": 600,
+      "location": [
+        0.0,
+        4.0,
+        3.0
+      ],
+      "name": "Rim",
+      "rotation_euler_deg": [
+        -65,
+        0,
+        180
+      ],
+      "size": 2.0,
+      "type": "AREA"
+    }
+  ],
+  "world_color": [
+    0.04,
+    0.05,
+    0.06,
+    1.0
+  ],
+  "world_strength": 0.15
+}

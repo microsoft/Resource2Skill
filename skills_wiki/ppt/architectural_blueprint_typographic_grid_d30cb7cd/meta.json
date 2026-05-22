@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "architectural_blueprint_typographic_grid_d30cb7cd",
+  "skill_name": "Architectural Blueprint & Typographic Grid",
+  "source": {
+    "channel": "Show It Better",
+    "duration_sec": 451,
+    "type": "youtube",
+    "video_id": "q3wvB15w8WI",
+    "video_title": "My Architecture Presentation Board Workflow",
+    "video_url": "https://www.youtube.com/watch?v=q3wvB15w8WI",
+    "views": 81630
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:50:22Z",
+  "wash_version": "1.0.0"
+}

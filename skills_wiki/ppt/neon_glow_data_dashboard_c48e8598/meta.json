@@ -1,0 +1,36 @@
+{
+  "applicability": "Use to present key performance indicators (KPIs) and data trends in a visually striking, modern format. Ideal for executive BI dashboards, tech, sales, or financial performance reviews on a dark theme.",
+  "category_path": [
+    "dashboard",
+    "kpi"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_glow_data_dashboard_c48e8598",
+  "skill_name": "Neon Glow Data Dashboard",
+  "source": {
+    "channel": "\u5e03\u8863\u516c\u5b50PPT",
+    "duration_sec": 303,
+    "type": "youtube",
+    "video_id": "xxs3rKIa5kE",
+    "video_title": "\u65e0\u8bba\u662f\u4f5c\u4e3a\u5b66\u4e60\u7d20\u6750\u8fd8\u662f\u76f4\u63a5\u5957\u7528\uff0c\u8fd9\u4e2a\u4eea\u8868\u677f\u4f60\u503c\u5f97\u62e5\u6709~",
+    "video_url": "https://www.youtube.com/watch?v=xxs3rKIa5kE",
+    "views": 32
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "data visualization",
+    "dark theme",
+    "neon",
+    "modern"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:01:42Z",
+  "wash_version": "1.0.0"
+}

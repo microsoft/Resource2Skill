@@ -1,0 +1,37 @@
+{
+  "applicability": "Suitable for visualizing strategic plans, project timelines, product development stages, or any multi-step chronological process, transforming sequences into an engaging journey.",
+  "category_path": [
+    "roadmap",
+    "timeline",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "winding_serpentine_roadmap_f75c1093",
+  "skill_name": "Winding Serpentine Roadmap",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "vmKALI3Sv8U",
+    "video_title": "Sample Product Roadmap PPT PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=vmKALI3Sv8U",
+    "views": 58
+  },
+  "tags": [
+    "roadmap",
+    "timeline",
+    "process",
+    "milestones",
+    "journey",
+    "strategy"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:26Z",
+  "wash_version": "1.0.0"
+}

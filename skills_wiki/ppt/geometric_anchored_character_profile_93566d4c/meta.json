@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_anchored_character_profile_93566d4c",
+  "skill_name": "Geometric Anchored Character Profile (\u51e0\u4f55\u951a\u5b9a\u4eba\u7269\u4ecb\u7ecd\u6392\u7248)",
+  "source": {
+    "channel": "PPT\u53ef\u89c6\u5316",
+    "duration_sec": 513,
+    "type": "youtube",
+    "video_id": "kv_ck2a0m_A",
+    "video_title": "\u8fd9\u4e48\u7b80\u5355\u7684\u4eba\u7269\u4ecb\u7ecdPPT\uff0c\u4e00\u4e2a\u7248\u5f0f\u6211\u7ed9\u4f60\u505a\u4e868\u9875",
+    "video_url": "https://www.youtube.com/watch?v=kv_ck2a0m_A",
+    "views": 7697
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:29:13Z",
+  "wash_version": "1.0.0"
+}

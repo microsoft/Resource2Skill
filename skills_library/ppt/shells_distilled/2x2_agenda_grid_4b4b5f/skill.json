@@ -1,0 +1,62 @@
+{
+  "skill_id": "2x2_agenda_grid_4b4b5f",
+  "skill_type": "shell",
+  "name": "2x2 Agenda Grid",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "agenda"
+    ],
+    "content_shape": [
+      "title+2x2-numbered-list"
+    ],
+    "density": "medium",
+    "mood": [
+      "editorial",
+      "warm",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "agenda_items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 4
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/2x2_agenda_grid_4b4b5f/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "organic_grid_reveal_sequence_8ed51df6",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "A classic 2x2 grid layout for an agenda or table of contents, featuring prominent numbered badges for clear section delineation.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,128 @@
+{
+  "theme_id": "indigo_film_grain",
+  "name": "Indigo Film Grain",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/14110f-34312d-5a5651-c97c5d-7e7f83-f3f3f4-c2c2c2-6d9f71-e0a458",
+  "source_title": "Coolors \u2014 Grainy Film Stock",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#14110F",
+    "panel": "#34312D",
+    "accent": "#C97C5D",
+    "accent2": "#7E7F83",
+    "text": "#F3F3F4",
+    "muted": "#C2C2C2",
+    "border": "#5A5651",
+    "success": "#6D9F71",
+    "warning": "#E0A458"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Georgia",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Georgia",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Trebuchet MS",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "soft emulsion grain and dusty frame edges"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "in_bottom",
+      "slide_in_left"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "cinematic",
+    "restrained",
+    "warm"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "brand",
+    "research"
+  ],
+  "preferred_motion_tags": [
+    "cinematic",
+    "wash",
+    "bloom",
+    "editorial"
+  ],
+  "avoided_motion_tags": [
+    "confetti",
+    "bounce",
+    "glitch"
+  ]
+}

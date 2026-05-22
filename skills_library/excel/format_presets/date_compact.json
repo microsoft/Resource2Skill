@@ -1,0 +1,5 @@
+{
+  "name": "date_compact",
+  "description": "MMM-yy compact date label, e.g. Apr-26",
+  "number_format": "mmm-yy"
+}

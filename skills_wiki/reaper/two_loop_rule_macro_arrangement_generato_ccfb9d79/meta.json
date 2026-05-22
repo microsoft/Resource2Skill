@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_loop_rule_macro_arrangement_generato_ccfb9d79",
+  "skill_name": "\"Two-Loop Rule\" Macro-Arrangement Generator",
+  "source": {
+    "channel": "Alex Rome",
+    "duration_sec": 590,
+    "type": "youtube",
+    "video_id": "IH-zpS7gxxg",
+    "video_title": "A Cheatcode for Better Arrangements: The Two Loop Rule",
+    "video_url": "https://www.youtube.com/watch?v=IH-zpS7gxxg",
+    "views": 862487
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:47:58Z",
+  "wash_version": "1.0.0"
+}

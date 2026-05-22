@@ -1,0 +1,36 @@
+{
+  "applicability": "This pattern is ideal for creating interactive, focused user experiences like confirmation dialogs, alerts, lightboxes, or signup popups, ensuring users focus on specific content.",
+  "category_path": [
+    "web_ui",
+    "modal"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "smooth_fade_in_css_modal_overlay_9f3c21c8",
+  "skill_name": "Smooth Fade-in CSS Modal Overlay",
+  "source": {
+    "channel": "Florin Pop",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "XH5OW46yO8I",
+    "video_title": "Create a Modal (Popup) with HTML/CSS and JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=XH5OW46yO8I",
+    "views": 154914
+  },
+  "tags": [
+    "modal",
+    "overlay",
+    "css transition",
+    "fade effect",
+    "dialog",
+    "web ui"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:09:01Z",
+  "wash_version": "1.0.0"
+}

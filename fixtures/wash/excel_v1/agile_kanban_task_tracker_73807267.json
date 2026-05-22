@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "agile_kanban_task_tracker_73807267",
+  "source": {
+    "channel": "\u5343\u4e07\u522b\u5b66Excel",
+    "duration_sec": 250,
+    "type": "youtube",
+    "video_id": "SMFmzstfJ4k",
+    "video_title": "Excel\u6559\u5b78 | Excel\u5236\u4f5c\u7684\u654f\u6377\u770b\u677f\uff0c\u53ef\u89c6\u5316\u7ba1\u7406\u5de5\u4f5c\u4efb\u52a1",
+    "video_url": "https://www.youtube.com/watch?v=SMFmzstfJ4k",
+    "views": 1033
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_vector_warped_displacement_aca1039a",
+  "skill_name": "Procedural Vector Warped Displacement",
+  "source": {
+    "channel": "Polyfjord",
+    "duration_sec": 493,
+    "type": "youtube",
+    "video_id": "O_spJmmST5I",
+    "video_title": "Tutorial: Procedural Textures in Blender",
+    "video_url": "https://www.youtube.com/watch?v=O_spJmmST5I",
+    "views": 512413
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:26Z",
+  "wash_version": "1.0.0"
+}

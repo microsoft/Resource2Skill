@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trilobite_morphing_infographic_5232ad1d",
+  "skill_name": "Trilobite Morphing Infographic",
+  "source": {
+    "channel": "Dr. Saeed Faal",
+    "duration_sec": 618,
+    "type": "youtube",
+    "video_id": "FmPahUV7iSs",
+    "video_title": "How to Design Infographic PowerPoint Like Professionals",
+    "video_url": "https://www.youtube.com/watch?v=FmPahUV7iSs",
+    "views": 35546
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:23:35Z",
+  "wash_version": "1.0.0"
+}

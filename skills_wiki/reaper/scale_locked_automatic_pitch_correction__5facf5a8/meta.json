@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scale_locked_automatic_pitch_correction__5facf5a8",
+  "skill_name": "Scale-Locked Automatic Pitch Correction (The \"T-Pain\" to \"Natural\" Spectrum)",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 676,
+    "type": "youtube",
+    "video_id": "3W7uVvcl1zo",
+    "video_title": "ReaTune or Tuning Vocals in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=3W7uVvcl1zo",
+    "views": 84627
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:00:05Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "This multi-stage processing chain is universally applied on the master bus during mixing or mastering across most modern genres to create a cohesive, polished, and loud final mix.",
+  "category_path": [
+    "mixing",
+    "mastering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mix_bus_glue_processing_chain_c91f3fa2",
+  "skill_name": "Mix Bus \"Glue\" Processing Chain",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 632,
+    "type": "youtube",
+    "video_id": "3ncr_aLySF4",
+    "video_title": "How to Glue a Mix in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=3ncr_aLySF4",
+    "views": 64253
+  },
+  "tags": [
+    "mix bus",
+    "glue",
+    "compression",
+    "mastering",
+    "dynamics",
+    "loudness"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:56:24Z",
+  "wash_version": "1.0.0"
+}

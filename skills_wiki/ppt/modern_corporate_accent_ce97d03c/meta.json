@@ -1,0 +1,35 @@
+{
+  "applicability": "Establishes a strong, professional visual identity for corporate or tech presentations. Ideal for title slides, section dividers, or key takeaway slides that need to convey sophistication and clarity.",
+  "category_path": [
+    "slide_design",
+    "corporate_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_corporate_accent_ce97d03c",
+  "skill_name": "Modern Corporate Accent",
+  "source": {
+    "channel": "\ud30c\uc6cc\ubcfc \ud638\uac78",
+    "duration_sec": 267,
+    "type": "youtube",
+    "video_id": "Hz53t2tNdKk",
+    "video_title": "\u3010PPT\u3011\u5927\u5b66\u5fc5\u4f1appt\u767e\u642d\u6a21\u677f\u4e0e\u7ed3\u6784 \u5236\u4f5c\u548c\u5c55\u793appt\u7684\u6280\u5de7",
+    "video_url": "https://www.youtube.com/watch?v=Hz53t2tNdKk",
+    "views": 81
+  },
+  "tags": [
+    "corporate",
+    "geometric",
+    "dark theme",
+    "asymmetrical",
+    "professional"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:17Z",
+  "wash_version": "1.0.0"
+}

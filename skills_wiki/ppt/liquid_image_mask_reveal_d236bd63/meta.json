@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "liquid_image_mask_reveal_d236bd63",
+  "skill_name": "Liquid Image Mask Reveal",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 487,
+    "type": "youtube",
+    "video_id": "a2CMPnD3VAU",
+    "video_title": "Liquid Image Mask in PowerPoint \ud83d\udd25Tutorial\ud83d\udd25",
+    "video_url": "https://www.youtube.com/watch?v=a2CMPnD3VAU",
+    "views": 283366
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:48:13Z",
+  "wash_version": "1.0.0"
+}

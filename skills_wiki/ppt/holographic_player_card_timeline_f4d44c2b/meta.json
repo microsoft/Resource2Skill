@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "holographic_player_card_timeline_f4d44c2b",
+  "skill_name": "\"Holographic Player Card Timeline\"",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 481,
+    "type": "youtube",
+    "video_id": "1-VDqSdQ7TA",
+    "video_title": "How to make a CREATIVE PRESENTATION with collectible cards in PowerPoint \ud83d\ude0d",
+    "video_url": "https://www.youtube.com/watch?v=1-VDqSdQ7TA",
+    "views": 135701
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:36:43Z",
+  "wash_version": "1.0.0"
+}

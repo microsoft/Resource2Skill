@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_horizontal_stepper_layout_2d8d8cc9",
+  "skill_name": "Cinematic Horizontal Stepper Layout",
+  "source": {
+    "channel": "Wei Huang",
+    "duration_sec": 71,
+    "type": "youtube",
+    "video_id": "xVBqeYiTm3g",
+    "video_title": "\u7ade\u8058\u7b80\u5386PPT\u6a21\u677fPPTX 12\u4e2a\u4eba\u7ade\u8058\u4e0a\u5c97PPT\u6a21\u677f\u7b80\u5386\u6a21\u677f,\u4e2a\u4eba\u7ade\u8058\u4e0a\u5c97PPT\u6a21\u677f\u4e2a\u4eba\u7b80\u5386",
+    "video_url": "https://www.youtube.com/watch?v=xVBqeYiTm3g",
+    "views": 50
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:58:07Z",
+  "wash_version": "1.0.0"
+}

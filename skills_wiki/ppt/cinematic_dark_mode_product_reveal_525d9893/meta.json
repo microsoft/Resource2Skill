@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "product"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_dark_mode_product_reveal_525d9893",
+  "skill_name": "Cinematic Dark Mode Product Reveal",
+  "source": {
+    "channel": "\u8c93\u6a02\u5712\u97f3\u6a02\u5de5\u4f5c\u5ba4 Cat Paradise Studio",
+    "duration_sec": 118,
+    "type": "youtube",
+    "video_id": "BN70qbT1GDE",
+    "video_title": "iphone x BY Powerpoint\u3010\u7c21\u5831\u8996 \u52d5\u756b\u61c9\u7528\u4f5c\u54c1 | powerpoint animation tools\u3011",
+    "video_url": "https://www.youtube.com/watch?v=BN70qbT1GDE",
+    "views": 543
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:09Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for displaying a collection of items, such as product catalogs, galleries, or feature lists. This technique creates a perfectly fluid grid that adapts to any container width without using media queries.",
+  "category_path": [
+    "layout",
+    "grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_responsive_css_grid_media_query_fre_8feb2f10",
+  "skill_name": "Auto-Fitting CSS Grid",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 374,
+    "type": "youtube",
+    "video_id": "3T0gjtXRNC0",
+    "video_title": "Create Responsive CSS Grid Layouts with GRID WRAPPING",
+    "video_url": "https://www.youtube.com/watch?v=3T0gjtXRNC0",
+    "views": 183147
+  },
+  "tags": [
+    "css grid",
+    "responsive layout",
+    "auto-fit",
+    "minmax",
+    "fluid grid"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:37Z",
+  "wash_version": "1.0.0"
+}

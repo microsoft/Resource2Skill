@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "auto_responsive_css_grid_layout_8f2a34ce",
+  "skill_name": "Auto-Responsive CSS Grid Layout",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=3T0gjtXRNC0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:35:20Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "non-responsive grid failing on smaller screen"
+        },
+        {
+          "seconds": 10,
+          "description": "responsive grid with elements wrapping to new lines"
+        },
+        {
+          "seconds": 104,
+          "description": "flexbox grid with inconsistent element widths due to wrapping"
+        },
+        {
+          "seconds": 340,
+          "description": "CSS grid using auto-fit to wrap columns based on available space"
+        },
+        {
+          "seconds": 538,
+          "description": "fully responsive CSS grid with auto-fit and minmax for wrapping and resizing to fill space"
+        }
+      ],
+      "frames": [
+        "frame_00_non_responsive_grid_failing_on.jpg",
+        "frame_01_responsive_grid_with_elements_.jpg",
+        "frame_02_flexbox_grid_with_inconsistent.jpg",
+        "frame_03_css_grid_using_auto_fit_to_wra.jpg"
+      ],
+      "recapped_at": 1777408755.828608
+    },
+    "primary_path": "frame_00_non_responsive_grid_failing_on.jpg"
+  }
+}

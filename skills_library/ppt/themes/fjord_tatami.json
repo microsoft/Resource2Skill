@@ -1,0 +1,126 @@
+{
+  "theme_id": "fjord_tatami",
+  "name": "Fjord Tatami",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/f6f1eb-e5ded3-a3b18a-6b705c-bc8a5f-2f2f2f",
+  "source_title": "Coolors Japandi Neutrals",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#F6F1EB",
+    "panel": "#E5DED3",
+    "accent": "#6B705C",
+    "accent2": "#A3B18A",
+    "text": "#2F2F2F",
+    "muted": "#6B705C",
+    "border": "#D8CEC0",
+    "success": "#A3B18A",
+    "warning": "#BC8A5F"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Century Gothic",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Century Gothic",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Trebuchet MS",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Palatino Linotype",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "wash",
+    "description": "soft paper wash with muted edge shading"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "warm",
+    "preferred_entrance": [
+      "fade",
+      "zoom_in"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "warm",
+    "calm",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "brand",
+    "narrative",
+    "research"
+  ],
+  "preferred_motion_tags": [
+    "wash",
+    "organic",
+    "measured"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "neon",
+    "bounce"
+  ]
+}

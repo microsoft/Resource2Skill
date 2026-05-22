@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_gradient_image_blend_7c400322",
+  "skill_name": "Seamless Gradient Image Blend (\u5168\u5c4f\u6e10\u53d8\u8499\u7248\u878d\u5408\u6392\u7248)",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 138,
+    "type": "youtube",
+    "video_id": "O0G7Sih6xgE",
+    "video_title": "\u4eba\u7269\u6392\u7248PPT\u8be5\u600e\u4e48\u505a\uff1f\u6559\u4f605\u79cd\u8bbe\u8ba1\u601d\u8def\uff01\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=O0G7Sih6xgE",
+    "views": 538
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:25Z",
+  "wash_version": "1.0.0"
+}

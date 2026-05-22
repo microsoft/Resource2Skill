@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hierarchical_cloud_architecture_schemati_44406acb",
+  "skill_name": "Hierarchical Cloud Architecture Schematic",
+  "source": {
+    "channel": "TechTrapture",
+    "duration_sec": 1386,
+    "type": "youtube",
+    "video_id": "s_3W-G51aUQ",
+    "video_title": "Creating Effective Architecture Diagrams: A Step-by-Step Guide",
+    "video_url": "https://www.youtube.com/watch?v=s_3W-G51aUQ",
+    "views": 14533
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:44:48Z",
+  "wash_version": "1.0.0"
+}

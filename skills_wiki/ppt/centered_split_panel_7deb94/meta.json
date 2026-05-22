@@ -1,0 +1,33 @@
+{
+  "applicability": "Ideal for impactful section dividers or visual comparisons. This shell combines a text-focused panel with a complementary image within a single, centered unit.",
+  "category_path": [
+    "layout",
+    "split_panel"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_split_panel_7deb94",
+  "skill_name": "Centered Split Panel",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "centered",
+    "split panel",
+    "section divider",
+    "image & text",
+    "minimal"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:03:46Z",
+  "wash_version": "1.0.0"
+}

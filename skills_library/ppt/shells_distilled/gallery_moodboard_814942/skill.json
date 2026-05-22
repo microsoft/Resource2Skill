@@ -1,0 +1,108 @@
+{
+  "skill_id": "gallery_moodboard_814942",
+  "skill_type": "shell",
+  "name": "Gallery Moodboard",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "cover"
+    ],
+    "content_shape": [
+      "title+hero-image+4-grid-images"
+    ],
+    "density": "high",
+    "mood": [
+      "editorial",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_caption",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "grid_image_1",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    },
+    {
+      "name": "grid_image_2",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    },
+    {
+      "name": "grid_image_3",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    },
+    {
+      "name": "grid_image_4",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/gallery_moodboard_814942/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "architectural_minimalist_chapter_title_b0e88c72",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Abstracts the masonry image grid into a structured '1 Hero + 4 Grid' layout, ideal for moodboards or visual portfolios.",
+  "_distill_attempts": 1
+}

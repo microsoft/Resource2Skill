@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0",
+  "embedding_model": "text-embedding-3-large",
+  "embedding_model_version": "azure-2024-12-01-preview",
+  "embedding_dim": 3072,
+  "sibling_merge_cosine_threshold": 0.85,
+  "duplicate_cluster_cosine_threshold": 0.97,
+  "paraphrase_drift_cosine_floor": 0.95,
+  "embedding_float_drift_tolerance": 1e-3,
+  "wash_ttl_days": null,
+  "gemini_call_cap_per_run": 5000,
+  "gemini_call_cap_per_domain_per_day": 10000,
+  "wall_clock_cap_minutes_per_run": 480,
+  "smoke_timeout_seconds": 30,
+  "active_filter_min_overview_chars": 200
+}

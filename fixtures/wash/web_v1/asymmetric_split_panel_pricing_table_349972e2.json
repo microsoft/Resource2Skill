@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_split_panel_pricing_table_349972e2",
+  "source": {
+    "channel": "Marius is Coding",
+    "duration_sec": 2400,
+    "type": "youtube",
+    "video_id": "Erd6pwB-Mz4",
+    "video_title": "Create a Responsive Pricing table with HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=Erd6pwB-Mz4",
+    "views": 100
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

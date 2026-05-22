@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "funky_slap_octave_bassline_groove_cea3318e",
+  "skill_name": "Funky Slap/Octave Bassline Groove",
+  "source": {
+    "channel": "Synthet",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=FVoDtyZzO8s"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:42:43Z",
+  "wash_version": "1.0.0"
+}

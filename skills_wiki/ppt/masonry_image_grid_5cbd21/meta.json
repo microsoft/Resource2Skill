@@ -1,0 +1,33 @@
+{
+  "applicability": "Displays 3-6 images in a dynamic 3-column masonry layout, suitable for feature grids with a playful, bold, or editorial aesthetic.",
+  "category_path": [
+    "image_gallery"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "masonry_image_grid_5cbd21",
+  "skill_name": "Masonry Image Grid",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "masonry",
+    "image grid",
+    "staggered layout",
+    "playful",
+    "editorial",
+    "feature grid"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:12:15Z",
+  "wash_version": "1.0.0"
+}

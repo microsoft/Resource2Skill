@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_proximity_driven_scatter__geo_ce480ba5",
+  "skill_name": "Procedural Proximity-Driven Scatter (Geometry Nodes)",
+  "source": {
+    "channel": "Yesway\u2122",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=ETOXG3qdMKg"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:32:02Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "multi_step_progress_registration_form_8d4f008c",
+  "source": {
+    "channel": "Code Hunter Sharath",
+    "duration_sec": 2333,
+    "type": "youtube",
+    "video_id": "O3FfrubyyXw",
+    "video_title": "Build a Multi-Step Form with Progress Bar | HTML CSS JavaScript Project",
+    "video_url": "https://www.youtube.com/watch?v=O3FfrubyyXw",
+    "views": 1553
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

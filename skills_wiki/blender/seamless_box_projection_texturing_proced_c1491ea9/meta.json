@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_box_projection_texturing_proced_c1491ea9",
+  "skill_name": "Seamless Box Projection Texturing (Procedural Mapping without UVs)",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 406,
+    "type": "youtube",
+    "video_id": "AMnMbxEwa7Q",
+    "video_title": "The Easiest Way to Texture in Blender (Adaptive, No UV Unwrapping)",
+    "video_url": "https://www.youtube.com/watch?v=AMnMbxEwa7Q",
+    "views": 37607
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:42:39Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "intentional_1d_vs_2d_layouts_grid_auto_f_3ba2fa06",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 622,
+    "type": "youtube",
+    "video_id": "vO-1eseQ-kc",
+    "video_title": "Stop the Flexbox for 1D, Grid for 2D layout nonsense",
+    "video_url": "https://www.youtube.com/watch?v=vO-1eseQ-kc",
+    "views": 64545
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

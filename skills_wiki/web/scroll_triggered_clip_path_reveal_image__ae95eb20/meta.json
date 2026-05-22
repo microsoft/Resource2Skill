@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_triggered_clip_path_reveal_image__ae95eb20",
+  "skill_name": "Scroll-Triggered Clip-Path Reveal & Image Zoom",
+  "source": {
+    "channel": "M - SoftTech",
+    "duration_sec": 791,
+    "type": "youtube",
+    "video_id": "-8zEjDOFKSY",
+    "video_title": "How To Make Full Screen Scrolling Website With Animation Effect Using HTML And CSS",
+    "video_url": "https://www.youtube.com/watch?v=-8zEjDOFKSY",
+    "views": 879
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:13:49Z",
+  "wash_version": "1.0.0"
+}

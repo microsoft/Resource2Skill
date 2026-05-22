@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "themeable_portfolio_hero_with_morphing_b_e409644d",
+  "source": {
+    "channel": "Coding Master",
+    "duration_sec": 1086,
+    "type": "youtube",
+    "video_id": "KNR___XhbBA",
+    "video_title": "How To Make Website With Dark Theme Using HTML, CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=KNR___XhbBA",
+    "views": 1675
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

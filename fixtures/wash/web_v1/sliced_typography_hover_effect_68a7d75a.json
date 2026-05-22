@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "sliced_typography_hover_effect_68a7d75a",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 896,
+    "type": "youtube",
+    "video_id": "vOlZg1LRFp0",
+    "video_title": "Split Text on Hover - Creative Link Effects on Hover - Css Hover Effects  - Pure CSS Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=vOlZg1LRFp0",
+    "views": 11552
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

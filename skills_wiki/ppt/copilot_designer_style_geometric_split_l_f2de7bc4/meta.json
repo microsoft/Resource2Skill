@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "image_mask"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "copilot_designer_style_geometric_split_l_f2de7bc4",
+  "skill_name": "Copilot Designer-Style Geometric Split Layout",
+  "source": {
+    "channel": "Chris Menard",
+    "duration_sec": 370,
+    "type": "youtube",
+    "video_id": "RrXGjYl_mqQ",
+    "video_title": "Easily Create PowerPoint Presentations with Copilot AI",
+    "video_url": "https://www.youtube.com/watch?v=RrXGjYl_mqQ",
+    "views": 72407
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:01Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,72 @@
+{
+  "skill_id": "8_part_circular_process_53ad3e",
+  "skill_type": "shell",
+  "name": "8-Part Circular Process",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "circular-diagram-8-parts"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "center_label",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 8
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/8_part_circular_process_53ad3e/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "radial_segmented_infographic_wheel_c09cf8ee",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "The image shows a user constructing an 8-segment circular diagram (donut chart). The shell recreates this using pie shapes with a center cutout, providing slots for a headline, an optional center label, and 8 surrounding text items.",
+  "_distill_attempts": 1
+}

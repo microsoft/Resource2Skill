@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_retopology_workspace_setup_f8b47dc8",
+  "skill_name": "Automated Retopology Workspace Setup",
+  "source": {
+    "channel": "Noggi",
+    "duration_sec": 379,
+    "type": "youtube",
+    "video_id": "sCdhkLUCV8A",
+    "video_title": "How To Retopologize ANYTHING in Blender in Less Than 6 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=sCdhkLUCV8A",
+    "views": 755898
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:01:19Z",
+  "wash_version": "1.0.0"
+}

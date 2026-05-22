@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for title slides, executive summaries, and impact reports, this skill effectively highlights a single, key statistic by adding emotional context and visual depth.",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "immersive_data_slice_06a33ec4",
+  "skill_name": "Immersive Data Slice",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 622,
+    "type": "youtube",
+    "video_id": "F9WZAWArktI",
+    "video_title": "DATA SLIDES in PowerPoint \ud83d\ude32 How to make them engaging.",
+    "video_url": "https://www.youtube.com/watch?v=F9WZAWArktI",
+    "views": 80292
+  },
+  "tags": [
+    "data point",
+    "thematic image",
+    "pie chart",
+    "storytelling",
+    "hero data",
+    "visual impact"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:38:22Z",
+  "wash_version": "1.0.0"
+}

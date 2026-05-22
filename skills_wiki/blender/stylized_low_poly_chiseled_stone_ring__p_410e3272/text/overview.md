@@ -1,0 +1,246 @@
+### 1. High-level Design Pattern Extraction
+
+> **Skill Name**: Stylized Low-Poly Chiseled Stone Ring (Procedural Well Base)
+
+* **Core Visual Mechanism**: This technique generates a ring of stylized, low-polygon stones with a distinct chiseled, "hand-carved" aesthetic. The signature look relies on three operations: 
+  1. Procedurally adding random spatial noise (wobbliness) to dense base geometry.
+  2. Non-destructively bending a linear array into a perfect circle using a 360-degree `Simple Deform` (Bend) modifier.
+  3. Applying a `Decimate` modifier (Collapse mode) to reduce the polygon count, replacing smooth deformation with sharp, triangulated, artifact-heavy shapes that perfectly mimic stylized chiseled rock.
+
+* **Why Use This Skill (Rationale)**: Hand-modeling stylized stones piece-by-piece is extremely tedious. This procedural workflow allows you to quickly generate complex, interlocking stone structures (wells, castle turrets, ancient ruins) that automatically have organic variation, varied sizes, and natural chipping, all while keeping the polygon count low for game engines.
+
+* **Overall Applicability**: Ideal for fantasy/stylized environmental props, low-poly scene dressing, structural bases, and backgrounds where a slightly imperfect, "wobbly" geometry style is preferred over perfect mathematical primitives.
+
+* **Value Addition**: Transforms primitive blocks into highly characterful asset components instantly. By tying the Random Per Island shader node to the physically separated stones, it automatically handles color variation without requiring UV mapping or texture painting.
+
+
+### 2. Technical Breakdown
+
+* **Step A: Geometry & Topology**
+  - **Base Primitive**: Linearly arrayed cubes.
+  - **Topology Flow**: Cubes are scaled into brick proportions, beveled to round off sharp 90-degree edges, and then subdivided to create sufficient vertex density.
+  - **Modifiers**: 
+    - `Simple Deform (Bend)`: Wraps the straight line 360 degrees around a specific axis to form a perfect ring.
+    - `Decimate (Collapse)`: Slashes the geometry by ~60% (`ratio = 0.4`), randomly triangulating the surface to create the signature flat, chiseled faces of stylized rock.
+
+* **Step B: Materials & Shading**
+  - **Shader Model**: Principled BSDF with slightly elevated roughness.
+  - **Color Strategy**: Base input is a generic stone color (e.g., `(0.5, 0.48, 0.52)`). A `Geometry` node (`Random Per Island`) is piped into a `ColorRamp` to subtly vary the lightness/darkness of every individual stone automatically.
+  - **Shading Type**: Flat Shading is strictly enforced to ensure the decimated triangles catch the light sharply.
+
+* **Step C: Lighting & Rendering Context**
+  - **Lighting**: Benefits immensely from strong directional lighting (Sun or Spot) to cast hard shadows across the jagged, decimated surfaces.
+  - **Render Engine**: Works perfectly in EEVEE and Cycles.
+
+* **Step D: Animation & Dynamics**
+  - Static prop by default, but the `Simple Deform` angle can be animated to make the wall "curl" into existence.
+
+
+### 3. Reproduction Code
+
+#### 3a. Implementation Method Selection
+
+| Aspect of the effect | Method | Why this method |
+|---|---|---|
+| **Base Bricks & Layout** | `bmesh` generation loop | Allows precise programmatic control over the length of individual stones and adds spatial gaps naturally. |
+| **Wobbly Distortions** | Vertex coordinate math | Fast and direct way to add spatial noise before wrapping. |
+| **Circular Ring Shape** | `Simple Deform` (Bend) | The exact method used in the tutorial; relies on bounding box math to ensure perfect 360 closing. |
+| **Chiseled Aesthetic** | `Decimate` Modifier | Replicates the primary technique for automated "low poly stylized" looks. |
+| **Color Variation** | Geometry Node (Random Per Island) | Automatically colors separated mesh islands without manual material assignment. |
+
+> **Feasibility Assessment**: 100% of the core visual technique is reproduced. The script accurately mimics the tutorial's logic (create line -> subdivide -> deform -> decimate) and improves it by ensuring multiple concentric rings stack perfectly and automatically randomize their rotation.
+
+#### 3b. Complete Reproduction Code
+
+```python
+def create_object(
+    scene_name: str = "Scene",
+    object_name: str = "LowPolyWellBase",
+    location: tuple = (0, 0, 0),
+    scale: float = 1.0,
+    material_color: tuple = (0.5, 0.48, 0.52),
+    **kwargs,
+) -> str:
+    """
+    Creates a stylized, low-poly chiseled stone ring structure (e.g., a well base).
+    
+    Args:
+        scene_name: Target scene.
+        object_name: Name of the generated well base object.
+        location: (X, Y, Z) world coordinates.
+        scale: Uniform scale.
+        material_color: Base (R, G, B) color for the stone.
+        **kwargs: 
+            rings (int): Number of vertically stacked rings (default: 3).
+            base_radius (float): Radius of the bottom ring (default: 1.0).
+            
+    Returns:
+        Status string.
+    """
+    import bpy
+    import bmesh
+    import math
+    import random
+    from mathutils import Vector, Matrix
+
+    scene = bpy.data.scenes.get(scene_name) or bpy.data.scenes[0]
+    
+    rings_count = kwargs.get('rings', 3)
+    base_radius = kwargs.get('base_radius', 1.0)
+    stone_height = 0.22
+    stone_depth = 0.22
+    randomness = 0.015
+
+    # === Step 1: Create Procedural Shader Material ===
+    mat = bpy.data.materials.new(name=f"{object_name}_Mat")
+    mat.use_nodes = True
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+    
+    bsdf = nodes.get("Principled BSDF")
+    if bsdf:
+        bsdf.inputs['Roughness'].default_value = 0.85
+        bsdf.inputs['Specular IOR Level'].default_value = 0.2
+        
+        # Add random color variation per stone island
+        geom_node = nodes.new(type="ShaderNodeNewGeometry")
+        ramp_node = nodes.new(type="ShaderNodeValToRGB")
+        
+        # Darker and lighter variants of the base color
+        c1 = (material_color[0]*0.75, material_color[1]*0.75, material_color[2]*0.75, 1.0)
+        c2 = (min(1.0, material_color[0]*1.25), min(1.0, material_color[1]*1.25), min(1.0, material_color[2]*1.25), 1.0)
+        
+        ramp_node.color_ramp.elements[0].color = c1
+        ramp_node.color_ramp.elements[1].color = c2
+        
+        links.new(geom_node.outputs['Random Per Island'], ramp_node.inputs['Fac'])
+        links.new(ramp_node.outputs['Color'], bsdf.inputs['Base Color'])
+
+    # Helper function to generate a single ring
+    def create_stone_ring(radius, decimate_ratio):
+        circumference = 2 * math.pi * radius
+        bm = bmesh.new()
+        current_x = 0.0
+        
+        while current_x < circumference:
+            # Vary individual stone lengths
+            length = 0.4 * random.uniform(0.7, 1.3)
+            # Close the gap nicely at the end of the ring
+            if current_x + length > circumference - 0.2:
+                length = circumference - current_x
+                
+            actual_length = max(0.05, length - 0.02) # Ensure visual gap between stones
+            cx = current_x + length / 2.0
+            
+            # Create primitive and scale to proportions
+            ret = bmesh.ops.create_cube(bm, size=1.0)
+            verts = ret['verts']
+            edges = ret['edges']
+            
+            # Apply rectangular dimensions (Y becomes height when bent into XZ plane later)
+            for v in verts:
+                v.co.x = (v.co.x * actual_length) + cx
+                v.co.y = v.co.y * stone_height
+                v.co.z = v.co.z * stone_depth
+                
+            # Bevel edges for a rounder base before distortion
+            cube_edges = [e for e in edges]
+            try:
+                bmesh.ops.bevel(bm, geom=cube_edges, offset=0.03, segments=2, profile=0.5, affect_edges=True)
+            except Exception:
+                pass
+                
+            current_x += length
+
+        # Subdivide for adequate distortion topology
+        bmesh.ops.subdivide_edges(bm, edges=bm.edges, cuts=1, use_grid_fill=True)
+        
+        # Center bounds around origin and add wobbly distortion
+        shift_x = circumference / 2.0
+        for v in bm.verts:
+            v.co.x -= shift_x
+            v.co.x += random.uniform(-randomness, randomness)
+            v.co.y += random.uniform(-randomness, randomness)
+            v.co.z += random.uniform(-randomness, randomness)
+
+        mesh = bpy.data.meshes.new("RingTemp")
+        bm.to_mesh(mesh)
+        bm.free()
+        
+        ring_obj = bpy.data.objects.new("RingTemp", mesh)
+        scene.collection.objects.link(ring_obj)
+        
+        # 1. Bend linearly arranged stones into a circle
+        mod_bend = ring_obj.modifiers.new("Bend", 'SIMPLE_DEFORM')
+        mod_bend.deform_method = 'BEND'
+        mod_bend.deform_axis = 'X'
+        mod_bend.angle = 2 * math.pi
+        
+        # 2. Add jagged, low-poly chiseled aesthetic
+        mod_decimate = ring_obj.modifiers.new("Decimate", 'DECIMATE')
+        mod_decimate.ratio = decimate_ratio
+        
+        return ring_obj
+
+    ring_objects = []
+    
+    # === Step 2: Generate all stacked rings ===
+    for i in range(rings_count):
+        # Taper the well slightly by reducing radius as we go up
+        current_radius = base_radius - (i * 0.05)
+        ring_obj = create_stone_ring(radius=current_radius, decimate_ratio=random.uniform(0.35, 0.45))
+        ring_obj.data.materials.append(mat)
+        
+        # Enforce flat shading for stylized look
+        for poly in ring_obj.data.polygons:
+            poly.use_smooth = False
+            
+        ring_objects.append(ring_obj)
+
+    # Make sure we evaluate object operations in OBJECT mode
+    if bpy.context.object and bpy.context.object.mode != 'OBJECT':
+        bpy.ops.object.mode_set(mode='OBJECT')
+
+    # === Step 3: Apply Modifiers Safely and Position Properly ===
+    # We apply modifiers via the Dependency Graph to avoid context override bugs
+    depsgraph = bpy.context.evaluated_depsgraph_get()
+    
+    for i, ring in enumerate(ring_objects):
+        # 1. Evaluate mesh with modifiers applied
+        object_eval = ring.evaluated_get(depsgraph)
+        new_mesh = bpy.data.meshes.new_from_object(object_eval)
+        
+        # 2. Clear procedural stack and apply raw mesh
+        ring.modifiers.clear()
+        old_mesh = ring.data
+        ring.data = new_mesh
+        bpy.data.meshes.remove(old_mesh)
+        
+        # 3. Mathematically recenter to local origin and orient to lay flat
+        local_verts = [v.co for v in ring.data.vertices]
+        if local_verts:
+            median = sum(local_verts, Vector()) / len(local_verts)
+            # Rotate 90 degrees around X to lie down in XY plane
+            rot_mat = Matrix.Rotation(math.pi / 2.0, 4, 'X')
+            
+            for v in ring.data.vertices:
+                v.co = rot_mat @ (v.co - median)
+                
+        # 4. Position in vertical stack and stagger rotation
+        ring.location = (location[0], location[1], location[2] + (i * stone_height * 0.95))
+        ring.rotation_euler.z = random.uniform(0, 2 * math.pi)
+
+    # === Step 4: Join into a single Hero Object ===
+    bpy.ops.object.select_all(action='DESELECT')
+    for ring in ring_objects:
+        ring.select_set(True)
+        
+    bpy.context.view_layer.objects.active = ring_objects[0]
+    bpy.ops.object.join()
+    
+    final_obj = bpy.context.active_object
+    final_obj.name = object_name
+    final_obj.scale = (scale, scale, scale)
+    
+    return f"Created '{object_name}' (Stylized Stone Well Base) at {location} with {rings_count} rings"
+```

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neumorphic_dual_shadow_card_soft_ui_embo_e8daa7ea",
+  "skill_name": "Neumorphic Dual-Shadow Card (Soft UI Emboss)",
+  "source": {
+    "channel": "King Tukwasi",
+    "duration_sec": 178,
+    "type": "youtube",
+    "video_id": "XnF1dkF0pOA",
+    "video_title": "Neumorphism made simple || hack",
+    "video_url": "https://www.youtube.com/watch?v=XnF1dkF0pOA",
+    "views": 61
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:57:16Z",
+  "wash_version": "1.0.0"
+}

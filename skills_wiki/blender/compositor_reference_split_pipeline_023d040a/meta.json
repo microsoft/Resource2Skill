@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for look development, photorealistic prop modeling, and lighting studies. This setup provides an integrated visual comparison tool directly within Blender's render output to easily spot inaccuracies.",
+  "category_path": [
+    "compositing",
+    "post_processing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "compositor_reference_split_pipeline_023d040a",
+  "skill_name": "Compositor Reference Split Pipeline",
+  "source": {
+    "channel": "Blender Guru",
+    "duration_sec": 483,
+    "type": "youtube",
+    "video_id": "-rO1o5uzCOc",
+    "video_title": "Starting Blender? Advice from a Pro",
+    "video_url": "https://www.youtube.com/watch?v=-rO1o5uzCOc",
+    "views": 473153
+  },
+  "tags": [
+    "compositing",
+    "split_node",
+    "reference_image",
+    "lookdev",
+    "node_tree"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:44Z",
+  "wash_version": "1.0.0"
+}

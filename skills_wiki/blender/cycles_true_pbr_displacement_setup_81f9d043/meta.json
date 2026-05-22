@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cycles_true_pbr_displacement_setup_81f9d043",
+  "skill_name": "Cycles True PBR Displacement Setup",
+  "source": {
+    "channel": "Olav3D Tutorials",
+    "duration_sec": 111,
+    "type": "youtube",
+    "video_id": "144TWlEYFtM",
+    "video_title": "[4.0] Blender Tutorial: PBR Texturing in 2 Minutes for Beginners for Free",
+    "video_url": "https://www.youtube.com/watch?v=144TWlEYFtM",
+    "views": 155450
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:36Z",
+  "wash_version": "1.0.0"
+}

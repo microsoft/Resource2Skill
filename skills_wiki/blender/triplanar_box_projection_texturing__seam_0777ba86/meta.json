@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "triplanar_box_projection_texturing__seam_0777ba86",
+  "skill_name": "Triplanar Box Projection Texturing (Seamless PBR without UVs)",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=AMnMbxEwa7Q"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:18:30Z",
+  "wash_version": "1.0.0"
+}

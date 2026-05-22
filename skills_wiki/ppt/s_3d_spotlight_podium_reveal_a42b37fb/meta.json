@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_spotlight_podium_reveal_a42b37fb",
+  "skill_name": "3D Spotlight Podium Reveal",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 800,
+    "type": "youtube",
+    "video_id": "K0el7y3Vq1w",
+    "video_title": "Center Stage Slide in PowerPoint for Logos, Products, Images and text revealing",
+    "video_url": "https://www.youtube.com/watch?v=K0el7y3Vq1w",
+    "views": 25315
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:47:39Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_worn_metal_material_be6dd3c9",
+  "skill_name": "Procedural Worn Metal Material",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 1414,
+    "type": "youtube",
+    "video_id": "J5t7gzIfTt0",
+    "video_title": "Introduction to Procedural Shader Nodes for Complete Beginners (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=J5t7gzIfTt0",
+    "views": 139073
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:31:25Z",
+  "wash_version": "1.0.0"
+}

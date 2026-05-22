@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "mixing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pro_stock_mastering_chain_with_mid_side__76c3ad7b",
+  "skill_name": "Pro Stock Mastering Chain with Mid/Side Processing",
+  "source": {
+    "channel": "No Label, No Producer, No Limits",
+    "duration_sec": 804,
+    "type": "youtube",
+    "video_id": "nvRUjiLxCfg",
+    "video_title": "Mastering With Free Reaper Plugins",
+    "video_url": "https://www.youtube.com/watch?v=nvRUjiLxCfg",
+    "views": 30426
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:59Z",
+  "wash_version": "1.0.0"
+}

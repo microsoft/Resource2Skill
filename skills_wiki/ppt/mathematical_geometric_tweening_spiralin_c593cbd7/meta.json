@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mathematical_geometric_tweening_spiralin_c593cbd7",
+  "skill_name": "Mathematical Geometric Tweening (Spiraling Wireframes & Depth Interpolation)",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 278,
+    "type": "youtube",
+    "video_id": "0r8x2OFXs9Q",
+    "video_title": "\u6ca1\u60f3\u5230\uff01\u88ab\u5ffd\u7565\u7684PPT\u529f\u80fd\u7adf\u7136\u80fd\u5feb\u901f\u641e\u5b9aPPT\uff0c\u8fd8\u8fd9\u4e48\u9ad8\u7ea7\uff01\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=0r8x2OFXs9Q",
+    "views": 872
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:48:17Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "magazine_cut_out_collage_effect_84c8b741",
+  "skill_name": "Magazine Cut-out Collage Effect",
+  "source": {
+    "channel": "Learn with Ms. Kath",
+    "duration_sec": 92,
+    "type": "youtube",
+    "video_id": "3IGykuTUz1w",
+    "video_title": "HOW TO MAKE MAGAZINE CUT-OUT EFFECT USING MICROSOFT POWERPOINT",
+    "video_url": "https://www.youtube.com/watch?v=3IGykuTUz1w",
+    "views": 1068
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:48:01Z",
+  "wash_version": "1.0.0"
+}

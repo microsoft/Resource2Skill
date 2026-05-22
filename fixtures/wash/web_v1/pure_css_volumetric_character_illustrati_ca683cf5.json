@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_volumetric_character_illustrati_ca683cf5",
+  "source": {
+    "channel": "DesignCourse",
+    "duration_sec": 1548,
+    "type": "youtube",
+    "video_id": "uXBoQ4WRD9A",
+    "video_title": "CSS Art Crash Course - By Example!",
+    "video_url": "https://www.youtube.com/watch?v=uXBoQ4WRD9A",
+    "views": 36960
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

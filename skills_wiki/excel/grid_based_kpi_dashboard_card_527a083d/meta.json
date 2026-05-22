@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_kpi_dashboard_card_527a083d",
+  "skill_name": "Grid-Based KPI Dashboard Card",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:09:52Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "introduction of topic"
+        },
+        {
+          "seconds": 48,
+          "description": "revenue number formatted in shape"
+        },
+        {
+          "seconds": 104,
+          "description": "regional KPI with revenue title and value"
+        },
+        {
+          "seconds": 147,
+          "description": "completed regional KPI with revenue and market share"
+        },
+        {
+          "seconds": 318,
+          "description": "final total revenue KPI using SmartArt"
+        }
+      ],
+      "frames": [
+        "frame_00_introduction_of_topic.jpg",
+        "frame_01_revenue_number_formatted_in_sh.jpg",
+        "frame_02_regional_kpi_with_revenue_titl.jpg",
+        "frame_03_completed_regional_kpi_with_re.jpg"
+      ],
+      "recapped_at": 1777406840.231747
+    },
+    "primary_path": "frame_00_introduction_of_topic.jpg"
+  }
+}

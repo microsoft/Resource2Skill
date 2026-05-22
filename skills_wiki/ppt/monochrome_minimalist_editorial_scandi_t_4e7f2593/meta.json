@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "monochrome_minimalist_editorial_scandi_t_4e7f2593",
+  "skill_name": "Monochrome Minimalist Editorial (Scandi-Tech Aesthetic)",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 294,
+    "type": "youtube",
+    "video_id": "ZSvn3wzFxJc",
+    "video_title": "Powerpoint design\u7b80\u5355\u6613\u7528\u7684\u5546\u52a1PPT\u901a\u7528\u6a21\u677f",
+    "video_url": "https://www.youtube.com/watch?v=ZSvn3wzFxJc",
+    "views": 373
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:57:23Z",
+  "wash_version": "1.0.0"
+}

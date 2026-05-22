@@ -1,0 +1,36 @@
+{
+  "applicability": "Automates the creation of foundational diatonic chord progressions within a chosen key. Ideal for quickly establishing a harmonic bed for various genres like pop, EDM, and hip-hop.",
+  "category_path": [
+    "midi",
+    "harmony",
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diatonic_triad_progression_generator_f2a58160",
+  "skill_name": "Diatonic Triad Progression Generator",
+  "source": {
+    "channel": "Jonas Tyroller",
+    "duration_sec": 2180,
+    "type": "youtube",
+    "video_id": "GJRMmJnpknY",
+    "video_title": "Make Your First Music Track! - (Full Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=GJRMmJnpknY",
+    "views": 147442
+  },
+  "tags": [
+    "midi",
+    "chords",
+    "harmony",
+    "triads",
+    "generator"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:46Z",
+  "wash_version": "1.0.0"
+}

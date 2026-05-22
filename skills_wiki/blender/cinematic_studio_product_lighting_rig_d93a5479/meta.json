@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for high-end product visualization, hero assets, and portfolio renders. It isolates the subject and emphasizes form using soft shadows and elegant highlight strips.",
+  "category_path": [
+    "lighting",
+    "studio_rig"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_studio_product_lighting_rig_d93a5479",
+  "skill_name": "Cinematic Studio Product Lighting Rig",
+  "source": {
+    "channel": "blenderisms",
+    "duration_sec": 93,
+    "type": "youtube",
+    "video_id": "4Uy2SzB-Kuk",
+    "video_title": "Three Point Lighting Tutorial | Blender Product Rendering Series",
+    "video_url": "https://www.youtube.com/watch?v=4Uy2SzB-Kuk",
+    "views": 151956
+  },
+  "tags": [
+    "product-lighting",
+    "studio-rig",
+    "cycles",
+    "cinematic",
+    "bounce-lighting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:41Z",
+  "wash_version": "1.0.0"
+}

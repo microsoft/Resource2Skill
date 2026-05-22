@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vertical_mobile_poster_design_9_16_socia_db42496c",
+  "skill_name": "Vertical Mobile Poster Design (9:16 Social Media Layout)",
+  "source": {
+    "channel": "\u5411\u5929\u6b4c\u7684\u8bfe",
+    "duration_sec": 601,
+    "type": "youtube",
+    "video_id": "9m5zRACyh3Q",
+    "video_title": "PPT\u57fa\u7840\u6559\u7a0b073\uff1a\u5982\u4f55\u7528PPT\u505a\u6d77\u62a5",
+    "video_url": "https://www.youtube.com/watch?v=9m5zRACyh3Q",
+    "views": 1192
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:23Z",
+  "wash_version": "1.0.0"
+}

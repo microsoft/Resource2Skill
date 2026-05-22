@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates a modern, professional title or section header graphic. Ideal for structuring a presentation, introducing new topics, or serving as a title card for video chapters.",
+  "category_path": [
+    "layout",
+    "title_graphic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "offset_bar_title_graphic_bd5b8336",
+  "skill_name": "Offset Bar Title Graphic",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 227,
+    "type": "youtube",
+    "video_id": "z1vDddBHY00",
+    "video_title": "PPT\u4e2d\u516c\u8ba4\u6700\u5927\u96be\u70b9\u7adf\u662f\u914d\u8272\uff1f\u522b\u614c\uff013\u62db\u6559\u4f60\u505a\u51fa\u9ad8\u7ea7\u914d\u8272\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=z1vDddBHY00",
+    "views": 767
+  },
+  "tags": [
+    "title graphic",
+    "section header",
+    "offset bars",
+    "layered text",
+    "modern design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:20Z",
+  "wash_version": "1.0.0"
+}

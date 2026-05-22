@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating a clean, professional cover slide to introduce a presentation or a new section. It prominently displays a central headline and can include an optional subtitle.",
+  "category_path": [
+    "presentation_flow",
+    "cover"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_minimal_cover_2e1b6e",
+  "skill_name": "Centered Minimal Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cover",
+    "title",
+    "minimalist",
+    "centered",
+    "corporate",
+    "introduction"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:02:52Z",
+  "wash_version": "1.0.0"
+}

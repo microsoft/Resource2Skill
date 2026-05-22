@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for sci-fi or cyberpunk corridor scenes, creating a moody, futuristic interior. It features distinct magenta and cyan rim lighting combined with subtle ambient and practical strip lights.",
+  "category_path": [
+    "lighting_rigs"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_corridor_1330806f",
+  "skill_name": "neon_corridor",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "cyberpunk",
+    "sci-fi",
+    "corridor",
+    "neon",
+    "lighting rig",
+    "futuristic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:06Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,114 @@
+{
+  "theme_id": "risograph_pink_navy",
+  "name": "Risograph Pink+Navy",
+  "palette": {
+    "bg": "#F8EFEB",
+    "panel": "#F0E0DA",
+    "accent": "#D94870",
+    "accent2": "#17345F",
+    "text": "#17345F",
+    "muted": "#8C6B67",
+    "border": "#DEC2BA",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Franklin Gothic Medium",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Cambria",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Cambria",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Cambria",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Courier New",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Franklin Gothic Medium",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "riso_overlay",
+    "description": "Risograph-style overprint pink+navy"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "cinematic",
+    "preferred_entrance": [
+      "fade",
+      "zoom"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "spin"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "playful",
+    "warm"
+  ],
+  "archetype_fit": [
+    "brand",
+    "narrative"
+  ],
+  "preferred_motion_tags": [
+    "iris",
+    "ink-bleed",
+    "polaroid",
+    "page-turn",
+    "confetti",
+    "balloon"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "slot-machine",
+    "chromatic"
+  ]
+}

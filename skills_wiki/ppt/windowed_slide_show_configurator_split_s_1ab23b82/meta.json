@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "windowed_slide_show_configurator_split_s_1ab23b82",
+  "skill_name": "Windowed Slide Show Configurator (Split-Screen Optimized)",
+  "source": {
+    "channel": "iDEAS Cebu Channel",
+    "duration_sec": 173,
+    "type": "youtube",
+    "video_id": "oRm_x4eFIoI",
+    "video_title": "Split screen tutorials(zoom & PPT presentation)",
+    "video_url": "https://www.youtube.com/watch?v=oRm_x4eFIoI",
+    "views": 321
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:32Z",
+  "wash_version": "1.0.0"
+}

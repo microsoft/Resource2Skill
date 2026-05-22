@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for premium presentations, product reveals, or highlighting key metrics. It creates a high-contrast focal plane for text legibility while retaining the vibrant background aesthetics.",
+  "category_path": [
+    "visual_effects",
+    "glassmorphism"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "apple_glassmorphism_reveal_ad04b534",
+  "skill_name": "Apple Glassmorphism Reveal",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 278,
+    "type": "youtube",
+    "video_id": "eAlVbIDdzAI",
+    "video_title": "How to Make Apple Glass Effect In PowerPoint so EASY!",
+    "video_url": "https://www.youtube.com/watch?v=eAlVbIDdzAI",
+    "views": 41938
+  },
+  "tags": [
+    "glassmorphism",
+    "frosted glass",
+    "blur effect",
+    "premium design",
+    "modern UI"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:02:25Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill is essential for SaaS landing pages, service subscriptions, or membership tiers. It guides users toward an optimal purchasing decision by visually emphasizing a recommended tier among various options.",
+  "category_path": [
+    "data_display",
+    "pricing_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "saas_highlighted_tier_pricing_table_4ae7aa4f",
+  "skill_name": "SaaS Highlighted Tier Pricing Table",
+  "source": {
+    "channel": "Going-To Internet",
+    "duration_sec": 1628,
+    "type": "youtube",
+    "video_id": "HL8g113jN5g",
+    "video_title": "How To Create a Responsive Pricing Table Using HTML and CSS",
+    "video_url": "https://www.youtube.com/watch?v=HL8g113jN5g",
+    "views": 3836
+  },
+  "tags": [
+    "saas",
+    "pricing",
+    "subscription",
+    "tier",
+    "highlighted",
+    "flexbox"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:07:39Z",
+  "wash_version": "1.0.0"
+}

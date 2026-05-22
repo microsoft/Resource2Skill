@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_frequency_positioning_octave_separati_0376fcca",
+  "skill_name": "3D Frequency Positioning & Octave Separation",
+  "source": {
+    "channel": "Memphy",
+    "duration_sec": 834,
+    "type": "youtube",
+    "video_id": "NZlUwgMWwIs",
+    "video_title": "Give me 14 minutes, and I'll 10x your music production skills",
+    "video_url": "https://www.youtube.com/watch?v=NZlUwgMWwIs",
+    "views": 618855
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:53:27Z",
+  "wash_version": "1.0.0"
+}

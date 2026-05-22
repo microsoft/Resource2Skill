@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "gsap_style_interactive_showcase_dynamic__17369f20",
+  "source": {
+    "channel": "Matt Tutorials",
+    "duration_sec": 561,
+    "type": "youtube",
+    "video_id": "ybLh_8AqUno",
+    "video_title": "Advanced GSAP Animations in Elementor WITHOUT Code!",
+    "video_url": "https://www.youtube.com/watch?v=ybLh_8AqUno",
+    "views": 1406
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

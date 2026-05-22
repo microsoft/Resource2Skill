@@ -1,0 +1,37 @@
+{
+  "applicability": "This layout is ideal for training modules, Q&A sessions, or trivia, using high-contrast cosmic visuals to stage questions and reveal answers sequentially. It gamifies content by making answers impactful.",
+  "category_path": [
+    "layout",
+    "quiz"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cosmic_quiz_layout_sequential_reveal_sta_591baf31",
+  "skill_name": "Cosmic Quiz Layout (Sequential Reveal Staging)",
+  "source": {
+    "channel": "LearnFree",
+    "duration_sec": 323,
+    "type": "youtube",
+    "video_id": "kw_udjD2xwo",
+    "video_title": "PowerPoint: Animating Text and Objects",
+    "video_url": "https://www.youtube.com/watch?v=kw_udjD2xwo",
+    "views": 2279365
+  },
+  "tags": [
+    "quiz",
+    "sequential reveal",
+    "space theme",
+    "high-contrast",
+    "Q&A",
+    "gamified"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:52:07Z",
+  "wash_version": "1.0.0"
+}

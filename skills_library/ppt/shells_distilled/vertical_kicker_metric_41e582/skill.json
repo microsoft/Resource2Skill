@@ -1,0 +1,72 @@
+{
+  "skill_id": "vertical_kicker_metric_41e582",
+  "skill_type": "shell",
+  "name": "Vertical Kicker Metric",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "section_divider"
+    ],
+    "content_shape": [
+      "vertical-text+large-metric"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "vertical_kicker",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 15,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "main_metric",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "caption",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/vertical_kicker_metric_41e582/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dynamic_odometer_morph_b82ac55d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Abstracts the tutorial slide into a minimal metric layout featuring a stylized vertical text column and a prominent central metric.",
+  "_distill_attempts": 2
+}

@@ -1,0 +1,85 @@
+from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
+from openpyxl.utils import range_boundaries, get_column_letter
+
+def render_sheet(wb, sheet_name: str, *, title: str = "Sales Dashboard", cards: list = None, sidebar_items: list = None, theme: str = "corporate_blue", **kwargs) -> None:
+    # 1. Create sheet and configure view
+    if sheet_name in wb.sheetnames:
+        ws = wb[sheet_name]
+    else:
+        ws = wb.create_sheet(sheet_name)
+        
+    ws.sheet_view.showGridLines = False
+    
+    # Aesthetic constants
+    bg_color = "F3F4F6"      # Light gray background
+    card_color = "FFFFFF"    # White card fill
+    sidebar_color = "1E3A8A" # Primary brand dark blue
+    border_color = "E5E7EB"  # Subtle card border
+    text_color = "333333"
+    
+    # 2. Paint global background canvas
+    bg_fill = PatternFill(start_color=bg_color, end_color=bg_color, fill_type="solid")
+    for row in ws.iter_rows(min_row=1, max_row=30, min_col=2, max_col=15):
+        for cell in row:
+            cell.fill = bg_fill
+            
+    # Resize columns for better card proportions
+    for col in range(2, 16):
+        ws.column_dimensions[get_column_letter(col)].width = 11
+            
+    # 3. Build Navigation Sidebar (Col A)
+    ws.column_dimensions['A'].width = 8
+    sidebar_fill = PatternFill(start_color=sidebar_color, end_color=sidebar_color, fill_type="solid")
+    for row in range(1, 31):
+        ws.cell(row=row, column=1).fill = sidebar_fill
+        
+    sidebar_items = sidebar_items or [
+        {"label": "🏠", "link": f"#'{sheet_name}'!A1"},
+        {"label": "📊", "link": "#Inputs!A1"},
+        {"label": "✉", "link": "#Contacts!A1"}
+    ]
+    
+    for i, item in enumerate(sidebar_items):
+        cell = ws.cell(row=4 + (i * 3), column=1, value=item["label"])
+        cell.font = Font(color="FFFFFF", size=16)
+        cell.alignment = Alignment(horizontal="center", vertical="center")
+        cell.hyperlink = item["link"]
+        
+    # 4. Render Layout Cards
+    cards = cards or [
+        {"range": "C4:E8", "title": "Sales YTD"},
+        {"range": "F4:H8", "title": "Net Profit"},
+        {"range": "I4:K8", "title": "Active Customers"},
+        {"range": "C10:G22", "title": "24-Month Sales Trend"},
+        {"range": "H10:K22", "title": "Satisfaction Drivers"},
+        {"range": "L4:N22", "title": "Regional Breakdown"}
+    ]
+    
+    card_fill = PatternFill(start_color=card_color, end_color=card_color, fill_type="solid")
+    
+    for card in cards:
+        min_col, min_row, max_col, max_row = range_boundaries(card["range"])
+        
+        for row in range(min_row, max_row + 1):
+            for col in range(min_col, max_col + 1):
+                cell = ws.cell(row=row, column=col)
+                cell.fill = card_fill
+                
+                # Apply borders only to the outer edges of the card range
+                left = Side(style='thin', color=border_color) if col == min_col else Side(style=None)
+                right = Side(style='thin', color=border_color) if col == max_col else Side(style=None)
+                top = Side(style='thin', color=border_color) if row == min_row else Side(style=None)
+                bottom = Side(style='thin', color=border_color) if row == max_row else Side(style=None)
+                
+                cell.border = Border(left=left, right=right, top=top, bottom=bottom)
+                
+        # Inject Card Title
+        title_cell = ws.cell(row=min_row, column=min_col)
+        title_cell.value = f"  {card['title']}"  # Padded string for built-in visual margin
+        title_cell.font = Font(bold=True, size=11, color=text_color)
+        title_cell.alignment = Alignment(vertical="center")
+        
+    # 5. Master Dashboard Title
+    ws.row_dimensions[2].height = 28
+    title_cell = ws.cell(row=2, column=3, value=title)
+    title_cell.font = Font(bold=True, size=18, color=sidebar_color)

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for vehicle renders, sci-fi hard surface panels, mechs, and high-end consumer electronics. This procedural shader simulates complex multi-layer paint without requiring UV mapping.",
+  "category_path": [
+    "shading",
+    "procedural_materials"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_realistic_car_paint_with_meta_c383b776",
+  "skill_name": "Procedural Realistic Car Paint with Metallic Flakes",
+  "source": {
+    "channel": "Enhanced Sight",
+    "duration_sec": 434,
+    "type": "youtube",
+    "video_id": "RAY88EMOC6Y",
+    "video_title": "How To Make Realistic Car Paint | Blender Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=RAY88EMOC6Y",
+    "views": 20483
+  },
+  "tags": [
+    "procedural_material",
+    "car_paint",
+    "metallic_flakes",
+    "clearcoat",
+    "principled_bsdf"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:26:11Z",
+  "wash_version": "1.0.0"
+}

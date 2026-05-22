@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "responsive"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_split_screen_flex_layout_94ee284d",
+  "source": {
+    "channel": "Mr Digital",
+    "duration_sec": 299,
+    "type": "youtube",
+    "video_id": "bh3UAetYkUI",
+    "video_title": "Split screen into two sections responsive  in HTML/CSS (5 Mins)",
+    "video_url": "https://www.youtube.com/watch?v=bh3UAetYkUI",
+    "views": 177848
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

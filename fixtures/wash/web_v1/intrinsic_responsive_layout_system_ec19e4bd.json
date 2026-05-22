@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "intrinsic_responsive_layout_system_ec19e4bd",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 1393,
+    "type": "youtube",
+    "video_id": "x4u1yp3Msao",
+    "video_title": "A practical guide to responsive web design",
+    "video_url": "https://www.youtube.com/watch?v=x4u1yp3Msao",
+    "views": 340060
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

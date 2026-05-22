@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_cinematic_environment_rig_atm_cfde8a0d",
+  "skill_name": "Procedural Cinematic Environment Rig (Atmosphere, Sky & Gobos)",
+  "source": {
+    "channel": "Max Hay",
+    "duration_sec": 1673,
+    "type": "youtube",
+    "video_id": "c3FnWQTMo9s",
+    "video_title": "How to get good lighting in blender",
+    "video_url": "https://www.youtube.com/watch?v=c3FnWQTMo9s",
+    "views": 130438
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:25Z",
+  "wash_version": "1.0.0"
+}

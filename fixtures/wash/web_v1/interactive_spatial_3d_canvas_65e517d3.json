@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_spatial_3d_canvas_65e517d3",
+  "source": {
+    "channel": "The Debug Zone",
+    "duration_sec": 325,
+    "type": "youtube",
+    "video_id": "jjG7AcmGUAo",
+    "video_title": "JavaScript Canvas Drawing with Mouse: 3D Axis Interaction Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=jjG7AcmGUAo",
+    "views": 37
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

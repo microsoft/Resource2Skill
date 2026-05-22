@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for digital networking, virtual conference speaker profiles, employee ID badges, and 'Contact Me' end-slides. It transforms a standard slide into a functional, shareable utility for frictionless connections.",
+  "category_path": [
+    "business_card",
+    "digital_identity"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "mobile_optimized_digital_business_card_w_68f9843e",
+  "skill_name": "Mobile-Optimized Digital Business Card with Interactive QR",
+  "source": {
+    "channel": "Joe Zeplin",
+    "duration_sec": 553,
+    "type": "youtube",
+    "video_id": "NfJMuo-9jDA",
+    "video_title": "How to Create a DIGITAL BUSINESS CARD for FREE 2026 | Canva Tutorial | Share Your Contact Details",
+    "video_url": "https://www.youtube.com/watch?v=NfJMuo-9jDA",
+    "views": 69621
+  },
+  "tags": [
+    "digital business card",
+    "mobile optimized",
+    "qr code",
+    "networking",
+    "contact share",
+    "virtual events"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:51:01Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lock_step_metal_bass_with_octave_jumps_d4d74409",
+  "skill_name": "Lock-Step Metal Bass with Octave Jumps",
+  "source": {
+    "channel": "Andrew Bassett",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=s2MgjCbheoY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:21:47Z",
+  "wash_version": "1.0.0"
+}

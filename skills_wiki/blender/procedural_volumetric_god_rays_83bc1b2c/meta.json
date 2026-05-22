@@ -1,0 +1,37 @@
+{
+  "applicability": "Essential for adding depth, scale, and atmosphere to dramatic environments and architectural visualizations. It grounds the composition by physically scattering light around 3D occluders to create visible air density.",
+  "category_path": [
+    "lighting",
+    "volumetrics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_volumetric_god_rays_83bc1b2c",
+  "skill_name": "Procedural Volumetric God Rays",
+  "source": {
+    "channel": "Markom3D",
+    "duration_sec": 62,
+    "type": "youtube",
+    "video_id": "KacTST5t7T0",
+    "video_title": "Godrays, Volumetrics and World setting in 1 minute in Blender",
+    "video_url": "https://www.youtube.com/watch?v=KacTST5t7T0",
+    "views": 380424
+  },
+  "tags": [
+    "volumetrics",
+    "god rays",
+    "lighting",
+    "cycles",
+    "atmosphere",
+    "scattering"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:49Z",
+  "wash_version": "1.0.0"
+}

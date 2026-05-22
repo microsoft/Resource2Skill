@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "traffic_light_kpi_performance_table_547c8c4a",
+  "skill_name": "Traffic Light KPI Performance Table",
+  "source": {
+    "channel": "Next Gen Templates",
+    "duration_sec": 121,
+    "type": "youtube",
+    "video_id": "oS55HZARG8M",
+    "video_title": "Water Desalination KPI Dashboard in Excel",
+    "video_url": "https://www.youtube.com/watch?v=oS55HZARG8M",
+    "views": 7
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:14Z",
+  "wash_version": "1.0.0"
+}

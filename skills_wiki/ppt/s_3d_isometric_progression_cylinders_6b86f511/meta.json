@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_isometric_progression_cylinders_6b86f511",
+  "skill_name": "3D Isometric Progression Cylinders",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 549,
+    "type": "youtube",
+    "video_id": "vOcxXd1q8g4",
+    "video_title": "3D Concept slide in PowerPoint for Timelines and Company Growth | 3D Chart",
+    "video_url": "https://www.youtube.com/watch?v=vOcxXd1q8g4",
+    "views": 9429
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:46:28Z",
+  "wash_version": "1.0.0"
+}

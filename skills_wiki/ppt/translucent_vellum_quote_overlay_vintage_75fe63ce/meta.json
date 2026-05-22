@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "translucent_vellum_quote_overlay_vintage_75fe63ce",
+  "skill_name": "Translucent Vellum Quote Overlay (Vintage Craft Aesthetic)",
+  "source": {
+    "channel": "HSN",
+    "duration_sec": 446,
+    "type": "youtube",
+    "video_id": "jbceJmJfiNo",
+    "video_title": "Anna Griffin \"Well Said\" Vellum Quote Stickers",
+    "video_url": "https://www.youtube.com/watch?v=jbceJmJfiNo",
+    "views": 1398
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:38Z",
+  "wash_version": "1.0.0"
+}

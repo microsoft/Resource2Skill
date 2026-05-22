@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "material_design_linked_hexagon_infograph_fb780f82",
+  "skill_name": "Material Design Linked Hexagon Infographic",
+  "source": {
+    "channel": "ProDocs Studio ",
+    "duration_sec": 93,
+    "type": "youtube",
+    "video_id": "99lsrMTASjs",
+    "video_title": "PowerPoint trick | PPT | ProDocs Studio \ud83d\ude36\u200d\ud83c\udf2b\ufe0f\ud83d\udcc8",
+    "video_url": "https://www.youtube.com/watch?v=99lsrMTASjs",
+    "views": 0
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:38:37Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pseudo_element_gradient_border_b09e6b66",
+  "skill_name": "Pseudo-Element Gradient Border",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 237,
+    "type": "youtube",
+    "video_id": "dIUOWdwwZBw",
+    "video_title": "Learn CSS ::before and ::after in 4 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=dIUOWdwwZBw",
+    "views": 509345
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:05:09Z",
+  "wash_version": "1.0.0"
+}

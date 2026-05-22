@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_pane_b_w_hero_with_oversized_accen_3619ee33",
+  "skill_name": "Split-Pane B&W Hero with Oversized Accent Circle",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "Dzt1ZtOmEzY",
+    "video_title": "New Product Launch Tools And Techniques PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=Dzt1ZtOmEzY",
+    "views": 427
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:27:09Z",
+  "wash_version": "1.0.0"
+}

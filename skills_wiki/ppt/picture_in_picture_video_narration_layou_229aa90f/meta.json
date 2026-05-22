@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "closing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "picture_in_picture_video_narration_layou_229aa90f",
+  "skill_name": "Picture-in-Picture Video Narration Layout (Testimonial Style)",
+  "source": {
+    "channel": "TEAM ZINO UK",
+    "duration_sec": 215,
+    "type": "youtube",
+    "video_id": "FiVEPe9-qUw",
+    "video_title": "How to do a testimonial using powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=FiVEPe9-qUw",
+    "views": 337
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:42:02Z",
+  "wash_version": "1.0.0"
+}

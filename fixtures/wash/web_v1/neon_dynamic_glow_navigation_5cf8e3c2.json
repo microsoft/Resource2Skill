@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_dynamic_glow_navigation_5cf8e3c2",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 365,
+    "type": "youtube",
+    "video_id": "_IP899RrPu8",
+    "video_title": "Creative CSS & Javascript Animation & Hover Effects | @OnlineTutorialsYT September 2021",
+    "video_url": "https://www.youtube.com/watch?v=_IP899RrPu8",
+    "views": 94993
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

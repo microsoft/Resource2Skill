@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_2_5d_parallax_depth_slicing_via_webgl_d0845e75",
+  "source": {
+    "channel": "An Object Is A",
+    "duration_sec": 1143,
+    "type": "youtube",
+    "video_id": "Ehjo47nUutI",
+    "video_title": "Using ThreeJS (Javascript) To Play with Parallax and Perspective of 2D Images",
+    "video_url": "https://www.youtube.com/watch?v=Ehjo47nUutI",
+    "views": 5941
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

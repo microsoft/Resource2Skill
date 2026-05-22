@@ -1,0 +1,73 @@
+{
+  "skill_id": "metric_dashboard_split_3e3228",
+  "skill_type": "shell",
+  "name": "Metric Dashboard Split",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "comparison_split"
+    ],
+    "content_shape": [
+      "title+2-metrics+hero-image"
+    ],
+    "density": "medium",
+    "mood": [
+      "corporate",
+      "technical",
+      "cool"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metrics",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 2
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "16:9",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/metric_dashboard_split_3e3228/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "minimalist_rule_of_thirds_data_storytell_e27747df",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "A split layout mapping a headline and two detailed metric items (with decorative progress bars) to the left column, balanced by a prominent hero image on the right.",
+  "_distill_attempts": 1
+}

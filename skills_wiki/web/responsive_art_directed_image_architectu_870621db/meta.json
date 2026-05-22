@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for performance-critical components like hero banners and product galleries. Use this architecture to serve different image crops, formats, and resolutions based on screen size, improving load times (LCP) and maintaining visual focus.",
+  "category_path": [
+    "media",
+    "image"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_art_directed_image_architectu_870621db",
+  "skill_name": "Art-Directed Responsive Images",
+  "source": {
+    "channel": "CodeLucky",
+    "duration_sec": 465,
+    "type": "youtube",
+    "video_id": "96GcXfFp8dc",
+    "video_title": "HTML Responsive Images: srcset, sizes & the picture Element Explained!",
+    "video_url": "https://www.youtube.com/watch?v=96GcXfFp8dc",
+    "views": 391
+  },
+  "tags": [
+    "responsive images",
+    "art direction",
+    "picture element",
+    "performance",
+    "srcset"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:10:59Z",
+  "wash_version": "1.0.0"
+}

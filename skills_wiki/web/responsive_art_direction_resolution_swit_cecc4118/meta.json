@@ -1,0 +1,38 @@
+{
+  "applicability": "Essential for hero sections, editorial banner images, product galleries, and full-bleed background images across modern web applications.",
+  "category_path": [
+    "web_development",
+    "images",
+    "responsive_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_art_direction_resolution_swit_cecc4118",
+  "skill_name": "Responsive Art Direction & Resolution Switching (<picture>)",
+  "source": {
+    "channel": "Tuts+ Web Design",
+    "duration_sec": 279,
+    "type": "youtube",
+    "video_id": "xbVnaKV5I-c",
+    "video_title": "How to Create Responsive Images Using the Picture Element",
+    "video_url": "https://www.youtube.com/watch?v=xbVnaKV5I-c",
+    "views": 8365
+  },
+  "tags": [
+    "responsive images",
+    "art direction",
+    "resolution switching",
+    "picture element",
+    "web performance",
+    "image optimization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:22:46Z",
+  "wash_version": "1.0.0"
+}

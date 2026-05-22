@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "python_aggregated_dashboard_shell_066bbd71",
+  "skill_name": "Python-Aggregated Dashboard Shell",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:29:40Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial preview of the interactive dashboard"
+        },
+        {
+          "seconds": 815,
+          "description": "dashboard with the first chart added"
+        },
+        {
+          "seconds": 1158,
+          "description": "dashboard with all three main charts added and aligned"
+        },
+        {
+          "seconds": 1443,
+          "description": "dashboard with charts and three interactive slicers"
+        },
+        {
+          "seconds": 1815,
+          "description": "dashboard with a new color theme applied"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_preview_of_the_interac.jpg",
+        "frame_01_dashboard_with_the_first_chart.jpg",
+        "frame_02_dashboard_with_all_three_main_.jpg"
+      ],
+      "recapped_at": 1777407351.5103998
+    },
+    "primary_path": "frame_00_initial_preview_of_the_interac.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Presents chronological events or milestones in a clean, visually engaging format. Ideal for project roadmaps, company histories, or sequential process flows where clarity and aesthetic appeal are important.",
+  "category_path": [
+    "timeline",
+    "process"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_geometric_alternating_timeline_3a68d50f",
+  "skill_name": "Animated Geometric Alternating Timeline",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 679,
+    "type": "youtube",
+    "video_id": "InyqaOFRwKw",
+    "video_title": "Animated PowerPoint Timeline Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=InyqaOFRwKw",
+    "views": 1713903
+  },
+  "tags": [
+    "timeline",
+    "roadmap",
+    "milestones",
+    "alternating",
+    "process flow",
+    "chronology"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:49:40Z",
+  "wash_version": "1.0.0"
+}

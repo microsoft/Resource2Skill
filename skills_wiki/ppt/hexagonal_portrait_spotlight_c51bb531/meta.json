@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for employee spotlights, team introductions, speaker announcements, or 'meet the team' sections in corporate decks. This modern design uses a geometric frame to elevate a standard photo-and-text slide.",
+  "category_path": [
+    "content",
+    "people",
+    "spotlight"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hexagonal_portrait_spotlight_c51bb531",
+  "skill_name": "Hexagonal Portrait Spotlight",
+  "source": {
+    "channel": "Lincoln Learning Solutions",
+    "duration_sec": 162,
+    "type": "youtube",
+    "video_id": "g6p6OK5Q490",
+    "video_title": "Employee Spotlight Casey Sadler",
+    "video_url": "https://www.youtube.com/watch?v=g6p6OK5Q490",
+    "views": 121
+  },
+  "tags": [
+    "profile",
+    "spotlight",
+    "hexagon",
+    "team",
+    "geometric"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:33:09Z",
+  "wash_version": "1.0.0"
+}

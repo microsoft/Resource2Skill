@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for displaying collections of items with varying heights, such as photo galleries, portfolios, or product catalogs. This layout maximizes screen space and creates a dynamic, engaging visual flow.",
+  "category_path": [
+    "layout",
+    "grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_lanes_masonry_gallery_layout_56453df7",
+  "skill_name": "Masonry Grid Layout",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 386,
+    "type": "youtube",
+    "video_id": "yikbSQ6tvlE",
+    "video_title": "display: masonry is offiially DEAD",
+    "video_url": "https://www.youtube.com/watch?v=yikbSQ6tvlE",
+    "views": 24905
+  },
+  "tags": [
+    "masonry",
+    "grid layout",
+    "gallery",
+    "asymmetrical",
+    "cards"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:31:22Z",
+  "wash_version": "1.0.0"
+}

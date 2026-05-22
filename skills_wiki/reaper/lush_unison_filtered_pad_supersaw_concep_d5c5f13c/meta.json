@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates wide, evolving harmonic beds for various electronic music genres like EDM, Future Bass, and Synthwave. Ideal for atmospheric intros, breakdowns, or emotional chord progressions.",
+  "category_path": [
+    "sound_design",
+    "synthesis"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lush_unison_filtered_pad_supersaw_concep_d5c5f13c",
+  "skill_name": "Lush Supersaw Pad Synthesis",
+  "source": {
+    "channel": "In The Mix",
+    "duration_sec": 1814,
+    "type": "youtube",
+    "video_id": "7qQX6YGBQEA",
+    "video_title": "Free Vital Synth - Full Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=7qQX6YGBQEA",
+    "views": 774403
+  },
+  "tags": [
+    "pad",
+    "supersaw",
+    "synthesis",
+    "sound design",
+    "chord progression",
+    "reaper fx"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:59:29Z",
+  "wash_version": "1.0.0"
+}

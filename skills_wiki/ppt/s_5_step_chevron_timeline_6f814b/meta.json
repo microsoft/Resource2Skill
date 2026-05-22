@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for visualizing 5-step processes, sequential workflows, or project phases, presenting information in a continuous horizontal timeline.",
+  "category_path": [
+    "process",
+    "timeline"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_5_step_chevron_timeline_6f814b",
+  "skill_name": "5-Step Chevron Timeline",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "5 steps",
+    "chevron",
+    "timeline",
+    "process",
+    "sequential",
+    "corporate"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:17Z",
+  "wash_version": "1.0.0"
+}

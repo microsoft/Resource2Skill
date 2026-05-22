@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "raw_webgl_rgb_triangle_rendering_a5c94b60",
+  "source": {
+    "channel": "Indigo Code",
+    "duration_sec": 2685,
+    "type": "youtube",
+    "video_id": "kB0ZVUrI4Aw",
+    "video_title": "WebGL Tutorial 01 - Setup and Triangle",
+    "video_url": "https://www.youtube.com/watch?v=kB0ZVUrI4Aw",
+    "views": 350299
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

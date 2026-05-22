@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "depth_layered_interlocking_title_ccc7a015",
+  "skill_name": "Depth-Layered Interlocking Title",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 386,
+    "type": "youtube",
+    "video_id": "C8fJX8lRd3U",
+    "video_title": "Title Slides That Make Audiences Pay Attention",
+    "video_url": "https://www.youtube.com/watch?v=C8fJX8lRd3U",
+    "views": 234161
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:13:29Z",
+  "wash_version": "1.0.0"
+}

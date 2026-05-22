@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_shattered_glass_text_d90ded49",
+  "skill_name": "Cinematic Shattered Glass Text",
+  "source": {
+    "channel": "Ducky 3D",
+    "duration_sec": 887,
+    "type": "youtube",
+    "video_id": "saJGwHSP_Mw",
+    "video_title": "Cinematic Trailer Title Animation in Blender | Blender Motion Graphics Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=saJGwHSP_Mw",
+    "views": 119274
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:03:21Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "algorithmic_trap_foundation__808_sub___h_b7d2b2f8",
+  "skill_name": "Algorithmic Trap Foundation (808 Sub + Halftime Groove)",
+  "source": {
+    "channel": "Krinstar",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=RuzpiVPB5L8"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:28:11Z",
+  "wash_version": "1.0.0"
+}

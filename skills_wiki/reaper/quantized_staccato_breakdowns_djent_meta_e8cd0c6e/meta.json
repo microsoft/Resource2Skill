@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "quantized_staccato_breakdowns_djent_meta_e8cd0c6e",
+  "skill_name": "Quantized Staccato Breakdowns (Djent / Metalcore Chugs)",
+  "source": {
+    "channel": "Harry Whitter",
+    "duration_sec": 241,
+    "type": "youtube",
+    "video_id": "WgH7k5Ju4dU",
+    "video_title": "Reaper Daw Editing Tips // Comp Chop and Quantize Metal Guitars In 30 Seconds Using Dynamic Split",
+    "video_url": "https://www.youtube.com/watch?v=WgH7k5Ju4dU",
+    "views": 12311
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:23Z",
+  "wash_version": "1.0.0"
+}

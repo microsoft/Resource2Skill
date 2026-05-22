@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this skill to visualize a sequence of events over time, such as a corporate history, project plan, or product roadmap. The forced perspective transforms a standard timeline into an engaging visual journey.",
+  "category_path": [
+    "diagram",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_perspective_journey_timeline_77ec1c42",
+  "skill_name": "3D Perspective Journey Timeline",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 481,
+    "type": "youtube",
+    "video_id": "2eLm7AiWQzA",
+    "video_title": "Animated PowerPoint Timeline Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=2eLm7AiWQzA",
+    "views": 200305
+  },
+  "tags": [
+    "timeline",
+    "roadmap",
+    "3d perspective",
+    "infographic",
+    "journey"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:00Z",
+  "wash_version": "1.0.0"
+}

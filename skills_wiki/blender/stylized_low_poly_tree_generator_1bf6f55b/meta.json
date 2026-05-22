@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_low_poly_tree_generator_1bf6f55b",
+  "skill_name": "Stylized Low-Poly Tree Generator",
+  "source": {
+    "channel": "SmartyRBX",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=W337AL7n3dc"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:07:24Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "agenda"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "immersive_interactive_navigation_cutout__ce741916",
+  "skill_name": "Immersive Interactive Navigation (Cutout Overlays & Web-Style Menus)",
+  "source": {
+    "channel": "\u7ecf\u672c\u6b63\u4e00",
+    "duration_sec": 391,
+    "type": "youtube",
+    "video_id": "_QaKwv8MSBs",
+    "video_title": "\u4e09\u79cd\u65b9\u6cd5\uff0c\u8f7b\u677e\u505a\u51fa\u9ad8\u5927\u4e0a\u7684PPT\u76ee\u5f55\u9875\u8bbe\u8ba1\u3010\u7ecf\u672c\u6b63\u4e00\u3011",
+    "video_url": "https://www.youtube.com/watch?v=_QaKwv8MSBs",
+    "views": 3049
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:22:11Z",
+  "wash_version": "1.0.0"
+}

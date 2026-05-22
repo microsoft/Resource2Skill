@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_landing_page_interactions_keyfra_129a97f6",
+  "skill_name": "Dynamic Landing Page Interactions (Keyframe Reveals, Block Hovers, & Scroll Intersections)",
+  "source": {
+    "channel": "chunkydotdev",
+    "duration_sec": 566,
+    "type": "youtube",
+    "video_id": "_OEUbgLTWH0",
+    "video_title": "Every CSS Animation property",
+    "video_url": "https://www.youtube.com/watch?v=_OEUbgLTWH0",
+    "views": 111199
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:58:00Z",
+  "wash_version": "1.0.0"
+}

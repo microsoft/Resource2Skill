@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "non_destructive_radial_hard_surface_mode_624a68be",
+  "skill_name": "Non-Destructive Radial Hard-Surface Modeling (Sci-Fi Cannon)",
+  "source": {
+    "channel": "Ryuu - Blender Bros",
+    "duration_sec": 2625,
+    "type": "youtube",
+    "video_id": "wsxoAlpFrS0",
+    "video_title": "Hard Surface Modeling in Blender - SciFi Cannon Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=wsxoAlpFrS0",
+    "views": 110241
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:10:30Z",
+  "wash_version": "1.0.0"
+}

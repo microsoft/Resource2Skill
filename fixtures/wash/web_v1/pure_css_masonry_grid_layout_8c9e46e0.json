@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_masonry_grid_layout_8c9e46e0",
+  "source": {
+    "channel": "Web Tech Talk ",
+    "duration_sec": 194,
+    "type": "youtube",
+    "video_id": "-isQPqqnIBo",
+    "video_title": "CSS Tips & Tricks: Creating a Masonry Grid Layout with Pure CSS, No JavaScript Required",
+    "video_url": "https://www.youtube.com/watch?v=-isQPqqnIBo",
+    "views": 26894
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

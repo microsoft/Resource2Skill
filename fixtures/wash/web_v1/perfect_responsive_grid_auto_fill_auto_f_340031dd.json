@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "perfect_responsive_grid_auto_fill_auto_f_340031dd",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 683,
+    "type": "youtube",
+    "video_id": "bj0Z_GncIwY",
+    "video_title": "Breakpoint-Free CSS Grid Layouts",
+    "video_url": "https://www.youtube.com/watch?v=bj0Z_GncIwY",
+    "views": 67997
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

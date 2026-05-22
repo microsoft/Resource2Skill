@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_axis_split_infographic_comparison_75de82c7",
+  "skill_name": "Dual-Axis Split Infographic Comparison",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 651,
+    "type": "youtube",
+    "video_id": "h-mCmf36aOU",
+    "video_title": "Comparison Slide in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=h-mCmf36aOU",
+    "views": 69361
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:11Z",
+  "wash_version": "1.0.0"
+}

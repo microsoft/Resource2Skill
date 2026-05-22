@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_active_navigation_indicator_vani_5fa6a03b",
+  "source": {
+    "channel": "Coding in Public",
+    "duration_sec": 356,
+    "type": "youtube",
+    "video_id": "JkuiKeNS2mg",
+    "video_title": "Active Nav Link Indicator with Vanilla Javascript",
+    "video_url": "https://www.youtube.com/watch?v=JkuiKeNS2mg",
+    "views": 135662
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

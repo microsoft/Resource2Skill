@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "static_themed_dashboard_066bbd71",
+  "skill_name": "Static Themed Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:47:26Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 10,
+          "description": "interactive dashboard preview"
+        },
+        {
+          "seconds": 81,
+          "description": "dashboard with profit by market & cookie type chart"
+        },
+        {
+          "seconds": 1140,
+          "description": "dashboard with all three charts"
+        },
+        {
+          "seconds": 1424,
+          "description": "dashboard with charts and slicers for interactivity"
+        },
+        {
+          "seconds": 1738,
+          "description": "final interactive dashboard with cleaned interface"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_dashboard_preview.jpg",
+        "frame_01_dashboard_with_profit_by_marke.jpg",
+        "frame_02_dashboard_with_all_three_chart.jpg"
+      ],
+      "recapped_at": 1777407559.295097
+    },
+    "primary_path": "frame_00_interactive_dashboard_preview.jpg"
+  }
+}

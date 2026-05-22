@@ -1,0 +1,71 @@
+archetype_id: vc_pitch
+name: "Venture Capital Pitch Deck"
+description: >
+  Classic 15-slide VC pitch. Problem → solution → market → business →
+  traction → team → ask. Works in any theme; pairs especially well with
+  editorial_dark and tech_blue_dark for seed/series A stage.
+suggested_slides: 15
+recommended_themes:
+  - editorial_dark
+  - tech_blue_dark
+  - editorial_light
+sections:
+  - section: intro
+    slides:
+      - role: cover
+        content: "Company name + one-line tagline + hero image"
+        required: true
+      - role: agenda
+        content: "Preview of 5 sections the audience will see"
+        required: false
+
+  - section: problem
+    slides:
+      - role: section_divider
+        content: "01 / Problem"
+        required: true
+      - role: bullet_card_list
+        content: "Three cards covering the core pain: customer pain / market pain / timing pain"
+        required: true
+      - role: metric_dashboard
+        content: "2-3 KPIs quantifying the problem (market size, waste, time lost)"
+        required: false
+
+  - section: product
+    slides:
+      - role: section_divider
+        content: "02 / Product"
+        required: true
+      - role: bullet_card_list
+        content: "Three features, each as title + body"
+        required: true
+      - role: timeline_horizontal
+        content: "Usage flow or product journey in 3-4 steps"
+        required: false
+
+  - section: market_traction
+    slides:
+      - role: section_divider
+        content: "03 / Traction"
+        required: true
+      - role: metric_dashboard
+        content: "3-4 traction metrics (MRR, customers, growth, retention)"
+        required: true
+      - role: timeline_horizontal
+        content: "Key milestones over the last 12-18 months"
+        required: false
+
+  - section: team_ask
+    slides:
+      - role: section_divider
+        content: "04 / Team & ask"
+        required: true
+      - role: bullet_card_list
+        content: "Founding team: 3 cards, each with name + role + 1-line background"
+        required: true
+      - role: metric_dashboard
+        content: "Round size, runway, use of proceeds breakdown"
+        required: false
+      - role: closing
+        content: "Thank you + contact + CTA (e.g. partner meeting)"
+        required: true

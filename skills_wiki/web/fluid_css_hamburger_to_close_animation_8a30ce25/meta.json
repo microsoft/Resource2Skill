@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_css_hamburger_to_close_animation_8a30ce25",
+  "skill_name": "Fluid CSS Hamburger-to-Close Animation",
+  "source": {
+    "channel": "codeSTACKr",
+    "duration_sec": 415,
+    "type": "youtube",
+    "video_id": "dIyVTjJAkLw",
+    "video_title": "Animated Hamburger Menu Tutorial - CSS Effects",
+    "video_url": "https://www.youtube.com/watch?v=dIyVTjJAkLw",
+    "views": 511284
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:13:35Z",
+  "wash_version": "1.0.0"
+}

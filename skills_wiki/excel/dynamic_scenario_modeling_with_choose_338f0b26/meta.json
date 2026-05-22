@@ -1,0 +1,52 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_modeling_with_choose_338f0b26",
+  "skill_name": "Dynamic Scenario Modeling with CHOOSE",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:29:48Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Dynamic financial model with scenario selector"
+        },
+        {
+          "seconds": 500,
+          "description": "All assumptions (revenue, costs, tax) populated across 5 years"
+        },
+        {
+          "seconds": 1027,
+          "description": "Completed income statement with profit/loss and margins"
+        },
+        {
+          "seconds": 1411,
+          "description": "Dynamic model actively changing income statement values based on scenario selection"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_financial_model_with_s.jpg",
+        "frame_01_all_assumptions_revenue_costs_.jpg"
+      ],
+      "recapped_at": 1777406644.2470467
+    },
+    "primary_path": "frame_00_dynamic_financial_model_with_s.jpg"
+  }
+}

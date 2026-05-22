@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for pitch decks, annual team reports, academic group presentations, or any high-stakes presentation requiring team recognition and a memorable closing.",
+  "category_path": [
+    "presentation_design",
+    "ending_slide",
+    "visual_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_3d_perspective_credits_3d_75babbd4",
+  "skill_name": "Cinematic 3D Perspective Credits",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 213,
+    "type": "youtube",
+    "video_id": "z9qi9A38ENk",
+    "video_title": "\u7535\u5f71\u822c\u4e1d\u6ed1\u7684PPT\u7ed3\u5c3e\u9875\uff0c\u76f4\u63a5\u628a\u540c\u4e8b\u770b\u6123\u4e86\uff01\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=z9qi9A38ENk",
+    "views": 1603
+  },
+  "tags": [
+    "cinematic",
+    "3d perspective",
+    "credits",
+    "team recognition",
+    "dynamic ending",
+    "presentation design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:56:12Z",
+  "wash_version": "1.0.0"
+}

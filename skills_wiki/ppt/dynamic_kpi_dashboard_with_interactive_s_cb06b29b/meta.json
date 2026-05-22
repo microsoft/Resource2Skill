@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for data-heavy presentations like business performance reviews, marketing campaign analysis, or financial summaries. The interactive filters allow for real-time data exploration and discussion.",
+  "category_path": [
+    "dashboards",
+    "kpi_reports"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_kpi_dashboard_with_interactive_s_cb06b29b",
+  "skill_name": "Dynamic KPI Dashboard with Interactive Slicers",
+  "source": {
+    "channel": "HaloTech Academy",
+    "duration_sec": 2209,
+    "type": "youtube",
+    "video_id": "Qsw1TFoRpfg",
+    "video_title": "Portofolio Data Analyst |  Dashboard Profesional di Excel!",
+    "video_url": "https://www.youtube.com/watch?v=Qsw1TFoRpfg",
+    "views": 114750
+  },
+  "tags": [
+    "dashboard",
+    "kpi",
+    "interactive",
+    "slicers",
+    "data visualization",
+    "reporting"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:18:35Z",
+  "wash_version": "1.0.0"
+}

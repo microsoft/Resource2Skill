@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for rapidly concepting sci-fi props, mechs, and machined parts without manual topology management. It automatically generates realistic, seamless bevels across complex intersecting geometric cuts.",
+  "category_path": [
+    "modeling",
+    "modifiers"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "non_destructive_hard_surface_remesh_work_18691842",
+  "skill_name": "Non-Destructive Hard Surface Remesh Workflow",
+  "source": {
+    "channel": "PzThree",
+    "duration_sec": 1150,
+    "type": "youtube",
+    "video_id": "hC7EeqhKiak",
+    "video_title": "Blender - Hard Surface Remesh Workflow",
+    "video_url": "https://www.youtube.com/watch?v=hC7EeqhKiak",
+    "views": 31294
+  },
+  "tags": [
+    "hard_surface",
+    "boolean",
+    "remesh",
+    "modifiers",
+    "non_destructive",
+    "concept_art"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:10:21Z",
+  "wash_version": "1.0.0"
+}

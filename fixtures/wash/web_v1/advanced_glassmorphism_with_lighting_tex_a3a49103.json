@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "advanced_glassmorphism_with_lighting_tex_a3a49103",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 376,
+    "type": "youtube",
+    "video_id": "bnC-kuL_CYw",
+    "video_title": "3 Level Glassmorphism Design In CSS | CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=bnC-kuL_CYw",
+    "views": 170230
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

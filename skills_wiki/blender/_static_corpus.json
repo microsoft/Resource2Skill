@@ -1,0 +1,45 @@
+[
+  {
+    "skill_id": "static_modular_sci_fi_corridor",
+    "name": "Modular Sci-Fi Corridor",
+    "license": "cc0-1.0",
+    "path": "_seed/sci_fi_corridor.blend",
+    "format": "blend",
+    "description": "# Modular Sci-Fi Corridor\n\nReusable Blender scene: 4-meter modular sci-fi corridor segment with PBR steel materials, recessed wall lighting, and a procedural floor grate via geometry nodes. Designed to be duplicated end-to-end via array modifier to build longer corridors. Uses the EEVEE render engine for fast iteration.\n\n## Key components\n- Wall segments: hard-surface mesh with bevelled edges + emissive panel inserts\n- Floor: geometry-nodes grate driven by a noise texture for varied wear\n- Lighting: emissive material on the recessed strips + a single area light overhead",
+    "applicability": "Reusable sci-fi corridor scene with PBR materials, modular array-friendly geometry, and EEVEE-ready lighting.",
+    "tags": ["sci_fi", "corridor", "modular", "pbr", "geometry_nodes"],
+    "source_url": "https://github.com/skill-wiki-static/blender-sci-fi-corridor"
+  },
+  {
+    "skill_id": "static_archviz_living_room",
+    "name": "Archviz Living Room",
+    "license": "mit",
+    "path": "_seed/archviz_living_room.blend",
+    "format": "blend",
+    "description": "# Archviz Living Room\n\nInterior architectural-visualisation reference scene: a 5x4-meter living room with Scandinavian furnishings, large window with HDRI sun light, and a hardwood floor with procedural variation. Cycles render setup pre-configured with denoising. Suitable as a starting point for any modern interior scene.\n\n## Camera setups\n- View 1: 35mm hero shot of the seating arrangement\n- View 2: wide-angle establishing shot through the doorway",
+    "applicability": "Interior architectural visualisation scene with Scandinavian furnishings, HDRI sun lighting, and Cycles render setup.",
+    "tags": ["archviz", "interior", "scandinavian", "cycles", "hdri"],
+    "source_url": "https://github.com/skill-wiki-static/blender-archviz-living"
+  },
+  {
+    "skill_id": "static_low_poly_landscape",
+    "name": "Low-Poly Landscape",
+    "license": "cc-by-4.0",
+    "path": "_seed/low_poly_landscape.blend",
+    "format": "blend",
+    "description": "# Low-Poly Landscape\n\nStylised low-poly landscape: faceted terrain with 3 elevation tiers (water, plain, mountain), 5 cone-style trees scattered via geometry nodes, and a procedural sky with two sun positions. Flat-shaded materials for the signature low-poly look. Renders quickly in EEVEE for animation work.",
+    "applicability": "Stylised low-poly landscape with terrain tiers, scattered trees, and EEVEE-friendly flat-shaded materials.",
+    "tags": ["low_poly", "landscape", "stylised", "geometry_nodes", "eevee"],
+    "source_url": "https://github.com/skill-wiki-static/blender-low-poly-landscape"
+  },
+  {
+    "skill_id": "static_proprietary_blender_blocked",
+    "name": "Studio Hero Asset (proprietary)",
+    "license": "proprietary",
+    "path": "_seed/studio_hero.blend",
+    "format": "blend",
+    "description": "Studio-internal hero character asset, NOT redistributable.",
+    "tags": ["studio"],
+    "source_url": "https://example.com/internal/hero-asset"
+  }
+]

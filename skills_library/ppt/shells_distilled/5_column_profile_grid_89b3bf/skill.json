@@ -1,0 +1,106 @@
+{
+  "skill_id": "5_column_profile_grid_89b3bf",
+  "skill_type": "shell",
+  "name": "5-Column Profile Grid",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid"
+    ],
+    "content_shape": [
+      "5-column image and text grid"
+    ],
+    "density": "high",
+    "mood": [
+      "editorial",
+      "warm"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "image_1",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_2",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_3",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_4",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_5",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "profiles",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    },
+    {
+      "name": "footer",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/5_column_profile_grid_89b3bf/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "seamless_gradient_image_blending_0cc7d66d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A 5-column layout ideal for introducing a team or comparing multiple entities, featuring square images and detailed descriptions.",
+  "_distill_attempts": 1
+}

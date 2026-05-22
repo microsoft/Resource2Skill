@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for e-commerce product viewers, portfolio showcases, and promotional micro-sites. It allows users to actively explore a 3D model, replacing static images with a highly engaging experience.",
+  "category_path": [
+    "graphics",
+    "webgl",
+    "3d_scene"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_artifact_showcase_studio__531c43b9",
+  "skill_name": "Interactive 3D Artifact Showcase (Studio Lighting)",
+  "source": {
+    "channel": "Dan Greenheck",
+    "duration_sec": 903,
+    "type": "youtube",
+    "video_id": "aOQuuotM-Ww",
+    "video_title": "Add an Interactive 3D Model to Your Website // Three.js Tutorial for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=aOQuuotM-Ww",
+    "views": 74783
+  },
+  "tags": [
+    "3d",
+    "webgl",
+    "threejs",
+    "product-viewer",
+    "studio-lighting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:53Z",
+  "wash_version": "1.0.0"
+}

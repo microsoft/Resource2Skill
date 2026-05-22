@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_spinning_carousel_wheel_c1a963df",
+  "skill_name": "Morphing Spinning Carousel Wheel",
+  "source": {
+    "channel": "Productivity Shots",
+    "duration_sec": 899,
+    "type": "youtube",
+    "video_id": "QAKFdDB2FKo",
+    "video_title": "Upgrade your PowerPoint skills | Template Tricks You Need | EP #9 | Step-by-Step",
+    "video_url": "https://www.youtube.com/watch?v=QAKFdDB2FKo",
+    "views": 0
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:39:54Z",
+  "wash_version": "1.0.0"
+}

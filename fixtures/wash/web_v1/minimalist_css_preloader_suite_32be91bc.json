@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_css_preloader_suite_32be91bc",
+  "source": {
+    "channel": "wpshopmart",
+    "duration_sec": 169,
+    "type": "youtube",
+    "video_id": "9Bl8szMyfhU",
+    "video_title": "20 Creative HTML CSS Loading Animation Preloaders Must See",
+    "video_url": "https://www.youtube.com/watch?v=9Bl8szMyfhU",
+    "views": 23883
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

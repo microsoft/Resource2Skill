@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_glassmorphism_theme_toggler_f4b9e561",
+  "skill_name": "Ambient Glassmorphism Theme-Toggler",
+  "source": {
+    "channel": "Echoes of Ping",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=NY9ojDOjOcw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:53:02Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Fully styled webpage in light mode"
+        },
+        {
+          "seconds": 9,
+          "description": "Webpage switched to dark mode"
+        },
+        {
+          "seconds": 15,
+          "description": "Youtube page loaded after clicking on 'Youtube' button"
+        },
+        {
+          "seconds": 323,
+          "description": "Webpage shows some of the text and styling added"
+        },
+        {
+          "seconds": 527,
+          "description": "Webpage showing menu bar buttons and some text on it."
+        }
+      ],
+      "frames": [
+        "frame_00_fully_styled_webpage_in_light_.jpg",
+        "frame_01_webpage_switched_to_dark_mode.jpg",
+        "frame_02_youtube_page_loaded_after_clic.jpg",
+        "frame_03_webpage_shows_some_of_the_text.jpg",
+        "frame_04_webpage_showing_menu_bar_butto.jpg"
+      ],
+      "recapped_at": 1777408319.4259968
+    },
+    "primary_path": "frame_00_fully_styled_webpage_in_light_.jpg"
+  }
+}

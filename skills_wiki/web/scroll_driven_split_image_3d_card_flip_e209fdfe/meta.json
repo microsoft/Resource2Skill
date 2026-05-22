@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_driven_split_image_3d_card_flip_e209fdfe",
+  "skill_name": "Scroll-Driven Split Image 3D Card Flip",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 1065,
+    "type": "youtube",
+    "video_id": "_F1t2Ux-znk",
+    "video_title": "This Scroll Animation Turns One Image Into Three Perfectly Flipping Cards (ScrollTrigger)",
+    "video_url": "https://www.youtube.com/watch?v=_F1t2Ux-znk",
+    "views": 34658
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:11Z",
+  "wash_version": "1.0.0"
+}

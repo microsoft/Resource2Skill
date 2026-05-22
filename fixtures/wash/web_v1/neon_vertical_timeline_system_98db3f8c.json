@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "neon_vertical_timeline_system_98db3f8c",
+  "source": {
+    "channel": "Amna Code",
+    "duration_sec": 3525,
+    "type": "youtube",
+    "video_id": "oqPbciDKi44",
+    "video_title": "Build a Complete Responsive Personal Portfolio Website using HTML CSS Javascript#tutorial#html5#css3",
+    "video_url": "https://www.youtube.com/watch?v=oqPbciDKi44",
+    "views": 3006
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

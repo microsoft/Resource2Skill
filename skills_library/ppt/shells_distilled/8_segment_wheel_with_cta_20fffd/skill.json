@@ -1,0 +1,72 @@
+{
+  "skill_id": "8_segment_wheel_with_cta_20fffd",
+  "skill_type": "shell",
+  "name": "8-Segment Wheel with CTA",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "closing"
+    ],
+    "content_shape": [
+      "wheel+button"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "wheel_items",
+      "kind": "bullet_list",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 8
+    },
+    {
+      "name": "call_to_action",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 30,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/8_segment_wheel_with_cta_20fffd/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "exploded_segmented_process_wheel_f994d439",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Extracted the 8-segment circular diagram and bottom CTA button into a reusable wheel layout, using MSO_SHAPE.PIE with thick borders to create the segmented gaps.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "two_dimensional_xlookup_0ff30111",
+  "source": {
+    "channel": "Excel in a Minute",
+    "duration_sec": 219,
+    "type": "youtube",
+    "video_id": "nWP-iQ_3-Ec",
+    "video_title": "XLOOKUP VS INDEX-XMATCH BY EXCEL IN A MINUTE",
+    "video_url": "https://www.youtube.com/watch?v=nWP-iQ_3-Ec",
+    "views": 16941
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

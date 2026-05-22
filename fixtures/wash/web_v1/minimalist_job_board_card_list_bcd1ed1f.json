@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "minimalist_job_board_card_list_bcd1ed1f",
+  "source": {
+    "channel": "Dylan Cole",
+    "duration_sec": 415,
+    "type": "youtube",
+    "video_id": "TG6XSFeOT3g",
+    "video_title": "How I'd Learn Web Development (If I Could Start Over)",
+    "video_url": "https://www.youtube.com/watch?v=TG6XSFeOT3g",
+    "views": 1104413
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

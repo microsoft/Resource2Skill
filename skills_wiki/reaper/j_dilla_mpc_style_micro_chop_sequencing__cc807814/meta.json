@@ -1,0 +1,26 @@
+{
+  "applicability": "",
+  "category_path": [
+    "arrangement"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "j_dilla_mpc_style_micro_chop_sequencing__cc807814",
+  "skill_name": "J Dilla: MPC-Style Micro-Chop Sequencing & Turnarounds",
+  "source": {
+    "type": "youtube",
+    "video_title": "J Dilla production tutorial"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:01:46Z",
+  "wash_version": "1.0.0"
+}

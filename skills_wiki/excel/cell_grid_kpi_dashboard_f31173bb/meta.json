@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cell_grid_kpi_dashboard_f31173bb",
+  "skill_name": "Cell-Grid KPI Dashboard",
+  "source": {
+    "channel": "Vedakarna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=rxmxAXJa6xY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:41:57Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial dashboard layout with logo and title"
+        },
+        {
+          "seconds": 1235,
+          "description": "profit by year chart integrated into the dashboard"
+        },
+        {
+          "seconds": 1590,
+          "description": "customer count donut chart and sales by state map added"
+        },
+        {
+          "seconds": 2130,
+          "description": "all major charts and key metrics populated and formatted"
+        },
+        {
+          "seconds": 2552,
+          "description": "complete sales and profit dashboard with interactive slicers"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_dashboard_layout_with_.jpg",
+        "frame_01_profit_by_year_chart_integrate.jpg"
+      ],
+      "recapped_at": 1777406275.3330772
+    },
+    "primary_path": "frame_00_initial_dashboard_layout_with_.jpg"
+  }
+}

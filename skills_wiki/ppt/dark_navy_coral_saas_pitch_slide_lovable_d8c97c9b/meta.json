@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "product"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_navy_coral_saas_pitch_slide_lovable_d8c97c9b",
+  "skill_name": "Dark Navy & Coral SaaS Pitch Slide (Lovable Minimalist Aesthetic)",
+  "source": {
+    "channel": "Vaibhav Sisinty",
+    "duration_sec": 992,
+    "type": "youtube",
+    "video_id": "V-piTfsxbww",
+    "video_title": "Lovable in 15 Minutes: Build an App, Pitch Deck AND Marketing (No Code)",
+    "video_url": "https://www.youtube.com/watch?v=V-piTfsxbww",
+    "views": 52240
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:56:45Z",
+  "wash_version": "1.0.0"
+}

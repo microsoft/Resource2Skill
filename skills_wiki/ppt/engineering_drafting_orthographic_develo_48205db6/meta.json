@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "engineering_drafting_orthographic_develo_48205db6",
+  "skill_name": "Engineering Drafting & Orthographic Development",
+  "source": {
+    "channel": "MECH Tech Simulations",
+    "duration_sec": 420,
+    "type": "youtube",
+    "video_id": "PWXZVQS9wpk",
+    "video_title": "Development of surfaces 3 | Square Pyramid | Engineering Graphics | Truncated Pyramid",
+    "video_url": "https://www.youtube.com/watch?v=PWXZVQS9wpk",
+    "views": 179905
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:11:03Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,29 @@
+# plastic_matte
+
+## Description
+
+Soft-touch matte plastic — moderate-high roughness, slight specular
+
+## Parameters
+
+```json
+{
+  "best_for": [
+    "consumer electronics",
+    "buttons",
+    "casings",
+    "modern furniture"
+  ],
+  "principled": {
+    "Base Color": [
+      0.12,
+      0.12,
+      0.14,
+      1.0
+    ],
+    "Metallic": 0.0,
+    "Roughness": 0.78,
+    "Specular IOR Level": 0.4
+  }
+}
+```

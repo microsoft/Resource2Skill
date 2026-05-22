@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_box_projection_texturing__tri_p_0777ba86",
+  "skill_name": "Seamless Box Projection Texturing (Tri-Planar Mapping)",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=AMnMbxEwa7Q"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:22:12Z",
+  "wash_version": "1.0.0"
+}

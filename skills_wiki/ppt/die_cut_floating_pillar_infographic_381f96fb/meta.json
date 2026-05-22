@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "die_cut_floating_pillar_infographic_381f96fb",
+  "skill_name": "Die-Cut Floating Pillar Infographic",
+  "source": {
+    "channel": "DCP Web Designers",
+    "duration_sec": 1783,
+    "type": "youtube",
+    "video_id": "d9pKV8bTxX0",
+    "video_title": "Powerpoint Infographic Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=d9pKV8bTxX0",
+    "views": 441
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:14:53Z",
+  "wash_version": "1.0.0"
+}

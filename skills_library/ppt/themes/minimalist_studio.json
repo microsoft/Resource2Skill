@@ -1,0 +1,118 @@
+{
+  "theme_id": "minimalist_studio",
+  "name": "Minimalist Studio",
+  "palette": {
+    "bg": "#FEFEFE",
+    "panel": "#F5F5F0",
+    "accent": "#1A1A1A",
+    "accent2": "#A38852",
+    "text": "#1A1A1A",
+    "muted": "#7A7A7A",
+    "border": "#E4E4DD",
+    "success": "#2E8F66",
+    "warning": "#E08C3C"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Segoe UI",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Segoe UI",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Segoe UI",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Segoe UI",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    }
+  },
+  "motif": {
+    "type": "whitespace",
+    "description": "Minimalist; huge whitespace; thin rules only"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3
+  },
+  "motion": {
+    "personality": "minimal",
+    "preferred_entrance": [
+      "fade"
+    ],
+    "stagger_ms": 120,
+    "avoid": [
+      "bounce",
+      "spin",
+      "glitch"
+    ]
+  },
+  "mood": [
+    "editorial",
+    "restrained",
+    "calm"
+  ],
+  "archetype_fit": [
+    "narrative",
+    "research",
+    "brand"
+  ],
+  "preferred_motion_tags": [
+    "kicker-tick",
+    "hairline",
+    "margin-note",
+    "typewriter",
+    "iris",
+    "thesis"
+  ],
+  "avoided_motion_tags": [
+    "bounce",
+    "confetti",
+    "balloon",
+    "chromatic",
+    "neon"
+  ]
+}

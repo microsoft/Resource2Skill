@@ -1,0 +1,26 @@
+{
+  "variant_id": "real_estate_listing",
+  "out_dirname": "real_estate_listing",
+  "title": "The Headlands House — 3 acres above Point Reyes",
+  "audience": "buyer's agent packet for a $4.8M single-family listing",
+  "tone_words": ["cinematic", "warm", "editorial"],
+  "archetype_preference": "brand",
+  "mood_preference": ["cinematic", "warm", "editorial"],
+  "mode_preference": "light",
+  "n_slides": 10,
+  "role_prefer": ["cover", "hero_quote", "feature_grid", "metric_dashboard", "timeline_horizontal", "closing_cta"],
+  "role_avoid": ["bullet_card_list"],
+  "dense_quota": 1,
+  "core_points": [
+    "A 1947 ranch-style home rebuilt in 2018, 3.1 acres with unobstructed ocean views",
+    "4 bedrooms, 3 baths, 3,840 sqft; detached 600 sqft studio with its own entrance",
+    "Architect: Maren Thole, local, known for restorations that keep the bones",
+    "Materials: reclaimed douglas fir floors, hand-troweled lime plaster, clay tile roof",
+    "Systems: solar with battery backup, 40-yard cistern, radiant floor throughout",
+    "Land notes: 27 mature coastal oaks, a year-round spring, state-protected viewshed",
+    "Neighborhood: 14 minutes to Inverness ferry, 38 to Point Reyes Station, 75 to SF",
+    "Recent comparable sales: 3 in the last 18 months, median $4.65M, days-on-market 42",
+    "Pricing strategy: list at $4.8M, expect offers in first 3 weekends of open houses",
+    "Next steps for the agent: preview Friday 3-5pm, photography finalizes Tuesday, listing goes live Friday"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_interactive_hover_card_css_3d_transfo_8cb382bb",
+  "source": {
+    "channel": "TechsPossible",
+    "duration_sec": 411,
+    "type": "youtube",
+    "video_id": "x5AxFRpZ4Zg",
+    "video_title": "36.css 3d transform | css 3d transform in english | css 3d transform tutorial | css 3d transform",
+    "video_url": "https://www.youtube.com/watch?v=x5AxFRpZ4Zg",
+    "views": 141
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

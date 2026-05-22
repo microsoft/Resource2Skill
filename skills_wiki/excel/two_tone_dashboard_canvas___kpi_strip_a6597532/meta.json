@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_tone_dashboard_canvas___kpi_strip_a6597532",
+  "skill_name": "Two-Tone Dashboard Canvas & KPI Strip",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1ic8E58Bo2M"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:11:34Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 4,
+          "description": "Initial full dashboard preview"
+        },
+        {
+          "seconds": 748,
+          "description": "Dashboard with KPIs populated and sales agent table structure"
+        },
+        {
+          "seconds": 959,
+          "description": "Sales agent KPIs table with conditional formatting applied"
+        },
+        {
+          "seconds": 1159,
+          "description": "Dashboard with monthly calls reached/closed chart"
+        },
+        {
+          "seconds": 1819,
+          "description": "Final dashboard after data refresh"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_full_dashboard_preview.jpg",
+        "frame_01_dashboard_with_kpis_populated_.jpg",
+        "frame_02_sales_agent_kpis_table_with_co.jpg"
+      ],
+      "recapped_at": 1777407943.7624826
+    },
+    "primary_path": "frame_00_initial_full_dashboard_preview.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Quickly generate 3D architectural layouts from 2D coordinates using Python scripting. Ideal for archviz mockups, interior design pre-visualization, and creating top-down game levels.",
+  "category_path": [
+    "modeling",
+    "procedural"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_3d_architectural_floor_plan_3fd9a9dc",
+  "skill_name": "Procedural Architectural Floor Plan",
+  "source": {
+    "channel": "TVBOX Academy",
+    "duration_sec": 804,
+    "type": "youtube",
+    "video_id": "z1jiNA03ntQ",
+    "video_title": "Turn Floor Plans Into 3D Homes Instantly | Nano Banana Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=z1jiNA03ntQ",
+    "views": 65073
+  },
+  "tags": [
+    "procedural",
+    "architectural",
+    "bmesh",
+    "scripting",
+    "layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:43Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trance_edm_rolling_16th_bassline_0afd979a",
+  "skill_name": "Trance/EDM Rolling 16th Bassline",
+  "source": {
+    "channel": "Sergei S",
+    "duration_sec": 200,
+    "type": "youtube",
+    "video_id": "6A0YOxI8bR0",
+    "video_title": "Sharov - The Time Is Now (Reaper 6 DAW project overview)",
+    "video_url": "https://www.youtube.com/watch?v=6A0YOxI8bR0",
+    "views": 631
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:37Z",
+  "wash_version": "1.0.0"
+}

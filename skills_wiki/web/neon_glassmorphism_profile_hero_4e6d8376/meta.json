@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for developer portfolios, creative agency landing pages, and Web3/Crypto interfaces, offering a modern, interactive profile or hero section.",
+  "category_path": [
+    "ui_component",
+    "hero_section",
+    "profile"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_glassmorphism_profile_hero_4e6d8376",
+  "skill_name": "Neon Glassmorphism Profile Hero",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 2938,
+    "type": "youtube",
+    "video_id": "uTPO6fKtBvM",
+    "video_title": "Build a Responsive Personal Portfolio Website Using HTML & CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=uTPO6fKtBvM",
+    "views": 118836
+  },
+  "tags": [
+    "neon",
+    "glassmorphism",
+    "profile",
+    "hero section",
+    "dark theme",
+    "glow effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:15:42Z",
+  "wash_version": "1.0.0"
+}

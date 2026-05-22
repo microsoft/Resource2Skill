@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "conditional_formatting_gantt_chart_108816ce",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 2404,
+    "type": "youtube",
+    "video_id": "5qtSioTE2wY",
+    "video_title": "Interactive Excel Project Management Dashboard - FREE Download",
+    "video_url": "https://www.youtube.com/watch?v=5qtSioTE2wY",
+    "views": 2370580
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

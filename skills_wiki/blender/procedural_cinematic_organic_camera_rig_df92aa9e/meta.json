@@ -1,0 +1,36 @@
+{
+  "applicability": "Creates ultra-fluid, non-linear camera flights that mimic the organic imperfections of a drone or Steadicam operator. Ideal for architectural fly-throughs, cinematic establishing shots, and product showcases.",
+  "category_path": [
+    "animation",
+    "camera_motion"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_cinematic_organic_camera_rig_df92aa9e",
+  "skill_name": "Procedural Cinematic Organic Camera Rig",
+  "source": {
+    "channel": "Polyfjord",
+    "duration_sec": 590,
+    "type": "youtube",
+    "video_id": "a7qyW1G350g",
+    "video_title": "Tutorial: Quick Smooth Camera Movements in Blender",
+    "video_url": "https://www.youtube.com/watch?v=a7qyW1G350g",
+    "views": 2037137
+  },
+  "tags": [
+    "camera-rig",
+    "procedural-animation",
+    "cinematic",
+    "organic-motion",
+    "f-curve-smoothing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:53:44Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for data-heavy slides requiring a prominent chart accompanied by a clear, structured header including a headline, subtitle, and optional context metadata.",
+  "category_path": [
+    "data_visualization",
+    "contextual_chart"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "chart_with_context_header_cb23d9",
+  "skill_name": "Chart with Context Header",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "chart",
+    "data presentation",
+    "contextual header",
+    "financial",
+    "dashboard",
+    "metrics"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:04:37Z",
+  "wash_version": "1.0.0"
+}

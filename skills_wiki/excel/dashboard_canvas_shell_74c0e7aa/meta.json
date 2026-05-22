@@ -1,0 +1,36 @@
+{
+  "applicability": "Use as the foundational layout for polished, client-facing dashboards. Layer transparent charts on top of the designated 'cards' for a seamless, application-like interface.",
+  "category_path": [
+    "dashboard",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dashboard_canvas_shell_74c0e7aa",
+  "skill_name": "Dashboard Canvas Shell",
+  "source": {
+    "channel": "MyOnlineTrainingHub",
+    "duration_sec": 639,
+    "type": "youtube",
+    "video_id": "Lrr-INjPEts",
+    "video_title": "Make Your Reports Pop with Custom Excel Dashboard Backgrounds",
+    "video_url": "https://www.youtube.com/watch?v=Lrr-INjPEts",
+    "views": 63341
+  },
+  "tags": [
+    "dashboard",
+    "layout",
+    "ui design",
+    "canvas",
+    "navigation"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:53:03Z",
+  "wash_version": "1.0.0"
+}

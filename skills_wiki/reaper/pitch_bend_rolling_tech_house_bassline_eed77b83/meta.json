@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pitch_bend_rolling_tech_house_bassline_eed77b83",
+  "skill_name": "Pitch-Bend \"Rolling\" Tech-House Bassline",
+  "source": {
+    "channel": "John Summit",
+    "duration_sec": 102,
+    "type": "youtube",
+    "video_id": "aT5ptnp1K7E",
+    "video_title": "How To Make Rolling Basslines For Tech House",
+    "video_url": "https://www.youtube.com/watch?v=aT5ptnp1K7E",
+    "views": 502935
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:01Z",
+  "wash_version": "1.0.0"
+}

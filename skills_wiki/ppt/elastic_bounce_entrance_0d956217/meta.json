@@ -1,0 +1,35 @@
+{
+  "applicability": "Highly effective for drawing attention to new visual elements, such as icons, logos, data callouts, or key bullet points. It enhances content introduction with a polished, dynamic feel.",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "elastic_bounce_entrance_0d956217",
+  "skill_name": "Elastic Bounce Entrance",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 204,
+    "type": "youtube",
+    "video_id": "3yKFCA9T9dg",
+    "video_title": "\u5929\uff01\u767e\u4e07\u5973UP\u7684\u89c6\u9891\u5168\u662fPPT\u505a\u7684\uff1f\u8fd9\u52a8\u753b\u7edd\u4e86   \u3010\u65c1\u95e8\u5de6\u9053\u3011",
+    "video_url": "https://www.youtube.com/watch?v=3yKFCA9T9dg",
+    "views": 9576
+  },
+  "tags": [
+    "bounce",
+    "animation",
+    "entrance",
+    "powerpoint",
+    "dynamic",
+    "visual effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:37Z",
+  "wash_version": "1.0.0"
+}

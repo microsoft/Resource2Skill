@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_character_illustration_animatio_cb3a6b13",
+  "skill_name": "Pure CSS Character Illustration & Animation",
+  "source": {
+    "channel": "Coding Infinite",
+    "duration_sec": 944,
+    "type": "youtube",
+    "video_id": "X_0uGgMcoLc",
+    "video_title": "Pure css art.",
+    "video_url": "https://www.youtube.com/watch?v=X_0uGgMcoLc",
+    "views": 1113
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:10:02Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_dashboard_layout_2020e633",
+  "source": {
+    "channel": "crayon code",
+    "duration_sec": 1352,
+    "type": "youtube",
+    "video_id": "PXiMfLiqcpg",
+    "video_title": "Responsive Project Dashboard // Speedrun // HTML & CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=PXiMfLiqcpg",
+    "views": 10190
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

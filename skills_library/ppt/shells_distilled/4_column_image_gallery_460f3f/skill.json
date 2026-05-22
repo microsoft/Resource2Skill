@@ -1,0 +1,90 @@
+{
+  "skill_id": "4_column_image_gallery_460f3f",
+  "skill_type": "shell",
+  "name": "4-Column Image Gallery",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid"
+    ],
+    "content_shape": [
+      "4-image-row"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_1",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "3:4",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_2",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "3:4",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_3",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "3:4",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_4",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "3:4",
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/4_column_image_gallery_460f3f/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "interactive_morphing_profile_carousel_c9559f8a",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Extracts the 4-portrait-image layout into a reusable gallery shell, adding an optional headline for versatility.",
+  "_distill_attempts": 1
+}

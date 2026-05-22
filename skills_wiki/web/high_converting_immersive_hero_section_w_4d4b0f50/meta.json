@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_converting_immersive_hero_section_w_4d4b0f50",
+  "skill_name": "High-Converting Immersive Hero Section with Integrated Social Proof",
+  "source": {
+    "channel": "Flux Academy",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=LJbkLdtEW00"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:19:39Z",
+  "wash_version": "1.0.0"
+}

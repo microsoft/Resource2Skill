@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "quick_start_songwriting_template_starter_c871eaaf",
+  "skill_name": "Quick-Start Songwriting Template & Starter Loop",
+  "source": {
+    "channel": "Reapertips | Alejandro",
+    "duration_sec": 446,
+    "type": "youtube",
+    "video_id": "5gmCE3zd0nk",
+    "video_title": "5 tips I wish I knew sooner in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=5gmCE3zd0nk",
+    "views": 156906
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:44Z",
+  "wash_version": "1.0.0"
+}

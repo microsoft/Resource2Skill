@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "multi_panel_executive_dashboard_066bbd71",
+  "skill_name": "Multi-Panel Executive Dashboard",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:23:32Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "interactive dashboard preview"
+        },
+        {
+          "seconds": 807,
+          "description": "first chart placed on dashboard"
+        },
+        {
+          "seconds": 1137,
+          "description": "all three charts on dashboard"
+        },
+        {
+          "seconds": 1529,
+          "description": "dashboard with connected slicers"
+        },
+        {
+          "seconds": 1815,
+          "description": "final themed dashboard"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_dashboard_preview.jpg",
+        "frame_01_first_chart_placed_on_dashboar.jpg",
+        "frame_02_all_three_charts_on_dashboard.jpg"
+      ],
+      "recapped_at": 1777407270.8223553
+    },
+    "primary_path": "frame_00_interactive_dashboard_preview.jpg"
+  }
+}

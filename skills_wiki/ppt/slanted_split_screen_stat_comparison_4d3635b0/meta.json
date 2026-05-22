@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "slanted_split_screen_stat_comparison_4d3635b0",
+  "skill_name": "Slanted Split-Screen Stat Comparison",
+  "source": {
+    "channel": "Creative Venus",
+    "duration_sec": 139,
+    "type": "youtube",
+    "video_id": "sP3PxsOjMGI",
+    "video_title": "How To Animate Sales Comparison Slide Template in Microsoft PowerPoint (PPT)",
+    "video_url": "https://www.youtube.com/watch?v=sP3PxsOjMGI",
+    "views": 2132
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:52Z",
+  "wash_version": "1.0.0"
+}

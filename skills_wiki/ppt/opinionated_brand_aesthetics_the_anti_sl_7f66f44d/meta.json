@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "opinionated_brand_aesthetics_the_anti_sl_7f66f44d",
+  "skill_name": "Opinionated Brand Aesthetics (The \"Anti-Slop\" Manifesto)",
+  "source": {
+    "channel": "Griffin Wooldridge",
+    "duration_sec": 571,
+    "type": "youtube",
+    "video_id": "Iup1WlUyj9M",
+    "video_title": "How to Use Claude Skills as a Designer",
+    "video_url": "https://www.youtube.com/watch?v=Iup1WlUyj9M",
+    "views": 173855
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:22:13Z",
+  "wash_version": "1.0.0"
+}

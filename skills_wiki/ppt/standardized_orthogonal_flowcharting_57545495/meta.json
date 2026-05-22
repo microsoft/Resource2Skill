@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for mapping Standard Operating Procedures (SOPs), software algorithms, and user journey maps. It transforms complex information into a scannable, logical narrative.",
+  "category_path": [
+    "diagrams",
+    "flowcharts"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "standardized_orthogonal_flowcharting_57545495",
+  "skill_name": "Standardized Orthogonal Flowcharting",
+  "source": {
+    "channel": "Software Spring",
+    "duration_sec": 496,
+    "type": "youtube",
+    "video_id": "GsfZD4oU7l0",
+    "video_title": "How to Create Flowchart in Powerpoint | Step-by-Step Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=GsfZD4oU7l0",
+    "views": 1044702
+  },
+  "tags": [
+    "flowchart",
+    "orthogonal",
+    "process mapping",
+    "sop",
+    "algorithms",
+    "clarity"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:33Z",
+  "wash_version": "1.0.0"
+}

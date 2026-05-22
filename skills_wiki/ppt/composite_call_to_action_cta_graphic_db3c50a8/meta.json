@@ -1,0 +1,36 @@
+{
+  "applicability": "This graphic is highly effective in pitch decks, marketing webinars, portfolios, and digital kiosks, specifically whenever the audience needs to take a clear, unambiguous next step like 'Invest Now' or 'Download Resume'.",
+  "category_path": [
+    "call_to_action",
+    "interactive_element"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "composite_call_to_action_cta_graphic_db3c50a8",
+  "skill_name": "Composite Call-to-Action (CTA) Graphic",
+  "source": {
+    "channel": "waqas Qureshi",
+    "duration_sec": 383,
+    "type": "youtube",
+    "video_id": "0X759TOe1Xo",
+    "video_title": "how to make call to action button with powerpoint easy way to create banner with MS POWERPOINT",
+    "video_url": "https://www.youtube.com/watch?v=0X759TOe1Xo",
+    "views": 65
+  },
+  "tags": [
+    "call to action",
+    "button",
+    "interactive",
+    "typography",
+    "shapes",
+    "directional cue"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:01:23Z",
+  "wash_version": "1.0.0"
+}

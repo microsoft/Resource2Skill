@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_neumorphism_soft_ui_interface_f0feaa9c",
+  "skill_name": "Dark Neumorphism (Soft UI) Interface",
+  "source": {
+    "channel": "PowerPoint.Basics",
+    "duration_sec": 463,
+    "type": "youtube",
+    "video_id": "K7-sF46N6m4",
+    "video_title": "Neumorphic PowerPoint Template | Neumorphism Part-1 | Dark theme Neumorphism",
+    "video_url": "https://www.youtube.com/watch?v=K7-sF46N6m4",
+    "views": 4370
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:54:21Z",
+  "wash_version": "1.0.0"
+}

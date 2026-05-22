@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for creating realistic destruction sequences, scattering background props, or generating organic object piles. Physics simulations replace tedious keyframing with natural, emergent collisions and settling behaviors.",
+  "category_path": [
+    "physics",
+    "rigid_body"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_rigid_body_physics_setup_c5b41689",
+  "skill_name": "Dynamic Rigid Body Physics Setup",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 1525,
+    "type": "youtube",
+    "video_id": "lctjzasiy64",
+    "video_title": "Rigid Body Physics for Beginners (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=lctjzasiy64",
+    "views": 296520
+  },
+  "tags": [
+    "rigid_body",
+    "physics",
+    "simulation",
+    "collision",
+    "dynamics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:26Z",
+  "wash_version": "1.0.0"
+}

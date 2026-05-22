@@ -1,0 +1,37 @@
+{
+  "applicability": "A fundamental CSS pattern for building intrinsically responsive and accessible layouts. Ideal for hero sections, fluid grids, and typography systems that adapt to any screen size without brittle media queries.",
+  "category_path": [
+    "web",
+    "css",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_responsive_layout_system_css_units_dc2308dc",
+  "skill_name": "Fluid Layout with Semantic CSS Units",
+  "source": {
+    "channel": "WPDev",
+    "duration_sec": 291,
+    "type": "youtube",
+    "video_id": "ydfVTgsUynk",
+    "video_title": "Make ANY Design Responsive - Elementor CSS Units Guide",
+    "video_url": "https://www.youtube.com/watch?v=ydfVTgsUynk",
+    "views": 21243
+  },
+  "tags": [
+    "css",
+    "responsive design",
+    "css units",
+    "fluid layout",
+    "accessibility"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:28:52Z",
+  "wash_version": "1.0.0"
+}

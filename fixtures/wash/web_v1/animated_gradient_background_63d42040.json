@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_gradient_background_63d42040",
+  "source": {
+    "channel": "Web Tutorials",
+    "duration_sec": 612,
+    "type": "youtube",
+    "video_id": "qM3tkLhk-kk",
+    "video_title": "Animated Gradient Background | Only CSS and HTML5 | Web Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=qM3tkLhk-kk",
+    "views": 332
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

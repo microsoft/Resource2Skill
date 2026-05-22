@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for presentation covers or section dividers, providing a dynamic visual break with its modern, geometric design. It features a prominent headline and optional subtitle.",
+  "category_path": [
+    "presentation",
+    "covers_dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "angled_split_cover_ed4e3a",
+  "skill_name": "Angled Split Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "angled",
+    "split",
+    "geometric",
+    "modern",
+    "bold",
+    "cover"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:59:31Z",
+  "wash_version": "1.0.0"
+}

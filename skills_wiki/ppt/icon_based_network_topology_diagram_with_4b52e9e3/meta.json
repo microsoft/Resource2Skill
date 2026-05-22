@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for technical presentations, this style effectively communicates complex network topology and status using standardized icons and color-coded indicators. It simplifies information, enabling quick understanding of system relationships and operational health.",
+  "category_path": [
+    "it_operations",
+    "network_topology"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "icon_based_network_topology_diagram_with_4b52e9e3",
+  "skill_name": "Icon-Based Network Topology Diagram with Status Monitoring",
+  "source": {
+    "channel": "NETVN82",
+    "duration_sec": 230,
+    "type": "youtube",
+    "video_id": "SNCGgJwbkiM",
+    "video_title": "Create a network diagram and monitor it for free | NETVN",
+    "video_url": "https://www.youtube.com/watch?v=SNCGgJwbkiM",
+    "views": 153320
+  },
+  "tags": [
+    "network topology",
+    "status monitoring",
+    "IT infrastructure",
+    "system health",
+    "technical diagram"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:45:30Z",
+  "wash_version": "1.0.0"
+}

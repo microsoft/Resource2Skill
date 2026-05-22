@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "systematic_color_palette_development_app_8b3d861c",
+  "skill_name": "Systematic Color Palette Development & Application",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 402,
+    "type": "youtube",
+    "video_id": "SwU5ihcZPR8",
+    "video_title": "PPT\u4e2d\u516c\u8ba4\u6700\u5927\u96be\u70b9\u7adf\u662f\u914d\u8272\uff1f\u522b\u614c\uff013\u62db\u6559\u4f60\u505a\u51fa\u9ad8\u7ea7\u914d\u8272\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=SwU5ihcZPR8",
+    "views": 4999
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:19:17Z",
+  "wash_version": "1.0.0"
+}

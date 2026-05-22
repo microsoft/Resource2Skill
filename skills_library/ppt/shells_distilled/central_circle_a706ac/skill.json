@@ -1,0 +1,53 @@
+{
+  "skill_id": "central_circle_a706ac",
+  "skill_type": "shell",
+  "name": "Central Circle",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "central-circle"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/central_circle_a706ac/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "exploded_segmented_process_wheel_f994d439",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The image shows a single large centered circle. Extracted as a minimal section divider with an optional centered headline slot to make it functional as a presentation slide.",
+  "_distill_attempts": 1
+}

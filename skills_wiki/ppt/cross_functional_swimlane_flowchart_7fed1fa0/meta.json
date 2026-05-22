@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for documenting business processes, project workflows, or system architectures. It visually defines task accountability and clearly maps hand-offs between different roles or departments.",
+  "category_path": [
+    "diagrams",
+    "flowchart"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cross_functional_swimlane_flowchart_7fed1fa0",
+  "skill_name": "Cross-Functional Swimlane Flowchart",
+  "source": {
+    "channel": "\u6768\u5947",
+    "duration_sec": 664,
+    "type": "youtube",
+    "video_id": "6Xl6GsDtGUU",
+    "video_title": "\u804c\u573a\u7ed8\u56fe\u5229\u5668\uff1adrawio\uff0c\u4f7f\u7528draw.io\u7ed8\u5236\u6d41\u7a0b\u56fe\u3001\u6cf3\u9053\u56fe\u3001\u67b6\u6784\u56fe\u57fa\u7840\u6559\u7a0b",
+    "video_url": "https://www.youtube.com/watch?v=6Xl6GsDtGUU",
+    "views": 13777
+  },
+  "tags": [
+    "swimlane",
+    "flowchart",
+    "workflow",
+    "process_mapping",
+    "business_logic"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:59Z",
+  "wash_version": "1.0.0"
+}

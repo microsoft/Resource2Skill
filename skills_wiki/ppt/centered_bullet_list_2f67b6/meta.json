@@ -1,0 +1,34 @@
+{
+  "applicability": "Applicable for slides needing to present a concise list of key points or features in a clean, centered layout.",
+  "category_path": [
+    "content",
+    "list"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_bullet_list_2f67b6",
+  "skill_name": "Centered Bullet List",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "bullet points",
+    "centered",
+    "list",
+    "minimal",
+    "key points",
+    "single column"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:01:33Z",
+  "wash_version": "1.0.0"
+}

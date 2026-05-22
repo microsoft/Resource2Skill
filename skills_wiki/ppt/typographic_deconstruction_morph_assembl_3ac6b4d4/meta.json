@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "typographic_deconstruction_morph_assembl_3ac6b4d4",
+  "skill_name": "Typographic Deconstruction & Morph Assembly",
+  "source": {
+    "channel": "iSlide",
+    "duration_sec": 96,
+    "type": "youtube",
+    "video_id": "vKbg3wMFHRY",
+    "video_title": "PPT\u5e73\u6ed1\u52a8\u753b\u5236\u4f5c\u521b\u610f\u5c01\u9762\u5f00\u7bc7\u6548\u679c\uff0c\u8ba9\u6f14\u793a\u66f4\u751f\u52a8\uff01",
+    "video_url": "https://www.youtube.com/watch?v=vKbg3wMFHRY",
+    "views": 353
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:43:59Z",
+  "wash_version": "1.0.0"
+}

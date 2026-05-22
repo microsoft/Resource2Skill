@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for automating basic object motion in dynamic scenes. Use this for animating props, cameras, or motion graphics elements without manual timeline interaction, allowing for complex, repeatable, or data-driven movement.",
+  "category_path": [
+    "scripting",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_keyframe_transform_animation_ab7406df",
+  "skill_name": "Procedural Transform Animation",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 1015,
+    "type": "youtube",
+    "video_id": "xACMr9nFELU",
+    "video_title": "The Basics of Animation & Keyframes in Blender (Complete Beginner Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=xACMr9nFELU",
+    "views": 85240
+  },
+  "tags": [
+    "scripting",
+    "keyframes",
+    "f-curves",
+    "transform",
+    "automation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:54:34Z",
+  "wash_version": "1.0.0"
+}

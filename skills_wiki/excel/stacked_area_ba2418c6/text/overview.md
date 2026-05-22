@@ -1,0 +1,23 @@
+# stacked_area
+
+## Description
+
+Stacked area chart for cumulative composition over time
+
+## Parameters
+
+```json
+{
+  "axis_font_size": 10,
+  "chart_type": "AreaChart",
+  "default_size": {
+    "height": 9,
+    "width": 18
+  },
+  "grouping": "percentStacked",
+  "legend_position": "b",
+  "show_legend": true,
+  "style": 12,
+  "title_size": 14
+}
+```

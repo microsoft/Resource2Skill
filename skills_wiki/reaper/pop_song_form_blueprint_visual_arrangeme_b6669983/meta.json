@@ -1,0 +1,37 @@
+{
+  "applicability": "Instantly generates a full 52-bar pop arrangement structure, complete with foundational chords and visually color-coded sections. Perfect for overcoming blank canvas syndrome and visualizing macro-dynamics.",
+  "category_path": [
+    "arrangement",
+    "song_structure"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "pop_song_form_blueprint_visual_arrangeme_b6669983",
+  "skill_name": "Pop Song Form Blueprint",
+  "source": {
+    "channel": "Mr Weber",
+    "duration_sec": 2329,
+    "type": "youtube",
+    "video_id": "_yo5Fqs-vDw",
+    "video_title": "Tutorial on splitting a song into sections in Reaper - including dealing with Lead-ins",
+    "video_url": "https://www.youtube.com/watch?v=_yo5Fqs-vDw",
+    "views": 920
+  },
+  "tags": [
+    "arrangement",
+    "song-form",
+    "chords",
+    "pop",
+    "structure",
+    "workflow"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:51:56Z",
+  "wash_version": "1.0.0"
+}

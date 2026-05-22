@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sidebar_dashboard_grid_shell_3976e712",
+  "skill_name": "Sidebar Dashboard Grid Shell",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=jeYjtEX3RAE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:21:10Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Fully completed Excel dashboard shown in the intro"
+        },
+        {
+          "seconds": 354,
+          "description": "Dashboard layout structured with titles for all sections"
+        },
+        {
+          "seconds": 841,
+          "description": "All individual charts (radar, map, line, doughnut) created and formatted on the input sheet"
+        },
+        {
+          "seconds": 1029,
+          "description": "Formatted map chart placed on the dashboard"
+        },
+        {
+          "seconds": 1494,
+          "description": "Final interactive Excel dashboard with all visuals and KPIs displayed"
+        }
+      ],
+      "frames": [
+        "frame_00_fully_completed_excel_dashboar.jpg",
+        "frame_01_dashboard_layout_structured_wi.jpg",
+        "frame_02_all_individual_charts_radar_ma.jpg"
+      ],
+      "recapped_at": 1777407411.791394
+    },
+    "primary_path": "frame_00_fully_completed_excel_dashboar.jpg"
+  }
+}

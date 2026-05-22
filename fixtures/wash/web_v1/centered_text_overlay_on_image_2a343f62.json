@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "typography"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "centered_text_overlay_on_image_2a343f62",
+  "source": {
+    "channel": "Just Ask Jake",
+    "duration_sec": 179,
+    "type": "youtube",
+    "video_id": "9EXmaYmwSng",
+    "video_title": "Webflow: How to Overlay Text on an Image (Hero Section Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=9EXmaYmwSng",
+    "views": 637
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

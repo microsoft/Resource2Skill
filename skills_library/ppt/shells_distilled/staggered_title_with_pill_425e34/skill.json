@@ -1,0 +1,54 @@
+{
+  "skill_id": "staggered_title_with_pill_425e34",
+  "skill_type": "shell",
+  "name": "Staggered Title with Pill",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "staggered-title"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/staggered_title_with_pill_425e34/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "vertical_morphing_carousel_profile_deck_1b156b00",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Uses a staggered word layout with a decorative rotated pill shape to create a dynamic, playful section divider.",
+  "_distill_attempts": 2
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Use to visualize two 'what-if' scenarios, such as a base vs. stretch budget, on a single chart. This allows for direct comparison of each step's impact and the final outcomes of different strategic options.",
+  "category_path": [
+    "chart",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dual_scenario_waterfall_bridge_2c54b2b3",
+  "skill_name": "Dual-Scenario Waterfall Bridge",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 955,
+    "type": "youtube",
+    "video_id": "gAGIVfL-i8Q",
+    "video_title": "Create Beautiful Charts in PowerPoint | Tool Smart Companies Use",
+    "video_url": "https://www.youtube.com/watch?v=gAGIVfL-i8Q",
+    "views": 256234
+  },
+  "tags": [
+    "waterfall chart",
+    "scenario analysis",
+    "comparative analysis",
+    "financial modeling",
+    "what-if"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:16:17Z",
+  "wash_version": "1.0.0"
+}

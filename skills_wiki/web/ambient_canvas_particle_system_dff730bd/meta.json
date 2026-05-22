@@ -1,0 +1,63 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_canvas_particle_system_dff730bd",
+  "skill_name": "Ambient Canvas Particle System",
+  "source": {
+    "channel": "Franks laboratory",
+    "duration_sec": 724,
+    "type": "youtube",
+    "video_id": "hotMX-pqjkQ",
+    "video_title": "HTML Canvas & Vanilla JavaScript Animation Series 1 - Floating Particles Effect",
+    "video_url": "https://www.youtube.com/watch?v=hotMX-pqjkQ",
+    "views": 27455
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:17:27Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 20,
+          "description": "Initial demo of floating white particles"
+        },
+        {
+          "seconds": 950,
+          "description": "Coded floating white particles animation begins"
+        },
+        {
+          "seconds": 1105,
+          "description": "White particles animation with responsive resizing"
+        },
+        {
+          "seconds": 1120,
+          "description": "Larger white particles"
+        },
+        {
+          "seconds": 1155,
+          "description": "Smaller black particles"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_demo_of_floating_white.jpg"
+      ],
+      "recapped_at": 1777408226.4508069
+    },
+    "primary_path": "frame_00_initial_demo_of_floating_white.jpg"
+  }
+}

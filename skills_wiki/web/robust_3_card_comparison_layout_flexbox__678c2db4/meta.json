@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for displaying pricing tiers, feature highlights, or product listings where consistent card height and aligned call-to-action buttons are crucial despite varying content lengths.",
+  "category_path": [
+    "layout",
+    "card_comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "robust_3_card_comparison_layout_flexbox__678c2db4",
+  "skill_name": "Robust 3-Card Comparison Layout (Flexbox vs. Grid)",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 481,
+    "type": "youtube",
+    "video_id": "aEj6k-gi9-s",
+    "video_title": "CSS Flexbox vs Grid - Are you using them right?",
+    "video_url": "https://www.youtube.com/watch?v=aEj6k-gi9-s",
+    "views": 190495
+  },
+  "tags": [
+    "flexbox",
+    "css grid",
+    "card layout",
+    "vertical align",
+    "comparison",
+    "responsive"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:48:45Z",
+  "wash_version": "1.0.0"
+}

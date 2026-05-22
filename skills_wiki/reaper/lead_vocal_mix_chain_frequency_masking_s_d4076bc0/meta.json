@@ -1,0 +1,36 @@
+{
+  "applicability": "This is the gold-standard workflow for mixing lead pop, rock, and hip-hop vocals. It can also be adapted for lead synths or melodic solos that need to cut through a dense mix.",
+  "category_path": [
+    "mixing",
+    "vocal_processing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lead_vocal_mix_chain_frequency_masking_s_d4076bc0",
+  "skill_name": "Lead Vocal Mix Chain & Frequency Masking (Sidechain Carving)",
+  "source": {
+    "channel": "McAllister Studios",
+    "duration_sec": 867,
+    "type": "youtube",
+    "video_id": "s8yn1AdV4Oo",
+    "video_title": "Mixing Lead Vocals: Raw To Smooth In REAPER!",
+    "video_url": "https://www.youtube.com/watch?v=s8yn1AdV4Oo",
+    "views": 5648
+  },
+  "tags": [
+    "lead vocal",
+    "mix chain",
+    "frequency masking",
+    "sidechain",
+    "compression",
+    "EQ"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:51:25Z",
+  "wash_version": "1.0.0"
+}

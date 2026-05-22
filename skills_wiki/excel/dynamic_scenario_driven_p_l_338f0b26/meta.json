@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_driven_p_l_338f0b26",
+  "skill_name": "Dynamic Scenario-Driven P&L",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:08:17Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "Dynamic model showing scenario selection changing values"
+        },
+        {
+          "seconds": 233,
+          "description": "Revenue calculated and dragged across years"
+        },
+        {
+          "seconds": 836,
+          "description": "Operating expenses and profit margins calculated for all years"
+        },
+        {
+          "seconds": 1019,
+          "description": "Profit/Loss calculated, including conditional tax and error handling"
+        },
+        {
+          "seconds": 1415,
+          "description": "Complete dynamic model with scenario dropdown functionality shown"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_model_showing_scenario.jpg",
+        "frame_01_revenue_calculated_and_dragged.jpg",
+        "frame_02_operating_expenses_and_profit_.jpg"
+      ],
+      "recapped_at": 1777406607.6520796
+    },
+    "primary_path": "frame_00_dynamic_model_showing_scenario.jpg"
+  }
+}

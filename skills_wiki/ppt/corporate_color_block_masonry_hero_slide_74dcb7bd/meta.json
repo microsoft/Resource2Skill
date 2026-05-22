@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_color_block_masonry_hero_slide_74dcb7bd",
+  "skill_name": "Corporate Color Block & Masonry Hero Slide",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 100,
+    "type": "youtube",
+    "video_id": "qzvw6dnLETM",
+    "video_title": "New Product Evaluation PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=qzvw6dnLETM",
+    "views": 116
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:04:27Z",
+  "wash_version": "1.0.0"
+}

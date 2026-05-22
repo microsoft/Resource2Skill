@@ -1,0 +1,32 @@
+{
+  "applicability": "This skill is ideal for producing gritty, sample-based hip-hop, experimental electronic music, and minimalist beats, leveraging texture over melodic complexity. It's particularly useful for creating distinctive, aggressive grooves.",
+  "category_path": [
+    "beatmaking",
+    "hip_hop",
+    "sound_design"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "kanye_style_distorted_groove_offset_loop_096358ee",
+  "skill_name": "Kanye-Style Distorted Groove & Offset Looping",
+  "source": {
+    "type": "youtube",
+    "video_title": "Kanye West production tutorial"
+  },
+  "tags": [
+    "kanye-style",
+    "hip-hop",
+    "distortion",
+    "offset loop",
+    "sound design",
+    "percussion"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:03:59Z",
+  "wash_version": "1.0.0"
+}

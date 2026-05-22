@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "lush_emotional_chord_generator_thick_bas_fd8b334c",
+  "skill_name": "Lush Emotional Chord Generator (Thick Bass, Strumming & Harmonic Minor Tension)",
+  "source": {
+    "channel": "rly Beats",
+    "duration_sec": 432,
+    "type": "youtube",
+    "video_id": "BclGO2966tA",
+    "video_title": "Make GREAT Chord Progressions EASILY",
+    "video_url": "https://www.youtube.com/watch?v=BclGO2966tA",
+    "views": 255329
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:00:53Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "optimized_dark_mode_ui_components_deebaa20",
+  "source": {
+    "channel": "WPTuts",
+    "duration_sec": 599,
+    "type": "youtube",
+    "video_id": "JNhG2T6dGOY",
+    "video_title": "Dark Mode Website Design | 6 Tips For Better Dark UI Design",
+    "video_url": "https://www.youtube.com/watch?v=JNhG2T6dGOY",
+    "views": 18650
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

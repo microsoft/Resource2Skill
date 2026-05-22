@@ -1,0 +1,90 @@
+{
+  "skill_id": "diagram_with_sidebar_65c3e2",
+  "skill_type": "shell",
+  "name": "Diagram with Sidebar",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid"
+    ],
+    "content_shape": [
+      "sidebar-text+main-diagram"
+    ],
+    "density": "high",
+    "mood": [
+      "technical",
+      "corporate",
+      "informational"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "subtitle",
+      "max_chars": 100,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "details",
+      "kind": "text",
+      "required": false,
+      "style": "caption",
+      "max_chars": 400,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "diagram",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    },
+    {
+      "name": "callout",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/diagram_with_sidebar_65c3e2/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "isometric_3d_it_infrastructure_mapping_28530083",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Abstracts a complex, full-slide network diagram into a reusable layout featuring a descriptive left sidebar for context and a large primary area on the right for the diagram image, plus an optional highlighted callout box.",
+  "_distill_attempts": 1
+}

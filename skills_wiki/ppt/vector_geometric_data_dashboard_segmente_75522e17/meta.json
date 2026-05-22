@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vector_geometric_data_dashboard_segmente_75522e17",
+  "skill_name": "Vector Geometric Data Dashboard (Segmented Donuts & Filled Pyramids)",
+  "source": {
+    "channel": "\u78ca\u571f\u89c6\u754c",
+    "duration_sec": 663,
+    "type": "youtube",
+    "video_id": "t6Dl_bQlkQo",
+    "video_title": "\u4e00\u6b65\u4e00\u6b65\u6559\u4f60\u7528AI\u505a\u4fe1\u606f\u56fe\u8868\u8bbe\u8ba1 | Adobe illustrator Tutorials infographic",
+    "video_url": "https://www.youtube.com/watch?v=t6Dl_bQlkQo",
+    "views": 4037
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:03Z",
+  "wash_version": "1.0.0"
+}

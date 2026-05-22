@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "saas_multi_tenant_team_switcher_294accac",
+  "source": {
+    "channel": "Jan Marshal",
+    "duration_sec": 2357,
+    "type": "youtube",
+    "video_id": "bFLGwVyIotA",
+    "video_title": "Multi-Tenant SaaS Architecture in 3 Simple Steps",
+    "video_url": "https://www.youtube.com/watch?v=bFLGwVyIotA",
+    "views": 40595
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

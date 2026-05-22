@@ -1,0 +1,37 @@
+{
+  "applicability": "Highly effective in business & technical presentations to demonstrate the outcome of strategic decisions. It transforms a standard timeline into a clear 'before-and-after' narrative, highlighting cause-and-effect.",
+  "category_path": [
+    "chart",
+    "analysis",
+    "data_storytelling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "intervention_point_timeline_chart_1b67122b",
+  "skill_name": "Intervention Point Timeline Chart",
+  "source": {
+    "channel": "KK's Menu",
+    "duration_sec": 391,
+    "type": "youtube",
+    "video_id": "V7BzlIZLSRQ",
+    "video_title": "\u5982\u4f55\u7528Excel\u5716\u8868\u5c55\u793a\u6574\u6539\u524d\u5f8c\u6bd4\u8f03 \ud83d\udc4d. How to use Excel Chart to display the difference between before and after? \ud83d\udc4d",
+    "video_url": "https://www.youtube.com/watch?v=V7BzlIZLSRQ",
+    "views": 656
+  },
+  "tags": [
+    "timeline",
+    "before_after",
+    "impact_analysis",
+    "data_storytelling",
+    "time_series",
+    "intervention"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:44:28Z",
+  "wash_version": "1.0.0"
+}

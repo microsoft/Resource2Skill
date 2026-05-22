@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "pivot_table"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "s_100_percent_stacked_distribution_dashboa_8f4ed752",
+  "source": {
+    "channel": "Productivity Land",
+    "duration_sec": 263,
+    "type": "youtube",
+    "video_id": "J0qzcBNNWi4",
+    "video_title": "How to Add Slicers to a Pivot Table in Excel in Under 5 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=J0qzcBNNWi4",
+    "views": 13895
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,65 @@
+{
+  "applicability": "",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "accent_banded_pricing_cards_1fac5938",
+  "skill_name": "Accent-Banded Pricing Cards",
+  "source": {
+    "channel": "Study Web Today",
+    "duration_sec": 816,
+    "type": "youtube",
+    "video_id": "WhBp2MplJQA",
+    "video_title": "How To Make A Responsive Pricing Table Desig Using HTML And CSS | Attractive Pricing Table Design",
+    "video_url": "https://www.youtube.com/watch?v=WhBp2MplJQA",
+    "views": 87
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:24:55Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 0,
+          "description": "Initial final output preview of the pricing table."
+        },
+        {
+          "seconds": 592,
+          "description": "Basic styling applied, with a dark background color."
+        },
+        {
+          "seconds": 698,
+          "description": "Pricing plans are now horizontally aligned using flexbox."
+        },
+        {
+          "seconds": 1035,
+          "description": "Prices and features are styled with checkmarks and separating lines."
+        },
+        {
+          "seconds": 1310,
+          "description": "The complete pricing table with fully styled 'Get Started' buttons."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_final_output_preview_o.jpg",
+        "frame_01_basic_styling_applied_with_a_d.jpg",
+        "frame_02_pricing_plans_are_now_horizont.jpg"
+      ],
+      "recapped_at": 1777408124.63603
+    },
+    "primary_path": "frame_00_initial_final_output_preview_o.jpg"
+  }
+}

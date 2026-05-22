@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ai_powered_declarative_infographic_gener_0eeda37f",
+  "skill_name": "AI-Powered Declarative Infographic Generation",
+  "source": {
+    "channel": "NiceKate AI",
+    "duration_sec": 286,
+    "type": "youtube",
+    "video_id": "KCMBcnqllYM",
+    "video_title": "\u5f00\u6e90\u795e\u5668\uff01\u8ba9AI\u4e00\u952e\u751f\u6210PPT\u7ea7\u4fe1\u606f\u56fe\uff0c197\u5957\u6a21\u677f\u968f\u4fbf\u7528",
+    "video_url": "https://www.youtube.com/watch?v=KCMBcnqllYM",
+    "views": 1401
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:48:46Z",
+  "wash_version": "1.0.0"
+}

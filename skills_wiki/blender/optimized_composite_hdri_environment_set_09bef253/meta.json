@@ -1,0 +1,38 @@
+{
+  "applicability": "Essential for architectural visualization and scenes with visible windows. It optimizes GPU VRAM usage while maintaining sharp backgrounds by splitting light paths.",
+  "category_path": [
+    "environment",
+    "shading",
+    "world"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "optimized_composite_hdri_environment_set_09bef253",
+  "skill_name": "Optimized Composite HDRI Environment Setup",
+  "source": {
+    "channel": "CG Arch ",
+    "duration_sec": 806,
+    "type": "youtube",
+    "video_id": "cu5oTHfeiSY",
+    "video_title": "Photorealistic Lighting in Interior Design (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=cu5oTHfeiSY",
+    "views": 66813
+  },
+  "tags": [
+    "hdri",
+    "world-shader",
+    "light-path",
+    "optimization",
+    "archviz",
+    "lighting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:11:21Z",
+  "wash_version": "1.0.0"
+}

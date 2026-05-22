@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for rapid hard-surface concept art, sci-fi props, and kitbashing. It enables complex mechanical cuts without painstaking topological cleanup by faking rounded intersections at render time.",
+  "category_path": [
+    "modeling",
+    "hard_surface"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hard_surface_boolean_component_with_beve_77d8e6ca",
+  "skill_name": "Hard-Surface Boolean Component with Bevel Shader",
+  "source": {
+    "channel": "mx2",
+    "duration_sec": 660,
+    "type": "youtube",
+    "video_id": "DyUYhpdimlk",
+    "video_title": "#hardops - Boolean Curvature CylinderThingie",
+    "video_url": "https://www.youtube.com/watch?v=DyUYhpdimlk",
+    "views": 4497
+  },
+  "tags": [
+    "hard-surface",
+    "boolean",
+    "bevel-shader",
+    "non-destructive",
+    "cycles"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:07:33Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_dashboard_data_list_with_opt_b9372d9e",
+  "source": {
+    "channel": "Kole Jain",
+    "duration_sec": 504,
+    "type": "youtube",
+    "video_id": "B7k5rOgmOGY",
+    "video_title": "EVERYTHING you need to know to build a Dashboard UI in 8 minutes (beginner friendly)",
+    "video_url": "https://www.youtube.com/watch?v=B7k5rOgmOGY",
+    "views": 229998
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

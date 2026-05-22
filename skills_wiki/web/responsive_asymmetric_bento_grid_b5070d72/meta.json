@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for breaking visual monotony and guiding user attention on dashboards, portfolios, or feature highlights. It creates distinct visual hierarchies for various content types.",
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_asymmetric_bento_grid_b5070d72",
+  "skill_name": "Responsive Asymmetric Bento Grid",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1276,
+    "type": "youtube",
+    "video_id": "JYfiaSKeYhE",
+    "video_title": "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
+    "video_url": "https://www.youtube.com/watch?v=JYfiaSKeYhE",
+    "views": 160626
+  },
+  "tags": [
+    "bento grid",
+    "css grid",
+    "responsive layout",
+    "asymmetric",
+    "card layout",
+    "dashboard"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:46:34Z",
+  "wash_version": "1.0.0"
+}

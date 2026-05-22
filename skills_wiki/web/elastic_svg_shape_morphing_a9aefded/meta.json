@@ -1,0 +1,36 @@
+{
+  "applicability": "Highly effective for dynamic micro-interactions like toggle buttons, state indicators, and onboarding illustrations, adding a polished kinetic layer to the UI.",
+  "category_path": [
+    "web_animation",
+    "svg_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "elastic_svg_shape_morphing_a9aefded",
+  "skill_name": "Elastic SVG Shape Morphing",
+  "source": {
+    "channel": "GSAP Learning",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "Uxa9sdaeyKM",
+    "video_title": "MorphSVGPlugin: Advanced control over SVG shape tweens and morphs",
+    "video_url": "https://www.youtube.com/watch?v=Uxa9sdaeyKM",
+    "views": 152982
+  },
+  "tags": [
+    "svg",
+    "animation",
+    "morphing",
+    "elastic",
+    "micro-interactions",
+    "ui/ux"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:51:01Z",
+  "wash_version": "1.0.0"
+}

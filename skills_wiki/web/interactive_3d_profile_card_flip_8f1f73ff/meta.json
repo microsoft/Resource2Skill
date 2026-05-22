@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for team directories, portfolio items, or product feature cards where screen space is limited. The 3D flip engages users by revealing secondary information, like biographies or social links, in an animated and tactile way on hover.",
+  "category_path": [
+    "ui_component",
+    "card",
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_profile_card_flip_8f1f73ff",
+  "skill_name": "3D Profile Card Flip",
+  "source": {
+    "channel": "WebMrj Creations",
+    "duration_sec": 581,
+    "type": "youtube",
+    "video_id": "zlRAkxkcKcc",
+    "video_title": "3D Flip Card Effect On Hover Using Only HTML CSS | Flip Card Design HTML CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=zlRAkxkcKcc",
+    "views": 548
+  },
+  "tags": [
+    "css 3d transform",
+    "card flip",
+    "hover effect",
+    "ui component",
+    "animation"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:41:24Z",
+  "wash_version": "1.0.0"
+}

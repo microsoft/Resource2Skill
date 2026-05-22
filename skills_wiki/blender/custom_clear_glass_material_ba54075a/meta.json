@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "custom_clear_glass_material_ba54075a",
+  "skill_name": "Custom Clear Glass Material",
+  "source": {
+    "channel": "Architecture Topics",
+    "duration_sec": 100,
+    "type": "youtube",
+    "video_id": "MzIreMJRhqk",
+    "video_title": "Best Glass Material in Blender Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=MzIreMJRhqk",
+    "views": 333431
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:15Z",
+  "wash_version": "1.0.0"
+}

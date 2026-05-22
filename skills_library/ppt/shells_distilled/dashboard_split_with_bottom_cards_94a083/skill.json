@@ -1,0 +1,81 @@
+{
+  "skill_id": "dashboard_split_with_bottom_cards_94a083",
+  "skill_type": "shell",
+  "name": "Dashboard Split with Bottom Cards",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "comparison_split"
+    ],
+    "content_shape": [
+      "title+left-image+right-metrics+bottom-bullets"
+    ],
+    "density": "high",
+    "mood": [
+      "corporate",
+      "technical",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "hero_image",
+      "kind": "image",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": "4:3",
+      "bullet_capacity": null
+    },
+    {
+      "name": "metric_cards",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 4
+    },
+    {
+      "name": "bottom_bullets",
+      "kind": "bullet_list",
+      "required": false,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/dashboard_split_with_bottom_cards_94a083/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "professional_geometric_overlay_title_f9691f73",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the complex dashboard layout into a reusable split structure with a hero graphic, prominent metric cards, and optional supporting details.",
+  "_distill_attempts": 1
+}

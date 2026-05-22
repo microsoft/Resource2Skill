@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_subdivision_and_smooth_shadin_8df5af29",
+  "skill_name": "Procedural Subdivision and Smooth Shading Geometry Node Modifier",
+  "source": {
+    "channel": "Ryan King Art",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=tWvgHbZXCtA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:49:53Z",
+  "wash_version": "1.0.0"
+}

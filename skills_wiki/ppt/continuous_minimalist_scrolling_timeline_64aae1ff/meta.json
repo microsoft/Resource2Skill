@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for company histories, project roadmaps, or product lifecycles, this pattern suits narrative-driven presentations where pacing and continuity are paramount.",
+  "category_path": [
+    "timeline",
+    "presentation_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_minimalist_scrolling_timeline_64aae1ff",
+  "skill_name": "Continuous Minimalist Scrolling Timeline",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 467,
+    "type": "youtube",
+    "video_id": "zo-HXoCE2Nk",
+    "video_title": "EASY PowerPoint Timeline Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=zo-HXoCE2Nk",
+    "views": 97255
+  },
+  "tags": [
+    "timeline",
+    "scrolling",
+    "continuous",
+    "minimalist",
+    "multi-slide",
+    "narrative"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:03:41Z",
+  "wash_version": "1.0.0"
+}

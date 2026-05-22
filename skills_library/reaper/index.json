@@ -1,0 +1,884 @@
+[
+  {
+    "skill_id": "stock_plugin_vocal_mixing_hierarchy_bus__57010766",
+    "skill_name": "Stock Plugin Vocal Mixing Hierarchy (Bus, Lead, & Background Routing)",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=Za5ReP8N7yQ",
+    "source_title": "GET THE PERFECT REAPER VOCAL MIX | Step-By-Step Process",
+    "channel": "MakeTheMusic",
+    "detail_path": "mixing/stock_plugin_vocal_mixing_hierarchy_bus__57010766/skill.json"
+  },
+  {
+    "skill_id": "in_the_face_pop_rock_vocal_mixing_chain_822f82d6",
+    "skill_name": "\"In-the-Face\" Pop/Rock Vocal Mixing Chain",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=MWPk64BXXpE",
+    "source_title": "Mixing Lead Vocals in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "effects/in_the_face_pop_rock_vocal_mixing_chain_822f82d6/skill.json"
+  },
+  {
+    "skill_id": "generative_ambient_phase_looping_eno_sty_176bb02a",
+    "skill_name": "Generative Ambient Phase Looping (Eno Style)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=ylNAaB4YW5c",
+    "source_title": "How To Make Music Like Music For Airports - In Reaper - Full Tutorial",
+    "channel": "Erick McNerney",
+    "detail_path": "drums/generative_ambient_phase_looping_eno_sty_176bb02a/skill.json"
+  },
+  {
+    "skill_id": "fundamental_instrument_mix_eq_kick_snare_923f81ae",
+    "skill_name": "Fundamental Instrument Mix EQ (Kick, Snare, Lead/Vocal)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=C2Kt2pBPxRY",
+    "source_title": "Why and How to use EQ in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "drums/fundamental_instrument_mix_eq_kick_snare_923f81ae/skill.json"
+  },
+  {
+    "skill_id": "ambient_triad_displacement_voice_leading_a664d27a",
+    "skill_name": "Ambient Triad Displacement & Voice-Leading Sketch",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=zJmszSX8LPY",
+    "source_title": "How to make Ambient Music (that doesn't sound like AI slop)",
+    "channel": "Jameson Nathan Jones",
+    "detail_path": "chords/ambient_triad_displacement_voice_leading_a664d27a/skill.json"
+  },
+  {
+    "skill_id": "cinematic_ambient_drone_generator_the_fl_ed11dc6f",
+    "skill_name": "Cinematic Ambient Drone Generator (The \"Florianz\" Chain)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=HPDGp6b829s",
+    "source_title": "Ambient Step by Step Tutorial - Techniques and Processing: Creating Ambient Environment Soundscapes",
+    "channel": "Matthew Florianz / Ambient.Environment.Soundscapes",
+    "detail_path": "effects/cinematic_ambient_drone_generator_the_fl_ed11dc6f/skill.json"
+  },
+  {
+    "skill_id": "sidechain_pumping_pad_4_on_the_floor_duc_c7ce28d5",
+    "skill_name": "Sidechain Pumping Pad (4-on-the-Floor Ducking)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=a1sh2o78XyY",
+    "source_title": "Quick Tutorial - Sidechaining in Reaper",
+    "channel": "Reaper Tutorials",
+    "detail_path": "drums/sidechain_pumping_pad_4_on_the_floor_duc_c7ce28d5/skill.json"
+  },
+  {
+    "skill_id": "sidechain_pumping_compression_automated__f675ee1f",
+    "skill_name": "Sidechain Pumping Compression (Automated Routing Emulation)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=qL7qRzFGrkI",
+    "source_title": "Drag and Drop Sidechains in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "drums/sidechain_pumping_compression_automated__f675ee1f/skill.json"
+  },
+  {
+    "skill_id": "classic_sidechain_compression_the_pumpin_a64147cb",
+    "skill_name": "Classic Sidechain Compression (The \"Pumping\" Effect)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=hGU38x6QvMk",
+    "source_title": "How To Sidechain In REAPER DAW 2019 - Compression and Gating 3 ways",
+    "channel": "The REAPER Blog",
+    "detail_path": "drums/classic_sidechain_compression_the_pumpin_a64147cb/skill.json"
+  },
+  {
+    "skill_id": "half_time_trap_drum_808_foundation_db3b6c76",
+    "skill_name": "Half-Time Trap Drum & 808 Foundation",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=KownwZSW018",
+    "source_title": "How to make a trap beat in Reaper like in FL Studio (step by step tutorial)",
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "detail_path": "drums/half_time_trap_drum_808_foundation_db3b6c76/skill.json"
+  },
+  {
+    "skill_id": "modern_trap_foundation_rolling_hats_808__9348b162",
+    "skill_name": "Modern Trap Foundation: Rolling Hats, 808 Sub, and Sidechain",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=cdUFQX_Kf9s",
+    "source_title": "The ULTIMATE GUIDE to REAPER BEAT MAKING \ud83c\udfb9 | Cockos Reaper Tutorial",
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "detail_path": "drums/modern_trap_foundation_rolling_hats_808__9348b162/skill.json"
+  },
+  {
+    "skill_id": "expressive_humanized_drum_groove_velocit_e469fbb8",
+    "skill_name": "Expressive Humanized Drum Groove (Velocity & Timing Variance)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=pTYMKf1lJKo",
+    "source_title": "10 Tips for Writing MIDI Drums in REAPER",
+    "channel": "Reapertips | Alejandro",
+    "detail_path": "drums/expressive_humanized_drum_groove_velocit_e469fbb8/skill.json"
+  },
+  {
+    "skill_id": "dark_trap_drill_foundation_piano_chords__a7be666f",
+    "skill_name": "Dark Trap/Drill Foundation (Piano Chords, Arp Layer, & Hat Rolls)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=YSYoz5RJ4Ew",
+    "source_title": "How To Make  A Trap Beat From Scratch in Reaper | Tutorial",
+    "channel": "XEL Ohh",
+    "detail_path": "chords/dark_trap_drill_foundation_piano_chords__a7be666f/skill.json"
+  },
+  {
+    "skill_id": "layered_16th_note_drum_groove_multi_out__310e521c",
+    "skill_name": "Layered 16th-Note Drum Groove & Multi-Out Channel Strip",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=cZ4BHHpi8rY",
+    "source_title": "Create a Drum Part Quickly in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "drums/layered_16th_note_drum_groove_multi_out__310e521c/skill.json"
+  },
+  {
+    "skill_id": "dynamic_midi_drum_sequencing_velocity_ar_52243dd9",
+    "skill_name": "Dynamic MIDI Drum Sequencing & Velocity Articulation",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=q2tIe1wUcAI",
+    "source_title": "Editing MIDI Drums - Part I in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "drums/dynamic_midi_drum_sequencing_velocity_ar_52243dd9/skill.json"
+  },
+  {
+    "skill_id": "parallel_rock_bass_mixing_chain_growl_su_30b7273d",
+    "skill_name": "Parallel Rock Bass Mixing Chain (Growl & Sub)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=ghEMSKgqjQo",
+    "source_title": "Mixing Bass Guitar in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "effects/parallel_rock_bass_mixing_chain_growl_su_30b7273d/skill.json"
+  },
+  {
+    "skill_id": "kick_locked_modern_rock_metal_bassline_w_277adc77",
+    "skill_name": "Kick-Locked Modern Rock/Metal Bassline with Octave Fills",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=s2MgjCbheoY",
+    "source_title": "How To Program Bass (In Reaper)",
+    "channel": "Andrew Bassett",
+    "detail_path": "drums/kick_locked_modern_rock_metal_bassline_w_277adc77/skill.json"
+  },
+  {
+    "skill_id": "groovy_slap_style_bassline_427bb40e",
+    "skill_name": "Groovy Slap-Style Bassline",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=FVoDtyZzO8s",
+    "source_title": "how to BASS",
+    "channel": "Synthet",
+    "detail_path": "drums/groovy_slap_style_bassline_427bb40e/skill.json"
+  },
+  {
+    "skill_id": "parallel_reverb_send_auxiliary_bus_a79f90f5",
+    "skill_name": "Parallel Reverb Send (Auxiliary Bus)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=V2bk-DvasZM",
+    "source_title": "How to Create A Reverb Send in Reaper - Easy Beginner Tutorial",
+    "channel": "ReaperHelp",
+    "detail_path": "effects/parallel_reverb_send_auxiliary_bus_a79f90f5/skill.json"
+  },
+  {
+    "skill_id": "parallel_fx_return_send_return_routing_1c329961",
+    "skill_name": "Parallel FX Return (Send/Return Routing)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=ymOpmgjhqFY",
+    "source_title": "Quickly Creating FX Sends & Returns in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "effects/parallel_fx_return_send_return_routing_1c329961/skill.json"
+  },
+  {
+    "skill_id": "multi_layer_reverb_depth_early_mid_late__10c86202",
+    "skill_name": "Multi-Layer Reverb Depth (Early / Mid / Late Reflections)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=Bguiim9HZs8",
+    "source_title": "How to Layer Reverbs in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "effects/multi_layer_reverb_depth_early_mid_late__10c86202/skill.json"
+  },
+  {
+    "skill_id": "sidechain_ducking_setup_reacomp_60df9992",
+    "skill_name": "Sidechain Ducking Setup (ReaComp)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=JEKKGup1J68",
+    "source_title": "Understanding Compression: Sidechaining in REAPER",
+    "channel": "Let's Talk About Reaper",
+    "detail_path": "drums/sidechain_ducking_setup_reacomp_60df9992/skill.json"
+  },
+  {
+    "skill_id": "algorithmic_midi_generator_reanspiration_eef32339",
+    "skill_name": "Algorithmic MIDI Generator (Reanspiration Emulation)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=k-ifO3my6rA",
+    "source_title": "Make Professional Chord Progressions in Reaper With ONE Tool!",
+    "channel": "Learning Reaper",
+    "detail_path": "chords/algorithmic_midi_generator_reanspiration_eef32339/skill.json"
+  },
+  {
+    "skill_id": "5_zone_professional_vocal_eq_chain_44f88943",
+    "skill_name": "5-Zone Professional Vocal EQ Chain",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=DyHpBtS9Iso",
+    "source_title": "The last VOCAL EQ video you ever need to watch...",
+    "channel": "The Band Guide",
+    "detail_path": "effects/5_zone_professional_vocal_eq_chain_44f88943/skill.json"
+  },
+  {
+    "skill_id": "programmatic_diatonic_chord_progression__9526dc2b",
+    "skill_name": "Programmatic Diatonic Chord Progression Generator (Chord Gun Emulation)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=-v5oE79NJMg",
+    "source_title": "The Chord Gun (MIDI) in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "chords/programmatic_diatonic_chord_progression__9526dc2b/skill.json"
+  },
+  {
+    "skill_id": "producer_chord_voicings_diatonic_progres_4820fcb9",
+    "skill_name": "Producer Chord Voicings & Diatonic Progression Generator",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=vjIv4Gbmnj8",
+    "source_title": "The ULTIMATE Music Theory Crash Course (in under 25 minutes)",
+    "channel": "Alex Rome",
+    "detail_path": "chords/producer_chord_voicings_diatonic_progres_4820fcb9/skill.json"
+  },
+  {
+    "skill_id": "lush_emotional_chord_generator_thick_bas_fd8b334c",
+    "skill_name": "Lush Emotional Chord Generator (Thick Bass, Strumming & Harmonic Minor Tension)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=BclGO2966tA",
+    "source_title": "Make GREAT Chord Progressions EASILY",
+    "channel": "rly Beats",
+    "detail_path": "chords/lush_emotional_chord_generator_thick_bas_fd8b334c/skill.json"
+  },
+  {
+    "skill_id": "pop_hip_hop_8_bar_beat_construction_3423107c",
+    "skill_name": "Pop/Hip-Hop 8-Bar Beat Construction",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=bsuCiLz1lTo",
+    "source_title": "Producing Beats in REAPER - As Easy as FL Studio, Logic, and Pro Tools!",
+    "channel": "The Ultimate Mixdown",
+    "detail_path": "drums/pop_hip_hop_8_bar_beat_construction_3423107c/skill.json"
+  },
+  {
+    "skill_id": "half_time_trap_groove_808_portamento_gli_a5340696",
+    "skill_name": "Half-Time Trap Groove & 808 Portamento Glide",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=Pb18wmgVy4Y",
+    "source_title": "HOW TO MAKE BEATS IN REAPER \ud83c\udfb9",
+    "channel": "Dominik \u201eWodzu\u201d Bodzek",
+    "detail_path": "drums/half_time_trap_groove_808_portamento_gli_a5340696/skill.json"
+  },
+  {
+    "skill_id": "professional_vocal_mixing_chain_routing__707d2cf3",
+    "skill_name": "Professional Vocal Mixing Chain & Routing Bus",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=pOdk7UytHB4",
+    "source_title": "THE world's shortest vocal mixing course you\u2019ll ever need",
+    "channel": "Andrew Barr",
+    "detail_path": "effects/professional_vocal_mixing_chain_routing__707d2cf3/skill.json"
+  },
+  {
+    "skill_id": "multi_source_shared_sidechain_ducking_da99f239",
+    "skill_name": "Multi-Source Shared Sidechain Ducking",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=xmuwz6JsvIU",
+    "source_title": "Changes to sidechaining in REAPER 7",
+    "channel": "The REAPER Blog",
+    "detail_path": "drums/multi_source_shared_sidechain_ducking_da99f239/skill.json"
+  },
+  {
+    "skill_id": "stock_plugin_mastering_chain_low_end_mon_583c560b",
+    "skill_name": "Stock Plugin Mastering Chain & Low-End Mono Matrix",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=RUkpuA-DwyQ",
+    "source_title": "Mastering with REAPER stock FX Plugins.",
+    "channel": "The REAPER Blog",
+    "detail_path": "mixing/stock_plugin_mastering_chain_low_end_mon_583c560b/skill.json"
+  },
+  {
+    "skill_id": "in_the_box_serial_mastering_chain_fbd00e70",
+    "skill_name": "In-the-Box Serial Mastering Chain",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=NiE0i6Fwg1A",
+    "source_title": "How to Master in REAPER: Turn Your Songs into Masterpieces!",
+    "channel": "Home Music Maker",
+    "detail_path": "mixing/in_the_box_serial_mastering_chain_fbd00e70/skill.json"
+  },
+  {
+    "skill_id": "progressive_house_foundation_4_to_the_fl_1b6326c6",
+    "skill_name": "Progressive House Foundation (4-to-the-Floor + Sidechain Pumping)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=rmK5v47gN5c",
+    "source_title": "Introduction to Beat Making in REAPER - Full Tutorial",
+    "channel": "The Ultimate Mixdown",
+    "detail_path": "drums/progressive_house_foundation_4_to_the_fl_1b6326c6/skill.json"
+  },
+  {
+    "skill_id": "stock_plugin_mastering_chain_f525a9dd",
+    "skill_name": "Stock Plugin Mastering Chain",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=Wt0Dp-YPCJs",
+    "source_title": "How to master your mix using stock plugins in REAPER",
+    "channel": "Audiohackr",
+    "detail_path": "mixing/stock_plugin_mastering_chain_f525a9dd/skill.json"
+  },
+  {
+    "skill_id": "pro_stock_mastering_chain_with_mid_side__76c3ad7b",
+    "skill_name": "Pro Stock Mastering Chain with Mid/Side Processing",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=nvRUjiLxCfg",
+    "source_title": "Mastering With Free Reaper Plugins",
+    "channel": "No Label, No Producer, No Limits",
+    "detail_path": "mixing/pro_stock_mastering_chain_with_mid_side__76c3ad7b/skill.json"
+  },
+  {
+    "skill_id": "lush_diatonic_7th_chord_progression_imaj_10bcbb54",
+    "skill_name": "Lush Diatonic 7th Chord Progression (Imaj7 - IVmaj7 - iii7)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=6VxkExyMk18",
+    "source_title": "Struggling With Chord Progressions? Use This! [ChordGun REAPER Tutorial]",
+    "channel": "OFF THE BOOKS",
+    "detail_path": "chords/lush_diatonic_7th_chord_progression_imaj_10bcbb54/skill.json"
+  },
+  {
+    "skill_id": "fat_legato_glide_lead_multi_oscillator_l_ff2717ba",
+    "skill_name": "Fat Legato Glide Lead (Multi-Oscillator Layering & Filter Dynamics)",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=GlCJ1UYjuDo",
+    "source_title": "Creating a Synth Preset (ReaSynth) in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "sound_design/fat_legato_glide_lead_multi_oscillator_l_ff2717ba/skill.json"
+  },
+  {
+    "skill_id": "sound_design_variation_generator_paramet_1bb0c1bf",
+    "skill_name": "Sound Design Variation Generator (Parametric Mutation)",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=HiUWUMegpic",
+    "source_title": "Sound Design Workflow | A Quick Reaper Workflow For Creating Sound Effects With Lots Of Variations",
+    "channel": "David Dumais Audio",
+    "detail_path": "sound_design/sound_design_variation_generator_paramet_1bb0c1bf/skill.json"
+  },
+  {
+    "skill_id": "automated_double_tracking_guitar_bus_set_108a5c77",
+    "skill_name": "Automated Double-Tracking Guitar Bus Setup",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=wH94PSfOB_w",
+    "source_title": "How I record guitars (quick and easy) in REAPER",
+    "channel": "Reapertips | Alejandro",
+    "detail_path": "mixing/automated_double_tracking_guitar_bus_set_108a5c77/skill.json"
+  },
+  {
+    "skill_id": "modulated_synth_pluck_with_unison_f0cda6a0",
+    "skill_name": "Modulated Synth Pluck with Unison",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=NJLIS2MkFe4",
+    "source_title": "Sound Design and Synth Fundamentals",
+    "channel": "In The Mix",
+    "detail_path": "sound_design/modulated_synth_pluck_with_unison_f0cda6a0/skill.json"
+  },
+  {
+    "skill_id": "ps1_era_stretched_sci_fi_impact_2de822b9",
+    "skill_name": "PS1-Era Stretched Sci-Fi Impact",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=rQYgUcldNYY",
+    "source_title": "One of my Favorite Reaper Features (for Sound Design)",
+    "channel": "Akash Thakkar",
+    "detail_path": "effects/ps1_era_stretched_sci_fi_impact_2de822b9/skill.json"
+  },
+  {
+    "skill_id": "ambient_electric_guitar_wash_clarity_eq__ec9e1276",
+    "skill_name": "Ambient Electric Guitar Wash (Clarity EQ & Spatial FX)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=yIxkGwC1Hkk",
+    "source_title": "Mixing Electric Guitars - Part I in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "effects/ambient_electric_guitar_wash_clarity_eq__ec9e1276/skill.json"
+  },
+  {
+    "skill_id": "singer_songwriter_live_recording_setup_h_fce70a58",
+    "skill_name": "Singer-Songwriter Live Recording Setup & Harmonic Backing",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=NhRMM3RjbHM",
+    "source_title": "Reaper Beginners Tutorial - Recording Guitar and Vocals",
+    "channel": "The Audio Journey",
+    "detail_path": "chords/singer_songwriter_live_recording_setup_h_fce70a58/skill.json"
+  },
+  {
+    "skill_id": "stereo_double_tracked_heavy_guitars_fold_06b2d295",
+    "skill_name": "Stereo Double-Tracked Heavy Guitars (Folder Bus Routing)",
+    "category": "mixing",
+    "source_video": "https://www.youtube.com/watch?v=ACSdE8vxXPQ",
+    "source_title": "Recording Metal Guitars - Reaper Tutorial [For Beginners]",
+    "channel": "OSIRIS GUITAR",
+    "detail_path": "mixing/stereo_double_tracked_heavy_guitars_fold_06b2d295/skill.json"
+  },
+  {
+    "skill_id": "foundational_synthesizer_midi_setup_reas_890a4fe9",
+    "skill_name": "Foundational Synthesizer MIDI Setup (ReaSynth + Spatial FX)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=_shjd4GBILo",
+    "source_title": "Reaper  - Tutorial for Beginners in 13 MINUTES!  [ COMPLETE ]",
+    "channel": "Skills Factory",
+    "detail_path": "effects/foundational_synthesizer_midi_setup_reas_890a4fe9/skill.json"
+  },
+  {
+    "skill_id": "edm_four_on_the_floor_drop_sidechain_pum_2be9609d",
+    "skill_name": "EDM Four-on-the-Floor Drop & Sidechain Pump",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=zHlOnvXaIsY",
+    "source_title": "The Ultimate Reaper Beginner Tutorial for Electronic Music Production",
+    "channel": "Gabe Miller Music",
+    "detail_path": "drums/edm_four_on_the_floor_drop_sidechain_pum_2be9609d/skill.json"
+  },
+  {
+    "skill_id": "dubstep_riddim_call_and_response_drop_ha_2a6fa5e9",
+    "skill_name": "Dubstep/Riddim Call-and-Response Drop (Half-Time Groove & LFO Wobble)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=CtZFdhDPBIg",
+    "source_title": "Making a Dubstep Drop from Scratch (Reaper, Serum, Defacer)",
+    "channel": "Gabe Miller Music",
+    "detail_path": "drums/dubstep_riddim_call_and_response_drop_ha_2a6fa5e9/skill.json"
+  },
+  {
+    "skill_id": "exponential_edm_tension_buildup_pre_drop_4bf2528e",
+    "skill_name": "Exponential EDM Tension Buildup & Pre-Drop Gap",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=sYkuBw4JZhc",
+    "source_title": "How To Make Insanely Good Build-Ups",
+    "channel": "Alex Rome",
+    "detail_path": "drums/exponential_edm_tension_buildup_pre_drop_4bf2528e/skill.json"
+  },
+  {
+    "skill_id": "edm_sidechain_pumping_generator_ghost_tr_07066d84",
+    "skill_name": "EDM Sidechain Pumping Generator (Ghost Trigger & Volume Shaper)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=Lhfmcw9nQHg",
+    "source_title": "Music Production Tutorial in REAPER | Arrangement",
+    "channel": "The Ultimate Mixdown",
+    "detail_path": "drums/edm_sidechain_pumping_generator_ghost_tr_07066d84/skill.json"
+  },
+  {
+    "skill_id": "quick_start_songwriting_template_starter_c871eaaf",
+    "skill_name": "Quick-Start Songwriting Template & Starter Loop",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=5gmCE3zd0nk",
+    "source_title": "5 tips I wish I knew sooner in REAPER",
+    "channel": "Reapertips | Alejandro",
+    "detail_path": "drums/quick_start_songwriting_template_starter_c871eaaf/skill.json"
+  },
+  {
+    "skill_id": "electric_guitar_double_tracking_amp_sim__c5df7e6e",
+    "skill_name": "Electric Guitar Double-Tracking & Amp Sim Workflow",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=yuMdR7OGMmc",
+    "source_title": "Beginner Reaper Tutorial | How To Record Electric Guitar",
+    "channel": "Issac Hernandez ",
+    "detail_path": "effects/electric_guitar_double_tracking_amp_sim__c5df7e6e/skill.json"
+  },
+  {
+    "skill_id": "dynamic_ducking_delay_sidechain_fx_bus_9cf0c7cf",
+    "skill_name": "Dynamic Ducking Delay (Sidechain FX Bus)",
+    "category": "effects",
+    "source_video": "https://www.youtube.com/watch?v=QiAO38UtjsM",
+    "source_title": "Using Dynamic Delays and Reverbs in a Mix",
+    "channel": "The REAPER Blog",
+    "detail_path": "effects/dynamic_ducking_delay_sidechain_fx_bus_9cf0c7cf/skill.json"
+  },
+  {
+    "skill_id": "macro_song_arranger_region_based_structu_7634dc21",
+    "skill_name": "Macro Song Arranger (Region-Based Structure Generation)",
+    "category": "arrangement",
+    "source_video": "https://www.youtube.com/watch?v=qp3Owkf6hjc",
+    "source_title": "Mixing Stuff: Using Regions to Create a Song Arrangement in REAPER",
+    "channel": "Hi YouTube, I'm Dad!",
+    "detail_path": "arrangement/macro_song_arranger_region_based_structu_7634dc21/skill.json"
+  },
+  {
+    "skill_id": "the_rule_of_3_phrase_variation_724acdfc",
+    "skill_name": "The \"Rule of 3\" Phrase Variation",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=iiL3K3ewfuc",
+    "source_title": "This Arrangement Rule Will Change Your Music",
+    "channel": "Nathan James Larsen",
+    "detail_path": "chords/the_rule_of_3_phrase_variation_724acdfc/skill.json"
+  },
+  {
+    "skill_id": "subtractive_song_arrangement_framework_8d186c83",
+    "skill_name": "Subtractive Song Arrangement Framework",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=5a_6qakL0vo",
+    "source_title": "Subtractive Song Arrangement - Building a song with loops and mutes",
+    "channel": "The REAPER Blog",
+    "detail_path": "drums/subtractive_song_arrangement_framework_8d186c83/skill.json"
+  },
+  {
+    "skill_id": "song_arrangement_structure_markers_regio_6622db53",
+    "skill_name": "Song Arrangement Structure (Markers, Regions & Guide Chords)",
+    "category": "arrangement",
+    "source_video": "https://www.youtube.com/watch?v=jumsoyUROzU",
+    "source_title": "This is REAPER 6 - Markers & Regions (11/15)",
+    "channel": "REAPER Mania",
+    "detail_path": "arrangement/song_arrangement_structure_markers_regio_6622db53/skill.json"
+  },
+  {
+    "skill_id": "neo_jazz_groove_the_lick_9ef2bb20",
+    "skill_name": "Neo-Jazz Groove & \"The Lick\"",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=nB1xt78S7m0",
+    "source_title": "How to play jazz in a minute",
+    "channel": "Hello Foe!",
+    "detail_path": "chords/neo_jazz_groove_the_lick_9ef2bb20/skill.json"
+  },
+  {
+    "skill_id": "jazz_piano_syncopated_comping_swing_phra_aef223e4",
+    "skill_name": "Jazz Piano Syncopated Comping & Swing Phrasing (ii-V-I)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=nAORXoGMcSI",
+    "source_title": "How to Transcribe Jazz Piano Solos Using Reaper & Finale",
+    "channel": "Jazzmentl",
+    "detail_path": "drums/jazz_piano_syncopated_comping_swing_phra_aef223e4/skill.json"
+  },
+  {
+    "skill_id": "trap_half_time_groove_diatonic_harmony_g_b13bc246",
+    "skill_name": "Trap Half-Time Groove & Diatonic Harmony Generator",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=FlvGTuYmF8c",
+    "source_title": "Louie Zong Jazz Chords Recreated",
+    "channel": "Ultrio",
+    "detail_path": "drums/trap_half_time_groove_diatonic_harmony_g_b13bc246/skill.json"
+  },
+  {
+    "skill_id": "90s_pop_ballad_voice_led_progression_i_v_fc189024",
+    "skill_name": "90s Pop Ballad Voice-Led Progression (I-V-vi-IV)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=BfHjWDMf0Xc",
+    "source_title": "Scaler 3 - Customizing a Chord Progression",
+    "channel": "Plugin Boutique",
+    "detail_path": "chords/90s_pop_ballad_voice_led_progression_i_v_fc189024/skill.json"
+  },
+  {
+    "skill_id": "lo_fi_hip_hop_drum_groove_boom_bap_04896106",
+    "skill_name": "Lo-Fi Hip Hop Drum Groove (Boom Bap)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=hEKdtLwQtBY",
+    "source_title": "How to write a Lofi drum pattern in Reaper",
+    "channel": "nanee ",
+    "detail_path": "drums/lo_fi_hip_hop_drum_groove_boom_bap_04896106/skill.json"
+  },
+  {
+    "skill_id": "lo_fi_hip_hop_boom_bap_foundation_8a9e07a1",
+    "skill_name": "Lo-Fi Hip Hop Boom Bap Foundation",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=VVppi6-rvXI",
+    "source_title": "How to Make A Lofi Beat In Reaper",
+    "channel": "Learning Reaper",
+    "detail_path": "drums/lo_fi_hip_hop_boom_bap_foundation_8a9e07a1/skill.json"
+  },
+  {
+    "skill_id": "lo_fi_drunken_drum_groove_texture_cb88cb84",
+    "skill_name": "Lo-Fi \"Drunken\" Drum Groove & Texture",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=NaRArR-UrGM",
+    "source_title": "Making LoFi in Reaper",
+    "channel": "Black Finch",
+    "detail_path": "drums/lo_fi_drunken_drum_groove_texture_cb88cb84/skill.json"
+  },
+  {
+    "skill_id": "drunken_lo_fi_glitch_drum_groove_tape_bu_5ce3104e",
+    "skill_name": "Drunken Lo-Fi Glitch Drum Groove & Tape Bus",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=QjaTT9OnyW8",
+    "source_title": "Lo-Fi Hip Hop in REAPER with free VSTs (only Serum)",
+    "channel": "downcode",
+    "detail_path": "drums/drunken_lo_fi_glitch_drum_groove_tape_bu_5ce3104e/skill.json"
+  },
+  {
+    "skill_id": "lo_fi_staggered_chord_progression_1_3_2__f04f5044",
+    "skill_name": "Lo-fi Staggered Chord Progression (1-3-2 / 1-2-3 Strum)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=m0VCEnB8mZc",
+    "source_title": "How to write basic Lofi chords in Reaper",
+    "channel": "nanee ",
+    "detail_path": "drums/lo_fi_staggered_chord_progression_1_3_2__f04f5044/skill.json"
+  },
+  {
+    "skill_id": "rapid_arrangement_template_builder_stem__3bcb24f9",
+    "skill_name": "Rapid Arrangement Template Builder (Stem Buses, Folders & Regions)",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=6jrQPj7vPWY",
+    "source_title": "My Quick Reaper Setup to Easily Make Beats",
+    "channel": "QOMPLEX",
+    "detail_path": "drums/rapid_arrangement_template_builder_stem__3bcb24f9/skill.json"
+  },
+  {
+    "skill_id": "two_loop_rule_macro_arrangement_generato_ccfb9d79",
+    "skill_name": "\"Two-Loop Rule\" Macro-Arrangement Generator",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=IH-zpS7gxxg",
+    "source_title": "A Cheatcode for Better Arrangements: The Two Loop Rule",
+    "channel": "Alex Rome",
+    "detail_path": "drums/two_loop_rule_macro_arrangement_generato_ccfb9d79/skill.json"
+  },
+  {
+    "skill_id": "pop_song_form_blueprint_visual_arrangeme_b6669983",
+    "skill_name": "Pop Song Form Blueprint (Visual Arrangement & Chords)",
+    "category": "arrangement",
+    "source_video": "https://www.youtube.com/watch?v=_yo5Fqs-vDw",
+    "source_title": "Tutorial on splitting a song into sections in Reaper - including dealing with Lead-ins",
+    "channel": "Mr Weber",
+    "detail_path": "arrangement/pop_song_form_blueprint_visual_arrangeme_b6669983/skill.json"
+  },
+  {
+    "skill_id": "humanized_midi_chord_progression_18d8858a",
+    "skill_name": "Humanized MIDI Chord Progression",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=1AXxztgzrAk",
+    "source_title": "MIDI Editor Basics: What You Need to Know (Fast and Simple) - REAPER Tutorial",
+    "channel": "The Ultimate Mixdown",
+    "detail_path": "chords/humanized_midi_chord_progression_18d8858a/skill.json"
+  },
+  {
+    "skill_id": "scale_locked_automatic_pitch_correction__5facf5a8",
+    "skill_name": "Scale-Locked Automatic Pitch Correction (The \"T-Pain\" to \"Natural\" Spectrum)",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=3W7uVvcl1zo",
+    "source_title": "ReaTune or Tuning Vocals in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "sound_design/scale_locked_automatic_pitch_correction__5facf5a8/skill.json"
+  },
+  {
+    "skill_id": "4_part_indie_funk_groove_builder_29595ed6",
+    "skill_name": "4-Part Indie-Funk Groove Builder",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=Ziy9sn0yghc",
+    "source_title": "First MIDI Song in REAPER | The BEST Way to Make a MIDI Song in REAPER FAST",
+    "channel": "REAPER Mania",
+    "detail_path": "drums/4_part_indie_funk_groove_builder_29595ed6/skill.json"
+  },
+  {
+    "skill_id": "modern_rock_metal_kick_bass_rhythm_lock_bdd072d5",
+    "skill_name": "Modern Rock/Metal Kick-Bass Rhythm Lock",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=nAHJ-VJgDn0",
+    "source_title": "How I write music in REAPER",
+    "channel": "Reapertips | Alejandro",
+    "detail_path": "drums/modern_rock_metal_kick_bass_rhythm_lock_bdd072d5/skill.json"
+  },
+  {
+    "skill_id": "subtractive_electro_pluck_filter_envelop_8aba0359",
+    "skill_name": "Subtractive Electro-Pluck (Filter Envelope Modulation)",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=p1-WmITJqBk",
+    "source_title": "How To Make Any Sound From Scratch (escape the preset trap)",
+    "channel": "Alex Rome",
+    "detail_path": "sound_design/subtractive_electro_pluck_filter_envelop_8aba0359/skill.json"
+  },
+  {
+    "skill_id": "multi_track_melodic_synth_rock_groove_al_9a3cd2c1",
+    "skill_name": "Multi-Track Melodic Synth-Rock Groove (Aligned Polyphonic Arrangement)",
+    "category": "chords",
+    "source_video": "https://www.youtube.com/watch?v=bc58K9a_kW4",
+    "source_title": "Best MIDI settings for REAPER",
+    "channel": "Reapertips | Alejandro",
+    "detail_path": "chords/multi_track_melodic_synth_rock_groove_al_9a3cd2c1/skill.json"
+  },
+  {
+    "skill_id": "vector_style_timbral_morphing_pad_53138558",
+    "skill_name": "Vector-Style Timbral Morphing Pad",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=aMrYB1jUcZo",
+    "source_title": "Morphing from Synth to Synth in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "sound_design/vector_style_timbral_morphing_pad_53138558/skill.json"
+  },
+  {
+    "skill_id": "procedural_volume_ducking_pseudo_sidecha_4718265b",
+    "skill_name": "Procedural Volume Ducking (Pseudo-Sidechain) via Automation",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=IBPIjLLnDhk",
+    "source_title": "The Automation Basics in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "drums/procedural_volume_ducking_pseudo_sidecha_4718265b/skill.json"
+  },
+  {
+    "skill_id": "automated_spatial_swell_rhythmic_pumping_a6dbc4eb",
+    "skill_name": "Automated Spatial Swell & Rhythmic Pumping (Automation Envelopes)",
+    "category": "sound_design",
+    "source_video": "https://www.youtube.com/watch?v=ckjl-rpzDPA",
+    "source_title": "Automate Anything - Quickly in REAPER",
+    "channel": "REAPER Mania",
+    "detail_path": "sound_design/automated_spatial_swell_rhythmic_pumping_a6dbc4eb/skill.json"
+  },
+  {
+    "skill_id": "chipmunk_soul_vintage_boom_bap_formula_18bca51b",
+    "skill_name": "Chipmunk Soul\" Vintage Boom-Bap Formula",
+    "category": "drums",
+    "source_video": "https://www.youtube.com/watch?v=LOdTCZPsXeo",
+    "source_title": "Chipmunk Soul: How to Flip Samples Like Kanye",
+    "channel": "Kanye tutorial",
+    "detail_path": "drums/chipmunk_soul_vintage_boom_bap_formula_18bca51b.json"
+  },
+  {
+    "skill_id": "chipmunk_soul_boom_bap_foundation_proces_3518511f",
+    "skill_name": "Chipmunk Soul\" Boom-Bap Foundation & Processing Template",
+    "category": "melody",
+    "source_video": "https://www.youtube.com/watch?v=_NphqICDbG4",
+    "source_title": "How To Flip Soul Samples Like Kanye",
+    "channel": "Kanye tutorial",
+    "detail_path": "melody/chipmunk_soul_boom_bap_foundation_proces_3518511f.json"
+  },
+  {
+    "skill_id": "daft_punk_french_house_octave_jumping_ba_0480767a",
+    "skill_name": "Daft Punk: French House Octave-Jumping Bassline",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Daft Punk production tutorial",
+    "channel": "Daft Punk",
+    "detail_path": "drums/daft_punk_french_house_octave_jumping_ba_0480767a.json"
+  },
+  {
+    "skill_id": "daft_punk_french_house_909_micro_swung_g_563a3610",
+    "skill_name": "Daft Punk: French House 909 Micro-Swung Groove & Pump",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Daft Punk production tutorial",
+    "channel": "Daft Punk",
+    "detail_path": "drums/daft_punk_french_house_909_micro_swung_g_563a3610.json"
+  },
+  {
+    "skill_id": "j_dilla_mpc_style_micro_chop_sequencing__cc807814",
+    "skill_name": "J Dilla: MPC-Style Micro-Chop Sequencing & Turnarounds",
+    "category": "arrangement",
+    "source_video": "",
+    "source_title": "J Dilla production tutorial",
+    "channel": "J Dilla",
+    "detail_path": "arrangement/j_dilla_mpc_style_micro_chop_sequencing__cc807814.json"
+  },
+  {
+    "skill_id": "j_dilla_neo_soul_boom_bap_sample_flip_gr_f792026e",
+    "skill_name": "J Dilla: Neo-Soul / Boom-Bap Sample Flip Groove (Dilla Style)",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "J Dilla production tutorial",
+    "channel": "J Dilla",
+    "detail_path": "drums/j_dilla_neo_soul_boom_bap_sample_flip_gr_f792026e.json"
+  },
+  {
+    "skill_id": "dr_dre_old_school_west_coast_groove_2_oc_8c1ca974",
+    "skill_name": "Dr. Dre: Old School West Coast Groove & 2-Octave Layering",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Dr. Dre production tutorial",
+    "channel": "Dr. Dre",
+    "detail_path": "drums/dr_dre_old_school_west_coast_groove_2_oc_8c1ca974.json"
+  },
+  {
+    "skill_id": "dr_dre_g_funk_foundation_smooth_ep_chord_3d610684",
+    "skill_name": "Dr. Dre: G-Funk Foundation (Smooth EP Chords & Bouncy Syncopated Bassline)",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Dr. Dre production tutorial",
+    "channel": "Dr. Dre",
+    "detail_path": "drums/dr_dre_g_funk_foundation_smooth_ep_chord_3d610684.json"
+  },
+  {
+    "skill_id": "frank_ocean_nostalgic_r_b_borrowed_chord_a25088fd",
+    "skill_name": "Frank Ocean: Nostalgic R&B Borrowed Chords & Slapback Drums",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Frank Ocean production tutorial",
+    "channel": "Frank Ocean",
+    "detail_path": "drums/frank_ocean_nostalgic_r_b_borrowed_chord_a25088fd.json"
+  },
+  {
+    "skill_id": "frank_ocean_style_psychedelic_lo_fi_r_b__55a2ad7a",
+    "skill_name": "Frank Ocean-Style Psychedelic Lo-Fi R&B Groove",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Frank Ocean production tutorial",
+    "channel": "Frank Ocean",
+    "detail_path": "drums/frank_ocean_style_psychedelic_lo_fi_r_b__55a2ad7a.json"
+  },
+  {
+    "skill_id": "kanye_style_distorted_groove_offset_loop_096358ee",
+    "skill_name": "Kanye-Style Distorted Groove & Offset Looping",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Kanye West production tutorial",
+    "channel": "Kanye West",
+    "detail_path": "drums/kanye_style_distorted_groove_offset_loop_096358ee.json"
+  },
+  {
+    "skill_id": "kanye_west_stadium_hip_hop_anthem_gradua_3f8a7f31",
+    "skill_name": "Kanye West: Stadium Hip-Hop Anthem (Graduation Style)",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Kanye West production tutorial",
+    "channel": "Kanye West",
+    "detail_path": "drums/kanye_west_stadium_hip_hop_anthem_gradua_3f8a7f31.json"
+  },
+  {
+    "skill_id": "metro_boomin_dark_trap_architecture_2d87e7b9",
+    "skill_name": "Metro Boomin Dark Trap Architecture",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Metro Boomin production tutorial",
+    "channel": "Metro Boomin",
+    "detail_path": "drums/metro_boomin_dark_trap_architecture_2d87e7b9.json"
+  },
+  {
+    "skill_id": "metro_style_dark_trap_foundation_fb0b0fc9",
+    "skill_name": "Metro-Style Dark Trap Foundation",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Metro Boomin production tutorial",
+    "channel": "Metro Boomin",
+    "detail_path": "drums/metro_style_dark_trap_foundation_fb0b0fc9.json"
+  },
+  {
+    "skill_id": "pharrell_neptunes_pharrell_style_inverte_2212073a",
+    "skill_name": "Pharrell/Neptunes: Pharrell-Style Inverted Groove (Melodic Percussion & Sparse Arrangement)",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Pharrell/Neptunes production tutorial",
+    "channel": "Pharrell/Neptunes",
+    "detail_path": "drums/pharrell_neptunes_pharrell_style_inverte_2212073a.json"
+  },
+  {
+    "skill_id": "pharrell_neptunes_neptunes_stabby_groove_bf8b9317",
+    "skill_name": "Pharrell/Neptunes: Neptunes Stabby Groove & Syncopated Drums",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Pharrell/Neptunes production tutorial",
+    "channel": "Pharrell/Neptunes",
+    "detail_path": "drums/pharrell_neptunes_neptunes_stabby_groove_bf8b9317.json"
+  },
+  {
+    "skill_id": "tame_impala_psych_pop_melodic_fuzz_bass_136346c8",
+    "skill_name": "Tame Impala: Psych-Pop Melodic Fuzz Bass",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Tame Impala production tutorial",
+    "channel": "Tame Impala",
+    "detail_path": "drums/tame_impala_psych_pop_melodic_fuzz_bass_136346c8.json"
+  },
+  {
+    "skill_id": "tame_impala_psychedelic_fuzz_groove_detu_307f0094",
+    "skill_name": "Tame Impala: Psychedelic Fuzz-Groove & Detuned Bass",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Tame Impala production tutorial",
+    "channel": "Tame Impala",
+    "detail_path": "drums/tame_impala_psychedelic_fuzz_groove_detu_307f0094.json"
+  },
+  {
+    "skill_id": "tyler_the_creator_jazzy_lo_fi_indie_pop__6e68fb92",
+    "skill_name": "Tyler the Creator: Jazzy Lo-Fi Indie Pop (Flower Boy / Mac DeMarco Style)",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Tyler the Creator production tutorial",
+    "channel": "Tyler the Creator",
+    "detail_path": "drums/tyler_the_creator_jazzy_lo_fi_indie_pop__6e68fb92.json"
+  },
+  {
+    "skill_id": "tyler_the_creator_neo_soul_vintage_synth_c1934e11",
+    "skill_name": "Tyler the Creator: Neo-Soul / Vintage Synth Groove",
+    "category": "drums",
+    "source_video": "",
+    "source_title": "Tyler the Creator production tutorial",
+    "channel": "Tyler the Creator",
+    "detail_path": "drums/tyler_the_creator_neo_soul_vintage_synth_c1934e11.json"
+  }
+]

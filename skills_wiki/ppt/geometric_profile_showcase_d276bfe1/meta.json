@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for introductory or spotlight slides in corporate, tech, or creative settings. Use it for 'meet the team' pages, speaker bios, or expert profiles to establish a modern, energetic tone.",
+  "category_path": [
+    "introduction",
+    "profile"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometric_profile_showcase_d276bfe1",
+  "skill_name": "Geometric Profile Showcase",
+  "source": {
+    "channel": "Creative Venus",
+    "duration_sec": 1701,
+    "type": "youtube",
+    "video_id": "KBSsgEoIFzU",
+    "video_title": "How To Design #CV, #Resume, #About, Contact Card, Portfolio Slide in Microsoft Office PowerPoint PPT",
+    "video_url": "https://www.youtube.com/watch?v=KBSsgEoIFzU",
+    "views": 8014
+  },
+  "tags": [
+    "profile",
+    "bio",
+    "introduction",
+    "geometric",
+    "modern"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:31:00Z",
+  "wash_version": "1.0.0"
+}

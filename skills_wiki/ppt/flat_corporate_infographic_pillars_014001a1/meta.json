@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "flat_corporate_infographic_pillars_014001a1",
+  "skill_name": "Flat Corporate Infographic Pillars",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 285,
+    "type": "youtube",
+    "video_id": "T7YJyQBh6Z4",
+    "video_title": "Customer Quarterly Business Review Preparation Complete PowerPoint Presentation With Slides",
+    "video_url": "https://www.youtube.com/watch?v=T7YJyQBh6Z4",
+    "views": 224
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:25:31Z",
+  "wash_version": "1.0.0"
+}

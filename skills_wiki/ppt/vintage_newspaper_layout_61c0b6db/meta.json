@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "vintage_newspaper_layout_61c0b6db",
+  "skill_name": "Vintage Newspaper Layout",
+  "source": {
+    "channel": "TinyPPT",
+    "duration_sec": 183,
+    "type": "youtube",
+    "video_id": "cS1Nb28b7o0",
+    "video_title": "Newspaper PowerPoint Template Free Download | Modern Editable News & Headline PPT Layout",
+    "video_url": "https://www.youtube.com/watch?v=cS1Nb28b7o0",
+    "views": 14091
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:25:43Z",
+  "wash_version": "1.0.0"
+}

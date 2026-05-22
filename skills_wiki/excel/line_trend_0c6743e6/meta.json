@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for visualizing time-series data to track changes over time. The smoothed lines and markers help highlight both the overall trend and individual data points.",
+  "category_path": [
+    "chart_templates",
+    "line"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "line_trend_0c6743e6",
+  "skill_name": "line_trend",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "line chart",
+    "time-series",
+    "trend",
+    "smoothed line",
+    "markers"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:49Z",
+  "wash_version": "1.0.0"
+}

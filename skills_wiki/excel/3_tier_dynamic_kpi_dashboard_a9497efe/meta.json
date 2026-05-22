@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3_tier_dynamic_kpi_dashboard_a9497efe",
+  "skill_name": "3-Tier Dynamic KPI Dashboard",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:09:52Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 3,
+          "description": "A KPI Dashboard with populated data for May 2020"
+        },
+        {
+          "seconds": 35,
+          "description": "A KPI Dashboard with populated data for Aug 2020"
+        },
+        {
+          "seconds": 409,
+          "description": "A KPI Dashboard with updated data for May 2020"
+        },
+        {
+          "seconds": 507,
+          "description": "A KPI Dashboard with updated data for July 2020"
+        },
+        {
+          "seconds": 1024,
+          "description": "A KPI Dashboard with updated data for Feb 2020"
+        }
+      ],
+      "frames": [
+        "frame_00_a_kpi_dashboard_with_populated.jpg",
+        "frame_01_a_kpi_dashboard_with_populated.jpg",
+        "frame_02_a_kpi_dashboard_with_updated_d.jpg",
+        "frame_03_a_kpi_dashboard_with_updated_d.jpg"
+      ],
+      "recapped_at": 1777406023.8461595
+    },
+    "primary_path": "frame_00_a_kpi_dashboard_with_populated.jpg"
+  }
+}

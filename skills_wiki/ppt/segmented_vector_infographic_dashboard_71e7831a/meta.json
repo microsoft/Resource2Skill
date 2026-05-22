@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for data dashboards, executive summaries, and KPI reports, transforming raw statistics into high-end, infographic-style visuals suitable for analytical presentations or portfolio highlights.",
+  "category_path": [
+    "data_visualization",
+    "dashboard",
+    "infographic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "segmented_vector_infographic_dashboard_71e7831a",
+  "skill_name": "Segmented Vector Infographic Dashboard",
+  "source": {
+    "channel": "\u78ca\u571f\u89c6\u754c",
+    "duration_sec": 663,
+    "type": "youtube",
+    "video_id": "t6Dl_bQlkQo",
+    "video_title": "\u4e00\u6b65\u4e00\u6b65\u6559\u4f60\u7528AI\u505a\u4fe1\u606f\u56fe\u8868\u8bbe\u8ba1 | Adobe illustrator Tutorials infographic",
+    "video_url": "https://www.youtube.com/watch?v=t6Dl_bQlkQo",
+    "views": 4030
+  },
+  "tags": [
+    "infographic",
+    "dashboard",
+    "vector art",
+    "data visualization",
+    "custom charts",
+    "KPI report"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:19Z",
+  "wash_version": "1.0.0"
+}

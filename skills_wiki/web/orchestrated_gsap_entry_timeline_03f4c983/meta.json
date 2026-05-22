@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for creating a premium, cinematic feel on page load. Use this for splash screens, dashboard reveals, or portfolio heroes to guide the user's focus through the interface as it assembles.",
+  "category_path": [
+    "animation",
+    "page_load"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "orchestrated_gsap_entry_timeline_03f4c983",
+  "skill_name": "Orchestrated GSAP Entry Timeline",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 1402,
+    "type": "youtube",
+    "video_id": "m6PDUIF24v4",
+    "video_title": "Learn GSAP In 23 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=m6PDUIF24v4",
+    "views": 238028
+  },
+  "tags": [
+    "gsap",
+    "timeline",
+    "entry animation",
+    "choreography",
+    "javascript"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:15:47Z",
+  "wash_version": "1.0.0"
+}

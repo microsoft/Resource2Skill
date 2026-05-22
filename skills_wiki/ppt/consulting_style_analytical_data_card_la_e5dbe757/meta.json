@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for strategy proposals, performance reports, or executive summaries where data must be tied directly to actionable insights. This layout transforms raw data into a compelling, easy-to-digest narrative.",
+  "category_path": [
+    "layouts",
+    "data_driven"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consulting_style_analytical_data_card_la_e5dbe757",
+  "skill_name": "Consulting-Style Analytical Data Card Layout",
+  "source": {
+    "channel": "\ud53d\uace0 PICKGO",
+    "duration_sec": 742,
+    "type": "youtube",
+    "video_id": "9WC0LRNn2w0",
+    "video_title": "The Newbie Acting Like the Boss",
+    "video_url": "https://www.youtube.com/watch?v=9WC0LRNn2w0",
+    "views": 548132
+  },
+  "tags": [
+    "data card",
+    "consulting",
+    "dashboard",
+    "analytical",
+    "report"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:02:39Z",
+  "wash_version": "1.0.0"
+}

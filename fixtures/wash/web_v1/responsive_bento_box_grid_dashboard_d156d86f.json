@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "card_layout"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_bento_box_grid_dashboard_d156d86f",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "duration_sec": 815,
+    "type": "youtube",
+    "video_id": "EiNiSFIPIQE",
+    "video_title": "Learn CSS Grid - A 13 Minute Deep Dive",
+    "video_url": "https://www.youtube.com/watch?v=EiNiSFIPIQE",
+    "views": 895435
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

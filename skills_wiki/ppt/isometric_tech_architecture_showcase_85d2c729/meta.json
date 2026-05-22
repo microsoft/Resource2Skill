@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "isometric_tech_architecture_showcase_85d2c729",
+  "skill_name": "Isometric Tech-Architecture Showcase",
+  "source": {
+    "channel": "Impresstraining",
+    "duration_sec": 264,
+    "type": "youtube",
+    "video_id": "u0nHrHYz7oI",
+    "video_title": "PowerPoint Tutorial on Network Diagrams",
+    "video_url": "https://www.youtube.com/watch?v=u0nHrHYz7oI",
+    "views": 57508
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:45:26Z",
+  "wash_version": "1.0.0"
+}

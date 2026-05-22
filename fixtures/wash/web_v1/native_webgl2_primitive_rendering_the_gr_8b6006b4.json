@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "native_webgl2_primitive_rendering_the_gr_8b6006b4",
+  "source": {
+    "channel": "Indigo Code",
+    "duration_sec": 2273,
+    "type": "youtube",
+    "video_id": "y2UsQB3WSvo",
+    "video_title": "[01] WebGL Tutorial - Hello, Triangle!",
+    "video_url": "https://www.youtube.com/watch?v=y2UsQB3WSvo",
+    "views": 51222
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for modernizing data-heavy presentations like financial reviews, SaaS pitches, or marketing reports. The high-contrast, dark-mode design makes key metrics pop and feel contemporary.",
+  "category_path": [
+    "data_visualization",
+    "dashboards"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neo_dark_analytics_dashboard_901dde61",
+  "skill_name": "Neo-Dark Analytics Dashboard",
+  "source": {
+    "channel": "The Slide Master | PowerPoint Tutorials",
+    "duration_sec": 455,
+    "type": "youtube",
+    "video_id": "tESfKHsobBg",
+    "video_title": "Animate Charts in PowerPoint - Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=tESfKHsobBg",
+    "views": 39707
+  },
+  "tags": [
+    "dashboard",
+    "dark mode",
+    "analytics",
+    "neon",
+    "UI"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:55Z",
+  "wash_version": "1.0.0"
+}

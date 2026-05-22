@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formula"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "relative_named_range_dynamic_sum_83d1fe0e",
+  "source": {
+    "channel": "Goodly",
+    "duration_sec": 604,
+    "type": "youtube",
+    "video_id": "9XQNpdP9FvI",
+    "video_title": "Highly Useful Excel Tricks that NO ONE Knows | Advanced Excel Tips and Tricks",
+    "video_url": "https://www.youtube.com/watch?v=9XQNpdP9FvI",
+    "views": 106604
+  },
+  "tier": "T2",
+  "wash_version": "1.0.0"
+}

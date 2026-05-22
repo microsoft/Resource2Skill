@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_tumbling_glowing_loader_42a900fb",
+  "skill_name": "3D Tumbling Glowing Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:42:02Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 49,
+          "description": "basic square rotating into a circle"
+        },
+        {
+          "seconds": 219,
+          "description": "square rotating and scaling simultaneously"
+        },
+        {
+          "seconds": 543,
+          "description": "animation stopping at final state (circle)"
+        },
+        {
+          "seconds": 651,
+          "description": "interactive animation with play/pause buttons"
+        },
+        {
+          "seconds": 829,
+          "description": "completed 3D loading animation"
+        }
+      ],
+      "frames": [
+        "frame_00_basic_square_rotating_into_a_c.jpg",
+        "frame_01_square_rotating_and_scaling_si.jpg"
+      ],
+      "recapped_at": 1777408099.201416
+    },
+    "primary_path": "frame_00_basic_square_rotating_into_a_c.jpg"
+  }
+}

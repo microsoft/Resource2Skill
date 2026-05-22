@@ -1,0 +1,35 @@
+{
+  "applicability": "This skill is essential for crafting secondary melodies in choruses, hooks, or vocal harmonies, adding perceived depth and complexity without causing frequency masking or cognitive clutter. It prevents melodies from blending by ensuring independent movement.",
+  "category_path": [
+    "melody"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "counterpoint_backing_melody_contrary_mot_010a7321",
+  "skill_name": "Counterpoint Backing Melody (Contrary Motion & Rhythmic Contrast)",
+  "source": {
+    "channel": "Hack Music Theory",
+    "duration_sec": 419,
+    "type": "youtube",
+    "video_id": "x4FkRVqbbWA",
+    "video_title": "Counter Rule for Better Melodies",
+    "video_url": "https://www.youtube.com/watch?v=x4FkRVqbbWA",
+    "views": 104184
+  },
+  "tags": [
+    "counterpoint",
+    "melody writing",
+    "arrangement",
+    "rhythmic contrast",
+    "contrary motion",
+    "depth"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:54:43Z",
+  "wash_version": "1.0.0"
+}

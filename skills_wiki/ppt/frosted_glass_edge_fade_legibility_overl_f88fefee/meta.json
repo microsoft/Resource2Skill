@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "frosted_glass_edge_fade_legibility_overl_f88fefee",
+  "skill_name": "Frosted Glass & Edge-Fade Legibility Overlays",
+  "source": {
+    "channel": "Luis Urrutia",
+    "duration_sec": 455,
+    "type": "youtube",
+    "video_id": "dEwm-qtpsvY",
+    "video_title": "Add TEXTS like a PRO in PowerPoint (4 CREATIVE WAYS!) Step by Step \ud83d\ude0a",
+    "video_url": "https://www.youtube.com/watch?v=dEwm-qtpsvY",
+    "views": 513430
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:27:45Z",
+  "wash_version": "1.0.0"
+}

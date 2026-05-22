@@ -1,0 +1,36 @@
+{
+  "applicability": "This technique is ideal for 'About Us' or product highlight slides, combining aesthetic visuals with concrete information without overload. It leverages a masonry-style grid to create distinct geometric compartments and dynamic tension.",
+  "category_path": [
+    "slide_design",
+    "layout"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_masonry_color_blocking_b848bda0",
+  "skill_name": "Asymmetric Masonry Color Blocking",
+  "source": {
+    "channel": "Visme",
+    "duration_sec": 1005,
+    "type": "youtube",
+    "video_id": "BuB7IhWZnJs",
+    "video_title": "31 Creative Presentation Ideas to Delight Your Audience",
+    "video_url": "https://www.youtube.com/watch?v=BuB7IhWZnJs",
+    "views": 3123748
+  },
+  "tags": [
+    "masonry",
+    "grid",
+    "color blocking",
+    "photography",
+    "typography",
+    "editorial"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:51:17Z",
+  "wash_version": "1.0.0"
+}

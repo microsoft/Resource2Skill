@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for transforming data-heavy slides like KPI reports or executive summaries into a modern, professional interface. This layout uses distinct cards to organize information, improving readability and visual appeal.",
+  "category_path": [
+    "layout",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_dashboard_card_layout_cbc7e675",
+  "skill_name": "Modern Dashboard Card Layout",
+  "source": {
+    "channel": "How to Power BI",
+    "duration_sec": 1222,
+    "type": "youtube",
+    "video_id": "v6fP8gyCLLc",
+    "video_title": "5 DESIGN TRICKS that Make EVERY Power BI Report Look GREAT!",
+    "video_url": "https://www.youtube.com/watch?v=v6fP8gyCLLc",
+    "views": 918557
+  },
+  "tags": [
+    "dashboard",
+    "card layout",
+    "kpi report",
+    "data visualization",
+    "ui design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:31Z",
+  "wash_version": "1.0.0"
+}

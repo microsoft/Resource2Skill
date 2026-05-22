@@ -1,0 +1,72 @@
+{
+  "skill_id": "proportional_split_bar_1d4573",
+  "skill_type": "shell",
+  "name": "Proportional Split Bar",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard",
+      "comparison_split"
+    ],
+    "content_shape": [
+      "horizontal-stacked-bar"
+    ],
+    "density": "low",
+    "mood": [
+      "technical",
+      "minimal",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "total_label",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "segments",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 5
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/proportional_split_bar_1d4573/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "60_30_10_proportional_color_harmony_4ab644e5",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracts the proportional horizontal bar chart into a reusable shell that automatically calculates segment widths based on numbers parsed from the segment titles, complete with a bottom bracket for the total.",
+  "_distill_attempts": 1
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Essential for corporate quarterly updates, strategic pitch decks, training modules, or any long-form presentation where audience orientation and professional consistency are paramount.",
+  "category_path": [
+    "layout",
+    "master_elements"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_structured_blueprint_with_acti_8e6e5d92",
+  "skill_name": "Corporate Blueprint with Progress Navigator",
+  "source": {
+    "channel": "Presentation Mastery",
+    "duration_sec": 1564,
+    "type": "youtube",
+    "video_id": "FM76vvi5qac",
+    "video_title": "Professional PowerPoint DESIGN TUTORIAL | Make AWESOME Slide Decks",
+    "video_url": "https://www.youtube.com/watch?v=FM76vvi5qac",
+    "views": 4770
+  },
+  "tags": [
+    "corporate",
+    "navigation",
+    "structured layout",
+    "branding",
+    "minimalist"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:07:09Z",
+  "wash_version": "1.0.0"
+}

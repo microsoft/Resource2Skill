@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clean_corporate_fundamentals_structured__2f571055",
+  "skill_name": "Clean Corporate Fundamentals (Structured Layouts & Flow)",
+  "source": {
+    "channel": "HubSpot Marketing",
+    "duration_sec": 320,
+    "type": "youtube",
+    "video_id": "Eer0_GHEumM",
+    "video_title": "How to Use PowerPoint (Basics)",
+    "video_url": "https://www.youtube.com/watch?v=Eer0_GHEumM",
+    "views": 450526
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:00:17Z",
+  "wash_version": "1.0.0"
+}

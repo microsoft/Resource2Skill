@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "particle_physics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_mantaflow_mushroom_cloud_expl_a24215ce",
+  "skill_name": "Procedural Mantaflow Mushroom Cloud Explosion",
+  "source": {
+    "channel": "Pawe\u0142 Ch\u0105dzy\u0144ski",
+    "duration_sec": 286,
+    "type": "youtube",
+    "video_id": "xSyUkV5lm5U",
+    "video_title": "Realistic Explosion in Blender | Fire, Smoke & Particles | Short Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=xSyUkV5lm5U",
+    "views": 37870
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:49:09Z",
+  "wash_version": "1.0.0"
+}

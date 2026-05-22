@@ -1,0 +1,2 @@
+# Blender Skill Wrapper MCP dependencies
+fastmcp>=0.1.0

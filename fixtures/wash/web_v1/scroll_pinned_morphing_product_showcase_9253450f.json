@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "scroll_pinned_morphing_product_showcase_9253450f",
+  "source": {
+    "channel": "PIXEL PERFECT",
+    "duration_sec": 481,
+    "type": "youtube",
+    "video_id": "sND4EO6L4vA",
+    "video_title": "GSAP ScrollTrigger Masterclass: Product Parallax & Pinned Animations (2025)",
+    "video_url": "https://www.youtube.com/watch?v=sND4EO6L4vA",
+    "views": 13537
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

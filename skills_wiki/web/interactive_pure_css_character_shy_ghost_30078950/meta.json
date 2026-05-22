@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_pure_css_character_shy_ghost_30078950",
+  "skill_name": "Interactive Pure CSS Character (Shy Ghost)",
+  "source": {
+    "channel": "Coding Artist",
+    "duration_sec": 282,
+    "type": "youtube",
+    "video_id": "T2k7Hcx9ICI",
+    "video_title": "Speed Art Pure CSS | Boo",
+    "video_url": "https://www.youtube.com/watch?v=T2k7Hcx9ICI",
+    "views": 5485
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:01:34Z",
+  "wash_version": "1.0.0"
+}

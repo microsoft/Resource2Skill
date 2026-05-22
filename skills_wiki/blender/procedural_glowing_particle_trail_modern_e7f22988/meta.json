@@ -1,0 +1,37 @@
+{
+  "applicability": "Use this setup to create continuous glowing light trails, magic spells, or engine exhaust behind moving objects. It leverages zero-velocity particle spawning and age-based shading for organic fading.",
+  "category_path": [
+    "vfx",
+    "particle_systems"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_glowing_particle_trail_modern_e7f22988",
+  "skill_name": "Procedural Glowing Particle Trail",
+  "source": {
+    "channel": "Relja Trajkovi\u0107",
+    "duration_sec": 1870,
+    "type": "youtube",
+    "video_id": "zhW79zJMBRc",
+    "video_title": "Motion Graphics in Blender: Abstract Light Trails",
+    "video_url": "https://www.youtube.com/watch?v=zhW79zJMBRc",
+    "views": 19956
+  },
+  "tags": [
+    "particle_system",
+    "glowing_trail",
+    "motion_graphics",
+    "eevee_bloom",
+    "vfx",
+    "particle_info"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:22Z",
+  "wash_version": "1.0.0"
+}

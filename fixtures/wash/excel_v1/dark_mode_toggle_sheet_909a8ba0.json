@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "formatting"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_toggle_sheet_909a8ba0",
+  "source": {
+    "channel": "Project Management Mastery",
+    "duration_sec": 355,
+    "type": "youtube",
+    "video_id": "G5i0CSxNXHo",
+    "video_title": "Dark Mode for Excel | 3 minute Step by Step How to",
+    "video_url": "https://www.youtube.com/watch?v=G5i0CSxNXHo",
+    "views": 1078
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

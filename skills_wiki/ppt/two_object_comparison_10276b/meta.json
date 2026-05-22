@@ -1,0 +1,33 @@
+{
+  "applicability": "This shell is designed for visually comparing two distinct items or states side-by-side. It's suitable for illustrating differences, before-and-after scenarios, or contrasting options.",
+  "category_path": [
+    "comparison",
+    "visual"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "two_object_comparison_10276b",
+  "skill_name": "Two Object Comparison",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "comparison",
+    "two images",
+    "side-by-side",
+    "visual analysis",
+    "before/after"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:19:04Z",
+  "wash_version": "1.0.0"
+}

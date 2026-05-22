@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "continuous_scrolling_timeline_90c90f5d",
+  "skill_name": "Continuous Scrolling Timeline",
+  "source": {
+    "channel": "Slides by Sander",
+    "duration_sec": 1615,
+    "type": "youtube",
+    "video_id": "v5TkaI8BEkw",
+    "video_title": "5 Best PowerPoint Push Transitions",
+    "video_url": "https://www.youtube.com/watch?v=v5TkaI8BEkw",
+    "views": 1344610
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:03:47Z",
+  "wash_version": "1.0.0"
+}

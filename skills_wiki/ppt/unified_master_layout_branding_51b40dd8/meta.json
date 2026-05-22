@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for corporate pitch decks, company overviews, branded webinars, and any presentation where adherence to brand guidelines and cohesive storytelling are required.",
+  "category_path": [
+    "layout",
+    "branding"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unified_master_layout_branding_51b40dd8",
+  "skill_name": "Unified Master Layout Branding",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "duration_sec": 364,
+    "type": "youtube",
+    "video_id": "kHRc-3rMCg4",
+    "video_title": "How to use PowerPoint Slide Master",
+    "video_url": "https://www.youtube.com/watch?v=kHRc-3rMCg4",
+    "views": 851282
+  },
+  "tags": [
+    "branding",
+    "consistency",
+    "typography",
+    "logo",
+    "master_slide"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:55:29Z",
+  "wash_version": "1.0.0"
+}

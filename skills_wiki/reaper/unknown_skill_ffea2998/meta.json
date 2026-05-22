@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "unknown_skill_ffea2998",
+  "skill_name": "Unknown Skill",
+  "source": {
+    "channel": "The REAPER Blog",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=anCtqrunv2A"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:22:30Z",
+  "wash_version": "1.0.0"
+}

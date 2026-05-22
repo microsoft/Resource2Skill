@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "scrollytelling_reveal_grid_scroll_driven_82291f4a",
+  "skill_name": "Scrollytelling Reveal Grid (Scroll-Driven Animations)",
+  "source": {
+    "channel": "Chrome for Developers",
+    "duration_sec": 90,
+    "type": "youtube",
+    "video_id": "d8J0vs-bEPE",
+    "video_title": "Create Scroll-Triggered Animations with CSS",
+    "video_url": "https://www.youtube.com/watch?v=d8J0vs-bEPE",
+    "views": 3736078
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:30Z",
+  "wash_version": "1.0.0"
+}

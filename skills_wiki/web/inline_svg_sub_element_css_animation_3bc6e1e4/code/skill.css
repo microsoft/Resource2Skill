@@ -1,0 +1,5 @@
+  @media (prefers-reduced-motion: reduce) {
+      #left-wheel, #right-wheel, #scooter-and-rider, #antenna, #floor-shadow {
+          animation: none !important;
+      }
+  }

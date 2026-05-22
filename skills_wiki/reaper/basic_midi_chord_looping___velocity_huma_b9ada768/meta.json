@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "basic_midi_chord_looping___velocity_huma_b9ada768",
+  "skill_name": "Basic MIDI Chord Looping & Velocity Humanization",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=1AXxztgzrAk"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:43Z",
+  "wash_version": "1.0.0"
+}

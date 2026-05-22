@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for presentations requiring a clear, linear sequence of steps or topics, such as meeting agendas, project timelines, or historical overviews. It structures information chronologically, guiding the viewer's eye.",
+  "category_path": [
+    "presentation",
+    "agenda_timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "gradient_timeline_agenda_0051569d",
+  "skill_name": "Gradient Timeline Agenda",
+  "source": {
+    "channel": "Executive Knowledge",
+    "duration_sec": 167,
+    "type": "youtube",
+    "video_id": "lZS7QE6e6o4",
+    "video_title": "Agenda Slide",
+    "video_url": "https://www.youtube.com/watch?v=lZS7QE6e6o4",
+    "views": 199
+  },
+  "tags": [
+    "timeline",
+    "agenda",
+    "gradient",
+    "sequential",
+    "progression",
+    "steps"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:27:54Z",
+  "wash_version": "1.0.0"
+}

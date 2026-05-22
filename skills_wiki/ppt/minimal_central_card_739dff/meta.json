@@ -1,0 +1,34 @@
+{
+  "applicability": "Ideal for section dividers, key takeaways, or quotes, this shell provides a clean, centered card layout for important content.",
+  "category_path": [
+    "layout",
+    "card"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "minimal_central_card_739dff",
+  "skill_name": "Minimal Central Card",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "minimal",
+    "card",
+    "center",
+    "section",
+    "quote",
+    "clean"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:13:31Z",
+  "wash_version": "1.0.0"
+}

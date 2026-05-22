@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_3d_artifact_showcase_studio__531c43b9",
+  "source": {
+    "channel": "Dan Greenheck",
+    "duration_sec": 903,
+    "type": "youtube",
+    "video_id": "aOQuuotM-Ww",
+    "video_title": "Add an Interactive 3D Model to Your Website // Three.js Tutorial for Beginners",
+    "video_url": "https://www.youtube.com/watch?v=aOQuuotM-Ww",
+    "views": 74783
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

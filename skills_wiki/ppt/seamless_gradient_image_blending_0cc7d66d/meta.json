@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "color_style"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_gradient_image_blending_0cc7d66d",
+  "skill_name": "Seamless Gradient Image Blending (\u4eba\u7269\u4ecb\u7ecd\u6e10\u53d8\u878d\u5408)",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 252,
+    "type": "youtube",
+    "video_id": "N_B8ZQWrzy8",
+    "video_title": "\u77f3\u539f\u91cc\u7f8e\u7684\u8fd9\u5f20PPT\u4eba\u7269\u4ecb\u7ecd\u9875\uff0c\u548c\u5979\u7684\u6c14\u8d28\u592a\u914d\u4e86\uff01\u3010\u65c1\u95e8\u5de6\u9053\u3011",
+    "video_url": "https://www.youtube.com/watch?v=N_B8ZQWrzy8",
+    "views": 4649
+  },
+  "tags": [],
+  "tier": "T1",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:43:57Z",
+  "wash_version": "1.0.0"
+}

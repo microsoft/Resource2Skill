@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_matrix_via_choose_338f0b26",
+  "skill_name": "Dynamic Scenario Matrix via CHOOSE",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:07:41Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Dynamic Excel model preview showing scenario selector"
+        },
+        {
+          "seconds": 25,
+          "description": "Initial Excel template for the income statement"
+        },
+        {
+          "seconds": 234,
+          "description": "Revenue line item filled in the income statement"
+        },
+        {
+          "seconds": 1028,
+          "description": "Complete static income statement with calculated profit/loss"
+        },
+        {
+          "seconds": 1411,
+          "description": "Fully dynamic income statement changing with scenario selection"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_excel_model_preview_sh.jpg",
+        "frame_01_initial_excel_template_for_the.jpg",
+        "frame_02_revenue_line_item_filled_in_th.jpg"
+      ],
+      "recapped_at": 1777406625.957625
+    },
+    "primary_path": "frame_00_dynamic_excel_model_preview_sh.jpg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "volumetric_god_rays_atmospheric_domain_df468e69",
+  "skill_name": "Volumetric God Rays & Atmospheric Domain",
+  "source": {
+    "channel": "Bak3 Designs",
+    "duration_sec": 146,
+    "type": "youtube",
+    "video_id": "BWmwmF0QOzA",
+    "video_title": "How to Add Volumetric Lighting in Blender (God Rays) (Fog)",
+    "video_url": "https://www.youtube.com/watch?v=BWmwmF0QOzA",
+    "views": 283
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:45:43Z",
+  "wash_version": "1.0.0"
+}

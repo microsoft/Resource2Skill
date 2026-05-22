@@ -1,0 +1,34 @@
+{
+  "applicability": "This slide serves as a cover or section divider, featuring a full-bleed background image with an optional, centrally-positioned headline. It's ideal for impactful introductory or transition slides.",
+  "category_path": [
+    "slide_layouts",
+    "cover"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_bleed_image_cover_2e0554",
+  "skill_name": "Full Bleed Image Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "full-bleed",
+    "image",
+    "cover",
+    "section divider",
+    "headline",
+    "minimalist"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:08:42Z",
+  "wash_version": "1.0.0"
+}

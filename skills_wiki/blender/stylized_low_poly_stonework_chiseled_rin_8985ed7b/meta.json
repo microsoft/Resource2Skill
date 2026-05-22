@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_low_poly_stonework_chiseled_rin_8985ed7b",
+  "skill_name": "Stylized Low-Poly Stonework (Chiseled Ring)",
+  "source": {
+    "channel": "Grant Abbitt (Gabbitt)",
+    "duration_sec": 930,
+    "type": "youtube",
+    "video_id": "QPh8h0hWkg0",
+    "video_title": "Beginner Blender 4.2 Tutorial: Modelling a Low-Poly Well - Part1",
+    "video_url": "https://www.youtube.com/watch?v=QPh8h0hWkg0",
+    "views": 267216
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:44:35Z",
+  "wash_version": "1.0.0"
+}

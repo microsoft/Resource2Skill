@@ -1,0 +1,13 @@
+{
+  "category_path": [
+    "chart_templates"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "stacked_area_ba2418c6",
+  "source": {
+    "type": "manual"
+  },
+  "tier": "T1",
+  "wash_version": "1.0.0"
+}

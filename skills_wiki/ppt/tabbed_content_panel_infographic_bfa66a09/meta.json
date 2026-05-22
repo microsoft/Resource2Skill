@@ -1,0 +1,36 @@
+{
+  "applicability": "This skill effectively organizes 5-7 distinct, related points into a professional, visually engaging infographic. It is ideal for presenting features, outlining steps, setting agendas, or summarizing key takeaways.",
+  "category_path": [
+    "structured_content",
+    "listed_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tabbed_content_panel_infographic_bfa66a09",
+  "skill_name": "Tabbed Content Panel Infographic",
+  "source": {
+    "channel": "Software Solusindo",
+    "duration_sec": 651,
+    "type": "youtube",
+    "video_id": "IfM0nVMXxXw",
+    "video_title": "Slide Design 5 Step Beautiful Infographic | Powerpoint Infographics | Free Template",
+    "video_url": "https://www.youtube.com/watch?v=IfM0nVMXxXw",
+    "views": 1280
+  },
+  "tags": [
+    "tabbed list",
+    "categorized content",
+    "infographic",
+    "process steps",
+    "agenda",
+    "data organization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:40Z",
+  "wash_version": "1.0.0"
+}

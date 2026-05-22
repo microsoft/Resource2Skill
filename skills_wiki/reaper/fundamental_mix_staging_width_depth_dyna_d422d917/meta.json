@@ -1,0 +1,35 @@
+{
+  "applicability": "A universal starting template for mixing any modern genre. Use this foundational structure to create spatial separation and dynamic control when a session feels cluttered, muddy, or flat.",
+  "category_path": [
+    "mixing",
+    "foundations"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "fundamental_mix_staging_width_depth_dyna_d422d917",
+  "skill_name": "Mix Staging: Width, Depth, and Dynamics",
+  "source": {
+    "channel": "Avid Pro Tools",
+    "duration_sec": 859,
+    "type": "youtube",
+    "video_id": "MDcgJju4WOY",
+    "video_title": "Pro Tools Fast Start \u2014 Chapter 6: Mixing Fundamentals",
+    "video_url": "https://www.youtube.com/watch?v=MDcgJju4WOY",
+    "views": 95339
+  },
+  "tags": [
+    "mixing",
+    "staging",
+    "panning",
+    "reverb bus",
+    "compression"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T06:55:39Z",
+  "wash_version": "1.0.0"
+}

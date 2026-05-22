@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_block_kinetic_typography_f29dbf13",
+  "skill_name": "Split-Block Kinetic Typography",
+  "source": {
+    "channel": "Envato Tuts+",
+    "duration_sec": 67,
+    "type": "youtube",
+    "video_id": "UhWAXrZ4iMA",
+    "video_title": "Make Kinetic Typography in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=UhWAXrZ4iMA",
+    "views": 10903
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:26:47Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_snap_scroll_component_archite_ca63dfc9",
+  "source": {
+    "channel": "Sajid",
+    "duration_sec": 656,
+    "type": "youtube",
+    "video_id": "OjEg0IBR_ak",
+    "video_title": "The Easiest Way to Build Websites",
+    "video_url": "https://www.youtube.com/watch?v=OjEg0IBR_ak",
+    "views": 1321471
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

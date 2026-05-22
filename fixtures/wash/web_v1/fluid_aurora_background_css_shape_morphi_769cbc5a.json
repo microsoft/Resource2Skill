@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "fluid_aurora_background_css_shape_morphi_769cbc5a",
+  "source": {
+    "channel": "Ecem Gokdogan",
+    "duration_sec": 225,
+    "type": "youtube",
+    "video_id": "vkn7_04oZ0o",
+    "video_title": "Background Animation | Moving, Rotating & Morphing Shape | HTML CSS #blob",
+    "video_url": "https://www.youtube.com/watch?v=vkn7_04oZ0o",
+    "views": 3153
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

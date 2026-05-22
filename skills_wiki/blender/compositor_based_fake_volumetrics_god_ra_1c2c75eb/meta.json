@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for architectural visualization, stylized scenes, or moody environments requiring dramatic light shafts. It drastically reduces render times compared to true 3D volumetrics by generating atmospheric depth in post-processing.",
+  "category_path": [
+    "compositing",
+    "post_processing"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "compositor_based_fake_volumetrics_god_ra_1c2c75eb",
+  "skill_name": "Compositor-Based Fake Volumetrics & God Rays",
+  "source": {
+    "channel": "Lane Wallace",
+    "duration_sec": 391,
+    "type": "youtube",
+    "video_id": "TH2ZoEvhsTs",
+    "video_title": "Mimic Volumetric Fog Using Only Compositing (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=TH2ZoEvhsTs",
+    "views": 119237
+  },
+  "tags": [
+    "compositing",
+    "god-rays",
+    "fake-volumetrics",
+    "mist-pass",
+    "sun-beams",
+    "post-processing"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:04:32Z",
+  "wash_version": "1.0.0"
+}

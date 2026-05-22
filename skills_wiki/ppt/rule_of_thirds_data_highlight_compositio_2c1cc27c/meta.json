@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for showcasing survey results, executive summaries, or pitch deck key metrics, effectively combining a compelling visual with critical data highlights.",
+  "category_path": [
+    "slide_composition",
+    "data_visualization"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rule_of_thirds_data_highlight_compositio_2c1cc27c",
+  "skill_name": "Rule of Thirds Data Highlight Composition",
+  "source": {
+    "channel": "Leila Gharani",
+    "duration_sec": 587,
+    "type": "youtube",
+    "video_id": "TQiln3CjtvM",
+    "video_title": "5 QUICK Ways to Improve Your PowerPoint Design",
+    "video_url": "https://www.youtube.com/watch?v=TQiln3CjtvM",
+    "views": 1950423
+  },
+  "tags": [
+    "rule of thirds",
+    "asymmetric layout",
+    "data highlight",
+    "image layout",
+    "minimalist data",
+    "white space"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:12:08Z",
+  "wash_version": "1.0.0"
+}

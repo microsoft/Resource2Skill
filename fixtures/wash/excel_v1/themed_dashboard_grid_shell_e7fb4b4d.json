@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "themed_dashboard_grid_shell_e7fb4b4d",
+  "source": {
+    "channel": "Excel\u54a8\u8be2\u987e\u95ee",
+    "duration_sec": 242,
+    "type": "youtube",
+    "video_id": "4pWYgIYaOfc",
+    "video_title": "\u544a\u522b\u9759\u6001\u56fe\u8868\uff0cExcel\u52a8\u6001\u4ea4\u4e92\u5f0f\u6570\u636e\u5927\u5c4f\u91cd\u78c5\u6765\u88ad\uff01",
+    "video_url": "https://www.youtube.com/watch?v=4pWYgIYaOfc",
+    "views": 558
+  },
+  "tier": "T4",
+  "wash_version": "1.0.0"
+}

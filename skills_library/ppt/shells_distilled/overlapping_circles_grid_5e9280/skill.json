@@ -1,0 +1,63 @@
+{
+  "skill_id": "overlapping_circles_grid_5e9280",
+  "skill_type": "shell",
+  "name": "Overlapping Circles Grid",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "feature_grid",
+      "bullet_card_list"
+    ],
+    "content_shape": [
+      "title+3-overlapping-circles"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "playful",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 50,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 3
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/overlapping_circles_grid_5e9280/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dark_neumorphism_soft_ui_interface_f0feaa9c",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "Extracted a 3-item feature grid using overlapping circles to match the visual structure of the source image, drawing the middle circle last so it sits on top.",
+  "_distill_attempts": 1
+}

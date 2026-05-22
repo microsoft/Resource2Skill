@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "circular_neon_spinner_4e66c0ae",
+  "source": {
+    "channel": "Creative web designer",
+    "duration_sec": 443,
+    "type": "youtube",
+    "video_id": "rmcQDI9NzmU",
+    "video_title": "css loading animation | creative web designer | CSS and HTML",
+    "video_url": "https://www.youtube.com/watch?v=rmcQDI9NzmU",
+    "views": 40
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

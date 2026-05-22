@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for creating moody, atmospheric environments and cinematic lighting like god rays shining through windows. It adds organic depth to scenes by simulating heterogeneous air density and dust.",
+  "category_path": [
+    "material_shader",
+    "volumetrics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_volumetric_fog_god_rays_5cb925b4",
+  "skill_name": "Procedural Volumetric Fog & God Rays",
+  "source": {
+    "channel": "Lane Wallace",
+    "duration_sec": 133,
+    "type": "youtube",
+    "video_id": "2SiCtnXVVFw",
+    "video_title": "The Best Volumetric Fog Shader (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=2SiCtnXVVFw",
+    "views": 230661
+  },
+  "tags": [
+    "volumetrics",
+    "god_rays",
+    "fog",
+    "atmospheric",
+    "procedural_nodes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:30:41Z",
+  "wash_version": "1.0.0"
+}

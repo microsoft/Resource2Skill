@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "geometry_nodes_procedural_instance_scatt_3572c8d8",
+  "skill_name": "Geometry Nodes Procedural Instance Scattering (Sugar Coating Effect)",
+  "source": {
+    "channel": "Blender Guru",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=aO0eUnu0hO0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:57Z",
+  "wash_version": "1.0.0"
+}

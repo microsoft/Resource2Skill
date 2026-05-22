@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "the_single_message_kpi_knockout_hero_met_87a34a92",
+  "skill_name": "The Single-Message KPI Knockout (Hero Metric + Funnel Breakdown)",
+  "source": {
+    "channel": "Aaron Lympany Design",
+    "duration_sec": 515,
+    "type": "youtube",
+    "video_id": "gKIZ09Kdk8Q",
+    "video_title": "How to Drastically Improve Your KPI Presentations (in PowerPoint or Keynote)",
+    "video_url": "https://www.youtube.com/watch?v=gKIZ09Kdk8Q",
+    "views": 17760
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:53Z",
+  "wash_version": "1.0.0"
+}

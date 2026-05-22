@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "electronic_triad_setup__offbeat_drums__s_b7d2b2f8",
+  "skill_name": "Electronic Triad Setup (Offbeat Drums, Synth Bass, Harmonic Pad)",
+  "source": {
+    "channel": "Krinstar",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=RuzpiVPB5L8"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:40:31Z",
+  "wash_version": "1.0.0"
+}

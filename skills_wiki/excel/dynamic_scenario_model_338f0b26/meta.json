@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_model_338f0b26",
+  "skill_name": "Dynamic Scenario Model",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:18:19Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Dynamic Excel model preview with changing scenarios"
+        },
+        {
+          "seconds": 29,
+          "description": "Initial blank Excel Income Statement and Assumptions tables"
+        },
+        {
+          "seconds": 230,
+          "description": "Revenue line populated across 5 years in the Income Statement"
+        },
+        {
+          "seconds": 730,
+          "description": "Gross Profit and Gross Profit Margin calculated across 5 years"
+        },
+        {
+          "seconds": 1025,
+          "description": "Full Income Statement, including Profit/Loss, calculated with conditional tax"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_excel_model_preview_wi.jpg",
+        "frame_01_initial_blank_excel_income_sta.jpg",
+        "frame_02_revenue_line_populated_across_.jpg",
+        "frame_03_gross_profit_and_gross_profit_.jpg"
+      ],
+      "recapped_at": 1777406626.786298
+    },
+    "primary_path": "frame_00_dynamic_excel_model_preview_wi.jpg"
+  }
+}

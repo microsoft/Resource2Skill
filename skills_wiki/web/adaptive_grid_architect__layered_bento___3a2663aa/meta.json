@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "adaptive_grid_architect__layered_bento___3a2663aa",
+  "skill_name": "Adaptive Grid Architect (Layered Bento & Auto-Fit Gallery)",
+  "source": {
+    "channel": "Slaying The Dragon",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=EiNiSFIPIQE"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:11:13Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 27,
+          "description": "initial items displayed as red bars before grid layout"
+        },
+        {
+          "seconds": 132,
+          "description": "item-1 positioned to span multiple rows and columns on the grid"
+        },
+        {
+          "seconds": 428,
+          "description": "item-2 layered on top of other items using z-index"
+        },
+        {
+          "seconds": 850,
+          "description": "grid layout defined with named areas for header, main, aside, and footer"
+        },
+        {
+          "seconds": 1306,
+          "description": "responsive grid with auto-fit and minmax functions, adjusting columns dynamically"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_items_displayed_as_red.jpg",
+        "frame_01_item_1_positioned_to_span_mult.jpg",
+        "frame_02_item_2_layered_on_top_of_other.jpg"
+      ],
+      "recapped_at": 1777408168.9923716
+    },
+    "primary_path": "frame_00_initial_items_displayed_as_red.jpg"
+  }
+}

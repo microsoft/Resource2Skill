@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "galactic_hero_section_design_4d4b0f50",
+  "skill_name": "Galactic Hero Section Design",
+  "source": {
+    "channel": "Flux Academy",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=LJbkLdtEW00"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:25:01Z",
+  "wash_version": "1.0.0"
+}

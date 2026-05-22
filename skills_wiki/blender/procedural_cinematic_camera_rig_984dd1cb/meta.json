@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "geometry_nodes"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_cinematic_camera_rig_984dd1cb",
+  "skill_name": "Procedural Cinematic Camera Rig",
+  "source": {
+    "channel": "Kaizen",
+    "duration_sec": 807,
+    "type": "youtube",
+    "video_id": "QFPbocBHuT0",
+    "video_title": "Making Blenders Camera ACTUALLY Good!",
+    "video_url": "https://www.youtube.com/watch?v=QFPbocBHuT0",
+    "views": 169933
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:56:10Z",
+  "wash_version": "1.0.0"
+}

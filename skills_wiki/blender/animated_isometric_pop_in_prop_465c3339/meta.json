@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "motion_graphics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "animated_isometric_pop_in_prop_465c3339",
+  "skill_name": "Animated Isometric \"Pop-In\" Prop",
+  "source": {
+    "channel": "Mina P\u00eacheux",
+    "duration_sec": 408,
+    "type": "youtube",
+    "video_id": "oLxAYQRKVQ4",
+    "video_title": "4 steps to creating isometric animations | Blender tutorial \ud83c\uddec\ud83c\udde7",
+    "video_url": "https://www.youtube.com/watch?v=oLxAYQRKVQ4",
+    "views": 2936
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:46:31Z",
+  "wash_version": "1.0.0"
+}

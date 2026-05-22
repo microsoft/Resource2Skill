@@ -1,0 +1,37 @@
+{
+  "applicability": "Creates a high-contrast, dark-mode technical schematic ideal for precise engineering, architecture, or data-focused presentations. Can also serve as an actual display calibration pattern for AV setups.",
+  "category_path": [
+    "visual_style",
+    "technical_schematic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "technical_blueprint_calibration_pattern_7a140774",
+  "skill_name": "Technical Blueprint Calibration Pattern",
+  "source": {
+    "channel": "Activia Training",
+    "duration_sec": 153,
+    "type": "youtube",
+    "video_id": "3c3TQuHWwP0",
+    "video_title": "How To Stop Ending With A Blank Slide In PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=3c3TQuHWwP0",
+    "views": 14154
+  },
+  "tags": [
+    "technical",
+    "blueprint",
+    "calibration",
+    "geometric",
+    "dark mode",
+    "engineering",
+    "HUD"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:20:44Z",
+  "wash_version": "1.0.0"
+}

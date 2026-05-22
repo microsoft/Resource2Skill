@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "full_bleed_poster_with_translucent_conte_f8197a43",
+  "skill_name": "Full-Bleed Poster with Translucent Content Panel",
+  "source": {
+    "channel": "B\u7aef\u7522\u54c1\u65e5\u5e38",
+    "duration_sec": 269,
+    "type": "youtube",
+    "video_id": "T7OGcrZHCE0",
+    "video_title": "7.\u300eMidjourney + PPT\u300f 10\u5206\u9418\u505a\u51faToastMasters\u6703\u8b70\u6d77\u5831",
+    "video_url": "https://www.youtube.com/watch?v=T7OGcrZHCE0",
+    "views": 939
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:28:18Z",
+  "wash_version": "1.0.0"
+}

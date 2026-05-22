@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "ambient_particle_field_organic_snowfall_89c7c77b",
+  "skill_name": "Ambient Particle Field (Organic Snowfall)",
+  "source": {
+    "channel": "Powerful Powerpoint - Animations & Beyond",
+    "duration_sec": 318,
+    "type": "youtube",
+    "video_id": "dc_67PtXAHQ",
+    "video_title": "Snowfall animation effect in powerpoint | Easy Powerpoint Animation tutorial",
+    "video_url": "https://www.youtube.com/watch?v=dc_67PtXAHQ",
+    "views": 17135
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:52:50Z",
+  "wash_version": "1.0.0"
+}

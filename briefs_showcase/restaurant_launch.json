@@ -1,0 +1,27 @@
+{
+  "variant_id": "restaurant_launch",
+  "out_dirname": "restaurant_launch",
+  "title": "Noon Kitchen — a neighborhood lunch counter for the in-between hour",
+  "audience": "angel investors reviewing a single-location restaurant concept",
+  "tone_words": ["warm", "editorial", "playful"],
+  "archetype_preference": "brand",
+  "mood_preference": ["warm", "editorial", "playful"],
+  "mode_preference": "light",
+  "n_slides": 11,
+  "role_prefer": ["cover", "hero_quote", "feature_grid", "metric_dashboard", "timeline_horizontal", "closing_cta"],
+  "role_avoid": ["section_divider"],
+  "dense_quota": 2,
+  "core_points": [
+    "Concept: a 22-seat counter open 11am-3pm daily, built around one hot special and a cold bar",
+    "Named Noon because the best hour is the one between errands — nobody is really serving that hour well",
+    "Menu logic: one rotating hot bowl, a salad trio, two sandwiches, two soft drinks, one dessert",
+    "Sourcing: four farm partners within 60 miles, seasonality-led, menu changes every 10 days",
+    "Founder team: Sofia Prieto (chef, ex-Zuni), Roman Quint (FOH, ex-Camino), two culinary-school seconds",
+    "Location: 1,200 sqft on a corner of Valencia and 21st, 4-year lease at $7,800/mo",
+    "Fit-out budget: $320K (kitchen, counter, copper bar, chairs, signage), 11 weeks build-out",
+    "Revenue model: 110 covers/day × $24 average ticket × 5.5 days = $1.4M annual; 18% EBITDA",
+    "Year-1 risks: chef turnover (mitigated with equity), lunch fatigue (mitigated with menu rotation), weather",
+    "Opening 45-day pre-launch plan: neighbor preview nights, press tastings, chef demos, soft open",
+    "Ask: $480K friends-and-family round at a $2.2M post; we close by month-end, doors open in 6 months"
+  ]
+}

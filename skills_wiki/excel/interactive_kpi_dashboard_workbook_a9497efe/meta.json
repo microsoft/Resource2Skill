@@ -1,0 +1,58 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_kpi_dashboard_workbook_a9497efe",
+  "skill_name": "Interactive KPI Dashboard Workbook",
+  "source": {
+    "channel": "The Financial Controller",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2QUdg5FyiY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:32:02Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Initial dynamic preview of the interactive KPI dashboard."
+        },
+        {
+          "seconds": 34,
+          "description": "Full view of the interactive KPI dashboard with various metrics."
+        },
+        {
+          "seconds": 330,
+          "description": "Detailed display of the KPI dashboard, highlighting large fonts and clear layout."
+        },
+        {
+          "seconds": 407,
+          "description": "Demonstration of dynamic color coding on KPI values when the month changes."
+        },
+        {
+          "seconds": 1018,
+          "description": "Showing how KPI values and colors update dynamically upon selecting a different month."
+        }
+      ],
+      "frames": [
+        "frame_00_initial_dynamic_preview_of_the.jpg",
+        "frame_01_full_view_of_the_interactive_k.jpg",
+        "frame_02_detailed_display_of_the_kpi_da.jpg",
+        "frame_03_demonstration_of_dynamic_color.jpg"
+      ],
+      "recapped_at": 1777407053.6351004
+    },
+    "primary_path": "frame_00_initial_dynamic_preview_of_the.jpg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "product"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "editorial_product_hero_typography_rings_c4483ca5",
+  "skill_name": "Editorial Product Hero & Typography Rings",
+  "source": {
+    "channel": "Codex Community",
+    "duration_sec": 1010,
+    "type": "youtube",
+    "video_id": "RGWXVbkrYKM",
+    "video_title": "Impressive 2025 Website Design Inspiration",
+    "video_url": "https://www.youtube.com/watch?v=RGWXVbkrYKM",
+    "views": 399822
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:57:00Z",
+  "wash_version": "1.0.0"
+}

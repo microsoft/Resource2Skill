@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for SaaS and software landing pages that need to showcase product functionality directly in the hero section. This pattern boosts user engagement by offering an immediate 'try-before-you-buy' experience.",
+  "category_path": [
+    "layout",
+    "hero"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_saas_hero_with_embedded_prod_5e249e48",
+  "skill_name": "Interactive SaaS Hero with Product Demo",
+  "source": {
+    "channel": "Supademo",
+    "duration_sec": 482,
+    "type": "youtube",
+    "video_id": "aWyGTP-EQ2c",
+    "video_title": "Watch Me Build a $1M SaaS Landing Page in 10 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=aWyGTP-EQ2c",
+    "views": 281
+  },
+  "tags": [
+    "hero section",
+    "interactive demo",
+    "saas",
+    "landing page",
+    "product showcase"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:01:50Z",
+  "wash_version": "1.0.0"
+}

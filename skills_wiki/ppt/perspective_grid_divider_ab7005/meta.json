@@ -1,0 +1,33 @@
+{
+  "applicability": "Use as a dynamic section divider or cover slide to introduce new topics with a technical or retro-futuristic aesthetic. The animated perspective grid draws focus to the section title.",
+  "category_path": [
+    "slide_layout",
+    "dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perspective_grid_divider_ab7005",
+  "skill_name": "Perspective Grid Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "perspective",
+    "grid",
+    "retro",
+    "futuristic",
+    "divider"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:14:34Z",
+  "wash_version": "1.0.0"
+}

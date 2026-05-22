@@ -1,0 +1,123 @@
+def create_pattern(
+    project_name: str = "MyProject",
+    track_name: str = "Synth Chords",
+    bpm: int = 120,
+    key: str = "C",
+    scale: str = "minor",
+    bars: int = 4,
+    velocity_base: int = 100,
+    **kwargs,
+) -> str:
+    """
+    Create a 'Split & Throw' FX Macro in the current REAPER project.
+    Generates a chord progression, splits the final bar, and moves it 
+    to a dedicated Delay/Reverb Throw track (replicating the video's custom action).
+
+    Args:
+        project_name: Project identifier (for logging).
+        track_name: Name for the created main track.
+        bpm: Tempo in BPM.
+        key: Root note (C, C#, D, ..., B).
+        scale: Scale type (major, minor, dorian, etc.).
+        bars: Number of bars to generate (minimum 2 to demonstrate split).
+        velocity_base: Base MIDI velocity (0-127).
+        **kwargs: Additional overrides.
+
+    Returns:
+        Status string.
+    """
+    import reaper_python as RPR
+    
+    # Ensure minimum bars to make the split macro logical
+    bars = max(2, bars)
+
+    # Music theory lookup tables
+    NOTE_MAP = {"C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3,
+                "E": 4, "F": 5, "F#": 6, "Gb": 6, "G": 7, "G#": 8,
+                "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11}
+    SCALES = {
+        "major":            [0, 2, 4, 5, 7, 9, 11],
+        "minor":            [0, 2, 3, 5, 7, 8, 10],
+        "harmonic_minor":   [0, 2, 3, 5, 7, 8, 11],
+        "dorian":           [0, 2, 3, 5, 7, 9, 10],
+        "mixolydian":       [0, 2, 4, 5, 7, 9, 10],
+        "pentatonic_major": [0, 2, 4, 7, 9],
+        "pentatonic_minor": [0, 3, 5, 7, 10],
+        "blues":            [0, 3, 5, 6, 7, 10],
+    }
+
+    # === Step 1: Set Tempo ===
+    RPR.RPR_SetCurrentBPM(0, bpm, False)
+
+    # === Step 2: Create Main Track ===
+    track_idx = RPR.RPR_CountTracks(0)
+    RPR.RPR_InsertTrackAtIndex(track_idx, True)
+    track_main = RPR.RPR_GetTrack(0, track_idx)
+    RPR.RPR_GetSetMediaTrackInfo_String(track_main, "P_NAME", track_name, True)
+    RPR.RPR_TrackFX_AddByName(track_main, "ReaSynth", False, -1)
+
+    # === Step 3: Create 'Throw / Spot FX' Track (Replicating "Move item above" destination) ===
+    RPR.RPR_InsertTrackAtIndex(track_idx + 1, True)
+    track_throw = RPR.RPR_GetTrack(0, track_idx + 1)
+    RPR.RPR_GetSetMediaTrackInfo_String(track_throw, "P_NAME", f"{track_name} (Delay Throw)", True)
+    
+    # Add instruments and heavy FX to the throw track
+    RPR.RPR_TrackFX_AddByName(track_throw, "ReaSynth", False, -1)
+    RPR.RPR_TrackFX_AddByName(track_throw, "ReaDelay", False, -1)
+    RPR.RPR_TrackFX_AddByName(track_throw, "ReaVerbate", False, -1)
+
+    # === Step 4: Generate Base MIDI Performance ===
+    beats_per_bar = 4
+    bar_length_sec = (60.0 / bpm) * beats_per_bar
+    total_length = bar_length_sec * bars
+
+    item = RPR.RPR_AddMediaItemToTrack(track_main)
+    RPR.RPR_SetMediaItemInfo_Value(item, "D_POSITION", 0.0)
+    RPR.RPR_SetMediaItemInfo_Value(item, "D_LENGTH", total_length)
+    take = RPR.RPR_AddTakeToMediaItem(item)
+
+    # Generate a standard chord progression (1-6-3-7 or similar loop depending on scale)
+    progression = [1, 6, 3, 7] # 1-based scale degrees
+    root_midi = 48 + NOTE_MAP.get(key, 0)
+    scale_intervals = SCALES.get(scale, SCALES["minor"])
+    notes_created = 0
+
+    for bar in range(bars):
+        degree = progression[bar % len(progression)]
+        start_time = bar * bar_length_sec
+        end_time = start_time + (bar_length_sec * 0.8) # Leave a slight staccato gap
+        
+        start_ppq = RPR.RPR_MIDI_GetPPQPosFromProjTime(take, start_time)
+        end_ppq = RPR.RPR_MIDI_GetPPQPosFromProjTime(take, end_time)
+
+        idx = degree - 1
+        # Build triad
+        for i in [0, 2, 4]:
+            scale_idx = (idx + i) % len(scale_intervals)
+            octave_shift = (idx + i) // len(scale_intervals)
+            pitch = root_midi + scale_intervals[scale_idx] + (12 * octave_shift)
+
+            RPR.RPR_MIDI_InsertNote(
+                take, False, False, start_ppq, end_ppq, 0, pitch, velocity_base, True
+            )
+            notes_created += 1
+
+    RPR.RPR_MIDI_Sort(take)
+
+    # === Step 5: Execute the Workflow Macro (Split & Throw) ===
+    # We split the item exactly at the beginning of the LAST bar.
+    split_pos = bar_length_sec * (bars - 1)
+    
+    # RPR_SplitMediaItem returns the newly created item (the right-hand side of the split)
+    tail_item = RPR.RPR_SplitMediaItem(item, split_pos)
+
+    # Move the isolated final phrase to the Throw Track to receive the Delay/Reverb
+    if tail_item:
+        RPR.RPR_MoveMediaItemToTrack(tail_item, track_throw)
+        status_suffix = f"and moved final bar to Throw Track for Spot FX."
+    else:
+        status_suffix = f"but failed to split item."
+
+    RPR.RPR_UpdateTimeline()
+
+    return f"Created '{track_name}' and Throw Track with {notes_created} notes over {bars} bars at {bpm} BPM, {status_suffix}"

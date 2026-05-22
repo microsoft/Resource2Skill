@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "automated_volume_swell___pan_sweep__dyna_3f727ca0",
+  "skill_name": "Automated Volume Swell & Pan Sweep (Dynamic Pad)",
+  "source": {
+    "channel": "REAPER Mania",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=ckjl-rpzDPA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:31:17Z",
+  "wash_version": "1.0.0"
+}

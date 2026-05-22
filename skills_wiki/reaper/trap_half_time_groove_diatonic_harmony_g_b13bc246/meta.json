@@ -1,0 +1,38 @@
+{
+  "applicability": "Creates the foundational rhythmic and harmonic structure for Trap, Drill, and modern Hip-Hop. It serves as an ideal starting point for building a complete beat in these genres.",
+  "category_path": [
+    "sequencing",
+    "genre",
+    "trap"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "trap_half_time_groove_diatonic_harmony_g_b13bc246",
+  "skill_name": "Trap Groove and Diatonic Harmony",
+  "source": {
+    "channel": "Ultrio",
+    "duration_sec": 220,
+    "type": "youtube",
+    "video_id": "FlvGTuYmF8c",
+    "video_title": "Louie Zong Jazz Chords Recreated",
+    "video_url": "https://www.youtube.com/watch?v=FlvGTuYmF8c",
+    "views": 301
+  },
+  "tags": [
+    "trap",
+    "hip-hop",
+    "drums",
+    "harmony",
+    "midi",
+    "808"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:47:43Z",
+  "wash_version": "1.0.0"
+}

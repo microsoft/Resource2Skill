@@ -1,0 +1,64 @@
+{
+  "skill_id": "two_column_numbered_grid_1937f3",
+  "skill_type": "shell",
+  "name": "Two-Column Numbered Grid",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "bullet_card_list",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "2-column-numbered-list"
+    ],
+    "density": "medium",
+    "mood": [
+      "bold",
+      "corporate",
+      "technical"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "items",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 10
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/two_column_numbered_grid_1937f3/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "dynamic_odometer_morph_b82ac55d",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.75
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": true,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Adapts the visual of a large 2-column number sequence into a practical 10-item numbered list shell, using theme typography for the oversized numbers.",
+  "_distill_attempts": 2
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "frame_00_stage_20pct.jpg",
+    "seconds": 142,
+    "description": "stage_20pct",
+    "text_section": "text/visual_design.md",
+    "code_function": "create_slide"
+  },
+  {
+    "file": "frame_01_stage_40pct.jpg",
+    "seconds": 284,
+    "description": "stage_40pct",
+    "text_section": "text/visual_design.md",
+    "code_function": "create_slide"
+  },
+  {
+    "file": "frame_02_stage_60pct.jpg",
+    "seconds": 427,
+    "description": "stage_60pct",
+    "text_section": "text/visual_design.md",
+    "code_function": "create_slide"
+  },
+  {
+    "file": "frame_03_stage_80pct.jpg",
+    "seconds": 569,
+    "description": "stage_80pct",
+    "text_section": "text/visual_design.md",
+    "code_function": "create_slide"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "pure_css_character_art_mascot_0b80dc95",
+  "source": {
+    "channel": "Julia Miocene",
+    "duration_sec": 2401,
+    "type": "youtube",
+    "video_id": "vDEJ7j5jb2U",
+    "video_title": "Drawing a Mushroom Buddy with Pure CSS \u2014 Sunday CSS #16",
+    "video_url": "https://www.youtube.com/watch?v=vDEJ7j5jb2U",
+    "views": 2754
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "applicability": "Calculates the simple difference between actual results and predefined targets. This variance calculation is typically used as a foundational metric to trigger conditional formatting or traffic light indicators in dashboards.",
+  "category_path": [
+    "formulas",
+    "kpi_metrics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "variance_vs_target_59e5dd37",
+  "skill_name": "variance_vs_target",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "variance",
+    "kpi",
+    "target",
+    "metrics",
+    "dashboard",
+    "subtraction"
+  ],
+  "tier": "T2",
+  "wash_run_at": "2026-04-27T09:02:52Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for hard-surface props, vehicles, and robots, especially on complex models with distinct bevels and mechanical details, to add realistic wear.",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_worn_painted_metal_edge_wear__e7ec6bae",
+  "skill_name": "Procedural Worn Painted Metal Material",
+  "source": {
+    "channel": "Jamie Dunbar",
+    "duration_sec": 740,
+    "type": "youtube",
+    "video_id": "hAWLqRpzK6I",
+    "video_title": "3 Easy steps to make Realistic Materials",
+    "video_url": "https://www.youtube.com/watch?v=hAWLqRpzK6I",
+    "views": 311957
+  },
+  "tags": [
+    "procedural",
+    "edge wear",
+    "scratches",
+    "painted metal",
+    "weathering",
+    "hard surface"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:41:50Z",
+  "wash_version": "1.0.0"
+}

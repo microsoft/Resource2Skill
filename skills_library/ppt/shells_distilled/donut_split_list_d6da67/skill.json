@@ -1,0 +1,63 @@
+{
+  "skill_id": "donut_split_list_d6da67",
+  "skill_type": "shell",
+  "name": "Donut Split List",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split",
+      "feature_grid"
+    ],
+    "content_shape": [
+      "donut-graphic+highlighted-title+bullets"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "corporate",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "bullets",
+      "kind": "bullet_list",
+      "required": true,
+      "style": "body",
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 4
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/donut_split_list_d6da67/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "rotating_dial_morph_panel_wheel_selector_87d765bb",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "A split layout featuring a prominent circular graphic on the left and a highlighted title with supporting bullets on the right.",
+  "_distill_attempts": 1
+}

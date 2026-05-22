@@ -1,0 +1,35 @@
+{
+  "applicability": "Implements a user-controlled light/dark theme switcher that persists the user's preference across sessions using localStorage. This is a fundamental feature for modern websites and applications to improve user experience and accessibility.",
+  "category_path": [
+    "ui_controls",
+    "theming"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "persistent_dark_mode_toggle_with_css_ico_6d9f1d84",
+  "skill_name": "Persistent Dark Mode Toggle",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 386,
+    "type": "youtube",
+    "video_id": "_gKEUYarehE",
+    "video_title": "Create a Dark Mode Switch with HTML, CSS, JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=_gKEUYarehE",
+    "views": 127144
+  },
+  "tags": [
+    "dark mode",
+    "theme toggle",
+    "css variables",
+    "localstorage",
+    "ui control"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:04:38Z",
+  "wash_version": "1.0.0"
+}

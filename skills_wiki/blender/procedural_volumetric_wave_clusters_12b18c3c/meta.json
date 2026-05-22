@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for generating microscopic visualizations, abstract macro sculptures, or sci-fi energy cores. It bypasses boolean artifacts by evaluating complex intersections purely within a volumetric field before meshing.",
+  "category_path": [
+    "geometry_nodes",
+    "procedural_modeling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_volumetric_wave_clusters_12b18c3c",
+  "skill_name": "Procedural Volumetric Wave-Clusters",
+  "source": {
+    "channel": "Erik Hillinger 3D",
+    "duration_sec": 372,
+    "type": "youtube",
+    "video_id": "L4CrrwkbQYw",
+    "video_title": "Create an abstract render with geometry nodes! | Blender beginner tutorial",
+    "video_url": "https://www.youtube.com/watch?v=L4CrrwkbQYw",
+    "views": 448
+  },
+  "tags": [
+    "geometry_nodes",
+    "volumetrics",
+    "volume_to_mesh",
+    "procedural_modeling",
+    "abstract_geometry"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:31:05Z",
+  "wash_version": "1.0.0"
+}

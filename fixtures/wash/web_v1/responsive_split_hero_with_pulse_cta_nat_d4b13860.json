@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "responsive_split_hero_with_pulse_cta_nat_d4b13860",
+  "source": {
+    "channel": "QCT",
+    "duration_sec": 709,
+    "type": "youtube",
+    "video_id": "aWG54eltQHc",
+    "video_title": "Portfolio Landing Page With Video Modal | HTML, CSS, JavaScript | Quick Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=aWG54eltQHc",
+    "views": 525
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "This effect is ideal for creating highly impactful, single-word focal points on title slides, section headers, or portfolio hero shots. It transforms plain text into a captivating, tactile 3D object.",
+  "category_path": [
+    "typography",
+    "text_effect",
+    "3d"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "s_3d_hinged_paper_cut_out_typography_14c0f3e1",
+  "skill_name": "3D Hinged Paper Cut-out Typography",
+  "source": {
+    "channel": "POWERPOINT UNIVERSITY",
+    "duration_sec": 555,
+    "type": "youtube",
+    "video_id": "lTufAOnjBE4",
+    "video_title": "PowerPoint tutorial No. 342: How to make Typography in PowerPoint /  Paper cutout design typography",
+    "video_url": "https://www.youtube.com/watch?v=lTufAOnjBE4",
+    "views": 6997
+  },
+  "tags": [
+    "3d text",
+    "typography",
+    "paper cut-out",
+    "optical illusion",
+    "trompe l'oeil",
+    "graphic design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:46:10Z",
+  "wash_version": "1.0.0"
+}

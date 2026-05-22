@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "high_contrast_header_horizontal_grid_dis_9f73aa3a",
+  "skill_name": "High-Contrast Header & Horizontal Grid Dissection (The \"Anti-Word-Doc\" Layout)",
+  "source": {
+    "channel": "\u611bPPT\u7684\u623f\u91d1",
+    "duration_sec": 92,
+    "type": "youtube",
+    "video_id": "8kBmKtLml4M",
+    "video_title": "\u3010PPT\u6559\u5b78\u3011PPT\u4fe1\u606f\u50b3\u905e\u6548\u7387\u70ba\u738b\uff01 #PPT #PPT\u6559\u5b78 #\u5275\u4f5c\u9748\u611f #\u8a2d\u8a08\u5206\u4eab",
+    "video_url": "https://www.youtube.com/watch?v=8kBmKtLml4M",
+    "views": 720
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:35:07Z",
+  "wash_version": "1.0.0"
+}

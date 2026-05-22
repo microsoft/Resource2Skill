@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for scrollytelling articles, landing pages, and portfolios to dynamically reveal or highlight elements as users scroll. It replaces heavy JavaScript scroll libraries with highly performant, native CSS.",
+  "category_path": [
+    "animation",
+    "scroll_driven"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_css_scroll_driven_viewport_animat_567601d0",
+  "skill_name": "Native CSS Scroll-Driven Viewport Animations",
+  "source": {
+    "channel": "Lun Dev",
+    "duration_sec": 558,
+    "type": "youtube",
+    "video_id": "pFtxR-O78sY",
+    "video_title": "Crazy Scroll Animation Using CSS Only",
+    "video_url": "https://www.youtube.com/watch?v=pFtxR-O78sY",
+    "views": 272895
+  },
+  "tags": [
+    "scroll-driven",
+    "css-animation",
+    "animation-timeline",
+    "viewport",
+    "scrollytelling",
+    "reveal-effect"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:06:14Z",
+  "wash_version": "1.0.0"
+}

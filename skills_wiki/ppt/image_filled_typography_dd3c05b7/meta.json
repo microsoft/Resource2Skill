@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates high-impact text for title slides, section dividers, or brand messaging by filling typography with an image. This technique merges the textual message with a visual theme for a sophisticated, custom look.",
+  "category_path": [
+    "text",
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "image_filled_typography_dd3c05b7",
+  "skill_name": "Image-Filled Typography",
+  "source": {
+    "channel": "Guide Hub",
+    "duration_sec": 133,
+    "type": "youtube",
+    "video_id": "qwOqPo8liqM",
+    "video_title": "How To Mask Text in PowerPoint (FAST & EASY) | 100% WORKS | NO Yapping! | Text Mask in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=qwOqPo8liqM",
+    "views": 4
+  },
+  "tags": [
+    "typography",
+    "image fill",
+    "text effect",
+    "clipping mask",
+    "visual design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:38:06Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "This shell is ideal for creating impactful cover or section divider slides. It's suitable for presentations requiring a technical, bold, and modern aesthetic.",
+  "category_path": [
+    "slides",
+    "cover_slides",
+    "geometric"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perspective_grid_cover_71145e",
+  "skill_name": "Perspective Grid Cover",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "perspective",
+    "grid",
+    "cover",
+    "geometric",
+    "technical",
+    "split-horizon"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:14:30Z",
+  "wash_version": "1.0.0"
+}

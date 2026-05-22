@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "executive_kpi_dashboard_synthesis_2d086931",
+  "skill_name": "Executive KPI Dashboard Synthesis",
+  "source": {
+    "channel": "VIP TECHNOL",
+    "duration_sec": 210,
+    "type": "youtube",
+    "video_id": "rCZ1J8GpZB0",
+    "video_title": "049 Introducing the Strategic Dashboard Example     FreeCourseWeb com",
+    "video_url": "https://www.youtube.com/watch?v=rCZ1J8GpZB0",
+    "views": 6
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:23:59Z",
+  "wash_version": "1.0.0"
+}

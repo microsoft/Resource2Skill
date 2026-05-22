@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_neon_rotating_square_loader_42a900fb",
+  "skill_name": "3D Neon Rotating Square Loader",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:47:38Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 49,
+          "description": "Blue box animating rotation and border-radius"
+        },
+        {
+          "seconds": 200,
+          "description": "Basic keyframe animation completes one cycle"
+        },
+        {
+          "seconds": 515,
+          "description": "Blue box animation using alternate direction"
+        },
+        {
+          "seconds": 650,
+          "description": "Interactive animation with play and pause buttons"
+        },
+        {
+          "seconds": 710,
+          "description": "Target 3D loading animation (hollow rotating cube)"
+        }
+      ],
+      "frames": [
+        "frame_00_blue_box_animating_rotation_an.jpg",
+        "frame_01_basic_keyframe_animation_compl.jpg",
+        "frame_02_blue_box_animation_using_alter.jpg"
+      ],
+      "recapped_at": 1777408056.2564173
+    },
+    "primary_path": "frame_00_blue_box_animating_rotation_an.jpg"
+  }
+}

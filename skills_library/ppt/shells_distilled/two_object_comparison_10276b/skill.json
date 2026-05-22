@@ -1,0 +1,88 @@
+{
+  "skill_id": "two_object_comparison_10276b",
+  "skill_type": "shell",
+  "name": "Two Object Comparison",
+  "status": "active",
+  "intent_tags": {
+    "slide_role": [
+      "comparison_split"
+    ],
+    "content_shape": [
+      "two-images-with-labels"
+    ],
+    "density": "low",
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": false,
+      "style": "title",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_left",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "image_right",
+      "kind": "image",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": "1:1",
+      "bullet_capacity": null
+    },
+    {
+      "name": "label_left",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "label_right",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/two_object_comparison_10276b/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "custom_motion_path_animation_visualizati_a31dbf79",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": true
+  },
+  "_distill_reasoning": "The slide displays two distinct objects spaced apart horizontally, suggesting a comparison or state-change layout. Extracted as a split layout with two image slots and optional labels.",
+  "_distill_attempts": 1
+}

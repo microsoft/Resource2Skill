@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "professional_vocal_mixing_chain_routing__707d2cf3",
+  "skill_name": "Professional Vocal Mixing Chain & Routing Bus",
+  "source": {
+    "channel": "Andrew Barr",
+    "duration_sec": 149,
+    "type": "youtube",
+    "video_id": "pOdk7UytHB4",
+    "video_title": "THE world's shortest vocal mixing course you\u2019ll ever need",
+    "video_url": "https://www.youtube.com/watch?v=pOdk7UytHB4",
+    "views": 483597
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:53:37Z",
+  "wash_version": "1.0.0"
+}

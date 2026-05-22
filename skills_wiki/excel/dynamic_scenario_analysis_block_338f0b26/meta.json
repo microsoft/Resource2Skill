@@ -1,0 +1,56 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_scenario_analysis_block_338f0b26",
+  "skill_name": "Dynamic Scenario Analysis Block",
+  "source": {
+    "channel": "Kenji Explains",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iiq4Sem9GPM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:30:11Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Dynamic model overview showing scenario changes"
+        },
+        {
+          "seconds": 231,
+          "description": "Revenue calculated for all 5 years in the income statement"
+        },
+        {
+          "seconds": 1027,
+          "description": "Complete income statement with all profit margins and tax"
+        },
+        {
+          "seconds": 1411,
+          "description": "Dynamic model implemented, showing numbers change with scenario"
+        },
+        {
+          "seconds": 1500,
+          "description": "Data validation applied to scenario selector"
+        }
+      ],
+      "frames": [
+        "frame_00_dynamic_model_overview_showing.jpg",
+        "frame_01_revenue_calculated_for_all_5_y.jpg"
+      ],
+      "recapped_at": 1777406587.9820716
+    },
+    "primary_path": "frame_00_dynamic_model_overview_showing.jpg"
+  }
+}

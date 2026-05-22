@@ -1,0 +1,53 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_aligned_kpi_card_527a083d",
+  "skill_name": "Grid-Aligned KPI Card",
+  "source": {
+    "channel": "Office Tech Skill",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=hxaflJodZsA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:41:57Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 47,
+          "description": "Revenue number displayed in a rounded rectangle shape"
+        },
+        {
+          "seconds": 104,
+          "description": "Region title and revenue number in the main KPI shape"
+        },
+        {
+          "seconds": 203,
+          "description": "Completed KPI using grouped shapes, showing region, revenue, and market share"
+        },
+        {
+          "seconds": 310,
+          "description": "Total revenue displayed in a SmartArt-based KPI"
+        }
+      ],
+      "frames": [
+        "frame_00_revenue_number_displayed_in_a_.jpg",
+        "frame_01_region_title_and_revenue_numbe.jpg",
+        "frame_02_completed_kpi_using_grouped_sh.jpg"
+      ],
+      "recapped_at": 1777406755.693243
+    },
+    "primary_path": "frame_00_revenue_number_displayed_in_a_.jpg"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "This multi-out drum setup is ideal for starting modern hip-hop, pop, or R&B tracks requiring independent mix control over each percussion element. It instantly generates a mix-ready foundational groove with pre-configured routing and transient compression.",
+  "category_path": [
+    "drums",
+    "multi_out"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_16th_note_drum_groove_multi_out__310e521c",
+  "skill_name": "Layered 16th-Note Drum Groove & Multi-Out Channel Strip",
+  "source": {
+    "channel": "REAPER Mania",
+    "duration_sec": 893,
+    "type": "youtube",
+    "video_id": "cZ4BHHpi8rY",
+    "video_title": "Create a Drum Part Quickly in REAPER",
+    "video_url": "https://www.youtube.com/watch?v=cZ4BHHpi8rY",
+    "views": 130139
+  },
+  "tags": [
+    "multi-out",
+    "drum-bus",
+    "16th-note",
+    "midi-routing",
+    "reasamplomatic5000",
+    "groove"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:19:31Z",
+  "wash_version": "1.0.0"
+}

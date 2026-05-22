@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "canvas_webgl"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_webgl_fluid_gradient_f6b2525b",
+  "skill_name": "Interactive WebGL Fluid Gradient",
+  "source": {
+    "channel": "Codegrid",
+    "duration_sec": 890,
+    "type": "youtube",
+    "video_id": "wdyJr-UeiZs",
+    "video_title": "The Interactive Fluid Gradient You\u2019ll Keep Reusing on Every Website",
+    "video_url": "https://www.youtube.com/watch?v=wdyJr-UeiZs",
+    "views": 20014
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:21:30Z",
+  "wash_version": "1.0.0"
+}

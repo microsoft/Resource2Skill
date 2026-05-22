@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_kpi_control_panel_97d58277",
+  "skill_name": "Interactive KPI Control Panel",
+  "source": {
+    "channel": "Next Gen Templates",
+    "duration_sec": 95,
+    "type": "youtube",
+    "video_id": "SLwnjvydxCI",
+    "video_title": "Building Automation KPI Dashboard in Excel",
+    "video_url": "https://www.youtube.com/watch?v=SLwnjvydxCI",
+    "views": 18
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:41:54Z",
+  "wash_version": "1.0.0"
+}

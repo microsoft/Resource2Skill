@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "clear_context_architecture_diagram_with__7f5b3a68",
+  "skill_name": "Clear-Context Architecture Diagram with Grouping & Legends",
+  "source": {
+    "channel": "Win The cloud \ud83d\ude4c\ud83c\udffb",
+    "duration_sec": 361,
+    "type": "youtube",
+    "video_id": "FS_M3s2BL8M",
+    "video_title": "Solutions Architect Tips: How to Build Your First Architecture Diagram",
+    "video_url": "https://www.youtube.com/watch?v=FS_M3s2BL8M",
+    "views": 111961
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:00:50Z",
+  "wash_version": "1.0.0"
+}

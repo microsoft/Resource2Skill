@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "single_path_morphing_hamburger_menu_082c88d5",
+  "source": {
+    "channel": "Kevin Powell",
+    "duration_sec": 3581,
+    "type": "youtube",
+    "video_id": "R00QiudbD4Y",
+    "video_title": "Basic, Intermediate & Pro animated hamburger icons",
+    "video_url": "https://www.youtube.com/watch?v=R00QiudbD4Y",
+    "views": 155082
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

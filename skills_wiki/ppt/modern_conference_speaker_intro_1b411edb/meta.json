@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating dynamic introduction slides for events, conferences, and webinars. The asymmetrical two-panel design effectively separates branding from specific content like speaker bios or session agendas.",
+  "category_path": [
+    "slide_layout",
+    "title_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_conference_speaker_intro_1b411edb",
+  "skill_name": "Modern Conference Speaker Intro",
+  "source": {
+    "channel": "LaravelConf Taiwan",
+    "duration_sec": 265,
+    "type": "youtube",
+    "video_id": "CPucDvfWu6I",
+    "video_title": "\u8b70\u7a0b\u4ecb\u7d39\u3010\u958b\u6e90\u4e4b\u8def\uff1a\u5f9e\u89e3\u6c7a\u554f\u984c\u5230\u89e3\u6c7a\u5927\u5bb6\u7684\u554f\u984c\u3011\u5468\u5efa\u6bc5 (Miles)",
+    "video_url": "https://www.youtube.com/watch?v=CPucDvfWu6I",
+    "views": 154
+  },
+  "tags": [
+    "speaker intro",
+    "conference",
+    "agenda slide",
+    "asymmetrical layout",
+    "corporate",
+    "title slide"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:52:01Z",
+  "wash_version": "1.0.0"
+}

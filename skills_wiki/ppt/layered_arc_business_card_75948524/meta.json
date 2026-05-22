@@ -1,0 +1,35 @@
+{
+  "applicability": "This design pattern uses layered, sweeping arcs to create a modern and dynamic partition for content. It is ideal for title slides, section dividers, or branded headers and footers.",
+  "category_path": [
+    "layout",
+    "composition"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "layered_arc_business_card_75948524",
+  "skill_name": "Layered Arc Layout",
+  "source": {
+    "channel": "Matjel Academy",
+    "duration_sec": 907,
+    "type": "youtube",
+    "video_id": "ba48w9ASpjA",
+    "video_title": "How to design a Professional Business Card Template in PowerPoint 2020 and free download link!",
+    "video_url": "https://www.youtube.com/watch?v=ba48w9ASpjA",
+    "views": 917
+  },
+  "tags": [
+    "arc",
+    "curved design",
+    "layered shapes",
+    "color block",
+    "asymmetrical layout"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:46:57Z",
+  "wash_version": "1.0.0"
+}

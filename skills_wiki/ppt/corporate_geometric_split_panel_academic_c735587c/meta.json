@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for academic defenses, corporate research reports, or consulting decks where dense, structured information must be presented with authority and clarity. This layout organizes text-heavy content cleanly without relying on decorative imagery.",
+  "category_path": [
+    "layout",
+    "professional"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_geometric_split_panel_academic_c735587c",
+  "skill_name": "Geometric Split-Panel Layout",
+  "source": {
+    "channel": "Smart Student",
+    "duration_sec": 986,
+    "type": "youtube",
+    "video_id": "xRVWZ875vYs",
+    "video_title": "APA Formatting for PowerPoint: How to Apply APA Style to PowerPoint Presentations",
+    "video_url": "https://www.youtube.com/watch?v=xRVWZ875vYs",
+    "views": 564906
+  },
+  "tags": [
+    "split layout",
+    "professional",
+    "academic",
+    "text-heavy",
+    "corporate"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:06:23Z",
+  "wash_version": "1.0.0"
+}

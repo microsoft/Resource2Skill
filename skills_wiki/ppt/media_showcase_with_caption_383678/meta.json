@@ -1,0 +1,33 @@
+{
+  "applicability": "Suitable for showcasing a single image or video with an overlaid caption and optional brand identification. Ideal for introducing new sections or highlighting key visual content.",
+  "category_path": [
+    "visuals",
+    "media_showcase"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "media_showcase_with_caption_383678",
+  "skill_name": "Media Showcase with Caption",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "media",
+    "caption",
+    "brand",
+    "showcase",
+    "visual content"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:12:21Z",
+  "wash_version": "1.0.0"
+}

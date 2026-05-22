@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_pocket_sidechain_eq_3893be7c",
+  "skill_name": "Dynamic \"Pocket\" Sidechain EQ",
+  "source": {
+    "channel": "Audio Mountain",
+    "duration_sec": 284,
+    "type": "youtube",
+    "video_id": "jYb91WLcQWA",
+    "video_title": "Sidechain Kick and Bass: EQ vs Compression",
+    "video_url": "https://www.youtube.com/watch?v=jYb91WLcQWA",
+    "views": 903
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:12:59Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "chipmunk_soul_vintage_boom_bap_formula_18bca51b",
+  "skill_name": "Chipmunk Soul\" Vintage Boom-Bap Formula",
+  "source": {
+    "type": "youtube",
+    "video_title": "Chipmunk Soul: How to Flip Samples Like Kanye",
+    "video_url": "https://www.youtube.com/watch?v=LOdTCZPsXeo"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:02:03Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for web-based creative tools, photo editors, or interactive configurators where users adjust parameters in a control panel and see immediate visual updates on a main canvas.",
+  "category_path": [
+    "layout",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "real_time_image_filter_dashboard_cba413a7",
+  "skill_name": "Live Preview Control Panel",
+  "source": {
+    "channel": "Coding Shiksha",
+    "duration_sec": 325,
+    "type": "youtube",
+    "video_id": "im2rh_uiXAw",
+    "video_title": "Javascript Canvas API Example to Build WebGL Advanced Image Editor With 2D & 3D Filters in Browser",
+    "video_url": "https://www.youtube.com/watch?v=im2rh_uiXAw",
+    "views": 526
+  },
+  "tags": [
+    "control panel",
+    "live preview",
+    "dashboard",
+    "editor ui"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:06:26Z",
+  "wash_version": "1.0.0"
+}

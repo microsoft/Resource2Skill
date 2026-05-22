@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "drums"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "punchy_kick_drum_transient_shaping_via_c_2641fdbb",
+  "skill_name": "Punchy Kick Drum Transient Shaping (via Compression)",
+  "source": {
+    "channel": "Producer Sphere",
+    "duration_sec": 315,
+    "type": "youtube",
+    "video_id": "mxUQyUs1eGo",
+    "video_title": "How to add PUNCH to your KICKS using Compression (3 SIMPLE STEPS)",
+    "video_url": "https://www.youtube.com/watch?v=mxUQyUs1eGo",
+    "views": 135918
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:30:01Z",
+  "wash_version": "1.0.0"
+}

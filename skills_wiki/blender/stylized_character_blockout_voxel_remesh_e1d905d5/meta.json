@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "organic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "stylized_character_blockout_voxel_remesh_e1d905d5",
+  "skill_name": "Stylized Character Blockout & Voxel Remesh Prep",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 3249,
+    "type": "youtube",
+    "video_id": "Lxem4yMs5Dg",
+    "video_title": "Sculpting for Complete Beginners! (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=Lxem4yMs5Dg",
+    "views": 445622
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:48:48Z",
+  "wash_version": "1.0.0"
+}

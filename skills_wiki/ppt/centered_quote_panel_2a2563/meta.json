@@ -1,0 +1,34 @@
+{
+  "applicability": "Use this shell to prominently display a key quote or testimonial on a slide. It features a central panel for the quote, with optional headline and author fields, suitable for corporate or editorial contexts.",
+  "category_path": [
+    "content",
+    "quotes"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "centered_quote_panel_2a2563",
+  "skill_name": "Centered Quote Panel",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "quote",
+    "testimonial",
+    "centered",
+    "panel",
+    "minimal",
+    "text-heavy"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:03:33Z",
+  "wash_version": "1.0.0"
+}

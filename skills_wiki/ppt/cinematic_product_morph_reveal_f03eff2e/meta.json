@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for product launches, automotive showcases, and premium portfolio hero sections, it creates an engaging, app-like experience with high perceived value and cinematic storytelling.",
+  "category_path": [
+    "animation",
+    "product_showcase"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_product_morph_reveal_f03eff2e",
+  "skill_name": "Cinematic Product Morph Reveal",
+  "source": {
+    "channel": "Rob | PowerPoint Tutorials",
+    "duration_sec": 1276,
+    "type": "youtube",
+    "video_id": "_st411AugqM",
+    "video_title": "PowerPoint Tutorial: 3D \u2728 Porsche animation and basics of morph transition #powerpoint #tutorial",
+    "video_url": "https://www.youtube.com/watch?v=_st411AugqM",
+    "views": 164789
+  },
+  "tags": [
+    "morph",
+    "product showcase",
+    "cinematic",
+    "dynamic transitions",
+    "premium",
+    "storytelling"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:26:50Z",
+  "wash_version": "1.0.0"
+}

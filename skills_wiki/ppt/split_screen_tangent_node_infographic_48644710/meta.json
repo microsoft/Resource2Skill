@@ -1,0 +1,36 @@
+{
+  "applicability": "Perfect for comparison slides, timeline milestones, dual-feature showcases, or high-level strategic agendas. The 50/50 split creates natural contrast and comparison, making dense information feel organized and narrative-driven.",
+  "category_path": [
+    "infographic",
+    "data_visualization"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "split_screen_tangent_node_infographic_48644710",
+  "skill_name": "Split-Screen Tangent Node Infographic",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 401,
+    "type": "youtube",
+    "video_id": "lKVpRbxCf8E",
+    "video_title": "PowerPoint Infographic Presentation Slide Design Tutorial with Free Template",
+    "video_url": "https://www.youtube.com/watch?v=lKVpRbxCf8E",
+    "views": 97405
+  },
+  "tags": [
+    "infographic",
+    "comparison",
+    "timeline",
+    "split-screen",
+    "tangent",
+    "geometric"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:16:10Z",
+  "wash_version": "1.0.0"
+}

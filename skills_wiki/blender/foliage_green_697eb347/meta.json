@@ -1,0 +1,29 @@
+{
+  "applicability": "Ideal for creating realistic green leaves and vegetation, providing subsurface scattering for depth and slight transmission for backlit effects in Blender scenes.",
+  "category_path": [
+    "material_presets"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "foliage_green_697eb347",
+  "skill_name": "Foliage Green Material",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "foliage",
+    "leaf",
+    "vegetation",
+    "material",
+    "SSS",
+    "green"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T06:50:34Z",
+  "wash_version": "1.0.0"
+}

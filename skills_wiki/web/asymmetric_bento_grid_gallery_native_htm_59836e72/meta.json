@@ -1,0 +1,69 @@
+{
+  "applicability": "Perfect for minimalist portfolio sites, product feature highlights, or landing pages where a fast, responsive, and visually hierarchical layout for images and FAQs is prioritized over heavy JavaScript.",
+  "category_path": [
+    "layout",
+    "gallery",
+    "bento_grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "asymmetric_bento_grid_gallery_native_htm_59836e72",
+  "skill_name": "Asymmetric Bento Gallery with Native Accordion",
+  "source": {
+    "channel": "Coding2GO",
+    "duration_sec": 1561,
+    "type": "youtube",
+    "video_id": "ZPMtug9qExk",
+    "video_title": "Build a Personal Website with HTML & CSS (Beginner Crash Course)",
+    "video_url": "https://www.youtube.com/watch?v=ZPMtug9qExk",
+    "views": 47214
+  },
+  "tags": [
+    "bento grid",
+    "css grid",
+    "responsive gallery",
+    "html5 accordion",
+    "zero-js"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:25:37Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 38,
+          "description": "Full preview of the completed personal portfolio website."
+        },
+        {
+          "seconds": 1410,
+          "description": "Header section with navigation, profile picture, bio, and call-to-action buttons is styled."
+        },
+        {
+          "seconds": 1715,
+          "description": "Two new sections, 'How I can help you' and 'Some of my best pictures' (gallery grid), are visually complete."
+        },
+        {
+          "seconds": 2108,
+          "description": "The interactive 'Common Questions' (FAQ) section is completed."
+        },
+        {
+          "seconds": 2527,
+          "description": "The entire website is now fully responsive, adapted for mobile view."
+        }
+      ],
+      "frames": [
+        "frame_00_full_preview_of_the_completed_.jpg",
+        "frame_01_header_section_with_navigation.jpg"
+      ],
+      "recapped_at": 1777408587.9577131
+    },
+    "primary_path": "frame_00_full_preview_of_the_completed_.jpg"
+  }
+}

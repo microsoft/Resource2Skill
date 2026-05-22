@@ -1,0 +1,36 @@
+{
+  "applicability": "Essential for starting a new session in genres like pop, hip-hop, and EDM. It instantly generates a categorized track hierarchy, standardized arrangement blocks, and a foundational rhythmic groove to minimize cognitive load.",
+  "category_path": [
+    "project_setup",
+    "templates"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rapid_arrangement_template_builder_stem__3bcb24f9",
+  "skill_name": "Rapid Arrangement Template Builder (Stem Buses, Folders & Regions)",
+  "source": {
+    "channel": "QOMPLEX",
+    "duration_sec": 779,
+    "type": "youtube",
+    "video_id": "6jrQPj7vPWY",
+    "video_title": "My Quick Reaper Setup to Easily Make Beats",
+    "video_url": "https://www.youtube.com/watch?v=6jrQPj7vPWY",
+    "views": 12436
+  },
+  "tags": [
+    "template",
+    "routing",
+    "folders",
+    "regions",
+    "workflow"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T09:31:06Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,126 @@
+{
+  "theme_id": "nordic_beige_deck",
+  "name": "Nordic Beige Deck",
+  "origin": "web_distilled",
+  "source_url": "https://www.canva.com/templates/search/minimalist-presentations/",
+  "source_title": "Canva Minimalist Presentations",
+  "source_kind": "pitch_template",
+  "palette": {
+    "bg": "#F2F4F1",
+    "panel": "#E5E8E2",
+    "accent": "#8A9486",
+    "accent2": "#B7A58E",
+    "text": "#202320",
+    "muted": "#5F665F",
+    "border": "#D2D8D0",
+    "success": "#6F8675",
+    "warning": "#B79A63"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Century Gothic",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Century Gothic",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Calibri",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Calibri",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Lucida Console",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Cambria",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "dotted_grid",
+    "description": "subtle alignment dots over pale stone fields"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "editorial",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_right"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "editorial",
+    "calm",
+    "research"
+  ],
+  "archetype_fit": [
+    "research",
+    "narrative",
+    "product"
+  ],
+  "preferred_motion_tags": [
+    "editorial",
+    "measured",
+    "trace"
+  ],
+  "avoided_motion_tags": [
+    "pulse",
+    "glitch",
+    "bounce"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "3d_glowing_cube_loading_animation_42a900fb",
+  "skill_name": "3D Glowing Cube Loading Animation",
+  "source": {
+    "channel": "Coding2GO",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:29:08Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 17,
+          "description": "Interactive square animating shape and rotation"
+        },
+        {
+          "seconds": 56,
+          "description": "Website with continuous background plane animation"
+        },
+        {
+          "seconds": 258,
+          "description": "Square grows and rotates into a circle"
+        },
+        {
+          "seconds": 653,
+          "description": "Animation controlled by play/pause buttons"
+        },
+        {
+          "seconds": 715,
+          "description": "3D loading animation of a rotating square"
+        }
+      ],
+      "frames": [
+        "frame_00_interactive_square_animating_s.jpg",
+        "frame_01_website_with_continuous_backgr.jpg",
+        "frame_02_square_grows_and_rotates_into_.jpg"
+      ],
+      "recapped_at": 1777407982.9876602
+    },
+    "primary_path": "frame_00_interactive_square_animating_s.jpg"
+  }
+}

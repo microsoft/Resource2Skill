@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_saas_hero_with_embedded_prod_5e249e48",
+  "source": {
+    "channel": "Supademo",
+    "duration_sec": 482,
+    "type": "youtube",
+    "video_id": "aWyGTP-EQ2c",
+    "video_title": "Watch Me Build a $1M SaaS Landing Page in 10 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=aWyGTP-EQ2c",
+    "views": 281
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

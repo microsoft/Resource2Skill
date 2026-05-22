@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for recurring business reviews and performance tracking, this style suits MBRs, operational, sales, marketing, financial, and project status dashboards, presenting multiple metrics simultaneously.",
+  "category_path": [
+    "business_performance",
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "strategic_kpi_performance_dashboard_7248cd7a",
+  "skill_name": "Strategic KPI Performance Dashboard",
+  "source": {
+    "channel": "Next Gen Templates",
+    "duration_sec": 79,
+    "type": "youtube",
+    "video_id": "JDYwb7A92Hc",
+    "video_title": "Recycling Infrastructure KPI Dashboard in Excel",
+    "video_url": "https://www.youtube.com/watch?v=JDYwb7A92Hc",
+    "views": 0
+  },
+  "tags": [
+    "kpi dashboard",
+    "performance tracking",
+    "business review",
+    "tabular report",
+    "variance analysis",
+    "conditional formatting"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:17:26Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cinematic_spotlight_blur_extract_d179dc74",
+  "skill_name": "Cinematic Spotlight & Blur Extract",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 409,
+    "type": "youtube",
+    "video_id": "9IKC8wJkeDs",
+    "video_title": "15.Pro Level Amazing Team Intro Animation | PowerPoint Morph Transition Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=9IKC8wJkeDs",
+    "views": 453
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:27:32Z",
+  "wash_version": "1.0.0"
+}

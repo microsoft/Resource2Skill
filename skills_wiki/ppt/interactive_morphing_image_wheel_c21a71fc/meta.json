@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interactive_morphing_image_wheel_c21a71fc",
+  "skill_name": "Interactive Morphing Image Wheel",
+  "source": {
+    "channel": "The Ppt Pro ",
+    "duration_sec": 1265,
+    "type": "youtube",
+    "video_id": "kbtDQsYQtg0",
+    "video_title": "This is How I Did This Morph Animation On Powerpoint (UPDATED VERSION)",
+    "video_url": "https://www.youtube.com/watch?v=kbtDQsYQtg0",
+    "views": 1916628
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:36:32Z",
+  "wash_version": "1.0.0"
+}

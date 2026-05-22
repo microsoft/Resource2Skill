@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_glassmorphism_via_background_fil_0fc464b3",
+  "skill_name": "Dynamic Glassmorphism via Background Fill Injection",
+  "source": {
+    "channel": "PowerSkills",
+    "duration_sec": 403,
+    "type": "youtube",
+    "video_id": "cnl21HEKUUY",
+    "video_title": "How to Make Apple Inspired Glass Effect In PowerPoint - Easy Tutorial ",
+    "video_url": "https://www.youtube.com/watch?v=cnl21HEKUUY",
+    "views": 1699
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:30:38Z",
+  "wash_version": "1.0.0"
+}

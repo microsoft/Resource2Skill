@@ -1,0 +1,59 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "three_panel_dashboard_archetype_066bbd71",
+  "skill_name": "Three-Panel Dashboard Archetype",
+  "source": {
+    "channel": "Kevin Stratvert",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTlQvyNQ3PM"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T11:08:17Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 9,
+          "description": "initial interactive dashboard preview"
+        },
+        {
+          "seconds": 815,
+          "description": "dashboard with first chart added"
+        },
+        {
+          "seconds": 140,
+          "description": "dashboard with all three main charts"
+        },
+        {
+          "seconds": 350,
+          "description": "dashboard with interactive slicers and timeline"
+        },
+        {
+          "seconds": 500,
+          "description": "dashboard with customized theme"
+        }
+      ],
+      "frames": [
+        "frame_00_initial_interactive_dashboard_.jpg",
+        "frame_01_dashboard_with_first_chart_add.jpg",
+        "frame_02_dashboard_with_all_three_main_.jpg",
+        "frame_03_dashboard_with_interactive_sli.jpg",
+        "frame_04_dashboard_with_customized_them.jpg"
+      ],
+      "recapped_at": 1777407829.6581483
+    },
+    "primary_path": "frame_00_initial_interactive_dashboard_.jpg"
+  }
+}

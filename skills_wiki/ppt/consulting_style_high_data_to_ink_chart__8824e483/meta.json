@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consulting_style_high_data_to_ink_chart__8824e483",
+  "skill_name": "Consulting-Style \"High Data-to-Ink\" Chart (Think-Cell Clone)",
+  "source": {
+    "channel": "Firm Learning",
+    "duration_sec": 896,
+    "type": "youtube",
+    "video_id": "lIv2vDE6ENo",
+    "video_title": "Data Visualization for Slide Presentations - Storytelling, Charts, Formatting",
+    "video_url": "https://www.youtube.com/watch?v=lIv2vDE6ENo",
+    "views": 245156
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:05:55Z",
+  "wash_version": "1.0.0"
+}

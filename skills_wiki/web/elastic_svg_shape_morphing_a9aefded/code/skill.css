@@ -1,0 +1,3 @@
+    @media (prefers-reduced-motion: reduce) {
+        .morphing-shape { transition: none; }
+    }

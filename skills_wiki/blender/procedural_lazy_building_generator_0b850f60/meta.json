@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for rapidly populating background cityscapes, cyberpunk environments, or dense urban scenes. It leverages randomized extrusions and structural imperfections to create believable derelict buildings.",
+  "category_path": [
+    "modeling",
+    "procedural_generation",
+    "architecture"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_lazy_building_generator_0b850f60",
+  "skill_name": "Procedural Lazy Building Generator",
+  "source": {
+    "channel": "IanHubert",
+    "duration_sec": 61,
+    "type": "youtube",
+    "video_id": "t_c58ryJ-Sw",
+    "video_title": "Create Custom Buildings in Blender - Lazy Tutorials",
+    "video_url": "https://www.youtube.com/watch?v=t_c58ryJ-Sw",
+    "views": 1561197
+  },
+  "tags": [
+    "procedural-modeling",
+    "architecture",
+    "bmesh",
+    "cityscape",
+    "randomization"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:22:12Z",
+  "wash_version": "1.0.0"
+}

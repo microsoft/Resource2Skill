@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "perfect_fit_css_scroll_snapping_be8b10f1",
+  "skill_name": "Perfect-Fit CSS Scroll Snapping",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 399,
+    "type": "youtube",
+    "video_id": "ytl6TrroGis",
+    "video_title": "Learn CSS Scroll Snap In 6 Minutes",
+    "video_url": "https://www.youtube.com/watch?v=ytl6TrroGis",
+    "views": 172271
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:16:01Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "A foundational Geometry Nodes technique for procedurally scattering small objects onto a larger surface. Ideal for effects like sprinkles on donuts, dust on props, or water droplets on a can.",
+  "category_path": [
+    "geometry_nodes",
+    "scattering"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_surface_scattering_sugar_coat_9eeb6c45",
+  "skill_name": "Procedural Sugar Coating",
+  "source": {
+    "channel": "Blender Guru",
+    "duration_sec": 848,
+    "type": "youtube",
+    "video_id": "aO0eUnu0hO0",
+    "video_title": "Blender Tutorial: Geometry Nodes for Beginners - Part 1",
+    "video_url": "https://www.youtube.com/watch?v=aO0eUnu0hO0",
+    "views": 926711
+  },
+  "tags": [
+    "geometry_nodes",
+    "scattering",
+    "instancing",
+    "procedural",
+    "surface_detail"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:29:57Z",
+  "wash_version": "1.0.0"
+}

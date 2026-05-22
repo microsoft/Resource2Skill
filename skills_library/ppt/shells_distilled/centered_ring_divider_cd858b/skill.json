@@ -1,0 +1,64 @@
+{
+  "skill_id": "centered_ring_divider_cd858b",
+  "skill_type": "shell",
+  "name": "Centered Ring Divider",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "section_divider",
+      "cover"
+    ],
+    "content_shape": [
+      "centered-ring-with-text"
+    ],
+    "density": "low",
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 40,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subtitle",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 80,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/centered_ring_divider_cd858b/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "segmented_radial_infographic_precision_d_9c5077e4",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "overlap_ok": false,
+    "contrast_ok": true,
+    "usage_count": 0
+  },
+  "_distill_reasoning": "Abstracts the central circular graphic and vertical line from the image into a bold, minimalist section divider with centered text.",
+  "_distill_attempts": 1
+}

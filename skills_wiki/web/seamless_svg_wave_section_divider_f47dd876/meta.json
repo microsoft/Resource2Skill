@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "seamless_svg_wave_section_divider_f47dd876",
+  "skill_name": "Seamless SVG Wave Section Divider",
+  "source": {
+    "channel": "Web Dev Simplified",
+    "duration_sec": 2761,
+    "type": "youtube",
+    "video_id": "K8BigvW7sZU",
+    "video_title": "Responsive Landing Page Tutorial - HTML/CSS",
+    "video_url": "https://www.youtube.com/watch?v=K8BigvW7sZU",
+    "views": 47934
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:08:15Z",
+  "wash_version": "1.0.0"
+}

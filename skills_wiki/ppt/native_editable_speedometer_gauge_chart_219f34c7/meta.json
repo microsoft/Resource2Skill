@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for displaying a single key performance indicator (KPI) within executive dashboards or project status reports. The gauge provides immediate qualitative context (e.g., good, average, poor) for the metric.",
+  "category_path": [
+    "charts",
+    "gauge"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "native_editable_speedometer_gauge_chart_219f34c7",
+  "skill_name": "Editable Speedometer Gauge Chart",
+  "source": {
+    "channel": "Presentation Process",
+    "duration_sec": 743,
+    "type": "youtube",
+    "video_id": "nZzCtfIEwck",
+    "video_title": "How to Create STUNNING Speedometer Chart Template in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=nZzCtfIEwck",
+    "views": 95316
+  },
+  "tags": [
+    "kpi",
+    "dashboard",
+    "gauge",
+    "performance",
+    "meter"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:16Z",
+  "wash_version": "1.0.0"
+}

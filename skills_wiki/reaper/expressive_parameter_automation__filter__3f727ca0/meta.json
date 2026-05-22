@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "expressive_parameter_automation__filter__3f727ca0",
+  "skill_name": "Expressive Parameter Automation (Filter & Volume Swell)",
+  "source": {
+    "channel": "REAPER Mania",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=ckjl-rpzDPA"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:05:18Z",
+  "wash_version": "1.0.0"
+}

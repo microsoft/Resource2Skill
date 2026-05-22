@@ -1,0 +1,57 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "grid_based_dashboard_shell_f31173bb",
+  "skill_name": "Grid-Based Dashboard Shell",
+  "source": {
+    "channel": "Vedakarna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=rxmxAXJa6xY"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:43:11Z",
+  "wash_version": "1.0.0",
+  "visual": {
+    "recap": {
+      "model": "gemini-2.5-flash",
+      "timestamps": [
+        {
+          "seconds": 2,
+          "description": "Overview of the completed interactive sales & profit dashboard"
+        },
+        {
+          "seconds": 900,
+          "description": "Basic layout of the dashboard created with rounded rectangle shapes"
+        },
+        {
+          "seconds": 1520,
+          "description": "Dashboard populated with key metrics, profit by year bar chart, and sales by category funnel chart"
+        },
+        {
+          "seconds": 2110,
+          "description": "Dashboard with all charts, including customer count, sales by state, top customers profit, and sales by month"
+        },
+        {
+          "seconds": 2540,
+          "description": "Fully interactive dashboard with category, year, and month slicers applied"
+        }
+      ],
+      "frames": [
+        "frame_00_overview_of_the_completed_inte.jpg",
+        "frame_01_basic_layout_of_the_dashboard_.jpg",
+        "frame_02_dashboard_populated_with_key_m.jpg"
+      ],
+      "recapped_at": 1777406832.4056985
+    },
+    "primary_path": "frame_00_overview_of_the_completed_inte.jpg"
+  }
+}

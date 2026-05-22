@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this layout to create a high-impact visual comparison between two opposing concepts, such as before/after, problem/solution, or old/new paradigms. It is ideal for keynotes and conceptual presentations.",
+  "category_path": [
+    "layout",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bifurcated_minimalist_dichotomy_split_sc_fa37ede7",
+  "skill_name": "Split-Screen Contrast Layout",
+  "source": {
+    "channel": "TED",
+    "duration_sec": 1053,
+    "type": "youtube",
+    "video_id": "CVa_IZVzUoc",
+    "video_title": "Design at the Intersection of Technology and Biology | Neri Oxman | TED Talks",
+    "video_url": "https://www.youtube.com/watch?v=CVa_IZVzUoc",
+    "views": 898666
+  },
+  "tags": [
+    "split-screen",
+    "contrast",
+    "minimalist",
+    "comparison",
+    "dichotomy"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:53:33Z",
+  "wash_version": "1.0.0"
+}

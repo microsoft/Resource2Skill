@@ -1,0 +1,12 @@
+{
+  "name": "CHOOSE Formula for Dynamic Scenario Selection",
+  "description": "Dynamically selects an assumption value based on a scenario index. This formula is typically placed in a dynamic assumption row.",
+  "formula_string": "=CHOOSE(Cover!$C$6, G26, G27, G28)",
+  "cell_references": {
+    "Cover!$C$6": "The absolute reference to the scenario selector cell on the 'Cover' sheet (e.g., 1, 2, or 3).",
+    "G26": "The relative reference to the assumption value for scenario 1 in the current forecast year.",
+    "G27": "The relative reference to the assumption value for scenario 2 in the current forecast year.",
+    "G28": "The relative reference to the assumption value for scenario 3 in the current forecast year."
+  },
+  "notes": "This formula should be entered into the first forecasted year's cell of the dynamic assumption row (e.g., G17 for Revenue Growth Rate). Ensure 'Cover!$C$6' is an absolute reference using F4. The scenario-specific values (G26, G27, G28) should be relative references to allow them to adjust when the formula is dragged horizontally across all forecasted years. This snippet assumes three scenarios, but can be extended for more values in the CHOOSE function."
+}

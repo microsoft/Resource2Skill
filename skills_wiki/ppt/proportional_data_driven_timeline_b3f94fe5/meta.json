@@ -1,0 +1,35 @@
+{
+  "applicability": "Use to visualize a sequence of events where the relative time between them is as important as the events themselves. Ideal for project roadmaps, corporate histories, or process tracking.",
+  "category_path": [
+    "diagram",
+    "timeline"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "proportional_data_driven_timeline_b3f94fe5",
+  "skill_name": "Proportional Timeline",
+  "source": {
+    "channel": "Karina Adcock",
+    "duration_sec": 356,
+    "type": "youtube",
+    "video_id": "fMC-Bn86Q4w",
+    "video_title": "How to make a timeline in powerpoint",
+    "video_url": "https://www.youtube.com/watch?v=fMC-Bn86Q4w",
+    "views": 399286
+  },
+  "tags": [
+    "timeline",
+    "roadmap",
+    "chronology",
+    "data-driven",
+    "history"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:09:49Z",
+  "wash_version": "1.0.0"
+}

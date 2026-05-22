@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "tactile_architectural_editorial_70a2333b",
+  "skill_name": "Tactile Architectural Editorial",
+  "source": {
+    "channel": "DamiLee",
+    "duration_sec": 1191,
+    "type": "youtube",
+    "video_id": "fijZPi26lKs",
+    "video_title": "Architecture Presentation Tips | 4 FUNDAMENTAL Principles",
+    "video_url": "https://www.youtube.com/watch?v=fijZPi26lKs",
+    "views": 136709
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:20:01Z",
+  "wash_version": "1.0.0"
+}

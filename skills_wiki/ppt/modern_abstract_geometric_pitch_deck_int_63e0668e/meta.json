@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating a strong first impression in high-stakes presentations like startup pitch decks, agency portfolios, or 'About Us' sections. This design signals a modern, design-forward brand identity.",
+  "category_path": [
+    "layout",
+    "title_slide"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_abstract_geometric_pitch_deck_int_63e0668e",
+  "skill_name": "Modern Geometric Introduction Slide",
+  "source": {
+    "channel": "Envato Tuts+",
+    "duration_sec": 364,
+    "type": "youtube",
+    "video_id": "hDDfO5T7pOQ",
+    "video_title": "What Is a PowerPoint Slide Deck?",
+    "video_url": "https://www.youtube.com/watch?v=hDDfO5T7pOQ",
+    "views": 36490
+  },
+  "tags": [
+    "pitch deck",
+    "title slide",
+    "geometric",
+    "modern design",
+    "abstract",
+    "introduction"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:51:06Z",
+  "wash_version": "1.0.0"
+}

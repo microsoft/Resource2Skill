@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for mapping cross-functional business processes, visualizing event sequences and distinct role responsibilities. It excels in depicting hand-offs and dependencies between teams.",
+  "category_path": [
+    "diagrams",
+    "process_flow"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "swimlane_process_flowchart_430c3088",
+  "skill_name": "Swimlane Process Flowchart",
+  "source": {
+    "channel": "David McLachlan",
+    "duration_sec": 431,
+    "type": "youtube",
+    "video_id": "t0Dvlht4JU4",
+    "video_title": "Making a Swimlane Flow Chart in PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=t0Dvlht4JU4",
+    "views": 185389
+  },
+  "tags": [
+    "process mapping",
+    "flowchart",
+    "workflow",
+    "business process",
+    "cross-functional",
+    "sops"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:27Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for product feature comparisons, pricing structures, or step-by-step specifications. Transforms structured data lists into a modern UI dashboard aesthetic, enhancing visual appeal.",
+  "category_path": [
+    "data_display",
+    "tabular_list"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "chevron_tabular_graphic_list_68fbb293",
+  "skill_name": "Chevron-Tabular Graphic List",
+  "source": {
+    "channel": "SketchBubble",
+    "duration_sec": 82,
+    "type": "youtube",
+    "video_id": "u1eHKdXHeYw",
+    "video_title": "List of Products Animated PowerPoint Template",
+    "video_url": "https://www.youtube.com/watch?v=u1eHKdXHeYw",
+    "views": 25
+  },
+  "tags": [
+    "chevron",
+    "tabular data",
+    "list",
+    "product comparison",
+    "modern UI",
+    "no gridlines"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:56:07Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "symmetrical_node_flow_infographic_styliz_fd7501f5",
+  "skill_name": "Symmetrical Node Flow Infographic (Stylized Barbell)",
+  "source": {
+    "channel": "Infographics Design",
+    "duration_sec": 749,
+    "type": "youtube",
+    "video_id": "0AHDOGDE764",
+    "video_title": "PowerPoint Infographic Slide Design tutorial 2021 | Attractive ppt presentation template",
+    "video_url": "https://www.youtube.com/watch?v=0AHDOGDE764",
+    "views": 4954
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:28:22Z",
+  "wash_version": "1.0.0"
+}

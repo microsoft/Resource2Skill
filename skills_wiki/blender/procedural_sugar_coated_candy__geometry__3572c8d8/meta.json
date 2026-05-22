@@ -1,0 +1,24 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_sugar_coated_candy__geometry__3572c8d8",
+  "skill_name": "Procedural Sugar-Coated Candy (Geometry Nodes Scatter)",
+  "source": {
+    "channel": "Blender Guru",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=aO0eUnu0hO0"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T10:37:06Z",
+  "wash_version": "1.0.0"
+}

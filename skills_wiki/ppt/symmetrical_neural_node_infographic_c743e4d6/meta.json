@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this infographic to visually represent a central concept with multiple, equally-weighted supporting points, such as top 10 lists, product features, or strategic pillars. The symmetrical layout is ideal for balanced comparisons.",
+  "category_path": [
+    "diagram",
+    "hub_and_spoke"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "symmetrical_neural_node_infographic_c743e4d6",
+  "skill_name": "Symmetrical Hub & Spoke Diagram",
+  "source": {
+    "channel": "Data Analysis and Infographics",
+    "duration_sec": 595,
+    "type": "youtube",
+    "video_id": "su29t1fn1sg",
+    "video_title": "9.{Adobe Illustrator+PowerPoint} 10 Option Modern Infographic | PowerPoint Presentation tools",
+    "video_url": "https://www.youtube.com/watch?v=su29t1fn1sg",
+    "views": 3640
+  },
+  "tags": [
+    "infographic",
+    "hub and spoke",
+    "diagram",
+    "list",
+    "symmetrical"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:18:56Z",
+  "wash_version": "1.0.0"
+}

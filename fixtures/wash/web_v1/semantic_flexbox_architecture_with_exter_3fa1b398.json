@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "semantic_flexbox_architecture_with_exter_3fa1b398",
+  "source": {
+    "channel": "LearnCode.academy",
+    "duration_sec": 549,
+    "type": "youtube",
+    "video_id": "iXSSHlOe47s",
+    "video_title": "HTML CSS TUTORIAL FOR BEGINNERS - multiple pages",
+    "video_url": "https://www.youtube.com/watch?v=iXSSHlOe47s",
+    "views": 711902
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

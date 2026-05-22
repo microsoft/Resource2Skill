@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "animated_morphing_hamburger_off_screen_s_e1f3be11",
+  "source": {
+    "channel": "Treehouse",
+    "duration_sec": 227,
+    "type": "youtube",
+    "video_id": "aNDqzlAKmZc",
+    "video_title": "Build a Hamburger Menu with HTML, CSS, and JavaScript | Treehouse Tips",
+    "video_url": "https://www.youtube.com/watch?v=aNDqzlAKmZc",
+    "views": 107016
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

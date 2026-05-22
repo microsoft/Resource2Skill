@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "css_art"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "elastic_svg_shape_morphing_a9aefded",
+  "source": {
+    "channel": "GSAP Learning",
+    "duration_sec": 761,
+    "type": "youtube",
+    "video_id": "Uxa9sdaeyKM",
+    "video_title": "MorphSVGPlugin: Advanced control over SVG shape tweens and morphs",
+    "video_url": "https://www.youtube.com/watch?v=Uxa9sdaeyKM",
+    "views": 152982
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

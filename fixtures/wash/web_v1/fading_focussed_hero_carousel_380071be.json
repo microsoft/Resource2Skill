@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "form_ui"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "fading_focussed_hero_carousel_380071be",
+  "source": {
+    "channel": "Adrian Twarog",
+    "duration_sec": 863,
+    "type": "youtube",
+    "video_id": "ku_97a6Bgkg",
+    "video_title": "Carousel Slider Bootstrap 5 | Slider Carousel Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=ku_97a6Bgkg",
+    "views": 327240
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

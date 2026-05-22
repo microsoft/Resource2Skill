@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "premium_industrial_dark_grid_grayscale_g_17be704d",
+  "skill_name": "Premium Industrial Dark Grid (Grayscale & Gold)",
+  "source": {
+    "channel": "GoodPello",
+    "duration_sec": 162,
+    "type": "youtube",
+    "video_id": "1hionWyBOUQ",
+    "video_title": "Architecture Animated PPT Template",
+    "video_url": "https://www.youtube.com/watch?v=1hionWyBOUQ",
+    "views": 36897
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:08:03Z",
+  "wash_version": "1.0.0"
+}

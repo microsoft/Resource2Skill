@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "aesthetic_color_coded_architecture_hiera_79ca5bbe",
+  "skill_name": "Aesthetic Color-Coded Architecture Hierarchy",
+  "source": {
+    "channel": "\u65c1\u95e8\u5de6\u9053PPT",
+    "duration_sec": 337,
+    "type": "youtube",
+    "video_id": "uwFKwOqwx5U",
+    "video_title": "\u771f\u7684\u662f\u51e0\u79d2\u949f\u505a\u597dPPT\u67b6\u6784\u56fe\uff0c\u540e\u6094\u6ca1\u6709\u65e9\u70b9\u5b66\u4f1a\uff01\u3010\u65c1\u95e8\u5de6\u9053PPT\u3011",
+    "video_url": "https://www.youtube.com/watch?v=uwFKwOqwx5U",
+    "views": 1301
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:48:13Z",
+  "wash_version": "1.0.0"
+}

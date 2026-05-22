@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for corporate, technology, or SaaS presentations requiring a modern, premium background that adds visual depth and interest while maintaining content readability.",
+  "category_path": [
+    "design_background",
+    "corporate_aesthetic"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "corporate_geometric_fluid_rings_aestheti_a1b91829",
+  "skill_name": "Corporate Geometric Fluid Rings Aesthetic",
+  "source": {
+    "channel": "bigchin",
+    "duration_sec": 331,
+    "type": "youtube",
+    "video_id": "zM_TBStciXE",
+    "video_title": "PPT\u8fd9\u6837\u8bbe\u8ba1\u6392\u7248\u597d\u770b | \u5982\u4f55\u7528\u7b80\u5355\u7684\u56fe\u5f62\u5b8c\u6210\u4e00\u5957\u6709\u8d28\u611f\u7684\u6a21\u677f\u8bbe\u8ba1\uff1f\u6709\u578b\u5e26\u611f\u7cfb\u5217PPT\u8bbe\u8ba1\u4f5c\u54c1\u7b2c4\u5b63\u52a8\u753b\u6548\u679c\u5c55\u793a",
+    "video_url": "https://www.youtube.com/watch?v=zM_TBStciXE",
+    "views": 339
+  },
+  "tags": [
+    "corporate",
+    "geometric",
+    "fluid",
+    "rings",
+    "modern",
+    "background"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:05:48Z",
+  "wash_version": "1.0.0"
+}

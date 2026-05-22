@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sleek_sales_performance_dashboard_e8016137",
+  "skill_name": "Sleek Sales Performance Dashboard",
+  "source": {
+    "channel": "SlideSalad",
+    "duration_sec": 165,
+    "type": "youtube",
+    "video_id": "0BMt8FrXW5o",
+    "video_title": "Sales KPI Dashboards PowerPoint Templates Designs | SlideSalad",
+    "video_url": "https://www.youtube.com/watch?v=0BMt8FrXW5o",
+    "views": 644
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:14:59Z",
+  "wash_version": "1.0.0"
+}

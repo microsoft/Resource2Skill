@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for executive summaries, data dashboards, portfolio skill visualizations, or product feature breakdowns where 3 to 5 independent metrics need to be highlighted with equal emphasis.",
+  "category_path": [
+    "data_visualization",
+    "dashboard",
+    "gauge"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "semi_circular_gauge_array_9b1c18ac",
+  "skill_name": "Semi-Circular Gauge Array",
+  "source": {
+    "channel": "PowerPoint School",
+    "duration_sec": 513,
+    "type": "youtube",
+    "video_id": "NPeIHbOo6s0",
+    "video_title": "PowerPoint Animated Infographics Slide Design Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=NPeIHbOo6s0",
+    "views": 637074
+  },
+  "tags": [
+    "gauge",
+    "dashboard",
+    "data visualization",
+    "comparative",
+    "infographic",
+    "modern design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:13:25Z",
+  "wash_version": "1.0.0"
+}

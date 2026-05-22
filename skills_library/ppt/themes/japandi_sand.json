@@ -1,0 +1,126 @@
+{
+  "theme_id": "japandi_sand",
+  "name": "Japandi Sand",
+  "origin": "web_distilled",
+  "source_url": "https://coolors.co/f5f1ea-d9d2c3-a68a64-6b705c-1f1f1d",
+  "source_title": "Coolors Japandi Neutral Palette",
+  "source_kind": "palette_site",
+  "palette": {
+    "bg": "#F5F1EA",
+    "panel": "#D9D2C3",
+    "accent": "#A68A64",
+    "accent2": "#6B705C",
+    "text": "#1F1F1D",
+    "muted": "#5F5A54",
+    "border": "#C8C0B2",
+    "success": "#6B705C",
+    "warning": "#B88746"
+  },
+  "typography": {
+    "title_xl": {
+      "font": "Bahnschrift",
+      "size": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "upper": false,
+      "italic": false
+    },
+    "title": {
+      "font": "Bahnschrift",
+      "size": 32,
+      "weight": 700,
+      "tracking": -0.015,
+      "upper": false,
+      "italic": false
+    },
+    "subtitle": {
+      "font": "Segoe UI",
+      "size": 20,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "body_bold": {
+      "font": "Segoe UI",
+      "size": 14,
+      "weight": 600,
+      "tracking": 0.0,
+      "upper": false,
+      "italic": false
+    },
+    "caption": {
+      "font": "Tahoma",
+      "size": 11,
+      "weight": 500,
+      "tracking": 0.04,
+      "upper": true,
+      "italic": false
+    },
+    "metric_xl": {
+      "font": "Consolas",
+      "size": 64,
+      "weight": 800,
+      "tracking": -0.03,
+      "upper": false,
+      "italic": false
+    },
+    "accent_serif": {
+      "font": "Georgia",
+      "size": 72,
+      "weight": 700,
+      "tracking": -0.01,
+      "upper": false,
+      "italic": true
+    }
+  },
+  "motif": {
+    "type": "thin_rule",
+    "description": "hairline dividers over soft paper-toned spacing"
+  },
+  "spacing": {
+    "margin": 0.6,
+    "gutter": 0.3,
+    "gap": 0.12
+  },
+  "motion": {
+    "personality": "calm",
+    "preferred_entrance": [
+      "fade",
+      "slide_in_left"
+    ],
+    "avoided_entrance": [
+      "bounce",
+      "spin"
+    ],
+    "stagger_ms": 80
+  },
+  "mood": [
+    "calm",
+    "warm",
+    "restrained"
+  ],
+  "archetype_fit": [
+    "brand",
+    "narrative",
+    "boardroom"
+  ],
+  "preferred_motion_tags": [
+    "measured",
+    "wash",
+    "hairline"
+  ],
+  "avoided_motion_tags": [
+    "glitch",
+    "confetti",
+    "bounce"
+  ]
+}

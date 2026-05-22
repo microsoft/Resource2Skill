@@ -1,0 +1,64 @@
+{
+  "skill_id": "wavy_ribbon_split_cover_f3b7c4",
+  "skill_type": "shell",
+  "name": "Wavy Ribbon Split Cover",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "cover",
+      "section_divider"
+    ],
+    "content_shape": [
+      "split-wave-text-left"
+    ],
+    "density": "low",
+    "mood": [
+      "bold",
+      "playful",
+      "editorial",
+      "corporate"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "headline",
+      "kind": "text",
+      "required": true,
+      "style": "title_xl",
+      "max_chars": 60,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "subhead",
+      "kind": "text",
+      "required": false,
+      "style": "body",
+      "max_chars": 120,
+      "aspect": null,
+      "bullet_capacity": null
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/wavy_ribbon_split_cover_f3b7c4/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "animated_paper_fold_reveal_transition_769baf7e",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "Uses rotated WAVE shapes to ingeniously recreate the dynamic, layered 3D ribbon split seen in the background tutorial, providing a striking left-aligned cover layout.",
+  "_distill_attempts": 1
+}

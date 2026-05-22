@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for software development, IT infrastructure, tech startup pitches, or data dashboards, creating a high-tech, professional atmosphere that transforms basic text slides.",
+  "category_path": [
+    "slide_design",
+    "visual_accents"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "cyber_teal_circuit_overlay_with_neon_cal_19986855",
+  "skill_name": "Cyber-Teal Circuit Overlay with Neon Callout",
+  "source": {
+    "channel": "Skills Factory",
+    "duration_sec": 785,
+    "type": "youtube",
+    "video_id": "DzPhjLPLLeg",
+    "video_title": "Microsoft PowerPoint - Presentation Tutorial in 13 MINS!  [ COMPLETE ]",
+    "video_url": "https://www.youtube.com/watch?v=DzPhjLPLLeg",
+    "views": 415443
+  },
+  "tags": [
+    "tech",
+    "cyber",
+    "circuit",
+    "neon",
+    "gradient",
+    "overlay"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:08:14Z",
+  "wash_version": "1.0.0"
+}

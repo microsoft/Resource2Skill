@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for creating high-impact title slides, section dividers, or hero statements. The diagonal split and high-contrast color scheme effectively draw attention to a short, powerful message.",
+  "category_path": [
+    "layout",
+    "title"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "modern_diagonal_split_hero_layout_e3e352f8",
+  "skill_name": "Modern Diagonal Split Hero Layout",
+  "source": {
+    "channel": "Ayesha Qudusi",
+    "duration_sec": 76,
+    "type": "youtube",
+    "video_id": "qN-UpvSIpVM",
+    "video_title": "PowerPoint wipe Animation",
+    "video_url": "https://www.youtube.com/watch?v=qN-UpvSIpVM",
+    "views": 524
+  },
+  "tags": [
+    "diagonal layout",
+    "split screen",
+    "hero slide",
+    "title slide",
+    "high contrast"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:56:38Z",
+  "wash_version": "1.0.0"
+}

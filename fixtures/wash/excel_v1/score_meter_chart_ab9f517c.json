@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "dashboard"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "score_meter_chart_ab9f517c",
+  "source": {
+    "channel": "Excel Bootcamp",
+    "duration_sec": 265,
+    "type": "youtube",
+    "video_id": "bgO0XoJsaxQ",
+    "video_title": "Build a Score Meter Chart in Excel - Infographic Chart Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=bgO0XoJsaxQ",
+    "views": 36763
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

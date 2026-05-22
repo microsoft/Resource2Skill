@@ -1,0 +1,35 @@
+{
+  "applicability": "Perfect for hero section headlines, developer portfolios, and terminal-themed designs. It creates a sense of live action and naturally draws user attention to prominent text without heavy JavaScript.",
+  "category_path": [
+    "animation",
+    "text_effects"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dynamic_pure_css_typewriter_effect_12449511",
+  "skill_name": "Dynamic Pure-CSS Typewriter Effect",
+  "source": {
+    "channel": "Clueless Expert",
+    "duration_sec": 65,
+    "type": "youtube",
+    "video_id": "yefgBA1CecI",
+    "video_title": "Typewriter Animation in CSS",
+    "video_url": "https://www.youtube.com/watch?v=yefgBA1CecI",
+    "views": 183832
+  },
+  "tags": [
+    "typewriter-effect",
+    "css-animation",
+    "text-reveal",
+    "steps-function",
+    "monospace"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:59:11Z",
+  "wash_version": "1.0.0"
+}

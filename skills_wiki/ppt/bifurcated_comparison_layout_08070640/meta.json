@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for presenting a balanced, side-by-side comparison of two opposing concepts. Widely used for pros vs. cons, risks vs. rewards, or SWOT analysis.",
+  "category_path": [
+    "layout",
+    "comparison"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "bifurcated_comparison_layout_08070640",
+  "skill_name": "Two-Column Comparison Layout",
+  "source": {
+    "channel": "Warna Slides - Multi-Purpose PowerPoint Template",
+    "duration_sec": 313,
+    "type": "youtube",
+    "video_id": "wpKi1qEteE8",
+    "video_title": "Pros & Cons, Risks & Rewards, Comparison PowerPoint Templates",
+    "video_url": "https://www.youtube.com/watch?v=wpKi1qEteE8",
+    "views": 4427
+  },
+  "tags": [
+    "comparison",
+    "pros and cons",
+    "two columns",
+    "layout",
+    "SWOT"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:53:14Z",
+  "wash_version": "1.0.0"
+}

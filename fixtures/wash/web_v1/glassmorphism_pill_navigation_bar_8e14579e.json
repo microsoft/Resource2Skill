@@ -1,0 +1,19 @@
+{
+  "category_path": [
+    "navigation"
+  ],
+  "exec_ok": null,
+  "schema_version": "1.0.0",
+  "skill_id": "glassmorphism_pill_navigation_bar_8e14579e",
+  "source": {
+    "channel": "MzCode",
+    "duration_sec": 221,
+    "type": "youtube",
+    "video_id": "MsioY73mvBI",
+    "video_title": "Create a Glass Morphism Navbar\ud83d\udd2e | Step-by-Step UI Design Tutorial (HTML/CSS) | mzcode01 #coding #css",
+    "video_url": "https://www.youtube.com/watch?v=MsioY73mvBI",
+    "views": 8643
+  },
+  "tier": "T3",
+  "wash_version": "1.0.0"
+}

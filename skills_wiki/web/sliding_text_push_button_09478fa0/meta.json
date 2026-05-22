@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for primary Call-to-Action (CTA) buttons where a modern, engaging micro-interaction is desired. It adds a polished feel to hero sections, portfolios, or landing pages without JavaScript.",
+  "category_path": [
+    "ui_element",
+    "button"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "sliding_text_push_button_09478fa0",
+  "skill_name": "Sliding Text Push Button",
+  "source": {
+    "channel": "Online Tutorials",
+    "duration_sec": 343,
+    "type": "youtube",
+    "video_id": "LqUGiTrhTlI",
+    "video_title": "Creative Button Hover Effects - Pure CSS Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=LqUGiTrhTlI",
+    "views": 6993
+  },
+  "tags": [
+    "button",
+    "hover effect",
+    "css animation",
+    "microinteraction",
+    "cta"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:08:32Z",
+  "wash_version": "1.0.0"
+}

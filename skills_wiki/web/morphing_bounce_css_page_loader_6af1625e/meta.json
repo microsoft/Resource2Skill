@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for full-page initial load screens or component-level loading states. This pure CSS solution provides a playful, lightweight indicator to keep users engaged during background processes without relying on external libraries or image assets.",
+  "category_path": [
+    "css",
+    "loaders"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "morphing_bounce_css_page_loader_6af1625e",
+  "skill_name": "Morphing Bounce CSS Loader",
+  "source": {
+    "channel": "dcode",
+    "duration_sec": 689,
+    "type": "youtube",
+    "video_id": "poaGij1gvqk",
+    "video_title": "Modern CSS Only Page Loading Animation (Web Design Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=poaGij1gvqk",
+    "views": 7209
+  },
+  "tags": [
+    "css",
+    "animation",
+    "loader",
+    "loading-spinner",
+    "keyframes"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:03:41Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for hero metrics in pitch decks, technology presentations, or dashboard summaries. It translates a standard percentage into a modern, glowing 100-dot spatial matrix with high visual impact.",
+  "category_path": [
+    "data_visualization",
+    "infographics"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "neon_glowing_grid_infographic_21fb6b3a",
+  "skill_name": "Neon Glowing Grid Infographic",
+  "source": {
+    "channel": "One Skill PPT",
+    "duration_sec": 735,
+    "type": "youtube",
+    "video_id": "apeXdreZfOM",
+    "video_title": "PowerPoint Animation Tutorial - Modern Animated Infographic (Step-by-Step)",
+    "video_url": "https://www.youtube.com/watch?v=apeXdreZfOM",
+    "views": 23235
+  },
+  "tags": [
+    "neon",
+    "percentage",
+    "matrix",
+    "dark_mode",
+    "infographic",
+    "metrics"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:21:35Z",
+  "wash_version": "1.0.0"
+}

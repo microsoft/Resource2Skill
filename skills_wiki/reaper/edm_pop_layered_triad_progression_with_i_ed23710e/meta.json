@@ -1,0 +1,35 @@
+{
+  "applicability": "Creates the foundational harmonic bed for EDM and Pop tracks using layered synthesizers. It employs smooth voice leading via chord inversions and mimics sidechain pumping for a driving feel.",
+  "category_path": [
+    "composition",
+    "chords"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "edm_pop_layered_triad_progression_with_i_ed23710e",
+  "skill_name": "EDM/Pop Layered Triad Progression",
+  "source": {
+    "channel": "The Ultimate Mixdown",
+    "duration_sec": 723,
+    "type": "youtube",
+    "video_id": "lo02kolp5uw",
+    "video_title": "Music Production Tutorial in REAPER | Chords",
+    "video_url": "https://www.youtube.com/watch?v=lo02kolp5uw",
+    "views": 1206
+  },
+  "tags": [
+    "edm",
+    "chord-progression",
+    "layering",
+    "voice-leading",
+    "pumping"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:57:39Z",
+  "wash_version": "1.0.0"
+}

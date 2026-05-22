@@ -1,0 +1,23 @@
+{
+  "applicability": "",
+  "category_path": [
+    "uncategorized"
+  ],
+  "exec_ok": null,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "rule_of_3__compositional_arrangement__a__a24b3d62",
+  "skill_name": "\"Rule of 3\" Compositional Arrangement (A-A-B Phrase Structure)",
+  "source": {
+    "channel": "Nathan James Larsen",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=iiL3K3ewfuc"
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:48:05Z",
+  "wash_version": "1.0.0"
+}

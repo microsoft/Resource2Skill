@@ -1,0 +1,37 @@
+{
+  "applicability": "Best for executive dashboards or interactive tools where you want to prevent users from interacting with raw cells and instead guide them through a clean, software-application-like interface.",
+  "category_path": [
+    "dashboard",
+    "ui_shell"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "app_like_dashboard_shell_93f2d30f",
+  "skill_name": "App-Like Dashboard Shell",
+  "source": {
+    "channel": "Vedakarna",
+    "duration_sec": 906,
+    "type": "youtube",
+    "video_id": "qdfVQc7AsVM",
+    "video_title": "Secret Excel Dashboard Buttons REVEALED \ud83d\udd25 (\ud83d\udd01 Refresh | \ud83d\udcbb Full Screen | \ud83c\udf13 Dark Mode)",
+    "video_url": "https://www.youtube.com/watch?v=qdfVQc7AsVM",
+    "views": 10941
+  },
+  "tags": [
+    "dashboard",
+    "ui_design",
+    "dark_mode",
+    "navigation_bar",
+    "hide_gridlines",
+    "sheet_view"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T08:52:34Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_wave_reticle_layout_ebd52011",
+  "skill_name": "Interlocking Wave & Reticle Layout",
+  "source": {
+    "channel": "Knowledge for Future",
+    "duration_sec": 413,
+    "type": "youtube",
+    "video_id": "IgVCGHCZMis",
+    "video_title": "How to Design Modern Team Members Slide in Microsoft PowerPoint",
+    "video_url": "https://www.youtube.com/watch?v=IgVCGHCZMis",
+    "views": 5918
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:15:52Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "applicability": "Ideal for presenting a portfolio of related examples, such as projects or case studies, in an engaging, non-linear format. It allows the audience to navigate between different visual showcases within a single, consistent slide layout.",
+  "category_path": [
+    "showcase",
+    "interactive_navigation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "infographic_showcase_with_interactive_ex_b9eeaf13",
+  "skill_name": "Interactive Portfolio Showcase",
+  "source": {
+    "channel": "Easelly: Design Tips & Tutorials",
+    "duration_sec": 113,
+    "type": "youtube",
+    "video_id": "qc0sZ_ZUmfI",
+    "video_title": "5 Ways to Use Call to Action in Your Infographic to Increase Sales and Audience Engagement",
+    "video_url": "https://www.youtube.com/watch?v=qc0sZ_ZUmfI",
+    "views": 2785
+  },
+  "tags": [
+    "interactive",
+    "portfolio",
+    "showcase",
+    "dashboard",
+    "navigation",
+    "case study"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:39:35Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "chart_data"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "diagonal_duotone_split_magazine_cover_st_0defb7de",
+  "skill_name": "Diagonal Duotone Split (Magazine Cover Style)",
+  "source": {
+    "channel": "Citizen Photography",
+    "duration_sec": 357,
+    "type": "youtube",
+    "video_id": "-EoO6zYTSwM",
+    "video_title": "How to create a magazine or book cover in powerpoint #2 | simple Photo magz",
+    "video_url": "https://www.youtube.com/watch?v=-EoO6zYTSwM",
+    "views": 1306
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T08:14:32Z",
+  "wash_version": "1.0.0"
+}

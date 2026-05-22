@@ -1,0 +1,35 @@
+{
+  "applicability": "Ideal for developer portfolios, SaaS landing pages, Web3/crypto, and gaming sites seeking a modern, high-tech aesthetic.",
+  "category_path": [
+    "hero_section"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "dark_mode_neon_glow_hero_with_glassmorph_afaef063",
+  "skill_name": "Dark Mode Neon Glow Hero with Glassmorphism Header",
+  "source": {
+    "channel": "How to Web Dev",
+    "duration_sec": 2365,
+    "type": "youtube",
+    "video_id": "V49fGLgM4WE",
+    "video_title": "Build a Responsive Developer Portfolio Website Using HTML & CSS & JavaScript",
+    "video_url": "https://www.youtube.com/watch?v=V49fGLgM4WE",
+    "views": 68677
+  },
+  "tags": [
+    "dark mode",
+    "neon glow",
+    "glassmorphism",
+    "hero section",
+    "interactive",
+    "web3"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T07:13:01Z",
+  "wash_version": "1.0.0"
+}

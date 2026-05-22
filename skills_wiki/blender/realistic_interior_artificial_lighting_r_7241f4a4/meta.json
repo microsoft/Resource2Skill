@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "realistic_interior_artificial_lighting_r_7241f4a4",
+  "skill_name": "Realistic Interior Artificial Lighting Rig (Nighttime/Windowless)",
+  "source": {
+    "channel": "CG Arch ",
+    "duration_sec": 671,
+    "type": "youtube",
+    "video_id": "VZhBF1RzQf8",
+    "video_title": "The Secret to Realistic Night Interiors in Blender - Tutorial",
+    "video_url": "https://www.youtube.com/watch?v=VZhBF1RzQf8",
+    "views": 567
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T06:42:12Z",
+  "wash_version": "1.0.0"
+}

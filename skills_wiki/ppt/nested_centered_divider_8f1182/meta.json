@@ -1,0 +1,34 @@
+{
+  "applicability": "This shell is ideal for creating strong section transitions, cover slides, or impactful announcements. It uses nested centered rectangles to draw attention to a concise headline and an optional subhead.",
+  "category_path": [
+    "slide_roles",
+    "dividers"
+  ],
+  "code": {
+    "path": "code/render.py"
+  },
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "permissive",
+  "modalities_present": [
+    "text",
+    "code"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "nested_centered_divider_8f1182",
+  "skill_name": "Nested Centered Divider",
+  "source": {
+    "type": "manual"
+  },
+  "tags": [
+    "section divider",
+    "cover slide",
+    "nested cards",
+    "minimalist",
+    "centered layout",
+    "headline focus"
+  ],
+  "tier": "T4",
+  "wash_run_at": "2026-04-27T07:14:03Z",
+  "wash_version": "1.0.0"
+}

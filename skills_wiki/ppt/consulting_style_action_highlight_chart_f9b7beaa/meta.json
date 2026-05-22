@@ -1,0 +1,37 @@
+{
+  "applicability": "Ideal for executive summaries, board decks, and strategic presentations that require clear data storytelling. It reduces cognitive load by combining a declarative takeaway with a minimalist highlight chart.",
+  "category_path": [
+    "charts",
+    "data_storytelling"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "consulting_style_action_highlight_chart_f9b7beaa",
+  "skill_name": "Consulting-Style Action Highlight Chart",
+  "source": {
+    "channel": "Analyst Academy",
+    "duration_sec": 1557,
+    "type": "youtube",
+    "video_id": "ZUeWXNK-9yA",
+    "video_title": "Data Visualization Crash Course | Consulting Best Practices",
+    "video_url": "https://www.youtube.com/watch?v=ZUeWXNK-9yA",
+    "views": 252914
+  },
+  "tags": [
+    "consulting",
+    "action title",
+    "highlight chart",
+    "minimalist",
+    "data storytelling",
+    "executive"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T09:05:45Z",
+  "wash_version": "1.0.0"
+}

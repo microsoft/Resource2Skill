@@ -1,0 +1,32 @@
+{
+  "applicability": "",
+  "category_path": [
+    "material_shader"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "visual",
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "procedural_stylized_fur_hair_object_ea887cff",
+  "skill_name": "Procedural Stylized Fur/Hair Object",
+  "source": {
+    "channel": "Ryan King Art",
+    "duration_sec": 3136,
+    "type": "youtube",
+    "video_id": "Lj2EBG2_ooQ",
+    "video_title": "Particle Systems for Beginners (Blender Tutorial)",
+    "video_url": "https://www.youtube.com/watch?v=Lj2EBG2_ooQ",
+    "views": 64381
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T09:29:07Z",
+  "wash_version": "1.0.0"
+}

@@ -1,0 +1,98 @@
+{
+  "skill_id": "dashboard_2x2_with_side_tabs_b68ea1",
+  "skill_type": "shell",
+  "name": "Dashboard 2x2 with Side Tabs",
+  "status": "candidate",
+  "intent_tags": {
+    "slide_role": [
+      "metric_dashboard"
+    ],
+    "content_shape": [
+      "2x2-grid-charts-metrics"
+    ],
+    "density": "high",
+    "mood": [
+      "technical",
+      "corporate",
+      "bold"
+    ],
+    "compatible_themes": []
+  },
+  "slots": [
+    {
+      "name": "chart_top_left",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart_bottom_left",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "chart_top_right",
+      "kind": "chart",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "label_top_right",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "label_bottom_right",
+      "kind": "text",
+      "required": false,
+      "style": "body_bold",
+      "max_chars": 20,
+      "aspect": null,
+      "bullet_capacity": null
+    },
+    {
+      "name": "metrics",
+      "kind": "bullet_list",
+      "required": true,
+      "style": null,
+      "max_chars": null,
+      "aspect": null,
+      "bullet_capacity": 2
+    }
+  ],
+  "implementation": {
+    "entrypoint": "render(slide, slots, theme)",
+    "code_path": "skills_library/ppt/shells_distilled/dashboard_2x2_with_side_tabs_b68ea1/render.py"
+  },
+  "provenance": {
+    "source": {
+      "type": "youtube",
+      "video_id": "neo_dark_analytics_dashboard_901dde61",
+      "timestamp": null
+    },
+    "distilled_by": "gemini-3.1-pro-preview@distill_shell",
+    "confidence": 0.85
+  },
+  "quality": {
+    "exec_ok": true,
+    "render_ok": true,
+    "usage_count": 0,
+    "overlap_ok": false
+  },
+  "_distill_reasoning": "A 2x2 dashboard layout with large chart areas on the left and tabbed panels on the right for secondary charts and key metrics.",
+  "_distill_attempts": 1
+}

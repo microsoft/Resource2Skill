@@ -1,0 +1,31 @@
+{
+  "applicability": "",
+  "category_path": [
+    "animation"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": false,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "hemisphere_rotational_transition_aae95253",
+  "skill_name": "Hemisphere Rotational Transition",
+  "source": {
+    "channel": "PPT\u53d8\u5f62\u8bb0",
+    "duration_sec": 138,
+    "type": "youtube",
+    "video_id": "Uamy_gPtKkw",
+    "video_title": "PowerPoint\u52a8\u753b\u5236\u4f5c\u6280\u5de7\u2014\u2014\u80cc\u666f\u65cb\u8f6c\u52a8\u753b\u6548\u679c\u7684\u5236\u4f5c\u65b9\u6cd5",
+    "video_url": "https://www.youtube.com/watch?v=Uamy_gPtKkw",
+    "views": 90
+  },
+  "tags": [],
+  "tier": "T3",
+  "wash_errors": [
+    "gemini distill returned None (helper unavailable or empty)"
+  ],
+  "wash_run_at": "2026-04-27T07:33:52Z",
+  "wash_version": "1.0.0"
+}

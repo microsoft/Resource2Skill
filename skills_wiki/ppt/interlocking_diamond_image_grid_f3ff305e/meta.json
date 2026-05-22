@@ -1,0 +1,35 @@
+{
+  "applicability": "Use this dynamic layout to showcase multiple related images, such as for team introductions, product portfolios, or company values. The diagonal grid adds energy and a modern feel to title or section slides.",
+  "category_path": [
+    "layout",
+    "image_grid"
+  ],
+  "exec_ok": null,
+  "gemini_distilled": true,
+  "license": "youtube_review_pending",
+  "modalities_present": [
+    "text"
+  ],
+  "schema_version": "1.0.0",
+  "skill_id": "interlocking_diamond_image_grid_f3ff305e",
+  "skill_name": "Interlocking Diamond Image Grid",
+  "source": {
+    "channel": "SlideTeam",
+    "duration_sec": 105,
+    "type": "youtube",
+    "video_id": "yIGRjO-3XCw",
+    "video_title": "New Product Detailed Analysis PowerPoint Presentation Slides",
+    "video_url": "https://www.youtube.com/watch?v=yIGRjO-3XCw",
+    "views": 39
+  },
+  "tags": [
+    "diamond grid",
+    "image layout",
+    "portfolio",
+    "team slide",
+    "modern design"
+  ],
+  "tier": "T3",
+  "wash_run_at": "2026-04-27T08:43:23Z",
+  "wash_version": "1.0.0"
+}
