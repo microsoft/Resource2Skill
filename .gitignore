@@ -126,3 +126,7 @@ docs/final_humanize_aha_acceptance_criteria.md
 # Local paper drafts
 Resource2Skills__*.pdf
 Resource2Skill*.pdf
+
+# Project page is published separately unless explicitly force-added.
+project_page/
+assets/pipeline_overview.png

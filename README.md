@@ -1,10 +1,12 @@
-# Resource2Skill
-
-> Distilling executable agent skills from human-created multimodal resources.
+# Resource2Skill: Distilling Executable Skills from Human-Created Resources for Software Agents
 
 [![Project](https://img.shields.io/badge/Project-Resource2Skill-blue)](#)
-[![Paper](https://img.shields.io/badge/Paper-Coming%20Soon-lightgrey)](#)
+[![Paper](https://img.shields.io/badge/Paper-arXiv%20preprint-lightgrey)](#)
 [![Code](https://img.shields.io/badge/Code-Open%20Source-green)](#)
+
+<p align="center">
+  <img src="assets/teaser.png" alt="Resource2Skill overview" width="92%">
+</p>
 
 Resource2Skill is a runtime and skill-library system for software agents. It
 converts human-created resources such as tutorial videos, reference artifacts,
@@ -13,13 +15,9 @@ an agent can browse a domain-specific skill wiki, inspect text/code/visual
 evidence, compose relevant skills, and operate real software tools to create
 artifacts.
 
-The paper is currently under review. We are releasing the runtime and skill
-libraries first; full benchmark orchestration, score aggregation, and paper
-supplementary artifacts are not included in this public repository.
-
-<p align="center">
-  <img src="assets/teaser.png" alt="Resource2Skill overview" width="92%">
-</p>
+The paper is available as an arXiv preprint. We are releasing the runtime and
+skill libraries first; full benchmark orchestration, score aggregation, and
+private evaluation artifacts are not included in this public repository.
 
 ## Highlights
 
@@ -32,8 +30,8 @@ supplementary artifacts are not included in this public repository.
 - **Real tool execution.** Domains run through MCP servers and produce actual
   files such as `.html`, `.pptx`, `.xlsx`, `.blend`, `.png`, `.mid`, and `.wav`.
 - **Open runtime boundary.** This repository focuses on the runnable system and
-  skill libraries, while internal experiments and paper-review materials remain
-  private during review.
+  skill libraries, while internal experiments and private evaluation artifacts
+  remain outside the public release.
 
 ## Supported Domains
 
@@ -242,8 +240,8 @@ Both are required for the current release.
 
 ## Citation
 
-The paper citation will be added after review.
+The arXiv citation will be added before public release.
 
 ## License
 
-Add the project license file before publishing the repository.
+This project is released under the MIT License. See `LICENSE`.

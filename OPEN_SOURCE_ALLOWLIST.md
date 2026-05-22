@@ -7,7 +7,10 @@ git add \
   .gitignore \
   README.md \
   .env.example \
+  LICENSE \
   OPEN_SOURCE_ALLOWLIST.md \
+  OPEN_SOURCE_TODO.md \
+  assets/teaser.png \
   cli.py \
   core \
   domains \
@@ -32,6 +35,8 @@ tests/
 main.tex
 reference.bib
 reference_decks/
+project_page/
+assets/pipeline_overview.png
 mc_demo/
 snapshots/
 CLAUDE.md
