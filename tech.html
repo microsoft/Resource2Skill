@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resource2Skill Technical Details | Microsoft</title>
+  <meta
+    name="description"
+    content="Technical details for Resource2Skill, a framework for distilling executable software-agent skills from human-created resources."
+  />
+  <link rel="icon" href="assets/microsoft-color.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css?v=20260714-ms-brand-03" />
+</head>
+<body class="tech-page">
+  <header class="hero-nav tech-nav">
+    <a class="brand" href="index.html" aria-label="Microsoft Resource2Skill home">
+      <span class="brand-logo">
+        <img class="brand-ms-mark" src="assets/microsoft-color.svg" width="22" height="22" alt="" aria-hidden="true" />
+        <span class="brand-name">Microsoft</span>
+      </span>
+    </a>
+    <nav class="hero-nav-links" aria-label="Primary navigation">
+      <a href="index.html">Product</a>
+      <a href="index.html#comparisons">Showcase</a>
+      <a href="index.html#results">Results</a>
+      <a href="index.html#video">Video</a>
+      <a href="https://arxiv.org/abs/2606.29538" target="_blank" rel="noopener">Paper</a>
+      <a href="https://github.com/microsoft/Resources2Skill" target="_blank" rel="noopener">Code</a>
+      <a href="https://huggingface.co/datasets/YijiaFan/Resource2Skill" target="_blank" rel="noopener">Dataset</a>
+      <a class="active" href="tech.html">Technical</a>
+    </nav>
+  </header>
+
+  <main class="tech-main">
+    <section class="tech-hero-panel">
+      <p class="tech-kicker">Technical details &amp; paper</p>
+      <h1>Resource2Skill: Distilling Executable Skills from Human-Created Resources for Software Agents</h1>
+      <p class="tech-publication">arXiv preprint</p>
+      <p class="tech-lead">
+        Resource2Skill converts tutorial videos, manuals, articles, repositories, and reference artifacts into
+        reusable skill entries that agents can browse, select, compose, and execute through domain MCP backends.
+      </p>
+      <div class="tech-stat-grid">
+        <article class="tech-stat-card">
+          <p class="stat-key">Released Domains</p>
+          <p class="stat-value">5</p>
+          <p class="stat-desc">Web, PPT, Excel, Blender, and REAPER-style audio.</p>
+        </article>
+        <article class="tech-stat-card">
+          <p class="stat-key">Evaluated Domains</p>
+          <p class="stat-value">7</p>
+          <p class="stat-desc">Paper abstraction also includes CAD and UE5.</p>
+        </article>
+        <article class="tech-stat-card">
+          <p class="stat-key">Average Lift</p>
+          <p class="stat-value">+11.9</p>
+          <p class="stat-desc">Overall point gain from skill access across model-domain cells.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tech-section abstract-section">
+      <div class="tech-section-head">
+        <p class="section-index">00</p>
+        <h2>Abstract</h2>
+      </div>
+      <article class="panel abstract-panel">
+        <p class="abstract-text">
+          Software agents can operate real tools, but domain-specific tasks still require procedural knowledge,
+          tool-use conventions, and recovery strategies. Resource2Skill turns noisy human-created resources into a
+          hierarchical multimodal Skill Wiki of reusable executable skills. At task time, an agent decomposes a
+          request, retrieves and reads relevant wiki evidence, composes selected skills, and executes through
+          MCP-mediated domain tools. Experiments across real software domains show that skill-centric execution
+          improves artifact quality over no-skill agents, flat skill libraries, retrieval-only selectors, and
+          harness baselines.
+        </p>
+      </article>
+    </section>
+
+    <section id="idea" class="tech-section">
+      <div class="tech-section-head">
+        <p class="section-index">01</p>
+        <h2>The Idea</h2>
+      </div>
+      <article class="panel text-panel">
+        <h3>Turn human tutorials into skills agents can run.</h3>
+        <p>
+          Agents succeed less on isolated facts than on reusable procedural know-how: how to decompose a goal,
+          which API pattern to use, what intermediate state to inspect, and how to recover when a step fails. We
+          call this a skill. Existing skill libraries are hand-written, text-centric, or mined from agent traces,
+          which leaves the richest human source, tutorial videos and other multimodal resources, largely unused.
+          Resource2Skill distills those resources into executable skills and organizes them as a hierarchical,
+          multimodal Skill Wiki.
+        </p>
+      </article>
+      <div class="pipeline tech-pipeline">
+        <article>
+          <span>Procedural memory</span>
+          <h3>Experience to reusable expertise</h3>
+          <p>Skills convert observations of how tasks are solved into compact instructions, code fragments, and visual references that future agents can repeatedly invoke.</p>
+        </article>
+        <article>
+          <span>Why multimodal</span>
+          <h3>Video carries what text drops</h3>
+          <p>Videos capture temporal operations and before/after visual effects; code captures executable tool patterns; articles and artifacts supply conceptual and stylistic grounding.</p>
+        </article>
+        <article>
+          <span>Skill Wiki</span>
+          <h3>One entry, four views</h3>
+          <p>Each skill bundles structured text, executable code, visual examples, metadata, and provenance, organized by domain so agents browse and inspect it like a library.</p>
+        </article>
+        <article>
+          <span>Offline and online</span>
+          <h3>A library that grows</h3>
+          <p>The same resource-to-skill operator builds the offline library and acquires new skills online when a request exposes a gap.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="method" class="tech-section">
+      <div class="tech-section-head">
+        <p class="section-index">02</p>
+        <h2>Method</h2>
+      </div>
+      <article class="panel text-panel">
+        <h3>One operator builds the library; one interface uses it.</h3>
+        <p>
+          Resource2Skill runs as four stages over a shared, MCP-mediated browse-select-execute interface. The same
+          construction operator is reused at test time, so online acquisition adds no separate pipeline. Every stage
+          shares one interface over domain-specific backends.
+        </p>
+      </article>
+      <figure class="method-figure" aria-label="Resource2Skill resource-to-skill pipeline">
+        <img src="assets/pipeline_overview.png" alt="Resource2Skill pipeline overview" />
+        <figcaption>
+          A construction operator distills resources into the hierarchical Skill Wiki; MetaBrowse retrieves
+          candidates and a language model selects from text, visual, and code views, applied through MCP to a domain
+          backend. The same operator is reused online when the offline pool is insufficient.
+        </figcaption>
+      </figure>
+      <div class="pipeline tech-pipeline">
+        <article>
+          <span>01 · Construct</span>
+          <h3>Resource to skill</h3>
+          <p>A vision-capable operator distills tutorial videos, repositories, articles, and reference artifacts into candidate skills. An acceptance predicate enforces completeness, provenance, deduplication, modality consistency, and code executability.</p>
+        </article>
+        <article>
+          <span>02 · Organize</span>
+          <h3>Hierarchical Skill Wiki</h3>
+          <p>Each accepted skill is a tuple of taxonomy path, text, visual, code, and metadata. A domain-specific tree shares one browse-and-read interface.</p>
+        </article>
+        <article>
+          <span>03 · Select</span>
+          <h3>MetaBrowse</h3>
+          <p>BM25 scores each entry's name, tags, applicability, and taxonomy path to shortlist candidates; a language model then reads their evidence and composes a small subset.</p>
+        </article>
+        <article>
+          <span>04 · Execute</span>
+          <h3>Apply, render, fill gaps</h3>
+          <p>Agent and domain share one MCP tool surface; selected skill code runs directly against the live server. When no candidate fits, the same operator distills new skills online.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="benchmark" class="tech-section">
+      <div class="tech-section-head">
+        <p class="section-index">03</p>
+        <h2>Main Results</h2>
+      </div>
+      <article class="panel text-panel">
+        <h3>Skills lift every backbone, in every domain.</h3>
+        <p>
+          Matched-brief comparison on N=80 tasks per domain across four GPT-5 backbones. The only toggle is whether
+          the agent can browse and compose the Skill Wiki or must solve free-form through the domain apply tool; the
+          judge, brief set, and decoding seed are held fixed within each cell. Scores are rubric-weighted overall,
+          in percent.
+        </p>
+      </article>
+
+      <div class="benchmark-wrap tech-benchmark-wrap">
+        <table class="results-table benchmark-table" aria-label="Main comparison: with-skill vs without-skill overall score">
+          <thead>
+            <tr>
+              <th class="col-left">Backbone</th>
+              <th class="col-left">System</th>
+              <th>Web</th>
+              <th>Excel</th>
+              <th>Reaper</th>
+              <th>PPT</th>
+              <th>Blender</th>
+              <th>CAD</th>
+              <th>UE5</th>
+              <th class="col-avg">Avg.</th>
+            </tr>
+          </thead>
+          <tbody class="bb-group">
+            <tr class="row-skills">
+              <td class="col-model" rowspan="3">GPT-5.5</td>
+              <td class="col-sys">w/ Skills</td>
+              <td>82.8</td><td>61.3</td><td>77.6</td><td>67.5</td><td>53.1</td><td>48.7</td><td>69.5</td><td class="col-avg">65.8</td>
+            </tr>
+            <tr class="row-base">
+              <td class="col-sys">w/o Skills</td>
+              <td>69.4</td><td>58.2</td><td>73.1</td><td>53.9</td><td>35.6</td><td>42.6</td><td>30.2</td><td class="col-avg">51.9</td>
+            </tr>
+            <tr class="row-delta">
+              <td class="col-sys">Delta</td>
+              <td>+13.4</td><td>+3.1</td><td>+4.5</td><td>+13.6</td><td>+17.5</td><td>+6.1</td><td>+39.3</td><td class="col-avg">+13.9</td>
+            </tr>
+          </tbody>
+          <tbody class="bb-group">
+            <tr class="row-skills">
+              <td class="col-model" rowspan="3">GPT-5.4</td>
+              <td class="col-sys">w/ Skills</td>
+              <td>82.4</td><td>76.4</td><td>77.3</td><td>64.8</td><td>44.1</td><td>55.7</td><td>67.3</td><td class="col-avg">66.9</td>
+            </tr>
+            <tr class="row-base">
+              <td class="col-sys">w/o Skills</td>
+              <td>68.7</td><td>58.6</td><td>73.2</td><td>55.4</td><td>29.5</td><td>48.7</td><td>29.1</td><td class="col-avg">51.9</td>
+            </tr>
+            <tr class="row-delta">
+              <td class="col-sys">Delta</td>
+              <td>+13.7</td><td>+17.8</td><td>+4.1</td><td>+9.4</td><td>+14.6</td><td>+7.0</td><td>+38.2</td><td class="col-avg">+15.0</td>
+            </tr>
+          </tbody>
+          <tbody class="bb-group">
+            <tr class="row-skills">
+              <td class="col-model" rowspan="3">GPT-5.4 Mini</td>
+              <td class="col-sys">w/ Skills</td>
+              <td>67.6</td><td>45.7</td><td>62.6</td><td>52.4</td><td>28.8</td><td>50.3</td><td>55.9</td><td class="col-avg">51.9</td>
+            </tr>
+            <tr class="row-base">
+              <td class="col-sys">w/o Skills</td>
+              <td>55.2</td><td>42.4</td><td>58.3</td><td>45.9</td><td>18.7</td><td>45.6</td><td>23.7</td><td class="col-avg">41.4</td>
+            </tr>
+            <tr class="row-delta">
+              <td class="col-sys">Delta</td>
+              <td>+12.4</td><td>+3.3</td><td>+4.3</td><td>+6.5</td><td>+10.1</td><td>+4.7</td><td>+32.2</td><td class="col-avg">+10.5</td>
+            </tr>
+          </tbody>
+          <tbody class="bb-group">
+            <tr class="row-skills">
+              <td class="col-model" rowspan="3">GPT-5.4 Nano</td>
+              <td class="col-sys">w/ Skills</td>
+              <td>49.5</td><td>34.6</td><td>50.5</td><td>41.3</td><td>15.8</td><td>51.4</td><td>56.3</td><td class="col-avg">42.8</td>
+            </tr>
+            <tr class="row-base">
+              <td class="col-sys">w/o Skills</td>
+              <td>42.3</td><td>31.8</td><td>48.7</td><td>38.6</td><td>12.2</td><td>45.1</td><td>24.5</td><td class="col-avg">34.7</td>
+            </tr>
+            <tr class="row-delta">
+              <td class="col-sys">Delta</td>
+              <td>+7.2</td><td>+2.8</td><td>+1.8</td><td>+2.7</td><td>+3.6</td><td>+6.3</td><td>+31.8</td><td class="col-avg">+8.1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="benchmark-caption">
+        Overall score (%), unweighted mean over the seven domain columns. Each cell is paired by brief ID, so the
+        delta rows are matched within-cell differences. CAD and UE5 are paper-only domains and are not part of the
+        public code release.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer tech-footer">
+    <p>Copyright © Microsoft · Resource2Skill</p>
+  </footer>
+
+  <script src="main.js?v=20260714-ms-brand-03"></script>
+</body>
+</html>

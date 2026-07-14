@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resource2Skill | Microsoft</title>
+  <meta
+    name="description"
+    content="Resource2Skill gives software agents a library of real human skills so they ship polished sites, decks, spreadsheets, 3D scenes, and music instead of rough drafts."
+  />
+  <link rel="icon" href="assets/microsoft-color.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css?v=20260714-ms-brand-03" />
+</head>
+<body class="home-page">
+
+  <header class="hero-nav">
+    <a class="brand" href="#top" aria-label="Microsoft Resource2Skill home">
+      <span class="brand-logo">
+        <img class="brand-ms-mark" src="assets/microsoft-color.svg" width="22" height="22" alt="" aria-hidden="true" />
+        <span class="brand-name">Microsoft</span>
+      </span>
+    </a>
+    <nav class="hero-nav-links" aria-label="Primary navigation">
+      <a class="active" href="#top">Product</a>
+      <a href="#comparisons">Showcase</a>
+      <a href="#results">Results</a>
+      <a href="#video">Video</a>
+      <a href="https://arxiv.org/abs/2606.29538" target="_blank" rel="noopener">Paper</a>
+      <a href="https://github.com/microsoft/Resources2Skill" target="_blank" rel="noopener">Code</a>
+      <a href="https://huggingface.co/datasets/YijiaFan/Resource2Skill" target="_blank" rel="noopener">Dataset</a>
+      <a href="tech.html">Technical</a>
+    </nav>
+    <button class="motion-toggle" id="motion-toggle" type="button" aria-label="Pause motion" title="Pause motion">
+      <span class="motion-toggle-icon" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <section class="hero product-hero" id="top">
+    <div class="hero-grid" id="hero-grid" aria-hidden="true">
+      <video class="hg-tile" muted loop playsinline preload="metadata"></video>
+      <video class="hg-tile" muted loop playsinline preload="metadata"></video>
+      <video class="hg-tile" muted loop playsinline preload="metadata"></video>
+      <video class="hg-tile" muted loop playsinline preload="metadata"></video>
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">A skill library for software agents</p>
+      <h1 class="hero-project">Resource2Skill</h1>
+      <p class="hero-title">
+        Resource2Skill gives software agents a library of real human skills, so they ship polished sites, decks,
+        spreadsheets, 3D scenes, and music instead of rough drafts.
+      </p>
+      <p class="hero-authors">
+        Yijia Fan<sup>3,*</sup>, Zonglin Di<sup>1,*</sup>, Zimo Wen<sup>2,*</sup>,
+        Yifan Yang<sup>3,&dagger;</sup>, Mingxi Cheng<sup>3</sup>, Qi Dai<sup>3</sup>, Bei Liu<sup>3</sup>,
+        Kai Qiu<sup>3</sup>, Yue Dong<sup>3</sup>, Ji Li<sup>3</sup>, Chong Luo<sup>3</sup>
+      </p>
+      <p class="hero-affil">
+        <sup>1</sup>UC Santa Cruz &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        <sup>2</sup>Shanghai Jiao Tong University &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        <sup>3</sup>Microsoft
+      </p>
+      <p class="hero-corr">
+        <sup>*</sup>Equal contribution &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        <sup>&dagger;</sup>Corresponding author: <a href="mailto:yifanyang@microsoft.com">yifanyang@microsoft.com</a>
+      </p>
+      <div class="hero-orgs" aria-label="Affiliations">
+        <span class="org">
+          <span class="org-logo"><img class="org-img" src="assets/logos/ucsc.svg" alt="" /></span>
+          <span class="org-name">UC Santa Cruz</span>
+        </span>
+        <span class="org">
+          <span class="org-logo"><img class="org-img" src="assets/logos/sjtu.png" alt="" /></span>
+          <span class="org-name">Shanghai Jiao Tong University</span>
+        </span>
+        <span class="org">
+          <span class="org-logo">
+            <img class="org-img ms-org-img" src="assets/microsoft-color.svg" width="36" height="36" alt="" />
+          </span>
+          <span class="org-name">Microsoft</span>
+        </span>
+      </div>
+
+      <div class="hero-actions">
+        <a class="action primary" href="#comparisons">See the showcase</a>
+        <a class="action ghost" href="https://arxiv.org/abs/2606.29538" target="_blank" rel="noopener">
+          <img class="action-logo" src="assets/logos/arxiv.svg" alt="" aria-hidden="true" />Paper
+        </a>
+        <a class="action ghost" href="https://github.com/microsoft/Resources2Skill" target="_blank" rel="noopener">
+          <img class="action-logo" src="assets/logos/github.svg" alt="" aria-hidden="true" />Code
+        </a>
+        <a class="action ghost" href="https://huggingface.co/datasets/YijiaFan/Resource2Skill" target="_blank" rel="noopener">
+          <img class="action-logo" src="assets/logos/huggingface.svg" alt="" aria-hidden="true" />Dataset
+        </a>
+        <a class="action ghost" href="#video">
+          <img class="action-logo" src="assets/logos/youtube.svg" alt="" aria-hidden="true" />Watch Video
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main id="results-main" class="results-main product-main">
+
+    <section id="video" class="results-section video-section">
+      <div class="section-header compact-header">
+        <p class="eyebrow">Project Video</p>
+        <h2>Watch the system in motion.</h2>
+        <p class="section-intro">
+          A short walkthrough of skill construction, selection, and execution across authoring domains.
+        </p>
+      </div>
+      <div class="video-embed" id="video-embed" data-full="assets/videos/project_video_full.mp4?v=20260625-ppt-recipe-33">
+        <video class="video-preview" muted loop playsinline preload="metadata"
+               src="assets/videos/project_preview.mp4?v=20260625-ppt-recipe-33"></video>
+        <button class="video-facade" type="button" aria-label="Play the full project video with sound">
+          <span class="video-facade-play" aria-hidden="true"></span>
+          <span class="video-facade-label">Watch full video</span>
+        </button>
+        <a class="video-yt-link" href="https://www.youtube.com/watch?v=03gtIwEZX7s" target="_blank" rel="noopener">YouTube&nbsp;&#8599;</a>
+      </div>
+    </section>
+
+    <section id="method" class="paper-section method-section reveal" aria-label="How Resource2Skill works">
+      <div class="paper-intro">
+        <p class="eyebrow">How it works</p>
+        <h2>One library, built once — browsed, selected, and run by the agent.</h2>
+        <p>
+          Resource2Skill distills tutorials, repositories, and reference artifacts into a hierarchical
+          <strong>Skill Wiki</strong>. At run time an agent browses candidates, selects from text, visual, and code
+          views, and executes the chosen skills through <strong>MCP</strong> into each domain's real software backend
+          — the same construction operator is reused online when the offline pool falls short.
+        </p>
+      </div>
+      <figure class="paper-figure">
+        <img src="assets/pipeline_paper.png" alt="Resource2Skill pipeline: distill resources into a Skill Wiki, then browse, select, and execute through MCP into domain backends." loading="lazy" />
+      </figure>
+    </section>
+
+    <section id="results" class="paper-section results-section reveal" aria-label="Benchmark results">
+      <div class="paper-intro">
+        <p class="eyebrow">Results</p>
+        <h2>Skills lift every domain.</h2>
+        <p>
+          Task scores on the 7-domain benchmark with a <strong>GPT-5.4</strong> backbone — the same agent, with vs
+          without the Resource2Skill library. Skills help everywhere, from <strong>+4.1</strong> on Reaper to
+          <strong>+38.2</strong> on UE5, for a <strong>+15.0</strong> average lift.
+        </p>
+      </div>
+      <div class="bench-chart">
+        <div class="bench-legend"><span class="k k-wo"></span>Without skills<span class="k k-w"></span>With skills</div>
+        <div class="bench-plot">
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:68.7%"><span>68.7</span></div>
+            <div class="bar bar-w" style="height:82.4%"><span>82.4</span></div>
+          </div>
+          <div class="bench-label">Web</div>
+          <div class="bench-delta">+13.7</div>
+        </div>
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:58.6%"><span>58.6</span></div>
+            <div class="bar bar-w" style="height:76.4%"><span>76.4</span></div>
+          </div>
+          <div class="bench-label">Excel</div>
+          <div class="bench-delta">+17.8</div>
+        </div>
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:73.2%"><span>73.2</span></div>
+            <div class="bar bar-w" style="height:77.3%"><span>77.3</span></div>
+          </div>
+          <div class="bench-label">Reaper</div>
+          <div class="bench-delta">+4.1</div>
+        </div>
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:55.4%"><span>55.4</span></div>
+            <div class="bar bar-w" style="height:64.8%"><span>64.8</span></div>
+          </div>
+          <div class="bench-label">PPT</div>
+          <div class="bench-delta">+9.4</div>
+        </div>
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:29.5%"><span>29.5</span></div>
+            <div class="bar bar-w" style="height:44.1%"><span>44.1</span></div>
+          </div>
+          <div class="bench-label">Blender</div>
+          <div class="bench-delta">+14.6</div>
+        </div>
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:48.7%"><span>48.7</span></div>
+            <div class="bar bar-w" style="height:55.7%"><span>55.7</span></div>
+          </div>
+          <div class="bench-label">CAD</div>
+          <div class="bench-delta">+7.0</div>
+        </div>
+        <div class="bench-group">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:29.1%"><span>29.1</span></div>
+            <div class="bar bar-w" style="height:67.3%"><span>67.3</span></div>
+          </div>
+          <div class="bench-label">UE5</div>
+          <div class="bench-delta">+38.2</div>
+        </div>
+        <div class="bench-group is-avg">
+          <div class="bench-pair">
+            <div class="bar bar-wo" style="height:51.9%"><span>51.9</span></div>
+            <div class="bar bar-w" style="height:66.9%"><span>66.9</span></div>
+          </div>
+          <div class="bench-label">Avg</div>
+          <div class="bench-delta">+15.0</div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparisons" class="results-section showcase-section">
+      <div class="section-header showcase-header reveal">
+        <p class="eyebrow">The Showcase</p>
+        <h2>Same task. With skills vs without.</h2>
+        <p class="section-intro">
+          Large, synchronized comparisons across the released domains. Each row uses the same task and model; the
+          only visible difference is whether the agent can browse and compose Resource2Skill skills.
+        </p>
+      </div>
+      <div id="comparison-grid"></div>
+    </section>
+
+
+    <section id="paper" class="how-section reveal" aria-label="How Resource2Skill works">
+      <p>
+        Resource2Skill distills tutorials, code, documents, and reference artifacts into executable skill entries
+        that agents can browse, select, compose, and run through real software tools.
+      </p>
+      <a class="text-link" href="tech.html">Technical details &amp; paper &rarr;</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Copyright © Microsoft · Resource2Skill</p>
+  </footer>
+
+  <script src="main.js?v=20260714-ms-brand-03"></script>
+</body>
+</html>
