@@ -142,12 +142,45 @@ class _DryRunMCPWrapper:
 
 
 def _extract_text(call_result) -> str:
-    """Extract text content from an MCP CallToolResult."""
-    if hasattr(call_result, "content"):
-        for item in call_result.content:
-            if hasattr(item, "text"):
-                return item.text
-    return str(call_result)
+    """Extract text content from an MCP CallToolResult.
+
+    FastMCP serializes a `list[dict]` tool return as a `content` list with
+    one `TextContent` per element. The previous version of this function
+    returned only the first item — silently dropping the rest. That bug made
+    every multi-result tool (search_skills returning k=5 → 1 visible result,
+    list_skills returning N → 1) behave as if it returned a single item.
+
+    Behavior now:
+      - 0 items → str(call_result) fallback
+      - 1 item  → that item's text (covers scalar-returning tools)
+      - 2+ items, each JSON-parseable → wrap as a single JSON array literal
+      - 2+ items, not all JSON → newline-join the texts
+    """
+    if not hasattr(call_result, "content"):
+        return str(call_result)
+    texts: list[str] = []
+    for item in call_result.content:
+        if hasattr(item, "text"):
+            texts.append(item.text)
+    if not texts:
+        return str(call_result)
+    if len(texts) == 1:
+        return texts[0]
+    # Multi-item: try JSON-array packaging so the agent sees a normal list.
+    parsed: list[Any] = []
+    all_json = True
+    for t in texts:
+        try:
+            parsed.append(json.loads(t))
+        except (json.JSONDecodeError, TypeError):
+            all_json = False
+            break
+    if all_json:
+        try:
+            return json.dumps(parsed, ensure_ascii=False, indent=2)
+        except (TypeError, ValueError):
+            pass
+    return "\n".join(texts)
 
 
 _MCP_ENV_PATTERN = re.compile(r"\$\{([^}:]+)(?::-([^}]*))?\}")

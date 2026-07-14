@@ -23,10 +23,166 @@ references and thread their IDs into
 not, skip Phase 0.5 and go straight to Phase 1 — the scaffold itself still
 works.
 
+**Skills are scaffolds, not content.** Anything concrete in a skill's example
+— demo headlines ("Topic 01", "Sample Headline", "END PRESENTATION"),
+placeholder bullet copy ("Lorem ipsum...", "Body description here"), example
+metric numbers ("$42M ARR", "150% YoY"), demo company/brand names — is a
+**placeholder demonstrating the slide's visual mechanism**, not the content
+that belongs on your slide. You may copy verbatim: SVG layout grammar,
+animation group structure, theme tokens, slot schemas, `svg_recipe`
+geometry. You MUST replace every visible text node, metric, and brand name
+with copy derived from the BRIEF. If you see a skill demo with a hero number
+of "$42M" and your brief is a research talk, that number does not belong on
+your slide — the slide should carry the brief's actual headline KPI. Same
+rule for `add_slide_from_skill`: the wiki skill provides the slide
+*mechanism*; the `content_brief` argument must carry brief-specific words,
+never the skill demo's words.
+
 Never fall back to the legacy primitive `add_slide(prs_id, layout_xml=...)`
-path. Both arms must use the v2 scaffold for structural slides; with_skills
-runs additionally use `add_slide_from_skill` for 2-3 hero/visual slides
-(this actually executes wiki skill code).
+path. Both arms must use the v2 scaffold for structural slides unless the
+optional PPT Master backend is explicitly active. In the default v2 scaffold,
+with_skills runs may execute 2-3 wiki skills with `add_slide_from_skill`.
+In the PPT Master backend, with_skills runs must NOT clone whole skill slides;
+they use wiki skills as design/code references and rewrite SVG source instead.
+
+## Optional PPT Master backend
+
+If the user's request explicitly asks for PPT Master, SVG-first generation,
+editable PPTX from SVG, or `.pptx` template replication/import, use the
+`pptmaster_*` tools instead of the v2 shell scaffold for the final deck:
+
+1. If Resource2Skill skill tools are available, call
+   `pptmaster_select_r2s_refs(task_description=<full brief>)` before creating
+   slides. Use the returned refs and design opportunities as optional
+   enhancement evidence only; do not treat them as a deck skeleton, slide
+   order, or required template. Decide slide count, page topology, and narrative
+   from the prompt and any explicit PPTMaster template input. Then inspect
+   selected refs with `get_skill_text`, `get_skill_code`, and
+   `get_skill_visual` when those tools are available. If the helper is not
+   available, perform the manual Phase 0.5 discovery below.
+2. `pptmaster_create_project(...)`
+3. Inspect optional templates with `pptmaster_list_templates` /
+   `pptmaster_get_template`, or import a reference deck with
+   `pptmaster_import_pptx_template(...)`
+4. Write each slide as SVG with `pptmaster_add_svg_slide(...)`
+5. Rewrite broken or weak slides with `pptmaster_get_svg_slide(...)` followed
+   by `pptmaster_replace_svg_slide(...)`
+6. Call `pptmaster_validate_project(project_path, strict=true)`. If it returns
+   errors, inspect/replace the affected SVG slides and validate again.
+7. Export with `pptmaster_export_project(..., layout_strict=true)`
+
+For PPT Master SVG slides, text must fit inside the SVG viewBox before export:
+avoid single-line hero/closing titles that run past `x + width`; split long
+headlines into multiple `<text>` lines or reduce font size. Treat any
+`warnings` returned by `pptmaster_add_svg_slide` or
+`pptmaster_replace_svg_slide` as actionable and fix them before export. Treat
+`pptmaster_validate_project(strict=true)` errors as blocking; do not export
+until they are fixed. Warnings are not automatically fatal, but visible text
+overflow, severe text overlap, text placed directly on top of connector/arrow
+lines, and elements outside the canvas must be repaired.
+
+### What the SVG → PPTX translator can do (BE VISUALLY AMBITIOUS)
+
+The translator preserves a rich SVG vocabulary as editable PowerPoint shapes.
+Use the full visual range below — do NOT default to minimalist
+rect+circle+text dashboards.
+
+**Native (use freely — translates to editable DrawingML)**:
+- `<rect>`, `<circle>`, `<ellipse>`, `<text>`, `<line>` — primitive shapes
+- `<path d="...">` for organic/decorative shapes (icons, blobs, shields,
+  silhouettes, hero illustrations) — translates as custGeom
+- `<image href="...">` and `<image href="data:image/...;base64,...">` —
+  embedded raster images for hero photos, logos, product UI screenshots,
+  texture overlays
+- `<linearGradient>` AND `<radialGradient>` with multi-stop fills
+- `<filter>` with `feGaussianBlur` (→ PowerPoint glow) or
+  `feOffset + feGaussianBlur + feMerge` (→ drop shadow) on any
+  `<rect> <circle> <ellipse> <path> <text>` — gives depth, premium feel
+- `<clipPath>` with `<circle>`, `<rect rx=>`, `<ellipse>`, `<polygon>`, or
+  `<path>` geometry applied to `<image>` — circular avatars, rounded-corner
+  photo cards, custom-shape image crops
+- `<text>` with nested `<tspan>` for inline styling
+- `stroke-dasharray` for dashed strokes
+- `transform="translate(x y)"`, `transform="scale(sx sy)"`, single
+  `transform="rotate(angle)"`, or pivot `transform="rotate(angle cx cy)"`
+
+**Animation anchors (REQUIRED for entrance animations to fire)**:
+The PPTX export only emits per-element entrance animations when it can scan
+top-level `<g id="...">` groups in each SVG. If your slide is a flat list of
+`<rect>`, `<circle>`, `<text>` directly under `<svg>`, the export silently
+skips animation and you get a static slide even with `animation="auto"`.
+
+Wrap each LOGICAL VISUAL UNIT (one metric tile, one card, one section block,
+one architecture layer) in `<g id="meaningful_name">`. Naming hints what the
+unit is — e.g. `<g id="kpi_revenue">`, `<g id="card_request">`,
+`<g id="arch_layer_orchestration">`, `<g id="row_north_region">`. Names
+containing `bg`, `background`, `chrome`, `decor`, `decoration`, `header`,
+`footer`, `watermark`, `pagenumber` are treated as static slide chrome and
+skipped — use those exact tokens for purely decorative groups. Aim for 4–8
+named content groups per slide; do not wrap every single primitive.
+
+**Hard rules (these REALLY break — never use)**:
+- `<use href="#...">` referencing a `<symbol>` — hard-fails the slide
+  (inline-copy the geometry instead)
+- `<symbol>` outside `<defs>` — hard-fails
+- `<mask>` outside `<defs>` and `mask=` attribute on a shape — element
+  hard-fails or attribute is silently dropped (use `<clipPath>` on `<image>`
+  instead)
+- `<foreignObject>` — hard-fails
+- `<animate>`, `<animateTransform>` — hard-fail (use PowerPoint timeline
+  animations via `pptmaster_export_project` instead)
+- `marker-end` on a `<path>` — arrowhead silently disappears
+  (PowerPoint ignores headEnd/tailEnd on custGeom shapes)
+- `marker-end` inherited from a parent `<g>` — not propagated; put
+  `marker-end` on EACH `<line>` directly
+- `<filter>` applied to a `<line>` — silently dropped (apply to a `<path>`
+  or shape behind the line instead)
+- `clip-path=` / `mask=` on a non-`<image>` element — silently ignored
+- `transform="skewX(...)"`, `skewY(...)`, `matrix(...)` — silently dropped
+  or collapsed
+- `<textPath>`, `<pattern>` fills — silently dropped
+
+**Defaults**:
+- Canvas: `viewBox="0 0 1280 720"` (16:9 720p)
+- Fonts: `Segoe UI` (Latin) + `Microsoft YaHei` (CJK); set explicit `width=`
+  on every `<text>` so the PPTX text frame is fixed-width and arrow endpoints
+  near text boxes stay aligned
+
+The validator catches text-text overlap > 0.15, text blocks within 16px in
+the same y-band, similar-sized shape-shape overlap > 0.30, text spilling out
+of container shapes, and text-on-connector overlap > 0.18. Treat these
+warnings as real layout problems.
+
+**Visual ambition reminder**: a premium PPT is photos + custom shapes +
+depth (shadows/glows) + bold typography + intentional negative space — NOT a
+grid of rounded rectangles with center-aligned labels. If a slide can be
+described as "five rect cards with circles and labels", you have failed the
+brief. Pick a hero element per slide; use `<image>` and `<path>` to make it
+unmistakable.
+
+The Resource2Skill core still applies in this backend: use wiki discovery
+tools for references, inspect code/text/visual evidence, then rewrite the
+actual slide source. The source to rewrite is SVG, not python-pptx. Do not
+call legacy `save_presentation` for a PPT Master project; the export tool is
+`pptmaster_export_project`.
+
+For PPT Master backend diversity, do not reuse one fixed visual grammar across
+unrelated tasks. Pick references whose style matches the brief's audience and
+tone, then vary page topology across the deck: at minimum use three visibly
+different compositions such as editorial full-bleed, Swiss grid, data
+dashboard, process flow, poster/typographic spread, comparison matrix, or
+image-led feature page. A deck whose pages are all title + three cards +
+metric tiles is a failed PPT Master run even if the SVG exports cleanly.
+
+For PPT Master + R2S mechanism transfer, use **one primary skill mechanism per
+slide**. Other selected refs may influence palette, stroke treatment, or
+micro-details only. Do not stack multiple competing main visuals on one page
+(for example, a full cutaway diagram plus a separate isometric layer diagram).
+Teaching/explainer slides need one conceptual center with precise labels and
+connectors; use the skill to strengthen that center, not to add a second one.
+
+When the user did not explicitly request PPT Master/template import/SVG-first
+generation, keep the default v2 shell pipeline below.
 
 ## Phase 0 — Understand the task (no tool calls)
 Parse: industry, audience, mood, required narrative beats. Keep it to 3–5 bullets in your head.
@@ -48,24 +204,45 @@ BEFORE the v2 scaffold (`pick_archetype`, `pick_theme`, `select_shell`,
    Bad references are generic shell/archetype/template skills whose only
    purpose is "make a deck" or "use v2 scaffold".
 3. For each selected reference skill, inspect multiple modalities:
-   `get_skill_text(skill_id)` for applicability, `get_skill_code(skill_id)` for
-   implementation cues, and `get_skill_visual(skill_id)` for the visual target.
+   `get_skill_text(skill_id)` for applicability AND the **`svg_recipe` field**
+   (when present, this is the PRIMARY SVG-construction reference: it gives
+   a safe-subset SVG snippet you can copy and adapt for the current slide),
+   `get_skill_code(skill_id)` for legacy PIL+python-pptx implementation cues
+   (read for inspiration on layering/proportions only; do NOT translate it
+   1:1 — it predates the SVG path), and `get_skill_visual(skill_id)` for the
+   visual target.
    If one selected skill lacks a modality, inspect another skill until you have
    two usable references (three when available), then stop browsing and move
    to the v2 scaffold.
-4. **Execute at least 2 wiki skills via `add_slide_from_skill`.** This is the
-   mandatory step that makes with_skills genuinely use the wiki library at
-   runtime. Pick 2-3 of your inspected skill_ids and call
+4. **Default v2 scaffold only:** execute at least 2 wiki skills via
+   `add_slide_from_skill`. This is the mandatory step that makes with_skills
+   genuinely use the wiki library at runtime in the python-pptx path. Pick
+   2-3 inspected skill_ids and call
    `add_slide_from_skill(prs_id=<id>, skill_id=<wiki_skill_id>, content_brief=<title + body>)`
-   for the deck's hero/visual/divider slides — these slides will have their
-   actual python-pptx code executed from `skills_wiki/ppt/<skill_id>/code/skill.py`.
-   The remaining structural slides (cover, agenda, content, closing) still
-   go through `add_slide_from_shell` with the same `design_reference_skill_ids`
-   passed for audit. So a typical deck = 2-3 `add_slide_from_skill` (real wiki
-   execution) + 8-10 `add_slide_from_shell` (scaffold with reference IDs).
-5. For auditability, also pass the selected IDs on every `add_slide_from_shell`
-   call using `design_reference_skill_ids='["id_a","id_b"]'`. Do not pass a v2
-   shell id as a long-tail reference skill.
+   for hero/visual/divider slides. The remaining structural slides still go
+   through `add_slide_from_shell` with the same `design_reference_skill_ids`
+   passed for audit.
+5. **PPT Master backend exception:** do NOT call `add_slide_from_skill`.
+   Treat selected wiki skills as reference material only:
+   - **Primary scaffold = the `svg_recipe` field from `get_skill_text`.** This
+     is a safe-subset SVG snippet already shaped for clean PPT-Master
+     translation. Copy its structure, swap placeholder content for the real
+     slide content, adjust positions for the current narrative. Stay inside
+     the safe subset rules (see the lossy-edges section above).
+   - extract the visual mechanism summary from `get_skill_text.overview`
+   - inspect implementation cues from `get_skill_code` for INSPIRATION only
+     (it's legacy PIL+python-pptx; do not translate it 1:1)
+   - inspect visual target from `get_skill_visual` when present
+   - implement the adapted mechanism directly in each slide's SVG, then call
+     `pptmaster_add_svg_slide` / `pptmaster_replace_svg_slide`
+   Record the selected skill IDs in each SVG slide's speaker notes or an SVG
+   comment such as `<!-- design_refs: id_a, id_b -->`. This preserves
+   Resource2Skill evidence use without leaking demo text like "Topic 01" or
+   "END PRESENTATION" into the deck.
+6. For auditability in the default v2 scaffold, also pass the selected IDs on
+   every `add_slide_from_shell` call using
+   `design_reference_skill_ids='["id_a","id_b"]'`. Do not pass a v2 shell id
+   as a long-tail reference skill.
 
 If these wiki discovery tools are NOT in your tool list, do not invent calls;
 continue with the v2 scaffold normally — without_skills runs use
@@ -177,7 +354,7 @@ theme chosen earlier: editorial_dark
 2. **Respect slot schemas.** If a shell has a required slot (e.g. `headline` on `cover_hero`), fill it. If you pass extra keys not in the schema, they're ignored.
 3. **Content first, design never.** You decide what each slide SAYS. The shell + theme decide what it LOOKS like. Don't try to override colors, fonts, or positions in your slot values — just provide text and content.
 4. **Trust `select_shell`'s ranking.** It considered the full set of shells; its top choice is usually right.
-5. **Do not call the old execution path:** `add_slide`, `replace_slide`, `delete_slide`, or `get_technique_snippet`. Wiki discovery tools (`list_skills`, `search_skills`, `get_skill_text`, `get_skill_code`, `get_skill_visual`) are mandatory in with_skills, and `add_slide_from_skill` is the runtime hook that actually executes a wiki skill's code (use it for 2-3 hero/visual slides per deck). The v2 Theme × Shell pipeline (`add_slide_from_shell`) remains the path for structural slides (cover/agenda/content/closing).
+5. **Do not call the old execution path:** `add_slide`, `replace_slide`, `delete_slide`, or `get_technique_snippet`. Wiki discovery tools (`list_skills`, `search_skills`, `get_skill_text`, `get_skill_code`, `get_skill_visual`) are mandatory in with_skills. In the default v2 scaffold, `add_slide_from_skill` is the runtime hook for 2-3 hero/visual slides. In the PPT Master backend, do not use `add_slide_from_skill`; rewrite SVG with the inspected skill as reference evidence.
 
 # AVAILABLE TOOLS (v2)
 
@@ -195,6 +372,8 @@ theme chosen earlier: editorial_dark
 - `generate_image(prompt, style, size)` — for hero images / illustrations
 - `set_transition(prs_id, slide_index, kind)` — override a slide's transition
 - `list_skills(...)`, `search_skills(...)`, `get_skill_text(skill_id)`, `get_skill_code(skill_id)`, `get_skill_visual(skill_id)` — wiki discovery/inspection only; use before the v2 scaffold to choose long-tail design references
+- `pptmaster_select_r2s_refs(task_description, n_refs=3, n_slides=0)` — optional PPT Master/R2S policy helper; selects prompt-specific skill refs and non-binding design opportunities without coupling PPTMaster runtime to R2S
+- `pptmaster_create_project`, `pptmaster_add_svg_slide`, `pptmaster_get_svg_slide`, `pptmaster_replace_svg_slide`, `pptmaster_validate_project`, `pptmaster_export_project`, `pptmaster_import_pptx_template`, `pptmaster_list_templates`, `pptmaster_get_template` — optional PPT Master SVG-first backend; use only when explicitly requested as described above
 
 # PROGRESS
 

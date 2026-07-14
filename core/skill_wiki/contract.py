@@ -14,6 +14,7 @@ from __future__ import annotations
 import abc
 import json
 import logging
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -308,6 +309,82 @@ class WikiAdapter(DiscoveryContract, abc.ABC):
             return ExecutionResult.ok(skill_id, verb, target_id, detail=result).to_json()
         return ExecutionResult.ok(skill_id, verb, target_id).to_json()
 
+    def get_skill_recipe(self, skill_id: str) -> dict[str, Any]:
+        """Return the per-skill compositional recipe.
+
+        Domains can add explicit ``recipe.md`` files beside existing
+        ``text/overview.md`` and ``code/*`` assets. To avoid a brittle
+        all-at-once migration, this default implementation also synthesizes a
+        compact recipe from the overview and code asset when no explicit file
+        exists.
+        """
+        registry = getattr(self, "_registry", None)
+        if registry is None:
+            return {
+                "skill_id": skill_id,
+                "recipe": "",
+                "source": None,
+                "error": "adapter has no registry",
+            }
+        skill_dir = registry.skill_dir(skill_id)
+        entry = registry.get(skill_id) or {}
+        recipe_path = skill_dir / "recipe.md"
+        if recipe_path.exists():
+            return {
+                "skill_id": skill_id,
+                "name": entry.get("skill_name"),
+                "tags": entry.get("tags", []),
+                "confidence": _confidence_from_entry(entry),
+                "reproducibility": _reproducibility_from_entry(entry),
+                "recipe": recipe_path.read_text(encoding="utf-8", errors="ignore"),
+                "source": "recipe.md",
+            }
+
+        overview_path = skill_dir / "text" / "overview.md"
+        overview = (
+            overview_path.read_text(encoding="utf-8", errors="ignore")
+            if overview_path.exists()
+            else ""
+        )
+        code = ""
+        code_dir = skill_dir / "code"
+        if code_dir.exists():
+            for pattern in ("*.py", "*.html", "*.css", "*.js", "*.json"):
+                found = sorted(code_dir.glob(pattern))
+                if found:
+                    code = found[0].read_text(encoding="utf-8", errors="ignore")
+                    break
+        if not code and overview:
+            match = re.search(r"```(?:python|html|css|js|json)?\s*\n(.*?)```", overview, re.DOTALL | re.IGNORECASE)
+            if match:
+                code = match.group(1).strip()
+        snippet = "\n".join(code.splitlines()[:70]) if code else ""
+        overview_excerpt = "\n".join(overview.splitlines()[:80]) if overview else ""
+        recipe = (
+            f"# Recipe: {entry.get('skill_name') or skill_id}\n\n"
+            f"- skill_id: `{skill_id}`\n"
+            f"- tier: `{entry.get('tier', '')}`\n"
+            f"- confidence: `{_confidence_from_entry(entry)}`\n"
+            f"- reproducibility: `{_reproducibility_from_entry(entry)}`\n\n"
+            "## Mechanism\n\n"
+            f"{overview_excerpt or 'No overview text is available.'}\n\n"
+            "## Composable Snippet\n\n"
+            "Use this as a mechanism reference. Adapt workbook/project-specific "
+            "data, labels, timing, and roles to the current brief.\n\n"
+            "```text\n"
+            f"{snippet or 'No code snippet is available; treat this as prose-only reference.'}\n"
+            "```\n"
+        )
+        return {
+            "skill_id": skill_id,
+            "name": entry.get("skill_name"),
+            "tags": entry.get("tags", []),
+            "confidence": _confidence_from_entry(entry),
+            "reproducibility": _reproducibility_from_entry(entry),
+            "recipe": recipe,
+            "source": "synthesized",
+        }
+
     # Cache invalidation ----------------------------------------------------
 
     def reload(self) -> None:
@@ -318,3 +395,20 @@ class WikiAdapter(DiscoveryContract, abc.ABC):
         # Re-read the active backend so subsequent ensure_consistent_backend
         # calls see the post-reload value.
         self._observed_backend = self._read_active_backend()
+
+
+def _confidence_from_entry(entry: dict[str, Any]) -> str:
+    if entry.get("exec_ok") is True:
+        return "verified"
+    if entry.get("exec_ok") is False:
+        return "experimental"
+    return "source-reported"
+
+
+def _reproducibility_from_entry(entry: dict[str, Any]) -> str:
+    modalities = set(entry.get("modalities_present") or [])
+    if "code" in modalities or entry.get("tier") in {"T3", "T4", "T5"}:
+        return "snippet"
+    if "text" in modalities:
+        return "prose-only"
+    return "unknown"

@@ -25,6 +25,18 @@ either built by a runtime skill (`init_web_from_schema` /
 `add_component_from_skill`) whose exact skill id you inspected in this run, or
 by `write_file` with `from_skill_ids`, `target_node`, and `adaptation_notes`.
 
+**Skills are scaffolds, not content.** Every concrete string in a skill's example
+HTML — demo brand names ("Acme", "Foo Corp", "Lorem"), placeholder copy ("Section
+description here", "Headline goes here"), demo metric numbers ("$12M ARR",
+"150,000 users"), sample testimonial names, generic feature labels ("Feature 1",
+"Pro Plan") — is a **placeholder demonstrating layout shape**, not the copy that
+belongs on your output page. You may copy verbatim: HTML structure, CSS class
+names, grid math, animation patterns, layout topology. You MUST rewrite every
+visible text node so it reflects the brand, audience, and product from this
+brief; pull metrics from the brief's domain (don't invent generic SaaS numbers
+when the brief is about a hardware company). The brief, not the skill demo,
+defines the words on the page.
+
 1. `create_project(name=<short slug>)` — once.
 2. `search_skills(query="<brief-specific style + required sections>", k=5)` — one quick probe so the trace proves the wiki is visible.
 3. Pick 2-3 promising returned skills for the brief's visual direction

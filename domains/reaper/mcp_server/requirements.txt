@@ -1,2 +1,6 @@
 # REAPER Skill Wrapper MCP dependencies
-fastmcp>=0.1.0
+# (FastMCP ships inside `mcp` as mcp.server.fastmcp; no standalone fastmcp pkg.)
+mcp>=1.26
+pretty_midi
+mido
+# System: also needs the `fluidsynth` binary + a GM soundfont for WAV rendering.

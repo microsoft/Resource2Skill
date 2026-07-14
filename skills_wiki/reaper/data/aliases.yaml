@@ -1,0 +1,16 @@
+aliases:
+  no drums: no_drums
+  drumless: no_drums
+  brian eno: ambient
+  tim hecker: ambient
+  hammock: ambient
+  study beat: lofi
+  lo-fi: lofi
+  j dilla: boom_bap
+  nujabes: lofi
+  rhodes: rhodes
+  upright bass: walking_bass
+  vocal chop: vocal_chop
+  sub bass: low_end
+  808 bass: 808
+  riser: filter_sweep

@@ -1,0 +1,16 @@
+aliases:
+  people analytics: people_ops
+  roster: headcount
+  org chart: org_tree
+  manager tree: org_tree
+  pay analysis: compensation
+  comp: compensation
+  cell cycling: battery
+  battery cycling: battery
+  degradation: capacity_fade
+  sales ops: sales
+  opportunity: pipeline
+  weighted forecast: forecast
+  board deck: board
+  scenario matrix: scenario
+  sensitivity: scenario

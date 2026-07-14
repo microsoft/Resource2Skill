@@ -2,7 +2,7 @@
 domains/ppt/mcp_server/server.py
 PPT MCP Server — exposes slide-level tools for building PPTX presentations.
 
-Tools (10):
+Legacy Resource2Skill/python-pptx tools:
   create-presentation    — initialize a new Presentation object
   add-slide              — execute python-pptx code to add a slide
   add-slide-from-skill   — add a slide using a skill from the library
@@ -13,6 +13,9 @@ Tools (10):
   render-slide           — render a slide to base64 PNG
   list-skills            — search/browse the skill library
   get-skill-info         — get full details of a skill
+
+PPT Master SVG-first tools use the ``pptmaster_`` prefix and generate a
+project directory of SVG slides before exporting to editable native PPTX.
 
 Usage (stdio transport, launched by VideoWorldSkills agent_executor):
     python domains/ppt/mcp_server/server.py --skills-dir /path/to/skills_library/ppt
@@ -48,6 +51,8 @@ log = logging.getLogger("ppt-mcp")
 
 _engine = None
 _pptx_mod = None
+_pptmaster_mod = None
+_pptmaster_r2s_policy_mod = None
 
 
 def _get_engine():
@@ -65,6 +70,22 @@ def _get_pptx():
         from pptx.util import Inches
         _pptx_mod = {"Presentation": Presentation, "Inches": Inches}
     return _pptx_mod
+
+
+def _get_pptmaster():
+    global _pptmaster_mod
+    if not _pptmaster_mod:
+        import pptmaster_engine
+        _pptmaster_mod = pptmaster_engine
+    return _pptmaster_mod
+
+
+def _get_pptmaster_r2s_policy():
+    global _pptmaster_r2s_policy_mod
+    if not _pptmaster_r2s_policy_mod:
+        from domains.ppt import pptmaster_r2s_prompt_runner
+        _pptmaster_r2s_policy_mod = pptmaster_r2s_prompt_runner
+    return _pptmaster_r2s_policy_mod
 
 
 # ---------------------------------------------------------------------------
@@ -88,6 +109,96 @@ _prs_metadata: dict[str, dict] = {}
 # Morph anchor force-match prefix — mirrors _shell_helpers and the contract
 # at docs/ppt_morph_continuity_contract.md.
 _MORPH_ANCHOR_PREFIX = "!!sameName"
+
+_BRAND_SHELL_SPECS = {
+    "cover_brand": {
+        "skill_id": "brand_cover_6eaebf69",
+        "role": "cover",
+        "description": "Brandcover slide",
+        "slot_names": ["eyebrow", "title", "headline", "subtitle", "subheadline", "wordmark", "mark_text", "bg_keyword"],
+        "required_slots": ["title"],
+    },
+    "section_divider_brand": {
+        "skill_id": "brand_section_divider_edd4f207",
+        "role": "section_divider",
+        "description": "Brandsection divider",
+        "slot_names": ["section_index", "title", "headline", "subtitle", "footer", "bg_keyword"],
+        "required_slots": ["title"],
+    },
+    "content_grid_brand": {
+        "skill_id": "brand_content_grid_7a8e7679",
+        "role": "feature_grid",
+        "description": "Brandcontent grid",
+        "slot_names": ["title", "headline", "thesis", "subtitle", "tiles", "features", "columns", "bg_keyword"],
+        "required_slots": ["title"],
+    },
+    "data_quadrant_brand": {
+        "skill_id": "brand_data_quadrant_3cad8a69",
+        "role": "metric_dashboard",
+        "description": "Branddata quadrant",
+        "slot_names": ["title", "headline", "body", "context", "x_axis", "y_axis", "quadrant_labels", "items", "bg_keyword"],
+        "required_slots": ["title"],
+    },
+}
+
+
+def _active_brand_root() -> Path | None:
+    brand = os.environ.get("PPT_ACTIVE_BRAND", "").strip()
+    if not brand:
+        return None
+    root = _PROJECT_ROOT / "brand_wiki" / "ppt" / brand
+    return root if root.is_dir() else None
+
+
+def _brand_shell_for_role(role: str) -> str | None:
+    role = (role or "").lower()
+    if role == "cover" or "cover" in role:
+        return "cover_brand"
+    if "closing" in role or "cta" in role or "ask" in role:
+        return "section_divider_brand"
+    if "section" in role or "divider" in role:
+        return "section_divider_brand"
+    if any(token in role for token in ("feature_grid", "content", "grid", "bento")):
+        return "content_grid_brand"
+    if any(token in role for token in ("quadrant", "data", "viz", "metric", "dashboard", "hero_giant_metric")):
+        return "data_quadrant_brand"
+    return None
+
+
+def _brand_shell_entry(shell_id: str) -> dict | None:
+    root = _active_brand_root()
+    spec = _BRAND_SHELL_SPECS.get(shell_id)
+    if root is None or spec is None:
+        return None
+    skill_dir = root / "skills" / spec["skill_id"]
+    if not skill_dir.is_dir():
+        return None
+    return {
+        "shell_id": shell_id,
+        "role": spec["role"],
+        "description": spec["description"],
+        "archetype": "brand",
+        "mood": ["brand"],
+        "density": "balanced",
+        "style_tags": ["brand"],
+        "slot_names": spec["slot_names"],
+        "required_slots": spec["required_slots"],
+        "slots": spec["slot_names"],
+        "source": "brand_overlay",
+        "status": "active",
+        "ambient_capable": False,
+        "brand_skill_id": spec["skill_id"],
+    }
+
+
+def _brand_shell_entries(role: str = "") -> list[dict]:
+    if _active_brand_root() is None:
+        return []
+    if role:
+        sid = _brand_shell_for_role(role)
+        entry = _brand_shell_entry(sid) if sid else None
+        return [entry] if entry else []
+    return [e for sid in _BRAND_SHELL_SPECS if (e := _brand_shell_entry(sid))]
 
 
 def _ensure_prs_metadata(prs_id: str) -> dict:
@@ -371,6 +482,201 @@ def _save_temp(prs, prs_id: str) -> Path:
     return tmp
 
 
+def _clone_first_slide_from_pptx(prs, source_pptx: Path):
+    """Append the first slide from source_pptx to prs and return it."""
+    from pptx import Presentation as _P
+    from pptx.oxml.ns import qn
+    import copy
+
+    src_prs = _P(str(source_pptx))
+    if len(src_prs.slides) == 0:
+        raise RuntimeError("brand skill produced no slides")
+    src_slide = src_prs.slides[0]
+    new_slide = prs.slides.add_slide(prs.slide_layouts[6])
+
+    rel_map = {}
+    for r_id, rel in src_slide.part.rels.items():
+        if any(skip in rel.reltype for skip in ("slideLayout", "slideMaster", "theme", "notesMaster", "handoutMaster")):
+            continue
+        if rel.is_external:
+            rel_map[r_id] = new_slide.part.rels.get_or_add_ext_rel(rel.reltype, rel.target_ref)
+        else:
+            rel_map[r_id] = new_slide.part.rels.get_or_add(rel.reltype, rel.target_part)
+
+    for shape in src_slide.shapes:
+        elem = copy.deepcopy(shape.element)
+        for old_r_id, new_r_id in rel_map.items():
+            for attr in (qn("r:embed"), qn("r:link"), qn("r:id")):
+                for node in elem.iter():
+                    if node.get(attr) == old_r_id:
+                        node.set(attr, new_r_id)
+        new_slide.shapes._spTree.insert_element_before(elem, "p:extLst")
+
+    if src_slide.background._element is not None:
+        bg_elem = copy.deepcopy(src_slide.background._element)
+        if new_slide.background._element is not None:
+            new_slide._element.replace(new_slide.background._element, bg_elem)
+    return new_slide
+
+
+def _delete_slide(prs, slide_index: int) -> None:
+    from pptx.oxml.ns import qn
+
+    slide_id_list = prs.slides._sldIdLst
+    slide_id = slide_id_list[slide_index]
+    r_id = slide_id.get(qn("r:id"))
+    if r_id:
+        prs.part.drop_rel(r_id)
+    slide_id_list.remove(slide_id)
+
+
+def _move_last_slide_to_index(prs, index: int) -> None:
+    slide_id_list = prs.slides._sldIdLst
+    last = slide_id_list[-1]
+    slide_id_list.remove(last)
+    slide_id_list.insert(index, last)
+
+
+def _text_from_slots(slots: dict, *keys: str, default: str = "") -> str:
+    for key in keys:
+        value = slots.get(key)
+        if value is None:
+            continue
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+        if not isinstance(value, str):
+            return str(value)
+    return default
+
+
+def _columns_from_slots(slots: dict) -> list | None:
+    for key in ("columns", "tiles", "features", "stats"):
+        value = slots.get(key)
+        if isinstance(value, list):
+            out = []
+            for item in value:
+                if isinstance(item, dict):
+                    out.append({
+                        "heading": item.get("heading") or item.get("title") or item.get("label") or item.get("value") or "",
+                        "body": item.get("body") or item.get("caption") or item.get("context") or item.get("delta") or "",
+                        "outcome": item.get("outcome") or item.get("support") or "",
+                    })
+                else:
+                    out.append({"heading": str(item), "body": "", "outcome": ""})
+            return out
+    return None
+
+
+def _quadrant_items_from_slots(slots: dict) -> list | None:
+    value = slots.get("items") or slots.get("points") or slots.get("use_cases")
+    if isinstance(value, list):
+        return value
+    return None
+
+
+def _brand_shell_kwargs(shell_id: str, slots: dict) -> dict:
+    kwargs = dict(slots)
+    if shell_id == "cover_brand":
+        kwargs["title_text"] = _text_from_slots(slots, "title_text", "headline", "title", default="Untitled")
+        kwargs["body_text"] = _text_from_slots(slots, "body_text", "subheadline", "subtitle", "caption")
+        kwargs.setdefault("eyebrow", _text_from_slots(slots, "eyebrow", "kicker", "section_label"))
+        kwargs.setdefault("wordmark", _text_from_slots(slots, "wordmark", "brand", default=""))
+        kwargs.setdefault("mark_text", _text_from_slots(slots, "mark_text", default="A")[:2])
+    elif shell_id == "section_divider_brand":
+        kwargs["title_text"] = _text_from_slots(slots, "title_text", "headline", "title", "section_label", default="Section")
+        kwargs["body_text"] = _text_from_slots(slots, "body_text", "subheadline", "subtitle", "caption", "context")
+        kwargs.setdefault("section_index", _text_from_slots(slots, "section_index", "eyebrow", default="Section"))
+    elif shell_id == "content_grid_brand":
+        kwargs["title_text"] = _text_from_slots(slots, "title_text", "headline", "title", default="Overview")
+        kwargs["body_text"] = _text_from_slots(slots, "body_text", "thesis", "subtitle", "context", "caption")
+        columns = _columns_from_slots(slots)
+        if columns:
+            kwargs["columns"] = columns
+    elif shell_id == "data_quadrant_brand":
+        kwargs["title_text"] = _text_from_slots(slots, "title_text", "headline", "title", "eyebrow", default="Decision matrix")
+        kwargs["body_text"] = _text_from_slots(slots, "body_text", "context", "caption", "support", "label")
+        items = _quadrant_items_from_slots(slots)
+        if items:
+            kwargs["items"] = items
+    if not kwargs.get("bg_keyword"):
+        kwargs["bg_keyword"] = "abstract premium coffee"
+    return kwargs
+
+
+def _add_slide_from_brand_shell(
+    prs_id: str,
+    shell_id: str,
+    slots_dict: dict,
+    transition_kind: str | None,
+    slide_role: str,
+    design_reference_skill_ids: str,
+) -> str:
+    entry = _brand_shell_entry(shell_id)
+    if entry is None:
+        return f"Error: brand shell '{shell_id}' is not available"
+    prs = _presentations.get(prs_id)
+    if prs is None:
+        return f"Error: presentation '{prs_id}' not found"
+    root = _active_brand_root()
+    skill_id = entry["brand_skill_id"]
+    skill_dir = root / "skills" / skill_id
+    code_files = sorted((skill_dir / "code").glob("*.py"))
+    if not code_files:
+        return f"Error: no code asset found for brand shell '{shell_id}'"
+
+    import importlib.util
+    with tempfile.TemporaryDirectory(dir="/data/tmp") as tmpdir:
+        out = Path(tmpdir) / f"{shell_id}.pptx"
+        spec = importlib.util.spec_from_file_location(f"_brand_shell_{shell_id}", code_files[0])
+        if spec is None or spec.loader is None:
+            return f"Error: could not import brand shell '{shell_id}'"
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        create_slide = getattr(mod, "create_slide")
+        create_slide(str(out), **_brand_shell_kwargs(shell_id, slots_dict))
+        slide = _clone_first_slide_from_pptx(prs, out)
+
+    if transition_kind:
+        _apply_transition_to_slide(slide, transition_kind)
+    role = slide_role or entry["role"]
+    anchor_names = _scan_anchor_names(slide)
+    transition_set = _slide_transition_kind(slide)
+    design_refs = _parse_design_reference_skill_ids(design_reference_skill_ids or slots_dict.get("design_reference_skill_ids", ""))
+    deck_meta = _ensure_prs_metadata(prs_id)
+    deck_meta["theme"] = f"brand:{os.environ.get('PPT_ACTIVE_BRAND', '')}"
+    slot_summary = {k: (v[:60] if isinstance(v, str) else str(v)[:60]) for k, v in slots_dict.items()}
+    provenance = {
+        "skill_id": shell_id,
+        "source_video_id": "",
+        "source_timestamp": None,
+        "selection_origin": "brand_overlay",
+    }
+    slide_entry = {
+        "slide_index": len(deck_meta["slides"]),
+        "role": role,
+        "shell_id": shell_id,
+        "anchor_names_set": anchor_names,
+        "transition_set": transition_set,
+        "hero_flag": role in {"cover", "closing_cta"} or "hero" in role,
+        "ambient_flag": False,
+        "design_reference_skill_ids": design_refs,
+        "distill_provenance": provenance,
+        "slot_values_summary": slot_summary,
+        "brand_skill_id": skill_id,
+    }
+    deck_meta["slides"].append(slide_entry)
+    _attach_notes_json(slide, {
+        **slide_entry,
+        "theme": deck_meta["theme"],
+        "brand_skill_id": skill_id,
+    })
+    _save_temp(prs, prs_id)
+    return (
+        f"Added slide {len(prs.slides)} from brand shell '{shell_id}' "
+        f"(skill_id={skill_id}, transition={transition_set}, shapes={len(slide.shapes)})"
+    )
+
+
 # ---------------------------------------------------------------------------
 # Post-processing helpers
 # ---------------------------------------------------------------------------
@@ -603,7 +909,16 @@ def reload_registry() -> dict:
     return info
 
 
-@mcp.tool()
+# ============================================================================
+# python-pptx SHELL BUILD PATH — DISABLED (PPT goes through PPT Master only).
+# The @mcp.tool() decorators on the shell build tools below are commented out
+# so they are NOT registered / reachable by the agent. The shell path had
+# content-fidelity bugs (list-content slides dropped their body); deck
+# generation runs through the PPT Master SVG->native-PPTX path (pptmaster_*
+# tools + pptmaster_r2s_prompt_runner.py / demo/PPT_example/replay.sh).
+# Bodies kept as dead code for reference; do not re-enable without a fix.
+# ============================================================================
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def create_presentation(
     width_inches: float = 13.333,
     height_inches: float = 7.5,
@@ -627,7 +942,312 @@ Returns:
     return f"Created presentation {prs_id} ({ratio}, {width_inches:.2f}x{height_inches:.2f} inches)"
 
 
+def _pptmaster_error(exc: Exception) -> dict:
+    return {"error": f"{type(exc).__name__}: {exc}"}
+
+
+def _parse_pptmaster_r2s_brief(task_description: str, *, n_slides: int = 0) -> dict:
+    raw = (task_description or "").strip()
+    payload: object | None = None
+    if raw:
+        try:
+            payload = json.loads(raw)
+        except json.JSONDecodeError:
+            payload = None
+    if isinstance(payload, str):
+        raw = payload
+        payload = None
+    if isinstance(payload, dict):
+        brief = dict(payload)
+    else:
+        brief = {
+            "title": raw[:160] or "PPTMaster deck",
+            "audience": raw,
+            "core_points": [part.strip() for part in re.split(r"[.;\n]+", raw) if part.strip()][:12],
+        }
+    if n_slides and not brief.get("n_slides"):
+        brief["n_slides"] = int(n_slides)
+    return brief
+
+
 @mcp.tool()
+def pptmaster_runtime_info() -> dict:
+    """Return PPT Master adapter paths and capability flags.
+
+    This is a parallel backend to the Resource2Skill python-pptx runtime.
+    It does not replace ``create_presentation`` / ``add_slide_from_skill``;
+    use it when the deck should be authored as PPT Master SVG pages and then
+    exported to native editable PPTX.
+    """
+    try:
+        return _get_pptmaster().runtime_info()
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_select_r2s_refs(
+    task_description: str,
+    n_refs: int = 3,
+    n_slides: int = 0,
+) -> dict:
+    """Select prompt-specific Resource2Skill PPT refs for PPTMaster SVG work.
+
+    This is a policy helper, not a PPTMaster runtime primitive.  It keeps
+    Resource2Skill prompt interpretation outside ``pptmaster_engine`` while
+    giving the agent stable, prompt-specific reference IDs and non-binding
+    design opportunities before it starts authoring SVG.
+
+    ``task_description`` may be plain text or a JSON object/string containing
+    fields like ``title``, ``audience``, ``tone_words``, ``role_prefer``,
+    ``role_avoid``, ``n_slides``, and ``core_points``.
+    """
+    try:
+        policy = _get_pptmaster_r2s_policy()
+        brief = _parse_pptmaster_r2s_brief(task_description, n_slides=n_slides)
+        entries = policy._load_skill_entries()
+        domain = policy.infer_domain(brief)
+        refs = policy.select_skill_refs(brief, entries, k=max(2, min(int(n_refs or 3), 5)))
+        details = policy._ref_details(refs, entries)
+        return {
+            "domain": domain,
+            "refs": refs,
+            "ref_details": details,
+            "visual_family": policy.visual_family(domain),
+            "design_opportunities": policy.design_opportunities(domain),
+            "instructions": [
+                "Inspect these refs with get_skill_text/get_skill_code/get_skill_visual when available.",
+            "Adapt mechanisms into SVG; do not clone whole skill slides.",
+            "Use one primary skill mechanism per slide; other refs may only influence minor styling.",
+            "Avoid competing main visuals on a single slide. Explainer pages need one conceptual center with precise labels.",
+            "Record per-slide refs in SVG comments or notes as design_refs.",
+                "Do not put internal labels such as REFERENCE-ADAPTED or skill mechanisms rewritten on visible slides.",
+                "Keep PPTMaster open-ended: decide slide count, order, and topology from the prompt, using refs only as optional enhancement evidence.",
+            ],
+        }
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_create_project(
+    project_name: str,
+    canvas_format: str = "ppt169",
+    base_dir: str = "",
+) -> dict:
+    """Create a PPT Master project directory for SVG-first deck generation."""
+    try:
+        return _get_pptmaster().create_project(
+            project_name=project_name,
+            canvas_format=canvas_format,
+            base_dir=base_dir or None,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_list_svg_slides(project_path: str) -> list | dict:
+    """List SVG source slides in a PPT Master project."""
+    try:
+        return _get_pptmaster().list_svg_slides(project_path)
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_add_svg_slide(
+    project_path: str,
+    svg: str,
+    slide_name: str = "",
+    notes: str = "",
+) -> dict:
+    """Add a source SVG slide to a PPT Master project.
+
+    The SVG is the editable source code for the slide.  This is the
+    PPT Master equivalent of the legacy ``add_slide`` code path.
+    """
+    try:
+        return _get_pptmaster().write_svg_slide(
+            project_path=project_path,
+            svg=svg,
+            slide_name=slide_name,
+            notes=notes,
+            overwrite=False,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_replace_svg_slide(
+    project_path: str,
+    slide_name: str,
+    svg: str,
+    notes: str = "",
+) -> dict:
+    """Replace an existing PPT Master SVG slide.
+
+    This preserves the Resource2Skill edit loop at SVG level: inspect source,
+    rewrite source, then re-export the PPTX.
+    """
+    try:
+        return _get_pptmaster().write_svg_slide(
+            project_path=project_path,
+            svg=svg,
+            slide_name=slide_name,
+            notes=notes,
+            overwrite=True,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_get_svg_slide(project_path: str, slide_name: str) -> dict:
+    """Read one PPT Master SVG slide and matching speaker notes."""
+    try:
+        return _get_pptmaster().read_svg_slide(project_path, slide_name)
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_delete_svg_slide(project_path: str, slide_name: str) -> dict:
+    """Delete one PPT Master SVG slide and its matching notes file."""
+    try:
+        return _get_pptmaster().delete_svg_slide(project_path, slide_name)
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_finalize_project(project_path: str) -> dict:
+    """Run PPT Master's SVG finalization pass into ``svg_final/``."""
+    try:
+        result = _get_pptmaster().finalize_project(project_path)
+        return _get_pptmaster().command_result_to_dict(result)
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_export_project(
+    project_path: str,
+    output_path: str = "",
+    source: str = "output",
+    transition: str = "fade",
+    animation: str = "auto",
+    animation_trigger: str = "after-previous",
+    compat: bool = False,
+    finalize: bool = False,
+    layout_strict: bool = False,
+) -> dict:
+    """Export a PPT Master SVG project to a native editable PPTX.
+
+    ``compat=false`` uses native DrawingML only and avoids optional SVG->PNG
+    fallback dependencies.  Set ``compat=true`` if the environment has
+    svglib/reportlab installed and Office compatibility fallback images are
+    desired.
+    """
+    try:
+        return _get_pptmaster().export_project(
+            project_path=project_path,
+            output_path=output_path,
+            source=source,
+            transition=transition,
+            animation=animation,
+            animation_trigger=animation_trigger,
+            compat=compat,
+            finalize=finalize,
+            layout_strict=layout_strict,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_validate_project(project_path: str, strict: bool = False) -> dict:
+    """Validate PPTMaster SVG source layout before export.
+
+    The validator is intentionally non-prescriptive: it does not enforce a
+    template. It flags obvious layout failures such as off-canvas elements,
+    likely text overflow, severe text overlap, empty slides, and malformed SVG.
+    Use `strict=true` before final export when preparing open-source-quality
+    artifacts.
+    """
+    try:
+        return _get_pptmaster().validate_project(project_path, strict=strict)
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_import_pptx_template(
+    pptx_path: str,
+    output_dir: str = "",
+    inheritance_mode: str = "both",
+    manifest_only: bool = False,
+) -> dict:
+    """Import a reference PPTX as PPT Master template source.
+
+    The upstream importer extracts theme/font/layout/master metadata and emits
+    SVG views that agents can inspect or turn into reusable template assets.
+    """
+    try:
+        return _get_pptmaster().import_pptx_template(
+            pptx_path=pptx_path,
+            output_dir=output_dir,
+            inheritance_mode=inheritance_mode,
+            manifest_only=manifest_only,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_list_templates(kind: str = "layout") -> dict:
+    """List bundled PPT Master templates.
+
+    ``kind`` is one of ``layout``, ``brand``, ``deck``, or ``chart``.
+    """
+    try:
+        return _get_pptmaster().list_templates(kind=kind)
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_get_template(kind: str, template_id: str, svg_name: str = "") -> dict:
+    """Inspect a bundled PPT Master template and optionally return one SVG file."""
+    try:
+        return _get_pptmaster().get_template(
+            kind=kind,
+            template_id=template_id,
+            svg_name=svg_name,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+@mcp.tool()
+def pptmaster_copy_template_to_project(
+    project_path: str,
+    kind: str,
+    template_id: str,
+) -> dict:
+    """Copy a bundled PPT Master template into a project's ``templates/`` dir."""
+    try:
+        return _get_pptmaster().copy_template_to_project(
+            project_path=project_path,
+            kind=kind,
+            template_id=template_id,
+        )
+    except Exception as exc:  # noqa: BLE001
+        return _pptmaster_error(exc)
+
+
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def add_slide(prs_id: str, code: str) -> str:
     """Add a slide by executing python-pptx code.
 
@@ -798,7 +1418,7 @@ def _check_skill_clone_quality(slide, content_brief: str = "") -> list[str]:
     return warnings
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def add_slide_from_skill(
     prs_id: str,
     skill_id: str,
@@ -982,7 +1602,7 @@ Returns:
     return base_msg
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def replace_slide(prs_id: str, slide_index: int, code: str) -> str:
     """Replace an existing slide with new code.
 
@@ -1020,7 +1640,7 @@ Returns:
     return result.replace("Added", "Replaced")
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def delete_slide(prs_id: str, slide_index: int) -> str:
     """Delete a slide from the presentation.
 
@@ -1066,7 +1686,7 @@ def _auto_add_transitions(prs):
         slide._element.append(etree.fromstring(transition_xml))
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def set_transition(prs_id: str, slide_index: int, transition_type: str = "fade") -> str:
     """Set the transition effect for a slide.
 
@@ -1114,7 +1734,7 @@ def set_transition(prs_id: str, slide_index: int, transition_type: str = "fade")
     return f"Set {transition_type} transition on slide {slide_index}"
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def save_presentation(prs_id: str, output_path: str,
                       morph_lint_strict: bool = False) -> str:
     """Save the presentation to a PPTX file on disk.
@@ -1347,7 +1967,7 @@ def _append_methodology_appendix(prs, entry: dict) -> None:
 
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def get_slide_info(prs_id: str, slide_index: int) -> str:
     """Get information about a specific slide.
 
@@ -1500,7 +2120,7 @@ def _detect_overlaps(slide, prs):
     return issues
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def render_slide(prs_id: str, slide_index: int = 0) -> str:
     """Render a slide to PNG and return as base64.
 
@@ -1996,7 +2616,7 @@ def section_reveal(slide, mask_shape, title_shape, body_shapes=None, start_ms=0)
 }
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def get_technique_snippet(technique: str) -> str:
     """Get a tested visual technique code snippet (gradient_fill, shadow, freeform_arc, radial_gradient_bg).
 
@@ -2316,7 +2936,7 @@ except Exception as _v2_err:
     _V2_AVAILABLE = False
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def list_themes(archetype: str = "", mood: str = "", mode: str = "",
                 exclude_ids: str = "") -> str:
     """List theme candidates that pass pure metadata filters.
@@ -2364,7 +2984,7 @@ def list_themes(archetype: str = "", mood: str = "", mode: str = "",
     }, indent=2)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def get_theme(theme_id: str) -> str:
     """Get the full JSON for a theme (palette, typography map, motif, spacing, motion)."""
     if not _V2_AVAILABLE:
@@ -2377,7 +2997,7 @@ def get_theme(theme_id: str) -> str:
     return json.dumps(data, indent=2)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def list_shells(role: str = "", archetype: str = "", mood: str = "",
                 density: str = "", style_tags: str = "",
                 exclude_ids: str = "") -> str:
@@ -2410,6 +3030,9 @@ def list_shells(role: str = "", archetype: str = "", mood: str = "",
     exclude = {x.strip() for x in (exclude_ids or "").split(",") if x.strip()}
     raw = _v2_list_shells()
     out = []
+    for entry in _brand_shell_entries(role):
+        if entry["shell_id"] not in exclude:
+            out.append(entry)
     for s in raw:
         if "error" in s:
             continue
@@ -2453,7 +3076,7 @@ def list_shells(role: str = "", archetype: str = "", mood: str = "",
             "status": s.get("status", "active"),
             "ambient_capable": s.get("ambient_capable", False),
         })
-    out.sort(key=lambda e: e["shell_id"])
+    out.sort(key=lambda e: (0 if e.get("source") == "brand_overlay" else 1, e["shell_id"]))
     return _json.dumps({
         "filter": {"role": role, "archetype": sorted(arch_want),
                    "mood": sorted(mood_want), "density": density_want,
@@ -2464,7 +3087,7 @@ def list_shells(role: str = "", archetype: str = "", mood: str = "",
     }, indent=2)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def add_slide_from_shell(
     prs_id: str,
     shell_id: str,
@@ -2512,6 +3135,22 @@ def add_slide_from_shell(
         return f"Error: 'slots' is not valid JSON: {e}"
     if not isinstance(slots_dict, dict):
         return f"Error: 'slots' must be a JSON object, got {type(slots_dict).__name__}"
+
+    if _brand_shell_entry(shell_id) is not None:
+        transition_kind = (transition or "").strip().lower() or None
+        if transition_kind and transition_kind not in {"morph", "fade", "push", "wipe"}:
+            return (
+                f"Error: unknown transition '{transition_kind}'. "
+                "Use one of: morph, fade, push, wipe."
+            )
+        return _add_slide_from_brand_shell(
+            prs_id=prs_id,
+            shell_id=shell_id,
+            slots_dict=slots_dict,
+            transition_kind=transition_kind,
+            slide_role=slide_role,
+            design_reference_skill_ids=design_reference_skill_ids,
+        )
 
     # Load theme
     try:
@@ -2687,7 +3326,7 @@ def _role_from_shell_id(shell_id: str) -> str:
     return "content"
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def list_archetypes() -> str:
     """List available deck archetypes (narrative blueprints).
 
@@ -2713,7 +3352,7 @@ def list_archetypes() -> str:
     return "\n".join(lines)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def get_archetype(archetype_id: str) -> str:
     """Return the full section + per-slide role plan for an archetype, as JSON."""
     if not _V2_AVAILABLE:
@@ -2726,7 +3365,7 @@ def get_archetype(archetype_id: str) -> str:
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def pick_archetype(task_description: str, prs_id: str = "") -> str:
     """Let an LLM pick the best-fitting archetype for the given task.
 
@@ -2760,7 +3399,7 @@ def pick_archetype(task_description: str, prs_id: str = "") -> str:
     return json.dumps(result, indent=2, ensure_ascii=False)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def pick_theme(task_description: str, archetype_id: str = "") -> str:
     """Let an LLM pick the best-fitting theme for the given task.
 
@@ -2774,7 +3413,7 @@ def pick_theme(task_description: str, archetype_id: str = "") -> str:
     return json.dumps(result, indent=2, ensure_ascii=False)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def select_shell(
     slide_role: str,
     content_brief: str,
@@ -2803,6 +3442,19 @@ def select_shell(
     """
     if not _V2_AVAILABLE:
         return "Error: V2 retrieval not loaded"
+    brand_shell = _brand_shell_for_role(slide_role)
+    brand_entry = _brand_shell_entry(brand_shell) if brand_shell else None
+    if brand_entry is not None:
+        return json.dumps({
+            "ranked": [{
+                "shell_id": brand_entry["shell_id"],
+                "reasoning": (
+                    "Brand mode is active; this brand shell is the primary "
+                    f"constructor for slide_role={slide_role!r}."
+                ),
+            }],
+            "brand_overlay": True,
+        }, indent=2, ensure_ascii=False)
     shells = _v2_list_shells()
     filtered = _v2_filter_shells(
         shells,
@@ -2829,7 +3481,7 @@ def select_shell(
     return json.dumps(result, indent=2, ensure_ascii=False)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def suggest_morph_continuity(prs_id: str, slide_a: int, slide_b: int) -> str:
     """Inspect two slides for PowerPoint Morph compatibility.
 
@@ -3176,7 +3828,7 @@ def _apply_motion_hard_filters(motions: dict, role: str, category: str,
 
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def list_motions(role: str = "", anchor_name: str = "",
                  category: str = "", mood: str = "",
                  archetype: str = "",
@@ -3293,7 +3945,7 @@ def list_motions(role: str = "", anchor_name: str = "",
     }, indent=2)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def get_motion_info(motion_id: str) -> str:
     """Return full metadata for a single motion skill, including its
     parameter schema."""
@@ -3314,7 +3966,7 @@ def get_motion_info(motion_id: str) -> str:
     }, indent=2)
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def get_motion_code(motion_id: str) -> str:
     """Return the raw Python source of a motion skill (for LLM to
     learn techniques and adapt parameters)."""
@@ -3325,7 +3977,7 @@ def get_motion_code(motion_id: str) -> str:
     return Path(info["path"]).read_text()
 
 
-@mcp.tool()
+# @mcp.tool()  # [DISABLED: python-pptx shell path blocked — use PPT Master (pptmaster_*)]
 def apply_motion(prs_id: str, slide_index: int, motion_id: str,
                  anchor_name: str = "", params: str = "") -> str:
     """Apply a motion skill to a target shape on a slide.

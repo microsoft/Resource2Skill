@@ -1,0 +1,14 @@
+{
+  "skill_id": "battery_lab_characterization_workbook_archetype",
+  "skill_name": "Battery Lab Characterisation Workbook Archetype",
+  "tier": "T5",
+  "category_path": ["workbook", "lab_analysis", "battery"],
+  "tags": ["battery", "lab", "raw_cycles", "capacity_fade", "coulombic_efficiency", "summary_plots"],
+  "applicability": "Use for battery cycling / cell characterisation workbooks with raw cycle data, metadata, derived fade metrics, and lab-style plots.",
+  "source": {"type": "manual", "note": "Codex composable archetype for cross-domain A/B Excel briefs"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0"
+}

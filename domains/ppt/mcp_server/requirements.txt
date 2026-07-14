@@ -2,3 +2,9 @@ mcp>=1.0.0
 python-pptx>=1.0.0
 Pillow>=10.0.0
 lxml>=4.9.0
+
+# Optional PPT Master compatibility fallback:
+# pptmaster_export_project(..., compat=False) is the default and does not need
+# these. Set compat=True only when SVG->PNG fallback images are required.
+# svglib>=1.5.0
+# reportlab>=4.0.0

@@ -1,0 +1,14 @@
+{
+  "skill_id": "sales_pipeline_tracker_workbook_archetype",
+  "skill_name": "Sales Pipeline Tracker Workbook Archetype",
+  "tier": "T5",
+  "category_path": ["workbook", "sales", "pipeline"],
+  "tags": ["sales", "pipeline", "forecast", "saas", "arr", "activity_heatmap", "weighted_pipeline"],
+  "applicability": "Use for B2B SaaS sales pipeline trackers with opportunities, reps, accounts, weighted forecast, and activity heatmap.",
+  "source": {"type": "manual", "note": "Codex composable archetype for cross-domain A/B Excel briefs"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0"
+}

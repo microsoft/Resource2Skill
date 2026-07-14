@@ -1,0 +1,18 @@
+{
+  "skill_id": "scenario_dropdown_pl_linkage_mechanism",
+  "skill_name": "Scenario Dropdown P&L Linkage Mechanism",
+  "tier": "T2",
+  "category_path": ["mechanism", "scenario_modeling"],
+  "tags": ["mechanism", "scenario", "dropdown", "data_validation", "choose", "index_match", "p_and_l"],
+  "applicability": "Use when a workbook needs one scenario selector cell to drive P&L, forecast, or KPI formulas across Base, Bull, and Bear cases.",
+  "source": {"type": "manual", "note": "KDA-mode CFO mechanism page authored with GPT-5.5 high reasoning"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0",
+  "type": "mechanism",
+  "confidence": "verified",
+  "reproducibility": "snippet",
+  "related": ["rag_conditional_formatting_kpi_mechanism"]
+}

@@ -286,18 +286,27 @@ def render_workbook(wb: Workbook, *, title: str = "E-Commerce Scenario Planning 
     chart.add_data(data, titles_from_data=False)
     chart.set_categories(categories)
 
-    # Set custom titles and colors for the series
-    s1 = chart.series[0]
-    s1.tx.v = ws_model.cell(row=chart_data_start_row, column=1).value # dynamically get title from cell A32
-    s1.graphicalProperties.line.solidFill = "0000FF" # Blue
+    # Set custom titles and colors for the series. openpyxl versions differ:
+    # some create ``series.tx`` eagerly and some leave it as None.
+    try:
+        from openpyxl.chart.series import SeriesLabel
+    except Exception:  # pragma: no cover - old openpyxl fallback
+        SeriesLabel = None
 
-    s2 = chart.series[1]
-    s2.tx.v = ws_model.cell(row=chart_data_start_row + 1, column=1).value # dynamically get title from cell A33
-    s2.graphicalProperties.line.solidFill = "FFA500" # Orange
-
-    s3 = chart.series[2]
-    s3.tx.v = ws_model.cell(row=chart_data_start_row + 2, column=1).value # dynamically get title from cell A34
-    s3.graphicalProperties.line.solidFill = "008000" # Green
+    for series, title_row, color in [
+        (chart.series[0], chart_data_start_row, "0000FF"),
+        (chart.series[1], chart_data_start_row + 1, "FFA500"),
+        (chart.series[2], chart_data_start_row + 2, "008000"),
+    ]:
+        label = ws_model.cell(row=title_row, column=1).value
+        try:
+            if getattr(series, "tx", None) is not None:
+                series.tx.v = label
+            elif SeriesLabel is not None:
+                series.tx = SeriesLabel(v=label)
+        except Exception:
+            pass
+        series.graphicalProperties.line.solidFill = color
 
     # Position chart
     ws_model.add_chart(chart, f"A{chart_data_start_row + 5}")

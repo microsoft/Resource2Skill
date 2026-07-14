@@ -7,7 +7,7 @@
   "schema_version": "1.0.0",
   "skill_id": "music_theory_essentials_primer",
   "skill_name": "Music Theory & Mix-Engineering Essentials (Primer)",
-  "source": {"type": "internal", "note": "Migrated from agent_prompt for skill/non-skill ablation cleanliness"},
+  "source": {"type": "manual", "note": "Migrated from agent_prompt for skill/non-skill ablation cleanliness"},
   "tags": ["primer", "theory", "reference", "mixing", "fx", "scales", "chords", "drums"],
   "tier": "T1"
 }

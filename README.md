@@ -1,247 +1,136 @@
-# Resource2Skill: Distilling Executable Skills from Human-Created Resources for Software Agents
+# RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources
 
-[![Project](https://img.shields.io/badge/Project-Resource2Skill-blue)](#)
-[![Paper](https://img.shields.io/badge/Paper-arXiv%20preprint-lightgrey)](#)
-[![Code](https://img.shields.io/badge/Code-Open%20Source-green)](#)
+[![Project Page](https://img.shields.io/badge/Project-Resource2Skill-blue)](https://microsoft.github.io/Resources2Skill/)
+[![Paper](https://img.shields.io/badge/arXiv-2606.29538-b31b1b)](https://arxiv.org/abs/2606.29538)
+[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/microsoft/Resources2Skill)
+[![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/YijiaFan/Resource2Skill)
 
 <p align="center">
-  <img src="assets/teaser.png" alt="Resource2Skill overview" width="92%">
+  <img src="assets/teaser.png" alt="Resource2Skill" width="92%">
 </p>
 
-Resource2Skill is a runtime and skill-library system for software agents. It
-converts human-created resources such as tutorial videos, reference artifacts,
-articles, and code examples into reusable executable skills. At inference time,
-an agent can browse a domain-specific skill wiki, inspect text/code/visual
-evidence, compose relevant skills, and operate real software tools to create
-artifacts.
+This repository is the official Microsoft open-source release of Resource2Skill.
 
-The paper is available as an arXiv preprint. We are releasing the runtime and
-skill libraries first; full benchmark orchestration, score aggregation, and
-private evaluation artifacts are not included in this public repository.
+Resource2Skill turns human-created resources (tutorial videos, reference
+artifacts, articles, code) into reusable executable skills that a software agent
+can browse, compose, and run through real software tools — producing Web pages,
+PowerPoint decks, Excel workbooks, Blender scenes, and REAPER-style audio.
 
-## Highlights
-
-- **Executable skills from resources.** Skills include procedural text, code
-  assets, visual references, metadata, and runtime application hooks.
-- **Hierarchical LM Wiki.** Each domain exposes a structured skill wiki for
-  browsing, search, inspection, and skill application.
-- **Multi-domain artifact generation.** The current release supports Web,
-  PowerPoint, Excel, Blender, and REAPER-style audio generation.
-- **Real tool execution.** Domains run through MCP servers and produce actual
-  files such as `.html`, `.pptx`, `.xlsx`, `.blend`, `.png`, `.mid`, and `.wav`.
-- **Open runtime boundary.** This repository focuses on the runnable system and
-  skill libraries, while internal experiments and private evaluation artifacts
-  remain outside the public release.
-
-## Supported Domains
-
-| Domain | Status | Output |
-| --- | --- | --- |
-| Web | Released | HTML/CSS/JS pages |
-| PowerPoint | Released | `.pptx` decks |
-| Excel | Released | `.xlsx` workbooks |
-| Blender | Released | `.blend` scenes and rendered images |
-| REAPER-style audio | Released | MIDI/WAV music projects |
-| CAD | Coming soon | Data and release packaging are still being coordinated |
-| UE5 | Coming soon | Data and release packaging are still being coordinated |
-
-## Method Overview
-
-Resource2Skill separates resource learning from task-time execution:
-
-1. **Resource ingestion.** Human-created multimodal resources are processed into
-   candidate procedural knowledge.
-2. **Skill distillation.** Each candidate is normalized into a reusable skill
-   entry with metadata, applicability, text explanations, code, and optional
-   visual evidence.
-3. **Skill wiki construction.** Skills are organized by domain, tier, category,
-   tags, and source information.
-4. **Agent execution.** Given a task, the agent browses or searches the wiki,
-   inspects relevant skills, composes them, and executes through domain MCP
-   tools.
-
-## Repository Layout
-
-```text
-cli.py                 Unified command-line entry point
-core/                  Agent runtime, MCP adapter, skill wiki, retrieval logic
-domains/               Domain configs, prompts, MCP servers, tool adapters
-skills_wiki/           Active structured skill wiki used by runtime discovery
-skills_library/        Executable assets, helper code, and compatibility files
-briefs/                Small task briefs
-briefs_showcase/       Curated showcase prompts
-examples/              Example case prompts
-fixtures/              Lightweight fixture data for skill/wiki checks
-```
-
-The following are intentionally excluded from this public release:
-
-```text
-experiments/           Internal benchmark runs and ablations
-bench/                 Internal benchmark wrappers and historical results
-reports/               Internal reports
-demo/                  Generated artifacts
-scripts/               Internal experiment/scoring/orchestration scripts
-docs/                  Private notes and paper-supporting experiment docs
-```
+It contains the **runnable runtime + skill libraries**. Get started below.
 
 ## Installation
 
-Use Python 3.10+ in a virtual environment.
+Use **Python 3.11** in a fresh virtual environment.
 
 ```bash
-python -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
-Install common dependencies plus domain-specific MCP dependencies:
+`requirements.txt` covers the core runtime plus the Web, PowerPoint, Excel, and
+REAPER dependencies (`mcp` is pinned to `>=1.26`). Then add the per-domain system
+dependencies you need:
 
-```bash
-python -m pip install mcp fastmcp python-dotenv pyyaml requests pillow lxml
-python -m pip install -r domains/web/mcp_server/requirements.txt
-python -m pip install -r domains/ppt/mcp_server/requirements.txt
-python -m pip install -r domains/excel/mcp_server/requirements.txt
-python -m pip install -r domains/blender/mcp_server/requirements.txt
-python -m pip install -r domains/reaper/mcp_server/requirements.txt
-```
-
-Optional system dependencies:
-
-- `web`: Playwright/Chromium for visual inspection.
-- `ppt`: LibreOffice for rendering slides.
-- `blender`: Blender for scene execution and rendering.
-- `reaper`: `fluidsynth` plus a GM soundfont for WAV rendering.
+- **Web** — `python -m playwright install chromium`
+- **PowerPoint** — install **LibreOffice** (`soffice`) for deck rendering
+- **REAPER-style audio** — install **`fluidsynth`** + a General MIDI soundfont,
+  then set `VWS_REAPER_SOUNDFONT=/path/to/soundfont.sf2`
+- **Blender** — `pip install bpy` (headless Blender as a module; needs Python 3.11)
 
 ## Model Configuration
-
-Copy the example environment file and fill in your provider settings:
 
 ```bash
 cp .env.example .env
 ```
 
-For Azure OpenAI:
+Fill in your provider settings (Azure OpenAI shown):
 
 ```text
 AZURE_OPENAI_ENDPOINT=https://<your-resource>.openai.azure.com/
 AZURE_OPENAI_API_KEY=<your-key>
+# or, if your resource uses Entra ID / AAD instead of keys:
+# AZURE_OPENAI_USE_AAD=1
 ```
 
-For per-model deployments, use model-specific overrides from `.env.example`,
-for example `AZURE_OPENAI_ENDPOINT_54` and `AZURE_OPENAI_DEPLOYMENT_54`.
-
-If your Azure resource requires Entra ID/AAD instead of API keys:
-
-```text
-AZURE_OPENAI_USE_AAD=1
-```
+Per-model overrides (e.g. `AZURE_OPENAI_ENDPOINT_54`, `AZURE_OPENAI_DEPLOYMENT_54`)
+are in `.env.example`.
 
 ## Quick Start
 
-List available domains:
-
 ```bash
+# list domains, then validate the one you want (web | ppt | excel | blender | reaper)
 python cli.py domains
-```
-
-Validate released domains:
-
-```bash
 python cli.py validate-domain --domain web
-python cli.py validate-domain --domain ppt
-python cli.py validate-domain --domain excel
-python cli.py validate-domain --domain blender
-python cli.py validate-domain --domain reaper
-```
 
-Run a case:
-
-```bash
+# run a case
 python cli.py agent \
   --domain web \
-  --task "Build a one-page landing site for a neighborhood arts nonprofit called Quartz. Use a warm hand-made editorial style, include programs, impact, donation tiers, FAQ, and a footer. Save and STOP." \
-  --model gpt-5.4 \
-  --reasoning low \
-  --max-iter 40
+  --task "Build a one-page landing site for a neighborhood arts nonprofit called Quartz. Warm hand-made editorial style; programs, impact, donation tiers, FAQ, footer. Save and STOP." \
+  --model gpt-5.4 --reasoning low --max-iter 40
 ```
 
-More example prompts are available in:
+Generated files land in `demo/<domain>/`. More prompts: `examples/case_prompts.json`.
 
-```text
-examples/case_prompts.json
-```
+## Examples per Domain
 
-## Example Commands
-
-PowerPoint:
+PowerPoint (PPT Master — SVG-first, editable `.pptx`; ask for the PPT Master backend explicitly):
 
 ```bash
-python cli.py agent \
-  --domain ppt \
-  --task "Build an 8-slide strategy deck for a renewable energy startup called Dune Renewables. Include cover, agenda, market pull, where to play, entry model, roadmap, risks, and closing ask. Save and STOP." \
-  --model gpt-5.4 \
-  --reasoning low \
-  --max-iter 80
+python cli.py agent --domain ppt \
+  --task "Use the PPT Master SVG-first backend. Call pptmaster_select_r2s_refs first, read each chosen skill's svg_recipe as your scaffold, then build an 8-slide strategy deck for a renewable-energy startup called Dune Renewables. Record design_refs on every slide and export to .pptx. Save and STOP." \
+  --model gpt-5.5 --reasoning medium --max-iter 80 --n-skills 12 --top-k 80
 ```
 
 Excel:
 
 ```bash
-python cli.py agent \
-  --domain excel \
-  --task "Build a 4-sheet manufacturing defects workbook with Summary, Defect Log, Products, and Production Lines. Include realistic data, formulas, tables, and one summary chart. Save and STOP." \
-  --model gpt-5.4 \
-  --reasoning low \
-  --max-iter 50
+python cli.py agent --domain excel \
+  --task "Build a 4-sheet manufacturing defects workbook (Summary, Defect Log, Products, Production Lines) with realistic data, formulas, tables, and one summary chart. Save and STOP." \
+  --model gpt-5.4 --reasoning low --max-iter 50
 ```
 
-Blender:
+Blender (needs the Python 3.11 + `bpy` setup):
 
 ```bash
-python cli.py agent \
-  --domain blender \
-  --task "Build a moody product hero scene with stacked books and a lit candle on a tabletop. Use warm side lighting, realistic materials, and a close editorial camera. Save and STOP." \
-  --model gpt-5.4 \
-  --reasoning low \
-  --max-iter 60
+python cli.py agent --domain blender \
+  --task "Build a moody product hero scene with stacked books and a lit candle on a tabletop. Warm side lighting, realistic materials, close editorial camera. Save and STOP." \
+  --model gpt-5.4 --reasoning low --max-iter 60
 ```
 
 REAPER-style audio:
 
 ```bash
-python cli.py agent \
-  --domain reaper \
-  --task "Compose a 24-bar psychedelic rock track in G minor at 150 BPM with drums, bass, harmonic instrument, lead element, arrangement sections, and a rendered WAV. Save and STOP." \
-  --model gpt-5.4 \
-  --reasoning low \
-  --max-iter 80
+python cli.py agent --domain reaper \
+  --task "Compose a 24-bar psychedelic rock track in G minor at 150 BPM with drums, bass, harmonic instrument, lead, arrangement sections, and a rendered WAV. Save and STOP." \
+  --model gpt-5.4 --reasoning low --max-iter 80
 ```
 
-## Skill Libraries
+## Skills & Dataset
 
-Resource2Skill uses two library roots:
+The distilled skill libraries are released on Hugging Face:
 
-- `skills_wiki/<domain>/`: active structured wiki entries used for runtime
-  discovery and inspection.
-- `skills_library/<domain>/`: executable assets, helper modules, shell
-  templates, and compatibility resources used by domain MCP servers.
+**https://huggingface.co/datasets/YijiaFan/Resource2Skill**
 
-Both are required for the current release.
-
-## Notes
-
-- Generated artifacts are written under `demo/<domain>/` by default and are
-  ignored by git.
-- Some visual/audio review hooks require model credentials. When unavailable,
-  agents may skip or work around those hooks while still producing artifacts.
-- The released code is intended for running and extending the skill runtime,
-  not for reproducing internal benchmark tables.
+At runtime the agent reads from two roots in this repo: `skills_wiki/<domain>/`
+(structured wiki entries for browse/search/inspect) and `skills_library/<domain>/`
+(executable assets used by the domain MCP servers).
 
 ## Citation
 
-The arXiv citation will be added before public release.
+```bibtex
+@misc{fan2026resource2skill,
+  title         = {{RESOURCE2SKILL}: Distilling Executable Agent Skills from Human-Created Multimodal Resources},
+  author        = {Yijia Fan and Zonglin Di and Zimo Wen and Yifan Yang and Mingxi Cheng and Qi Dai and Bei Liu and Kai Qiu and Yue Dong and Ji Li and Chong Luo},
+  year          = {2026},
+  eprint        = {2606.29538},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url           = {https://arxiv.org/abs/2606.29538}
+}
+```
 
 ## License
 
-This project is released under the MIT License. See `LICENSE`.
+Released under the MIT License. See `LICENSE`.

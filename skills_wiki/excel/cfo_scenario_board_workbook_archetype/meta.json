@@ -1,0 +1,14 @@
+{
+  "skill_id": "cfo_scenario_board_workbook_archetype",
+  "skill_name": "CFO Scenario Board Workbook Archetype",
+  "tier": "T5",
+  "category_path": ["workbook", "finance", "scenario_model"],
+  "tags": ["cfo", "scenario", "board", "revenue_build", "cost_model", "kpi_dashboard", "choose"],
+  "applicability": "Use for board-ready CFO scenario workbooks with inputs, revenue build, cost model, scenario matrix, KPI dashboard, and board summary.",
+  "source": {"type": "manual", "note": "Codex composable archetype for cross-domain A/B Excel briefs"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0"
+}
