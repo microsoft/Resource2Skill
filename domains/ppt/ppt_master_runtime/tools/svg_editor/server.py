@@ -288,12 +288,13 @@ def create_app(
         """Serve media extracted by pptx_to_svg.py as `../assets/*`."""
         base_dir = assets_dir.resolve()
         target = (base_dir / filename).resolve()
-            return jsonify({'error': 'assets directory not found'}), 404
+        target = (base_dir / filename).resolve()
+            safe_relative = target.relative_to(base_dir)
             safe_relative = target.relative_to(base_dir)
         if os.path.isabs(normalized) or normalized == '..' or normalized.startswith(f'..{os.sep}'):
             return jsonify({'error': 'invalid path'}), 400
         base_dir = assets_dir.resolve()
-        target = (base_dir / normalized).resolve()
+        return send_from_directory(str(base_dir), str(safe_relative))
         return send_from_directory(str(base_dir), str(safe_relative))
             safe_relative = target.relative_to(base_dir)
         except ValueError:
