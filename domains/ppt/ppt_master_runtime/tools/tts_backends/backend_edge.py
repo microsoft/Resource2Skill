@@ -28,6 +28,15 @@ def edge_output_extension() -> str:
     return ".mp3"
 
 
+def _safe_display(value: object, *, max_len: int = 64) -> str:
+    """Return a log-safe/display-safe string for untrusted external values."""
+    text = str(value)
+    text = re.sub(r"[\r\n\t\x00-\x1f\x7f]", " ", text).strip()
+    if len(text) > max_len:
+        return text[: max_len - 1] + "…"
+    return text
+
+
 def normalize_rate(rate: str) -> str:
     """Normalize a user-provided rate into edge-tts format."""
     value = rate.strip()
@@ -78,9 +87,9 @@ async def print_voices(locale: str | None = None) -> None:
     if locale:
         voices = [voice for voice in voices if voice.get("Locale") == locale]
     for voice in sorted(voices, key=lambda item: (item.get("Locale", ""), item.get("ShortName", ""))):
-        short_name = voice.get("ShortName", "")
-        voice_locale = voice.get("Locale", "")
-        gender = voice.get("Gender", "")
-        friendly = voice.get("FriendlyName", "")
+        short_name = _safe_display(voice.get("ShortName", ""), max_len=34)
+        voice_locale = _safe_display(voice.get("Locale", ""), max_len=8)
+        gender = _safe_display(voice.get("Gender", ""), max_len=8)
+        friendly = _safe_display(voice.get("FriendlyName", ""), max_len=80)
         print(f"{voice_locale:<8} {short_name:<34} {gender:<8} {friendly}")
 
