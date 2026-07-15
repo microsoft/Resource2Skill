@@ -350,13 +350,16 @@ def create_app(
     def _safe_svg_path(name: str):
         """Validate slide name and return safe path. Returns None if invalid.
 
-        The early string checks reject obvious bad inputs; the resolve()+startswith()
+        The early string checks reject obvious bad inputs; the resolve()+relative_to()
         check is the authoritative path traversal guard.
         """
         if '/' in name or '\\' in name or '..' in name:
             return None
-        svg_file = (svg_dir / name).resolve()
-        if not str(svg_file).startswith(str(svg_dir.resolve())):
+        svg_root = svg_dir.resolve()
+        svg_file = (svg_root / name).resolve()
+        try:
+            svg_file.relative_to(svg_root)
+        except ValueError:
             return None
         return svg_file
 
