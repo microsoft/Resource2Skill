@@ -277,9 +277,11 @@ def create_app(
             safe_relative = target.relative_to(base_dir)
         except ValueError:
             return jsonify({'error': 'invalid path'}), 400
-        if not target.exists() or not target.is_file():
+        safe_relative_str = str(safe_relative)
+        safe_target = (base_dir / safe_relative_str).resolve()
+        if not safe_target.exists() or not safe_target.is_file():
             return jsonify({'error': 'not found'}), 404
-        return send_from_directory(str(base_dir), str(safe_relative))
+        return send_from_directory(str(base_dir), safe_relative_str)
 
     @app.route('/assets/<path:filename>')
     def serve_asset(filename: str):
