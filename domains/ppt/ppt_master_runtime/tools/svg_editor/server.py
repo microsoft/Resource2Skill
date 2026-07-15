@@ -286,14 +286,18 @@ def create_app(
         """Serve media extracted by pptx_to_svg.py as `../assets/*`."""
         if not assets_dir.exists():
             return jsonify({'error': 'assets directory not found'}), 404
-        target = (assets_dir / filename).resolve()
+        normalized = os.path.normpath(filename)
+        if os.path.isabs(normalized) or normalized == '..' or normalized.startswith(f'..{os.sep}'):
+            return jsonify({'error': 'invalid path'}), 400
+        base_dir = assets_dir.resolve()
+        target = (base_dir / normalized).resolve()
         try:
-            target.relative_to(assets_dir.resolve())
+            safe_relative = target.relative_to(base_dir)
         except ValueError:
             return jsonify({'error': 'invalid path'}), 400
         if not target.exists() or not target.is_file():
             return jsonify({'error': 'not found'}), 404
-        return send_from_directory(str(assets_dir), filename)
+        return send_from_directory(str(base_dir), str(safe_relative))
 
     @app.route('/api/slides')
     def get_slides():
