@@ -320,7 +320,7 @@ def create_app(
                     disk_count = len(parse_annotations(tree.getroot()))
                 except ET.ParseError as exc:
                     ok = False
-                    error_msg = f'XML parse error: {exc}'
+                    error_msg = 'Invalid SVG content'
                     disk_count = 0
                     logger.warning('slide parse failed: %s: %s', svg_file.name, exc)
                 _cache_put(_LIST_CACHE, _LIST_CACHE_LOCK, path_str, mtime, disk_count)
