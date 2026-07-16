@@ -31,9 +31,7 @@ cache/
 *.npz
 skills_library/*/embeddings.npz
 
-# Open-source release boundary
-# Keep runtime code + skill libraries. Do not publish experiment orchestration,
-# generated artifacts, paper drafts, private infra notes, or benchmark results.
+# Build artifacts, local data, generated outputs, and non-source files
 experiments/
 bench/
 reports/
@@ -41,6 +39,11 @@ demo/
 scripts/
 docs/
 tests/
+# Local-only material — never publish
+PRODUCT_TEAM_README.md
+examples/*_team_*.json
+# Never publish raw brand source decks (only synthesized skills, if any)
+brand_wiki/ppt/*/source/
 main.tex
 reference.bib
 reference_decks/
@@ -51,6 +54,8 @@ CLAUDE.md
 DESIGN.md
 .verify.png
 .agents/
+# Stray top-level dir from a bad run path (not the canonical demo/cross_domain_ab/)
+/cross_domain_ab/
 skills_library/_snapshots/
 skills_library/cad/
 skills_library/minecraft/
@@ -130,3 +135,7 @@ Resource2Skill*.pdf
 # Project page is published separately unless explicitly force-added.
 project_page/
 assets/pipeline_overview.png
+
+# Local planning notes
+OPEN_SOURCE_ALLOWLIST.md
+OPEN_SOURCE_TODO.md

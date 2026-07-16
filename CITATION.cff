@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: "If you use Resource2Skill, please cite the paper below."
+title: "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources"
+type: software
+authors:
+  - family-names: Fan
+    given-names: Yijia
+    affiliation: Microsoft
+  - family-names: Di
+    given-names: Zonglin
+    affiliation: University of California, Santa Cruz
+  - family-names: Wen
+    given-names: Zimo
+    affiliation: Shanghai Jiao Tong University
+  - family-names: Yang
+    given-names: Yifan
+    affiliation: Microsoft
+  - family-names: Cheng
+    given-names: Mingxi
+    affiliation: Microsoft
+  - family-names: Dai
+    given-names: Qi
+    affiliation: Microsoft
+  - family-names: Liu
+    given-names: Bei
+    affiliation: Microsoft
+  - family-names: Qiu
+    given-names: Kai
+    affiliation: Microsoft
+  - family-names: Dong
+    given-names: Yue
+    affiliation: Microsoft
+  - family-names: Li
+    given-names: Ji
+    affiliation: Microsoft
+  - family-names: Luo
+    given-names: Chong
+    affiliation: Microsoft
+date-released: 2026-07-14
+repository-code: "https://github.com/microsoft/Resources2Skill"
+url: "https://microsoft.github.io/Resources2Skill/"
+identifiers:
+  - type: other
+    value: "arXiv:2606.29538"
+    description: "arXiv identifier"
+preferred-citation:
+  type: article
+  title: "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources"
+  authors:
+    - family-names: Fan
+      given-names: Yijia
+    - family-names: Di
+      given-names: Zonglin
+    - family-names: Wen
+      given-names: Zimo
+    - family-names: Yang
+      given-names: Yifan
+    - family-names: Cheng
+      given-names: Mingxi
+    - family-names: Dai
+      given-names: Qi
+    - family-names: Liu
+      given-names: Bei
+    - family-names: Qiu
+      given-names: Kai
+    - family-names: Dong
+      given-names: Yue
+    - family-names: Li
+      given-names: Ji
+    - family-names: Luo
+      given-names: Chong
+  year: 2026
+  journal: arXiv

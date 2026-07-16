@@ -7,7 +7,7 @@
   "schema_version": "1.0.0",
   "skill_id": "excel_design_system_primer",
   "skill_name": "Excel Design-System Primer (themes, tiers, openpyxl patterns)",
-  "source": {"type": "internal"},
+  "source": {"type": "manual"},
   "tags": ["primer", "excel", "themes", "openpyxl", "tiers"],
   "tier": "T1"
 }

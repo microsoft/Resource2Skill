@@ -7,7 +7,7 @@
   "schema_version": "1.0.0",
   "skill_id": "arrangement_coordinator_full_song",
   "skill_name": "Full-Song Arrangement Coordinator (5-track, 32-bar multi-section)",
-  "source": {"type": "internal", "note": "Composition coordinator analogous to PPT's slide coordinator skill"},
+  "source": {"type": "manual", "note": "Composition coordinator analogous to PPT's slide coordinator skill"},
   "tags": ["arrangement", "structure", "scaffold", "song_form", "dynamics", "primer"],
   "tier": "T5"
 }

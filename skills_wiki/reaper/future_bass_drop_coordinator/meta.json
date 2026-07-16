@@ -1,0 +1,14 @@
+{
+  "skill_id": "future_bass_drop_coordinator",
+  "skill_name": "Future Bass Drop Coordinator",
+  "tier": "T5",
+  "category_path": ["arrangement", "future_bass", "drop"],
+  "tags": ["future_bass", "drop", "supersaw", "sidechain", "808", "trap_drums", "vocal_chop", "snare_roll", "filter_sweep"],
+  "applicability": "Use first for future bass / melodic bass drop briefs needing airy intro pads, build sweeps, half-time trap drums, 808 sub, vocal chops, and supersaw lead drops.",
+  "source": {"type": "manual", "note": "Codex composable Reaper coordinator for cross-domain A/B future bass brief"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0"
+}

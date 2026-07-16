@@ -1,0 +1,46 @@
+# Resource2Skill — core runtime + the four non-Blender domains
+# (web / ppt / excel / reaper). Verified in a clean Python 3.11 env (2026-06-12):
+# `pip install -r requirements.txt` then `cli.py validate-domain` passes for all
+# five domains and every domain MCP server imports.
+#
+# Python: use 3.11. The four domains here also run on 3.10, but the Blender
+# domain needs the `bpy` module (no 3.10 wheel) — see the Blender note below.
+#
+# pip resolves all transitive deps (pydantic, anyio, sniffio, uvicorn, httpx,
+# typing_extensions, …) automatically; only the top-level packages are listed.
+
+# --- Core runtime: agent loop, MCP client, skill wiki ---
+mcp>=1.26            # FastMCP tool registration. mcp 1.10.x CRASHES this codebase's
+                     # servers ("issubclass() arg 1 must be a class") because the
+                     # servers use `from __future__ import annotations`. 1.26 verified.
+                     # NOTE: FastMCP ships inside `mcp` (mcp.server.fastmcp) — the
+                     # standalone `fastmcp` package is NOT used.
+google-genai         # core/analyzer distiller client — imported at cli.py startup
+jsonschema           # core/skill_wiki registry validation — imported at startup
+python-dotenv
+pyyaml
+requests
+pillow
+lxml
+numpy
+
+# --- PowerPoint (PPT Master SVG->native-PPTX + LibreOffice render QA) ---
+python-pptx
+pdf2image
+pymupdf
+
+# --- Excel ---
+openpyxl
+
+# --- REAPER-style audio (also needs the `fluidsynth` binary + a GM soundfont) ---
+pretty_midi
+mido
+
+# --- Web (also run once: `python -m playwright install chromium`) ---
+playwright
+
+# --- Blender: REQUIRES Python 3.11 (no bpy wheel for 3.10) ---
+# Install separately in a Python 3.11 environment:
+#     pip install -r requirements.txt
+#     pip install bpy        # headless Blender as an importable module (~250 MB)
+# bpy            # uncomment ONLY on Python 3.11

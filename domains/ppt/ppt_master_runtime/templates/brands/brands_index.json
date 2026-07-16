@@ -1,0 +1,10 @@
+{
+  "anthropic": {
+    "summary": "Anthropic brand identity — AI/LLM tech talks, developer conferences, technical training, product launches",
+    "primary_color": "#D97757"
+  },
+  "google": {
+    "summary": "Google brand identity — multi-product corporate decks, developer events (Google I/O style), education and training in the Google ecosystem",
+    "primary_color": "#4285F4"
+  }
+}

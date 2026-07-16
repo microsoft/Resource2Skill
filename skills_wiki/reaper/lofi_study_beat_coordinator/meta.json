@@ -1,0 +1,14 @@
+{
+  "skill_id": "lofi_study_beat_coordinator",
+  "skill_name": "Lo-Fi Study Beat Coordinator",
+  "tier": "T5",
+  "category_path": ["arrangement", "lofi", "study_beat"],
+  "tags": ["lofi", "study", "boom_bap", "rhodes", "walking_bass", "melodica", "vinyl", "warm_mix"],
+  "applicability": "Use first for lo-fi study beat briefs needing dusty Rhodes chords, boom-bap drums, walking bass, vinyl texture, and a sleepy melody.",
+  "source": {"type": "manual", "note": "Codex composable Reaper coordinator for cross-domain A/B lofi brief"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0"
+}

@@ -281,10 +281,12 @@ def cmd_execute(args):
 def cmd_agent(args):
     """Run LLM agent loop to accomplish a task."""
     from core.agent_executor import run_agent
+    from domains.ppt import wiki_adapter as ppt_wiki_adapter
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     config = load_domain(args.domain)
     library_dir = get_library_dir(args.domain)
+    ppt_wiki_adapter.set_active_brand(None)
 
     if not config.get("mcp") and not args.dry_run:
         print(f"Domain '{args.domain}' has no MCP config. Use --dry-run or add MCP config.")
@@ -317,7 +319,13 @@ def cmd_agent(args):
                         "apply_component",
                         "get_technique_snippet", "get_palette_preset",
                         "list_motions", "get_motion_info", "get_motion_code",
-                        "apply_motion", "suggest_morph_continuity"},
+                        "apply_motion", "suggest_morph_continuity",
+                        # PPT Master's project/add/replace/export tools are a
+                        # primitive backend. Its bundled template discovery is
+                        # library knowledge and must not leak into --no-skills.
+                        "pptmaster_select_r2s_refs",
+                        "pptmaster_list_templates", "pptmaster_get_template",
+                        "pptmaster_copy_template_to_project"},
             "excel":   {"init_from_archetype", "add_sheet_from_shell",
                         "apply_component", "list_tokens", "get_palette_preset",
                         "get_format_preset", "get_chart_template",
@@ -359,6 +367,9 @@ def cmd_agent(args):
             "get_archetype", "get_theme", "select_shell", "list_shells",
             "get_palette_preset", "get_technique_snippet",
             "list_motions", "get_motion_info",
+            "pptmaster_list_templates", "pptmaster_get_template",
+            "pptmaster_select_r2s_refs",
+            "pptmaster_copy_template_to_project",
             "add_slide_from_archetype",  # archetype-aware slide builder
             # Excel organization tools
             "list_tokens", "init_from_archetype",
@@ -412,6 +423,41 @@ def cmd_agent(args):
         config = dict(config)
         config["_require_skill_path"] = True
 
+    if args.brand:
+        if args.domain != "ppt":
+            print(f"--brand only supports --domain ppt in v2 (got {args.domain})")
+            sys.exit(2)
+        import yaml
+
+        bp_path = Path("brand_wiki/ppt") / args.brand / "brand.yaml"
+        if not bp_path.exists():
+            print(f"brand pack not found: {bp_path}")
+            sys.exit(2)
+        bp = yaml.safe_load(bp_path.read_text())
+        brand_skill_ids = bp.get("skills") or []
+        if not brand_skill_ids:
+            print(f"brand pack has no skills: {bp_path}")
+            sys.exit(2)
+        config = dict(config)
+        existing = list(config.get("auto_load_skills") or [])
+        config["auto_load_skills"] = existing + [
+            s for s in brand_skill_ids if s not in existing
+        ]
+        config["_active_brand"] = args.brand
+        config["_brand_skill_ids"] = brand_skill_ids
+        disabled_tools = set(config.get("_disabled_tools") or [])
+        # In brand mode, construction should flow through brand shell overlays
+        # (`*_brand`) rather than generic skill cloning.
+        disabled_tools.add("add_slide_from_skill")
+        config["_disabled_tools"] = sorted(disabled_tools)
+        mcp_cfg = dict(config.get("mcp") or {})
+        mcp_env = dict(mcp_cfg.get("env") or {})
+        mcp_env["PPT_ACTIVE_BRAND"] = args.brand
+        mcp_cfg["env"] = mcp_env
+        config["mcp"] = mcp_cfg
+        ppt_wiki_adapter.set_active_brand(args.brand)
+        logging.info("brand auto_load_skills=%s", brand_skill_ids)
+
     result = run_agent(
         args.task, config, library_dir,
         model=args.model,
@@ -420,6 +466,7 @@ def cmd_agent(args):
         n_skills=args.n_skills,
         top_k=args.top_k,
         dry_run=args.dry_run,
+        brand=args.brand,
     )
 
     # Print summary
@@ -555,6 +602,34 @@ def cmd_auto_collect(args):
     print(f"  Skills collected: {result.get('collected', 0)}")
 
 
+def cmd_brand_extract(args):
+    """Extract a brand pack from a folder/zip of PPTX files."""
+    from pathlib import Path
+
+    from domains.ppt.brand_extractor.pipeline import extract
+
+    if args.domain != "ppt":
+        print(f"brand-extract only supports --domain ppt in v1 (got {args.domain})")
+        sys.exit(2)
+
+    src = Path(args.source).expanduser().resolve()
+    out_root = (
+        Path(args.output_root).expanduser().resolve()
+        if args.output_root
+        else Path("brand_wiki/ppt").resolve()
+    )
+
+    result = extract(
+        brand_name=args.brand,
+        source=src,
+        output_root=out_root,
+        render=not args.no_render,
+        vision=not args.no_vision,
+        synthesize_skills=not args.no_skills,
+    )
+    print(f"OK brand={args.brand} dir={result.brand_dir} skills={len(result.skill_ids)}")
+
+
 def cmd_harness_loop(args):
     from core.harness import run_full_loop
     result = run_full_loop(args.domain, model=args.model, skill_limit=args.skill_limit,
@@ -670,6 +745,10 @@ def main():
     p.add_argument("--top-k", type=int, default=20, help="Embedding recall pool size")
     p.add_argument("--dry-run", action="store_true",
                    help="Run with mock MCP (no server connection)")
+    p.add_argument("--brand", default=None,
+                   help="Activate a brand pack from brand_wiki/<domain>/<brand>/. "
+                        "Brand-locked skills and constraints are layered on top of "
+                        "the generic library. Default None = current behavior.")
     p.add_argument("--no-skills", action="store_true",
                    help="Disable skill-discovery and skill-injection tools "
                         "(ablation: agent only sees primitive tools).")
@@ -743,6 +822,17 @@ def main():
     p.add_argument("--skill-limit", type=int, default=50, help="Max skills to score per loop")
     p.add_argument("--collect-cycles", type=int, default=1)
     p.add_argument("--dry-run", action="store_true")
+
+    # brand-extract
+    p = sub.add_parser("brand-extract", help="Extract a brand pack from PPTX resources")
+    p.add_argument("--domain", required=True, help="Domain (only 'ppt' supported in v1)")
+    p.add_argument("--brand", required=True, help="Brand slug (lowercase, _-separated)")
+    p.add_argument("--source", required=True, help="Path to a folder of .pptx or a .zip")
+    p.add_argument("--output-root", default=None, help="Output root (default brand_wiki/ppt)")
+    p.add_argument("--no-render", action="store_true", help="Skip LibreOffice slide rendering")
+    p.add_argument("--no-vision", action="store_true", help="Skip GPT-5.4 vision enrichment")
+    p.add_argument("--no-skills", action="store_true", help="Skip skill synthesis")
+    p.set_defaults(func=cmd_brand_extract)
 
     # Wiki registry commands (skill_wiki package).
     from core.skill_wiki.cli_handlers import register_subparsers as _register_wiki

@@ -1,0 +1,18 @@
+{
+  "skill_id": "two_variable_sensitivity_table_mechanism",
+  "skill_name": "Two-Variable Sensitivity Table Mechanism",
+  "tier": "T2",
+  "category_path": ["mechanism", "scenario_modeling", "sensitivity"],
+  "tags": ["mechanism", "sensitivity", "two_variable", "scenario", "formula_expansion", "color_scale"],
+  "applicability": "Use when a workbook needs a compact price-by-volume, growth-by-margin, or similar two-variable scenario matrix.",
+  "source": {"type": "manual", "note": "KDA-mode CFO mechanism page authored with GPT-5.5 high reasoning"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0",
+  "type": "mechanism",
+  "confidence": "verified",
+  "reproducibility": "snippet",
+  "related": ["scenario_dropdown_pl_linkage_mechanism"]
+}

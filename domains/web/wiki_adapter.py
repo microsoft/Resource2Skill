@@ -8,12 +8,13 @@ existing path.
 from __future__ import annotations
 
 import json
+import ast
+import re
 import shutil
 from pathlib import Path
 from typing import Any
 
 from core.skill_wiki.contract import ExecutionResult, NotExecutableReason, WikiAdapter
-from core.skill_wiki.embeddings import IncompatibleEmbeddingIndex, load_compatible
 from core.skill_wiki.registry import WikiRegistry
 from core.skill_wiki.taxonomy import TaxonomyGate
 
@@ -31,7 +32,6 @@ class WebWikiAdapter(WikiAdapter):
         root = self._resolve_root()
         self._registry = WikiRegistry(root=root, domain="web")
         self._taxonomy = TaxonomyGate(domain_root=root)
-        self._embedding_cache: tuple[list[str], Any, Any] | None = None
 
     def _resolve_root(self) -> Path:
         if self._explicit_root is not None:
@@ -49,7 +49,6 @@ class WebWikiAdapter(WikiAdapter):
         new_root = self._resolve_root()
         self._registry = WikiRegistry(root=new_root, domain="web")
         self._taxonomy = TaxonomyGate(domain_root=new_root)
-        self._embedding_cache = None
 
     # Discovery -----------------------------------------------------------
 
@@ -126,13 +125,29 @@ class WebWikiAdapter(WikiAdapter):
         self, query: str, tier: str | None = None,
         category_path: str | None = None, k: int = 5,
     ) -> list[dict[str, Any]]:
-        try:
-            ids, matrix, _meta = self._load_embeddings()
-        except (IncompatibleEmbeddingIndex, FileNotFoundError):
-            ids, matrix = [], None
-        if matrix is None or not ids:
-            return self._substring_search(query, tier=tier, category_path=category_path, k=k)
-        return self._substring_search(query, tier=tier, category_path=category_path, k=k)
+        # Two-stage retrieval: Okapi BM25 candidate pool (IDF + length-norm over
+        # name+applicability+tags, with a mild multiplicative visual boost) →
+        # LLM rerank (Azure GPT-5.5, low reasoning) → top k. The rerank raises
+        # LLMRerankError on failure; callers must NOT swallow it.
+        from core.skill_wiki.bm25 import bm25_pool
+        from core.skill_wiki.llm_rerank import llm_rerank_skills, candidate_pool_size
+
+        pool = bm25_pool(
+            self._registry.list_entries(), query, candidate_pool_size(k),
+            tier=tier, has_visual=_has_visual, summary_view=_summary_view,
+        )
+        if len(pool) <= k:
+            return pool
+        candidate_ids = [str(e.get("skill_id")) for e in pool if e.get("skill_id")]
+        reranked_ids = llm_rerank_skills(
+            query=query,
+            candidate_ids=candidate_ids,
+            registry_entries=list(self._registry.list_entries()),
+            k=k,
+            domain="web",
+        )
+        by_id = {str(e.get("skill_id")): e for e in pool}
+        return [by_id[sid] for sid in reranked_ids if sid in by_id]
 
     def propose_category(
         self, tier: str, path: list[str], reason: str,
@@ -170,11 +185,33 @@ class WebWikiAdapter(WikiAdapter):
         # via kwargs["source_file"] when a skill ships multiple files.
         source_name = kwargs.get("source_file")
         source = (skill_dir / "code" / source_name) if source_name else _first_code_asset(skill_dir)
+        workspace = _workspace_dir(target_id)
         if source is None or not source.exists():
+            generated = self._materialize_overview_component(
+                skill_id=skill_id,
+                workspace=workspace,
+                relative=relative,
+                kwargs={k: v for k, v in kwargs.items() if k not in {"relative_path", "source_file"}},
+            )
+            if generated is not None:
+                if generated.get("error"):
+                    return ExecutionResult.fail(
+                        skill_id,
+                        str(generated["error"]),
+                        verb="write_project_file",
+                    )
+                _append_manifest_component(
+                    workspace, skill_id=skill_id, relative=generated["entry"]
+                )
+                return ExecutionResult.ok(
+                    skill_id,
+                    "write_project_file",
+                    target_id,
+                    detail=generated,
+                )
             return ExecutionResult.fail(
                 skill_id, f"no code asset found under {skill_dir}/code", verb="write_project_file"
             )
-        workspace = _workspace_dir(target_id)
         target = workspace / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
@@ -192,6 +229,86 @@ class WebWikiAdapter(WikiAdapter):
         return self.write_project_file(skill_id=skill_id, target_id=target_id,
                                        relative_path=relative,
                                        source_file=kwargs.get("source_file"))
+
+    def _materialize_overview_component(
+        self,
+        *,
+        skill_id: str,
+        workspace: Path,
+        relative: str,
+        kwargs: dict[str, Any],
+    ) -> dict[str, Any] | None:
+        """Execute a distilled ``create_component`` block from overview.md.
+
+        Many web wiki skills have text + visual assets plus a fenced Python
+        reproducer, but no copied ``code/`` file. Treat that reproducer as the
+        executable asset so universal ``apply_skill`` can still mutate the
+        target workspace.
+        """
+        skill_dir = self._registry.skill_dir(skill_id)
+        overview = skill_dir / "text" / "overview.md"
+        if not overview.exists():
+            return None
+        code = _extract_create_component_code(
+            overview.read_text(encoding="utf-8", errors="ignore")
+        )
+        if not code:
+            return None
+
+        target = workspace / relative
+        output_dir = target.parent if target.suffix else target
+        output_dir.mkdir(parents=True, exist_ok=True)
+        namespace: dict[str, Any] = {"__builtins__": __builtins__}
+        try:
+            exec(compile(code, f"<web-skill:{skill_id}>", "exec"), namespace, namespace)
+            fn = namespace.get("create_component")
+            if not callable(fn):
+                return None
+            call_kwargs = {
+                "title_text": kwargs.get("title_text") or kwargs.get("title") or skill_id.replace("_", " ").title(),
+                "body_text": kwargs.get("body_text") or kwargs.get("body") or "",
+            }
+            for key, value in kwargs.items():
+                if key not in call_kwargs:
+                    call_kwargs[key] = value
+            result = fn(str(output_dir), **call_kwargs)
+        except Exception as exc:  # noqa: BLE001
+            return {
+                "generated": False,
+                "entry": str(target.relative_to(workspace)),
+                "error": f"{type(exc).__name__}: {exc}",
+            }
+
+        # Common distilled components write index.html/style.css/script.js.
+        generated_files = []
+        for p in sorted(output_dir.rglob("*")):
+            if p.is_file():
+                generated_files.append(str(p.relative_to(workspace)))
+        if isinstance(result, dict):
+            for name, content in (("index.html", result.get("html")),
+                                  ("style.css", result.get("css")),
+                                  ("script.js", result.get("js"))):
+                if content and not (output_dir / name).exists():
+                    (output_dir / name).write_text(str(content), encoding="utf-8")
+                    generated_files.append(str((output_dir / name).relative_to(workspace)))
+
+        entry_path = output_dir / "index.html"
+        if not entry_path.exists() and target.exists():
+            entry_path = target
+        if entry_path.name != target.name and target.suffix:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(entry_path, target)
+            entry_path = target
+            if str(target.relative_to(workspace)) not in generated_files:
+                generated_files.append(str(target.relative_to(workspace)))
+        if not entry_path.exists():
+            return None
+        return {
+            "generated": True,
+            "entry": str(entry_path.relative_to(workspace)),
+            "files": sorted(set(generated_files)),
+            "source": "text/overview.md:create_component",
+        }
 
     def init_site_from_archetype(self, *, skill_id: str, target_id: str, **kwargs: Any) -> ExecutionResult:
         outcome = self.init_workspace(skill_id=skill_id, target_id=target_id, **kwargs)
@@ -231,39 +348,6 @@ class WebWikiAdapter(WikiAdapter):
         except json.JSONDecodeError:
             return {}
 
-    def _load_embeddings(self) -> tuple[list[str], Any, Any]:
-        if self._embedding_cache is None:
-            from core.skill_wiki.budget import _CONFIG_PATH  # type: ignore[attr-defined]
-            payload = json.loads(_CONFIG_PATH.read_text(encoding="utf-8"))
-            ids, matrix, meta = load_compatible(
-                npz_path=self._registry.root / "embeddings.npz",
-                meta_path=self._registry.root / "embeddings.meta.json",
-                expected_model=str(payload.get("embedding_model", "text-embedding-3-large")),
-            )
-            self._embedding_cache = (ids, matrix, meta)
-        return self._embedding_cache
-
-    def _substring_search(
-        self, query: str, *, tier: str | None, category_path: str | None, k: int,
-    ) -> list[dict[str, Any]]:
-        q = query.lower()
-        scored: list[tuple[int, dict[str, Any]]] = []
-        for entry in self._registry.list_entries():
-            if tier is not None and entry.get("tier") != tier:
-                continue
-            haystack = " ".join([
-                str(entry.get("skill_name") or ""),
-                str(entry.get("applicability") or ""),
-                " ".join(entry.get("tags", []) or []),
-            ]).lower()
-            score = sum(1 for token in q.split() if token in haystack)
-            if _has_visual(entry["skill_id"]):
-                score += 2
-            if score > 0:
-                scored.append((score, _summary_view(entry)))
-        scored.sort(key=lambda pair: pair[0], reverse=True)
-        return [entry for _, entry in scored[:k]]
-
 
 def _workspace_dir(target_id: str) -> Path:
     safe = "".join(ch for ch in target_id if ch.isalnum() or ch in "-_") or "site"
@@ -286,6 +370,36 @@ def _first_code_asset(skill_dir: Path) -> Path | None:
         return None
     for ext in ("*.html", "*.css", "*.js", "*.tsx", "*.jsx", "*.json"):
         for candidate in sorted(code_dir.glob(ext)):
+            return candidate
+    return None
+
+
+def _extract_create_component_code(markdown: str) -> str | None:
+    for block in re.findall(r"```python\s*\n(.*?)(?:```|\Z)", markdown, re.DOTALL | re.IGNORECASE):
+        if re.search(r"^def\s+create_component\s*\(", block, re.MULTILINE):
+            return _largest_valid_python_prefix(block.strip())
+    return None
+
+
+def _largest_valid_python_prefix(code: str) -> str | None:
+    lines = code.splitlines()
+    # Fast path for normal, closed code fences.
+    try:
+        ast.parse(code)
+        return code
+    except SyntaxError:
+        pass
+    # Some distilled markdown has an unclosed fence, so prose after the code
+    # enters the block. Trim to the largest prefix that still parses.
+    for end in range(len(lines), 0, -1):
+        candidate = "\n".join(lines[:end]).rstrip()
+        if not candidate:
+            continue
+        try:
+            ast.parse(candidate)
+        except SyntaxError:
+            continue
+        if "def create_component" in candidate:
             return candidate
     return None
 

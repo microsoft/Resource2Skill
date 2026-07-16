@@ -1,68 +1,7 @@
 {
-  "built_at": "2026-04-27T11:38:55Z",
+  "built_at": "2026-06-02T05:31:27Z",
   "domain": "reaper",
   "entries": [
-    {
-      "applicability": "Foundational music-theory and mix-engineering reference for any track-building task. Provides note\u2192MIDI lookup, scale and chord intervals, GM drum map, genre BPM ranges, and per-element FX chains. Call this FIRST in every reaper task.",
-      "category_path": [
-        "primer"
-      ],
-      "exec_ok": null,
-      "license": "internal",
-      "modalities_present": [
-        "text"
-      ],
-      "schema_version": "1.0.0",
-      "skill_id": "music_theory_essentials_primer",
-      "skill_name": "Music Theory & Mix-Engineering Essentials (Primer)",
-      "source": {
-        "type": "internal",
-        "note": "Migrated from agent_prompt for skill/non-skill ablation cleanliness"
-      },
-      "tags": [
-        "primer",
-        "theory",
-        "reference",
-        "mixing",
-        "fx",
-        "scales",
-        "chords",
-        "drums"
-      ],
-      "tier": "T1",
-      "wash_run_at": "2026-04-29T00:00:00Z",
-      "wash_version": "1.0.0"
-    },
-    {
-      "applicability": "Foundational arrangement skill: builds a complete 32-bar multi-section song structure (intro / verse / chorus / variation / outro) with 5 standard tracks (Drums, Bass, Chords, Lead, Pad), per-section dynamics, coordinated FX chains, and tempo/key alignment. Always run this FIRST before any pattern-level skills.",
-      "category_path": [
-        "arrangement",
-        "structure"
-      ],
-      "exec_ok": null,
-      "license": "internal",
-      "modalities_present": [
-        "text"
-      ],
-      "schema_version": "1.0.0",
-      "skill_id": "arrangement_coordinator_full_song",
-      "skill_name": "Full-Song Arrangement Coordinator (5-track, 32-bar multi-section)",
-      "source": {
-        "type": "internal",
-        "note": "Composition coordinator analogous to PPT's slide coordinator skill"
-      },
-      "tags": [
-        "arrangement",
-        "structure",
-        "scaffold",
-        "song_form",
-        "dynamics",
-        "primer"
-      ],
-      "tier": "T5",
-      "wash_run_at": "2026-04-29T00:00:00Z",
-      "wash_version": "1.0.0"
-    },
     {
       "applicability": "",
       "category_path": [
@@ -813,6 +752,39 @@
       "wash_version": "1.0.0"
     },
     {
+      "applicability": "Use first for long ambient cinematic briefs that explicitly prohibit drums and need slow-evolving pads, drones, sparse piano motifs, and sustained bass.",
+      "category_path": [
+        "arrangement",
+        "ambient",
+        "no_drums"
+      ],
+      "exec_ok": true,
+      "license": "internal",
+      "modalities_present": [
+        "text",
+        "code"
+      ],
+      "schema_version": "1.0.0",
+      "skill_id": "ambient_cinematic_no_drums_coordinator",
+      "skill_name": "Ambient Cinematic No-Drums Coordinator",
+      "source": {
+        "note": "Codex composable Reaper coordinator for cross-domain A/B ambient brief",
+        "type": "manual"
+      },
+      "tags": [
+        "ambient",
+        "cinematic",
+        "no_drums",
+        "drone",
+        "string_pad",
+        "piano_motif",
+        "cello_bass",
+        "slow_evolution"
+      ],
+      "tier": "T5",
+      "wash_version": "1.0.0"
+    },
+    {
       "applicability": "",
       "category_path": [
         "effects"
@@ -874,6 +846,35 @@
         "gemini distill returned None (helper unavailable or empty)"
       ],
       "wash_run_at": "2026-04-27T08:54:50Z",
+      "wash_version": "1.0.0"
+    },
+    {
+      "applicability": "Foundational arrangement skill: builds a complete 32-bar multi-section song structure (intro / verse / chorus / variation / outro) with 5 standard tracks (Drums, Bass, Chords, Lead, Pad), per-section dynamics, coordinated FX chains, and tempo/key alignment. Always run this FIRST before any pattern-level skills.",
+      "category_path": [
+        "arrangement",
+        "structure"
+      ],
+      "exec_ok": null,
+      "license": "internal",
+      "modalities_present": [
+        "text"
+      ],
+      "schema_version": "1.0.0",
+      "skill_id": "arrangement_coordinator_full_song",
+      "skill_name": "Full-Song Arrangement Coordinator (5-track, 32-bar multi-section)",
+      "source": {
+        "note": "Composition coordinator analogous to PPT's slide coordinator skill",
+        "type": "manual"
+      },
+      "tags": [
+        "arrangement",
+        "structure",
+        "scaffold",
+        "song_form",
+        "dynamics",
+        "primer"
+      ],
+      "tier": "T5",
       "wash_version": "1.0.0"
     },
     {
@@ -6737,6 +6738,40 @@
       "wash_version": "1.0.0"
     },
     {
+      "applicability": "Use first for future bass / melodic bass drop briefs needing airy intro pads, build sweeps, half-time trap drums, 808 sub, vocal chops, and supersaw lead drops.",
+      "category_path": [
+        "arrangement",
+        "future_bass",
+        "drop"
+      ],
+      "exec_ok": true,
+      "license": "internal",
+      "modalities_present": [
+        "text",
+        "code"
+      ],
+      "schema_version": "1.0.0",
+      "skill_id": "future_bass_drop_coordinator",
+      "skill_name": "Future Bass Drop Coordinator",
+      "source": {
+        "note": "Codex composable Reaper coordinator for cross-domain A/B future bass brief",
+        "type": "manual"
+      },
+      "tags": [
+        "future_bass",
+        "drop",
+        "supersaw",
+        "sidechain",
+        "808",
+        "trap_drums",
+        "vocal_chop",
+        "snare_roll",
+        "filter_sweep"
+      ],
+      "tier": "T5",
+      "wash_version": "1.0.0"
+    },
+    {
       "applicability": "Essential for EDM, pop, and cinematic transitions to build tension before a major downbeat or drop. The crescendo and sudden silence create a vacuum effect that maximizes the impact of the following section.",
       "category_path": [
         "fx",
@@ -10032,6 +10067,39 @@
       "wash_version": "1.0.0"
     },
     {
+      "applicability": "Use first for lo-fi study beat briefs needing dusty Rhodes chords, boom-bap drums, walking bass, vinyl texture, and a sleepy melody.",
+      "category_path": [
+        "arrangement",
+        "lofi",
+        "study_beat"
+      ],
+      "exec_ok": true,
+      "license": "internal",
+      "modalities_present": [
+        "text",
+        "code"
+      ],
+      "schema_version": "1.0.0",
+      "skill_id": "lofi_study_beat_coordinator",
+      "skill_name": "Lo-Fi Study Beat Coordinator",
+      "source": {
+        "note": "Codex composable Reaper coordinator for cross-domain A/B lofi brief",
+        "type": "manual"
+      },
+      "tags": [
+        "lofi",
+        "study",
+        "boom_bap",
+        "rhodes",
+        "walking_bass",
+        "melodica",
+        "vinyl",
+        "warm_mix"
+      ],
+      "tier": "T5",
+      "wash_version": "1.0.0"
+    },
+    {
       "applicability": "",
       "category_path": [
         "drums"
@@ -12508,6 +12576,36 @@
       ],
       "tier": "T3",
       "wash_run_at": "2026-04-27T09:24:33Z",
+      "wash_version": "1.0.0"
+    },
+    {
+      "applicability": "Foundational music-theory and mix-engineering reference for any track-building task. Provides note\u2192MIDI lookup, scale and chord intervals, GM drum map, genre BPM ranges, and per-element FX chains. Call this FIRST in every reaper task.",
+      "category_path": [
+        "primer"
+      ],
+      "exec_ok": null,
+      "license": "internal",
+      "modalities_present": [
+        "text"
+      ],
+      "schema_version": "1.0.0",
+      "skill_id": "music_theory_essentials_primer",
+      "skill_name": "Music Theory & Mix-Engineering Essentials (Primer)",
+      "source": {
+        "note": "Migrated from agent_prompt for skill/non-skill ablation cleanliness",
+        "type": "manual"
+      },
+      "tags": [
+        "primer",
+        "theory",
+        "reference",
+        "mixing",
+        "fx",
+        "scales",
+        "chords",
+        "drums"
+      ],
+      "tier": "T1",
       "wash_version": "1.0.0"
     },
     {

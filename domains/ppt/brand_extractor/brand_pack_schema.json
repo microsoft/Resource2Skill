@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BrandPack v1",
+  "type": "object",
+  "required": ["brand_name", "version", "source", "palette", "typography"],
+  "properties": {
+    "brand_name": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "display_name": {"type": "string"},
+    "version": {"type": "string", "const": "1.0.0"},
+    "source": {
+      "type": "object",
+      "required": ["type", "files", "extracted_at"],
+      "properties": {
+        "type": {"type": "string", "enum": ["brand_pptx"]},
+        "files": {"type": "array", "items": {"type": "string"}},
+        "extracted_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "palette": {
+      "type": "object",
+      "required": ["primary", "secondary", "accents", "neutrals"],
+      "properties": {
+        "primary":   {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"},
+        "secondary": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"},
+        "accents":   {"type": "array", "items": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}, "minItems": 1},
+        "neutrals":  {"type": "array", "items": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}, "minItems": 2},
+        "dont_use":  {"type": "array", "items": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}}
+      }
+    },
+    "typography": {
+      "type": "object",
+      "required": ["heading", "body"],
+      "properties": {
+        "heading": {"type": "string"},
+        "body":    {"type": "string"},
+        "mono":    {"type": "string"}
+      }
+    },
+    "style_rules": {
+      "type": "object",
+      "description": "Vision-derived qualitative rules. v1 stays free-form; downstream prompt the LLM with these as text.",
+      "properties": {
+        "cover_style":              {"type": "string"},
+        "section_divider_style":    {"type": "string"},
+        "content_layout":           {"type": "string"},
+        "data_viz_palette":         {"type": "string"},
+        "typography_hierarchy":     {"type": "string"},
+        "decorative_motifs":        {"type": "string"},
+        "dont_use_layouts":         {"type": "string"}
+      }
+    },
+    "skills": {
+      "type": "array",
+      "description": "IDs of brand-locked skills under brand_wiki/ppt/<brand>/skills/. Populated in P4.",
+      "items": {"type": "string"}
+    }
+  }
+}

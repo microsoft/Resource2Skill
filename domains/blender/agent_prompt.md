@@ -28,6 +28,17 @@ mechanisms through `execute_blender_code` with explicit provenance:
 JSON/list such as `["composition","materials","hero_object"]`), and
 `adaptation_notes='adapted the rim-light and shader-node mechanism...'`.
 
+**Skills are scaffolds, not content.** Copy verbatim: mesh topology, material
+node graphs, shader expressions, light-rig positions and intensities,
+camera-rig math, render settings. Replace: skill demo's object names
+(`"Cube.001"`, `"Empty"`, `"Suzanne"`) with task-relevant names
+(`"research_robot_head"`, `"lab_floor"`), camera target / framing to fit your
+actual hero object, scale/location offsets to put the brief's subject in frame,
+and any color/material slot that the brief's mood/brand dictates (don't ship a
+"warm sunset" brief with the skill demo's blue-hour palette). If a skill demo
+positions the camera at `(0,-5,2)` looking at `(0,0,0)`, your adapted version
+sets the target to the brief's hero object's location, not the literal origin.
+
 1. Use `search_skills(query=<task keywords>)` and/or `list_skills(tier=...)`
    to find candidates whose name, tags, category_path, and applicability
    directly match the requested object, material, environment, or effect.

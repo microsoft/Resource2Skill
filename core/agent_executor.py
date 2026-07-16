@@ -107,7 +107,7 @@ _ARTIFACT_QUALITY_GUARD_ERROR = "artifact_quality_required"
 
 _SKILL_SEARCH_TOOLS = {"list_skills", "search_skills"}
 _SKILL_INSPECT_TEXT_TOOLS = {
-    "get_skill_info", "get_skill_text", "get_skill_code",
+    "get_skill_info", "get_skill_text", "get_skill_code", "get_skill_recipe",
 }
 _SKILL_VISUAL_TOOLS = {"get_skill_visual"}
 _MIN_VISUAL_SKILL_PAIRS_BY_DOMAIN = {
@@ -351,6 +351,7 @@ def _build_server_params(StdioServerParameters, mcp_cfg: dict[str, Any]):
         base_env = {}
     cred_keys = (
         "OPENAI_API_KEY", "GOOGLE_API_KEY", "GEMINI_API_KEY",
+        "AZURE_CONFIG_DIR",
     )
     for k, v in _os.environ.items():
         if k.startswith("AZURE_OPENAI_") or k.startswith("VWS_REAPER_") or k in cred_keys:
@@ -427,6 +428,17 @@ def _build_system_prompt(
         injected_blocks: list[str] = []
         for sid in auto_load_skills:
             overview = wiki_root / sid / "text" / "overview.md"
+            if not overview.exists() and domain_config.get("_active_brand"):
+                overview = (
+                    Path(__file__).resolve().parents[1]
+                    / "brand_wiki"
+                    / domain_name
+                    / str(domain_config["_active_brand"])
+                    / "skills"
+                    / sid
+                    / "text"
+                    / "overview.md"
+                )
             if not overview.exists():
                 continue
             content = overview.read_text(encoding="utf-8", errors="ignore")
@@ -453,6 +465,38 @@ def _build_system_prompt(
                 "`list_skills` / `search_skills`.\n"
             )
             parts.extend(injected_blocks)
+
+    if domain_name == "ppt" and domain_config.get("_active_brand"):
+        brand = str(domain_config.get("_active_brand"))
+        brand_skill_ids = [str(s) for s in (domain_config.get("_brand_skill_ids") or [])]
+        role_lines: list[str] = []
+        for sid in brand_skill_ids:
+            role = "brand slide"
+            if sid.startswith("brand_cover"):
+                role = "cover slide"
+            elif sid.startswith("brand_section"):
+                role = "section divider"
+            elif sid.startswith("brand_content"):
+                role = "content/grid slide"
+            elif sid.startswith("brand_data"):
+                role = "data/quadrant slide"
+            role_lines.append(f"- `{sid}`: primary constructor for {role}")
+        parts.append(
+            "\n# BRAND SHELL CONSTRUCTION RULES\n\n"
+            f"Brand mode is active for `{brand}`. Brand skills are exposed as "
+            "PPT shell IDs, so use brand shells as the PRIMARY constructors for "
+            "matching slide roles.\n\n"
+            + "\n".join(role_lines)
+            + "\n\nMandatory workflow:\n"
+            "1. For the cover, call `add_slide_from_shell(..., shell_id=\"cover_brand\", ...)`.\n"
+            "2. For section dividers, call `section_divider_brand`.\n"
+            "3. For body/grid slides, call `content_grid_brand`.\n"
+            "4. For metric, quadrant, market, traction, and other data slides, call `data_quadrant_brand`.\n"
+            "5. `select_shell` and `list_shells` will surface those brand shells when "
+            "a matching role is requested. Prefer them over non-brand shells.\n"
+            "6. Do not call `add_slide_from_skill` for slide construction in brand "
+            "mode; use `add_slide_from_shell` with the brand shell IDs above.\n"
+        )
 
     skill_selection = domain_config.get("skill_selection", "preselect")
 
@@ -1999,6 +2043,7 @@ class AgentExecutor:
                 )
                 log.warning(cleanup_note)
                 return completed_result
+            log.exception("MCP connection failed before agent loop completion")
             return AgentResult(
                 task=task, success=False, iterations=0,
                 error=f"MCP connection failed: {exc}",
@@ -2451,6 +2496,7 @@ def run_agent(
     task: str,
     domain_config: dict,
     library_dir: Path,
+    brand: str | None = None,
     **kwargs,
 ) -> AgentResult:
     """
@@ -2465,5 +2511,9 @@ def run_agent(
     Returns:
         AgentResult with conversation log and tool call history.
     """
+    if brand:
+        log.info("brand active: %s", brand)
+        domain_config = dict(domain_config)
+        domain_config.setdefault("_active_brand", brand)
     executor = AgentExecutor(domain_config, **kwargs)
     return asyncio.run(executor.run(task, library_dir))

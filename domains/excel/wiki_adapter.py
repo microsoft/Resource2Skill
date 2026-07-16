@@ -8,17 +8,19 @@ its existing behaviour and this module is not imported.
 from __future__ import annotations
 
 import json
+import ast
+import sys
 from pathlib import Path
 from typing import Any
 
 from core.skill_wiki.contract import ExecutionResult, NotExecutableReason, WikiAdapter
-from core.skill_wiki.embeddings import IncompatibleEmbeddingIndex, cosine_matrix, load_compatible
 from core.skill_wiki.registry import WikiRegistry
 from core.skill_wiki.taxonomy import TaxonomyGate
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_WIKI_ROOT = PROJECT_ROOT / "skills_wiki" / "excel"
 CAPABILITIES_PATH = Path(__file__).parent / "capabilities.json"
+_EXPERIMENT_SKIP_SKILL_IDS = {"cfo_scenario_board_workbook_archetype"}
 
 
 class ExcelWikiAdapter(WikiAdapter):
@@ -47,7 +49,7 @@ class ExcelWikiAdapter(WikiAdapter):
         root = self._resolve_root()
         self._registry = WikiRegistry(root=root, domain="excel")
         self._taxonomy = TaxonomyGate(domain_root=root)
-        self._embedding_cache: tuple[list[str], Any, Any] | None = None
+        self._signature_cache: dict[tuple[str, str], set[str]] = {}
 
     def _resolve_root(self) -> Path:
         """Pick the active registry root: explicit > get_library_dir > default."""
@@ -68,7 +70,6 @@ class ExcelWikiAdapter(WikiAdapter):
         new_root = self._resolve_root()
         self._registry = WikiRegistry(root=new_root, domain="excel")
         self._taxonomy = TaxonomyGate(domain_root=new_root)
-        self._embedding_cache = None
 
     # Discovery -----------------------------------------------------------
 
@@ -92,6 +93,8 @@ class ExcelWikiAdapter(WikiAdapter):
         path_prefix = tuple(category_path.split("/")) if category_path else None
         out: list[dict[str, Any]] = []
         for entry in self._registry.list_entries():
+            if entry.get("skill_id") in _EXPERIMENT_SKIP_SKILL_IDS:
+                continue
             if tier is not None and entry.get("tier") != tier:
                 continue
             if path_prefix is not None:
@@ -149,17 +152,30 @@ class ExcelWikiAdapter(WikiAdapter):
         category_path: str | None = None, k: int = 5,
     ) -> list[dict[str, Any]]:
         tier = self._resolve_tier(tier)
-        # Embedding-based search depends on the wiki having embeddings;
-        # if it does not, fall back to substring match on skill_name + tags.
-        try:
-            ids, matrix, _meta = self._load_embeddings()
-        except (IncompatibleEmbeddingIndex, FileNotFoundError):
-            ids, matrix = [], None
-        if matrix is None or not ids:
-            return self._substring_search(query, tier=tier, category_path=category_path, k=k)
-        # Adapter does not own the embedding-of-query call (that lives in the
-        # wash pipeline). Until that arrives, fall back here too.
-        return self._substring_search(query, tier=tier, category_path=category_path, k=k)
+        # Two-stage retrieval: Okapi BM25 candidate pool (IDF + length-norm over
+        # name+applicability+tags, with a mild multiplicative visual boost) →
+        # LLM rerank (Azure GPT-5.5, low reasoning) → top k. The rerank raises
+        # LLMRerankError on failure; callers must NOT swallow it.
+        from core.skill_wiki.bm25 import bm25_pool
+        from core.skill_wiki.llm_rerank import llm_rerank_skills, candidate_pool_size
+
+        pool = bm25_pool(
+            self._registry.list_entries(), query, candidate_pool_size(k),
+            tier=tier, skip_ids=_EXPERIMENT_SKIP_SKILL_IDS,
+            has_visual=_has_visual, summary_view=_summary_view,
+        )
+        if len(pool) <= k:
+            return pool
+        candidate_ids = [str(e.get("skill_id")) for e in pool if e.get("skill_id")]
+        reranked_ids = llm_rerank_skills(
+            query=query,
+            candidate_ids=candidate_ids,
+            registry_entries=list(self._registry.list_entries()),
+            k=k,
+            domain="excel",
+        )
+        by_id = {str(e.get("skill_id")): e for e in pool}
+        return [by_id[sid] for sid in reranked_ids if sid in by_id]
 
     def propose_category(
         self, tier: str, path: list[str], reason: str,
@@ -180,7 +196,7 @@ class ExcelWikiAdapter(WikiAdapter):
         seed the workbook theme).
         """
         try:
-            from domains.excel.mcp_server import xlsx_engine  # type: ignore[import-not-found]
+            xlsx_engine = _xlsx_engine_module()
         except ImportError as exc:
             return ExecutionResult.fail(skill_id, f"xlsx_engine import failed: {exc}", verb="init_workbook")
         name = kwargs.get("name") or target_id
@@ -205,6 +221,7 @@ class ExcelWikiAdapter(WikiAdapter):
         # of the tier label.
         actual = self._detect_skill_signature(skill_id)
         if actual == "render_workbook":
+            params = self._with_required_defaults(skill_id, "render_workbook", params, sheet_name=sheet_name)
             return self._call_engine(
                 verb="init_from_archetype",
                 skill_id=skill_id,
@@ -214,6 +231,7 @@ class ExcelWikiAdapter(WikiAdapter):
                 ),
             )
         if actual == "render_sheet":
+            params = self._with_required_defaults(skill_id, "render_sheet", params, sheet_name=sheet_name)
             return self._call_engine(
                 verb="add_sheet_from_shell",
                 skill_id=skill_id,
@@ -222,6 +240,7 @@ class ExcelWikiAdapter(WikiAdapter):
                     skills_dir, target_id, skill_id, sheet_name, params,
                 ),
             )
+        params = self._with_required_defaults(skill_id, "render", params, sheet_name=sheet_name)
         return self._call_engine(
             verb="apply_component",
             skill_id=skill_id,
@@ -235,6 +254,7 @@ class ExcelWikiAdapter(WikiAdapter):
         sheet_name = kwargs.get("sheet_name") or kwargs.get("sheet") or "Sheet1"
         params = kwargs.get("kwargs") or {k: v for k, v in kwargs.items()
                                            if k not in {"sheet_name", "sheet", "kwargs"}}
+        params = self._with_required_defaults(skill_id, "render_sheet", params, sheet_name=sheet_name)
         return self._call_engine(
             verb="add_sheet_from_shell",
             skill_id=skill_id,
@@ -246,6 +266,7 @@ class ExcelWikiAdapter(WikiAdapter):
 
     def init_from_archetype(self, *, skill_id: str, target_id: str, **kwargs: Any) -> ExecutionResult:
         params = kwargs.get("kwargs") or {k: v for k, v in kwargs.items() if k != "kwargs"}
+        params = self._with_required_defaults(skill_id, "render_workbook", params)
         return self._call_engine(
             verb="init_from_archetype",
             skill_id=skill_id,
@@ -283,12 +304,107 @@ class ExcelWikiAdapter(WikiAdapter):
             return "render"
         return None
 
+    def _with_required_defaults(
+        self,
+        skill_id: str,
+        entrypoint: str,
+        params: dict[str, Any],
+        *,
+        sheet_name: str | None = None,
+    ) -> dict[str, Any]:
+        """Fill common required kwargs for distilled Excel skills.
+
+        Several wiki skills expose executable code but require presentation
+        parameters like ``title`` or ``kpis``. The adapter can supply neutral
+        defaults so ``apply_skill`` is a real insertion path; the agent can
+        still overwrite task-specific data with grounded follow-up code.
+        """
+        required = self._required_kwonly_params(skill_id, entrypoint)
+        if not required:
+            return dict(params)
+        out = dict(params)
+        defaults = self._default_param_values(skill_id, sheet_name=sheet_name)
+        for name in required:
+            if name not in out and name in defaults:
+                out[name] = defaults[name]
+        return out
+
+    def _required_kwonly_params(self, skill_id: str, entrypoint: str) -> set[str]:
+        cache_key = (skill_id, entrypoint)
+        if cache_key in self._signature_cache:
+            return self._signature_cache[cache_key]
+        required: set[str] = set()
+        try:
+            from core import get_library_dir
+            code_path = get_library_dir("excel") / skill_id / "code" / "skill.py"
+            text = code_path.read_text(encoding="utf-8", errors="ignore")
+            tree = ast.parse(text)
+            for node in tree.body:
+                if isinstance(node, ast.FunctionDef) and node.name == entrypoint:
+                    for arg, default in zip(node.args.kwonlyargs, node.args.kw_defaults):
+                        if default is None:
+                            required.add(arg.arg)
+                    break
+        except Exception:  # noqa: BLE001
+            required = set()
+        self._signature_cache[cache_key] = required
+        return required
+
+    def _default_param_values(self, skill_id: str, *, sheet_name: str | None = None) -> dict[str, Any]:
+        entry = self._registry.get(skill_id) or {}
+        title = (
+            str(entry.get("skill_name") or "").strip()
+            or str(sheet_name or "").strip()
+            or skill_id.replace("_", " ").title()
+        )
+        kpis = [
+            {"label": "Revenue", "value": 1240000, "delta": 0.12, "status": "Good"},
+            {"label": "Margin", "value": 0.64, "delta": 0.03, "status": "Good"},
+            {"label": "Risk", "value": 0.18, "delta": -0.02, "status": "Watch"},
+        ]
+        table_headers = ["Metric", "Current", "Target", "Status"]
+        table_rows = [
+            ["Pipeline", 1240000, 1100000, "Ahead"],
+            ["Efficiency", 0.91, 0.85, "Good"],
+            ["Exceptions", 3, 0, "Watch"],
+        ]
+        return {
+            "title": title,
+            "subtitle": "Generated workbook section",
+            "company_name": "Example Co",
+            "kpis": kpis,
+            "cards": kpis,
+            "table_headers": table_headers,
+            "table_data": table_rows,
+            "table_rows": table_rows,
+            "data": table_rows,
+            "main_panel": "Primary performance view",
+            "top_right_panel": "Trend view",
+            "bottom_right_panel": "Exception view",
+            "title_text": title,
+            "value": 100,
+            "actual": 92,
+            "target": 100,
+            "prior": 84,
+            "actual_value": 92,
+            "target_value": 100,
+            "primary_value": "92%",
+            "secondary_value": "vs 100% target",
+            "main_value": "92%",
+            "kpi_name": "Performance",
+            "kpi_label": "Performance",
+            "icon_name": "circle",
+            "kpi_value_cell": "B2",
+            "data_anchor": "A1",
+            "chart_anchor": "E1",
+        }
+
     def _call_engine(
         self, *, verb: str, skill_id: str, target_id: str,
         engine_call: Any,
     ) -> ExecutionResult:
         try:
-            from domains.excel.mcp_server import xlsx_engine  # type: ignore[import-not-found]
+            xlsx_engine = _xlsx_engine_module()
         except ImportError as exc:
             return ExecutionResult.fail(
                 skill_id, f"xlsx_engine import failed: {exc}", verb=verb
@@ -314,42 +430,21 @@ class ExcelWikiAdapter(WikiAdapter):
         except json.JSONDecodeError:
             return {}
 
-    def _load_embeddings(self) -> tuple[list[str], Any, Any]:
-        if self._embedding_cache is None:
-            ids, matrix, meta = load_compatible(
-                npz_path=self._registry.root / "embeddings.npz",
-                meta_path=self._registry.root / "embeddings.meta.json",
-                expected_model=_pinned_embedding_model(),
-            )
-            self._embedding_cache = (ids, matrix, meta)
-        return self._embedding_cache
 
-    def _substring_search(
-        self, query: str, *, tier: str | None, category_path: str | None, k: int,
-    ) -> list[dict[str, Any]]:
-        q = query.lower()
-        scored: list[tuple[int, dict[str, Any]]] = []
-        for entry in self._registry.list_entries():
-            if tier is not None and entry.get("tier") != tier:
-                continue
-            haystack = " ".join([
-                str(entry.get("skill_name") or ""),
-                str(entry.get("applicability") or ""),
-                " ".join(entry.get("tags", []) or []),
-            ]).lower()
-            score = sum(1 for token in q.split() if token in haystack)
-            if _has_visual(entry["skill_id"]):
-                score += 2
-            if score > 0:
-                scored.append((score, _summary_view(entry)))
-        scored.sort(key=lambda pair: pair[0], reverse=True)
-        return [entry for _, entry in scored[:k]]
+def _xlsx_engine_module():
+    """Return the live Excel engine module used by the MCP server.
 
-
-def _pinned_embedding_model() -> str:
-    from core.skill_wiki.budget import _CONFIG_PATH  # type: ignore[attr-defined]
-    payload = json.loads(_CONFIG_PATH.read_text(encoding="utf-8"))
-    return str(payload.get("embedding_model", "text-embedding-3-large"))
+    ``domains/excel/mcp_server/server.py`` imports the engine as top-level
+    ``xlsx_engine`` after putting its directory on ``sys.path``. Importing the
+    package-qualified module here creates a second workbook registry, which
+    makes ``apply_skill`` fail with ``Unknown workbook_id`` in the real server
+    process. Prefer the already-loaded top-level module, then fall back.
+    """
+    loaded = sys.modules.get("xlsx_engine")
+    if loaded is not None and hasattr(loaded, "get_workbook"):
+        return loaded
+    from domains.excel.mcp_server import xlsx_engine  # type: ignore[import-not-found]
+    return xlsx_engine
 
 
 def _summary_view(entry: dict[str, Any]) -> dict[str, Any]:

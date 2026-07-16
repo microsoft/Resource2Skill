@@ -117,27 +117,32 @@ class BlenderWikiAdapter(WikiAdapter):
 
     def search_skills(self, query: str, tier: str | None = None,
                       category_path: str | None = None, k: int = 5) -> list[dict[str, Any]]:
-        q = query.lower()
-        scored: list[tuple[int, bool, dict[str, Any]]] = []
-        for entry in self._registry.list_entries():
-            if tier is not None and entry.get("tier") != tier:
-                continue
-            haystack = " ".join([
-                str(entry.get("skill_name") or ""),
-                str(entry.get("applicability") or ""),
-                " ".join(entry.get("tags", []) or []),
-            ]).lower()
-            score = sum(1 for token in q.split() if token in haystack)
-            has_visual = _has_visual(entry["skill_id"])
-            if has_visual:
-                score += 2
-            if score > 0:
-                scored.append((score, has_visual, _summary_view(entry)))
-        # The skill-path gate requires at least one text/code + visual pair.
-        # Many manual Blender runtime skills are useful but have no reference
-        # frames, so discovery should surface visual-bearing references first.
-        scored.sort(key=lambda pair: (not pair[1], -pair[0]))
-        return [entry for _, _, entry in scored[:k]]
+        # Two-stage retrieval: Okapi BM25 candidate pool (IDF + length-norm over
+        # name+applicability+tags, with a mild multiplicative visual boost since
+        # the skill-path gate wants a text/code + visual pair) → LLM rerank
+        # (Azure GPT-5.5, low reasoning) → top k. The rerank raises
+        # LLMRerankError on failure; callers must NOT swallow it (no silent
+        # degradation to the lexical pool).
+        from core.skill_wiki.bm25 import bm25_pool
+        from core.skill_wiki.llm_rerank import llm_rerank_skills, candidate_pool_size
+
+        pool = bm25_pool(
+            self._registry.list_entries(), query, candidate_pool_size(k),
+            tier=tier, has_visual=_has_visual, summary_view=_summary_view,
+        )
+        if len(pool) <= k:
+            return pool
+
+        candidate_ids = [str(e.get("skill_id")) for e in pool if e.get("skill_id")]
+        reranked_ids = llm_rerank_skills(
+            query=query,
+            candidate_ids=candidate_ids,
+            registry_entries=list(self._registry.list_entries()),
+            k=k,
+            domain="blender",
+        )
+        by_id = {str(e.get("skill_id")): e for e in pool}
+        return [by_id[sid] for sid in reranked_ids if sid in by_id]
 
     def propose_category(self, tier: str, path: list[str], reason: str,
                          example_skill_id: str | None = None) -> dict[str, Any]:

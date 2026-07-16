@@ -1,0 +1,18 @@
+{
+  "skill_id": "rag_conditional_formatting_kpi_mechanism",
+  "skill_name": "RAG Conditional Formatting KPI Mechanism",
+  "tier": "T2",
+  "category_path": ["mechanism", "formatting", "kpi"],
+  "tags": ["mechanism", "rag", "conditional_formatting", "kpi", "threshold", "formula_rule", "color_scale"],
+  "applicability": "Use when dashboard KPI cells need red/amber/green status based on thresholds, targets, or variance bands.",
+  "source": {"type": "manual", "note": "KDA-mode CFO mechanism page authored with GPT-5.5 high reasoning"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0",
+  "type": "mechanism",
+  "confidence": "verified",
+  "reproducibility": "snippet",
+  "related": ["scenario_dropdown_pl_linkage_mechanism", "two_variable_sensitivity_table_mechanism"]
+}

@@ -35,6 +35,7 @@ _OWNED_NAMES: tuple[str, ...] = (
     "get_skill_text",
     "get_skill_code",
     "get_skill_visual",
+    "get_skill_recipe",
     "search_skills",
     "propose_category",
     "apply_skill",
@@ -123,6 +124,11 @@ def register_wiki_tools(mcp: Any, adapter: WikiAdapter) -> None:
         return adapter.get_skill_visual(skill_id)
 
     @mcp.tool()
+    def get_skill_recipe(skill_id: str) -> dict:
+        """Return the compositional recipe for a skill, explicit or synthesized."""
+        return adapter.get_skill_recipe(skill_id)
+
+    @mcp.tool()
     def search_skills(
         query: str,
         tier: str | None = None,
@@ -166,4 +172,3 @@ def _ensure_fresh(adapter: WikiAdapter) -> None:
 
 
 __all__ = ["register_wiki_tools"]
-

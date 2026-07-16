@@ -1,0 +1,14 @@
+{
+  "skill_id": "ambient_cinematic_no_drums_coordinator",
+  "skill_name": "Ambient Cinematic No-Drums Coordinator",
+  "tier": "T5",
+  "category_path": ["arrangement", "ambient", "no_drums"],
+  "tags": ["ambient", "cinematic", "no_drums", "drone", "string_pad", "piano_motif", "cello_bass", "slow_evolution"],
+  "applicability": "Use first for long ambient cinematic briefs that explicitly prohibit drums and need slow-evolving pads, drones, sparse piano motifs, and sustained bass.",
+  "source": {"type": "manual", "note": "Codex composable Reaper coordinator for cross-domain A/B ambient brief"},
+  "license": "internal",
+  "exec_ok": true,
+  "modalities_present": ["text", "code"],
+  "schema_version": "1.0.0",
+  "wash_version": "1.0.0"
+}
