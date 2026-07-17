@@ -1,9 +1,9 @@
 # RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources
 
-[![Project Page](https://img.shields.io/badge/Project-Resource2Skill-blue)](https://microsoft.github.io/Resources2Skill/)
+[![Project Page](https://img.shields.io/badge/Project-Resource2Skill-blue)](https://microsoft.github.io/Resource2Skill/)
 [![Paper](https://img.shields.io/badge/arXiv-2606.29538-b31b1b)](https://arxiv.org/abs/2606.29538)
-[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/microsoft/Resources2Skill)
-[![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/YijiaFan/Resource2Skill)
+[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/microsoft/Resource2Skill)
+[![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/microsoft/RESOURCE2SKILL)
 
 <p align="center">
   <img src="assets/teaser.png" alt="Resource2Skill" width="92%">
@@ -111,7 +111,7 @@ python cli.py agent --domain reaper \
 
 The distilled skill libraries are released on Hugging Face:
 
-**https://huggingface.co/datasets/YijiaFan/Resource2Skill**
+**https://huggingface.co/datasets/microsoft/RESOURCE2SKILL**
 
 At runtime the agent reads from two roots in this repo: `skills_wiki/<domain>/`
 (structured wiki entries for browse/search/inspect) and `skills_library/<domain>/`
