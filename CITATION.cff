@@ -37,8 +37,9 @@ authors:
     given-names: Chong
     affiliation: Microsoft
 date-released: 2026-07-14
-repository-code: "https://github.com/microsoft/Resources2Skill"
-url: "https://microsoft.github.io/Resources2Skill/"
+repository-code: "https://github.com/microsoft/Resource2Skill"
+repository-artifact: "https://huggingface.co/datasets/microsoft/RESOURCE2SKILL"
+url: "https://microsoft.github.io/Resource2Skill/"
 identifiers:
   - type: other
     value: "arXiv:2606.29538"
