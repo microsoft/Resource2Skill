@@ -2,7 +2,7 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Resource2Skill-blue)](https://microsoft.github.io/Resources2Skill/)
 [![Paper](https://img.shields.io/badge/arXiv-2606.29538-b31b1b)](https://arxiv.org/abs/2606.29538)
-[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/microsoft/Resources2Skill)
+[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/microsoft/Resource2Skill)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/YijiaFan/Resource2Skill)
 
 <p align="center">
