@@ -30,7 +30,17 @@ Operate the Resource2Skill skill-distillation harness from within an agent sessi
 
 ## Configuration
 
-Set the backend once per shell or task:
+The fastest way is to create a `.env` file in the repo root:
+
+```bash
+cp .env.example .env
+# edit .env and uncomment the CLI backend lines
+```
+
+`.env` is **not** automatically read by the OS; `cli.py` uses `python-dotenv` to
+load it when you run a command.
+
+You can also export per shell:
 
 ```bash
 # Use a local agent CLI instead of API keys
@@ -41,8 +51,21 @@ export R2S_CLI_TOOL=claude   # claude | codex | kimi | omp
 export R2S_VIDEO_BACKEND=cli
 ```
 
-If you leave these unset, Resource2Skill falls back to its original behavior:
-`AZURE_OPENAI_API_KEY` for agent reasoning and `GEMINI_API_KEY` for video analysis.
+### Default behavior when no keys are set
+
+If you leave the variables unset, the system will **auto-detect** a keyless path
+whenever possible:
+
+- If `AZURE_OPENAI_API_KEY` is missing and an agent CLI (`claude`, `codex`,
+  `kimi`, `omp`) is on PATH, `R2S_LLM_BACKEND` defaults to `cli`.
+- If `GEMINI_API_KEY` is missing, `R2S_VIDEO_BACKEND` defaults to `cli`
+  (subtitle + keyframes).
+
+So on a machine with `claude` and `yt-dlp` installed, you can often run without
+setting anything manually.
+
+If you explicitly set API keys, the CLI backend is ignored unless you also set
+`R2S_LLM_BACKEND=cli`.
 
 ## Commands
 
@@ -93,6 +116,52 @@ python cli.py validate-domain --domain web
 ```
 
 Run this after changing a domain YAML or before a long agent loop to catch config errors early.
+
+## How skills are stored and discovered
+
+Resource2Skill keeps skills in two roots:
+
+- `skills_wiki/<domain>/` — browse/search entries. Each skill has
+  `code/skill.json` (metadata + code pointers) and `text/overview.md` (human
+  readable summary).
+- `skills_library/<domain>/` — executable assets. Each skill is a folder
+  containing `skill.json` plus any code, frames, or helper files.
+
+The `skill.json` file is **not** a Markdown skill file. It is structured JSON
+with fields such as `skill_id`, `skill_name`, `domain`, `source` (provenance),
+`analysis` (the Markdown distillation), and executable code. Use the CLI or read
+the JSON directly.
+
+### Search for a skill
+
+```bash
+python cli.py retrieve --domain web --query "typewriter animation" --select 3
+```
+
+This returns the top matching skills from `skills_library/web/`. The query can
+use natural language; keyword fallback works even without embedding keys.
+
+### Inspect a specific skill
+
+Option 1 — read the JSON directly:
+
+```bash
+cat skills_library/web/animation/dynamic_pure_css_typewriter_effect_12449511/skill.json
+```
+
+Option 2 — use the agent loop dry-run to see how the skill would be executed:
+
+```bash
+python cli.py execute --domain web \
+  --skill dynamic_pure_css_typewriter_effect_12449511 \
+  --dry-run
+```
+
+### List skills in a domain
+
+```bash
+find skills_library/web -name skill.json | head -20
+```
 
 ## Output layout
 

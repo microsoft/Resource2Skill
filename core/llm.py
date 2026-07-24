@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import shutil
 import threading
 import time
 from typing import Any
@@ -188,9 +189,42 @@ class LLMError(Exception):
     """Raised when all LLM call attempts fail."""
 
 
+def _cli_tool_available(preferred: str | None = None) -> str | None:
+    """Return the first locally installed agent CLI we can find."""
+    candidates = [preferred] if preferred else ["claude", "codex", "kimi", "omp"]
+    candidates = [c for c in candidates if c]
+    for tool in candidates:
+        if shutil.which(tool):
+            return tool
+    return None
+
+
+def _auto_configure_cli_backend() -> bool:
+    """Enable CLI backend when no API keys are present and a CLI is installed.
+
+    This makes keyless operation work out of the box: if the user has not
+    configured R2S_LLM_BACKEND and has no AZURE_OPENAI_API_KEY, we default to
+    the locally authenticated agent CLI (Claude Code first, then others).
+    """
+    configured = os.environ.get("R2S_LLM_BACKEND", "").strip().lower()
+    if configured == "cli":
+        return True
+    if configured and configured != "cli":
+        return False
+    if os.environ.get("AZURE_OPENAI_API_KEY"):
+        return False
+    tool = _cli_tool_available()
+    if tool:
+        os.environ.setdefault("R2S_LLM_BACKEND", "cli")
+        os.environ.setdefault("R2S_CLI_TOOL", tool)
+        log.info("No AZURE_OPENAI_API_KEY found; defaulting to CLI backend (%s)", tool)
+        return True
+    return False
+
+
 def _use_cli_backend() -> bool:
     """Route LLM calls through a local agent CLI (no API keys) when set."""
-    return os.environ.get("R2S_LLM_BACKEND", "").strip().lower() == "cli"
+    return _auto_configure_cli_backend()
 
 
 def _chat_to_responses_input(messages: list[dict]) -> list[dict]:
@@ -566,7 +600,24 @@ def call_llm(
 
     For function-calling agent loops, use call_azure_openai() directly.
     """
+    # Keyless fallback: if the requested backend has no API key but a local
+    # agent CLI is available, route through it.
     if backend == "cli" or (_use_cli_backend() and backend in ("azure", "gpt-5.4")):
+        from core.llm_cli import call_cli
+        messages = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+        try:
+            msg = call_cli(messages, **kw)
+            return msg.get("content", "") or ""
+        except LLMError as e:
+            log.error("CLI call_llm failed: %s", e)
+            return ""
+    if backend == "gemini" and not os.environ.get("GEMINI_API_KEY") and _cli_tool_available():
+        log.info("GEMINI_API_KEY not set; falling back to CLI backend for call_llm")
+        os.environ.setdefault("R2S_LLM_BACKEND", "cli")
+        os.environ.setdefault("R2S_CLI_TOOL", _cli_tool_available())
         from core.llm_cli import call_cli
         messages = []
         if system:

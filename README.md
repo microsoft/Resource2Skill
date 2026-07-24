@@ -74,6 +74,10 @@ export R2S_CLI_TOOL=claude
 export R2S_VIDEO_BACKEND=cli
 ```
 
+You can also leave the variables unset: if `AZURE_OPENAI_API_KEY` is missing and
+an agent CLI is on PATH, the system defaults to `R2S_LLM_BACKEND=cli`. If
+`GEMINI_API_KEY` is missing, video analysis defaults to `R2S_VIDEO_BACKEND=cli`.
+
 Tested: `claude` supports multi-turn session resume, a text-based tool-call
 protocol, and reading local image files in headless mode. `codex`, `kimi`, and
 `omp` backends are not yet implemented.

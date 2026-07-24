@@ -91,7 +91,15 @@ def analyze_video(
     Returns:
         Raw Markdown analysis from the model.
     """
-    if os.environ.get("R2S_VIDEO_BACKEND", "").strip().lower() == "cli":
+    video_backend = os.environ.get("R2S_VIDEO_BACKEND", "").strip().lower()
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if video_backend == "cli" or (not video_backend and not gemini_key):
+        if not video_backend and not gemini_key:
+            import shutil as _shutil
+            if _shutil.which("claude") or _shutil.which("yt-dlp"):
+                log.info("GEMINI_API_KEY not set; defaulting to CLI video backend")
+            else:
+                log.warning("GEMINI_API_KEY not set and no CLI/yt-dlp found; CLI video backend may fail")
         return analyze_video_cli(
             video_url,
             prompt_path=prompt_path,
