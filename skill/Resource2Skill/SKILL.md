@@ -49,6 +49,10 @@ export R2S_CLI_TOOL=claude   # claude | codex | kimi | omp
 
 # Optional: use subtitle+keyframes for video analysis (no Gemini key)
 export R2S_VIDEO_BACKEND=cli
+
+# Optional: if native subtitles are missing, generate them with local ASR
+export R2S_VIDEO_ASR=auto    # auto | faster-whisper | whisper
+export R2S_VIDEO_ASR_MODEL=tiny  # tiny | base | small
 ```
 
 ### Default behavior when no keys are set
@@ -60,12 +64,11 @@ whenever possible:
   `kimi`, `omp`) is on PATH, `R2S_LLM_BACKEND` defaults to `cli`.
 - If `GEMINI_API_KEY` is missing, `R2S_VIDEO_BACKEND` defaults to `cli`
   (subtitle + keyframes).
+- If `R2S_VIDEO_ASR=auto` is set and `faster-whisper` or `openai-whisper` is
+  installed, missing native subtitles fall back to local ASR on the audio track.
 
-So on a machine with `claude` and `yt-dlp` installed, you can often run without
-setting anything manually.
-
-If you explicitly set API keys, the CLI backend is ignored unless you also set
-`R2S_LLM_BACKEND=cli`.
+So on a machine with `claude`, `yt-dlp`, and `faster-whisper` installed, you can
+often run without setting anything manually.
 
 ## Commands
 
@@ -174,6 +177,7 @@ find skills_library/web -name skill.json | head -20
 - `R2S_VIDEO_BACKEND=cli` currently supports image ingestion best with `claude`, because claude can read local image files in headless mode. kimi, codex, and omp either lack image input or have not been verified.
 - The CLI LLM backend currently implements `claude` first; codex/kimi/omp backends are planned.
 - Embeddings (`python cli.py build`) still require a Gemini key unless you rely on keyword-only retrieval.
+- ASR fallback (`R2S_VIDEO_ASR`) requires `faster-whisper` or `openai-whisper` and first model download is ~40MB (`tiny`) to ~150MB (`base`). Transcription speed depends on CPU; Apple Silicon with `faster-whisper` int8 is usable for short videos.
 
 ## Examples
 

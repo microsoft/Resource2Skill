@@ -85,10 +85,16 @@ def _fetch_vtt(video_url: str, output_dir: Path, *, start_offset: str | None, en
 
     # yt-dlp names files like video.en.auto.vtt or video.zh-Hans.vtt
     candidates = sorted(glob.glob(str(base) + "*.vtt"))
-    if not candidates:
-        log.warning("No VTT subtitles found for %s", video_url)
-        return None
-    return Path(candidates[0])
+    if candidates:
+        return Path(candidates[0])
+
+    # No native subtitles. Try local ASR if the user enabled it.
+    asr_path = _run_asr(video_url, output_dir, start_offset=start_offset, end_offset=end_offset)
+    if asr_path and asr_path.exists():
+        return asr_path
+
+    log.warning("No VTT subtitles or ASR output found for %s", video_url)
+    return None
 
 
 def _parse_vtt(vtt_path: Path) -> str:
@@ -195,6 +201,168 @@ def _fmt_time(seconds: int) -> str:
     if h:
         return f"{h}:{m:02d}:{s:02d}"
     return f"{m}:{s:02d}"
+
+
+# ---------------------------------------------------------------------------
+# ASR fallback when no native subtitles exist
+# ---------------------------------------------------------------------------
+
+
+def _asr_backend() -> str | None:
+    """Return the configured ASR backend, or None if ASR is disabled.
+
+    Env:
+      R2S_VIDEO_ASR=auto|faster-whisper|whisper|none
+      R2S_VIDEO_ASR_MODEL=tiny|base|small  (default: tiny)
+    """
+    backend = os.environ.get("R2S_VIDEO_ASR", "auto").strip().lower()
+    if backend in ("", "none", "0", "false"):
+        return None
+    if backend != "auto":
+        return backend
+    # auto: prefer faster-whisper if importable, else openai-whisper
+    try:
+        import faster_whisper  # noqa: F401
+        return "faster-whisper"
+    except ImportError:
+        pass
+    try:
+        import whisper  # noqa: F401
+        return "whisper"
+    except ImportError:
+        return None
+
+
+def _asr_model() -> str:
+    return os.environ.get("R2S_VIDEO_ASR_MODEL", "tiny").strip().lower() or "tiny"
+
+
+def _download_audio(
+    video_url: str,
+    output_path: Path,
+    *,
+    start_offset: str | None,
+    end_offset: str | None,
+    timeout: int = 180,
+) -> bool:
+    """Download/extract audio from a video URL to a WAV file."""
+    cmd = [
+        "yt-dlp",
+        "-x", "--audio-format", "wav", "--audio-quality", "0",
+        "--no-playlist", "--quiet",
+        "-o", str(output_path.with_suffix(".%(ext)s")),
+    ]
+    if start_offset or end_offset:
+        def _fmt_sec(offset: str) -> str:
+            sec = _parse_offset(offset) if isinstance(offset, str) and offset else 0
+            h, rem = divmod(sec, 3600)
+            m, s = divmod(rem, 60)
+            return f"{h:02d}:{m:02d}:{s:02d}"
+        start = _fmt_sec(start_offset) if start_offset else "0:00:00"
+        end = _fmt_sec(end_offset) if end_offset else "9999:59:59"
+        cmd += ["--download-sections", f"*{start}-{end}"]
+    cmd.append(video_url)
+    try:
+        subprocess.run(cmd, check=True, timeout=timeout, capture_output=True)
+        return output_path.exists() and output_path.stat().st_size > 0
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+        log.warning("Failed to download audio: %s", e)
+        return False
+
+
+def _segments_to_vtt(segments, output_path: Path) -> Path:
+    """Write faster-whisper / whisper segments to a WebVTT file."""
+    def _seg_val(seg, name: str):
+        if hasattr(seg, name):
+            return getattr(seg, name)
+        if isinstance(seg, dict):
+            return seg.get(name, 0 if name in ("start", "end") else "")
+        return 0 if name in ("start", "end") else ""
+
+    lines = ["WEBVTT", ""]
+    for seg in segments:
+        start = _seg_val(seg, "start")
+        end = _seg_val(seg, "end")
+        text = str(_seg_val(seg, "text")).strip()
+        if not text:
+            continue
+        lines.append(f"{_vtt_timestamp(float(start))} --> {_vtt_timestamp(float(end))}")
+        lines.append(text)
+        lines.append("")
+    output_path.write_text("\n".join(lines), encoding="utf-8")
+    return output_path
+
+
+def _vtt_timestamp(seconds: float) -> str:
+    """Format seconds as HH:MM:SS.mmm for VTT."""
+    ms = int((seconds % 1) * 1000)
+    s = int(seconds) % 60
+    m = (int(seconds) // 60) % 60
+    h = int(seconds) // 3600
+    return f"{h:02d}:{m:02d}:{s:02d}.{ms:03d}"
+
+
+def _transcribe_audio_faster_whisper(audio_path: Path, output_path: Path, model: str) -> Path | None:
+    """Transcribe audio with faster-whisper and write a VTT file."""
+    try:
+        from faster_whisper import WhisperModel
+    except ImportError as e:
+        log.warning("faster-whisper not installed: %s", e)
+        return None
+    log.info("Running faster-whisper (%s) on %s", model, audio_path)
+    try:
+        # int8 on CPU keeps memory low; Apple Silicon also handles this fine.
+        m = WhisperModel(model, device="cpu", compute_type="int8")
+        segments, _ = m.transcribe(str(audio_path), beam_size=5, word_timestamps=False)
+        return _segments_to_vtt(segments, output_path)
+    except Exception as e:
+        log.warning("faster-whisper transcription failed: %s", e)
+        return None
+
+
+def _transcribe_audio_whisper(audio_path: Path, output_path: Path, model: str) -> Path | None:
+    """Transcribe audio with openai-whisper and write a VTT file."""
+    try:
+        import whisper
+    except ImportError as e:
+        log.warning("openai-whisper not installed: %s", e)
+        return None
+    log.info("Running openai-whisper (%s) on %s", model, audio_path)
+    try:
+        m = whisper.load_model(model)
+        result = m.transcribe(str(audio_path), verbose=False)
+        return _segments_to_vtt(result.get("segments", []), output_path)
+    except Exception as e:
+        log.warning("openai-whisper transcription failed: %s", e)
+        return None
+
+
+def _run_asr(
+    video_url: str,
+    output_dir: Path,
+    *,
+    start_offset: str | None,
+    end_offset: str | None,
+) -> Path | None:
+    """Generate a VTT file via local ASR when native subtitles are missing."""
+    backend = _asr_backend()
+    if not backend:
+        return None
+    model = _asr_model()
+    audio_path = output_dir / "audio.wav"
+    if not _download_audio(video_url, audio_path, start_offset=start_offset, end_offset=end_offset):
+        return None
+    vtt_path = output_dir / "asr.vtt"
+    if backend == "faster-whisper":
+        result = _transcribe_audio_faster_whisper(audio_path, vtt_path, model)
+    elif backend == "whisper":
+        result = _transcribe_audio_whisper(audio_path, vtt_path, model)
+    else:
+        log.warning("Unknown ASR backend: %s", backend)
+        return None
+    if result and result.exists():
+        log.info("ASR generated subtitle: %s", result)
+    return result
 
 
 # ---------------------------------------------------------------------------
