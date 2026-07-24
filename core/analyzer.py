@@ -14,8 +14,14 @@ import tempfile
 import time
 import logging
 from pathlib import Path
-from google import genai
-from google.genai import types
+try:
+    from google import genai
+    from google.genai import types
+except ImportError as _genai_import_err:  # pragma: no cover - optional dependency
+    genai = None  # type: ignore[assignment]
+    types = None  # type: ignore[assignment]
+
+from core.analyzer_cli_video import analyze_video_cli
 
 log = logging.getLogger("analyzer")
 
@@ -41,7 +47,12 @@ def _load_prompt(path: Path | str | None = None) -> str:
     return p.read_text(encoding="utf-8")
 
 
-def _make_client(api_key: str | None = None) -> genai.Client:
+def _make_client(api_key: str | None = None):
+    if genai is None:
+        raise RuntimeError(
+            "google-genai package is not installed. "
+            "Install it or use R2S_VIDEO_BACKEND=cli for keyless video analysis."
+        )
     key = api_key or os.environ.get("GEMINI_API_KEY")
     if not key:
         raise ValueError(
@@ -63,6 +74,10 @@ def analyze_video(
 ) -> str:
     """Analyze a YouTube video and return a skill extraction in Markdown.
 
+    Defaults to Gemini native video understanding. When ``R2S_VIDEO_BACKEND=cli``
+    is set, falls back to a local, keyless pipeline: yt-dlp subtitles +
+    ffmpeg keyframes + local agent CLI (Claude Code) reasoning.
+
     Args:
         video_url: Public YouTube URL.
         model: Gemini model to use.
@@ -76,6 +91,16 @@ def analyze_video(
     Returns:
         Raw Markdown analysis from the model.
     """
+    if os.environ.get("R2S_VIDEO_BACKEND", "").strip().lower() == "cli":
+        return analyze_video_cli(
+            video_url,
+            prompt_path=prompt_path,
+            prompt_text=prompt_text,
+            extra_instructions=extra_instructions,
+            start_offset=start_offset,
+            end_offset=end_offset,
+        )
+
     client = _make_client(api_key)
 
     if prompt_text:

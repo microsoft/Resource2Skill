@@ -188,6 +188,11 @@ class LLMError(Exception):
     """Raised when all LLM call attempts fail."""
 
 
+def _use_cli_backend() -> bool:
+    """Route LLM calls through a local agent CLI (no API keys) when set."""
+    return os.environ.get("R2S_LLM_BACKEND", "").strip().lower() == "cli"
+
+
 def _chat_to_responses_input(messages: list[dict]) -> list[dict]:
     """Translate chat-format messages into Responses API input items.
 
@@ -439,6 +444,18 @@ def call_azure_openai(
     Raises:
         LLMError: If all retries are exhausted.
     """
+    if _use_cli_backend():
+        from core.llm_cli import call_cli
+        return call_cli(
+            messages,
+            tools=tools,
+            model=model,
+            max_completion_tokens=max_completion_tokens,
+            timeout=timeout,
+            max_retries=max_retries,
+            tool_choice=tool_choice,
+        )
+
     model_key = model.lower().strip()
 
     # Dispatch to Responses API for models that need it. gpt-5.5 goes here so
@@ -549,6 +566,18 @@ def call_llm(
 
     For function-calling agent loops, use call_azure_openai() directly.
     """
+    if backend == "cli" or (_use_cli_backend() and backend in ("azure", "gpt-5.4")):
+        from core.llm_cli import call_cli
+        messages = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+        try:
+            msg = call_cli(messages, **kw)
+            return msg.get("content", "") or ""
+        except LLMError as e:
+            log.error("CLI call_llm failed: %s", e)
+            return ""
     if backend == "azure" or backend == "gpt-5.4":
         messages = []
         if system:
