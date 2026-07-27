@@ -1,6 +1,5 @@
 ---
-name: Resource2Skill
-author: Resource2Skill project
+name: resource2skill
 description: Drive the Resource2Skill CLI from an agent session. No LLM API key is required if the target machine has claude/codex/kimi/omp installed and logged in.
 ---
 

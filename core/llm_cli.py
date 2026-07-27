@@ -17,8 +17,9 @@ Claude Code session:
     with ONLY the newly appended messages serialized as the next user turn.
 
 Conversations are append-only (verified in ``agent_executor._run_loop``),
-so a fingerprint of the first two messages identifies the conversation and
-``sent_count`` tracks how much of it has been forwarded to the CLI.
+so each run uses an explicit conversation id when available, otherwise the
+live messages list identity, and ``sent_count`` tracks how much of it has
+been forwarded to the CLI.
 
 Function calling is emulated with a text protocol: tool JSON schemas are
 injected into the system prompt and the model must reply with a strict
@@ -32,7 +33,6 @@ Config:
 """
 from __future__ import annotations
 
-import hashlib
 import json
 import logging
 import os
@@ -62,13 +62,16 @@ _SESSIONS: dict[str, _Session] = {}
 _SESSIONS_LOCK = threading.Lock()
 
 
-def _fingerprint(messages: list[dict]) -> str:
-    """Identify a conversation by its immutable root (system + first user msg)."""
-    h = hashlib.sha256()
-    for msg in messages[:2]:
-        h.update(json.dumps(msg, sort_keys=True, default=str).encode())
-        h.update(b"\x00")
-    return h.hexdigest()
+def _conversation_key(messages: list[dict], conversation_id: str | None = None) -> str:
+    """Identify a conversation run.
+
+    Prefer an explicit run id when the caller has one. Otherwise fall back to
+    the live messages list identity so identical prompts from separate runs do
+    not share a Claude session.
+    """
+    if conversation_id:
+        return str(conversation_id)
+    return f"messages:{id(messages)}"
 
 
 def reset_sessions() -> None:
@@ -283,6 +286,7 @@ def call_cli(
     *,
     tools: list[dict] | None = None,
     model: str | None = None,
+    conversation_id: str | None = None,
     max_completion_tokens: int = 4096,  # noqa: ARG001 - CLI has no token cap knob
     timeout: int = 300,
     max_retries: int = 3,
@@ -300,7 +304,7 @@ def call_cli(
 
     cli_model = os.environ.get("R2S_CLI_MODEL") or None
     timeout = max(60, timeout)
-    fp = _fingerprint(messages)
+    fp = _conversation_key(messages, conversation_id)
 
     with _SESSIONS_LOCK:
         session = _SESSIONS.get(fp)

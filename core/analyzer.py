@@ -92,7 +92,7 @@ def analyze_video(
         Raw Markdown analysis from the model.
     """
     video_backend = os.environ.get("R2S_VIDEO_BACKEND", "").strip().lower()
-    gemini_key = os.environ.get("GEMINI_API_KEY")
+    gemini_key = api_key or os.environ.get("GEMINI_API_KEY")
     if video_backend == "cli" or (not video_backend and not gemini_key):
         if not video_backend and not gemini_key:
             import shutil as _shutil

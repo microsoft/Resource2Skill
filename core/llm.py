@@ -446,6 +446,7 @@ def call_azure_openai(
     *,
     tools: list[dict] | None = None,
     model: str = "gpt-5.4",
+    conversation_id: str | None = None,
     reasoning_effort: str = "medium",
     max_completion_tokens: int = 4096,
     timeout: int = 120,
@@ -484,6 +485,7 @@ def call_azure_openai(
             messages,
             tools=tools,
             model=model,
+            conversation_id=conversation_id,
             max_completion_tokens=max_completion_tokens,
             timeout=timeout,
             max_retries=max_retries,
@@ -593,6 +595,7 @@ def call_llm(
     system: str = "",
     *,
     backend: str = "gemini",
+    conversation_id: str | None = None,
     **kw,
 ) -> str:
     """
@@ -602,6 +605,7 @@ def call_llm(
     """
     # Keyless fallback: if the requested backend has no API key but a local
     # agent CLI is available, route through it.
+    gemini_key = kw.get("api_key") or os.environ.get("GEMINI_API_KEY")
     if backend == "cli" or (_use_cli_backend() and backend in ("azure", "gpt-5.4")):
         from core.llm_cli import call_cli
         messages = []
@@ -609,12 +613,12 @@ def call_llm(
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
         try:
-            msg = call_cli(messages, **kw)
+            msg = call_cli(messages, conversation_id=conversation_id, **kw)
             return msg.get("content", "") or ""
         except LLMError as e:
             log.error("CLI call_llm failed: %s", e)
             return ""
-    if backend == "gemini" and not os.environ.get("GEMINI_API_KEY") and _cli_tool_available():
+    if backend == "gemini" and not gemini_key and _cli_tool_available():
         log.info("GEMINI_API_KEY not set; falling back to CLI backend for call_llm")
         os.environ.setdefault("R2S_LLM_BACKEND", "cli")
         os.environ.setdefault("R2S_CLI_TOOL", _cli_tool_available())
@@ -624,7 +628,7 @@ def call_llm(
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
         try:
-            msg = call_cli(messages, **kw)
+            msg = call_cli(messages, conversation_id=conversation_id, **kw)
             return msg.get("content", "") or ""
         except LLMError as e:
             log.error("CLI call_llm failed: %s", e)
