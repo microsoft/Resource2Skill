@@ -23,6 +23,7 @@ import json
 import logging
 import os
 import re
+import uuid
 from collections import deque
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -2086,6 +2087,7 @@ class AgentExecutor:
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"Task: {task}\n\n{initial_prompt}"},
         ]
+        conversation_id = uuid.uuid4().hex
 
         # Inject reference frames as a vision message if available
         all_frames = []
@@ -2177,6 +2179,7 @@ class AgentExecutor:
                     messages,
                     tools=openai_tools,
                     model=self._model,
+                    conversation_id=conversation_id,
                     reasoning_effort=self._reasoning,
                     max_completion_tokens=16384,
                     max_retries=10,
