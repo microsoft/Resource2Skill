@@ -44,6 +44,7 @@ class Task:
     stop_requested: bool = False
     log: list[str] = field(default_factory=list)
     extra: dict = field(default_factory=dict)
+    params: dict = field(default_factory=dict)   # 任务提交参数，供「复制参数重跑」复用
     _runner: Callable[["Task"], None] = lambda t: None
 
     def append_log(self, line: str) -> None:
@@ -82,10 +83,10 @@ def _worker() -> None:
 
 
 def submit(*, type: str, project: str, domain: str, runner: Callable[["Task"], None],
-           label: str = "") -> Task:
+           label: str = "", params: dict | None = None) -> Task:
     tid = uuid.uuid4().hex[:8]
     t = Task(id=tid, type=type, project=project, domain=domain,
-             label=label, created_at=_iso())
+             label=label, created_at=_iso(), params=params or {})
     t._runner = runner
     with _LOCK:
         _TASKS[tid] = t
@@ -107,7 +108,7 @@ def list_all() -> list[dict]:
             "id": t.id, "type": t.type, "project": t.project, "domain": t.domain,
             "status": t.status, "label": t.label, "created_at": t.created_at,
             "started_at": t.started_at, "finished_at": t.finished_at,
-            "summary": t.summary, "extra": t.extra,
+            "summary": t.summary, "extra": t.extra, "params": t.params,
         }
         for t in items
     ]
@@ -127,5 +128,5 @@ def public_view(t: Task) -> dict:
         "id": t.id, "type": t.type, "project": t.project, "domain": t.domain,
         "status": t.status, "label": t.label, "created_at": t.created_at,
         "started_at": t.started_at, "finished_at": t.finished_at,
-        "summary": t.summary, "log": t.log, "extra": t.extra,
+        "summary": t.summary, "log": t.log, "extra": t.extra, "params": t.params,
     }

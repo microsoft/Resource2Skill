@@ -7,6 +7,7 @@
           <el-tag :type="statusType(taskStatus)" size="small">{{ taskStatus }}</el-tag>
         </span>
         <el-button v-if="isRunning" size="small" type="danger" @click="onStop">终止</el-button>
+        <el-button v-if="canRerun" size="small" type="warning" @click="onRerun">重跑</el-button>
       </div>
     </template>
     <pre style="white-space: pre-wrap; word-break: break-word; max-height: 50vh; overflow: auto; background: #0f1419; color: #d4d4d4; padding: 12px; border-radius: 6px; margin: 0; font-size: 13px">{{ logText || '（等待日志…）' }}</pre>
@@ -20,15 +21,17 @@
 <script setup>
 import { ref, computed, watch, onUnmounted } from 'vue'
 import { ElMessage } from 'element-plus'
-import { getTask, stopTask } from '../api.js'
+import { getTask, stopTask, rerunTask } from '../api.js'
 
 const props = defineProps({ taskId: { type: String, default: '' } })
-const emit = defineEmits(['updated', 'stopped'])
+const emit = defineEmits(['updated', 'stopped', 'rerun'])
 
 const taskStatus = ref('')
 const log = ref([])
 const summary = ref(null)
+const params = ref(null)
 const isRunning = computed(() => taskStatus.value === 'running' || taskStatus.value === 'queued')
+const canRerun = computed(() => !isRunning.value && params.value && Object.keys(params.value).length > 0)
 const logText = computed(() => (log.value || []).join('\n'))
 
 function statusType(s) {
@@ -45,6 +48,7 @@ function startPoll() {
       taskStatus.value = r.status
       log.value = r.log || []
       summary.value = r.summary || null
+      params.value = r.params || null
       emit('updated', r)
       if (!isRunning.value) stopPoll()
     } catch { /* ignore transient */ }
@@ -61,6 +65,16 @@ async function onStop() {
     emit('stopped')
   } catch (e) {
     ElMessage.error('终止失败：' + (e.response?.data?.detail || e.message))
+  }
+}
+
+async function onRerun() {
+  try {
+    const r = await rerunTask(props.taskId)
+    ElMessage.success(`已用相同参数重跑，新任务 ${r.task_id}`)
+    emit('rerun', r.task_id)
+  } catch (e) {
+    ElMessage.error('重跑失败：' + (e.response?.data?.detail || e.message))
   }
 }
 

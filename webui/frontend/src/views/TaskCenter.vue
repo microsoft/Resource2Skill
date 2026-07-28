@@ -33,7 +33,7 @@
     </el-card>
 
     <el-dialog v-model="visible" :title="'任务日志 ' + (cur?.id || '')" width="760px">
-      <TaskProgress :task-id="cur?.id || ''" />
+      <TaskProgress :task-id="cur?.id || ''" @rerun="onRerun" />
     </el-dialog>
   </div>
 </template>
@@ -68,6 +68,11 @@ async function refresh() {
 function openLog(row) {
   visible.value = true
   cur.value = row
+}
+
+function onRerun(id) {
+  cur.value = { id }
+  refresh()
 }
 
 async function onStop(row) {

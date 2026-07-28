@@ -24,7 +24,7 @@
       </el-form>
     </el-card>
 
-    <TaskProgress :task-id="taskId" @updated="onUpdated" />
+    <TaskProgress :task-id="taskId" @updated="onUpdated" @rerun="onRerun" />
     <el-empty v-if="!taskId" description="选择领域后点击「开始蒸馏」" />
   </div>
 </template>
@@ -47,6 +47,11 @@ function onUpdated(r) {
     skillCount.value = r.summary.total_skills
   }
   if (['done', 'error', 'stopped'].includes(r.status)) running.value = false
+}
+
+function onRerun(id) {
+  taskId.value = id
+  running.value = true
 }
 
 async function onStart() {

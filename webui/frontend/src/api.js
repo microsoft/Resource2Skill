@@ -45,6 +45,7 @@ export const startDistill = (project, domain, dryRun = false) =>
 export const listTasks = () => http.get('/tasks').then((r) => r.data)
 export const getTask = (id) => http.get(`/tasks/${id}`).then((r) => r.data)
 export const stopTask = (id) => http.post(`/tasks/${id}/stop`).then((r) => r.data)
+export const rerunTask = (id) => http.post(`/tasks/${id}/rerun`).then((r) => r.data)
 
 // ---- Agent 执行台（切片4） ----
 export const runAgent = (project, body) =>

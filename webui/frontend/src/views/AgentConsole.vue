@@ -48,7 +48,7 @@
       </el-form>
     </el-card>
 
-    <TaskProgress :task-id="taskId" @updated="onUpdated" />
+    <TaskProgress :task-id="taskId" @updated="onUpdated" @rerun="onRerun" />
     <div v-if="extra && extra.tool_calls && extra.tool_calls.length" style="margin-top: 12px">
       <div style="font-weight: 600; margin-bottom: 8px">工具调用记录</div>
       <el-table :data="extra.tool_calls" size="small" border max-height="240">
@@ -88,6 +88,12 @@ const running = ref(false)
 function onUpdated(r) {
   extra.value = r.extra || null
   if (['done', 'error', 'stopped'].includes(r.status)) running.value = false
+}
+
+function onRerun(id) {
+  taskId.value = id
+  running.value = true
+  extra.value = null
 }
 
 async function onStart() {

@@ -209,17 +209,24 @@ def preview_fixture(name: str, domain: str, filename: str):
 
 # ----------------------------- 蒸馏工作台 + 任务中心（切片3） -----------------------------
 
-@app.post("/api/projects/{name}/domains/{domain}/distill")
-def post_distill(name: str, domain: str, body: DistillRequest):
-    if not (projects.project_dir(name) / "domains" / domain / "domain.yaml").exists():
-        raise HTTPException(404, f"领域不存在：{domain}")
-    task = tasks.submit(
+# ----------------------------- 任务提交辅助（普通提交与「复制参数重跑」复用） -----------------------------
+
+def _submit_distill(name: str, domain: str, body: DistillRequest):
+    return tasks.submit(
         type="distill",
         project=name,
         domain=domain,
         label=f"蒸馏 {name}/{domain}" + ("（dry-run）" if body.dry_run else ""),
+        params={"dry_run": body.dry_run},
         runner=lambda t: distill.run_distill_task(t, name, domain, body.dry_run),
     )
+
+
+@app.post("/api/projects/{name}/domains/{domain}/distill")
+def post_distill(name: str, domain: str, body: DistillRequest):
+    if not (projects.project_dir(name) / "domains" / domain / "domain.yaml").exists():
+        raise HTTPException(404, f"领域不存在：{domain}")
+    task = _submit_distill(name, domain, body)
     return {"ok": True, "task_id": task.id}
 
 
@@ -241,6 +248,27 @@ def stop_task(task_id: str):
     if not tasks.stop(task_id):
         raise HTTPException(404, "task not found")
     return {"ok": True}
+
+
+# ----------------------------- 复制参数重跑（无需重新填表，可复现运行） -----------------------------
+
+@app.post("/api/tasks/{task_id}/rerun")
+def rerun_task(task_id: str):
+    t = tasks.get(task_id)
+    if not t:
+        raise HTTPException(404, "task not found")
+    params = t.params or {}
+    if not params:
+        raise HTTPException(400, "该任务未记录参数，无法重跑（旧任务 / 早期版本）")
+    if t.type == "distill":
+        body = DistillRequest(**{k: v for k, v in params.items() if k in DistillRequest.model_fields})
+        nt = _submit_distill(t.project, t.domain, body)
+    elif t.type == "agent":
+        body = AgentRunRequest(**{k: v for k, v in params.items() if k in AgentRunRequest.model_fields})
+        nt = _submit_agent(t.project, body)
+    else:
+        raise HTTPException(400, f"不支持重跑的任务类型：{t.type}")
+    return {"ok": True, "task_id": nt.id, "type": t.type}
 
 
 @app.post("/api/llm/test")
@@ -272,15 +300,17 @@ async def test_llm(t: LLMTemplate):
 
 # ----------------------------- Agent 执行台（切片4） -----------------------------
 
-@app.post("/api/projects/{name}/agent/run")
-def post_agent_run(name: str, body: AgentRunRequest):
-    if not (projects.project_dir(name) / "domains" / body.domain / "domain.yaml").exists():
-        raise HTTPException(404, f"领域不存在：{body.domain}")
-    task = tasks.submit(
+def _submit_agent(name: str, body: AgentRunRequest):
+    return tasks.submit(
         type="agent",
         project=name,
         domain=body.domain,
         label=f"Agent {name}/{body.domain}" + ("（dry-run）" if body.dry_run else ""),
+        params={
+            "domain": body.domain, "task": body.task, "model": body.model,
+            "reasoning": body.reasoning, "max_iter": body.max_iter,
+            "n_skills": body.n_skills, "top_k": body.top_k, "dry_run": body.dry_run,
+        },
         runner=lambda t: agent.run_agent_task(
             t, name, body.domain,
             task_text=body.task,
@@ -292,6 +322,13 @@ def post_agent_run(name: str, body: AgentRunRequest):
             dry_run=body.dry_run,
         ),
     )
+
+
+@app.post("/api/projects/{name}/agent/run")
+def post_agent_run(name: str, body: AgentRunRequest):
+    if not (projects.project_dir(name) / "domains" / body.domain / "domain.yaml").exists():
+        raise HTTPException(404, f"领域不存在：{body.domain}")
+    task = _submit_agent(name, body)
     return {"ok": True, "task_id": task.id}
 
 
