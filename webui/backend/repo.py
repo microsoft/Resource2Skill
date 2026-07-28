@@ -2,7 +2,7 @@
 
 浏览项目数据目录：
 - 技能库：projects/<project>/skills_library/<domain>/（R2S 蒸馏产物，含 skill.json）
-- 产物：  projects/<project>/output/（agent 交付物落点，IPD 下为 output/ipd_workspace/）
+- 产物：  projects/<project>/output/<domain>_workspace/（agent 交付物落点，领域无关）
 
 提供：列举（技能 + 文件树）+ 安全下载/预览（防目录穿越）。
 """

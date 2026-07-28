@@ -121,7 +121,7 @@
     <el-dialog v-model="domainDialog" title="新建领域" width="460px">
       <el-form :model="domainForm" label-width="80px">
         <el-form-item label="领域名">
-          <el-input v-model="domainForm.domain" placeholder="如 ipd / ppt / 自定义" />
+          <el-input v-model="domainForm.domain" placeholder="如 marketing / finance / 自定义（仅字母/数字/-/_）" />
         </el-form-item>
         <el-form-item label="播种来源">
           <el-select

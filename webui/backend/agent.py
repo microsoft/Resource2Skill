@@ -7,8 +7,8 @@
   1) 在「整段 agent 运行期间」保持 LLM 环境变量（用 with _llm_env 包裹 run_agent），
      这样 agent 循环与 MCP 子进程都能正确拿到 endpoint/key；
   2) 把 cwd 切到项目根（与 create_domain 已重写的 mcp.cwd 协同）。
-- 对 IPD 领域注入 IPD_SKILLS_DIR / IPD_WORKSPACE 环境变量，实现产物隔离
-  （依赖 domains/ipd/mcp_server/server.py 的 env 覆盖补丁，未设置则回退仓库根）。
+- 对所有领域注入 R2S_DOMAIN / R2S_SKILLS_DIR / R2S_WORKSPACE 环境变量（领域无关），
+  实现产物隔离；MCP server 据此把技能库与产物落到本项目数据目录（output/<domain>_workspace）。
 - 把 run_agent 的 library_dir 指向项目 skills_library/<domain>，使 agent 自身技能召回隔离。
 - 通过 logging.Handler 把 agent_executor 的日志实时灌入 task.log（前端轮询即可看到流式进度）。
 """
@@ -96,13 +96,15 @@ def run_agent_task(
     agent_logger.setLevel(logging.INFO)
 
     saved_cwd = os.getcwd()
-    ipd_env = ("IPD_SKILLS_DIR", "IPD_WORKSPACE")
-    saved_env = {k: os.environ.get(k) for k in ipd_env}
+    r2s_env = ("R2S_DOMAIN", "R2S_SKILLS_DIR", "R2S_WORKSPACE")
+    saved_env = {k: os.environ.get(k) for k in r2s_env}
     try:
         os.chdir(str(pdir))
-        if domain == "ipd":
-            os.environ["IPD_SKILLS_DIR"] = str(skills_dir)
-            os.environ["IPD_WORKSPACE"] = str(pdir / "output" / "ipd_workspace")
+        # 领域无关：所有域都注入 R2S_DOMAIN / 技能库 / 产物工作区，
+        # MCP server 据此把技能库与产物落到本项目数据目录（output/<domain>_workspace）。
+        os.environ["R2S_DOMAIN"] = domain
+        os.environ["R2S_SKILLS_DIR"] = str(skills_dir)
+        os.environ["R2S_WORKSPACE"] = str(pdir / "output" / f"{domain}_workspace")
 
         # 预检连通（非 dry_run）：避免无效 key 触发 agent 内长时间重试空耗
         if not dry_run and template:

@@ -154,9 +154,9 @@ def create_domain(project: str, domain: str, seed_from: str | None = None) -> di
     seeded = False
     if src.exists():
         shutil.copytree(src, target)
-        # 播种时把 mcp.cwd 改写为项目根，并向 mcp.env 注入项目隔离路径（IPD 领域）。
+        # 播种时把 mcp.cwd 改写为项目根，并向 mcp.env 注入项目隔离路径（领域无关）。
         # 这样 MCP 子进程（cwd=项目根、args 相对解析到本项目 mcp_server）会把技能库与
-        # 产物落到本项目数据目录，且产物位于 output/ 下，便于产物仓库浏览与隔离。
+        # 产物落到本项目数据目录，且产物位于 output/<domain>_workspace 下，便于产物仓库浏览与隔离。
         _rewrite_mcp_for_project(target / "domain.yaml", pdir, domain)
         seeded = True
     else:
@@ -171,49 +171,43 @@ def create_domain(project: str, domain: str, seed_from: str | None = None) -> di
 def _rewrite_mcp_for_project(yaml_path: Path, project_dir: Path, domain: str) -> None:
     """播种领域时：把 mcp.cwd 改写为项目根，并向 mcp.args/mcp.env 注入项目隔离路径。
 
-    仅 ipd 领域需要 IPD_SKILLS_DIR / IPD_WORKSPACE。主通道是命令行参数
-    （MCP 子进程透传可靠，server.py 解析 --workspace/--skills-dir）；同时保留
-    mcp.env 作为兜底。这样 MCP 子进程把技能库与产物落到本项目数据目录，且产物
-    位于 output/ 下，便于产物仓库浏览与隔离。
+    对所有带 mcp 块（command/args）的领域通用，不再特殊对待 ipd：
+    - mcp.env 注入 R2S_DOMAIN / R2S_SKILLS_DIR / R2S_WORKSPACE（MCP 子进程兜底读取）；
+    - mcp.args 追加 --workspace / --skills-dir（主通道，server.py 解析后落本项目目录）。
+    这样 MCP 子进程（cwd=项目根、args 相对解析到本项目 mcp_server）会把技能库与产物
+    落到本项目数据目录，且产物位于 output/<domain>_workspace，便于产物仓库浏览与隔离。
     """
     if not yaml_path.exists():
         return
     try:
         cfg = yaml.safe_load(yaml_path.read_text(encoding="utf-8")) or {}
         mcp = cfg.get("mcp")
-        if isinstance(mcp, dict):
+        if isinstance(mcp, dict) and mcp.get("command"):
             mcp["cwd"] = str(project_dir)
-            if domain == "ipd":
-                # 关键：IPD 的 mcp_server 由“仓库根单实例”承载（单一事实来源），
-                # 避免 projects/<p>/domains/ipd 下的播种副本滞后导致 _PROJECT_ROOT 回退错误。
-                # 项目隔离完全通过 --workspace/--skills-dir 透传实现。
-                server_py = (REPO_DOMAINS / domain / "mcp_server" / "server.py").resolve()
-                skills_dir = (project_dir / "skills_library" / domain).resolve()
-                workspace = (project_dir / "output" / "ipd_workspace").resolve()
-                # 主通道：命令行参数（可靠透传）
-                raw_args = list(mcp.get("args") or [])
-                clean = []
-                skip = False
-                for a in raw_args:
-                    if skip:
-                        skip = False
-                        continue
-                    if a in ("--workspace", "--skills-dir"):
-                        skip = True
-                        continue
-                    clean.append(a)
-                # args[0] 必须是仓库根 server.py 的绝对路径；绝不能用播种副本。
-                if clean:
-                    clean[0] = str(server_py)
-                else:
-                    clean = [str(server_py)]
-                clean += ["--workspace", str(workspace), "--skills-dir", str(skills_dir)]
-                mcp["args"] = clean
-                # 兜底环境变量
-                env = dict(mcp.get("env") or {})
-                env["IPD_SKILLS_DIR"] = str(skills_dir)
-                env["IPD_WORKSPACE"] = str(workspace)
-                mcp["env"] = env
+            skills_dir = (project_dir / "skills_library" / domain).resolve()
+            workspace = (project_dir / "output" / f"{domain}_workspace").resolve()
+            # 主通道：命令行参数（可靠透传）
+            raw_args = list(mcp.get("args") or [])
+            clean = []
+            skip = False
+            for a in raw_args:
+                if skip:
+                    skip = False
+                    continue
+                if a in ("--workspace", "--skills-dir"):
+                    skip = True
+                    continue
+                clean.append(a)
+            # args[0] 保持领域自带的 server.py 相对路径（cwd=项目根，由本项目 seed 副本承载，
+            # 单一事实来源 = 本项目的 domains/<domain>/mcp_server/server.py），不再强指仓库根。
+            clean += ["--workspace", str(workspace), "--skills-dir", str(skills_dir)]
+            mcp["args"] = clean
+            # 兜底环境变量（MCP 子进程继承）
+            env = dict(mcp.get("env") or {})
+            env["R2S_DOMAIN"] = domain
+            env["R2S_SKILLS_DIR"] = str(skills_dir)
+            env["R2S_WORKSPACE"] = str(workspace)
+            mcp["env"] = env
             yaml_path.write_text(
                 yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False),
                 encoding="utf-8",

@@ -15,7 +15,7 @@
       </el-form>
       <el-form label-width="72px">
         <el-form-item label="任务">
-          <el-input v-model="taskText" type="textarea" :rows="4" placeholder="用自然语言描述要 Agent 完成的任务，例如：为一款智能手表产品生成 IPD Charter" style="max-width: 760px" />
+          <el-input v-model="taskText" type="textarea" :rows="4" placeholder="用自然语言描述要 Agent 完成的任务，例如：为一款产品生成立项文档并产出阶段交付物" style="max-width: 760px" />
         </el-form-item>
         <el-form-item label="模型">
           <el-input v-model="model" placeholder="留空则用 LLM 模板模型" style="width: 240px" />
