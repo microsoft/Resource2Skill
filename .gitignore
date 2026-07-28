@@ -139,3 +139,17 @@ assets/pipeline_overview.png
 # Local planning notes
 OPEN_SOURCE_ALLOWLIST.md
 OPEN_SOURCE_TODO.md
+
+# === Local user work: kept on disk, NEVER committed (per user request 2026-07-28) ===
+# IPD example domain architecture, distilled skills, and agent outputs.
+# These are the user's local artifacts — the engine is domain-agnostic and works for
+# any domain that has a server.py; committing IPD-specific work is intentionally avoided.
+domains/ipd/
+skills_library/ipd/
+ipd_workspace/
+# Run/debug logs and scratch from local backend/frontend/dev sessions
+*.log
+_scratch/
+# One-off local helper scripts used to build/distill, not part of the engine
+build_cdt_charter.py
+distill_ipd.py
