@@ -9,7 +9,17 @@ const state = reactive({
   domains: [],
   activeDomain: '',
   loading: false,
+  // UI 语言：'zh'（默认）| 'en'，持久化到 localStorage 跨刷新粘性
+  locale: (() => {
+    try { return localStorage.getItem('r2s_locale') || 'zh' } catch (e) { return 'zh' }
+  })(),
 })
+
+// 切换 UI 语言并持久化
+function setLocale(lang) {
+  state.locale = lang
+  try { localStorage.setItem('r2s_locale', lang) } catch (e) { /* 忽略隐私模式等异常 */ }
+}
 
 async function loadProjects() {
   const r = await listProjects()
@@ -51,5 +61,5 @@ async function setActiveProject(name) {
 }
 
 export function useActiveContext() {
-  return { state, loadProjects, loadDomains, selectProject, setActiveProject }
+  return { state, loadProjects, loadDomains, selectProject, setActiveProject, setLocale }
 }

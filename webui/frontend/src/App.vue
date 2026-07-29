@@ -10,7 +10,7 @@
       "
     >
       <span style="font-size: 18px; font-weight: 600; margin-right: 24px"
-        >Resource2Skill WebUI</span
+        >{{ t('Resource2Skill WebUI') }}</span
       >
       <el-menu
         mode="horizontal"
@@ -20,15 +20,24 @@
         active-text-color="#ffd04b"
         @select="onSelect"
       >
-        <el-menu-item index="home">首页</el-menu-item>
-        <el-menu-item index="projects">项目与 Domain 管理</el-menu-item>
-        <el-menu-item index="tasks">任务中心</el-menu-item>
-        <el-menu-item index="agent">Agent 执行台</el-menu-item>
-        <el-menu-item index="fixtures">素材管理</el-menu-item>
-        <el-menu-item index="distill">蒸馏工作台</el-menu-item>
-        <el-menu-item index="repo">产物仓库</el-menu-item>
-        <el-menu-item index="llm">LLM 配置</el-menu-item>
+        <el-menu-item index="home">{{ t('首页') }}</el-menu-item>
+        <el-menu-item index="projects">{{ t('项目与 Domain 管理') }}</el-menu-item>
+        <el-menu-item index="tasks">{{ t('任务中心') }}</el-menu-item>
+        <el-menu-item index="agent">{{ t('Agent 执行台') }}</el-menu-item>
+        <el-menu-item index="fixtures">{{ t('素材管理') }}</el-menu-item>
+        <el-menu-item index="distill">{{ t('蒸馏工作台') }}</el-menu-item>
+        <el-menu-item index="repo">{{ t('产物仓库') }}</el-menu-item>
+        <el-menu-item index="llm">{{ t('LLM 配置') }}</el-menu-item>
       </el-menu>
+      <el-radio-group
+        :model-value="ctx.state.locale"
+        @change="setLocale"
+        size="small"
+        style="margin-left: auto"
+      >
+        <el-radio-button label="zh">中文</el-radio-button>
+        <el-radio-button label="en">EN</el-radio-button>
+      </el-radio-group>
     </el-header>
     <el-main>
       <Overview v-if="current === 'home'" @navigate="onSelect" />
@@ -53,7 +62,10 @@ import DistillWorkbench from './views/DistillWorkbench.vue'
 import TaskCenter from './views/TaskCenter.vue'
 import AgentConsole from './views/AgentConsole.vue'
 import ArtifactRepo from './views/ArtifactRepo.vue'
+import { useActiveContext } from './composables/useActiveContext.js'
+import { t, setLocale } from './i18n.js'
 
+const ctx = useActiveContext()
 const current = ref('home')
 function onSelect(key) {
   current.value = key

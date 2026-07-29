@@ -3,17 +3,17 @@
     <template #header>
       <div style="display: flex; align-items: center; justify-content: space-between">
         <span>
-          任务 <code>{{ taskId }}</code> ·
+          {{ t('任务 ') }}<code>{{ taskId }}</code> ·
           <el-tag :type="statusType(taskStatus)" size="small">{{ taskStatus }}</el-tag>
         </span>
-        <el-button v-if="isRunning" size="small" type="danger" @click="onStop">终止</el-button>
-        <el-button v-if="canRerun" size="small" type="warning" @click="onRerun">重跑</el-button>
+        <el-button v-if="isRunning" size="small" type="danger" @click="onStop">{{ t('终止') }}</el-button>
+        <el-button v-if="canRerun" size="small" type="warning" @click="onRerun">{{ t('重跑') }}</el-button>
       </div>
     </template>
-    <pre style="white-space: pre-wrap; word-break: break-word; max-height: 50vh; overflow: auto; background: #0f1419; color: #d4d4d4; padding: 12px; border-radius: 6px; margin: 0; font-size: 13px">{{ logText || '（等待日志…）' }}</pre>
+    <pre style="white-space: pre-wrap; word-break: break-word; max-height: 50vh; overflow: auto; background: #0f1419; color: #d4d4d4; padding: 12px; border-radius: 6px; margin: 0; font-size: 13px">{{ logText || t('（等待日志…）') }}</pre>
     <div v-if="summary" style="margin-top: 12px">
       <el-alert type="success" :closable="false"
-        :title="`新增 ${summary.added} 条，跳过 ${summary.skipped} 个，技能库现有 ${summary.total_skills} 条`" />
+        :title="t('新增 ') + summary.added + t(' 条，跳过 ') + summary.skipped + t(' 个，技能库现有 ') + summary.total_skills + t(' 条')" />
     </div>
   </el-card>
 </template>
@@ -22,6 +22,7 @@
 import { ref, computed, watch, onUnmounted } from 'vue'
 import { ElMessage } from 'element-plus'
 import { getTask, stopTask, rerunTask } from '../api.js'
+import { t } from '../i18n.js'
 
 const props = defineProps({ taskId: { type: String, default: '' } })
 const emit = defineEmits(['updated', 'stopped', 'rerun'])
@@ -61,20 +62,20 @@ function stopPoll() {
 async function onStop() {
   try {
     await stopTask(props.taskId)
-    ElMessage.info('已发送终止信号')
+    ElMessage.info(t('已发送终止信号'))
     emit('stopped')
   } catch (e) {
-    ElMessage.error('终止失败：' + (e.response?.data?.detail || e.message))
+    ElMessage.error(t('终止失败：') + (e.response?.data?.detail || e.message))
   }
 }
 
 async function onRerun() {
   try {
     const r = await rerunTask(props.taskId)
-    ElMessage.success(`已用相同参数重跑，新任务 ${r.task_id}`)
+    ElMessage.success(t('已用相同参数重跑，新任务 ') + r.task_id)
     emit('rerun', r.task_id)
   } catch (e) {
-    ElMessage.error('重跑失败：' + (e.response?.data?.detail || e.message))
+    ElMessage.error(t('重跑失败：') + (e.response?.data?.detail || e.message))
   }
 }
 

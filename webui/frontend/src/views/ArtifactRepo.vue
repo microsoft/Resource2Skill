@@ -2,22 +2,22 @@
   <div>
     <el-card shadow="never" style="margin-bottom: 16px">
       <el-form :inline="true">
-        <el-form-item label="项目">
-          <el-select v-model="project" placeholder="选择项目" style="width: 200px" @change="onProjectChange">
-            <el-option v-for="p in projects" :key="p.name" :label="p.name + (p.is_active ? '（当前）' : '')" :value="p.name" />
+        <el-form-item :label="t('项目')">
+          <el-select v-model="project" :placeholder="t('选择项目')" style="width: 200px" @change="onProjectChange">
+            <el-option v-for="p in projects" :key="p.name" :label="p.name + (p.is_active ? t('（当前）') : '')" :value="p.name" />
           </el-select>
         </el-form-item>
-        <el-form-item label="领域">
-          <el-select v-model="domain" placeholder="选择领域" style="width: 200px" @change="load">
+        <el-form-item :label="t('领域')">
+          <el-select v-model="domain" :placeholder="t('选择领域')" style="width: 200px" @change="load">
             <el-option v-for="d in domains" :key="d" :label="d" :value="d" />
           </el-select>
         </el-form-item>
         <el-form-item>
-          <el-button :disabled="!domain" @click="load">刷新</el-button>
+          <el-button :disabled="!domain" @click="load">{{ t('刷新') }}</el-button>
         </el-form-item>
         <el-form-item>
           <span style="color: #909399; font-size: 12px">
-            技能 {{ (data.skills || []).length }} 个 · 技能文件 {{ (data.skill_files || []).length }} 个 · 产物 {{ (data.output_files || []).length }} 个
+            {{ t('技能 ') }}{{ (data.skills || []).length }}{{ t(' 个 · 技能文件 ') }}{{ (data.skill_files || []).length }}{{ t(' 个 · 产物 ') }}{{ (data.output_files || []).length }}{{ t(' 个') }}
           </span>
         </el-form-item>
       </el-form>
@@ -25,50 +25,50 @@
 
     <el-card shadow="never" v-if="domain">
       <el-tabs v-model="tab">
-        <el-tab-pane label="技能库" name="skills">
+        <el-tab-pane :label="t('技能库')" name="skills">
           <el-table :data="data.skill_files || []" size="small" border max-height="52vh" @row-dblclick="openFile">
-            <el-table-column prop="rel_path" label="相对路径" min-width="260" show-overflow-tooltip />
-            <el-table-column prop="ext" label="类型" width="90" />
-            <el-table-column label="大小" width="110">
+            <el-table-column prop="rel_path" :label="t('相对路径')" min-width="260" show-overflow-tooltip />
+            <el-table-column prop="ext" :label="t('类型')" width="90" />
+            <el-table-column :label="t('大小')" width="110">
               <template #default="{ row }">{{ fmtSize(row.size) }}</template>
             </el-table-column>
-            <el-table-column label="操作" width="160">
+            <el-table-column :label="t('操作')" width="160">
               <template #default="{ row }">
-                <el-button size="small" @click="openFile(row)">预览</el-button>
-                <el-button size="small" type="primary" @click="download(row, 'skills')">下载</el-button>
+                <el-button size="small" @click="openFile(row)">{{ t('预览') }}</el-button>
+                <el-button size="small" type="primary" @click="download(row, 'skills')">{{ t('下载') }}</el-button>
               </template>
             </el-table-column>
           </el-table>
         </el-tab-pane>
-        <el-tab-pane label="产物 output" name="output">
+        <el-tab-pane :label="t('产物 output')" name="output">
           <el-table :data="data.output_files || []" size="small" border max-height="52vh" @row-dblclick="openOutput">
-            <el-table-column prop="rel_path" label="相对路径" min-width="260" show-overflow-tooltip />
-            <el-table-column prop="ext" label="类型" width="90" />
-            <el-table-column label="大小" width="110">
+            <el-table-column prop="rel_path" :label="t('相对路径')" min-width="260" show-overflow-tooltip />
+            <el-table-column prop="ext" :label="t('类型')" width="90" />
+            <el-table-column :label="t('大小')" width="110">
               <template #default="{ row }">{{ fmtSize(row.size) }}</template>
             </el-table-column>
-            <el-table-column label="操作" width="160">
+            <el-table-column :label="t('操作')" width="160">
               <template #default="{ row }">
-                <el-button size="small" @click="openOutput(row)">预览</el-button>
-                <el-button size="small" type="primary" @click="download(row, 'output')">下载</el-button>
+                <el-button size="small" @click="openOutput(row)">{{ t('预览') }}</el-button>
+                <el-button size="small" type="primary" @click="download(row, 'output')">{{ t('下载') }}</el-button>
               </template>
             </el-table-column>
           </el-table>
         </el-tab-pane>
       </el-tabs>
     </el-card>
-    <el-empty v-else description="选择项目/领域后浏览产物" />
+    <el-empty v-else :description="t('选择项目/领域后浏览产物')" />
 
-    <el-dialog v-model="showPreview" title="预览" width="80%" top="5vh">
+    <el-dialog v-model="showPreview" :title="t('预览')" width="80%" top="5vh">
       <div v-if="preview" style="max-height: 70vh; overflow: auto">
         <div style="margin-bottom: 8px; color: #909399; font-size: 12px">{{ preview.rel }} · {{ preview.kind }}</div>
         <img v-if="preview.kind === 'image'" :src="preview.url" style="max-width: 100%" />
         <iframe v-else-if="preview.ext === 'html' || preview.ext === 'htm'" :src="preview.url" style="width: 100%; height: 68vh; border: 1px solid #dcdfe6" />
-        <pre v-else style="white-space: pre-wrap; word-break: break-word; background: #0f1419; color: #d4d4d4; padding: 12px; border-radius: 6px; font-size: 13px">{{ preview.text || '（加载中…）' }}</pre>
+        <pre v-else style="white-space: pre-wrap; word-break: break-word; background: #0f1419; color: #d4d4d4; padding: 12px; border-radius: 6px; font-size: 13px">{{ preview.text || t('（加载中…）') }}</pre>
       </div>
       <template #footer>
-        <el-button @click="showPreview = false">关闭</el-button>
-        <el-button v-if="preview" type="primary" @click="downloadCurrent">下载</el-button>
+        <el-button @click="showPreview = false">{{ t('关闭') }}</el-button>
+        <el-button v-if="preview" type="primary" @click="downloadCurrent">{{ t('下载') }}</el-button>
       </template>
     </el-dialog>
   </div>
@@ -78,6 +78,7 @@
 import { ref, onMounted } from 'vue'
 import { ElMessage } from 'element-plus'
 import { listProjects, listDomains, listRepo, repoFileUrl } from '../api.js'
+import { t } from '../i18n.js'
 
 const projects = ref([])
 const project = ref('')
@@ -105,7 +106,7 @@ async function onProjectChange() {
     if (domains.value.length) domain.value = domains.value[0]
     await load()
   } catch (e) {
-    ElMessage.error('加载领域失败：' + (e.response?.data?.detail || e.message))
+    ElMessage.error(t('加载领域失败：') + (e.response?.data?.detail || e.message))
   }
 }
 
@@ -115,7 +116,7 @@ async function load() {
     const r = await listRepo(project.value, domain.value)
     data.value = r
   } catch (e) {
-    ElMessage.error('加载产物失败：' + (e.response?.data?.detail || e.message))
+    ElMessage.error(t('加载产物失败：') + (e.response?.data?.detail || e.message))
   }
 }
 
@@ -137,7 +138,7 @@ async function openPreview(row, kind) {
     try {
       const r = await fetch(url)
       item.text = await r.text()
-    } catch { item.text = '（文本加载失败）' }
+    } catch { item.text = t('（文本加载失败）') }
   }
   preview.value = item
   showPreview.value = true
@@ -159,7 +160,7 @@ onMounted(async () => {
     project.value = active ? active.name : (projects.value[0]?.name || '')
     if (project.value) await onProjectChange()
   } catch (e) {
-    ElMessage.error('初始化失败：' + (e.response?.data?.detail || e.message))
+    ElMessage.error(t('初始化失败：') + (e.response?.data?.detail || e.message))
   }
 })
 </script>
