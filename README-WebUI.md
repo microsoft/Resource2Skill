@@ -1,238 +1,287 @@
-# Resource2Skill · WebUI 项目手册（领域无关 / 通用）
+# Resource2Skill · WebUI Manual (Domain-Agnostic / Generic)
 
-> 本仓库在 Microsoft `Resource2Skill` 内核之上套了一层本地可视壳（FastAPI + Vue3）。
-> 本手册讲**通用 WebUI 这条线**——引擎与 UI 完全领域无关，领域行为 100% 来自
-> `domain.yaml` + 该域的 `mcp_server/server.py`。仓库自带若干官方示例领域（`ppt` / `web` /
-> `excel` / `blender` / `reaper`，见 `domains/`），可克隆、可删除、可替换。上游通用说明在 `README.md`。
+> This repository wraps a local visual shell (FastAPI + Vue3) around the Microsoft
+> `Resource2Skill` engine. This manual covers **the generic WebUI line** — the engine and
+> UI are fully domain-agnostic; all domain behavior comes 100% from `domain.yaml` plus that
+> domain's `mcp_server/server.py`. The repo ships several official example domains
+> (`ppt` / `web` / `excel` / `blender` / `reaper`, see `domains/`) that can be cloned,
+> deleted, or replaced. Upstream generic docs live in `README.md`.
 
-整体由三部分组成：
+The whole thing has three parts:
 
-- **后端**：FastAPI（`webui/backend/`），任务队列单 worker 串行，蒸馏 / Agent 共用。
-- **前端**：Vue3 + Element Plus（`webui/frontend/`），纯本地 `localhost` 单人使用。
-- **数据隔离**：引擎代码只有一份；"项目"是独立数据目录（`webui/projects/<项目>/`，含 `domains/ fixtures/ skills_library/ output/ + project.json`）。任务执行时把 `cwd` 切到项目根，R2S 相对路径自然生效，**不重构 core**。
-- **领域驱动**：每个域自带一个 `domain.yaml`（persona / categories / mcp / agent 提示词）和一个 MCP server（`domains/<域>/mcp_server/server.py`），把蒸馏出的技能暴露成 Agent 可调用的工具。**换领域 = 换这两份配置，UI 零改动。**
+- **Backend**: FastAPI (`webui/backend/`), a single-worker serial task queue shared by
+  distillation and the Agent.
+- **Frontend**: Vue3 + Element Plus (`webui/frontend/`), pure local `localhost`, single-user.
+- **Data isolation**: there is only one copy of the engine code; a "project" is an
+  independent data directory (`webui/projects/<project>/`, containing
+  `domains/ fixtures/ skills_library/ output/ + project.json`). At task execution time the
+  `cwd` is switched to the project root, so R2S relative paths take effect naturally —
+  **no need to refactor `core`**.
+- **Domain-driven**: each domain ships its own `domain.yaml` (persona / categories / mcp /
+  agent prompts) and an MCP server (`domains/<domain>/mcp_server/server.py`) that exposes the
+  distilled skills as tools the Agent can call. **Switching domains = swapping these two
+  config files; the UI needs zero changes.**
 
 ---
 
-## 1. 环境准备
+## 1. Environment Setup
 
-### 1.1 Python（后端 + 蒸馏 + Agent）
+### 1.1 Python (backend + distillation + Agent)
 
 ```bash
-# 用 3.11/3.12 即可（Blender 域才强制 3.11，一般领域不需要）
+# 3.11/3.12 works fine (only the Blender domain forces 3.11; most domains don't need it)
 cd Resource2Skill
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt  # 含 mcp>=1.26、python-pptx、openpyxl 等
+pip install -r requirements.txt  # includes mcp>=1.26, python-pptx, openpyxl, etc.
 ```
 
-> ⚠️ `mcp` 必须 `>=1.26`。1.10.x 会让本仓库所有 MCP server 在 import 时崩溃
-> （`issubclass() arg 1 must be a class`，因为 server 用了 `from __future__ import annotations`）。
+> ⚠️ `mcp` must be `>=1.26`. On 1.10.x every MCP server in this repo crashes at import
+> (`issubclass() arg 1 must be a class`), because the servers use
+> `from __future__ import annotations`.
 
-### 1.2 Node（前端）
+### 1.2 Node (frontend)
 
 ```bash
 cd webui/frontend
 npm install
 ```
 
-### 1.3 LLM 接入（蒸馏与 Agent 都依赖它）
+### 1.3 LLM access (distillation and the Agent both depend on it)
 
-蒸馏会真实调用 LLM 来抽取 / 切片 / 生成技能；Agent 也会调用。先准备好一个兼容
-OpenAI 协议的 endpoint（DeepSeek / Azure OpenAI / 本地 Ollama / 自建 OpenAI-compatible 均可）。
+Distillation really calls an LLM to extract / chunk / generate skills; the Agent calls it
+too. First prepare an OpenAI-compatible endpoint (DeepSeek / Azure OpenAI / local Ollama /
+any self-hosted OpenAI-compatible server all work).
 
-- 在 WebUI 的 **「LLM 配置」** 页新增模板：`provider`（azure/openai/deepseek/ollama/custom）、
-  `endpoint`、`api_key`、`model`，点 **「测试」** 验证连通。
-- 或用 API：`POST /api/llm`，body 见 `webui/backend/models.py` 的 `LLMTemplate`。
+- In the WebUI **"LLM Configuration"** page, add a template: `provider`
+  (azure/openai/deepseek/ollama/custom), `endpoint`, `api_key`, `model`, then click
+  **"Test"** to verify connectivity.
+- Or via API: `POST /api/llm`, body schema in `webui/backend/models.py` (`LLMTemplate`).
 
-> 不想接 LLM？蒸馏可勾 **dry-run**：只验证「抽取 → 切片 → 写技能库」管线，不调用模型。
+> Don't want to wire up an LLM? Distillation supports **dry-run**: it only validates the
+> "extract → chunk → write skill library" pipeline without calling the model.
 
 ---
 
-## 2. 启动
+## 2. Launch
 
-### 2.1 后端（FastAPI，端口 8000）
+### 2.1 Backend (FastAPI, port 8000)
 
 ```bash
 cd webui
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 ```
 
-> 后端用**相对导入**，必须从 `webui/` 目录启动（`backend.main:app`），不能裸 `uvicorn main:app`。
-> 健康自检：`GET http://127.0.0.1:8000/api/health`。
+> The backend uses **relative imports**, so it must be started from the `webui/` directory
+> (`backend.main:app`), not a bare `uvicorn main:app`.
+> Health check: `GET http://127.0.0.1:8000/api/health`.
 
-### 2.2 前端（Vite dev，端口 5172）
+### 2.2 Frontend (Vite dev, port 5172)
 
 ```bash
 cd webui/frontend
 npm run dev
 ```
 
-浏览器打开 `http://localhost:5172`（dev server 只绑 `localhost` / IPv6 `::1`，用 `localhost` 而非 `127.0.0.1`）。
+Open `http://localhost:5172` in the browser (the dev server binds only `localhost` / IPv6
+`::1`; use `localhost` rather than `127.0.0.1`).
 
-> **Windows 路径坑（必读）**：本机 `C:\Users\...` 若为到 `D:\workbuddy\...` 的 junction，
-> 从 `C:` 路径跑 `vite build` 会报 `fileName absolute path` 错误。
-> 解决：从**真实 D: 路径**启动（`webui/frontend/`）；若 HMR 异常，先 `taskkill` 掉残留的
-> `vite preview` 或占用 5172/5173 的旧进程，再重启 dev server。
+> **Windows path gotcha (must read)**: if your local `C:\Users\...` is a junction to
+> `D:\workbuddy\...`, running `vite build` from the `C:` path raises a
+> `fileName absolute path` error. Fix: launch from the **real D: path**
+> (`webui/frontend/`); if HMR misbehaves, first `taskkill` any leftover `vite preview`
+> or old process occupying 5172/5173, then restart the dev server.
 
 ---
 
-## 3. 蒸馏教程（把素材变成可执行技能）
+## 3. Distillation Tutorial (turn materials into executable skills)
 
-蒸馏入口只有一个：**`POST /api/projects/{name}/domains/{domain}/distill`**，由 WebUI 的
-**「蒸馏工作台」** 或 **「素材管理」** 触发。底层走 `core/collector.py` → 按 `domain.yaml`
-的 `categories` 分类 → 写 `项目根/skills_library/<domain>/index.json` + 每技能一个目录。
+There is exactly one distillation entry point:
+**`POST /api/projects/{name}/domains/{domain}/distill`**, triggered from the WebUI's
+**"Distillation Workbench"** or **"Materials Management"**. Under the hood it goes through
+`core/collector.py` → categorizes by `domain.yaml`'s `categories` → writes
+`project_root/skills_library/<domain>/index.json` plus one directory per skill.
 
-> 蒸馏与领域无关：换 domain 只是换 `categories` 与提示词，**引擎代码不变**。
+> Distillation is domain-agnostic: switching domains only swaps `categories` and prompts —
+> **the engine code does not change**.
 
-### 3.1 步骤一览（WebUI）
+### 3.1 Steps at a glance (WebUI)
 
-1. **新建项目**：「项目与Domain管理」→ 新建（如 `demo`）。项目数据落在 `webui/projects/demo/`。
-2. **新建 / 克隆域**：可新建空白 `<domain>` 域，或「从已有域克隆」（仓库自带示例域如 `ppt` 可直接克隆）。
-3. **上传素材**：进该域的「素材管理」，上传 PDF/Word/MD/TXT/PPTX 等。上传后写入
-   `fixtures/<domain>/manifest.json`，默认 `enabled: true`。
-   - 只有 `enabled: true` 的素材会参与蒸馏；可在素材列表里启用 / 停用。
-4. **配置 LLM**：在「LLM 配置」选好活动模板（见 1.3）。
-5. **跑蒸馏**：在「蒸馏工作台」点 **「蒸馏」**。首次建议先勾 **dry-run** 验证管线；再取消勾跑真实蒸馏。
-6. **看进度 / 重跑**：「任务中心」实时看日志。`task_id` 记下了参数，**「重跑」** 按钮可一键用相同参数复跑，
-   不用重新填表。
+1. **Create a project**: "Project & Domain Management" → New (e.g. `demo`). Project data
+   lands in `webui/projects/demo/`.
+2. **Create / clone a domain**: you can create a blank `<domain>`, or "Clone from existing
+   domain" (the repo's built-in example domains such as `ppt` can be cloned directly).
+3. **Upload materials**: go to that domain's "Materials Management" and upload
+   PDF/Word/MD/TXT/PPTX, etc. After upload they are written to
+   `fixtures/<domain>/manifest.json`, default `enabled: true`.
+   - Only materials with `enabled: true` participate in distillation; you can enable/disable
+     them from the materials list.
+4. **Configure LLM**: pick the active template in "LLM Configuration" (see 1.3).
+5. **Run distillation**: in the "Distillation Workbench" click **"Distill"**. For the first
+   run, tick **dry-run** to validate the pipeline, then untick it for a real run.
+6. **Watch progress / re-run**: "Task Center" shows logs in real time. With the `task_id`
+   recording the parameters, the **"Re-run"** button re-executes with the same parameters
+   in one click — no need to refill the form.
 
-### 3.2 用 API 蒸馏
+### 3.2 Distill via API
 
 ```bash
-# dry-run（不调 LLM，验证管线）
+# dry-run (no LLM call, validates the pipeline)
 curl -X POST http://127.0.0.1:8000/api/projects/demo/domains/<domain>/distill \
   -H 'Content-Type: application/json' \
   -d '{"dry_run": true}'
 
-# 真实蒸馏
+# real distillation
 curl -X POST http://127.0.0.1:8000/api/projects/demo/domains/<domain>/distill \
   -H 'Content-Type: application/json' \
   -d '{"dry_run": false}'
 # -> {"ok": true, "task_id": "xxxxxxxx"}
 ```
 
-> Git Bash 注意：单引号 JSON 里含中文会被 locale 改写导致 `400 error parsing the body`。
-> 用 ASCII 字段或 `-d @file`（把 body 写进文件再 `-d @body.json`）避免。
+> Git Bash note: a single-quoted JSON containing Chinese gets mangled by locale, causing
+> `400 error parsing the body`. Use ASCII fields or `-d @file` (write the body to a file
+> then `-d @body.json`) to avoid this.
 
-轮询任务状态：
+Poll task status:
 
 ```bash
 curl http://127.0.0.1:8000/api/tasks/<task_id>
 ```
 
-### 3.3 蒸馏产物长什么样
+### 3.3 What distillation produces
 
 ```
 webui/projects/demo/
 └── skills_library/<domain>/
-    ├── index.json                 # 总索引：{updated_at, total, skills:[{skill_id,skill_name,category,source_document,source_title,detail_path}]}
+    ├── index.json                 # master index: {updated_at, total, skills:[{skill_id,skill_name,category,source_document,source_title,detail_path}]}
     ├── <cat1>/...
     ├── <cat2>/...
     └── ...
 ```
 
-- `index.json` 是入口，每条技能含 `skill_id / skill_name / category / source_document / source_title / detail_path`。
-- 每个技能是一个目录，里面有 `skill.json` 及正文（.md/.json/.txt）。
-- 幂等：已蒸馏的源文件记录在 `source_document`，重跑只补新文件、跳过已有的。
+- `index.json` is the entry point; each skill entry has `skill_id / skill_name / category /
+  source_document / source_title / detail_path`.
+- Each skill is a directory containing `skill.json` and the body (.md/.json/.txt).
+- Idempotent: already-distilled source files are recorded in `source_document`; a re-run only
+  adds new files and skips existing ones.
 
 ---
 
-## 4. 使用蒸馏出来的技能（教程）
+## 4. Using the distilled skills (tutorial)
 
-蒸馏出的技能通过 **MCP server** 被 Agent 消费。每个域的 server 在
-`webui/projects/<项目>/domains/<域>/mcp_server/server.py`，用 `FastMCP` 以 stdio 传输。
-server 通过环境变量 `R2S_DOMAIN` / `R2S_SKILLS_DIR` / `R2S_WORKSPACE` 感知当前领域与隔离路径
-（不写死领域名，因此同一份代码可服务任意域）。
+Distilled skills are consumed by the Agent through an **MCP server**. Each domain's server
+lives at `webui/projects/<project>/domains/<domain>/mcp_server/server.py` and uses `FastMCP`
+over stdio transport. The server learns the current domain and isolation paths via the
+environment variables `R2S_DOMAIN` / `R2S_SKILLS_DIR` / `R2S_WORKSPACE` (the domain name is
+never hard-coded, so the same code serves any domain).
 
-### 4.1 方式一：WebUI Agent 执行台（最常用，自动拉起 MCP）
+### 4.1 Option 1: WebUI Agent Console (most common, auto-spawns MCP)
 
-1. 进 **「Agent 执行台」**，选域（如 `ppt`），填任务文本。
-2. 可选：模型、`reasoning`、`max_iter`、`n_skills`、`top_k`、`dry_run`。
-3. 点 **「运行」**。后端按 `domain.yaml` 的 `mcp:` 块自动拉起 MCP server（cwd=项目根），
-   Agent 通过它调用技能与阶段工具；执行日志与产物实时可见。
+1. Go to **"Agent Console"**, pick a domain (e.g. `ppt`), and enter the task text.
+2. Optional: model, `reasoning`, `max_iter`, `n_skills`, `top_k`, `dry_run`.
+3. Click **"Run"**. The backend auto-spawns the MCP server per the `mcp:` block in
+   `domain.yaml` (cwd = project root); the Agent calls skills and stage tools through it;
+   execution logs and artifacts are visible in real time.
 
-API 等价调用：
+Equivalent API call:
 
 ```bash
 curl -X POST http://127.0.0.1:8000/api/projects/demo/agent/run \
   -H 'Content-Type: application/json' \
-  -d '{"domain":"<domain>","task":"用本域技能完成 XXX","max_iter":12,"n_skills":5,"top_k":20}'
+  -d '{"domain":"<domain>","task":"Complete XXX using this domain skills","max_iter":12,"n_skills":5,"top_k":20}'
 ```
 
-### 4.2 示例域（ppt）的 MCP 工具
+### 4.2 MCP tools of the example domain (`ppt`)
 
-仓库自带的 **示例域 `ppt`** 在 `domains/ppt/mcp_server/server.py` 注册了若干个 `@mcp.tool`
-（知识召回、交付物生成等，具体清单见该源码）。
-**换成别的域，工具集由该域的 `server.py` 决定**——UI 与引擎不关心具体工具有哪些。
-所有工具内部按 `R2S_DOMAIN` 识别领域并读写本项目的技能库 / 产物目录，因此同一份 server 代码
-可服务任意域。
+The repo's built-in **example domain `ppt`** registers several `@mcp.tool`s in
+`domains/ppt/mcp_server/server.py` (knowledge recall, deliverable generation, etc. — see the
+source for the exact list). **For other domains, the toolset is decided by that domain's
+`server.py`** — the UI and engine don't care which tools exist. All tools internally
+identify the domain via `R2S_DOMAIN` and read/write this project's skill library / artifact
+directory, so the same server code serves any domain.
 
-> 这些示例域工具是该域的能力，不是 UI 的一部分。要做一个新域，只需写该域的
-> `domain.yaml` + `mcp_server/server.py`（参考 `domains/ppt/`），无需改任何前端/后端代码。
+> These example-domain tools are that domain's capabilities, not part of the UI. To build a
+> new domain you only write that domain's `domain.yaml` + `mcp_server/server.py` (reference
+> `domains/ppt/`) — no frontend/backend code changes needed.
 
-### 4.3 方式二：手动跑 MCP server（给外部 Agent / 调试）
+### 4.3 Option 2: run the MCP server manually (for external Agents / debugging)
 
-server 用 `__file__` 反推项目根（`parents[2]`），并通过 `R2S_DOMAIN` 环境变量识别领域，
-所以**直接运行即可**，无需手动切 cwd：
+The server derives the project root from `__file__` (`parents[2]`) and identifies the domain
+via the `R2S_DOMAIN` env var, so **you can run it directly** without manually switching cwd:
 
 ```bash
 cd Resource2Skill/webui/projects/demo
-R2S_DOMAIN=ppt python domains/ppt/mcp_server/server.py        # stdio 传输，等待 MCP 客户端连
+R2S_DOMAIN=ppt python domains/ppt/mcp_server/server.py        # stdio transport, waits for an MCP client
 ```
 
-任何兼容 MCP 的客户端（Claude Desktop / 自建 Agent / `mcp` CLI inspector）把它配成 stdio server 即可。
-它读的是**本项目**的 `skills_library/<domain>`（不是仓库根的），与蒸馏产物一一对应。
+Any MCP-compatible client (Claude Desktop / a self-built Agent / the `mcp` CLI inspector)
+can be configured to use it as a stdio server. It reads **this project's**
+`skills_library/<domain>` (not the repo root's), matching the distillation output one-to-one.
 
-### 4.4 产物仓库（看交付物）
+### 4.4 Artifact repository (view deliverables)
 
-Agent 产出的文件落在 `webui/projects/<项目>/output/<domain>_workspace/<产品>/...`。
-WebUI **「产物仓库」** 页可直接浏览 / 下载；等价 API：
+Agent-produced files land in
+`webui/projects/<project>/output/<domain>_workspace/<product>/...`. The WebUI
+**"Artifact Repository"** page can browse / download them directly; equivalent APIs:
 
 ```bash
 curl "http://127.0.0.1:8000/api/projects/demo/repo?domain=<domain>"
-curl "http://127.0.0.1:8000/api/projects/demo/repo/file?kind=output&domain=<domain>&rel_path=<产品>/<阶段>/<file>"
+curl "http://127.0.0.1:8000/api/projects/demo/repo/file?kind=output&domain=<domain>&rel_path=<product>/<stage>/<file>"
 ```
 
 ---
 
-## 5. 新增一个自己的领域（泛化用法）
+## 5. Add your own domain (generic usage)
 
-1. `POST /api/projects/<项目>/domains` `{"domain":"<你的域>","seed_from":"ppt"}` 克隆示例域作为起点；
-   或留空 `seed_from` 新建空白域（`mcp: null`，后续自己配）。
-2. 编辑 `webui/projects/<项目>/domains/<你的域>/domain.yaml`：
-   - `persona` / `categories` / `query_pool` / `agent_initial_prompt` 改成你的领域语言；
-   - `mcp.command` / `mcp.args[0]` 指向你的 `mcp_server/server.py`，`mcp.env` 会自动注入 `R2S_DOMAIN` 等隔离变量。
-3. 写 `mcp_server/server.py`：用 `@mcp.tool()` 注册该域的技能工具（参考 `domains/ppt/mcp_server/server.py`，
-   用 `R2S_DOMAIN` 区分领域、用 `_SKILLS_DIR` / `_WORKSPACE` 读写，不要写死领域名）。
-4. 上传该域素材 → 蒸馏 → Agent 执行台选该域运行。
+1. `POST /api/projects/<project>/domains` `{"domain":"<your-domain>","seed_from":"ppt"}`
+   clones the example domain as a starting point; or leave `seed_from` empty to create a
+   blank domain (`mcp: null`, configure later).
+2. Edit `webui/projects/<project>/domains/<your-domain>/domain.yaml`:
+   - Change `persona` / `categories` / `query_pool` / `agent_initial_prompt` to your
+     domain's language;
+   - Point `mcp.command` / `mcp.args[0]` at your `mcp_server/server.py`; `mcp.env` will
+     auto-inject isolation vars like `R2S_DOMAIN`.
+3. Write `mcp_server/server.py`: register that domain's skill tools with `@mcp.tool()`
+   (reference `domains/ppt/mcp_server/server.py`; use `R2S_DOMAIN` to distinguish domains
+   and `_SKILLS_DIR` / `_WORKSPACE` to read/write — never hard-code the domain name).
+4. Upload that domain's materials → distill → pick that domain in the Agent Console to run.
 
-引擎对这一切**零特殊分支**，ppt 只是被这样配置出来的一个例子。
-
----
-
-## 6. 实用 tips
-
-- **先 dry-run 再真跑**：蒸馏 / Agent 都有 `dry_run`，不调 LLM，先验证管线不踩坑。
-- **重跑不复填表**：「任务中心」里终态任务带「重跑」按钮，复制原参数一键复跑（蒸馏 / Agent 均支持）。
-- **代理坑**：蒸馏时若模板未填代理，代码会**显式清除**从 shell 继承的 `HTTP_PROXY/HTTPS_PROXY` 走直连。
-- **数据隔离**：多项目互不相通，靠 `webui_config.json` 的 `projects_root` 决定读哪个 `webui/projects`。
-  LLM Key 用 Fernet 加密落 `webui_config.json`（key 在 `webui/backend/.key`），日志脱敏。
+The engine has **zero special-casing** for any of this; `ppt` is just one example configured
+this way.
 
 ---
 
-## 7. 目录速查
+## 6. Practical tips
+
+- **Dry-run before the real run**: both distillation and the Agent have `dry_run` that skips
+  the LLM and validates the pipeline first.
+- **Re-run without refilling the form**: terminal tasks in "Task Center" carry a "Re-run"
+  button that copies the original parameters for a one-click re-run (supported for both
+  distillation and the Agent).
+- **Proxy gotcha**: during distillation, if the template leaves the proxy unset, the code
+  **explicitly clears** `HTTP_PROXY/HTTPS_PROXY` inherited from the shell and goes direct.
+- **Data isolation**: projects are mutually isolated, decided by `projects_root` in
+  `webui_config.json` (which `webui/projects` to read). LLM keys are Fernet-encrypted into
+  `webui_config.json` (key in `webui/backend/.key`), and logs are desensitized.
+
+---
+
+## 7. Directory quick reference
 
 ```
 webui/
-├── backend/            # FastAPI：main.py(API) models.py(请求体) tasks.py(任务队列) distill.py(蒸馏入口) agent.py(Agent 调度) projects.py(项目/域+通用 mcp 重写)
-├── frontend/           # Vue3 + Element Plus（领域无关，UI 不写死任何域）
-└── projects/<项目>/
-    ├── domains/<域>/domain.yaml     # 域定义 + mcp 块（Agent 据此拉起 MCP server）
-    ├── domains/<域>/mcp_server/server.py   # 该域技能的消费面（MCP 工具，按 R2S_DOMAIN 参数化）
-    ├── fixtures/<域>/manifest.json  # 素材清单（enabled 开关）
-    ├── skills_library/<域>/         # 蒸馏产物（index.json + 每技能一目录）
-    └── output/<域>_workspace/        # Agent 交付物落点（<域> 由 R2S_DOMAIN 决定）
+├── backend/            # FastAPI: main.py(API) models.py(request bodies) tasks.py(task queue) distill.py(distill entry) agent.py(Agent scheduler) projects.py(project/domain + generic mcp rewrite)
+├── frontend/           # Vue3 + Element Plus (domain-agnostic; UI hard-codes no domain)
+└── projects/<project>/
+    ├── domains/<domain>/domain.yaml     # domain definition + mcp block (Agent spawns MCP server from this)
+    ├── domains/<domain>/mcp_server/server.py   # that domain's skill consumption surface (MCP tools, parameterized by R2S_DOMAIN)
+    ├── fixtures/<domain>/manifest.json  # materials manifest (enabled switch)
+    ├── skills_library/<domain>/         # distillation output (index.json + one dir per skill)
+    └── output/<domain>_workspace/        # Agent deliverable landing zone (<domain> decided by R2S_DOMAIN)
 
-domains/<域>/mcp_server/server.py   # 仓库自带示例域（如 ppt）；新建域时复制此结构
+domains/<domain>/mcp_server/server.py   # repo's built-in example domains (e.g. ppt); copy this structure for new domains
 ```
+
+---
+
+A Chinese version of this manual is available at [README-WebUI-zh.md](./README-WebUI-zh.md).
