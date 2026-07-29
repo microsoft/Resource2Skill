@@ -22,7 +22,17 @@ boundary (the public API rejects collisions before WAL append).
 from __future__ import annotations
 
 import errno
-import fcntl
+try:
+    import fcntl
+except ImportError:  # fcntl is POSIX-only; provide a no-op shim for Windows.
+    class _FcntlShim:
+        LOCK_EX = 0
+        LOCK_UN = 0
+
+        @staticmethod
+        def flock(fd, operation):  # noqa: D401
+            return None
+    fcntl = _FcntlShim()  # type: ignore[assignment]
 import json
 import os
 import re

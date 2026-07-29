@@ -139,3 +139,13 @@ assets/pipeline_overview.png
 # Local planning notes
 OPEN_SOURCE_ALLOWLIST.md
 OPEN_SOURCE_TODO.md
+
+# ---------------------------------------------------------------------------
+# WebUI (added on top of upstream): user-scoped secrets & per-project data
+# ---------------------------------------------------------------------------
+webui/webui_config.json
+webui/backend/.key
+webui/projects/
+webui/frontend/node_modules/
+webui/frontend/dist/
+*.log
