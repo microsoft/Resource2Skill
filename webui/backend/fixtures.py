@@ -5,7 +5,7 @@
 - 启用/停用由本模块引入的 manifest.json 记录（R2S core 本身不消费 fixtures，
   该 manifest 是 WebUI 侧的契约，后续切片3 通用 collect 会读取它来筛选素材）。
 - 删除走软删除（移动到 fixtures/<domain>/.trash/），沙箱禁止硬删，且可恢复。
-- 预览复用 distill_ipd.extract_text 的抽取逻辑（不跑蒸馏，仅抽纯文本），
+- 预览复用 doc_extract.extract_text 的抽取逻辑（不跑蒸馏，仅抽纯文本），
   MD/TXT 直接读文本；无抽取器或抽取为空时返回友好提示。
 - 文件名一律做 Path.name 归一 + 路径穿越校验，避免 ../ 攻击。
 """
@@ -163,9 +163,9 @@ def preview_text(project: str, domain: str, filename: str, max_chars: int = PREV
             raw = src.read_text(encoding="gbk", errors="ignore")
         text = raw
     else:
-        # 复用 distill_ipd 的抽取逻辑（懒导入，避免启动即加载重型依赖）
+        # 复用 doc_extract 的抽取逻辑（懒导入，避免启动即加载重型依赖）
         try:
-            from distill_ipd import extract_text
+            from doc_extract import extract_text
             text = extract_text(src)
         except Exception as e:  # noqa: BLE001
             return {"name": name, "text": "", "available": False,

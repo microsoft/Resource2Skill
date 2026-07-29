@@ -2,10 +2,10 @@
 
 > 本仓库在 Microsoft `Resource2Skill` 内核之上套了一层本地可视壳（FastAPI + Vue3）。
 > 本手册讲**通用 WebUI 这条线**——引擎与 UI 完全领域无关，领域行为 100% 来自
-> `domain.yaml` + 该域的 `mcp_server/server.py`。仓库自带一个示例领域 `ipd`（可克隆、可删除、
-> 可替换），你也可以新建任意领域。上游通用说明在 `README.md`。
+> `domain.yaml` + 该域的 `mcp_server/server.py`。仓库自带若干官方示例领域（`ppt` / `web` /
+> `excel` / `blender` / `reaper`，见 `domains/`），可克隆、可删除、可替换。上游通用说明在 `README.md`。
 
-本仓库在 Resource2Skill 内核之上套了一层本地可视壳：
+整体由三部分组成：
 
 - **后端**：FastAPI（`webui/backend/`），任务队列单 worker 串行，蒸馏 / Agent 共用。
 - **前端**：Vue3 + Element Plus（`webui/frontend/`），纯本地 `localhost` 单人使用。
@@ -70,9 +70,10 @@ npm run dev
 
 浏览器打开 `http://localhost:5172`（dev server 只绑 `localhost` / IPv6 `::1`，用 `localhost` 而非 `127.0.0.1`）。
 
-> **Windows 路径坑（必读）**：本机 `C:\Users\...` 实为到 `D:\workbuddy\...` 的 junction。
-> 若从 `C:` 路径跑 `vite build` 会报 `fileName absolute path` 错误。
-> 解决：从**真实 D: 路径**启动（`webui/frontend/`），且确保没有残留的 `vite preview`（曾绑 5173 对 `/src/*` 回吐 index.html 导致 HMR 失效）；必要时先 `taskkill` 旧 5172/5173 进程再重启。
+> **Windows 路径坑（必读）**：本机 `C:\Users\...` 若为到 `D:\workbuddy\...` 的 junction，
+> 从 `C:` 路径跑 `vite build` 会报 `fileName absolute path` 错误。
+> 解决：从**真实 D: 路径**启动（`webui/frontend/`）；若 HMR 异常，先 `taskkill` 掉残留的
+> `vite preview` 或占用 5172/5173 的旧进程，再重启 dev server。
 
 ---
 
@@ -87,7 +88,7 @@ npm run dev
 ### 3.1 步骤一览（WebUI）
 
 1. **新建项目**：「项目与Domain管理」→ 新建（如 `demo`）。项目数据落在 `webui/projects/demo/`。
-2. **新建 / 克隆域**：可新建空白 `<domain>` 域，或「从已有域克隆」（仓库自带示例域如 `ipd` 可直接克隆）。
+2. **新建 / 克隆域**：可新建空白 `<domain>` 域，或「从已有域克隆」（仓库自带示例域如 `ppt` 可直接克隆）。
 3. **上传素材**：进该域的「素材管理」，上传 PDF/Word/MD/TXT/PPTX 等。上传后写入
    `fixtures/<domain>/manifest.json`，默认 `enabled: true`。
    - 只有 `enabled: true` 的素材会参与蒸馏；可在素材列表里启用 / 停用。
@@ -146,7 +147,7 @@ server 通过环境变量 `R2S_DOMAIN` / `R2S_SKILLS_DIR` / `R2S_WORKSPACE` 感�
 
 ### 4.1 方式一：WebUI Agent 执行台（最常用，自动拉起 MCP）
 
-1. 进 **「Agent 执行台」**，选域（如 `ipd`），填任务文本。
+1. 进 **「Agent 执行台」**，选域（如 `ppt`），填任务文本。
 2. 可选：模型、`reasoning`、`max_iter`、`n_skills`、`top_k`、`dry_run`。
 3. 点 **「运行」**。后端按 `domain.yaml` 的 `mcp:` 块自动拉起 MCP server（cwd=项目根），
    Agent 通过它调用技能与阶段工具；执行日志与产物实时可见。
@@ -159,45 +160,16 @@ curl -X POST http://127.0.0.1:8000/api/projects/demo/agent/run \
   -d '{"domain":"<domain>","task":"用本域技能完成 XXX","max_iter":12,"n_skills":5,"top_k":20}'
 ```
 
-### 4.2 示例域（ipd）的 MCP 工具清单
+### 4.2 示例域（ppt）的 MCP 工具
 
-下面以仓库自带的 **示例域 `ipd`** 为例，它的 `mcp_server/server.py` 注册了 12 个 `@mcp.tool`。
-**换成别的域，工具集由该域的 server.py 决定**——UI 与引擎不关心具体工具有哪些。
-
-知识召回：
-
-| 工具 | 作用 |
-|------|------|
-| `search_ipd_skills(query, category, k)` | 按关键词 / 分类召回知识技能 |
-| `get_ipd_skill(skill_id)` | 读取某技能的完整正文（md/json/txt） |
-
-阶段子 Agent（每个 = 一个 `@mcp.tool`，产出阶段交付物到 `output/<domain>_workspace/<产品>/<阶段>/`）：
-
-| 工具 | 阶段 |
-|------|------|
-| `develop_charter(product, brief)` | 概念 |
-| `develop_plan(product, notes)` | 计划 |
-| `develop_spec(product, notes)` | 开发 |
-| `verify_product(product, notes)` | 验证 |
-| `launch_product(product, notes)` | 发布 |
-| `manage_lifecycle(product, notes)` | 生命周期 |
-
-门禁（质量闸）：
-
-| 工具 | 作用 |
-|------|------|
-| `run_dcp_gate(product, stage)` | 决策评审门禁：检查交付物 + 4W+2H 是否齐备，返回 `GATE: PASS/FAIL` |
-| `run_tr_gate(product, tr)` | 技术评审门禁（TR1-TR6）：提示按 TR 清单核对 |
-
-交付物落盘 / 生成：
-
-| 工具 | 作用 |
-|------|------|
-| `save_deliverable(product, stage, filename, content)` | 通用落盘任意交付物到 `output/<domain>_workspace/<产品>/<阶段>/` |
-| `generate_charter_pptx(product, ...)` | 基于《Charter模板.pptx》+ 已写好的 Charter，生成《Charter汇报.pptx》（示例域专用） |
+仓库自带的 **示例域 `ppt`** 在 `domains/ppt/mcp_server/server.py` 注册了若干个 `@mcp.tool`
+（知识召回、交付物生成等，具体清单见该源码）。
+**换成别的域，工具集由该域的 `server.py` 决定**——UI 与引擎不关心具体工具有哪些。
+所有工具内部按 `R2S_DOMAIN` 识别领域并读写本项目的技能库 / 产物目录，因此同一份 server 代码
+可服务任意域。
 
 > 这些示例域工具是该域的能力，不是 UI 的一部分。要做一个新域，只需写该域的
-> `domain.yaml` + `mcp_server/server.py`（参考 `domains/ipd/`），无需改任何前端/后端代码。
+> `domain.yaml` + `mcp_server/server.py`（参考 `domains/ppt/`），无需改任何前端/后端代码。
 
 ### 4.3 方式二：手动跑 MCP server（给外部 Agent / 调试）
 
@@ -206,7 +178,7 @@ server 用 `__file__` 反推项目根（`parents[2]`），并通过 `R2S_DOMAIN`
 
 ```bash
 cd Resource2Skill/webui/projects/demo
-R2S_DOMAIN=ipd python domains/ipd/mcp_server/server.py        # stdio 传输，等待 MCP 客户端连
+R2S_DOMAIN=ppt python domains/ppt/mcp_server/server.py        # stdio 传输，等待 MCP 客户端连
 ```
 
 任何兼容 MCP 的客户端（Claude Desktop / 自建 Agent / `mcp` CLI inspector）把它配成 stdio server 即可。
@@ -226,16 +198,16 @@ curl "http://127.0.0.1:8000/api/projects/demo/repo/file?kind=output&domain=<doma
 
 ## 5. 新增一个自己的领域（泛化用法）
 
-1. `POST /api/projects/<项目>/domains` `{"domain":"<你的域>","seed_from":"ipd"}` 克隆示例域作为起点；
+1. `POST /api/projects/<项目>/domains` `{"domain":"<你的域>","seed_from":"ppt"}` 克隆示例域作为起点；
    或留空 `seed_from` 新建空白域（`mcp: null`，后续自己配）。
 2. 编辑 `webui/projects/<项目>/domains/<你的域>/domain.yaml`：
    - `persona` / `categories` / `query_pool` / `agent_initial_prompt` 改成你的领域语言；
    - `mcp.command` / `mcp.args[0]` 指向你的 `mcp_server/server.py`，`mcp.env` 会自动注入 `R2S_DOMAIN` 等隔离变量。
-3. 写 `mcp_server/server.py`：用 `@mcp.tool()` 注册该域的技能工具（参考 `domains/ipd/mcp_server/server.py`，
+3. 写 `mcp_server/server.py`：用 `@mcp.tool()` 注册该域的技能工具（参考 `domains/ppt/mcp_server/server.py`，
    用 `R2S_DOMAIN` 区分领域、用 `_SKILLS_DIR` / `_WORKSPACE` 读写，不要写死领域名）。
 4. 上传该域素材 → 蒸馏 → Agent 执行台选该域运行。
 
-引擎对这一切**零特殊分支**，IPD 只是被这样配置出来的一个例子。
+引擎对这一切**零特殊分支**，ppt 只是被这样配置出来的一个例子。
 
 ---
 
@@ -262,5 +234,5 @@ webui/
     ├── skills_library/<域>/         # 蒸馏产物（index.json + 每技能一目录）
     └── output/<域>_workspace/        # Agent 交付物落点（<域> 由 R2S_DOMAIN 决定）
 
-domains/<域>/mcp_server/server.py   # 仓库自带示例域（如 ipd）；新建域时复制此结构
+domains/<域>/mcp_server/server.py   # 仓库自带示例域（如 ppt）；新建域时复制此结构
 ```

@@ -1,10 +1,10 @@
 """通用采集器（切片3，领域无关）。
 
-与 distill_ipd.py 的关系：
+与 doc_extract.py 的关系：
 - 复用其文本抽取（extract_text）、切片（chunk_text）、技能名解析（parse_skill_name）、
   归类启发式（categorize）等纯逻辑；
 - 但目录**参数化**：素材读项目 fixtures/<domain>/，技能写项目 skills_library/<domain>/，
-  **不碰** distill_ipd 的全局 LIB_DIR/RES_DIR，保持多项目隔离、零 core 全局副作用。
+  保持多项目隔离、零 core 全局副作用。doc_extract 本身领域无关，不含任何领域路径。
 - 蒸馏 LLM 传输由调用方注入的 llm_fn 提供（后端用环境变量 + call_azure_openai 实现），
   因此本模块不直接依赖 webui 配置，也不读写全局环境变量。
 
@@ -20,8 +20,8 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-# 复用 distill_ipd 的纯逻辑（不触发其全局 main / 全局目录）
-from distill_ipd import (
+# 复用 doc_extract 的纯逻辑（领域无关：抽取 / 切片 / 技能名解析 / 归类）
+from doc_extract import (
     extract_text,
     chunk_text,
     parse_skill_name,
@@ -69,9 +69,9 @@ def _load_manifest(fixtures_dir: Path) -> dict:
 def _extract_text(path: Path) -> str:
     """抽取素材纯文本。
 
-    distill_ipd.extract_text 仅覆盖 PDF/PPTX/DOCX/XLSX；MD/TXT 在其全局 SKIP_EXT
+    doc_extract.extract_text 仅覆盖 PDF/PPTX/DOCX/XLSX；MD/TXT 在其全局 SKIP_EXT
     中被故意跳过。通用采集器需支持文档类，故此处对 MD/TXT 直接读文本（UTF-8→GBK
-    兜底），其余委托 distill_ipd，保持不修改 core 全局行为。
+    兜底），其余委托 doc_extract，保持不修改 core 全局行为。
     """
     ext = path.suffix.lower()
     if ext in (".md", ".txt"):

@@ -10,7 +10,7 @@
       project.json              项目元数据
 - 校验直接调用 core.validate_domain(name, domains_dir=项目domains目录)，
   利用它已支持的 domains_dir 覆盖参数，无需改动 core。
-- 已有同名仓库领域（如 ipd）可“播种”进项目，保证 validate 直接 PASS 且为真实可用领域。
+- 已有同名仓库领域（如 ppt）可“播种”进项目，保证 validate 直接 PASS 且为真实可用领域。
 """
 from __future__ import annotations
 
@@ -171,7 +171,7 @@ def create_domain(project: str, domain: str, seed_from: str | None = None) -> di
 def _rewrite_mcp_for_project(yaml_path: Path, project_dir: Path, domain: str) -> None:
     """播种领域时：把 mcp.cwd 改写为项目根，并向 mcp.args/mcp.env 注入项目隔离路径。
 
-    对所有带 mcp 块（command/args）的领域通用，不再特殊对待 ipd：
+    对所有带 mcp 块（command/args）的领域通用，不再特殊对待任何领域：
     - mcp.env 注入 R2S_DOMAIN / R2S_SKILLS_DIR / R2S_WORKSPACE（MCP 子进程兜底读取）；
     - mcp.args 追加 --workspace / --skills-dir（主通道，server.py 解析后落本项目目录）。
     这样 MCP 子进程（cwd=项目根、args 相对解析到本项目 mcp_server）会把技能库与产物

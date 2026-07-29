@@ -1,17 +1,15 @@
 # 教学实战：从零创建一个自定义领域（Resource2Skill WebUI）
 
-> **本教程的目的**：演示本项目的核心设计 —— **领域驱动**。你会看到如何**不改任何前端 / 后端代码**，
-> 就新增一个自己的领域，并把素材蒸馏成 Agent 可调用的技能。
->
-> 跟着做一遍，你会真正理解：整个系统的"性格"由两份配置决定
-> （`domain.yaml` + 该域的 `mcp_server/server.py`），UI 和引擎对具体领域一无所知。
+> **本教程的目的**：演示本项目的核心设计 —— **领域驱动**：**不改任何前端 / 后端代码**，
+> 就能新增一个自己的领域，并把素材蒸馏成 Agent 可调用的技能。整个系统的"性格"由两份配置决定
+> （`domain.yaml` + 该域的 `mcp_server/server.py`），UI 和引擎对具体领域一无所知。跟着做一遍即可体会。
 
 ---
 
 ## 0. 你会学到什么
 
 1. 领域驱动设计在这个项目里是怎么落地的（换域 = 换两份配置，UI/引擎零改动）。
-2. 怎么用 API 或 WebUI 新建一个域（克隆自带示例域 `ipd` 作为起点）。
+2. 怎么用 API 或 WebUI 新建一个域（克隆自带示例域 `ppt` 作为起点）。
 3. 怎么改 `domain.yaml`，把示例域"变成"你自己的领域。
 4. 怎么加素材、蒸馏、再用 Agent 调用技能，跑通端到端闭环。
 5. **引擎为什么能做到领域无关** —— 原理小讲（§7）。
@@ -36,7 +34,7 @@
 ```bash
 curl -X POST http://127.0.0.1:8000/api/projects/demo/domains \
   -H 'Content-Type: application/json' \
-  -d '{"domain":"marketing","seed_from":"ipd"}'
+  -d '{"domain":"marketing","seed_from":"ppt"}'
 ```
 
 > 这个调用在后端会触发 `_rewrite_mcp_for_project`：把克隆出来的 `domain.yaml` 的 `mcp` 块改写为
@@ -46,7 +44,7 @@ curl -X POST http://127.0.0.1:8000/api/projects/demo/domains \
 
 ### 方式 B：WebUI
 
-「项目与Domain管理」→ 选中 `demo` → 「新建域」→ 域名填 `marketing` → 来源选 `ipd`（克隆）。
+「项目与Domain管理」→ 选中 `demo` → 「新建域」→ 域名填 `marketing` → 来源选 `ppt`（克隆）。
 
 **预期结果**：
 
@@ -134,15 +132,10 @@ mcp:
 `R2S_DOMAIN=marketing`），Agent 通过它召回知识并产出交付物到
 `webui/projects/demo/output/marketing_workspace/<产品>/`。
 
-> **关于工具名**：克隆来的 `server.py` 工具函数名仍带 `ipd` 字样（如 `search_ipd_skills`、
-> `develop_charter`）。这是示例域的命名，**功能不受影响**——它们内部按 `R2S_DOMAIN` 读的是
-> `skills_library/marketing`，不是 ipd。
->
-> 想要更"干净"的专属领域，可编辑 `domains/marketing/mcp_server/server.py`，把示例域**专属**的
-> `@mcp.tool` 删掉：`develop_charter` / `develop_plan` / `develop_spec` / `verify_product` /
-> `launch_product` / `manage_lifecycle`（6 个阶段）+ `run_dcp_gate` / `run_tr_gate`（2 个门禁）+
-> `generate_charter_pptx`，只保留通用的知识召回两个工具（`search_ipd_skills` / `get_ipd_skill`，
-> 改名如 `search_marketing_skills` 即可）。这两个工具本就按 `R2S_DOMAIN` 读**任意**域技能库。
+> **关于工具名**：克隆来的 `server.py` 工具函数名来自源域（本例为 `ppt`），例如知识召回类工具。
+> 它们内部按 `R2S_DOMAIN` 读取的是 `skills_library/marketing`，与源域名无关，**功能不受影响**。
+> 想要更"干净"的专属领域，直接编辑 `domains/marketing/mcp_server/server.py` 里的 `@mcp.tool`
+> 函数即可——删掉不需要的、或把函数名改成你的领域语言。引擎只认 `R2S_DOMAIN` 隔离路径。
 >
 > 这就是领域驱动架构的设计意图：**最小改动，拥有自己的领域**。
 
@@ -156,11 +149,11 @@ mcp:
   `R2S_SKILLS_DIR` / `R2S_WORKSPACE`，把技能库与产物落在本项目、本领域的目录里。
 - **播种时自动改写**：`projects.py` 的 `_rewrite_mcp_for_project` 对**所有带 `mcp` 块的域一视同仁**
   地改写 `domain.yaml`——注入 `R2S_DOMAIN` + 隔离路径，使同一份 server 代码可服务任意域。
-- **server 按领域参数化**：`mcp_server/server.py` 用 `_DOMAIN = os.environ.get("R2S_DOMAIN") or "ipd"`
+- **server 按领域参数化**：`mcp_server/server.py` 用 `_DOMAIN = os.environ.get("R2S_DOMAIN") or "ppt"`
   推算技能库 / 产物路径（`skills_library/<域>`、`output/<域>_workspace`），不写死领域名。
 
 **结论**：新增领域 = 写 `domain.yaml` + （可选）`mcp_server`，**UI / 后端零改动**。
-仓库自带的 `ipd` 只是被这样配置出来的一个示例，不是特殊存在——任意领域都能复制这条路径。
+仓库自带的 `ppt` 只是被这样配置出来的一个示例，不是特殊存在——任意领域都能复制这条路径。
 
 ---
 
@@ -179,4 +172,4 @@ mcp:
 
 你刚刚完成了一条**完全领域无关**的端到端链路：建域 → 配 `domain.yaml` → 加素材 → 蒸馏 → Agent 调用技能。
 全程没有碰前端 / 后端一行代码。这正是领域驱动设计的目标 —— **新增领域只需写配置，UI / 后端零改动**，
-而 `ipd` 只是仓库自带的一个可被任意领域复制的示例。
+而 `ppt` 只是仓库自带的一个可被任意领域复制的示例。
