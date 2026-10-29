@@ -1196,6 +1196,26 @@ Returns:
 
 # ---- Rendering & inspection -----------------------------------------------
 
+# Prepended to every headless-Chromium runner below. Project pages are built
+# from skill content derived from scraped web sources, so their scripts must
+# not be able to reach loopback / private / link-local (cloud metadata) hosts
+# from the server. Public http(s) (CDN fonts, images) and local file/data/blob
+# URLs stay allowed; service workers and WebSockets, which bypass page.route,
+# are blocked.
+_PW_NET_GUARD = (
+    "import ipaddress as _ip, socket as _socket, urllib.parse as _up\n"
+    "def _url_ok(url):\n"
+    "    u = _up.urlparse(url)\n"
+    "    if u.scheme in ('file', 'data', 'blob', 'about'): return True\n"
+    "    if u.scheme not in ('http', 'https') or not u.hostname: return False\n"
+    "    try: infos = _socket.getaddrinfo(u.hostname, None)\n"
+    "    except OSError: return False\n"
+    "    return all(_ip.ip_address(i[4][0].split('%')[0]).is_global for i in infos)\n"
+    "def _guard(page):\n"
+    "    page.route('**/*', lambda r: r.continue_() if _url_ok(r.request.url) else r.abort('blockedbyclient'))\n"
+    "    if hasattr(page, 'route_web_socket'): page.route_web_socket('**/*', lambda ws: ws.close())\n"
+)
+
 @mcp.tool()
 def render_page(project_id: str, width: int = 1280, height: int = 800) -> str:
     """Render the project's index.html to a PNG screenshot via headless Chromium.
@@ -1225,13 +1245,14 @@ Returns:
     import subprocess
     import sys as _sys
     import tempfile
-    runner = (
+    runner = _PW_NET_GUARD + (
         "from playwright.sync_api import sync_playwright\n"
         "import sys\n"
         "url = sys.argv[1]; out = sys.argv[2]; w = int(sys.argv[3]); h = int(sys.argv[4])\n"
         "with sync_playwright() as p:\n"
         "    b = p.chromium.launch(headless=True)\n"
-        "    page = b.new_page(viewport={'width': w, 'height': h})\n"
+        "    page = b.new_page(viewport={'width': w, 'height': h}, service_workers='block')\n"
+        "    _guard(page)\n"
         "    page.goto(url)\n"
         "    try: page.wait_for_load_state('networkidle', timeout=10000)\n"
         "    except Exception: pass\n"
@@ -1302,14 +1323,15 @@ Returns:
     import subprocess
     import sys as _sys
     import tempfile, json as _json
-    runner = (
+    runner = _PW_NET_GUARD + (
         "from playwright.sync_api import sync_playwright\n"
         "import json, sys\n"
         "url = sys.argv[1]; out = sys.argv[2]\n"
         "msgs = []\n"
         "with sync_playwright() as p:\n"
         "    b = p.chromium.launch(headless=True)\n"
-        "    page = b.new_page()\n"
+        "    page = b.new_page(service_workers='block')\n"
+        "    _guard(page)\n"
         "    page.on('console', lambda m: msgs.append(f'[{m.type}] {m.text}'))\n"
         "    page.goto(url)\n"
         "    try: page.wait_for_load_state('networkidle', timeout=10000)\n"
@@ -1922,13 +1944,14 @@ img, svg, canvas, video {{ max-width: 100%; height: auto; }}
             try:
                 index_path = proj["dir"] / "index.html"
                 out_png = proj["dir"] / "_polish_render.png"
-                render_script = (
+                render_script = _PW_NET_GUARD + (
                     "import sys\n"
                     "from playwright.sync_api import sync_playwright\n"
                     "url, out, w, h = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4])\n"
                     "with sync_playwright() as p:\n"
                     "    b = p.chromium.launch(headless=True)\n"
-                    "    pg = b.new_page(viewport={'width': w, 'height': h})\n"
+                    "    pg = b.new_page(viewport={'width': w, 'height': h}, service_workers='block')\n"
+                    "    _guard(pg)\n"
                     "    pg.goto(url)\n"
                     "    pg.wait_for_load_state('networkidle', timeout=10000)\n"
                     "    pg.screenshot(path=out, full_page=True)\n"
