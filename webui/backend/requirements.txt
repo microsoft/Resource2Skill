@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+httpx
+cryptography
+python-multipart

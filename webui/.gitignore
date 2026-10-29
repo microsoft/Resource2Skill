@@ -1,0 +1,7 @@
+backend/.key
+backend/__pycache__/
+webui_config.json
+projects/
+frontend/node_modules/
+frontend/dist/
+*.pyc

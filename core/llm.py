@@ -75,6 +75,25 @@ _REASONING_EFFORT_MAP = {
     "gpt-5.4-pro": ("medium", "high", "xhigh"),
 }
 
+# ---------------------------------------------------------------------------
+# Provider selection: Azure OpenAI vs OpenAI-compatible backends (DeepSeek…)
+# ---------------------------------------------------------------------------
+# Set LLM_PROVIDER=deepseek (or "openai_compatible" / "openai") to route all
+# chat/completions calls through the OpenAI-compatible shape instead of the
+# Azure-specific /openai/deployments/{dep}/chat/completions?api-version= path.
+# When LLM_PROVIDER is unset, behaviour is 100% Azure (unchanged).
+_DEFAULT_PROVIDER = "azure"
+
+
+def _provider() -> str:
+    """Return the active LLM provider ('azure' by default)."""
+    return os.environ.get("LLM_PROVIDER", _DEFAULT_PROVIDER).strip().lower()
+
+
+def _is_azure() -> bool:
+    """True when using Azure OpenAI (the default)."""
+    return _provider() == "azure"
+
 
 def _model_env_suffix(model: str) -> str:
     """Map "gpt-5.5" -> "55", "gpt-5.4-pro" -> "54PRO" for per-model env vars."""
@@ -176,7 +195,11 @@ def _resolve_headers(model: str | None = None) -> dict:
                 "AZURE_OPENAI_API_KEY not set. "
                 "Set it or use AZURE_OPENAI_USE_AAD=1 for AAD auth."
             )
-        headers["api-key"] = api_key
+        if _is_azure():
+            headers["api-key"] = api_key
+        else:
+            # OpenAI-compatible backends (DeepSeek, etc.) use Bearer auth.
+            headers["Authorization"] = f"Bearer {api_key}"
     return headers
 
 
@@ -461,20 +484,63 @@ def call_azure_openai(
     api_version = _resolve_api_version(model)
     headers = _resolve_headers(model)
 
-    url = f"{endpoint}openai/deployments/{deployment}/chat/completions?api-version={api_version}"
+    if _is_azure():
+        url = f"{endpoint}openai/deployments/{deployment}/chat/completions?api-version={api_version}"
+        payload: dict[str, Any] = {
+            "messages": messages,
+            "max_completion_tokens": max_completion_tokens,
+        }
+        if tools:
+            payload["tools"] = tools
+            payload["tool_choice"] = tool_choice or "auto"
+            payload["parallel_tool_calls"] = False  # Force sequential, one at a time
+        if reasoning_effort and reasoning_effort != "none":
+            payload["reasoning_effort"] = reasoning_effort
+    else:
+        # OpenAI-compatible backend (DeepSeek V4, local proxies, …):
+        #   - chat/completions endpoint. DeepSeek uses /chat/completions
+        #     WITHOUT the /v1 prefix; generic OpenAI-compatible servers use
+        #     /v1/chat/completions. Override with OAI_COMPAT_CHAT_PATH.
+        #   - Bearer auth (set in _resolve_headers)
+        #   - "model" goes in the body, not the URL
+        #   - param "max_completion_tokens" -> "max_tokens" (clamped to a cap)
+        #   - DeepSeek V4 supports reasoning_effort + thinking (unlike the
+        #     retired deepseek-chat), so we forward them.
+        provider = _provider()
+        if os.environ.get("OAI_COMPAT_CHAT_PATH"):
+            chat_path = os.environ["OAI_COMPAT_CHAT_PATH"]
+        elif provider == "deepseek":
+            chat_path = "chat/completions"          # DeepSeek: no /v1 prefix
+        else:
+            chat_path = "v1/chat/completions"       # generic OpenAI-compatible
+        url = f"{endpoint.rstrip('/')}/{chat_path}"
 
-    payload: dict[str, Any] = {
-        "messages": messages,
-        "max_completion_tokens": max_completion_tokens,
-    }
+        # DeepSeek V4 can emit very large outputs (up to 384K tokens); raise
+        # the cap for it. Other backends keep a conservative default.
+        if provider == "deepseek":
+            cap = int(os.environ.get("OAI_COMPAT_MAX_TOKENS", "32768"))
+        else:
+            cap = int(os.environ.get("OAI_COMPAT_MAX_TOKENS", "8192"))
 
-    if tools:
-        payload["tools"] = tools
-        payload["tool_choice"] = tool_choice or "auto"
-        payload["parallel_tool_calls"] = False  # Force sequential, one at a time
+        payload: dict[str, Any] = {
+            "model": deployment,
+            "messages": messages,
+            "max_tokens": min(max_completion_tokens, cap),
+        }
+        if tools:
+            payload["tools"] = tools
+            payload["tool_choice"] = tool_choice or "auto"
+            # NB: we deliberately do NOT send parallel_tool_calls to DeepSeek;
+            # its chat/completions rejects unknown params in some modes.
 
-    if reasoning_effort and reasoning_effort != "none":
-        payload["reasoning_effort"] = reasoning_effort
+        # DeepSeek V4: reasoning_effort is supported (low/medium map to high,
+        # xhigh maps to max server-side). thinking defaults to enabled.
+        if reasoning_effort and reasoning_effort != "none":
+            payload["reasoning_effort"] = reasoning_effort
+            payload["thinking"] = {"type": "enabled"}
+        else:
+            # explicit "none" => disable thinking (non-reasoning mode)
+            payload["thinking"] = {"type": "disabled"}
 
     last_error = ""
     for attempt in range(1, max_retries + 1):
