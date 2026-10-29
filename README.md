@@ -57,6 +57,39 @@ AZURE_OPENAI_API_KEY=<your-key>
 Per-model overrides (e.g. `AZURE_OPENAI_ENDPOINT_54`, `AZURE_OPENAI_DEPLOYMENT_54`)
 are in `.env.example`.
 
+## Running without API keys
+
+If you have a local agent CLI installed and authenticated, you can run most of
+Resource2Skill without Azure OpenAI or Gemini keys.
+
+```bash
+cp .env.example .env
+# edit .env: set R2S_LLM_BACKEND=cli and R2S_CLI_TOOL=claude
+
+# or export for one shell
+export R2S_LLM_BACKEND=cli
+export R2S_CLI_TOOL=claude
+
+# video analysis also works without Gemini by using yt-dlp subtitles + ffmpeg keyframes
+export R2S_VIDEO_BACKEND=cli
+
+# when no native subtitles exist, fall back to local ASR (faster-whisper or openai-whisper)
+export R2S_VIDEO_ASR=auto
+```
+
+You can also leave the variables unset: if `AZURE_OPENAI_API_KEY` is missing and
+an agent CLI is on PATH, the system defaults to `R2S_LLM_BACKEND=cli`. If
+`GEMINI_API_KEY` is missing, video analysis defaults to `R2S_VIDEO_BACKEND=cli`.
+If `R2S_VIDEO_ASR=auto` is set and faster-whisper/openai-whisper is installed,
+native-subtitle failure falls back to local ASR on the downloaded audio.
+
+Tested: `claude` supports multi-turn session resume, a text-based tool-call
+protocol, and reading local image files in headless mode. `codex`, `kimi`, and
+`omp` backends are not yet implemented.
+
+If you are an agent reading this repo, use `skill/Resource2Skill/SKILL.md` as
+the connector for driving `cli.py`.
+
 ## Quick Start
 
 ```bash
