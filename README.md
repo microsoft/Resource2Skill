@@ -30,7 +30,7 @@ python -m pip install -r requirements.txt
 ```
 
 `requirements.txt` covers the core runtime plus the Web, PowerPoint, Excel, and
-REAPER dependencies (`mcp` is pinned to `>=1.26`). Then add the per-domain system
+REAPER dependencies (`mcp` is pinned to `>=1.26,<2`). Then add the per-domain system
 dependencies you need:
 
 - **Web** — `python -m playwright install chromium`
