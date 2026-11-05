@@ -10,7 +10,7 @@
 # typing_extensions, …) automatically; only the top-level packages are listed.
 
 # --- Core runtime: agent loop, MCP client, skill wiki ---
-mcp>=1.26            # FastMCP tool registration. mcp 1.10.x CRASHES this codebase's
+mcp>=1.26,<2         # FastMCP tool registration. mcp 1.10.x CRASHES this codebase's
                      # servers ("issubclass() arg 1 must be a class") because the
                      # servers use `from __future__ import annotations`. 1.26 verified.
                      # NOTE: FastMCP ships inside `mcp` (mcp.server.fastmcp) — the

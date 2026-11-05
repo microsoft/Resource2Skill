@@ -1,2 +1,2 @@
 openpyxl>=3.1
-mcp
+mcp<2
