@@ -6,6 +6,12 @@
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/microsoft/RESOURCE2SKILL)
 
 <p align="center">
+  <a href="https://www.credly.com/badges/0d80e26a-55ac-4877-ac84-b300b035f39c/public_url" title="Microsoft Global Hackathon 2026 Award Winner">
+    <img src="https://images.credly.com/size/340x340/images/887fc783-850a-4d85-b806-cd6b5a996779/blob" alt="Microsoft Global Hackathon 2026 Award Winner" width="150">
+  </a>
+</p>
+
+<p align="center">
   <img src="assets/teaser.png" alt="Resource2Skill" width="92%">
 </p>
 
